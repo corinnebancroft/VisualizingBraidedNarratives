@@ -1,0 +1,48 @@
+﻿id,Type of Relationship <br />(choose),Character 1 <br />(choose),Character 2 <br />(choose),Is Reciprocal? <br />(choose),Narrative Container <br />(choose),Start Page,End Page
+888,Exchange,Evelina Harp,Seraph Milk (Mooshum),1,The Lochren Farm,61,62
+889,Knows of,Evelina Harp,Holy Track,0,The Lochren Farm,61,63
+894,Knows of,Evelina Harp,Asiginak,0,The Lochren Farm,61,63
+895,Knows of,Evelina Harp,Cuthbert Peace,0,The Lochren Farm,61,63
+900,Knows of,Evelina Harp,The Lochren Murder,0,The Lochren Farm,61,63
+906,Knows of,Evelina Harp,Doctor Cordelia Lochren,0,The Lochren Farm,61,63
+901,Exchange,Doctor Cordelia Lochren,Seraph Milk (Mooshum),1,The Lochren Farm,61,62
+902,Exchange,Doctor Cordelia Lochren,Asiginak,1,The Lochren Farm,61,62
+903,Exchange,Doctor Cordelia Lochren,Holy Track,1,The Lochren Farm,61,62
+904,Exchange,Doctor Cordelia Lochren,Cuthbert Peace,1,The Lochren Farm,61,62
+905,Knows,Doctor Cordelia Lochren,The Lochren Murder,1,The Lochren Farm,61,63
+890,Knows,Seraph Milk (Mooshum),Holy Track,1,The Lochren Farm,61,62
+896,Knows,Seraph Milk (Mooshum),The Lochren Murder,0,The Lochren Farm,61,63
+898,Knows,Holy Track,The Lochren Murder,0,The Lochren Farm,61,63
+899,Knows,Cuthbert Peace,The Lochren Murder,0,The Lochren Farm,61,63
+884,Exchange,Asiginak,Cuthbert Peace,1,The Basket Makers,61,61
+891,Exchange,Asiginak,Seraph Milk (Mooshum),1,The Lochren Farm,61,63
+892,Exchange,Asiginak,Holy Track,1,The Lochren Farm,61,63
+893,Exchange,Asiginak,Cuthbert Peace,1,The Lochren Farm,61,63
+897,Knows,Asiginak,The Lochren Murder,0,The Lochren Farm,61,63
+911,Knows of,Evelina Harp,Satan,0,The Lochren Farm,62,62
+912,Knows of,Evelina Harp,The Lochren Family,0,The Lochren Farm,62,62
+917,Knows,Doctor Cordelia Lochren,The Lochren Family,1,The Lochren Farm,62,62
+910,Knows of,Seraph Milk (Mooshum),Satan,0,The Lochren Farm,62,62
+913,Knows,Seraph Milk (Mooshum),The Lochren Family,0,The Lochren Farm,62,62
+918,Knows,The Lochren Family,The Lochren Murder,1,The Lochren Farm,62,62
+915,Knows,Holy Track,The Lochren Family,0,The Lochren Farm,62,62
+907,Exchange,Cuthbert Peace,Seraph Milk (Mooshum),1,The Lochren Farm,62,63
+908,Exchange,Cuthbert Peace,Holy Track,1,The Lochren Farm,62,63
+916,Knows,Cuthbert Peace,The Lochren Family,0,The Lochren Farm,62,62
+909,Knows of,Asiginak,Satan,0,The Lochren Farm,62,62
+914,Knows,Asiginak,The Lochren Family,1,The Lochren Farm,62,62
+927,Knows of,Quintus Fells,Evelina Harp,0,The Lochren Farm,63,63
+930,Knows,Seraph Milk (Mooshum),Evelina Harp,1,The Lochren Farm,63,63
+931,Knows of,Severine Milk,Evelina Harp,0,The Lochren Farm,63,63
+1049,Knows of,The Lynching,Evelina Harp,0,The Lochren Farm,63,63
+919,Exchange,Seraph Milk (Mooshum),Holy Track,1,The Lochren Farm,63,63
+920,Knows,Seraph Milk (Mooshum),Doctor Cordelia Lochren,1,The Lochren Farm,63,63
+923,Knows,Seraph Milk (Mooshum),Quintus Fells,0,The Lochren Farm,63,63
+929,Knows,Seraph Milk (Mooshum),Severine Milk,1,The Lochren Farm,63,63
+1048,Knows,Seraph Milk (Mooshum),The Lynching,1,The Lochren Farm,63,63
+922,Knows,Holy Track,Doctor Cordelia Lochren,1,The Lochren Farm,63,63
+925,Knows,Holy Track,Quintus Fells,0,The Lochren Farm,63,63
+928,Knows,Holy Track,Severine Milk,1,The Lochren Farm,63,63
+926,Knows,Cuthbert Peace,Quintus Fells,0,The Lochren Farm,63,63
+921,Knows,Asiginak,Doctor Cordelia Lochren,1,The Lochren Farm,63,63
+924,Knows,Asiginak,Quintus Fells,0,The Lochren Farm,63,63
