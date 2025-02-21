@@ -1,0 +1,13 @@
+id,Name <br />(100 chars)_l,source,Name <br />(100 chars)_r,id_cont,Title <br />(100 chars),Level <br />(choose),Start Page_cont,End Page_cont,Narrator <br />(choose),Protagonist <br />(choose),Embed. Type <br />(choose),id_rel,Type of Relationship <br />(choose),Character 1 <br />(choose),Character 2 <br />(choose),Is Reciprocal? <br />(choose),Narrative Container <br />(choose),Start Page_rel,End Page_rel,index
+51,Billy Peace,26,John Wildstrand,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2327,Exchange,John Wildstrand,Billy Peace,1,The Gesture,129,129,
+51,Billy Peace,27,Neve Harp,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2325,Knows,Neve Harp,Billy Peace,1,The Gesture,129,129,
+312,Shakespeare,27,Neve Harp,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2326,Knows of,Neve Harp,Shakespeare,0,The Gesture,129,129,
+28,Maggie Peace,51,Billy Peace,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2329,Exchange,Billy Peace,Maggie Peace,1,The Gesture,129,129,
+27,Neve Harp,4,Judge Antone Bazil Coutts,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2325,Knows of,Judge Antone Bazil Coutts,Neve Harp,0,The Gesture,129,129,1.0
+51,Billy Peace,4,Judge Antone Bazil Coutts,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2325,Knows of,Judge Antone Bazil Coutts,Billy Peace,0,The Gesture,129,129,5.0
+312,Shakespeare,4,Judge Antone Bazil Coutts,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2326,Knows of,Judge Antone Bazil Coutts,Shakespeare,0,The Gesture,129,129,6.0
+26,John Wildstrand,4,Judge Antone Bazil Coutts,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2327,Knows of,Judge Antone Bazil Coutts,John Wildstrand,0,The Gesture,129,129,0.0
+28,Maggie Peace,4,Judge Antone Bazil Coutts,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2329,Knows of,Judge Antone Bazil Coutts,Maggie Peace,0,The Gesture,129,129,7.0
+26,John Wildstrand,51,Billy Peace,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2327,Exchange,Billy Peace,John Wildstrand,1,The Gesture,129,129,
+27,Neve Harp,51,Billy Peace,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2325,Knows,Billy Peace,Neve Harp,1,The Gesture,129,129,
+51,Billy Peace,28,Maggie Peace,58,The Gesture,level 3 (sub-sub-section),129,130,Judge Antone Bazil Coutts,[NULL],[NULL],2329,Exchange,Maggie Peace,Billy Peace,1,The Gesture,129,129,

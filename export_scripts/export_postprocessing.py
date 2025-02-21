@@ -4,9 +4,9 @@ import pandas as pd
 
 # Read three dataframes, one for each of characters, containers, and relationships tables exported from the DB
 
-df_chars = pd.read_csv('data/pod/Feb202025_exports/pod_exports_chars.csv')
-df_conts = pd.read_csv('data/pod/Feb202025_exports/pod_exports_conts.csv')
-df_rels = pd.read_csv('data/pod/Feb202025_exports/pod_exports_rels.csv')
+df_chars = pd.read_csv('data/pod/Feb212025_exports/pod_chars.csv')
+df_conts = pd.read_csv('data/pod/Feb212025_exports/pod_conts.csv')
+df_rels = pd.read_csv('data/pod/Feb212025_exports/pod_rels.csv')
 
 # merge the containers and relationships "on the right": using keys from the right dataframe
 # and also do the merge based on the mutual column named "Narrative Container". Use "_cont" and "_rels" suffixes for the
@@ -14,6 +14,10 @@ df_rels = pd.read_csv('data/pod/Feb202025_exports/pod_exports_rels.csv')
 # this is our working table, from which we generate reciprocals and follows-narrator relationships
 rels = pd.merge(df_conts, df_rels, how='right', left_on='Title <br />(100 chars)',
                 right_on='Narrative Container <br />(choose)', suffixes=('_cont', '_rel'))
+
+# only select page 214
+# rels = rels.loc[rels["Start Page_rel"] == 129]
+# rels = rels.loc[rels["End Page_rel"] == 129]
 
 ## FOR THE RECIPROCAL RULE
 
@@ -49,7 +53,6 @@ rels_add_narrator["Is Reciprocal? <br />(choose)"] = 0
 
 # set the relationship type to "knows of"
 rels_add_narrator["Type of Relationship <br />(choose)"] = "Knows of"
-
 
 # above, I've created TWO additional relationships for EACH "narrated" relationship.
 # Now, I have to correctly set Character 1 and Character 2 in these generated relationships.
@@ -100,8 +103,7 @@ final_df = final_df.drop_duplicates(
             'Is Reciprocal? <br />(choose)', 'Start Page_rel', 'End Page_rel'])
 
 # finally, write a human-readable output to CSV
-final_df.to_csv(f'data/pod/Feb202025_exports/TEST_pod_exports_processed_final_{date}_human.csv', index=False)
-
+final_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_processed_final_{date}_human.csv', index=False)
 
 ## Below is various finagling to make sure the output is Gephi-compatible, and mostly consists of renaming columns
 ## and dropping columns that are unnecessary for the Gephi output
@@ -115,6 +117,7 @@ final_df['End Page_rel'] = final_df['Start Page_rel']
 final_df = final_df.drop_duplicates(
     subset=['Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'Type of Relationship <br />(choose)',
             'Is Reciprocal? <br />(choose)', 'Start Page_rel', 'End Page_rel'])
+
 final_df.rename(columns={"Start Page_rel": "startPage"}, inplace=True)
 final_df.rename(columns={"Type of Relationship <br />(choose)": "category"}, inplace=True)
 final_df.drop(columns=["id_cont", "Title <br />(100 chars)", "Level <br />(choose)", "Start Page_cont",
@@ -129,4 +132,4 @@ final_df["type"] = "Directed"
 final_df = final_df[['source', 'target', "Character 1 <br />(choose)",
                      "Character 2 <br />(choose)", 'type', 'weight', 'startPage', 'category']]
 
-final_df.to_csv(f'data/pod/Feb202025_exports/TEST_pod_exports_processed_final_{date}.csv', index=False)
+final_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_processed_final_{date}.csv', index=False)

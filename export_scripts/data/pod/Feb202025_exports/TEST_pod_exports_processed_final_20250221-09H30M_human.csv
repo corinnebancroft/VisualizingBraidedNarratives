@@ -1,0 +1,18 @@
+id,Name <br />(100 chars)_l,source,Name <br />(100 chars)_r,id_cont,Title <br />(100 chars),Level <br />(choose),Start Page_cont,End Page_cont,Narrator <br />(choose),Protagonist <br />(choose),Embed. Type <br />(choose),id_rel,Type of Relationship <br />(choose),Character 1 <br />(choose),Character 2 <br />(choose),Is Reciprocal? <br />(choose),Narrative Container <br />(choose),Start Page_rel,End Page_rel,index
+278,Lafayette Peace,7,Henri Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2458,Knows,Henri Peace,Lafayette Peace,1,Letter,214,214,
+328,LaFountaine,7,Henri Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2459,Knows of,Henri Peace,LaFountaine,0,Letter,214,214,
+329,Father Jasperine,7,Henri Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2460,Knows,Henri Peace,Father Jasperine,1,Letter,214,214,
+330,Henri Peace's Father,7,Henri Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2463,Knows,Henri Peace,Henri Peace's Father,1,Letter,214,214,
+330,Henri Peace's Father,278,Lafayette Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2464,Knows,Lafayette Peace,Henri Peace's Father,1,Letter,214,214,
+328,LaFountaine,329,Father Jasperine,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2461,Knows,Father Jasperine,LaFountaine,0,Letter,214,214,
+330,Henri Peace's Father,329,Father Jasperine,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2462,Knows,Father Jasperine,Henri Peace's Father,1,Letter,214,214,
+278,Lafayette Peace,7,Henri Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2458,Knows of,Henri Peace,Lafayette Peace,0,Letter,214,214,0.0
+329,Father Jasperine,7,Henri Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2460,Knows of,Henri Peace,Father Jasperine,0,Letter,214,214,2.0
+330,Henri Peace's Father,329,Father Jasperine,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2462,Knows of,Father Jasperine,Henri Peace's Father,0,Letter,214,214,13.0
+330,Henri Peace's Father,7,Henri Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2463,Knows of,Henri Peace,Henri Peace's Father,0,Letter,214,214,3.0
+330,Henri Peace's Father,278,Lafayette Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2464,Knows of,Lafayette Peace,Henri Peace's Father,0,Letter,214,214,11.0
+7,Henri Peace,278,Lafayette Peace,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2458,Knows,Lafayette Peace,Henri Peace,1,Letter,214,214,
+7,Henri Peace,329,Father Jasperine,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2460,Knows,Father Jasperine,Henri Peace,1,Letter,214,214,
+7,Henri Peace,330,Henri Peace's Father,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2463,Knows,Henri Peace's Father,Henri Peace,1,Letter,214,214,
+278,Lafayette Peace,330,Henri Peace's Father,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2464,Knows,Henri Peace's Father,Lafayette Peace,1,Letter,214,214,
+329,Father Jasperine,330,Henri Peace's Father,66,Letter,level 3 (sub-sub-section),214,216,Henri Peace,[NULL],Letter,2462,Knows,Henri Peace's Father,Father Jasperine,1,Letter,214,214,
