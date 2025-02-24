@@ -103,7 +103,7 @@ final_df = final_df.drop_duplicates(
             'Is Reciprocal? <br />(choose)', 'Start Page_rel', 'End Page_rel'])
 
 # finally, write a human-readable output to CSV
-final_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_processed_final_{date}_human.csv', index=False)
+final_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_processed_human_final_{date}.csv', index=False)
 
 ## Below is various finagling to make sure the output is Gephi-compatible, and mostly consists of renaming columns
 ## and dropping columns that are unnecessary for the Gephi output
@@ -132,4 +132,4 @@ final_df["type"] = "Directed"
 final_df = final_df[['source', 'target', "Character 1 <br />(choose)",
                      "Character 2 <br />(choose)", 'type', 'weight', 'startPage', 'category']]
 
-final_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_processed_final_{date}.csv', index=False)
+final_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_processed_gephi_final_{date}.csv', index=False)

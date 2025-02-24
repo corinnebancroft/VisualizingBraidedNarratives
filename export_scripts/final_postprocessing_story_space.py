@@ -6,6 +6,11 @@ import pandas as pd
 
 df = pd.read_csv('data/pod/Feb212025_exports/TEST_pod_exports_processed_final_20250221-10H35M.csv')
 
+# this script removes some "duplicated" relationships by ranking the relationships in terms of specificity.
+# for example, if you have an "Exchange", a "Knows" and also a "Knows of" relationship between Char A and Char B,
+# only the "Exchange" will be kept. If there is a "Knows" and also a "Knows of", the "Knows" will be kept.
+# I'm making use of pandas.Categorical to preferentially rank the relationships, and then removing overlapping relationships.
+
 df_no_duplicates = df[~df.duplicated(
     subset=['Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'startPage', 'category'])].sort_values(by=[
     'Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'startPage'])

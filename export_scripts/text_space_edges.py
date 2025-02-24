@@ -20,7 +20,9 @@ result = {i: list(set(value)) for i, value in s.items()}
 # final_df = pd.DataFrame(columns=['source', 'target', 'startPage'])
 
 i = 0
-rows_list = []
+rows_human_list = []
+rows_gephi_list = []
+
 # now append each permutation of a tuple as an entry on a given page
 for page_num, characters in result.items():
     # Generate all unique tuple permutations
@@ -44,12 +46,19 @@ for page_num, characters in result.items():
         else:
             char2_name = df_og.loc[df_og['source'] == permutation[1], 'Character 1 <br />(choose)'].iloc[0]
 
-        row_dict = {'source': permutation[0], 'target': permutation[1], 'Char 1 Name': char1_name,
+        row_human_dict = {'source': permutation[0], 'target': permutation[1], 'Char 1 Name': char1_name,
                     'Char 2 Name': char2_name, 'startPage': page_num, 'type': 'Undirected', 'weight': 1}
 
+        row_gephi_dict = {'source': permutation[0], 'target': permutation[1], 'startPage': page_num, 'type': 'Undirected', 'weight': 1}
+
+
         i += 1
-        rows_list.append(row_dict)
-final_df = pd.DataFrame(rows_list)
+        rows_human_list.append(row_human_dict)
+        rows_gephi_list.append(row_gephi_dict)
+
+final_human_df = pd.DataFrame(rows_human_list)
+final_gephi_df = pd.DataFrame(rows_gephi_list)
 
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
-final_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_text_space_edges_{date}.csv', index=False)
+final_human_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_text_human_space_edges_{date}.csv', index=False)
+final_gephi_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_text_gephi_space_edges_{date}.csv', index=False)
