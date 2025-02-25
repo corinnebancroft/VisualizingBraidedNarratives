@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="narratives_pnp">
+	<table_structure name="characters">
+		<field Field="character_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="character_name" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="3" Avg_row_length="5461" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="3" Create_time="2025-02-05 16:40:52" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="characters">
+	<row>
+		<field name="character_id">0</field>
+		<field name="character_name">[NULL]</field>
+	</row>
+	<row>
+		<field name="character_id">1</field>
+		<field name="character_name">Test Character EA</field>
+	</row>
+	<row>
+		<field name="character_id">2</field>
+		<field name="character_name">Test Character 2 EA</field>
+	</row>
+	</table_data>
+	<table_structure name="containerLevels">
+		<field Field="containerLevel_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="containerLevel_term" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="containerLevels" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="containerLevel_id" Collation="A" Cardinality="5" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="containerLevels" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="5" Avg_row_length="3276" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="5" Create_time="2025-02-05 16:40:52" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="containerLevels">
+	<row>
+		<field name="containerLevel_id">0</field>
+		<field name="containerLevel_term">level 1 (section)</field>
+	</row>
+	<row>
+		<field name="containerLevel_id">1</field>
+		<field name="containerLevel_term">level 2 (sub-section)</field>
+	</row>
+	<row>
+		<field name="containerLevel_id">2</field>
+		<field name="containerLevel_term">level 3 (sub-sub-section)</field>
+	</row>
+	<row>
+		<field name="containerLevel_id">3</field>
+		<field name="containerLevel_term">level 4 (sub-sub-sub-section)</field>
+	</row>
+	<row>
+		<field name="containerLevel_id">4</field>
+		<field name="containerLevel_term">level 5 (sub-sub-sub-sub-section)</field>
+	</row>
+	</table_data>
+	<table_structure name="embeddedContainerTypes">
+		<field Field="embeddedContainerType_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="embeddedContainerType_term" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="embeddedContainerTypes" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="embeddedContainerType_id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="embeddedContainerTypes" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="9" Avg_row_length="1820" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="9" Create_time="2025-02-05 16:40:52" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="embeddedContainerTypes">
+	<row>
+		<field name="embeddedContainerType_id">0</field>
+		<field name="embeddedContainerType_term">[NULL]</field>
+	</row>
+	<row>
+		<field name="embeddedContainerType_id">1</field>
+		<field name="embeddedContainerType_term">Diary</field>
+	</row>
+	<row>
+		<field name="embeddedContainerType_id">2</field>
+		<field name="embeddedContainerType_term">Letter</field>
+	</row>
+	<row>
+		<field name="embeddedContainerType_id">3</field>
+		<field name="embeddedContainerType_term">Novel</field>
+	</row>
+	<row>
+		<field name="embeddedContainerType_id">4</field>
+		<field name="embeddedContainerType_term">Oral Story</field>
+	</row>
+	<row>
+		<field name="embeddedContainerType_id">5</field>
+		<field name="embeddedContainerType_term">Poem</field>
+	</row>
+	<row>
+		<field name="embeddedContainerType_id">6</field>
+		<field name="embeddedContainerType_term">Play</field>
+	</row>
+	<row>
+		<field name="embeddedContainerType_id">7</field>
+		<field name="embeddedContainerType_term">Short story</field>
+	</row>
+	<row>
+		<field name="embeddedContainerType_id">8</field>
+		<field name="embeddedContainerType_term">Creative non-fiction</field>
+	</row>
+	</table_data>
+	<table_structure name="isReciprocals">
+		<field Field="isReciprocal_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="isReciprocal_text" Type="varchar(32)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="isReciprocals" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="isReciprocal_id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="isReciprocals" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="2" Avg_row_length="8192" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="2" Create_time="2025-02-05 16:40:52" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="isReciprocals">
+	<row>
+		<field name="isReciprocal_id">0</field>
+		<field name="isReciprocal_text">FALSE isReciprocal</field>
+	</row>
+	<row>
+		<field name="isReciprocal_id">1</field>
+		<field name="isReciprocal_text">TRUE isReciprocal</field>
+	</row>
+	</table_data>
+	<table_structure name="menExs">
+		<field Field="menEx_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="menEx_menOrEx_id_fk" Type="int" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="menEx_character1_id_fk" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="menEx_character2_id_fk" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="menEx_narrContainer_id_fk" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="menEx_isReciprocal_id_fk" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="menEx_startPage" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="menEx_endPage" Type="int" Null="YES" Key="MUL" Extra="" Comment="" />
+		<key Table="menExs" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="menEx_id" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="menExs" Non_unique="1" Key_name="menEx_narrContainer_id_fk" Seq_in_index="1" Column_name="menEx_narrContainer_id_fk" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="menExs" Non_unique="1" Key_name="menEx_menOrEx_id_fk" Seq_in_index="1" Column_name="menEx_menOrEx_id_fk" Collation="A" Cardinality="2" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="menExs" Non_unique="1" Key_name="menEx_character1_id_fk" Seq_in_index="1" Column_name="menEx_character1_id_fk" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="menExs" Non_unique="1" Key_name="menEx_character2_id_fk" Seq_in_index="1" Column_name="menEx_character2_id_fk" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="menExs" Non_unique="1" Key_name="menEx_isReciprocal_id_fk" Seq_in_index="1" Column_name="menEx_isReciprocal_id_fk" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="menExs" Non_unique="1" Key_name="menEx_startPage_fk" Seq_in_index="1" Column_name="menEx_startPage" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="menExs" Non_unique="1" Key_name="menEx_endPage_fk" Seq_in_index="1" Column_name="menEx_endPage" Collation="A" Cardinality="3" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="menExs" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="3" Avg_row_length="5461" Data_length="16384" Max_data_length="0" Index_length="114688" Data_free="0" Auto_increment="4" Create_time="2025-02-05 16:40:52" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="menExs">
+	<row>
+		<field name="menEx_id">1</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">1</field>
+		<field name="menEx_character2_id_fk">2</field>
+		<field name="menEx_narrContainer_id_fk">1</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">1</field>
+		<field name="menEx_endPage">1</field>
+	</row>
+	<row>
+		<field name="menEx_id">2</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
+		<field name="menEx_character1_id_fk">2</field>
+		<field name="menEx_character2_id_fk">1</field>
+		<field name="menEx_narrContainer_id_fk">2</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">2</field>
+		<field name="menEx_endPage">2</field>
+	</row>
+	</table_data>
+	<table_structure name="menOrExs">
+		<field Field="menOrEx_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="menOrEx_text" Type="varchar(32)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="menOrExs" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="menOrEx_id" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="menOrExs" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="3" Avg_row_length="5461" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="3" Create_time="2025-02-05 16:40:52" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="menOrExs">
+	<row>
+		<field name="menOrEx_id">0</field>
+		<field name="menOrEx_text">Knows</field>
+	</row>
+	<row>
+		<field name="menOrEx_id">1</field>
+		<field name="menOrEx_text">Knows of</field>
+	</row>
+	<row>
+		<field name="menOrEx_id">2</field>
+		<field name="menOrEx_text">Exchange</field>
+	</row>
+	</table_data>
+	<table_structure name="narrContainers">
+		<field Field="narrContainer_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="narrContainer_title" Type="varchar(150)" Null="YES" Key="" Extra="" Comment="" />
+		<field Field="narrContainer_level_id_fk" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="narrContainer_startPage" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="narrContainer_endPage" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="narrContainer_narrator_character_id_fk" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
+		<field Field="narrContainer_protagonist_id_fk" Type="int" Null="YES" Key="MUL" Extra="" Comment="" />
+		<field Field="narrContainer_embeddedContainerType_id_fk" Type="int" Null="YES" Key="" Extra="" Comment="" />
+		<key Table="narrContainers" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="narrContainer_id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_startPage" Seq_in_index="1" Column_name="narrContainer_startPage" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_endPage" Seq_in_index="1" Column_name="narrContainer_endPage" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_level_id_fk" Seq_in_index="1" Column_name="narrContainer_level_id_fk" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_protagonist_id_fk" Seq_in_index="1" Column_name="narrContainer_protagonist_id_fk" Collation="A" Cardinality="2" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_narrator_character_id_fk" Seq_in_index="1" Column_name="narrContainer_narrator_character_id_fk" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="narrContainers" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="2" Avg_row_length="8192" Data_length="16384" Max_data_length="0" Index_length="81920" Data_free="0" Auto_increment="4" Create_time="2025-02-05 16:40:52" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="narrContainers">
+	<row>
+		<field name="narrContainer_id">1</field>
+		<field name="narrContainer_title">Test Container EA</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">1</field>
+		<field name="narrContainer_endPage">3</field>
+		<field name="narrContainer_narrator_character_id_fk">1</field>
+		<field name="narrContainer_protagonist_id_fk">1</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">2</field>
+		<field name="narrContainer_title">Test Container Lvl 2 EA</field>
+		<field name="narrContainer_level_id_fk">1</field>
+		<field name="narrContainer_startPage">1</field>
+		<field name="narrContainer_endPage">2</field>
+		<field name="narrContainer_narrator_character_id_fk">1</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">1</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">3</field>
+		<field name="narrContainer_title">Test Container Lvl 3 EA</field>
+		<field name="narrContainer_level_id_fk">2</field>
+		<field name="narrContainer_startPage">2</field>
+		<field name="narrContainer_endPage">2</field>
+		<field name="narrContainer_narrator_character_id_fk">1</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">2</field>
+	</row>
+	</table_data>
+	<table_structure name="narratorTypes">
+		<field Field="narratorType_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="narratorType_term" Type="varchar(150)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="narratorTypes" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="narratorType_id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="narratorTypes" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="2" Avg_row_length="8192" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="3" Create_time="2025-02-05 16:40:52" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="narratorTypes">
+	<row>
+		<field name="narratorType_id">0</field>
+		<field name="narratorType_term">Character narrator</field>
+	</row>
+	<row>
+		<field name="narratorType_id">1</field>
+		<field name="narratorType_term">Non-character narrator</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
