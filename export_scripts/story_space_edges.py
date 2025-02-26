@@ -4,9 +4,9 @@ import pandas as pd
 
 # Read three dataframes, one for each of characters, containers, and relationships tables exported from the DB
 
-df_chars = pd.read_csv('data/pod/Feb212025_exports/pod_chars.csv')
-df_conts = pd.read_csv('data/pod/Feb212025_exports/pod_conts.csv')
-df_rels = pd.read_csv('data/pod/Feb212025_exports/pod_rels.csv')
+df_chars = pd.read_csv('data/tt/ExportsFeb26/tt_chars.csv')
+df_conts = pd.read_csv('data/tt/ExportsFeb26/tt_conts.csv')
+df_rels = pd.read_csv('data/tt/ExportsFeb26/tt_rels.csv')
 
 # merge the containers and relationships "on the right": using keys from the right dataframe
 # and also do the merge based on the mutual column named "Narrative Container". Use "_cont" and "_rels" suffixes for the
@@ -103,7 +103,7 @@ final_df = final_df.drop_duplicates(
             'Is Reciprocal? <br />(choose)', 'Start Page_rel', 'End Page_rel'])
 
 # finally, write a human-readable output to CSV
-final_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_processed_human_final_{date}.csv', index=False)
+final_df.to_csv(f'data/tt/ExportsFeb26/tt_exports_processed_human_final_{date}.csv', index=False)
 
 ## Below is various finagling to make sure the output is Gephi-compatible, and mostly consists of renaming columns
 ## and dropping columns that are unnecessary for the Gephi output
@@ -129,7 +129,6 @@ final_df.drop(columns=["id_cont", "Title <br />(100 chars)", "Level <br />(choos
 # need to test if this will work with Gephi
 final_df["weight"] = 1
 final_df["type"] = "Directed"
-final_df = final_df[['source', 'target', "Character 1 <br />(choose)",
-                     "Character 2 <br />(choose)", 'type', 'weight', 'startPage', 'category']]
+final_df = final_df[['source', 'target', 'type', 'weight', 'startPage', 'category']]
 
-final_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_processed_gephi_final_{date}.csv', index=False)
+final_df.to_csv(f'data/tt/ExportsFeb26/tt_exports_processed_gephi_final_{date}.csv', index=False)
