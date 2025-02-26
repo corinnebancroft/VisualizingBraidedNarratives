@@ -156,6 +156,7 @@ axs.set_ylabel('Page Number')
 
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
 fig.savefig(f"Fig_1_{date}.png", bbox_inches='tight')
+fig.savefig(f"Fig_1_{date}.svg", bbox_inches='tight')
 
 axs2.set_xlabel('Event Occurrence ID')
 axs2.set_ylabel('Participating Character')
@@ -175,7 +176,7 @@ dates = [item.strftime('%Y-%m-%d ') for item in df['Start Date']]
 ax22.set_xticklabels(dates + df['Event Name'].str[0:29])
 ax22.tick_params(axis='x', labelrotation=90)
 fig2.savefig(f"Fig_2_{date}.png", bbox_inches='tight')
-
+fig2.savefig(f"Fig_2_{date}.svg", bbox_inches='tight')
 
 ax32 = axs3.twiny()
 ax32.set_xlim(axs3.get_xlim())
@@ -183,6 +184,7 @@ ax32.set_xticks(new_tick_locations)
 ax32.set_xticklabels(dates + df['Event Name'].str[0:29])
 ax32.tick_params(axis='x', labelrotation=90)
 fig3.savefig(f"Fig_3_{date}.png", bbox_inches='tight')
+fig3.savefig(f"Fig_3_{date}.svg", bbox_inches='tight')
 
 plt.tight_layout()
 plt.show()
