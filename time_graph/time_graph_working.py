@@ -155,14 +155,16 @@ axs.set_xlabel('Event Date')
 axs.set_ylabel('Page Number')
 
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
+fig.tight_layout()
+
 fig.savefig(f"Fig_1_{date}.png", bbox_inches='tight')
 fig.savefig(f"Fig_1_{date}.svg", bbox_inches='tight')
 
-axs2.set_xlabel('Event Occurrence ID')
+axs2.set_xlabel('Relative Order')
 axs2.set_ylabel('Participating Character')
 axs2.vlines(list(range(0, 55, 1)), 'Caddy', 'Quentin Jr', linestyles='--', colors='k', linewidth=0.5)
 
-axs3.set_xlabel('Event Occurrence ID')
+axs3.set_xlabel('Relative Order')
 axs3.set_ylabel('Page Number')
 axs3.vlines(list(range(0, 55, 1)), 0, 350, linestyles='--', colors='k', linewidth=0.5)
 axs3.hlines(list(range(0, 350, 10)), 0, 55, linestyles='--', colors='k', linewidth=0.5)
@@ -172,17 +174,24 @@ new_tick_locations = df['id']
 ax22 = axs2.twiny()
 ax22.set_xlim(axs2.get_xlim())
 ax22.set_xticks(new_tick_locations)
-dates = [item.strftime('%Y-%m-%d ') for item in df['Start Date']]
-ax22.set_xticklabels(dates + df['Event Name'].str[0:29])
+dates = [
+    (start_date.strftime('%Y-%m-%d ') + event_name)[0:39]
+    if start_date == end_date
+    else (start_date.strftime('%Y-%m-%d') + '/' + end_date.strftime('%Y-%m-%d ') + event_name)[0:39]
+    for start_date, end_date, event_name in zip(df['Start Date'], df['End Date'], df['Event Name'])
+]
+ax22.set_xticklabels(dates)
 ax22.tick_params(axis='x', labelrotation=90)
+fig2.tight_layout()
 fig2.savefig(f"Fig_2_{date}.png", bbox_inches='tight')
 fig2.savefig(f"Fig_2_{date}.svg", bbox_inches='tight')
 
 ax32 = axs3.twiny()
 ax32.set_xlim(axs3.get_xlim())
 ax32.set_xticks(new_tick_locations)
-ax32.set_xticklabels(dates + df['Event Name'].str[0:29])
+ax32.set_xticklabels(dates)
 ax32.tick_params(axis='x', labelrotation=90)
+fig3.tight_layout()
 fig3.savefig(f"Fig_3_{date}.png", bbox_inches='tight')
 fig3.savefig(f"Fig_3_{date}.svg", bbox_inches='tight')
 
