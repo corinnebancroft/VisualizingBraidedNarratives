@@ -25,7 +25,7 @@ rows_gephi_list = []
 
 # now append each permutation of a tuple as an entry on a given page
 for page_num, characters in result.items():
-    # Generate all unique tuple permutations
+    # Generate all unique tuple combinations
     permutations = set(itertools.combinations(characters, 2))
     # Convert to a list if you prefer to work with a list of tuples
     permutations = list(permutations)

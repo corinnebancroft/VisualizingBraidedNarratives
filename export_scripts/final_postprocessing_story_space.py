@@ -15,9 +15,10 @@ df_no_duplicates = df[~df.duplicated(
     subset=['Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'startPage', 'category'])].sort_values(by=[
     'Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'startPage'])
 
-
+# categorical sorting and ranking of all relationships based on priority order
 df_no_duplicates["category"] = pd.Categorical(df_no_duplicates["category"], categories=["Exchange", "Knows", "Knows of"], ordered=True)
 
+#dropping duplicates, retaining highest priority
 df_no_duplicates = df_no_duplicates.sort_values(by=['Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'startPage', 'category']).drop_duplicates(subset=['Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'startPage'])
 
 # df_no_duplicates = df_no_duplicates.drop(columns=['Character 1 <br />(choose)', 'Character 2 <br />(choose)'])

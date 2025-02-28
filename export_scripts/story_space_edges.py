@@ -111,6 +111,7 @@ final_df.to_csv(f'data/tt/ExportsFeb26/tt_exports_processed_human_final_{date}.c
 final_df.rename(columns={"id": "target"}, inplace=True)
 final_df.drop(columns=["Name <br />(100 chars)_r", "Name <br />(100 chars)_l"], inplace=True)
 
+# this splits up the relationships so that they repeat for on each page they occur
 final_df = final_df.loc[final_df.index.repeat(final_df['End Page_rel'] - final_df['Start Page_rel'] + 1)]
 final_df['Start Page_rel'] = final_df.groupby(level=0).cumcount() + final_df['Start Page_rel']
 final_df['End Page_rel'] = final_df['Start Page_rel']
