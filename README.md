@@ -14,4 +14,24 @@ between characters. This means that if two characters have more than one of "Exc
 
 Text space edges:
 
-This script takes in the final-postprocessing results, which are by now *twice* processed, and produces a human-readable output for proofreading, and a Gephi-ready output. 
+This script takes in the final-postprocessing results, which are by now *twice* processed, and produces a human-readable output for proofreading, and a Gephi-ready output.
+
+**Note to developers:** you need to install the following tools and dependencies to make these scripts work (the correct names will depend on your OS and distro):
+
+- cd into the root of the project
+- install `python3-pip`, `python3-venv`
+- set up a virtual environment using the following command: `python -m venv .venv` or `python3 -m venv .venv` (which calls venv as a module, and creates a .venv folder in the current directory.)
+- activate the virtual environment you creates with: `source .venv/bin/activate`
+- now, you should be able to `pip install [NAME OF THE DEPENDENCY]`, e.g., `pip install pandas`, `pip install matplotlib`, etc.
+- the dependencies are at the top of all the scripts, but namely, they should be:
+    - pandas
+    - matplotlib
+    - numpy
+    - os 
+    - datetime
+    - itertools
+
+
+
+
+
