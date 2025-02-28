@@ -28,7 +28,8 @@ fig3 = plt.figure(figsize=(12, 10))
 axs3 = plt.axes()
 
 narrators = df['Narrator'].unique()
-line_colours = plt.cm.Dark2(np.linspace(0.25, 0.75, 4))
+num_narrators = len(narrators)
+line_colours = plt.cm.Dark2(np.linspace(0.25, 0.75, num_narrators))
 legend_items = []
 
 for index, row in df.iterrows():
@@ -160,14 +161,21 @@ fig.tight_layout()
 fig.savefig(f"Fig_1_{date}.png", bbox_inches='tight')
 fig.savefig(f"Fig_1_{date}.svg", bbox_inches='tight')
 
+x_lim2 = axs2.get_xlim()
+y_lim2 = axs2.get_ylim()
+
 axs2.set_xlabel('Relative Order')
 axs2.set_ylabel('Participating Character')
-axs2.vlines(list(range(0, 55, 1)), 'Caddy', 'Quentin Jr', linestyles='--', colors='k', linewidth=0.5)
+axs2.vlines(list(range(int(np.floor(x_lim2[0]).item()), int(np.ceil(x_lim2[1]).item()), 1)), 'Caddy', 'Quentin Jr', linestyles='--', colors='k', linewidth=0.5)
+
+
+x_lim3 = axs3.get_xlim()
+y_lim3 = axs3.get_ylim()
 
 axs3.set_xlabel('Relative Order')
 axs3.set_ylabel('Page Number')
-axs3.vlines(list(range(0, 55, 1)), 0, 350, linestyles='--', colors='k', linewidth=0.5)
-axs3.hlines(list(range(0, 350, 10)), 0, 55, linestyles='--', colors='k', linewidth=0.5)
+axs3.vlines(list(range(int(np.floor(x_lim3[0]).item()), int(np.ceil(x_lim3[1]).item()), 1)), int(np.floor(y_lim3[0]).item()), int(np.ceil(y_lim3[1]).item()), linestyles='--', colors='k', linewidth=0.5)
+axs3.hlines(list(range(int(np.floor(y_lim3[0]).item()), int(np.ceil(y_lim3[1]).item()), 10)), int(np.floor(x_lim3[0]).item()), int(np.ceil(x_lim3[1]).item()), linestyles='--', colors='k', linewidth=0.5)
 
 new_tick_locations = df['id']
 
