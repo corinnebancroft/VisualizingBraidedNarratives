@@ -129,6 +129,10 @@ final_df.drop(columns=["id_cont", "Title <br />(100 chars)", "Level <br />(choos
 # need to test if this will work with Gephi
 final_df["weight"] = 1
 final_df["type"] = "Directed"
+final_df = final_df[['source', 'target', 'Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'type', 'weight', 'startPage', 'category']]
+
+final_df.to_csv(f'data/tt/ExportsFeb26/tt_exports_processed_gephi_interm_final_{date}.csv', index=False)
+
 final_df = final_df[['source', 'target', 'type', 'weight', 'startPage', 'category']]
 
 final_df.to_csv(f'data/tt/ExportsFeb26/tt_exports_processed_gephi_final_{date}.csv', index=False)

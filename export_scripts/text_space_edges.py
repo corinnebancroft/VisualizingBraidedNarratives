@@ -5,7 +5,7 @@ import pandas as pd
 
 # Read the final data
 
-df_og = pd.read_csv('data/pod/Feb212025_exports/TEST_pod_exports_TWICE_processed_final_20250221-10H35M.csv')
+df_og = pd.read_csv('data/tt/ExportsFeb26/tt_exports_TWICE_processed_final_20250227-16H30M.csv')
 
 char1_tuples = df_og.groupby(by='startPage')['source'].apply(list)
 char2_tuples = df_og.groupby(by='startPage')['target'].apply(list)
@@ -60,5 +60,5 @@ final_human_df = pd.DataFrame(rows_human_list)
 final_gephi_df = pd.DataFrame(rows_gephi_list)
 
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
-final_human_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_text_human_space_edges_{date}.csv', index=False)
-final_gephi_df.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_text_gephi_space_edges_{date}.csv', index=False)
+final_human_df.to_csv(f'data/tt/ExportsFeb26/tt_exports_text_human_space_edges_{date}.csv', index=False)
+final_gephi_df.to_csv(f'data/tt/ExportsFeb26/tt_exports_text_gephi_space_edges_{date}.csv', index=False)

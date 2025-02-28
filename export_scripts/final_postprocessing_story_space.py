@@ -4,7 +4,7 @@ import pandas as pd
 
 # Read the final data
 
-df = pd.read_csv('data/pod/Feb212025_exports/TEST_pod_exports_processed_final_20250221-10H35M.csv')
+df = pd.read_csv('data/tt/ExportsFeb26/tt_exports_processed_gephi_interm_final_20250227-16H29M.csv')
 
 # this script removes some "duplicated" relationships by ranking the relationships in terms of specificity.
 # for example, if you have an "Exchange", a "Knows" and also a "Knows of" relationship between Char A and Char B,
@@ -20,8 +20,8 @@ df_no_duplicates["category"] = pd.Categorical(df_no_duplicates["category"], cate
 
 df_no_duplicates = df_no_duplicates.sort_values(by=['Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'startPage', 'category']).drop_duplicates(subset=['Character 1 <br />(choose)', 'Character 2 <br />(choose)', 'startPage'])
 
-df_no_duplicates = df_no_duplicates.drop(columns=['Character 1 <br />(choose)', 'Character 2 <br />(choose)'])
+# df_no_duplicates = df_no_duplicates.drop(columns=['Character 1 <br />(choose)', 'Character 2 <br />(choose)'])
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
-df_no_duplicates.to_csv(f'data/pod/Feb212025_exports/TEST_pod_exports_TWICE_processed_final_{date}.csv', index=False)
+df_no_duplicates.to_csv(f'data/tt/ExportsFeb26/tt_exports_TWICE_processed_final_{date}.csv', index=False)
 
 
