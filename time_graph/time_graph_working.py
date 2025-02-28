@@ -8,7 +8,7 @@ import matplotlib as mpl
 
 mpl.use('macosx')
 cwd = os.getcwd()
-path_to_time_graph_data = os.path.join(cwd, 'SoundandtheFuryTimeGraphJan92025.csv')
+path_to_time_graph_data = os.path.join(cwd, 'SoundandtheFuryTimeGraphJan92025_test.csv')
 df = pd.read_csv(path_to_time_graph_data)
 
 df['Start Date'] = pd.to_datetime(df['Start Date'])
@@ -30,16 +30,21 @@ axs3 = plt.axes()
 narrators = df['Narrator'].unique()
 num_narrators = len(narrators)
 line_colours = plt.cm.Dark2(np.linspace(0.25, 0.75, num_narrators))
+
 legend_items = []
 
 for index, row in df.iterrows():
     idx_narr = [i for i, x in enumerate(narrators) if x == row['Narrator']][0]
+
+    line_style = ['--' if row['Is Approximate?'] else '-']
+    marker_style = ['x' if row['Is Approximate?'] else '.']
 
     if row['Start Date'] == row['End Date']:
         axs.scatter([row['Start Date'],
                      row['End Date']],
                     [row['Start Page'], row['Start Page']],
                     color=line_colours[idx_narr],
+                    marker=marker_style[0],
                     label=f"{row['Narrator']}"
                     )
 
@@ -49,6 +54,7 @@ for index, row in df.iterrows():
                  [row['Start Page'], row['Start Page']],
                  color=line_colours[idx_narr],
                  linewidth=5,
+                 linestyle=line_style[0],
                  label=f"{row['Narrator']}"
                  )
 
@@ -65,20 +71,17 @@ for index, row in df.iterrows():
             linewidth=1,
             linestyle='--',
             alpha=0.2)
-    # xytext = (((-10) * index % 2) * index % 2 , ((-10) * index % 2) * index % 2)
-    # axs.annotate(f'{row["id"]}',
-    #              xy=(row['Start Date'], row['Start Page']),
-    #              xytext=xytext,
-    #              textcoords='offset points')
 
     if row['Caddy']:
         axs2.plot(
             [int(row['id']), int(row['id'])],
             ['Caddy', 'Caddy'],
             color=line_colours[idx_narr],
+            linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
                      ['Caddy', 'Caddy'],
+                     marker=marker_style[0],
                      color='k'
                      )
     if row['Quentin']:
@@ -86,9 +89,11 @@ for index, row in df.iterrows():
             [int(row['id']), int(row['id'])],
             ['Quentin', 'Quentin'],
             color='k',
+            linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
                      ['Quentin', 'Quentin'],
+                     marker=marker_style[0],
                      color='k'
                      )
     if row['Benjy']:
@@ -96,9 +101,11 @@ for index, row in df.iterrows():
             [int(row['id']), int(row['id'])],
             ['Benjy', 'Benjy'],
             color='k',
+            linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
                      ['Benjy', 'Benjy'],
+                     marker=marker_style[0],
                      color='k'
                      )
     if row['Jason']:
@@ -106,9 +113,11 @@ for index, row in df.iterrows():
             [int(row['id']), int(row['id'])],
             ['Jason', 'Jason'],
             color='k',
+            linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
                      ['Jason', 'Jason'],
+                     marker=marker_style[0],
                      color='k'
                      )
     if row['Dilsey']:
@@ -116,9 +125,11 @@ for index, row in df.iterrows():
             [int(row['id']), int(row['id'])],
             ['Dilsey', 'Dilsey'],
             color='k',
+            linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
                      ['Dilsey', 'Dilsey'],
+                     marker=marker_style[0],
                      color='k'
                      )
     if row['Quentin Jr']:
@@ -126,9 +137,11 @@ for index, row in df.iterrows():
             [int(row['id']), int(row['id'])],
             ['Quentin Jr', 'Quentin Jr'],
             color='k',
+            linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
                      ['Quentin Jr', 'Quentin Jr'],
+                     marker=marker_style[0],
                      color='k'
                      )
 
@@ -136,14 +149,10 @@ for index, row in df.iterrows():
                   int(row['id'])],
                  [row['Start Page'], row['End Page']],
                  color=line_colours[idx_narr],
+                 marker=marker_style[0],
                  label=f"{row['Narrator']}"
                  )
-    # axs3.plot([int(row['id']),
-    #          int(row['id'])],
-    #         [row['Start Page TT'], row['End Page TT']],
-    #         color=line_colours[idx_narr],
-    #         label=f"{row['Narrator']}"
-    #         )
+
 
 # plt.xticks(np.arange(df['id'].min()-1, df['id'].max(), 5))
 for idx, narrator in enumerate(narrators):
