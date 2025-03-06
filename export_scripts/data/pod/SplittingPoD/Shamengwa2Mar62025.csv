@@ -1,0 +1,349 @@
+source,target,Character 1 <br />(choose),Character 2 <br />(choose),type,weight,startPage,category
+320,31,"""manager"" (of a music store)",Corwin Peace,Directed,1,208,Exchange
+323,322,"""musician"" (pg. 208)","""woman"" (pg. 208)",Directed,1,208,Knows
+323,31,"""musician"" (pg. 208)",Corwin Peace,Directed,1,208,Knows
+318,61,"""nun"" (pg. 204)",Shamengwa Milk,Directed,1,204,Exchange
+327,103,"""people"" (at Shamengwa's funeral)",Father Cassidy,Directed,1,212,Exchange
+327,4,"""people"" (at Shamengwa's funeral)",Judge Antone Bazil Coutts,Directed,1,210,Exchange
+327,4,"""people"" (at Shamengwa's funeral)",Judge Antone Bazil Coutts,Directed,1,213,Knows
+324,31,"""people"" (in the food court)",Corwin Peace,Directed,1,208,Exchange
+324,31,"""people"" (in the food court)",Corwin Peace,Directed,1,209,Exchange
+321,31,"""people"" (pg. 208)",Corwin Peace,Directed,1,208,Exchange
+322,323,"""woman"" (pg. 208)","""musician"" (pg. 208)",Directed,1,208,Knows
+101,95,Baby (who the Milk family lost),Seraph Milk's Mother,Directed,1,200,Knows
+16,315,Clemence Harp,Edward Curtis,Directed,1,199,Knows
+16,3,Clemence Harp,Evelina Harp,Directed,1,196,Knows
+16,3,Clemence Harp,Evelina Harp,Directed,1,212,Knows
+16,103,Clemence Harp,Father Cassidy,Directed,1,212,Knows
+16,19,Clemence Harp,Geraldine Milk,Directed,1,212,Knows
+16,17,Clemence Harp,Joseph Harp,Directed,1,212,Knows
+16,15,Clemence Harp,Seraph Milk (Mooshum),Directed,1,212,Knows
+16,61,Clemence Harp,Shamengwa Milk,Directed,1,196,Knows
+16,61,Clemence Harp,Shamengwa Milk,Directed,1,199,Knows
+16,61,Clemence Harp,Shamengwa Milk,Directed,1,212,Knows
+16,20,Clemence Harp,Uncle Whitey,Directed,1,211,Knows
+16,20,Clemence Harp,Uncle Whitey,Directed,1,212,Knows
+31,319,Corwin Peace,"""cop"" (in Corwin's favourite movie)",Directed,1,207,Knows
+31,320,Corwin Peace,"""manager"" (of a music store)",Directed,1,208,Exchange
+31,323,Corwin Peace,"""musician"" (pg. 208)",Directed,1,208,Knows
+31,324,Corwin Peace,"""people"" (in the food court)",Directed,1,208,Exchange
+31,324,Corwin Peace,"""people"" (in the food court)",Directed,1,209,Exchange
+31,321,Corwin Peace,"""people"" (pg. 208)",Directed,1,208,Exchange
+31,322,Corwin Peace,"""woman"" (pg. 208)",Directed,1,208,Knows
+31,31,Corwin Peace,Corwin Peace,Directed,1,208,Exchange
+31,314,Corwin Peace,Corwin Peace's Girlfriends,Directed,1,198,Knows
+31,325,Corwin Peace,Corwin's Probation Officer,Directed,1,210,Knows
+31,19,Corwin Peace,Geraldine Milk,Directed,1,210,Knows
+31,19,Corwin Peace,Geraldine Milk,Directed,1,212,Knows
+31,19,Corwin Peace,Geraldine Milk,Directed,1,217,Knows
+31,7,Corwin Peace,Henri Peace,Directed,1,209,Knows
+31,26,Corwin Peace,John Wildstrand,Directed,1,207,Knows
+31,4,Corwin Peace,Judge Antone Bazil Coutts,Directed,1,197,Knows
+31,4,Corwin Peace,Judge Antone Bazil Coutts,Directed,1,198,Exchange
+31,4,Corwin Peace,Judge Antone Bazil Coutts,Directed,1,199,Knows
+31,4,Corwin Peace,Judge Antone Bazil Coutts,Directed,1,209,Knows
+31,4,Corwin Peace,Judge Antone Bazil Coutts,Directed,1,216,Knows
+31,4,Corwin Peace,Judge Antone Bazil Coutts,Directed,1,217,Knows
+31,278,Corwin Peace,Lafayette Peace,Directed,1,209,Knows
+31,28,Corwin Peace,Maggie Peace,Directed,1,198,Knows
+31,28,Corwin Peace,Maggie Peace,Directed,1,207,Knows
+31,61,Corwin Peace,Shamengwa Milk,Directed,1,207,Knows
+31,61,Corwin Peace,Shamengwa Milk,Directed,1,209,Exchange
+31,61,Corwin Peace,Shamengwa Milk,Directed,1,210,Knows
+31,61,Corwin Peace,Shamengwa Milk,Directed,1,212,Knows
+31,61,Corwin Peace,Shamengwa Milk,Directed,1,213,Knows
+31,61,Corwin Peace,Shamengwa Milk,Directed,1,216,Knows
+314,31,Corwin Peace's Girlfriends,Corwin Peace,Directed,1,198,Knows
+325,31,Corwin's Probation Officer,Corwin Peace,Directed,1,210,Knows
+325,19,Corwin's Probation Officer,Geraldine Milk,Directed,1,210,Exchange
+315,16,Edward Curtis,Clemence Harp,Directed,1,199,Knows
+315,61,Edward Curtis,Shamengwa Milk,Directed,1,199,Knows
+18,20,Edward Harp,Uncle Whitey,Directed,1,211,Knows
+3,16,Evelina Harp,Clemence Harp,Directed,1,196,Knows
+3,16,Evelina Harp,Clemence Harp,Directed,1,212,Knows
+3,103,Evelina Harp,Father Cassidy,Directed,1,212,Knows
+3,17,Evelina Harp,Joseph Harp,Directed,1,211,Knows
+3,17,Evelina Harp,Joseph Harp,Directed,1,212,Knows
+3,15,Evelina Harp,Seraph Milk (Mooshum),Directed,1,211,Knows
+3,15,Evelina Harp,Seraph Milk (Mooshum),Directed,1,212,Knows
+3,61,Evelina Harp,Shamengwa Milk,Directed,1,196,Exchange
+103,327,Father Cassidy,"""people"" (at Shamengwa's funeral)",Directed,1,212,Exchange
+103,16,Father Cassidy,Clemence Harp,Directed,1,212,Knows
+103,3,Father Cassidy,Evelina Harp,Directed,1,212,Knows
+103,19,Father Cassidy,Geraldine Milk,Directed,1,211,Exchange
+103,19,Father Cassidy,Geraldine Milk,Directed,1,212,Knows
+103,60,Father Cassidy,God,Directed,1,212,Knows
+103,57,Father Cassidy,Jesus,Directed,1,212,Knows
+103,17,Father Cassidy,Joseph Harp,Directed,1,212,Knows
+103,4,Father Cassidy,Judge Antone Bazil Coutts,Directed,1,211,Exchange
+103,4,Father Cassidy,Judge Antone Bazil Coutts,Directed,1,212,Exchange
+103,34,Father Cassidy,Junesse Malaterre,Directed,1,212,Knows
+103,94,Father Cassidy,Louis Riel,Directed,1,211,Knows of
+103,136,Father Cassidy,Mary (biblical figure),Directed,1,211,Knows
+103,15,Father Cassidy,Seraph Milk (Mooshum),Directed,1,211,Knows
+103,15,Father Cassidy,Seraph Milk (Mooshum),Directed,1,212,Knows
+103,15,Father Cassidy,Seraph Milk (Mooshum),Directed,1,213,Knows
+329,7,Father Jasperine,Henri Peace,Directed,1,214,Knows
+329,330,Father Jasperine,Henri Peace's Father,Directed,1,214,Knows
+329,328,Father Jasperine,LaFountaine,Directed,1,214,Knows
+19,16,Geraldine Milk,Clemence Harp,Directed,1,212,Knows
+19,31,Geraldine Milk,Corwin Peace,Directed,1,210,Knows
+19,31,Geraldine Milk,Corwin Peace,Directed,1,212,Knows
+19,31,Geraldine Milk,Corwin Peace,Directed,1,217,Knows
+19,325,Geraldine Milk,Corwin's Probation Officer,Directed,1,210,Exchange
+19,103,Geraldine Milk,Father Cassidy,Directed,1,211,Exchange
+19,103,Geraldine Milk,Father Cassidy,Directed,1,212,Knows
+19,4,Geraldine Milk,Judge Antone Bazil Coutts,Directed,1,199,Exchange
+19,4,Geraldine Milk,Judge Antone Bazil Coutts,Directed,1,200,Exchange
+19,4,Geraldine Milk,Judge Antone Bazil Coutts,Directed,1,210,Exchange
+19,4,Geraldine Milk,Judge Antone Bazil Coutts,Directed,1,211,Exchange
+19,4,Geraldine Milk,Judge Antone Bazil Coutts,Directed,1,216,Exchange
+19,4,Geraldine Milk,Judge Antone Bazil Coutts,Directed,1,217,Exchange
+19,15,Geraldine Milk,Seraph Milk (Mooshum),Directed,1,212,Knows
+19,61,Geraldine Milk,Shamengwa Milk,Directed,1,195,Knows
+19,61,Geraldine Milk,Shamengwa Milk,Directed,1,196,Knows
+19,61,Geraldine Milk,Shamengwa Milk,Directed,1,197,Knows
+19,61,Geraldine Milk,Shamengwa Milk,Directed,1,199,Exchange
+19,61,Geraldine Milk,Shamengwa Milk,Directed,1,200,Exchange
+19,61,Geraldine Milk,Shamengwa Milk,Directed,1,210,Knows
+19,61,Geraldine Milk,Shamengwa Milk,Directed,1,212,Knows
+60,103,God,Father Cassidy,Directed,1,212,Knows
+60,57,God,Jesus,Directed,1,212,Knows
+7,329,Henri Peace,Father Jasperine,Directed,1,214,Knows
+7,330,Henri Peace,Henri Peace's Father,Directed,1,214,Knows
+7,331,Henri Peace,Henri Peace's Wife,Directed,1,215,Knows
+7,333,Henri Peace,Henri and Lafayette Peace's Uncles,Directed,1,215,Knows
+7,333,Henri Peace,Henri and Lafayette Peace's Uncles,Directed,1,216,Knows
+7,279,Henri Peace,Joseph J. Coutts,Directed,1,209,Knows
+7,279,Henri Peace,Joseph J. Coutts,Directed,1,216,Knows
+7,328,Henri Peace,LaFountaine,Directed,1,214,Knows of
+7,278,Henri Peace,Lafayette Peace,Directed,1,209,Knows
+7,278,Henri Peace,Lafayette Peace,Directed,1,214,Knows
+7,278,Henri Peace,Lafayette Peace,Directed,1,215,Exchange
+7,278,Henri Peace,Lafayette Peace,Directed,1,216,Exchange
+7,332,Henri Peace,Lafayette Peace's Wife,Directed,1,215,Knows
+330,329,Henri Peace's Father,Father Jasperine,Directed,1,214,Knows
+330,7,Henri Peace's Father,Henri Peace,Directed,1,214,Knows
+330,278,Henri Peace's Father,Lafayette Peace,Directed,1,214,Knows
+331,7,Henri Peace's Wife,Henri Peace,Directed,1,215,Knows
+333,7,Henri and Lafayette Peace's Uncles,Henri Peace,Directed,1,215,Knows
+333,7,Henri and Lafayette Peace's Uncles,Henri Peace,Directed,1,216,Knows
+333,278,Henri and Lafayette Peace's Uncles,Lafayette Peace,Directed,1,215,Knows
+333,278,Henri and Lafayette Peace's Uncles,Lafayette Peace,Directed,1,216,Knows
+57,103,Jesus,Father Cassidy,Directed,1,212,Knows
+57,60,Jesus,God,Directed,1,212,Knows
+26,31,John Wildstrand,Corwin Peace,Directed,1,207,Knows
+26,28,John Wildstrand,Maggie Peace,Directed,1,207,Knows
+17,16,Joseph Harp,Clemence Harp,Directed,1,212,Knows
+17,3,Joseph Harp,Evelina Harp,Directed,1,211,Knows
+17,3,Joseph Harp,Evelina Harp,Directed,1,212,Knows
+17,103,Joseph Harp,Father Cassidy,Directed,1,212,Knows
+17,15,Joseph Harp,Seraph Milk (Mooshum),Directed,1,211,Knows
+17,15,Joseph Harp,Seraph Milk (Mooshum),Directed,1,212,Knows
+279,7,Joseph J. Coutts,Henri Peace,Directed,1,209,Knows
+279,7,Joseph J. Coutts,Henri Peace,Directed,1,216,Knows
+279,278,Joseph J. Coutts,Lafayette Peace,Directed,1,209,Knows
+279,278,Joseph J. Coutts,Lafayette Peace,Directed,1,216,Knows
+96,15,Joseph Milk (Seraph Milk's Father),Seraph Milk (Mooshum),Directed,1,202,Knows
+96,95,Joseph Milk (Seraph Milk's Father),Seraph Milk's Mother,Directed,1,200,Knows
+96,95,Joseph Milk (Seraph Milk's Father),Seraph Milk's Mother,Directed,1,201,Knows
+96,95,Joseph Milk (Seraph Milk's Father),Seraph Milk's Mother,Directed,1,202,Knows
+96,95,Joseph Milk (Seraph Milk's Father),Seraph Milk's Mother,Directed,1,203,Knows
+96,95,Joseph Milk (Seraph Milk's Father),Seraph Milk's Mother,Directed,1,204,Knows
+96,95,Joseph Milk (Seraph Milk's Father),Seraph Milk's Mother,Directed,1,205,Exchange
+96,61,Joseph Milk (Seraph Milk's Father),Shamengwa Milk,Directed,1,201,Knows
+96,61,Joseph Milk (Seraph Milk's Father),Shamengwa Milk,Directed,1,202,Knows
+96,61,Joseph Milk (Seraph Milk's Father),Shamengwa Milk,Directed,1,205,Exchange
+4,319,Judge Antone Bazil Coutts,"""cop"" (in Corwin's favourite movie)",Directed,1,207,Knows of
+4,320,Judge Antone Bazil Coutts,"""manager"" (of a music store)",Directed,1,208,Knows of
+4,323,Judge Antone Bazil Coutts,"""musician"" (pg. 208)",Directed,1,208,Knows of
+4,327,Judge Antone Bazil Coutts,"""people"" (at Shamengwa's funeral)",Directed,1,210,Exchange
+4,327,Judge Antone Bazil Coutts,"""people"" (at Shamengwa's funeral)",Directed,1,212,Knows of
+4,327,Judge Antone Bazil Coutts,"""people"" (at Shamengwa's funeral)",Directed,1,213,Knows
+4,324,Judge Antone Bazil Coutts,"""people"" (in the food court)",Directed,1,208,Knows of
+4,324,Judge Antone Bazil Coutts,"""people"" (in the food court)",Directed,1,209,Knows of
+4,321,Judge Antone Bazil Coutts,"""people"" (pg. 208)",Directed,1,208,Knows of
+4,322,Judge Antone Bazil Coutts,"""woman"" (pg. 208)",Directed,1,208,Knows of
+4,16,Judge Antone Bazil Coutts,Clemence Harp,Directed,1,196,Knows of
+4,16,Judge Antone Bazil Coutts,Clemence Harp,Directed,1,199,Knows of
+4,16,Judge Antone Bazil Coutts,Clemence Harp,Directed,1,211,Knows of
+4,16,Judge Antone Bazil Coutts,Clemence Harp,Directed,1,212,Knows of
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,197,Knows
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,198,Exchange
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,199,Knows
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,207,Knows of
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,208,Knows of
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,209,Knows
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,210,Knows of
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,212,Knows of
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,213,Knows of
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,216,Knows
+4,31,Judge Antone Bazil Coutts,Corwin Peace,Directed,1,217,Knows
+4,314,Judge Antone Bazil Coutts,Corwin Peace's Girlfriends,Directed,1,198,Knows of
+4,325,Judge Antone Bazil Coutts,Corwin's Probation Officer,Directed,1,210,Knows of
+4,315,Judge Antone Bazil Coutts,Edward Curtis,Directed,1,198,Knows of
+4,315,Judge Antone Bazil Coutts,Edward Curtis,Directed,1,199,Knows of
+4,18,Judge Antone Bazil Coutts,Edward Harp,Directed,1,211,Knows of
+4,3,Judge Antone Bazil Coutts,Evelina Harp,Directed,1,196,Knows of
+4,3,Judge Antone Bazil Coutts,Evelina Harp,Directed,1,211,Knows of
+4,3,Judge Antone Bazil Coutts,Evelina Harp,Directed,1,212,Knows of
+4,103,Judge Antone Bazil Coutts,Father Cassidy,Directed,1,211,Exchange
+4,103,Judge Antone Bazil Coutts,Father Cassidy,Directed,1,212,Exchange
+4,103,Judge Antone Bazil Coutts,Father Cassidy,Directed,1,213,Knows of
+4,329,Judge Antone Bazil Coutts,Father Jasperine,Directed,1,214,Knows of
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,195,Knows of
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,196,Knows of
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,197,Knows of
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,199,Exchange
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,200,Exchange
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,210,Exchange
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,211,Exchange
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,212,Knows of
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,216,Exchange
+4,19,Judge Antone Bazil Coutts,Geraldine Milk,Directed,1,217,Exchange
+4,60,Judge Antone Bazil Coutts,God,Directed,1,212,Knows of
+4,7,Judge Antone Bazil Coutts,Henri Peace,Directed,1,209,Knows
+4,7,Judge Antone Bazil Coutts,Henri Peace,Directed,1,214,Knows of
+4,7,Judge Antone Bazil Coutts,Henri Peace,Directed,1,215,Knows of
+4,7,Judge Antone Bazil Coutts,Henri Peace,Directed,1,216,Knows
+4,330,Judge Antone Bazil Coutts,Henri Peace's Father,Directed,1,214,Knows of
+4,331,Judge Antone Bazil Coutts,Henri Peace's Wife,Directed,1,215,Knows of
+4,333,Judge Antone Bazil Coutts,Henri and Lafayette Peace's Uncles,Directed,1,215,Knows of
+4,333,Judge Antone Bazil Coutts,Henri and Lafayette Peace's Uncles,Directed,1,216,Knows of
+4,57,Judge Antone Bazil Coutts,Jesus,Directed,1,212,Knows of
+4,26,Judge Antone Bazil Coutts,John Wildstrand,Directed,1,207,Knows of
+4,326,Judge Antone Bazil Coutts,Joseph (biblical figure),Directed,1,210,Knows of
+4,17,Judge Antone Bazil Coutts,Joseph Harp,Directed,1,211,Knows of
+4,17,Judge Antone Bazil Coutts,Joseph Harp,Directed,1,212,Knows of
+4,279,Judge Antone Bazil Coutts,Joseph J. Coutts,Directed,1,209,Knows
+4,279,Judge Antone Bazil Coutts,Joseph J. Coutts,Directed,1,216,Knows
+4,34,Judge Antone Bazil Coutts,Junesse Malaterre,Directed,1,212,Knows of
+4,328,Judge Antone Bazil Coutts,LaFountaine,Directed,1,214,Knows of
+4,278,Judge Antone Bazil Coutts,Lafayette Peace,Directed,1,209,Knows
+4,278,Judge Antone Bazil Coutts,Lafayette Peace,Directed,1,214,Knows of
+4,278,Judge Antone Bazil Coutts,Lafayette Peace,Directed,1,215,Knows of
+4,278,Judge Antone Bazil Coutts,Lafayette Peace,Directed,1,216,Knows
+4,332,Judge Antone Bazil Coutts,Lafayette Peace's Wife,Directed,1,215,Knows of
+4,94,Judge Antone Bazil Coutts,Louis Riel,Directed,1,211,Knows of
+4,28,Judge Antone Bazil Coutts,Maggie Peace,Directed,1,198,Knows
+4,28,Judge Antone Bazil Coutts,Maggie Peace,Directed,1,207,Knows of
+4,136,Judge Antone Bazil Coutts,Mary (biblical figure),Directed,1,211,Knows of
+4,15,Judge Antone Bazil Coutts,Seraph Milk (Mooshum),Directed,1,211,Knows of
+4,15,Judge Antone Bazil Coutts,Seraph Milk (Mooshum),Directed,1,212,Knows of
+4,15,Judge Antone Bazil Coutts,Seraph Milk (Mooshum),Directed,1,213,Knows of
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,195,Knows of
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,196,Knows of
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,197,Knows of
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,199,Exchange
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,200,Exchange
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,205,Exchange
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,206,Exchange
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,207,Knows of
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,209,Exchange
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,210,Exchange
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,211,Knows of
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,212,Knows of
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,213,Knows of
+4,61,Judge Antone Bazil Coutts,Shamengwa Milk,Directed,1,216,Knows
+4,20,Judge Antone Bazil Coutts,Uncle Whitey,Directed,1,211,Knows of
+4,20,Judge Antone Bazil Coutts,Uncle Whitey,Directed,1,212,Knows of
+34,103,Junesse Malaterre,Father Cassidy,Directed,1,212,Knows
+34,15,Junesse Malaterre,Seraph Milk (Mooshum),Directed,1,212,Knows
+278,7,Lafayette Peace,Henri Peace,Directed,1,209,Knows
+278,7,Lafayette Peace,Henri Peace,Directed,1,214,Knows
+278,7,Lafayette Peace,Henri Peace,Directed,1,215,Exchange
+278,330,Lafayette Peace,Henri Peace's Father,Directed,1,214,Knows
+278,333,Lafayette Peace,Henri and Lafayette Peace's Uncles,Directed,1,215,Knows
+278,333,Lafayette Peace,Henri and Lafayette Peace's Uncles,Directed,1,216,Knows
+278,279,Lafayette Peace,Joseph J. Coutts,Directed,1,209,Knows
+278,279,Lafayette Peace,Joseph J. Coutts,Directed,1,216,Knows
+278,332,Lafayette Peace,Lafayette Peace's Wife,Directed,1,215,Knows
+332,7,Lafayette Peace's Wife,Henri Peace,Directed,1,215,Knows
+332,278,Lafayette Peace's Wife,Lafayette Peace,Directed,1,215,Knows
+28,31,Maggie Peace,Corwin Peace,Directed,1,198,Knows
+28,31,Maggie Peace,Corwin Peace,Directed,1,207,Knows
+28,26,Maggie Peace,John Wildstrand,Directed,1,207,Knows
+28,4,Maggie Peace,Judge Antone Bazil Coutts,Directed,1,198,Knows
+136,103,Mary (biblical figure),Father Cassidy,Directed,1,211,Knows
+15,16,Seraph Milk (Mooshum),Clemence Harp,Directed,1,212,Knows
+15,3,Seraph Milk (Mooshum),Evelina Harp,Directed,1,211,Knows
+15,3,Seraph Milk (Mooshum),Evelina Harp,Directed,1,212,Knows
+15,103,Seraph Milk (Mooshum),Father Cassidy,Directed,1,211,Knows
+15,103,Seraph Milk (Mooshum),Father Cassidy,Directed,1,212,Knows
+15,103,Seraph Milk (Mooshum),Father Cassidy,Directed,1,213,Knows
+15,19,Seraph Milk (Mooshum),Geraldine Milk,Directed,1,212,Knows
+15,17,Seraph Milk (Mooshum),Joseph Harp,Directed,1,211,Knows
+15,17,Seraph Milk (Mooshum),Joseph Harp,Directed,1,212,Knows
+15,96,Seraph Milk (Mooshum),Joseph Milk (Seraph Milk's Father),Directed,1,202,Knows
+15,34,Seraph Milk (Mooshum),Junesse Malaterre,Directed,1,212,Knows
+15,94,Seraph Milk (Mooshum),Louis Riel,Directed,1,211,Knows
+15,95,Seraph Milk (Mooshum),Seraph Milk's Mother,Directed,1,201,Knows
+15,95,Seraph Milk (Mooshum),Seraph Milk's Mother,Directed,1,202,Knows
+15,9,Seraph Milk (Mooshum),Severine Milk,Directed,1,201,Knows
+15,61,Seraph Milk (Mooshum),Shamengwa Milk,Directed,1,211,Knows
+15,20,Seraph Milk (Mooshum),Uncle Whitey,Directed,1,212,Knows
+95,101,Seraph Milk's Mother,Baby (who the Milk family lost),Directed,1,200,Knows
+95,96,Seraph Milk's Mother,Joseph Milk (Seraph Milk's Father),Directed,1,200,Knows
+95,96,Seraph Milk's Mother,Joseph Milk (Seraph Milk's Father),Directed,1,201,Knows
+95,96,Seraph Milk's Mother,Joseph Milk (Seraph Milk's Father),Directed,1,202,Knows
+95,96,Seraph Milk's Mother,Joseph Milk (Seraph Milk's Father),Directed,1,203,Knows
+95,96,Seraph Milk's Mother,Joseph Milk (Seraph Milk's Father),Directed,1,204,Knows
+95,96,Seraph Milk's Mother,Joseph Milk (Seraph Milk's Father),Directed,1,205,Exchange
+95,15,Seraph Milk's Mother,Seraph Milk (Mooshum),Directed,1,201,Knows
+95,15,Seraph Milk's Mother,Seraph Milk (Mooshum),Directed,1,202,Knows
+95,9,Seraph Milk's Mother,Severine Milk,Directed,1,201,Knows
+95,61,Seraph Milk's Mother,Shamengwa Milk,Directed,1,201,Knows
+95,61,Seraph Milk's Mother,Shamengwa Milk,Directed,1,202,Knows
+95,61,Seraph Milk's Mother,Shamengwa Milk,Directed,1,203,Knows
+95,61,Seraph Milk's Mother,Shamengwa Milk,Directed,1,204,Knows
+95,61,Seraph Milk's Mother,Shamengwa Milk,Directed,1,205,Exchange
+9,15,Severine Milk,Seraph Milk (Mooshum),Directed,1,201,Knows
+9,95,Severine Milk,Seraph Milk's Mother,Directed,1,201,Knows
+61,318,Shamengwa Milk,"""nun"" (pg. 204)",Directed,1,204,Exchange
+61,101,Shamengwa Milk,Baby (who the Milk family lost),Directed,1,200,Knows of
+61,101,Shamengwa Milk,Baby (who the Milk family lost),Directed,1,201,Knows
+61,16,Shamengwa Milk,Clemence Harp,Directed,1,196,Knows
+61,16,Shamengwa Milk,Clemence Harp,Directed,1,199,Knows
+61,16,Shamengwa Milk,Clemence Harp,Directed,1,212,Knows
+61,31,Shamengwa Milk,Corwin Peace,Directed,1,207,Knows
+61,31,Shamengwa Milk,Corwin Peace,Directed,1,209,Exchange
+61,31,Shamengwa Milk,Corwin Peace,Directed,1,210,Knows
+61,31,Shamengwa Milk,Corwin Peace,Directed,1,212,Knows
+61,31,Shamengwa Milk,Corwin Peace,Directed,1,213,Knows
+61,31,Shamengwa Milk,Corwin Peace,Directed,1,216,Knows
+61,315,Shamengwa Milk,Edward Curtis,Directed,1,199,Knows
+61,3,Shamengwa Milk,Evelina Harp,Directed,1,196,Exchange
+61,19,Shamengwa Milk,Geraldine Milk,Directed,1,195,Knows
+61,19,Shamengwa Milk,Geraldine Milk,Directed,1,196,Knows
+61,19,Shamengwa Milk,Geraldine Milk,Directed,1,197,Knows
+61,19,Shamengwa Milk,Geraldine Milk,Directed,1,199,Exchange
+61,19,Shamengwa Milk,Geraldine Milk,Directed,1,200,Exchange
+61,19,Shamengwa Milk,Geraldine Milk,Directed,1,210,Knows
+61,19,Shamengwa Milk,Geraldine Milk,Directed,1,212,Knows
+61,96,Shamengwa Milk,Joseph Milk (Seraph Milk's Father),Directed,1,200,Knows of
+61,96,Shamengwa Milk,Joseph Milk (Seraph Milk's Father),Directed,1,201,Knows
+61,96,Shamengwa Milk,Joseph Milk (Seraph Milk's Father),Directed,1,202,Knows
+61,96,Shamengwa Milk,Joseph Milk (Seraph Milk's Father),Directed,1,203,Knows of
+61,96,Shamengwa Milk,Joseph Milk (Seraph Milk's Father),Directed,1,204,Exchange
+61,96,Shamengwa Milk,Joseph Milk (Seraph Milk's Father),Directed,1,205,Exchange
+61,4,Shamengwa Milk,Judge Antone Bazil Coutts,Directed,1,199,Exchange
+61,4,Shamengwa Milk,Judge Antone Bazil Coutts,Directed,1,200,Exchange
+61,4,Shamengwa Milk,Judge Antone Bazil Coutts,Directed,1,205,Exchange
+61,4,Shamengwa Milk,Judge Antone Bazil Coutts,Directed,1,206,Exchange
+61,4,Shamengwa Milk,Judge Antone Bazil Coutts,Directed,1,209,Exchange
+61,4,Shamengwa Milk,Judge Antone Bazil Coutts,Directed,1,210,Exchange
+61,4,Shamengwa Milk,Judge Antone Bazil Coutts,Directed,1,216,Knows
+61,15,Shamengwa Milk,Seraph Milk (Mooshum),Directed,1,201,Knows of
+61,15,Shamengwa Milk,Seraph Milk (Mooshum),Directed,1,202,Knows of
+61,15,Shamengwa Milk,Seraph Milk (Mooshum),Directed,1,211,Knows
+61,95,Shamengwa Milk,Seraph Milk's Mother,Directed,1,200,Knows of
+61,95,Shamengwa Milk,Seraph Milk's Mother,Directed,1,201,Knows
+61,95,Shamengwa Milk,Seraph Milk's Mother,Directed,1,202,Knows
+61,95,Shamengwa Milk,Seraph Milk's Mother,Directed,1,203,Knows
+61,95,Shamengwa Milk,Seraph Milk's Mother,Directed,1,204,Knows
+61,95,Shamengwa Milk,Seraph Milk's Mother,Directed,1,205,Exchange
+61,9,Shamengwa Milk,Severine Milk,Directed,1,201,Knows of
+20,16,Uncle Whitey,Clemence Harp,Directed,1,211,Knows
+20,16,Uncle Whitey,Clemence Harp,Directed,1,212,Knows
+20,18,Uncle Whitey,Edward Harp,Directed,1,211,Knows
+20,15,Uncle Whitey,Seraph Milk (Mooshum),Directed,1,212,Knows

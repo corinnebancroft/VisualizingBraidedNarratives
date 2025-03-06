@@ -1,0 +1,515 @@
+source,target,Character 1 <br />(choose),Character 2 <br />(choose),type,weight,startPage,category
+400,401,Evelina Harp,Evelina's Ancestors,Directed,1,5,Knows of
+400,11,Evelina Harp,French Settlers,Directed,1,5,Knows of
+400,10,Evelina Harp,German Settlers,Directed,1,5,Knows of
+400,12,Evelina Harp,Norwegian Settlers,Directed,1,5,Knows of
+400,402,Evelina Harp,Severine Milk,Directed,1,5,Knows of
+400,403,Evelina Harp,Severine Milk's Parishioners,Directed,1,5,Knows of
+401,11,Evelina's Ancestors,French Settlers,Directed,1,5,Exchange
+11,401,French Settlers,Evelina's Ancestors,Directed,1,5,Exchange
+10,403,German Settlers,Severine Milk's Parishioners,Directed,1,5,Knows of
+12,403,Norwegian Settlers,Severine Milk's Parishioners,Directed,1,5,Knows of
+402,403,Severine Milk,Severine Milk's Parishioners,Directed,1,5,Exchange
+403,10,Severine Milk's Parishioners,German Settlers,Directed,1,5,Knows of
+403,12,Severine Milk's Parishioners,Norwegian Settlers,Directed,1,5,Knows of
+403,402,Severine Milk's Parishioners,Severine Milk,Directed,1,5,Exchange
+404,400,Clemence Harp,Evelina Harp,Directed,1,6,Knows
+404,405,Clemence Harp,Seraph Milk (Mooshum),Directed,1,6,Knows
+406,400,Edward Harp,Evelina Harp,Directed,1,6,Knows
+406,407,Edward Harp,Joseph Harp,Directed,1,6,Knows
+400,404,Evelina Harp,Clemence Harp,Directed,1,6,Knows
+400,406,Evelina Harp,Edward Harp,Directed,1,6,Knows
+400,407,Evelina Harp,Joseph Harp,Directed,1,6,Knows
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,6,Exchange
+400,402,Evelina Harp,Severine Milk,Directed,1,6,Knows of
+407,406,Joseph Harp,Edward Harp,Directed,1,6,Knows
+407,400,Joseph Harp,Evelina Harp,Directed,1,6,Knows
+407,405,Joseph Harp,Seraph Milk (Mooshum),Directed,1,6,Exchange
+405,404,Seraph Milk (Mooshum),Clemence Harp,Directed,1,6,Knows
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,6,Exchange
+405,407,Seraph Milk (Mooshum),Joseph Harp,Directed,1,6,Exchange
+405,402,Seraph Milk (Mooshum),Severine Milk,Directed,1,6,Knows
+402,405,Severine Milk,Seraph Milk (Mooshum),Directed,1,6,Knows
+404,400,Clemence Harp,Evelina Harp,Directed,1,7,Knows
+404,405,Clemence Harp,Seraph Milk (Mooshum),Directed,1,7,Exchange
+406,400,Edward Harp,Evelina Harp,Directed,1,7,Knows
+406,407,Edward Harp,Joseph Harp,Directed,1,7,Knows
+400,404,Evelina Harp,Clemence Harp,Directed,1,7,Knows
+400,406,Evelina Harp,Edward Harp,Directed,1,7,Knows
+400,407,Evelina Harp,Joseph Harp,Directed,1,7,Knows
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,7,Exchange
+400,402,Evelina Harp,Severine Milk,Directed,1,7,Knows of
+400,403,Evelina Harp,Severine Milk's Parishioners,Directed,1,7,Knows of
+407,406,Joseph Harp,Edward Harp,Directed,1,7,Knows
+407,400,Joseph Harp,Evelina Harp,Directed,1,7,Knows
+407,405,Joseph Harp,Seraph Milk (Mooshum),Directed,1,7,Exchange
+405,404,Seraph Milk (Mooshum),Clemence Harp,Directed,1,7,Exchange
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,7,Exchange
+405,407,Seraph Milk (Mooshum),Joseph Harp,Directed,1,7,Exchange
+405,402,Seraph Milk (Mooshum),Severine Milk,Directed,1,7,Knows
+405,403,Seraph Milk (Mooshum),Severine Milk's Parishioners,Directed,1,7,Knows
+402,405,Severine Milk,Seraph Milk (Mooshum),Directed,1,7,Knows
+402,403,Severine Milk,Severine Milk's Parishioners,Directed,1,7,Exchange
+403,405,Severine Milk's Parishioners,Seraph Milk (Mooshum),Directed,1,7,Knows
+403,402,Severine Milk's Parishioners,Severine Milk,Directed,1,7,Exchange
+404,406,Clemence Harp,Edward Harp,Directed,1,8,Knows
+404,400,Clemence Harp,Evelina Harp,Directed,1,8,Knows
+404,407,Clemence Harp,Joseph Harp,Directed,1,8,Knows
+404,405,Clemence Harp,Seraph Milk (Mooshum),Directed,1,8,Knows
+406,404,Edward Harp,Clemence Harp,Directed,1,8,Knows
+406,400,Edward Harp,Evelina Harp,Directed,1,8,Knows
+406,407,Edward Harp,Joseph Harp,Directed,1,8,Knows
+406,405,Edward Harp,Seraph Milk (Mooshum),Directed,1,8,Knows
+400,404,Evelina Harp,Clemence Harp,Directed,1,8,Knows
+400,406,Evelina Harp,Edward Harp,Directed,1,8,Knows
+400,408,Evelina Harp,Geraldine Milk,Directed,1,8,Knows
+400,407,Evelina Harp,Joseph Harp,Directed,1,8,Knows
+400,27,Evelina Harp,Neve Harp,Directed,1,8,Knows
+400,29,Evelina Harp,Octave Harp,Directed,1,8,Knows of
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,8,Exchange
+400,402,Evelina Harp,Severine Milk,Directed,1,8,Knows of
+400,403,Evelina Harp,Severine Milk's Parishioners,Directed,1,8,Knows of
+400,409,Evelina Harp,Uncle Whitey,Directed,1,8,Knows
+408,400,Geraldine Milk,Evelina Harp,Directed,1,8,Knows
+407,404,Joseph Harp,Clemence Harp,Directed,1,8,Knows
+407,406,Joseph Harp,Edward Harp,Directed,1,8,Knows
+407,400,Joseph Harp,Evelina Harp,Directed,1,8,Knows
+407,405,Joseph Harp,Seraph Milk (Mooshum),Directed,1,8,Exchange
+405,404,Seraph Milk (Mooshum),Clemence Harp,Directed,1,8,Knows
+405,406,Seraph Milk (Mooshum),Edward Harp,Directed,1,8,Knows
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,8,Exchange
+405,407,Seraph Milk (Mooshum),Joseph Harp,Directed,1,8,Exchange
+405,402,Seraph Milk (Mooshum),Severine Milk,Directed,1,8,Knows
+405,403,Seraph Milk (Mooshum),Severine Milk's Parishioners,Directed,1,8,Knows
+402,405,Severine Milk,Seraph Milk (Mooshum),Directed,1,8,Knows
+403,405,Severine Milk's Parishioners,Seraph Milk (Mooshum),Directed,1,8,Knows
+409,400,Uncle Whitey,Evelina Harp,Directed,1,8,Knows
+21,409,"""Haskell Indian Princess""",Uncle Whitey,Directed,1,9,Exchange
+23,409,"""[S]mall town stripper""",Uncle Whitey,Directed,1,9,Exchange
+22,408,"""[Y]oung man on a passenger train""",Geraldine Milk,Directed,1,9,Exchange
+24,404,"Agathe (""Happy"")",Clemence Harp,Directed,1,9,Knows
+24,25,"Agathe (""Happy"")",Priest (who Agathe left the convent for),Directed,1,9,Knows
+404,24,Clemence Harp,"Agathe (""Happy"")",Directed,1,9,Knows
+404,406,Clemence Harp,Edward Harp,Directed,1,9,Knows
+404,408,Clemence Harp,Geraldine Milk,Directed,1,9,Knows
+410,400,Corwin Peace,Evelina Harp,Directed,1,9,Knows
+406,404,Edward Harp,Clemence Harp,Directed,1,9,Knows
+406,400,Edward Harp,Evelina Harp,Directed,1,9,Knows
+406,26,Edward Harp,John Wildstrand,Directed,1,9,Knows
+406,27,Edward Harp,Neve Harp,Directed,1,9,Knows
+406,29,Edward Harp,Octave Harp,Directed,1,9,Knows
+400,21,Evelina Harp,"""Haskell Indian Princess""",Directed,1,9,Knows of
+400,23,Evelina Harp,"""[S]mall town stripper""",Directed,1,9,Knows of
+400,22,Evelina Harp,"""[Y]oung man on a passenger train""",Directed,1,9,Knows of
+400,24,Evelina Harp,"Agathe (""Happy"")",Directed,1,9,Knows of
+400,404,Evelina Harp,Clemence Harp,Directed,1,9,Knows of
+400,410,Evelina Harp,Corwin Peace,Directed,1,9,Knows
+400,406,Evelina Harp,Edward Harp,Directed,1,9,Knows
+400,408,Evelina Harp,Geraldine Milk,Directed,1,9,Knows
+400,26,Evelina Harp,John Wildstrand,Directed,1,9,Knows of
+400,407,Evelina Harp,Joseph Harp,Directed,1,9,Knows
+400,28,Evelina Harp,Maggie Peace,Directed,1,9,Knows of
+400,27,Evelina Harp,Neve Harp,Directed,1,9,Knows
+400,29,Evelina Harp,Octave Harp,Directed,1,9,Knows of
+400,25,Evelina Harp,Priest (who Agathe left the convent for),Directed,1,9,Knows of
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,9,Exchange
+400,409,Evelina Harp,Uncle Whitey,Directed,1,9,Knows
+400,30,Evelina Harp,Woman (Octave drowned himself over),Directed,1,9,Knows of
+408,22,Geraldine Milk,"""[Y]oung man on a passenger train""",Directed,1,9,Exchange
+408,404,Geraldine Milk,Clemence Harp,Directed,1,9,Knows
+408,400,Geraldine Milk,Evelina Harp,Directed,1,9,Knows
+26,406,John Wildstrand,Edward Harp,Directed,1,9,Knows
+26,28,John Wildstrand,Maggie Peace,Directed,1,9,Exchange
+26,27,John Wildstrand,Neve Harp,Directed,1,9,Exchange
+407,400,Joseph Harp,Evelina Harp,Directed,1,9,Knows
+407,405,Joseph Harp,Seraph Milk (Mooshum),Directed,1,9,Exchange
+28,26,Maggie Peace,John Wildstrand,Directed,1,9,Exchange
+27,406,Neve Harp,Edward Harp,Directed,1,9,Knows
+27,26,Neve Harp,John Wildstrand,Directed,1,9,Exchange
+29,406,Octave Harp,Edward Harp,Directed,1,9,Knows
+29,30,Octave Harp,Woman (Octave drowned himself over),Directed,1,9,Knows
+25,24,Priest (who Agathe left the convent for),"Agathe (""Happy"")",Directed,1,9,Knows
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,9,Exchange
+405,407,Seraph Milk (Mooshum),Joseph Harp,Directed,1,9,Exchange
+409,21,Uncle Whitey,"""Haskell Indian Princess""",Directed,1,9,Exchange
+409,23,Uncle Whitey,"""[S]mall town stripper""",Directed,1,9,Exchange
+409,400,Uncle Whitey,Evelina Harp,Directed,1,9,Knows
+30,29,Woman (Octave drowned himself over),Octave Harp,Directed,1,9,Knows
+404,406,Clemence Harp,Edward Harp,Directed,1,10,Knows
+404,400,Clemence Harp,Evelina Harp,Directed,1,10,Exchange
+410,400,Corwin Peace,Evelina Harp,Directed,1,10,Exchange
+410,32,Corwin Peace,Other Children (in school with Evelina),Directed,1,10,Exchange
+406,404,Edward Harp,Clemence Harp,Directed,1,10,Knows
+406,400,Edward Harp,Evelina Harp,Directed,1,10,Knows
+400,404,Evelina Harp,Clemence Harp,Directed,1,10,Knows
+400,410,Evelina Harp,Corwin Peace,Directed,1,10,Exchange
+400,406,Evelina Harp,Edward Harp,Directed,1,10,Knows
+400,32,Evelina Harp,Other Children (in school with Evelina),Directed,1,10,Exchange
+32,410,Other Children (in school with Evelina),Corwin Peace,Directed,1,10,Exchange
+32,400,Other Children (in school with Evelina),Evelina Harp,Directed,1,10,Exchange
+404,400,Clemence Harp,Evelina Harp,Directed,1,11,Knows
+406,33,Edward Harp,Edward's Students,Directed,1,11,Knows
+406,400,Edward Harp,Evelina Harp,Directed,1,11,Knows
+33,406,Edward's Students,Edward Harp,Directed,1,11,Knows
+400,404,Evelina Harp,Clemence Harp,Directed,1,11,Knows
+400,406,Evelina Harp,Edward Harp,Directed,1,11,Knows
+400,33,Evelina Harp,Edward's Students,Directed,1,11,Knows of
+400,407,Evelina Harp,Joseph Harp,Directed,1,11,Knows
+400,411,Evelina Harp,Junesse Malaterre,Directed,1,11,Knows
+400,35,Evelina Harp,Junesse's Aunt,Directed,1,11,Knows of
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,11,Exchange
+407,400,Joseph Harp,Evelina Harp,Directed,1,11,Knows
+411,400,Junesse Malaterre,Evelina Harp,Directed,1,11,Knows
+411,35,Junesse Malaterre,Junesse's Aunt,Directed,1,11,Exchange
+411,405,Junesse Malaterre,Seraph Milk (Mooshum),Directed,1,11,Knows
+35,411,Junesse's Aunt,Junesse Malaterre,Directed,1,11,Exchange
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,11,Exchange
+405,411,Seraph Milk (Mooshum),Junesse Malaterre,Directed,1,11,Knows
+406,400,Edward Harp,Evelina Harp,Directed,1,12,Knows
+406,407,Edward Harp,Joseph Harp,Directed,1,12,Knows
+400,406,Evelina Harp,Edward Harp,Directed,1,12,Knows
+400,36,Evelina Harp,French Voyageur,Directed,1,12,Knows of
+400,407,Evelina Harp,Joseph Harp,Directed,1,12,Knows
+400,411,Evelina Harp,Junesse Malaterre,Directed,1,12,Knows
+400,35,Evelina Harp,Junesse's Aunt,Directed,1,12,Knows of
+400,37,Evelina Harp,Junesse's Six Younger Cousins,Directed,1,12,Knows of
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,12,Exchange
+400,402,Evelina Harp,Severine Milk,Directed,1,12,Knows of
+407,406,Joseph Harp,Edward Harp,Directed,1,12,Knows
+407,400,Joseph Harp,Evelina Harp,Directed,1,12,Knows
+411,400,Junesse Malaterre,Evelina Harp,Directed,1,12,Knows
+411,36,Junesse Malaterre,French Voyageur,Directed,1,12,Knows of
+411,35,Junesse Malaterre,Junesse's Aunt,Directed,1,12,Knows
+411,37,Junesse Malaterre,Junesse's Six Younger Cousins,Directed,1,12,Knows
+411,405,Junesse Malaterre,Seraph Milk (Mooshum),Directed,1,12,Knows
+35,411,Junesse's Aunt,Junesse Malaterre,Directed,1,12,Knows
+35,37,Junesse's Aunt,Junesse's Six Younger Cousins,Directed,1,12,Knows
+37,411,Junesse's Six Younger Cousins,Junesse Malaterre,Directed,1,12,Knows
+37,35,Junesse's Six Younger Cousins,Junesse's Aunt,Directed,1,12,Knows
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,12,Exchange
+405,407,Seraph Milk (Mooshum),Joseph Harp,Directed,1,12,Exchange
+405,411,Seraph Milk (Mooshum),Junesse Malaterre,Directed,1,12,Knows
+405,402,Seraph Milk (Mooshum),Severine Milk,Directed,1,12,Knows
+402,405,Severine Milk,Seraph Milk (Mooshum),Directed,1,12,Knows
+410,400,Corwin Peace,Evelina Harp,Directed,1,13,Exchange
+400,410,Evelina Harp,Corwin Peace,Directed,1,13,Exchange
+400,411,Evelina Harp,Junesse Malaterre,Directed,1,13,Knows
+400,38,Evelina Harp,Off-Reservation Dentist,Directed,1,13,Exchange
+400,32,Evelina Harp,Other Children (in school with Evelina),Directed,1,13,Exchange
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,13,Exchange
+411,400,Junesse Malaterre,Evelina Harp,Directed,1,13,Knows
+411,405,Junesse Malaterre,Seraph Milk (Mooshum),Directed,1,13,Knows
+38,400,Off-Reservation Dentist,Evelina Harp,Directed,1,13,Exchange
+32,400,Other Children (in school with Evelina),Evelina Harp,Directed,1,13,Exchange
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,13,Exchange
+405,411,Seraph Milk (Mooshum),Junesse Malaterre,Directed,1,13,Knows
+412,400,Beryl Hoop,Evelina Harp,Directed,1,14,Exchange
+410,400,Corwin Peace,Evelina Harp,Directed,1,14,Exchange
+400,412,Evelina Harp,Beryl Hoop,Directed,1,14,Knows of
+400,410,Evelina Harp,Corwin Peace,Directed,1,14,Exchange
+400,57,Evelina Harp,Jesus,Directed,1,14,Knows of
+400,32,Evelina Harp,Other Children (in school with Evelina),Directed,1,14,Knows
+32,400,Other Children (in school with Evelina),Evelina Harp,Directed,1,14,Knows
+404,400,Clemence Harp,Evelina Harp,Directed,1,15,Exchange
+410,400,Corwin Peace,Evelina Harp,Directed,1,15,Exchange
+400,42,Evelina Harp,"""Mustache"" Maude Black",Directed,1,15,Knows of
+400,404,Evelina Harp,Clemence Harp,Directed,1,15,Exchange
+400,410,Evelina Harp,Corwin Peace,Directed,1,15,Exchange
+400,41,Evelina Harp,Jackie Kennedy,Directed,1,15,Knows of
+400,57,Evelina Harp,Jesus,Directed,1,15,Knows of
+400,411,Evelina Harp,Junesse Malaterre,Directed,1,15,Knows
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,15,Knows
+411,400,Junesse Malaterre,Evelina Harp,Directed,1,15,Knows
+411,405,Junesse Malaterre,Seraph Milk (Mooshum),Directed,1,15,Knows
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,15,Knows
+405,411,Seraph Milk (Mooshum),Junesse Malaterre,Directed,1,15,Knows
+42,411,"""Mustache"" Maude Black",Junesse Malaterre,Directed,1,16,Exchange
+42,43,"""Mustache"" Maude Black",Ott Black,Directed,1,16,Knows
+42,405,"""Mustache"" Maude Black",Seraph Milk (Mooshum),Directed,1,16,Exchange
+44,42,Erling Nicolai Rolfsrud,"""Mustache"" Maude Black",Directed,1,16,Knows of
+400,42,Evelina Harp,"""Mustache"" Maude Black",Directed,1,16,Knows of
+400,44,Evelina Harp,Erling Nicolai Rolfsrud,Directed,1,16,Knows of
+400,411,Evelina Harp,Junesse Malaterre,Directed,1,16,Knows
+400,43,Evelina Harp,Ott Black,Directed,1,16,Knows of
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,16,Exchange
+411,42,Junesse Malaterre,"""Mustache"" Maude Black",Directed,1,16,Exchange
+411,400,Junesse Malaterre,Evelina Harp,Directed,1,16,Knows
+43,42,Ott Black,"""Mustache"" Maude Black",Directed,1,16,Knows
+405,42,Seraph Milk (Mooshum),"""Mustache"" Maude Black",Directed,1,16,Exchange
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,16,Exchange
+42,411,"""Mustache"" Maude Black",Junesse Malaterre,Directed,1,17,Exchange
+42,72,"""Mustache"" Maude Black",Neighbours (of Maude Black),Directed,1,17,Exchange
+42,405,"""Mustache"" Maude Black",Seraph Milk (Mooshum),Directed,1,17,Exchange
+42,69,"""Mustache"" Maude Black",Woman (murdered a couple farms over),Directed,1,17,Knows of
+48,67,Asiginak,Emil Buckendorf,Directed,1,17,Knows
+48,292,Asiginak,Emil Buckendorf's First Brother,Directed,1,17,Knows
+48,293,Asiginak,Emil Buckendorf's Second Brother,Directed,1,17,Knows
+48,294,Asiginak,Emil Buckendorf's Third Brother,Directed,1,17,Knows
+48,66,Asiginak,Eugene Wildstrand,Directed,1,17,Knows
+48,63,Asiginak,Frederic Vogeli,Directed,1,17,Knows
+48,65,Asiginak,Oric Hoag,Directed,1,17,Knows
+48,50,Asiginak,The Lynching,Directed,1,17,Knows
+48,68,Asiginak,William Hotchkiss,Directed,1,17,Knows
+47,67,Cuthbert Peace,Emil Buckendorf,Directed,1,17,Knows
+47,292,Cuthbert Peace,Emil Buckendorf's First Brother,Directed,1,17,Knows
+47,293,Cuthbert Peace,Emil Buckendorf's Second Brother,Directed,1,17,Knows
+47,294,Cuthbert Peace,Emil Buckendorf's Third Brother,Directed,1,17,Knows
+47,66,Cuthbert Peace,Eugene Wildstrand,Directed,1,17,Knows
+47,63,Cuthbert Peace,Frederic Vogeli,Directed,1,17,Knows
+47,65,Cuthbert Peace,Oric Hoag,Directed,1,17,Knows
+47,50,Cuthbert Peace,The Lynching,Directed,1,17,Knows
+47,68,Cuthbert Peace,William Hotchkiss,Directed,1,17,Knows
+67,48,Emil Buckendorf,Asiginak,Directed,1,17,Knows
+67,47,Emil Buckendorf,Cuthbert Peace,Directed,1,17,Knows
+67,292,Emil Buckendorf,Emil Buckendorf's First Brother,Directed,1,17,Knows
+67,293,Emil Buckendorf,Emil Buckendorf's Second Brother,Directed,1,17,Knows
+67,294,Emil Buckendorf,Emil Buckendorf's Third Brother,Directed,1,17,Knows
+67,66,Emil Buckendorf,Eugene Wildstrand,Directed,1,17,Knows
+67,63,Emil Buckendorf,Frederic Vogeli,Directed,1,17,Knows
+67,46,Emil Buckendorf,Holy Track,Directed,1,17,Knows
+67,65,Emil Buckendorf,Oric Hoag,Directed,1,17,Knows
+67,405,Emil Buckendorf,Seraph Milk (Mooshum),Directed,1,17,Knows
+67,50,Emil Buckendorf,The Lynching,Directed,1,17,Knows
+67,68,Emil Buckendorf,William Hotchkiss,Directed,1,17,Knows
+292,48,Emil Buckendorf's First Brother,Asiginak,Directed,1,17,Knows
+292,47,Emil Buckendorf's First Brother,Cuthbert Peace,Directed,1,17,Knows
+292,67,Emil Buckendorf's First Brother,Emil Buckendorf,Directed,1,17,Knows
+292,66,Emil Buckendorf's First Brother,Eugene Wildstrand,Directed,1,17,Knows
+292,63,Emil Buckendorf's First Brother,Frederic Vogeli,Directed,1,17,Knows
+292,46,Emil Buckendorf's First Brother,Holy Track,Directed,1,17,Knows
+292,405,Emil Buckendorf's First Brother,Seraph Milk (Mooshum),Directed,1,17,Knows
+292,50,Emil Buckendorf's First Brother,The Lynching,Directed,1,17,Knows
+292,68,Emil Buckendorf's First Brother,William Hotchkiss,Directed,1,17,Knows
+293,48,Emil Buckendorf's Second Brother,Asiginak,Directed,1,17,Knows
+293,47,Emil Buckendorf's Second Brother,Cuthbert Peace,Directed,1,17,Knows
+293,67,Emil Buckendorf's Second Brother,Emil Buckendorf,Directed,1,17,Knows
+293,66,Emil Buckendorf's Second Brother,Eugene Wildstrand,Directed,1,17,Knows
+293,63,Emil Buckendorf's Second Brother,Frederic Vogeli,Directed,1,17,Knows
+293,46,Emil Buckendorf's Second Brother,Holy Track,Directed,1,17,Knows
+293,405,Emil Buckendorf's Second Brother,Seraph Milk (Mooshum),Directed,1,17,Knows
+293,50,Emil Buckendorf's Second Brother,The Lynching,Directed,1,17,Knows
+293,68,Emil Buckendorf's Second Brother,William Hotchkiss,Directed,1,17,Knows
+294,48,Emil Buckendorf's Third Brother,Asiginak,Directed,1,17,Knows
+294,47,Emil Buckendorf's Third Brother,Cuthbert Peace,Directed,1,17,Knows
+294,67,Emil Buckendorf's Third Brother,Emil Buckendorf,Directed,1,17,Knows
+294,66,Emil Buckendorf's Third Brother,Eugene Wildstrand,Directed,1,17,Knows
+294,63,Emil Buckendorf's Third Brother,Frederic Vogeli,Directed,1,17,Knows
+294,46,Emil Buckendorf's Third Brother,Holy Track,Directed,1,17,Knows
+294,405,Emil Buckendorf's Third Brother,Seraph Milk (Mooshum),Directed,1,17,Knows
+294,50,Emil Buckendorf's Third Brother,The Lynching,Directed,1,17,Knows
+294,68,Emil Buckendorf's Third Brother,William Hotchkiss,Directed,1,17,Knows
+66,48,Eugene Wildstrand,Asiginak,Directed,1,17,Knows
+66,47,Eugene Wildstrand,Cuthbert Peace,Directed,1,17,Knows
+66,67,Eugene Wildstrand,Emil Buckendorf,Directed,1,17,Knows
+66,292,Eugene Wildstrand,Emil Buckendorf's First Brother,Directed,1,17,Knows
+66,293,Eugene Wildstrand,Emil Buckendorf's Second Brother,Directed,1,17,Knows
+66,294,Eugene Wildstrand,Emil Buckendorf's Third Brother,Directed,1,17,Knows
+66,63,Eugene Wildstrand,Frederic Vogeli,Directed,1,17,Knows
+66,46,Eugene Wildstrand,Holy Track,Directed,1,17,Knows
+66,65,Eugene Wildstrand,Oric Hoag,Directed,1,17,Knows
+66,405,Eugene Wildstrand,Seraph Milk (Mooshum),Directed,1,17,Knows
+66,50,Eugene Wildstrand,The Lynching,Directed,1,17,Knows
+66,68,Eugene Wildstrand,William Hotchkiss,Directed,1,17,Knows
+400,42,Evelina Harp,"""Mustache"" Maude Black",Directed,1,17,Knows of
+400,48,Evelina Harp,Asiginak,Directed,1,17,Knows of
+400,47,Evelina Harp,Cuthbert Peace,Directed,1,17,Knows of
+400,67,Evelina Harp,Emil Buckendorf,Directed,1,17,Knows of
+400,292,Evelina Harp,Emil Buckendorf's First Brother,Directed,1,17,Knows of
+400,293,Evelina Harp,Emil Buckendorf's Second Brother,Directed,1,17,Knows of
+400,294,Evelina Harp,Emil Buckendorf's Third Brother,Directed,1,17,Knows of
+400,66,Evelina Harp,Eugene Wildstrand,Directed,1,17,Knows of
+400,63,Evelina Harp,Frederic Vogeli,Directed,1,17,Knows of
+400,46,Evelina Harp,Holy Track,Directed,1,17,Knows of
+400,71,Evelina Harp,Husband (of the woman murdered a couple farms over,Directed,1,17,Knows of
+400,411,Evelina Harp,Junesse Malaterre,Directed,1,17,Knows
+400,72,Evelina Harp,Neighbours (of Maude Black),Directed,1,17,Knows of
+400,65,Evelina Harp,Oric Hoag,Directed,1,17,Knows of
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,17,Exchange
+400,45,Evelina Harp,The Lochren Family,Directed,1,17,Knows of
+400,49,Evelina Harp,The Lochren Murder,Directed,1,17,Knows of
+400,50,Evelina Harp,The Lynching,Directed,1,17,Knows of
+400,68,Evelina Harp,William Hotchkiss,Directed,1,17,Knows of
+400,69,Evelina Harp,Woman (murdered a couple farms over),Directed,1,17,Knows of
+63,48,Frederic Vogeli,Asiginak,Directed,1,17,Knows
+63,47,Frederic Vogeli,Cuthbert Peace,Directed,1,17,Knows
+63,67,Frederic Vogeli,Emil Buckendorf,Directed,1,17,Knows
+63,292,Frederic Vogeli,Emil Buckendorf's First Brother,Directed,1,17,Knows
+63,293,Frederic Vogeli,Emil Buckendorf's Second Brother,Directed,1,17,Knows
+63,294,Frederic Vogeli,Emil Buckendorf's Third Brother,Directed,1,17,Knows
+63,66,Frederic Vogeli,Eugene Wildstrand,Directed,1,17,Knows
+63,46,Frederic Vogeli,Holy Track,Directed,1,17,Knows
+63,65,Frederic Vogeli,Oric Hoag,Directed,1,17,Knows
+63,405,Frederic Vogeli,Seraph Milk (Mooshum),Directed,1,17,Knows
+63,50,Frederic Vogeli,The Lynching,Directed,1,17,Knows
+63,68,Frederic Vogeli,William Hotchkiss,Directed,1,17,Knows
+46,67,Holy Track,Emil Buckendorf,Directed,1,17,Knows
+46,292,Holy Track,Emil Buckendorf's First Brother,Directed,1,17,Knows
+46,293,Holy Track,Emil Buckendorf's Second Brother,Directed,1,17,Knows
+46,294,Holy Track,Emil Buckendorf's Third Brother,Directed,1,17,Knows
+46,66,Holy Track,Eugene Wildstrand,Directed,1,17,Knows
+46,63,Holy Track,Frederic Vogeli,Directed,1,17,Knows
+46,65,Holy Track,Oric Hoag,Directed,1,17,Knows
+46,50,Holy Track,The Lynching,Directed,1,17,Knows
+46,68,Holy Track,William Hotchkiss,Directed,1,17,Knows
+71,69,Husband (of the woman murdered a couple farms over,Woman (murdered a couple farms over),Directed,1,17,Knows
+411,42,Junesse Malaterre,"""Mustache"" Maude Black",Directed,1,17,Exchange
+411,400,Junesse Malaterre,Evelina Harp,Directed,1,17,Knows
+411,71,Junesse Malaterre,Husband (of the woman murdered a couple farms over,Directed,1,17,Knows of
+411,72,Junesse Malaterre,Neighbours (of Maude Black),Directed,1,17,Knows
+411,405,Junesse Malaterre,Seraph Milk (Mooshum),Directed,1,17,Exchange
+411,69,Junesse Malaterre,Woman (murdered a couple farms over),Directed,1,17,Knows of
+72,42,Neighbours (of Maude Black),"""Mustache"" Maude Black",Directed,1,17,Exchange
+72,405,Neighbours (of Maude Black),Seraph Milk (Mooshum),Directed,1,17,Knows of
+72,69,Neighbours (of Maude Black),Woman (murdered a couple farms over),Directed,1,17,Knows
+65,48,Oric Hoag,Asiginak,Directed,1,17,Knows
+65,47,Oric Hoag,Cuthbert Peace,Directed,1,17,Knows
+65,67,Oric Hoag,Emil Buckendorf,Directed,1,17,Knows
+65,66,Oric Hoag,Eugene Wildstrand,Directed,1,17,Knows
+65,63,Oric Hoag,Frederic Vogeli,Directed,1,17,Knows
+65,46,Oric Hoag,Holy Track,Directed,1,17,Knows
+65,405,Oric Hoag,Seraph Milk (Mooshum),Directed,1,17,Knows
+65,50,Oric Hoag,The Lynching,Directed,1,17,Knows
+65,68,Oric Hoag,William Hotchkiss,Directed,1,17,Knows
+405,42,Seraph Milk (Mooshum),"""Mustache"" Maude Black",Directed,1,17,Exchange
+405,67,Seraph Milk (Mooshum),Emil Buckendorf,Directed,1,17,Knows
+405,292,Seraph Milk (Mooshum),Emil Buckendorf's First Brother,Directed,1,17,Knows
+405,293,Seraph Milk (Mooshum),Emil Buckendorf's Second Brother,Directed,1,17,Knows
+405,294,Seraph Milk (Mooshum),Emil Buckendorf's Third Brother,Directed,1,17,Knows
+405,66,Seraph Milk (Mooshum),Eugene Wildstrand,Directed,1,17,Knows
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,17,Exchange
+405,63,Seraph Milk (Mooshum),Frederic Vogeli,Directed,1,17,Knows
+405,71,Seraph Milk (Mooshum),Husband (of the woman murdered a couple farms over,Directed,1,17,Knows of
+405,411,Seraph Milk (Mooshum),Junesse Malaterre,Directed,1,17,Exchange
+405,72,Seraph Milk (Mooshum),Neighbours (of Maude Black),Directed,1,17,Knows of
+405,65,Seraph Milk (Mooshum),Oric Hoag,Directed,1,17,Knows
+405,50,Seraph Milk (Mooshum),The Lynching,Directed,1,17,Knows
+405,68,Seraph Milk (Mooshum),William Hotchkiss,Directed,1,17,Knows
+405,69,Seraph Milk (Mooshum),Woman (murdered a couple farms over),Directed,1,17,Knows of
+45,49,The Lochren Family,The Lochren Murder,Directed,1,17,Knows
+49,45,The Lochren Murder,The Lochren Family,Directed,1,17,Knows
+49,50,The Lochren Murder,The Lynching,Directed,1,17,Knows
+50,48,The Lynching,Asiginak,Directed,1,17,Knows
+50,47,The Lynching,Cuthbert Peace,Directed,1,17,Knows
+50,67,The Lynching,Emil Buckendorf,Directed,1,17,Knows
+50,292,The Lynching,Emil Buckendorf's First Brother,Directed,1,17,Knows
+50,293,The Lynching,Emil Buckendorf's Second Brother,Directed,1,17,Knows
+50,294,The Lynching,Emil Buckendorf's Third Brother,Directed,1,17,Knows
+50,66,The Lynching,Eugene Wildstrand,Directed,1,17,Knows
+50,63,The Lynching,Frederic Vogeli,Directed,1,17,Knows
+50,46,The Lynching,Holy Track,Directed,1,17,Knows
+50,65,The Lynching,Oric Hoag,Directed,1,17,Knows
+50,405,The Lynching,Seraph Milk (Mooshum),Directed,1,17,Knows
+50,68,The Lynching,William Hotchkiss,Directed,1,17,Knows
+68,48,William Hotchkiss,Asiginak,Directed,1,17,Knows
+68,47,William Hotchkiss,Cuthbert Peace,Directed,1,17,Knows
+68,67,William Hotchkiss,Emil Buckendorf,Directed,1,17,Knows
+68,292,William Hotchkiss,Emil Buckendorf's First Brother,Directed,1,17,Knows
+68,293,William Hotchkiss,Emil Buckendorf's Second Brother,Directed,1,17,Knows
+68,294,William Hotchkiss,Emil Buckendorf's Third Brother,Directed,1,17,Knows
+68,66,William Hotchkiss,Eugene Wildstrand,Directed,1,17,Knows
+68,63,William Hotchkiss,Frederic Vogeli,Directed,1,17,Knows
+68,46,William Hotchkiss,Holy Track,Directed,1,17,Knows
+68,65,William Hotchkiss,Oric Hoag,Directed,1,17,Knows
+68,405,William Hotchkiss,Seraph Milk (Mooshum),Directed,1,17,Knows
+68,50,William Hotchkiss,The Lynching,Directed,1,17,Knows
+69,71,Woman (murdered a couple farms over),Husband (of the woman murdered a couple farms over,Directed,1,17,Knows
+69,72,Woman (murdered a couple farms over),Neighbours (of Maude Black),Directed,1,17,Knows
+42,74,"""Mustache"" Maude Black",Doctor (who Maude sent for),Directed,1,18,Knows
+42,411,"""Mustache"" Maude Black",Junesse Malaterre,Directed,1,18,Exchange
+42,73,"""Mustache"" Maude Black",Man (who Ott shot in the leg),Directed,1,18,Exchange
+42,72,"""Mustache"" Maude Black",Neighbours (of Maude Black),Directed,1,18,Exchange
+42,43,"""Mustache"" Maude Black",Ott Black,Directed,1,18,Exchange
+42,405,"""Mustache"" Maude Black",Seraph Milk (Mooshum),Directed,1,18,Exchange
+400,42,Evelina Harp,"""Mustache"" Maude Black",Directed,1,18,Knows of
+400,74,Evelina Harp,Doctor (who Maude sent for),Directed,1,18,Knows of
+400,71,Evelina Harp,Husband (of the woman murdered a couple farms over,Directed,1,18,Knows of
+400,411,Evelina Harp,Junesse Malaterre,Directed,1,18,Knows of
+400,73,Evelina Harp,Man (who Ott shot in the leg),Directed,1,18,Knows of
+400,72,Evelina Harp,Neighbours (of Maude Black),Directed,1,18,Knows of
+400,43,Evelina Harp,Ott Black,Directed,1,18,Knows of
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,18,Exchange
+400,69,Evelina Harp,Woman (murdered a couple farms over),Directed,1,18,Knows of
+411,42,Junesse Malaterre,"""Mustache"" Maude Black",Directed,1,18,Exchange
+411,405,Junesse Malaterre,Seraph Milk (Mooshum),Directed,1,18,Knows
+73,42,Man (who Ott shot in the leg),"""Mustache"" Maude Black",Directed,1,18,Exchange
+73,43,Man (who Ott shot in the leg),Ott Black,Directed,1,18,Exchange
+72,42,Neighbours (of Maude Black),"""Mustache"" Maude Black",Directed,1,18,Exchange
+72,43,Neighbours (of Maude Black),Ott Black,Directed,1,18,Exchange
+72,405,Neighbours (of Maude Black),Seraph Milk (Mooshum),Directed,1,18,Knows of
+43,42,Ott Black,"""Mustache"" Maude Black",Directed,1,18,Exchange
+43,73,Ott Black,Man (who Ott shot in the leg),Directed,1,18,Exchange
+43,72,Ott Black,Neighbours (of Maude Black),Directed,1,18,Exchange
+43,405,Ott Black,Seraph Milk (Mooshum),Directed,1,18,Knows
+405,42,Seraph Milk (Mooshum),"""Mustache"" Maude Black",Directed,1,18,Exchange
+405,74,Seraph Milk (Mooshum),Doctor (who Maude sent for),Directed,1,18,Knows of
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,18,Exchange
+405,411,Seraph Milk (Mooshum),Junesse Malaterre,Directed,1,18,Knows
+405,73,Seraph Milk (Mooshum),Man (who Ott shot in the leg),Directed,1,18,Knows of
+405,72,Seraph Milk (Mooshum),Neighbours (of Maude Black),Directed,1,18,Knows of
+405,43,Seraph Milk (Mooshum),Ott Black,Directed,1,18,Knows
+42,87,"""Mustache"" Maude Black",Chief Gall,Directed,1,19,Knows
+42,43,"""Mustache"" Maude Black",Ott Black,Directed,1,19,Knows
+42,405,"""Mustache"" Maude Black",Seraph Milk (Mooshum),Directed,1,19,Knows
+87,42,Chief Gall,"""Mustache"" Maude Black",Directed,1,19,Knows
+404,406,Clemence Harp,Edward Harp,Directed,1,19,Knows
+404,400,Clemence Harp,Evelina Harp,Directed,1,19,Knows
+404,407,Clemence Harp,Joseph Harp,Directed,1,19,Knows
+404,411,Clemence Harp,Junesse Malaterre,Directed,1,19,Knows
+404,405,Clemence Harp,Seraph Milk (Mooshum),Directed,1,19,Knows
+406,404,Edward Harp,Clemence Harp,Directed,1,19,Knows
+406,400,Edward Harp,Evelina Harp,Directed,1,19,Knows
+406,407,Edward Harp,Joseph Harp,Directed,1,19,Knows
+406,405,Edward Harp,Seraph Milk (Mooshum),Directed,1,19,Knows
+400,42,Evelina Harp,"""Mustache"" Maude Black",Directed,1,19,Knows of
+400,87,Evelina Harp,Chief Gall,Directed,1,19,Knows of
+400,404,Evelina Harp,Clemence Harp,Directed,1,19,Knows
+400,406,Evelina Harp,Edward Harp,Directed,1,19,Knows
+400,408,Evelina Harp,Geraldine Milk,Directed,1,19,Knows
+400,57,Evelina Harp,Jesus,Directed,1,19,Knows of
+400,326,Evelina Harp,Joseph (biblical figure),Directed,1,19,Knows of
+400,407,Evelina Harp,Joseph Harp,Directed,1,19,Knows
+400,411,Evelina Harp,Junesse Malaterre,Directed,1,19,Knows
+400,73,Evelina Harp,Man (who Ott shot in the leg),Directed,1,19,Knows of
+400,136,Evelina Harp,Mary (biblical figure),Directed,1,19,Knows of
+400,43,Evelina Harp,Ott Black,Directed,1,19,Knows of
+400,405,Evelina Harp,Seraph Milk (Mooshum),Directed,1,19,Exchange
+400,86,Evelina Harp,Seraph and Junesse's Other Children,Directed,1,19,Knows of
+400,91,Evelina Harp,"The ""black-haired"" Stooge",Directed,1,19,Knows of
+400,409,Evelina Harp,Uncle Whitey,Directed,1,19,Knows
+408,400,Geraldine Milk,Evelina Harp,Directed,1,19,Knows
+408,411,Geraldine Milk,Junesse Malaterre,Directed,1,19,Knows
+408,405,Geraldine Milk,Seraph Milk (Mooshum),Directed,1,19,Knows
+57,136,Jesus,Mary (biblical figure),Directed,1,19,Knows
+326,57,Joseph (biblical figure),Jesus,Directed,1,19,Knows of
+326,136,Joseph (biblical figure),Mary (biblical figure),Directed,1,19,Knows
+407,404,Joseph Harp,Clemence Harp,Directed,1,19,Knows
+407,406,Joseph Harp,Edward Harp,Directed,1,19,Knows
+407,400,Joseph Harp,Evelina Harp,Directed,1,19,Knows
+407,405,Joseph Harp,Seraph Milk (Mooshum),Directed,1,19,Knows
+411,404,Junesse Malaterre,Clemence Harp,Directed,1,19,Knows
+411,408,Junesse Malaterre,Geraldine Milk,Directed,1,19,Knows
+411,405,Junesse Malaterre,Seraph Milk (Mooshum),Directed,1,19,Knows
+411,86,Junesse Malaterre,Seraph and Junesse's Other Children,Directed,1,19,Knows
+411,409,Junesse Malaterre,Uncle Whitey,Directed,1,19,Knows
+136,57,Mary (biblical figure),Jesus,Directed,1,19,Knows
+136,326,Mary (biblical figure),Joseph (biblical figure),Directed,1,19,Knows
+43,42,Ott Black,"""Mustache"" Maude Black",Directed,1,19,Knows
+43,73,Ott Black,Man (who Ott shot in the leg),Directed,1,19,Exchange
+405,42,Seraph Milk (Mooshum),"""Mustache"" Maude Black",Directed,1,19,Knows
+405,87,Seraph Milk (Mooshum),Chief Gall,Directed,1,19,Knows of
+405,404,Seraph Milk (Mooshum),Clemence Harp,Directed,1,19,Knows
+405,406,Seraph Milk (Mooshum),Edward Harp,Directed,1,19,Knows
+405,400,Seraph Milk (Mooshum),Evelina Harp,Directed,1,19,Exchange
+405,408,Seraph Milk (Mooshum),Geraldine Milk,Directed,1,19,Knows
+405,407,Seraph Milk (Mooshum),Joseph Harp,Directed,1,19,Knows
+405,411,Seraph Milk (Mooshum),Junesse Malaterre,Directed,1,19,Knows
+405,86,Seraph Milk (Mooshum),Seraph and Junesse's Other Children,Directed,1,19,Knows
+405,91,Seraph Milk (Mooshum),"The ""black-haired"" Stooge",Directed,1,19,Knows of
+405,409,Seraph Milk (Mooshum),Uncle Whitey,Directed,1,19,Knows
+86,411,Seraph and Junesse's Other Children,Junesse Malaterre,Directed,1,19,Knows
+86,405,Seraph and Junesse's Other Children,Seraph Milk (Mooshum),Directed,1,19,Knows
+409,400,Uncle Whitey,Evelina Harp,Directed,1,19,Knows
+409,411,Uncle Whitey,Junesse Malaterre,Directed,1,19,Knows
+409,405,Uncle Whitey,Seraph Milk (Mooshum),Directed,1,19,Knows
+410,400,Corwin Peace,Evelina Harp,Directed,1,20,Exchange
+400,410,Evelina Harp,Corwin Peace,Directed,1,20,Exchange
