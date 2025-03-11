@@ -5,7 +5,7 @@
 		<field Field="character_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
 		<field Field="character_name" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
 		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="130" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="131" Avg_row_length="125" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="225" Create_time="2024-09-23 21:58:43" Update_time="2025-03-06 22:48:02" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="130" Avg_row_length="126" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="225" Create_time="2024-09-23 21:58:43" Update_time="2025-03-06 22:48:02" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="characters">
 	<row>
