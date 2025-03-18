@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Load the nodes and edges CSV files
-nodes_df = pd.read_csv('TFNovelNodesMar62025.csv')
-edges_df = pd.read_csv('TownFeverMar62025.csv')
+nodes_df = pd.read_csv('DemolitionNovelNodesMar62025.csv')
+edges_df = pd.read_csv('Demolition2Mar62025.csv')
 
 # Function to find and replace 'id' and 'label' in nodes and edges dataframes
 def find_and_replace_multiple(nodes_df, edges_df, replacements):
@@ -29,16 +29,19 @@ def find_and_replace_multiple(nodes_df, edges_df, replacements):
 
 # List of replacements: (old_id, new_id, new_label)
 replacements = [
-    (7, 430, "Henri Morriseau"),
-    (278, 431, "Lafayette St. Pierre"),
-    (349, 432, "Doctor's Dauther"),
-    (350, 433, "Local Doctor"),
+    (334, 480, "Sprecht"),
+    (4, 481, "Narrator"),
+    (250, 482, "C.'s Patients"),
+    (338, 483, "C.'s Receptionist"),
+    (6, 484, "C."),
+    (281, 485, "Narrator's Mother"),
+    (225, 486, "Narrator's Father"),
 ]
 
 find_and_replace_multiple(nodes_df, edges_df, replacements)
 
 # Save the updated dataframes back to CSV files
-nodes_df.to_csv('TFStorynodesMar112025.csv', index=False)
-edges_df.to_csv('TFStoryedgesMar112025.csv', index=False)
+nodes_df.to_csv('DemolitionStoryNodesMar182025.csv', index=False)
+edges_df.to_csv('DemolitionStoryEdgesMar182025.csv', index=False)
 
 print("The 'id' values and their corresponding 'label' have been successfully updated in both spreadsheets.")

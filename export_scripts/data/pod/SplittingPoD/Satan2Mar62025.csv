@@ -1,54 +1,32 @@
 source,target,Character 1 <br />(choose),Character 2 <br />(choose),type,weight,startPage,category
 51,80,Billy Peace,Billy Peace's Father,Directed,1,160,Knows
 51,81,Billy Peace,Billy Peace's Mother,Directed,1,160,Knows
-51,81,Billy Peace,Billy Peace's Mother,Directed,1,161,Knows
-51,78,Billy Peace,Judah Peace,Directed,1,161,Exchange
-51,79,Billy Peace,Lilith Peace,Directed,1,161,Exchange
 51,28,Billy Peace,Maggie Peace,Directed,1,160,Knows
-51,28,Billy Peace,Maggie Peace,Directed,1,161,Knows
 51,5,Billy Peace,Marn Wolde,Directed,1,160,Exchange
-51,5,Billy Peace,Marn Wolde,Directed,1,161,Exchange
 80,51,Billy Peace's Father,Billy Peace,Directed,1,160,Knows
 80,81,Billy Peace's Father,Billy Peace's Mother,Directed,1,160,Knows
 80,28,Billy Peace's Father,Maggie Peace,Directed,1,160,Knows
 80,5,Billy Peace's Father,Marn Wolde,Directed,1,160,Knows of
 81,51,Billy Peace's Mother,Billy Peace,Directed,1,160,Knows
-81,51,Billy Peace's Mother,Billy Peace,Directed,1,161,Knows
 81,80,Billy Peace's Mother,Billy Peace's Father,Directed,1,160,Knows
 81,28,Billy Peace's Mother,Maggie Peace,Directed,1,160,Knows
 81,5,Billy Peace's Mother,Marn Wolde,Directed,1,160,Knows of
-81,5,Billy Peace's Mother,Marn Wolde,Directed,1,161,Knows of
-78,51,Judah Peace,Billy Peace,Directed,1,161,Exchange
-78,79,Judah Peace,Lilith Peace,Directed,1,161,Knows
-78,5,Judah Peace,Marn Wolde,Directed,1,161,Knows
-79,51,Lilith Peace,Billy Peace,Directed,1,161,Exchange
-79,78,Lilith Peace,Judah Peace,Directed,1,161,Knows
-79,5,Lilith Peace,Marn Wolde,Directed,1,161,Knows
 28,51,Maggie Peace,Billy Peace,Directed,1,160,Knows
-28,51,Maggie Peace,Billy Peace,Directed,1,161,Knows
 28,80,Maggie Peace,Billy Peace's Father,Directed,1,160,Knows
 28,81,Maggie Peace,Billy Peace's Mother,Directed,1,160,Knows
 28,5,Maggie Peace,Marn Wolde,Directed,1,160,Knows of
-28,5,Maggie Peace,Marn Wolde,Directed,1,161,Knows of
 5,51,Marn Wolde,Billy Peace,Directed,1,160,Exchange
-5,51,Marn Wolde,Billy Peace,Directed,1,161,Exchange
 5,80,Marn Wolde,Billy Peace's Father,Directed,1,160,Knows of
 5,81,Marn Wolde,Billy Peace's Mother,Directed,1,160,Knows of
-5,81,Marn Wolde,Billy Peace's Mother,Directed,1,161,Knows of
-5,78,Marn Wolde,Judah Peace,Directed,1,161,Knows
-5,79,Marn Wolde,Lilith Peace,Directed,1,161,Knows
 5,28,Marn Wolde,Maggie Peace,Directed,1,160,Knows of
-5,28,Marn Wolde,Maggie Peace,Directed,1,161,Knows of
 5,5,Marn Wolde,Marn Wolde,Directed,1,160,Knows
-5,120,Marn Wolde,Marn's Copperhead,Directed,1,160,Exchange
-5,119,Marn Wolde,Marn's Diamondback,Directed,1,160,Exchange
-5,118,Marn Wolde,Virginie,Directed,1,160,Exchange
-120,5,Marn's Copperhead,Marn Wolde,Directed,1,160,Exchange
-120,119,Marn's Copperhead,Marn's Diamondback,Directed,1,160,Knows
-120,118,Marn's Copperhead,Virginie,Directed,1,160,Knows
-119,5,Marn's Diamondback,Marn Wolde,Directed,1,160,Exchange
-119,120,Marn's Diamondback,Marn's Copperhead,Directed,1,160,Knows
-119,118,Marn's Diamondback,Virginie,Directed,1,160,Knows
-118,5,Virginie,Marn Wolde,Directed,1,160,Exchange
-118,120,Virginie,Marn's Copperhead,Directed,1,160,Knows
-118,119,Virginie,Marn's Diamondback,Directed,1,160,Knows
+51,81,Billy Peace,Billy Peace's Mother,Directed,1,161,Knows
+51,28,Billy Peace,Maggie Peace,Directed,1,161,Knows
+51,5,Billy Peace,Marn Wolde,Directed,1,161,Exchange
+81,51,Billy Peace's Mother,Billy Peace,Directed,1,161,Knows
+81,5,Billy Peace's Mother,Marn Wolde,Directed,1,161,Knows of
+28,51,Maggie Peace,Billy Peace,Directed,1,161,Knows
+28,5,Maggie Peace,Marn Wolde,Directed,1,161,Knows of
+5,51,Marn Wolde,Billy Peace,Directed,1,161,Exchange
+5,81,Marn Wolde,Billy Peace's Mother,Directed,1,161,Knows of
+5,28,Marn Wolde,Maggie Peace,Directed,1,161,Knows of
