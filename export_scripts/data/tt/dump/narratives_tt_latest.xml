@@ -1298,7 +1298,7 @@
 		<key Table="menExs" Non_unique="1" Key_name="menEx_isReciprocal_id_fk" Seq_in_index="1" Column_name="menEx_isReciprocal_id_fk" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
 		<key Table="menExs" Non_unique="1" Key_name="menEx_startPage_fk" Seq_in_index="1" Column_name="menEx_startPage" Collation="A" Cardinality="228" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
 		<key Table="menExs" Non_unique="1" Key_name="menEx_endPage_fk" Seq_in_index="1" Column_name="menEx_endPage" Collation="A" Cardinality="227" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="menExs" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="1376" Avg_row_length="83" Data_length="114688" Max_data_length="0" Index_length="344064" Data_free="0" Auto_increment="1707" Create_time="2024-09-23 21:59:29" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="menExs" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="1376" Avg_row_length="83" Data_length="114688" Max_data_length="0" Index_length="344064" Data_free="0" Auto_increment="1709" Create_time="2024-09-23 21:59:29" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="menExs">
 	<row>
@@ -16010,6 +16010,26 @@
 		<field name="menEx_isReciprocal_id_fk">0</field>
 		<field name="menEx_startPage">225</field>
 		<field name="menEx_endPage">225</field>
+	</row>
+	<row>
+		<field name="menEx_id">1707</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">66</field>
+		<field name="menEx_character2_id_fk">136</field>
+		<field name="menEx_narrContainer_id_fk">82</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">18</field>
+		<field name="menEx_endPage">18</field>
+	</row>
+	<row>
+		<field name="menEx_id">1708</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">136</field>
+		<field name="menEx_character2_id_fk">72</field>
+		<field name="menEx_narrContainer_id_fk">82</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">18</field>
+		<field name="menEx_endPage">18</field>
 	</row>
 	</table_data>
 	<table_structure name="menOrExs">
