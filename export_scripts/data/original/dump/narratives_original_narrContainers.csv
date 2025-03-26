@@ -1,0 +1,784 @@
+narrContainer_id,narrContainer_title,narrContainer_novel_id_fk,narrContainer_level_id_fk,narrContainer_parent_id,narrContainer_startPage,narrContainer_startPhrase,narrContainer_endPage,narrContainer_endPhrase,narrContainer_narrator_id_fk,narrContainer_protagonist_id_fk,narrContainer_narratee_id_fk,narrContainer_embeddedContainerType_id_fk,narrContainer_previouslyPublished_id_fk
+0,_CHOOSE CONTAINER,0,0,0,0,,0,,0,0,0,0,2
+1,E THE LAST WORDS ON EARTH,5,1,0,3,,34,,6,0,0,0,2
+20,R THE LAST WORDS ON EARTH,7,1,0,3,,34,,13,1,1,0,2
+21,R MY MOTHER'S SADNESS,7,1,0,35,,64,,16,1,1,0,2
+22,E MY MOTHER'S SADNESS,5,1,0,35,,64,,12,1,1,0,2
+23,E FORGIVE ME,5,1,0,65,,74,,15,1,1,0,2
+24,E A JOY FOREVER,5,1,0,75,,92,,6,1,1,0,2
+25,E MY FATHER'S TENT,5,1,0,93,,109,,12,1,1,0,2
+26,R FORGIVE ME,7,1,0,65,,74,,18,1,1,0,2
+27,E THE TROUBLE WITH THINKING,5,1,0,110,,118,,15,1,1,0,2
+28,R A JOY FOREVER,7,1,0,75,,92,,13,1,1,0,2
+29,E UNTIL THE WRITING HAND HURTS,5,1,0,119,,134,,6,1,1,0,2
+30,R MY FATHER'S TENT,7,1,0,93,,109,,16,1,1,0,2
+31,E FLOOD,5,1,0,135,,152,,12,1,1,0,2
+32,R THE TROUBLE WITH THINKING,7,1,0,110,,118,,18,1,1,0,2
+33,E HERE WE ARE TOGETHER,5,1,0,153,,159,,15,1,1,0,2
+34,E DIE LAUGHING,5,1,0,160,,169,,6,1,1,0,2
+35,R UNTIL THE WRITING HAND HURTS,7,1,0,119,,134,,13,1,1,0,2
+36,"E IF NOT, NOT",5,1,0,170,,182,,12,1,1,0,2
+37,R FLOOD,7,1,0,135,,152,,16,1,1,0,2
+38,E THE LAST PAGE,5,1,0,183,,191,,15,1,1,0,2
+39,E MY LIFE UNDERWATER,5,1,0,192,,202,,12,1,1,0,2
+40,R HERE WE ARE TOGETHER,7,1,0,153,,159,,18,1,1,0,2
+41,E ONE NICE THING,5,1,0,203,,207,,14,1,1,0,2
+42,R DIE LAUGHING,7,1,0,160,,169,,13,1,1,0,2
+43,E THE LAST TIME I SAW YOU,5,1,0,208,,212,,6,1,1,0,2
+44,"R IF NOT, NOT",7,1,0,170,,182,,16,1,1,0,2
+45,E WOULD A LAMED VOVNIK DO THIS?,5,1,0,213,,218,,14,1,1,0,2
+46,R THE LAST PAGE,7,1,0,183,,191,,18,1,1,0,2
+47,R MY LIFE UNDERWATER,7,1,0,192,,202,,16,1,1,0,2
+48,E A + L,5,1,0,219,,252,,0,0,0,0,2
+49,R ONE NICE THING,7,1,0,203,,207,,17,1,1,0,2
+50,R THE LAST TIME I SAW YOU,7,1,0,208,,212,,13,1,1,0,2
+51,R WOULD A LAMED VOVNIK DO THIS?,7,1,0,213,,218,,17,1,1,0,2
+52,E THE DEATH OF LEOPOLD GURSKY,5,1,0,255,,255,,6,1,1,0,2
+53,R A + L,7,1,0,219,,252,,0,0,0,0,2
+54,R THE DEATH OF LEOPOLD GURSKY,7,1,0,255,,255,,13,1,1,0,2
+92,E 1. MY NAME IS ALMA SINGER,5,2,22,35,,35,,12,1,1,0,2
+93,E 2. WHAT I AM NOT,5,2,22,36,,36,,12,1,1,0,2
+94,E 3. MY BROTHER BELIEVES IN GOD,5,2,22,36,,37,,12,1,1,0,2
+95,R THE LAST WORDS ON EARTH [1.1],7,2,20,3,When they write my obituary.,13,...when he has vanished completely?,13,12,1,0,2
+96,E 4. MY FATHER DIED WHEN I WAS SEVEN,5,2,22,37,,38,,12,1,1,0,2
+97,E 5. THE DEAD SEA IS THE LOWEST PLACE ON EARTH,5,2,22,38,,38,,12,1,1,0,2
+98,R THE LAST WORDS ON EARTH [1.2],7,2,20,14,THE NIGHT BEFORE...,34,Then I went out the door and into the morning.,13,12,1,0,2
+99,E 6. NO TWO PEOPLE LOOKED LESS ALIKE THAN MY MOTHER AND FATHER,5,2,22,38,,38,,12,1,1,0,2
+100,R 1. MY NAME IS ALMA SINGER,7,2,21,35,,35,,16,13,1,0,2
+101,R 2. WHAT I AM NOT,7,2,21,36,,36,,16,13,1,0,2
+102,E 7. THERE IS A PHOTOGRAPH OF MY MOTHER THAT NO ONE HAS EVER SEEN,5,2,22,38,,39,,12,1,1,0,2
+103,R 3. MY BROTHER BELIEVES IN GOD,7,2,21,36,,37,,16,13,1,0,2
+104,E 8. MY MOTHER IS THE MOST STUBBORN PERSON I KNOW,5,2,22,39,,40,,12,1,1,0,2
+105,R 4. MY FATHER DIED WHEN I WAS SEVEN,7,2,21,37,,38,,16,13,1,0,2
+106,E 9. WHAT FOLLOWED WERE THE HAPPIEST YEARS OF THEIR LIVES,5,2,22,40,,40,,12,1,1,0,2
+107,R 5. THE DEAD SEA IS THE LOWEST PLACE ON EARTH,7,2,21,38,,38,,16,13,1,0,2
+108,E 10. THEY MOVED TO NEW YORK AND HAD ME,5,2,22,41,,41,,12,1,1,0,2
+109,R 6. NO TWO PEOPLE LOOKED LESS ALIKE THAN MY MOTHER AND FATHER,7,2,21,38,,38,,16,13,1,0,2
+110,R 7. THERE IS A PHOTOGRAPH OF MY MOTHER THAT NO ONE HAS EVER SEEN,7,2,21,38,,39,,16,13,1,0,2
+111,R 8. MY MOTHER IS THE MOST STUBBORN PERSON I KNOW,7,2,21,39,,40,,16,13,1,0,2
+112,R 9. WHAT FOLLOWED WERE THE HAPPIEST YEARS OF THEIR LIVES,7,2,21,40,,40,,16,13,1,0,2
+113,R 10. THEY MOVED TO NEW YORK AND HAD ME,7,2,21,41,,41,,16,13,1,0,2
+114,R 11. I WAS SIX WHEN MY FATHER WAS DIAGNOSED WITH PANCREATIC CANCER,7,2,21,41,,41,,16,13,1,0,2
+115,R 12. HE LIKED TO COOK AND LAUGH AND SING...,7,2,21,41,,41,,16,13,1,0,2
+116,R 13. MY FATHER WAS NOT A FAMOUS RUSSIAN WRITER,7,2,21,41,,42,,16,13,1,0,2
+117,R 14. AT THE END OF THE WORLD,7,2,21,42,,43,,16,13,1,0,2
+118,R 15. WHENEVER I WENT OUT TO PLAY...,7,2,21,43,,43,,16,13,1,0,2
+119,R 16. EVERYTHING IS REMADE AS REASON,7,2,21,43,,44,,16,13,1,0,2
+120,R 17. CARROTS,7,2,21,44,,45,,16,13,1,0,2
+121,R 18. MY MOTHER NEVER FELL OUT OF LOVE WITH MY FATHER,7,2,21,45,,46,,16,13,1,0,2
+122,R 19. THE WALL OF DICTIONARIES...,7,2,21,46,,46,,16,13,1,0,2
+123,R 20. MY MOTHER HAS ONLY BEEN ON TWO DATES SINCE MY FATHER DIED,7,2,21,46,,48,,16,13,1,0,2
+124,R 21. I THOUGHT IT WAS JUST THAT SHE HADN'T MET THE RIGHT PERSON,7,2,21,48,,49,,16,13,1,0,2
+125,R 22. THAT YEAR I WORE MY FATHER'S SWEATER FOR FORTY-TWO DAYS STRAIGHT,7,2,21,49,,49,,16,13,1,0,2
+126,R 23. MY MOTHER KEEPS A PHOTOGRAPH OF MY FATHER ON THE WALL NEXT TO HER DESK,7,2,21,50,,50,,16,13,1,0,2
+127,R 24. ALL THE FRIENDS I EVER HAD ARE GONE,7,2,21,50,,52,,16,13,1,0,2
+128,"R 25. MY BROTHER, THE MESSIAH",7,2,21,52,,53,,16,13,1,0,2
+129,R 26. THE SITUATION VERGED ON CRITICAL,7,2,21,53,,54,,16,13,1,0,2
+130,R 27. ONE THING I AM NEVER GOING TO DO WHEN I GROW UP,7,2,21,54,,54,,16,13,1,0,2
+131,R 28. A HUNDRED THINGS CAN CHANGE YOUR LIFE; A LETTER IS ONE,7,2,21,55,,57,,16,13,1,0,2
+132,R 29. MY MOTHER USED TO READ TO ME FROM THE HISTORY OF LOVE,7,2,21,57,,58,,16,13,1,0,2
+133,R 30. THE ITALIAN POST TAKES SO LONG; THINGS GET LOST AND LIVES ARE RUINED FOREVER,7,2,21,58,,59,,16,13,1,0,2
+134,R 31. EVERY ISRAELITE HOLDS THE HONOR OF HIS ENTIRE PEOPLE IN HIS HANDS,7,2,21,59,,60,,16,13,1,0,2
+135,R 32. FOR TWO MONTHS MY MOTHER HARDLY LEFT THE HOUSE,7,2,21,60,,61,,16,13,1,0,2
+136,"R 33. THE HISTORY OF LOVE, CHAPTER 10",7,2,21,61,,64,,16,13,1,0,2
+137,R 34. THERE WAS NOTHING LEFT TO LOSE,7,2,21,64,,64,,16,13,1,0,2
+140,R 1. MY FATHER DID NOT LIKE TO WRITE LETTERS,7,2,30,93,,93,,16,13,1,0,2
+141,R 2. HE GAVE ME A PEN THAT COULD WORK WITHOUT GRAVITY,7,2,30,94,,94,,16,13,1,0,2
+142,R 3. THE MAN WHO COULDN'T ESCAPE GRAVITY,7,2,30,94,,95,,16,13,1,0,2
+143,R 4. I SEARCHED FOR OTHER FORMS OF LIFE,7,2,30,95,,97,,16,13,1,0,2
+144,R 5. ONCE I USED THE PEN TO WRITE TO MY FATHER,7,2,30,97,,98,,16,13,1,0,2
+145,R 6. IF I HAD A RUSSIAN ACCENT EVERYTHING WOULD BE DIFFERENT,7,2,30,98,,99,,16,13,1,0,2
+146,R 7. THE BOY WITH THE ACCORDION,7,2,30,100,,101,,16,13,1,0,2
+147,R 8. Блядь,7,2,30,101,,101,,16,13,1,0,2
+148,R 9. THE MAN WHO SEARCHED FOR A STONE,7,2,30,101,,103,,16,13,1,0,2
+149,R 10. I READ THE LETTER ONE HUNDRED TIMES,7,2,30,104,,105,,16,13,1,0,2
+150,R 11. HOW I AM,7,2,30,105,,105,,16,13,1,0,2
+151,R 12. NOT MUCH,7,2,30,106,,106,,16,13,1,0,2
+152,R 13. THE ETERNAL DISAPPOINTMENT OF LIFE AS IT IS,7,2,30,106,,108,,16,13,1,0,2
+153,R 14. THE BIRTH OF FEELING,7,2,30,108,,109,,16,13,1,0,2
+155,R UNTIL THE WRITING HAND HURTS [1.1],7,2,35,119,The pages I'd written so long ago...,129,And it was just as frightening as it ever was.,13,12,0,0,2
+156,R UNTIL THE WRITING HAND HURTS [1.2],7,2,35,129,I SAT HUNCHED...,132,...door after door swung open.,13,12,0,0,2
+157,R UNTIL THE WRITING HAND HURTS [1.3],7,2,35,132,AFTER THE LIBRARY...,134,It's not nothing.,13,12,0,0,2
+158,R 1. HOW TO MAKE A FIRE WITHOUT MATCHES,7,2,37,135,,135,,16,13,1,0,2
+159,R 2. ALL THE TIME MY BROTHER SAVES MY LIFE,7,2,37,135,,136,,16,13,1,0,2
+160,R 3. BUT WHY,7,2,37,136,,136,,16,13,1,0,2
+161,R 4. LOST AT SEA,7,2,37,136,,137,,16,13,1,0,2
+162,R 5. THE THINGS I WANT TO SAY GET STUCK IN MY MOUTH,7,2,37,137,,137,,16,13,1,0,2
+163,R 6. LOOKING FOR SOMEONE WHO MOST LIKELY DOESN'T EXIST,7,2,37,137,,138,,16,13,1,0,2
+164,R 7. IF THINGS GO ON LIKE THIS,7,2,37,138,,139,,16,13,1,0,2
+165,R 8. INTERGLACIAL,7,2,37,139,,140,,16,13,1,0,2
+166,R 9. IF SHE'S REAL,7,2,37,140,,141,,16,13,1,0,2
+167,R 10. THEN,7,2,37,141,,142,,16,13,1,0,2
+168,E 11. I WAS SIX WHEN MY FATHER WAS DIAGNOSED WITH PANCREATIC,5,2,22,41,,41,,12,1,1,0,2
+169,R 11. A WEEK PASSED AND MISHA AND I DIDN'T SPEAK,7,2,37,142,,142,,16,13,1,0,2
+170,"E 12. HE LIKED TO COOK AND LAUGH AND SING, COULD START A FIRE WITH HIS HANDS...",5,2,22,41,,41,,12,1,1,0,2
+171,R 12. MEMORIES PASSED DOWN TO ME FROM MY FATHER,7,2,37,143,,143,,16,13,1,0,2
+172,R 13. TWO WEEKS PASSED...,7,2,37,143,,144,,16,13,1,0,2
+173,E 13. MY FATHER WAS NOT A FAMOUS RUSSIAN WRITER,5,2,22,41,,42,,12,1,1,0,2
+174,R 14. THEN I HAD AN IDEA,7,2,37,144,,144,,16,13,1,0,2
+175,R 15. THE NEXT DAY WAS SUNDAY,7,2,37,144,,145,,16,13,1,0,2
+176,E 14. AT THE END OF THE WORLD,5,2,22,42,,43,,12,1,1,0,2
+177,"R 16. 31 CHAMBERS STREET, ROM 103",7,2,37,145,,146,,16,13,1,0,2
+178,"E 15. WHENEVER I WENT OUT TO PLAY, MY MOTHER WANTED TO KNOW EXACTLY WHERE I WAS GOING TO BE",5,2,22,43,,43,,12,1,1,0,2
+179,E 16. EVERYTHING IS REMADE AS REASON,5,2,22,43,,44,,12,1,1,0,2
+180,E 17. CARROTS,5,2,22,44,,45,,12,1,1,0,2
+181,E 18. MY MOTHER NEVER FELL OUT OF LOVE WITH MY FATHER,5,2,22,45,,46,,12,1,1,0,2
+182,E 19.  THE WALL OF DICTIONARIES BETWEEN MY MOTHER AND THE WORLD GETS TALLER EVERY YEAR,5,2,22,46,,46,,12,1,1,0,2
+183,E 20. MY MOTHER HAS ONLY BEEN ON TWO DATES SINCE MY FATHER DIED,5,2,22,46,,48,,12,1,1,0,2
+184,E 21. I THOUGHT IT WAS JUST THAT SHE HADN'T MET THE RIGHT PERSON,5,2,22,48,,49,,12,1,1,0,2
+185,E 22. THAT YEAR I WORE MY FATHER'S SWEATER FOR FORTY-TWO DAYS STRAIGHT,5,2,22,49,,49,,12,1,1,0,2
+186,E 23. MY MOTHER KEEPS A PHOTOGRAPH OF MY FATHER ON THE WALL NEXT TO HERDESK,5,2,22,50,,50,,12,1,1,0,2
+187,E 24. ALL THE FRIENDS I EVER HAD ARE GONE,5,2,22,50,,52,,12,1,1,0,2
+188,E 25. MY BROTHER THE MESSIAH,5,2,22,52,,53,,12,1,1,0,2
+189,E 26. THE SITUATION VERGED ON CRITICAL,5,2,22,53,,54,,12,1,1,0,2
+190,E 27. ONE THING I AM NEVER GOING TO DO WHEN I GROW UP,5,2,22,54,,54,,12,1,1,0,2
+191,R 17. THE WORST MISTAKE MY MOTHER EVER MADE,7,2,37,146,,146,,16,13,1,0,2
+192,E 28. A HUNDRED THINGS CAN CHANGE YOUR LIFE; A LETTER IS ONE,5,2,22,55,,57,,12,1,1,0,2
+193,R 18. THEN IT WAS TUESDAY,7,2,37,147,,148,,16,13,1,0,2
+194,R 19. LONELY PEOPLE ARE ALWAYS UP IN THE MIDDLE OF THE NIGHT,7,2,37,148,,148,,16,13,1,0,2
+195,R 20. AWAKE IN THE DARK,7,2,37,148,,149,,16,13,1,0,2
+196,E 29. MY MOTHER USED TO READ TO ME FROM THE HISTORY OF LOVE,5,2,22,57,,58,,12,1,1,0,2
+197,R 21. SHE MUST HAVE GOTTEN MARRIED!,7,2,37,149,,149,,16,13,1,0,2
+198,R 22. BEING NORMAL,7,2,37,149,,149,,16,13,1,0,2
+199,E 30. THE ITALIAN POST TAKES SO LONG; THINGS GET LOST AND LIVES ARE RUINED FOREVER,5,2,22,58,,59,,12,1,1,0,2
+200,E 31. EVERY ISRAELITE HOLDS THE HONOR OF HIS ENTIRE PEOPLE IN HIS HANDS,5,2,22,59,,60,,12,1,1,0,2
+201,R April 9,7,2,37,149,,149,,17,15,1,0,2
+202,R April 10,7,2,37,150,,150,,17,15,1,0,2
+203,R April 11,7,2,37,150,,151,,17,15,1,0,2
+204,E 32. FOR TWO MONTHS MY MOTHER HARDLY LEFT THE HOUSE,5,2,22,60,,61,,12,1,1,0,2
+205,"E 33. THE HISTORY OF LOVE, CHAPTER 10",5,2,22,61,,64,,12,1,1,0,2
+206,R June 27,7,2,37,151,,151,,17,15,1,0,2
+207,E 34.  THERE WAS NOTHING LEFT TO LOSE,5,2,22,64,,64,,12,1,1,0,2
+208,R June 28,7,2,37,151,,152,,17,15,1,0,2
+210,"R 23. OUTSIDE, IT WAS STILL COMING DOWN",7,2,37,152,,152,,16,13,1,0,2
+213,R 1. WHAT I LOOK LIKE NAKED,7,2,44,170,,170,,16,13,1,0,2
+214,R 2. MY MOTHER LOOKS RIGHT THROUGH ME,7,2,44,171,,171,,16,13,1,0,2
+215,R 3. ALL THE LIES I'VE EVER TOLD WILL COME BACK TO ME ONE DAY,7,2,44,172,,173,,16,13,1,0,2
+216,R 4. THE BROKEN LIGHTBULB,7,2,44,173,,175,,16,13,1,0,2
+218,R 5. THERE ARE NO PAY PHONES IN THE ARCTIC,7,2,44,175,,175,,16,13,1,0,2
+219,R 6. I KNOCK AND SHE ASNWERS,7,2,44,175,,176,,16,13,1,0,2
+220,R 7. I'M SICK OF FAMOUS WRITERS,7,2,44,176,,177,,16,13,1,0,2
+221,E 1. MY FATHER DID NOT LIKE TO WRITE LETTERS,5,2,25,93,,93,,12,1,1,0,2
+222,R 8. UNCLE JULIAN,7,2,44,177,,179,,16,13,1,0,2
+223,R 9. MERDE,7,2,44,179,,180,,16,13,1,0,2
+224,E 2. HE GAVE ME PEN THAT COULD WORK WITHOUT GRAVITY,5,2,25,94,,94,,12,1,1,0,2
+225,R 10. MEMORIES PASSED DOWN TO ME FROM MY MOTHER,7,2,44,180,,180,,16,13,1,0,2
+226,E 3. THE MAN WHO COULDN'T ESCAPE GRAVITY,5,2,25,94,,95,,12,1,1,0,2
+227,E 4. I SEARCHED OUT OTHER FORMS OF LIFE,5,2,25,95,,97,,12,1,1,0,2
+228,R 11. HOW TO RESTORE A HEARTBEAT,7,2,44,181,,181,,16,13,1,0,2
+229,R 12. I GAVE UP,7,2,44,181,,182,,16,13,1,0,2
+230,E 5. ONCE I USED THE PEN TO WRITE MY FATHER,5,2,25,97,,98,,12,0,0,0,2
+231,R 13. THEN IT WAS SEPTEMBER,7,2,44,182,,182,,16,13,1,0,2
+232,E 6. IF I HAD A RUSSIAN ACCENT EVERYTHING WOULD BE DIFFERENT,5,2,25,98,,99,,12,1,1,0,2
+233,E 7. THE BOY WITH THE ACCORDION,5,2,25,100,,101,,12,1,1,0,2
+234,E 8. Блядь,5,2,25,101,,101,,12,1,1,0,2
+235,R THE LAST PAGE [1.1],7,2,46,183,In the beginning it was easy.,187,...locked with a key he thought he'd hidden.,18,17,0,0,2
+236,R THE LAST PAGE [1.2],7,2,46,187,We always woke at five or six in the morning...,191,...and hurried out to the car.,18,17,0,0,2
+237,R 1. THE LONGDING THAT EXISTS BETWEEN SPECIES,7,2,47,192,,192,,16,13,1,0,2
+238,R 2. SELF-PORTRAIT WITH BREASTS,7,2,47,193,,193,,16,13,1,0,2
+239,R 3. HOW TO WATERPROFF YOUR BROTHER,7,2,47,193,,194,,16,13,1,0,2
+240,"R 4. THE MORE I THOUGHT ABOUT IT, THE MORE MY STOMACH HURT",7,2,47,194,,194,,16,13,1,0,2
+241,R 5. ONCE,7,2,47,195,,195,,16,13,1,0,2
+242,R 6. I READ IT AGAIN,7,2,47,195,,195,,16,13,1,0,2
+243,R 7. AND AGAIN,7,2,47,196,,196,,16,13,1,0,2
+244,R 8. AND AGAIN,7,2,47,196,,196,,16,13,1,0,2
+245,R 9. HOLY COW,7,2,47,196,,196,,16,13,1,0,2
+246,R 10. THE SITUATION,7,2,47,196,,196,,16,13,1,0,2
+247,R 11. WAITING,7,2,47,197,,197,,16,13,1,0,2
+248,R 12. ALL THE FRIENDS I EVER HAD,7,2,47,197,,198,,16,13,1,0,2
+249,"R 13. IN ANOTHER ROOM, MY MOTHER SLEPT CURLED NEXT TO THE WARMTH OF A PILE OF BOOKS",7,2,47,198,,198,,16,13,1,0,2
+250,R 14. I TRIED NOT TO THINK ABOUT,7,2,47,198,,198,,16,13,1,0,2
+251,R 15. I SHOULD,7,2,47,198,,199,,16,13,1,0,2
+252,R 16. A HUNDRED THINGS CAN CHANGE YOUR LIFE,7,2,47,199,,199,,16,13,1,0,2
+253,R 17. LOOK AT ME,7,2,47,199,,200,,16,13,1,0,2
+254,R 18. I TOLD HIM THE WHOLE STORY ABOUT THE HISTORY OF LOVE,7,2,47,200,,200,,16,13,1,0,2
+255,R 19. I JUST DO,7,2,47,200,,201,,16,13,1,0,2
+256,"R 20. SHALLON, SHALLOP, SHALLOT, SHALLOW",7,2,47,201,,201,,16,13,1,0,2
+257,"R 21. SHALOM, SHAM, SHAMAN, SHAMBLE",7,2,47,201,,201,,16,13,1,0,2
+258,R 22. I DECIDED THERE WAS NOTHING LEFT TO LOSE,7,2,47,201,,202,,16,13,1,0,2
+259,R September 28,7,2,49,203,,203,,17,15,1,0,2
+260,R September 29,7,2,49,204,,204,,17,15,1,0,2
+261,R September 30,7,2,49,204,,205,,17,15,1,0,2
+262,R October 1,7,2,49,205,,205,,17,15,1,0,2
+263,R October 2,7,2,49,206,,206,,17,15,1,0,2
+264,R October 3,7,2,49,206,,207,,17,15,1,0,2
+265,R October 4,7,2,49,207,,207,,17,15,1,0,2
+267,R October 5,7,2,51,213,,215,,17,15,1,0,2
+268,R October 6,7,2,51,215,,218,,17,15,1,0,2
+269,R October 7,7,2,51,218,,218,,17,15,1,0,2
+270,R A + L [1.1],7,2,53,219,,219,,16,13,0,0,2
+271,R A + L [1.2],7,2,53,220,,220,,13,12,0,0,2
+272,R A + L [1.3],7,2,53,221,,221,,16,13,0,0,2
+273,R A + L [1.4],7,2,53,222,,222,,13,12,0,0,2
+274,R A + L [1.5],7,2,53,223,,223,,16,13,0,0,2
+275,R A + L [1.6],7,2,53,224,,224,,13,12,0,0,2
+276,R A + L [1.7],7,2,53,225,,225,,16,13,0,0,2
+277,R A + L [1.8],7,2,53,226,,226,,13,12,0,0,2
+278,R A + L [1.9],7,2,53,227,,227,,16,13,0,0,2
+279,R A + L [2.1],7,2,53,228,,228,,13,12,0,0,2
+280,R A + L [2.2],7,2,53,229,,229,,16,13,0,0,2
+281,R A + L [2.3],7,2,53,230,,230,,13,12,0,0,2
+282,R A + L [2.4],7,2,53,231,,231,,16,13,0,0,2
+283,R A + L [2.5],7,2,53,232,,232,,13,12,0,0,2
+284,R A + L [2.6],7,2,53,233,,233,,16,13,0,0,2
+285,R A + L [2.7],7,2,53,234,,234,,13,12,0,0,2
+286,R A + L [2.8],7,2,53,235,,235,,16,13,0,0,2
+287,R A + L [2.9],7,2,53,236,,236,,13,12,0,0,2
+288,R A + L [3.1],7,2,53,237,,237,,16,13,0,0,2
+289,R A + L [3.2],7,2,53,238,,238,,13,12,0,0,2
+290,R A + L [3.3],7,2,53,239,,239,,16,13,0,0,2
+291,R A + L [3.4],7,2,53,240,,240,,13,12,0,0,2
+292,R A + L [3.5],7,2,53,241,,241,,16,13,0,0,2
+293,R A + L [3.6],7,2,53,242,,242,,13,12,0,0,2
+294,R A + L [3.7],7,2,53,243,,243,,16,13,0,0,2
+295,R A + L [3.8],7,2,53,244,,244,,13,12,0,0,2
+296,R A + L [3.9],7,2,53,245,,245,,16,13,0,0,2
+297,R A + L [4.1],7,2,53,246,,246,,13,12,0,0,2
+298,R A + L [4.2],7,2,53,247,,247,,16,13,0,0,2
+299,R A + L [4.3],7,2,53,248,,250,,13,12,0,0,2
+300,R A + L [4.4],7,2,53,251,,251,,16,13,0,0,2
+301,R A + L [4.5],7,2,53,252,,252,,13,12,0,0,2
+303,E 9. THE MAN WHO SEARCHED FOR A STONE,5,2,25,101,,103,,12,1,1,0,2
+304,E 10. I READ THE LETTER ONE HUNDRED TIMES,5,2,25,104,,105,,12,1,1,0,2
+305,E 11. HOW I AM,5,2,25,105,,105,,12,1,1,0,2
+306,E 12. NOT MUCH,5,2,25,106,,106,,12,1,1,0,2
+307,E 13. THE ETERNAL DISAPPOINTMENT OF LIFE AS IT IS,5,2,25,106,,108,,12,1,1,0,2
+308,E 14. THE BIRTH OF FEELING,5,2,25,108,,109,,12,1,1,0,2
+311,E 1. HOW TO MAKE A FIRE WITHOUT MATCHES,5,2,31,135,,135,,12,1,1,0,2
+312,E 2. ALL THE TIME MY BROTHER SAVES MY LIFE,5,2,31,135,,136,,12,1,1,0,2
+313,E 3. BUT WHY,5,2,31,136,,136,,12,1,1,0,2
+314,E 4. LOST AT SEA,5,2,31,136,,137,,12,1,1,0,2
+315,E 5. THE THINGS I WANT TO SAY GET STUCK IN MY MOUTH,5,2,31,137,,137,,12,1,1,0,2
+316,E 6. LOOKING FOR SOMEONE WHO DOESN'T EXIST,5,2,31,137,,138,,12,1,1,0,2
+317,E 7. IF THINGS GO ON LIKE THIS,5,2,31,138,,139,,12,1,1,0,2
+318,E 8. INTERGLACIAL,5,2,31,139,,140,,12,1,1,0,2
+319,E 9. IF SHE'S REAL,5,2,31,140,,141,,12,1,1,0,2
+320,E 10. THEN,5,2,31,141,,142,,12,1,1,0,2
+321,E 11. A WEEK PASSED AND MISHA AND I DIDN'T SPEAK,5,2,31,142,,142,,12,1,1,0,2
+322,E 12. MEMORIES PASSED DOWN TO ME FROM MY FATHER,5,2,31,143,,143,,12,1,1,0,2
+323,"E 13. TWO WEEKS PASSED, MISHA AND I STILL HADN'T SPOKEN, UNCLE JULIAN...",5,2,31,143,,144,,12,1,1,0,2
+324,E 14. THEN I HAD IDEA,5,2,31,144,,144,,12,1,1,0,2
+325,E 15. THE NEXT DAY WAS SUNDAY,5,2,31,144,,145,,12,1,1,0,2
+326,"E 16. 31 CHAMBERS STREET, ROOM 103",5,2,31,145,,146,,12,1,1,0,2
+327,E 17. THE WORST MISTAKE MY MOTHER EVER MADE,5,2,31,146,,146,,12,1,1,0,2
+328,E 18. THEN IT WAS TUESDAY,5,2,31,147,,148,,12,1,1,0,2
+329,E 19. LONELY PEOPLE ARE ALWAYS UP IN THE MIDDLE OF THE NIGHT,5,2,31,148,,148,,12,1,1,0,2
+330,E 20. AWAKE IN THE DARK,5,2,31,148,,149,,12,1,1,0,2
+331,E 21. SHE MUST HAVE GOTTEN MARRIED!,5,2,31,149,,149,,12,1,1,0,2
+332,E 22. BEING NORMAL,5,2,31,149,,152,,12,1,1,0,2
+333,E April 9,5,2,31,149,,149,,14,1,1,0,2
+334,E April 10,5,2,31,150,,150,,12,1,1,0,2
+335,E April 11,5,2,31,150,,151,,14,1,1,0,2
+336,E June 27,5,2,31,151,,151,,14,1,1,0,2
+337,E June 28,5,2,31,151,,152,,14,1,1,0,2
+338,"E 23. OUTSIDE, IT WAS STILL COMING DOWN",5,2,31,153,,153,,12,1,1,0,2
+341,E 1. WHAT I LOOK LIKE NAKED,5,2,36,170,,170,,12,1,1,0,2
+342,E 2. MY MOTHER LOOKS RIGHT THROUGH ME,5,2,36,171,,171,,12,0,0,0,2
+343,E 3. ALL THE LIES I'VE EVER TOLD WILL COME BACK TO ME ONE DAY,5,2,36,172,,173,,12,1,1,0,2
+344,E 4. THE BROKEN LIGHTBULB,5,2,36,173,,175,,12,1,1,0,2
+345,E 5. THERE ARE NO PAY PHONES IN THE ARCTIC,5,2,36,175,,175,,12,1,1,0,2
+346,E 6. I KNOCK AND SHE ANSWERS,5,2,36,175,,176,,12,1,1,0,2
+347,E 7. I'M SICK OF FAMOUS WRITERS,5,2,36,176,,177,,12,1,1,0,2
+348,E 8. UNCLE JULIAN,5,2,36,177,,179,,12,1,1,0,2
+349,E 9. MERDE,5,2,36,179,,180,,12,1,1,0,2
+350,E 10. MEMORIES PASSED DOWN  TO ME FROM MY MOTHER,5,2,36,180,,180,,12,1,1,0,2
+351,E 11. HOW TO RESTORE A HEARTBEAT,5,2,36,181,,181,,12,1,1,0,2
+352,E 12. I GAVE UP,5,2,36,181,,182,,12,1,1,0,2
+353,E 13. THEN IT WAS SEPTEMBER,5,2,36,182,,182,,12,1,1,0,2
+355,E 1. THE LONGING THAT EXISTS BETWEEN SPECIES,5,2,39,192,,192,,12,1,1,0,2
+356,E 2. SELF-PORTRAIT WITH BREASTS,5,2,39,193,,193,,12,1,1,0,2
+357,E 3. HOW TO WATERPROOF YOUR BROTHER,5,2,39,193,,194,,12,1,1,0,2
+358,E 5. ONCE,5,2,39,195,,195,,12,1,1,0,2
+359,E 6.  I READ IT AGAIN,5,2,39,195,,195,,12,0,0,0,2
+360,E 7. AND AGAIN,5,2,39,196,,196,,12,1,1,0,2
+361,E 8. AND AGAIN,5,2,39,196,,196,,12,1,1,0,2
+362,E 9. HOLY COW,5,2,39,196,,196,,12,1,1,0,2
+363,E 10. THE SITUATION,5,2,39,196,,196,,12,1,1,0,2
+364,E 11. WAITING,5,2,39,197,,197,,12,1,1,0,2
+365,E 12.  ALL THE FRIENDS I EVER HAD,5,2,39,197,,198,,12,1,1,0,2
+366,"E 13. IN ANOTHER ROOM, MY MOTHER SLEPT CURLED NEXT TO THE WARMTH OF A PILE OF BOOKS",5,2,39,198,,198,,12,1,1,0,2
+367,E 14.  I TRIED NOT TO THINK ABOUT,5,2,39,198,,198,,12,1,1,0,2
+368,E 14. I TRIED NOT TO THINK ABOUT,5,2,39,198,,198,,12,1,1,0,2
+369,E 15. I SHOULD,5,2,39,198,,199,,12,1,1,0,2
+370,E 16. A HUNDRED THINGS CAN CHANGE YOUR LIFE,5,2,39,199,,199,,12,1,1,0,2
+371,E 17. LOOK AT ME,5,2,39,199,,200,,12,1,1,0,2
+372,E 18. I TOLD HIM THE WHOLE STORY ABOUT THE HISTORY OF LOVE,5,2,39,200,,200,,12,1,1,0,2
+373,E 19. I JUST DO,5,2,39,200,,201,,12,1,1,0,2
+374,"E 20. SHALLON, SHALLOP, SHALLOT, SHALLOW",5,2,39,201,,201,,12,1,1,0,2
+375,"E 21. SHALOM, SHAM, SHAMAN, SHAMBLE",5,2,39,201,,201,,12,1,1,0,2
+376,E 22. I DECIDED THERE WAS NOTHING LEFT TO LOSE,5,2,39,201,,202,,12,0,0,0,2
+377,E September 28,5,2,41,203,,203,,14,16,1,0,2
+378,E September 29,5,2,41,204,,204,,14,16,1,0,2
+379,E September 30,5,2,41,204,,205,,14,16,1,0,2
+380,E October 1,5,2,41,205,,205,,14,16,1,0,2
+381,E October 2,5,2,41,206,,206,,14,16,1,0,2
+382,E October 3,5,2,41,206,,207,,14,16,1,0,2
+383,E October 4,5,2,41,207,,207,,14,16,1,0,2
+385,E October 5,5,2,45,213,,215,,14,16,1,0,2
+386,E October 6,5,2,45,215,,218,,14,16,1,0,2
+387,E October 7,5,2,45,218,,218,,14,16,1,0,2
+388,E A + L 1.1,5,2,48,219,,219,,12,14,1,0,2
+389,E A + L 1.2,5,2,48,220,,220,,6,5,1,0,2
+390,E A + L 1.3,5,2,48,221,,221,,12,14,1,0,2
+391,E A + L 1.4,5,2,48,222,,222,,6,5,1,0,2
+392,E A + L 1.5,5,2,48,223,,223,,12,14,1,0,2
+393,E A + L 1.6,5,2,48,224,,224,,6,5,1,0,2
+394,E A + L 1.7,5,2,48,225,,225,,12,14,1,0,2
+395,E A + L 1.8,5,2,48,226,,226,,6,5,1,0,2
+396,E A + L 1.9,5,2,48,227,,227,,12,14,1,0,2
+397,E A + L 1.10,5,2,48,228,,228,,6,5,1,0,2
+398,E A + L 1.11,5,2,48,229,,229,,12,14,1,0,2
+399,E A + L 1.12,5,2,48,230,,230,,6,5,1,0,2
+400,E A + L 1.13,5,2,48,231,,231,,12,14,1,0,2
+401,E A + L 1.14,5,2,48,232,,232,,6,5,1,0,2
+402,E A + L 1.15,5,2,48,233,,233,,12,14,1,0,2
+403,E A + L 1.16,5,2,48,234,,234,,6,5,1,0,2
+404,E A + L 1.17,5,2,48,235,,235,,12,14,1,0,2
+405,E A + L 1.18,5,2,48,236,,236,,6,5,1,0,2
+406,E A + L 1.19,5,2,48,237,,237,,12,14,1,0,2
+407,E A + L 1.20,5,2,48,238,,238,,6,5,1,0,2
+408,E A + L 1.21,5,2,48,239,,239,,12,14,1,0,2
+409,E A + L 1.22,5,2,48,240,,240,,6,5,1,0,2
+410,E A + L 1.23,5,2,48,241,,241,,12,14,1,0,2
+411,E A + L 1.24,5,2,48,242,,242,,6,5,1,0,2
+412,E A + L 1.25,5,2,48,243,,243,,12,14,1,0,2
+413,E A + L 1.26,5,2,48,244,,244,,6,5,0,0,2
+414,E A + L 1.27,5,2,48,245,,245,,12,14,1,0,2
+415,E A + L 1.28,5,2,48,246,,246,,6,5,1,0,2
+416,E A + L 1.29,5,2,48,247,,247,,12,14,1,0,2
+417,E A + L 1.30,5,2,48,248,,250,,6,5,1,0,2
+418,E A + L 1.31,5,2,48,251,,251,,12,14,1,0,2
+419,E A + L 1.32,5,2,48,252,,252,,6,5,1,0,2
+423,R Glass Houses,7,3,98,23,It's about an angel who lives on Ludlow Street.,24,...angels can't swim.,13,1,1,8,2
+424,R Dear Ms. Singer [1.1],7,3,131,55,"Dear Ms. Singer,",56,"Yours eagerly, / Jacob Marcus",16,1,81,3,2
+425,R Dear Ms. Singer [1.2],7,3,133,58,"Dear Ms. Singer,",59,"Yours truly, / J.M.",16,1,81,3,2
+426,R Dear Mr. Marcus [1.1],7,3,135,61,"Dear Mr. Marcus,",61,"Yours, / Charlotte Singer",16,1,117,3,2
+427,"R THE HISTORY OF LOVE, CHAPTER 10",7,3,136,61,During the Age of Glass...,64,...he had chosen the wrong sentence.,16,1,1,4,2
+428,R Dear Boris,7,3,138,68,"Dear Boris,",68,Zvi,18,1,131,3,2
+429,"R THE HISTORY OF LOVE, CHAPTER 1",7,3,138,72,The first language humans had was gestures.,74,...gesture on each other's bodies to make ourselves understood.,18,1,1,4,2
+430,"R THE HISTORY OF LOVE, INTRODUCTION",7,3,138,65,I met Zvi in Valparaiso,65,...Gracia Sturmer challenged me to go speak to him.,18,1,1,1,2
+431,"R ISAAC MORITZ, NOVELIST, DEAD AT 60",7,3,139,77,"Isaac Moritz, acclaimed author of six novels including The Remedy...",77,"Mr. Moritz is survived by his brother, Bernard Moritz.",13,1,1,1,2
+432,R Dear Ms. Singer [1.3],7,3,148,102,I'm flattered by your curiosity,103,JM,16,0,81,3,2
+433,"R THE HISTORY OF LOVE, THE BIRTH OF FEELING",7,3,152,106,Just as there was a first instant...,107,...and absorbs the impact.,16,1,1,4,2
+434,"R THE HISTORY OF LOVE, CHAPTER 14",7,3,154,111,So many words get lost.,111,...is conduct a person's silence.,18,1,1,4,2
+435,R THE DEATH OF ISAAC BABEL,7,3,154,114,Only after they charged him...,115,There's no match for the silence of God,18,1,1,1,2
+436,R FRANZ KAFKA IS DEAD,7,3,154,116,He died in a tree from which he wouldn't come down.,117,...they could hear themselves,18,1,1,1,2
+437,R April 9,7,3,201,149,I have been a normal person for three days in a row.,149,So far it hasn't been that hard.,17,1,1,2,2
+438,R April 10,7,3,202,150,This is the fourth day in a row that I've acted normal.,150,...because I am definitely a lamed vovnik.,17,1,1,2,2
+439,R April 11,7,3,203,150,Today was my fifth day of being normal.,151,...I don't remember,17,1,1,2,2
+440,R June 27,7,3,206,151,So far I've made $250.50 from selling lemon-aid.,151,Only $384.50 to go.,17,1,1,2,2
+441,R June 28,7,3,208,151,Today I almost did something not normal.,152,What there's going to be is a flood.,17,1,1,2,2
+442,"R THE HISTORY OF LOVE, CHAPTER 18",7,3,235,185,HOW ANGELS SLEEP.,186,...but in the specific.,18,1,1,4,2
+443,R September 28,7,3,259,203,Today is the 10th day in a row of rain.,203,The way I felt about this was angry,17,1,1,2,2
+444,R September 29,7,3,260,204,It's been raining for 11 days.,204,If you want to remember how to say it just think of Dr. Fishinabucket.,17,1,1,2,2
+445,R September 30,7,3,261,204,Today the rain stopped and the firemen took down my ark because they said it was a fire hazard.,205,...she threw away everything that belonged to Dad.,17,1,1,2,2
+446,R October 1,7,3,262,205,Today I went to see Mr. Goldstein for the first time since I tried to go to Israel.,205,...and I understood that the thing he was crying about was me.,17,1,1,2,2
+447,R October 2,7,3,263,206,I started to rain again today...,206,I don't know if this means I am not a lamed vovnik anymore.,17,1,1,2,2
+448,R October 3,7,3,264,206,Today Dr. Vishnubakat asked me if I was feeling depressed...,207,I did not know Alma was looking for someone and I tried to think of who but I couldn't.,17,1,1,2,2
+449,R October 4,7,3,265,207,Today something terrible happened.,207,So I tried to think of someone who needed help and all of a sudden I knew the answer.,17,1,1,2,2
+450,R October 5,7,3,267,213,This morning I snuck into Alma's room...,215,I also know that if I am a real lamed vovnik I will be able to help her.,17,1,1,2,2
+451,R October 6,7,3,268,215,I pretended to be sick for the second day...,218,...and put the step ladder away.,17,1,1,2,2
+452,R October 7,7,3,269,218,Today was Saturday so I did not have to pretend I was sick again.,218,I did not know where Grand Street was but I'm almost 12 and knew I would find it.,17,1,1,2,2
+456,E 4. THE MORE I THOUGHT ABOUT IT THE MORE MY STOMACH HURT,5,2,39,194,,194,,12,14,0,0,2
+457,E THE LAST WORDS ON EARTH 1.1,5,2,1,3,,13,,6,5,0,0,2
+458,E THE LAST WORDS ON EARTH 1.2,5,2,1,14,,34,,6,5,0,0,2
+459,"April Sixth, 1928.",9,1,0,180,"Once a bitch always a bitch, what I say.",264,And once I've done that they can bring all Beale street and all bedlam in here and two of them...,21,609,0,0,2
+460,"April Eighth, 1928.",9,1,0,265,"The day dawned, bleak and chill, a moving wall of gray light out of the northeast which, instead...",321,October 1928,22,0,0,0,2
+461,"April Seventh, 1928",9,1,0,3,"Through the fence, between the curling flower spaces, I could see them hitting.",75,...even when Caddy says that I have been asleep.,23,619,0,0,2
+462,"June Second, 1910",9,1,0,76,When the shadow of the sash appeared on the curtains it was between seven and eight oclock...,179,"I had forgotten to brush it too, but Shreve had a brush, so I didn't have to open the bag anymore.",24,620,0,0,2
+463,'I had no answer to my letter about Quentin's easter dress....',9,2,459,190,'I had no answer to my letter about Quentin's easter dress....',190,'...You'd better wire me at once about her to this address.',21,0,0,3,2
+464,'Dear daddy wish you were here....',9,2,459,193,'Dear daddy wish you were here....',193,'...No good parties when daddys out of town I miss my sweet daddy',21,0,0,3,2
+465,"'My dear young nephew', it says,...",9,2,459,223,"'My dear young nephew', it says,...",224,'...Maury L. Bascomb.',21,0,0,3,2
+467,"RP April Seventh, 1928",10,1,0,3,"Through the fence, between the curling flower spaces, I could see them hitting.",75,...even when Caddy says that I have been asleep.,25,867,0,0,2
+468,1. The Boy Who Lived V1,11,1,0,7,,18,,0,0,0,0,2
+469,1. The Boy Who Lived V2,11,1,0,7,,8,,26,0,0,0,2
+470,Chapter I v 1 (exchanges and relationships),0,1,0,0,It is a truth,0,its solace was visiting and news,0,0,0,0,2
+471,Spring,13,1,0,95,,185,,0,0,0,0,2
+472,Summer,13,1,0,185,,206,,0,0,0,0,2
+473,"""The first twigs are thin, green, and supple.""",13,2,471,97,"""The first twigs are thin, green, and supple.""",109,"""Don't worry none', she whispered, and the honey in her words complemented the sundown...""",27,908,0,0,2
+474,SEEMOTHERMOTHERISVERYNICEMOTHERWILL YOU PLAY WITHJANEMOTHERLAUGHSLAUGHMOTHERLAUGHLA,13,2,471,110,"""SEEMOTHER...""",110,"""...LAUGHLA""",28,0,0,0,2
+475,"""The easiest thing to do would be to build a case out of her foot.""",13,2,471,110,"""The easiest thing to do would be to build a case out of her foot.""",131,"""'But like I say, I don't recollect it much anymore'""",28,909,0,0,2
+476,SEEFATHERHEISBIGANDSTRONGFATHERWILLYOUPLAYWITHJANEFATHERISSMILINGSMILEFATHERSMILESMILE,13,2,471,132,"""SEEFATHER...""",132,"""...SMILESMILE""",28,0,0,0,2
+477,"""When Cholly was four days old, his mother wrapped him in two blankets and one newspaper...""",13,2,471,132,"""When Cholly was four days old, his mother wrapped him in two blankets and one newspaper...""",163,"""So when the child regained consciousness, she was lying on the kitchen floor...""",28,910,0,0,2
+478,SEETHEDOGBOWWOWGOESTHEDOGDOYOUWANTTOPLAYDOYOUWANTTOPLAYWITHJANESEETHEDOGRUNR,13,2,471,164,"""SEETHEDOG...""",164,"""...SEETHEDOGRUNR""",28,0,0,0,2
+479,"""Once there was an old man who loved things, for the slightest contact with people produced...""",13,2,471,164,"""Once there was an old man who loved things, for the slightest contact with people produced...""",183,"""He closed his box, eased himself out on the bed, and slipped into an ivory sleep...""",28,911,0,0,2
+480,Autumn,13,1,0,7,"""Nuns go by as quiet as lust, and drunken men and sober eyes sing in the lobby of the Greek hotel.""",58,"""Marie belched, softly, purringly, lovingly.""",0,0,0,0,2
+481,Winter,13,1,0,59,"""My daddy's face is a study.""",94,"""...avoid seeing the snowflakes falling and dying on the pavement.""",0,0,0,0,2
+482,"""Here is the house."" [Dick and Jane 1]",13,1,0,3,"""Here is the house.""",4,"""theywillplayagoodgameplayjaneplay""",28,0,0,0,2
+483,"""Quiet as it's kept, there were no marigolds in the fall of 1941."" [Prologue]",13,1,0,5,"""Quiet as it's kept, there were no marigolds in the fall of 1941.""",6,"""But since why is difficult to handle, one must take refuge in how.""",27,908,0,0,2
+484,"""Nuns go by quiet as lust, and drunken men and sober eyes sing in the lobby of the Greek hotel."" [Autumn 1]",13,2,480,9,"""Nuns go by quiet as lust, and drunken men and sober eyes sing in the lobby of the Greek hotel.""",32,"""And I didn't know.""",27,908,0,0,2
+485,HEREISTHEHOUSEITISGREENANDWHITEITHASAREDDOORITISVERYPRETTYITISVERYPRETTYPRETTYP [Dick and Jane 2],13,2,480,33,"""HEREISTHEHOUSE""",33,"""PRETTYP""",28,0,0,0,2
+486,"""There is an abandoned store on the southeast corner of Broadway and Thirty-fifth Street in Lorain, Ohio."" [Autumn 2]",13,2,480,33,"""There is an abandoned store on the southeast corner of Broadway and Thirty-fifth Street in Lorain,",37,"""In the morning, however, it always saw fit to die.""",28,0,0,0,2
+487,HEREISTHEFAMILYMOTHERFATHERDICKANDJANETHEYLIVEINTHEGREENANDWHITEHOUSETHEYAREVERYH [Dick and Jane 3],13,2,480,38,"""HEREISTHEFAMILY""",38,"""THEYAREVERYH""",28,0,0,0,2
+488,"""The Breedloves did not live in the storefront..."" [Autumn 3]",13,2,480,38,"""The Breedloves did not live in the storefront...""",58,"""Marie belched, softly, purringly, lovingly.""",28,912,0,0,2
+489,"""My daddy's face is a study."" [Winter 1]",13,2,481,61,"""My daddy's face is a study.""",80,"""The turnip pot crackled.""",27,908,0,0,2
+490,SEETHECATITGOESMEOWMEOWCOMEANDPLAYWITHJANETHEKITTENWILLNOTPLAYPLAYPLAYPLA [Dick and Jane 4],13,2,481,81,"""SEETHECAT""",81,"""PLAYPLAYPLAYPLA""",28,0,0,0,2
+491,"""They come from Mobile."" [Winter 2]",13,2,481,81,"""They come from Mobile.""",94,"""...avoid seeing the snowflakes falling and dying on the pavement.""",27,908,0,0,2
+492,"""I have only to break into the tightness of a strawberry and I see summer-its dust and lowering skies.""",13,2,472,187,"""I have only to break into the tightness of a strawberry and I see summer-its dust and lowering skie",192,"""'You say the magic words.'""",27,908,0,0,2
+493,"""How many times a minute are you going to look inside that old thing?""",13,2,472,193,"""'How many times a minute are you going to look inside that old thing?'""",204,"""'Right before your very eyes'""",29,912,912,0,2
+494,"""So it was.""",13,2,472,204,"""So it was.""",204,"""A little black girl yearns for the blue eyes of a little white girl...fulfillment.""",28,912,0,0,2
+495,"""We saw her sometimes.""",13,2,472,204,"""We saw her sometimes.""",206,"""At least on the edge of my town,...it's much, much, much too late.""",27,0,0,0,2
+496,"""'When all us left from down home and was waiting down by the depot for the truck, it was nighttime.'""",13,3,475,112,"""'When all us left from down home and was waiting down by the depot for the truck, it was nighttime.",112,"""'I recollect it well.'""",31,909,0,5,2
+497,"""When I first seed Cholly, I want you to know it was like all the little bits of color from that time down home when all us chil'ren went...""",13,3,475,115,"""When I first seed Cholly, I want you to know it was like all the little bits of color from...""",115,"""He used to whistle, and when I heerd him, shivers come on my skin.""",31,909,0,5,2
+498,"""Me and Cholly was getting along good then.""",13,3,475,117,"""Me and Cholly was getting along good then.""",117,"""I didn't even have a cat to talk to.""",31,909,0,5,2
+499,"""Precious Lord take my hand...""",13,3,475,114,"""Precious Lord take my hand...""",114,"""Take my hand, precious Lord, lead me on.""",28,0,0,5,2
+500,"""Cholly commenced to getting meaner and meaner and wanted to fight me all of the time.""",13,3,475,118,"""Cholly commenced to getting meaner and meaner and wanted to fight me all of the time.""",121,"""So how could she understand?""",31,909,0,5,2
+501,"""The onliest time I happy seem like when I was in the picture show.""",13,3,475,123,"""The onliest time I happy seem like when I was in the picture show.""",126,"""Head full of pretty hair, but Lord she was ugly.""",31,909,0,5,2
+502,"""I started to leave him once, but something came up.""",13,3,475,129,"""I started to leave him once, but something came up.""",131,"""But like I say, I don't recollect it it much anymore.""",31,909,0,5,2
+503,"""Att: TO HE WHO GREATLY ENNOBLED HUMAN NATURE BY CREATING IT""",13,3,479,176,"""Att: TO HE WHO GREATLY ENNOBLED HUMAN NATURE BY CREATING IT""",182,"""Elihue Micah Whitcomb""",32,0,0,3,2
+504,LOOKLOOKHERECOMESAFRIENDTHEFRIENDWILLPLAYWITHJANETHEYWILLPLAYAGOODGAMEPLAYJANEPLAY,13,2,472,193,,193,,30,0,0,0,2
+505,Solo,16,1,0,1,The gun jammed,1,,33,0,0,0,2
+506,Evelina,16,1,0,3,,86,,34,0,0,0,2
+507,Judge Antone Bazil Coutts,16,1,0,87,,134,,35,0,0,0,2
+508,Marn Wolde,16,1,0,135,,179,,36,0,0,0,2
+509,Evelina,16,1,0,181,,192,,34,0,0,0,2
+510,Judge Antone Bazil Coutts,16,1,0,193,,217,,35,0,0,0,2
+511,Evelina,16,1,0,219,,268,,34,0,0,0,2
+512,Judge Antone Bazil Coutts,16,1,0,269,,292,,35,0,0,0,2
+513,Doctor Cordelia Lochren,16,1,0,293,,311,,37,0,0,0,2
+514,The Plague of Doves,16,2,506,5,,20,,34,0,0,0,2
+515,A Little Nip,16,2,506,21,,42,,34,0,0,0,2
+516,Sister Godzilla,16,2,506,43,,53,,34,0,0,0,2
+517,Holy Track,16,2,506,54,,79,,34,0,0,0,2
+518,Bitter Tea,16,2,506,80,,86,,34,0,0,0,2
+519,The Way Things Are,16,2,507,89,,95,,35,0,0,0,2
+520,Town Fever,16,2,510,96,,113,,35,0,0,0,2
+521,The Wolf,16,2,507,114,,117,,35,0,0,0,2
+522,Come In,16,2,507,118,,134,,35,0,0,0,2
+523,Satan: Hijacker of a Planet,16,2,508,137,,146,,36,0,0,0,2
+524,The Daniels,16,2,508,147,,157,,36,0,0,0,2
+525,The Kindred,16,2,508,158,,179,,36,0,0,0,2
+526,The 4-B's,16,2,509,183,,192,,34,0,0,0,2
+527,Shamengwa,16,2,510,195,,217,,35,0,0,0,2
+528,The Reptile Garden,16,2,511,221,,254,,34,0,0,0,2
+529,All Souls' Day,16,2,511,255,,268,,34,0,0,0,2
+530,The Veil,16,2,512,271,,273,,35,0,0,0,2
+531,Demolition,16,2,512,274,,292,,35,0,0,0,2
+532,Disaster Stamps of Pluto,16,2,513,295,,311,,37,0,0,0,2
+533,9_THE LAST WORDS ON EARTH,14,1,0,3,"""When they write my obituary.""",34,"""Then I went out the door and into the morning.""",38,1132,0,0,2
+534,9_THE LAST WORDS ON EARTH 1.1,14,2,533,3,"""When they write my obituary.""",13,"""After all, what does it mean for a man to hide one more thing when he has vanished completely?""",38,1132,0,0,2
+535,9_THE LAST WORDS ON EARTH 1.2,14,2,533,14,"""The night before I was scheduled to model for the art class I was nervous and excited.""",34,"""Then I went out the door and into the morning.""",38,1132,0,0,2
+536,9_MY MOTHER'S SADNESS,14,1,0,35,,64,,39,1138,0,0,2
+537,9_1. MY NAME IS ALMA SINGER,14,2,536,35,"""When I was born my mother named me after every girl in a book my father gave her called...""",35,"""He broke his arm and got a permanent scar on his forehead...""",39,1138,0,2,2
+538,9_2. WHAT I AM NOT,14,2,536,36,"""My brother and I used to play a game.""",36,"""'But you're only seven,' I said.""",39,1138,0,2,2
+539,9_3. MY BROTHER BELIEVES IN GOD,14,2,536,36,"""When he was nine and a half...""",37,"""It makes me sad, knowing it can't last.""",39,1138,0,2,2
+540,9_4. MY FATHER DIED WHEN I WAS SEVEN,14,2,536,37,"""What I remember, I remember in parts.""",38,"""He drove her to the Dead Sea where they floated strangely.""",39,1138,0,2,2
+541,9_5. THE DEAD SEA IS THE LOWEST PLACE ON EARTH,14,2,536,38,,38,,39,1138,0,2,2
+542,9_6. NO TWO PEOPLE LOOKED LESS ALIKE THAN MY MOTHER AND FATHER,14,2,536,38,"""When  my mother's body turned brown...""",38,"""I am also black-haired, gap-toothed, skinny in a bad way, and fifteen.""",39,1138,0,2,2
+543,9_7. THERE IS A PHOTOGRAPH OF MY MOTHER THAT NO ONE HAS EVER SEEN,14,2,536,38,"""In fall, my mother went back to England to start university.""",39,"""I know there is a moral to this story but I don't know what it is.""",39,1177,0,2,2
+544,9_8. MY MOTHER IS THE MOST STUBBORN PERSON I KNOW,14,2,536,39,"""After five minutes, she decide she hated Oxford.""",40,"""At the end of the year...""",39,1177,0,2,2
+545,9_9. WHAT FOLLOWED WERE THE HAPPIEST YEARS OF THEIR LIVES,14,2,536,40,"""They lived in a sunny house covered with...""",40,"""Five years passed like that...""",39,1177,0,2,2
+546,9_10. THEY MOVED TO NEW YORK AND HAD ME,14,2,536,41,"""While my mother was pregnant with me she read..""",41,"""Then we moved to Brooklyn.""",39,1138,0,2,2
+547,9_11. I WAS SIX WHEN MY FATHER WAS DIAGNOSED WITH PANCREATIC CANCER,14,2,536,41,"""That year my mother and I were driving together in the car.""",41,"""In the end, though, it was my father who lost everything...""",39,1138,0,2,2
+548,"9_12. HE LIKED TO COOK AND LAUGH AND SING, COULD START A FIRE WITH HIS HANDS, FIX THINGS THAT WERE BROKEN, AND EXPLAIN HOW TO LAUNCH THINGS...",14,2,536,41,,41,,39,1138,0,2,2
+549,9_13. MY FATHER WAS NOT A FAMOUS RUSSIAN WRITER,14,2,536,41,"""At first my mother kept everything exactly as he left it.""",42,"""I went out and fished his sweater out of the trash bin.""",39,1138,0,2,2
+550,9_14. AT THE END OF THE WORLD,14,2,536,42,"""After my father died, Uncle Julian, my mother's brother, who is an art historian...""",42,"""I didn't tell her about the knife because Uncle Julian had meant for it to be a secret...""",39,1138,0,2,2
+551,"9_""You have to be careful, he wrote, because the blades are sharp""",14,3,550,42,"""You have to be careful, he wrote, because the blades are sharp""",42,"""P.S. Don't tell your mom I gave this to you...""",42,1138,1138,3,2
+552,9_UNTIL THE WRITING HAND HURTS,14,1,0,119,The pages I'd written so long ago slipped from my hands and scattered on the floor.,134,It's not nothing.,38,1132,0,0,2
+553,"9_15. WHENEVER I WENT OUT TO PLAY, MY MOTHER WANTED TO KNOW EXACTLY WHERE I WAS GOING TO BE",14,2,536,43,"""When I'd come in, she'd call me into her bedroom, take me in her arms, and cover me with kisses.""",43,"""...and I always wanted to say, but never said: Love me less.""",39,1138,0,2,2
+554,9_16. EVERYTHING IS REMADE AS REASON,14,2,536,43,"""One day my mother got up from the bed she had been lying in for almost a year.""",44,"""... into a glass of water as if there were a fish in it only she could see""",39,1138,0,2,2
+555,9_ 17. CARROTS,14,2,536,44,"""With my allowance I bought a book called Edible Plants ad Flowers in North America.""",45,"""I started to keep a notebook called How to Survive in the Wild.""",39,1138,0,2,2
+556,9_18. MY MOTHER NEVER FELL OUT OF LOVE WITH MY FATHER,14,2,536,45,"""She kept her love for him as alive as the summer they first met.""",46,"""She chose my father, and to hold on to a certain feeling, she sacrificed the world.""",39,1138,0,2,2
+557,9_19. THE WALL OF DICTIONARIES BETWEEN MY MOTHER AND I GETS TALLER EVERY YEAR,14,2,536,46,"""Sometimes pages of the dictionaries come loose and gather at her feet...""",46,"""...out of fear that one day she would be left silent.""",39,1138,0,2,2
+558,9_20. MY MOTHER HAS ONLY BEEN ON TWO DATES SINCE MY FATHER DIED,14,2,536,46,"""The first was five years ago, when I was ten, with a fat English editor at one of the houses...""",48,"""...I'd known my mother for eleven and a half years and she'd never done anything normal.""",39,1138,0,2,2
+559,9_21. I THOUGHT IT WAS JUST THAT SHE HADN'T MET THE RIGHT PERSON,14,2,536,48,"""The fact that she stayed home all day in her pajamas translating books by mostly dead people...""",49,"""'I'd rather lick the sidewalk,'"" I said.",39,1138,0,2,2
+560,9_22. THAT YEAR I WORE MY FATHER'S SWEATER FOR FORTY-TWO DAYS STRAIGHT,14,2,536,49,"""On the twelfth day I passed Sharon Newman and her friends in the hall.""",49,"""I just liked the way it felt.""",39,1138,0,2,2
+561,9_23. MY MOTHER KEEPS A PHOTOGRAPH OF MY FATHER ON THE WALL NEXT TO HER DESK,14,2,536,50,"""Once or twice I passed her door and heard her talking aloud to it""",50,"""Other times I imagine I'll never be able to leave at all.""",39,1138,0,2,2
+562,9_24. ALL THE FRIENDS I EVER HAD ARE GONE,14,2,536,50,"""On my fourteenth birthday, Bird woke me up by jumping on my bed...""",52,"""...ninety-nine percent of all the species that have ever lived on earth are extinct.""",39,1138,0,2,2
+563,"9_25. MY BROTHER, THE MESSIAH",14,2,536,52,"""That night while I was reading, Bird came into my room and climbed into bed with me.""",53,"""My stomach began to hurt.""",39,1138,0,2,2
+564,9_26. THE SITUATION VERGED ON CRITICAL,14,2,536,53,"""The next Saturday I put Life as We Don't Know It into my backpack and took the subway...""",54,"""He said: ""Well don't sound so disappointed.""",39,1138,0,2,2
+565,9_27. ONE THING I AM NEVER GOING TO DO WHEN I GROW UP,14,2,536,54,"""Is fall in love, drop out of college, learn to subsist on water and air...""",54,"""'Not so much tongue,"" was all he said.""",39,1138,0,2,2
+566,9_28. A HUNDRED THINGS CAN CHANGE YOUR LIFE; A LETTER IS ONE,14,2,536,55,"""Five months that passed and I'd almost given up on finding someone to make my mother happy.""",57,"""...my mother would've still agreed to do it.""",39,1138,0,2,2
+567,"9_""Dear Ms. Singer, ..."" [1]",14,3,566,55,"""Dear Ms. Singer, ...""",56,"""...Jacob Marcus""",52,1207,1138,3,2
+568,9_29. MY MOTHER USED TO READ TO ME FROM THE HISTORY OF LOVE,14,2,536,57,"""'The first woman may have been Eve, but the first girl will always be Alma'...""",58,"""'...spoiling for him anyone who could ever come after her.'""",39,0,0,2,2
+569,"9_""The first woman may have been Eve, but the first girl will always be Alma'""",14,3,568,57,"""The first woman may have been Eve, but the first girl will always be Alma'""",57,"""The first woman may have been Eve, but the first girl will always be Alma'""",43,1151,1138,4,2
+570,"9_""Maybe the first time you saw her you were ten.""",14,3,568,57,"""Maybe the first time you saw her you were ten.""",58,"""...spoiling him for anyone who could ever come after her.""",43,1132,1138,4,2
+571,9_30. THE ITALIAN POST TAKES SO LONG; THINGS GET LOST AND LIVES ARE RUINED FOREVER,14,2,536,58,"""It must have taken another few weeks for my mother's reply to arrive in Venice...""",59,"""...J.M.""",39,1138,0,2,2
+572,"9_""Dear Ms. Singer, ..."" [2]",14,3,571,58,"""Dear Ms. Singer, ...""",59,"""... J.M.""",52,1207,1177,3,2
+573,9_31. EVERY ISRAELITE HOLDS THE HONOR OF HIS ENTIRE PEOPLE IN HIS HANDS,14,2,536,59,"""The money arrived a week later.""",60,"""'You have to at least try.'""",39,1138,0,2,2
+574,9_32. FOR TWO MONTHS MY MOTHER HARDLY LEFT THE HOUSE,14,2,536,60,"""One afternoon, during the last week before summer vacation...""",60,"""But then there are a lot of things that aren't fair""",39,1138,0,2,2
+575,"9_""Dear Mr. Marcus,""",14,3,574,61,"""Dear Mr. Marcus,""",61,"""Charlotte Singer""",43,1177,1207,3,2
+576,"9_33. THE HISTORY OF LOVE, CHAPTER 10",14,2,536,61,"""During the Age of Glass, everyone believed some part of him or her to be extremely fragile.""",64,"""When I finished the tenth, I knew what I had to do.""",39,0,0,2,2
+577,"9_""During the Age of Glass, everyone believed some part of him or her to be extremely fragile.""",14,3,576,61,"""During the Age of Glass, everyone believed some part of him or her to be extremely fragile.""",64,"""...in the most important moment of his life he had chosen the wrong sentence.""",38,0,1138,4,2
+578,9_34. THERE WAS NOTHING LEFT TO LOSE,14,2,536,64,"""I crumpled my mother's letter and threw is in the trash.""",64,"""Then I signed my mother's name and went to sleep.""",39,1138,0,2,2
+579,9_FORGIVE ME,14,1,0,65,"""Almost everything known about Zvi Litvinoff comes from the introduction his wife wrote...""",74,"""Filled with restlessness and longing, he began to read.""",40,1140,0,0,2
+580,"9_""I met Zvi in Valparaiso, in the fall of 1951, soon after I turned twenty.""",14,3,579,65,"""I met Zvi in Valparaiso, in the fall of 1951, soon after I turned twenty.""",65,"""...one day a girl named Gracia Strurmer challenged me to go speak to him""",45,1140,0,4,2
+581,"9_""It wasn't until two months later...""",14,2,579,66,"""It wasn't until two months later..""",66,"""...that Litvinoff read to me the first pages of the History.""",45,1140,0,4,2
+582,"9_""At the bottom I caught sight of the gold cap of the pen he always carried in his pocket...""",14,2,579,66,"""At the bottom I caught sight of the gold cap of the pen he always carried in his pocket...""",66,"""...and had to plunge my arm in up to the shoulder to reach it.""",45,1209,0,4,2
+583,"9_""Dear Boris, ...""",14,2,579,68,"""Dear Boris, ...""",68,"""...Zvi""",46,1212,1212,3,2
+584,"9_""The first language humans had was gestures.""",14,2,579,72,"""The first language humans had was gestures.""",74,"""...we find it necessary to gesture on each other's bodies to make ourselves understood.""",38,0,0,4,2
+585,9_A JOY FOREVER,14,1,0,75,"""I don't know what I expected, but I expected something.""",92,"""Then I realized they were my own.""",38,1132,0,0,2
+586,"9_""ISAAC MORITZ, NOVELIST, DEAD AT 60.""",14,2,585,77,"""Isaac Mortiz, acclaimed author of six novels including The Remedy...""",79,"""Mr. Moritz is survived by his brother, Bernard Moritz.""",38,1157,0,1,2
+587,9_MY FATHER'S TENT,14,1,0,93,,109,,39,1138,0,0,2
+588,9_1. MY FATHER DID NOT LIKE TO WRITE LETTERS,14,2,587,93,"""The old Cadbury tin full of my mother's letters doesn't contain any of his replies.""",93,"""...when you discover that all along the world has been betraying you.""",39,1138,0,2,2
+589,9_2. HE GAVE ME A PEN THAT COULD WORK WITHOUT GRAVITY,14,2,587,94,"""'It can work without gravity,' my father said, as I examined it in its velvet box with the NASA...""",94,"""He nodded and closed his eyes.""",39,1138,0,2,2
+590,9_3. THE MAN WHO COULDN'T ESCAPE GRAVITY,14,2,587,94,"""Then my father died, and I put the pen away in a drawer.""",95,"""That was the last I ever heard from her.""",39,1138,0,2,2
+591,"9_""Father is a mathematician""",14,3,590,94,"""Father is a mathematician""",95,"""Father is a mathematician""",47,1261,1138,3,2
+592,"9_""My father could survive in the wild""",14,3,590,95,"""My father could survive in the wild""",95,"""My father could survive in the wild""",39,1182,1260,3,2
+593,"9_""Do you have a dog?""",14,3,590,95,"""Do you have a dog?""",95,"""Do you own anything that belonged to the Czar?""",39,0,1260,3,2
+594,"9_""Boy in my class is moved to New York.""",14,3,590,95,"""Boy in my class is moved to New York""",95,"""Maybe you want write him because he knows anybody.""",47,1190,1138,3,2
+595,9_4. I SEARCHED OUT FOR OTHER FORMS OF LIFE,14,3,587,95,"""'Where's Brighton Beach?'""",97,"""'You're Jewish.'""",39,1138,0,2,2
+596,9_5. ONCE I USED THE PEN TO WRITE TO MY FATHER,14,2,587,97,"""We were in Jerusalem for my Bat Mitzvah.""",98,"""...be blessed with health and happiness and what would be so terrible some nice breasts""",39,1138,0,2,2
+597,"9_""Dear Dad, I'm writing this with the pen you gave me.""",14,3,596,98,"""Dear Dad, I'm writing this with the pen you gave me.""",98,"""Love, Alma.""",39,1138,1182,3,2
+598,"9_""Baruch Hashem, I and my husband should live to see tomorrow...""",14,3,596,98,"""Baruch Hashem, I and my husband should live to see tomorrow...""",98,"""...be blessed with health and happiness and what would be so terrible some nice breasts.""",48,0,1138,3,2
+599,9_6. IF I HAD A RUSSIAN ACCENT EVERYTHING WOULD BE DIFFERENT,14,2,587,98,"""When I got back to New York, Misha's first letter was waiting.""",99,"""...invited Misha into her room, played him 'Let it Be,' and taught him how to kiss.""",39,1190,0,2,2
+600,"9_""Dear Alma,"" (Misha)",14,3,599,98,"""Dear Alma,...""",99,"""...I am very happy for your welcome!""",49,0,1138,3,2
+601,9_7. THE BOY WITH THE ACCORDION,14,2,587,100,"""Misha and I wrote twenty-one letters back and forth.""",101,"""It was warm and smelled of sweat.""",39,1138,0,2,2
+602,9_8. Блядь,14,2,587,101,"""I told Misha everything.""",101,"""'I think your ass is-' 'Forget it,' I said""",39,1138,0,2,2
+603,9_9. THE MAN WHO SEARCHED FOR A STONE,14,2,587,101,"""A week went by after I sent my letter, or my mother's letter, or whatever you want to call it.""",103,"""JM""",39,1138,0,2,2
+604,"9_""I'm flattered by your curiosity.""",14,3,601,102,"""I'm flattered by your curiosity.""",103,"""JM""",44,1207,1138,3,2
+605,9_10. I READ THE LETTER ONE HUNDRED TIMES,14,2,587,104,"""And each time I read it, I felt I knew a little less about Jacob Marcus.""",105,"""None of them helped.""",39,1138,0,2,2
+606,9_11. HOW I AM,14,2,587,105,"""I decided that if I really wanted to find out who Jacob Marcus was, and why it was so important...""",105,"""...'Why can't you ever just say, Not much?'""",39,1138,0,2,2
+607,9_12. NOT MUCH,14,2,587,106,"""It got dark out, and my mother said there was nothing to eat in the house, and did we want...""",106,"""...and a box of marzipan imported from Spain.""",39,1138,0,2,2
+608,9_13. THE ETERNAL DISAPPOINTMENT OF LIFE AS IT IS,14,2,587,106,"""After a dinner of microwaved fake-meat chicken nuggets, I went to bed early and read...""",108,"""10. Alma""",39,1138,0,2,2
+609,"9_""The Birth of Feeling.""",14,3,608,106,"""Feelings are not as old as time...""",107,"""And then, for the millionth time in the history of feeling, the heart surges and absorbs...""",38,0,1138,4,2
+610,9_14.THE BIRTH OF FEELING,14,2,587,108,"""I raced down to the kitchen, but it was empty.""",109,"""The next day, I started to look for her.""",39,1138,0,2,2
+611,9_THE TROUBLE WITH THINKING,14,1,0,110,"""If Litvinoff coughed more and more as the years passed...""",118,"""...so that he could buy a little more time- for his friend, for life.""",40,1140,0,0,2
+612,"9_""The Age of String""",14,2,611,111,"""So many words get lost.""",111,"""In such cases all the string can do, in whatever its form, is conduct a person's silence.""",38,0,1140,4,2
+613,"9_""THE DEATH OF ISAAC BABEL.""",14,2,611,114,"""Only after they charged him with the crime of silence did Babel discover how many...""",115,"""There's no match for the silence of God.""",38,1180,1140,1,2
+614,9_FRANZ KAFKA IS DEAD,14,2,611,116,"""He died in a tree from which he wouldn't come down""",117,"""It's said that when they put their ears to the shell of his ears, they could hear themselves.""",38,1294,1140,1,2
+615,9_FLOOD,14,1,0,135,,152,,39,1138,0,0,2
+616,9_1. HOW TO MAKE A FIRE WITHOUT MATCHES,14,2,615,135,"""I did a search on the internet for Alma Mereminski""",135,"""...because I didn't want to lose her before I'd even begun to look, no Alma).",39,1138,0,2,2
+617,9_2. ALL THE TIME MY BROTHER SAVES MY LIFE,14,2,615,135,"""Uncle Julian came to stay with us.""",136,"""'It's too deep,' he muttered, and turned his face to the wall.""",39,1138,0,2,2
+618,9_3. BUT WHY,14,2,615,136,"""One Saturday, Bird and I went with Uncle Julian to the Museum of Modern Art.""",136,"""'But why did they need the money?""",39,1138,0,2,2
+619,9_4. LOST AT SEA,14,2,615,136,"""What makes you think this Alma in History of Love is real person?"" Misha asked.",137,"""It didn't take a genius to read The History of Love and guess that much.""",39,1138,0,2,2
+620,9_5. THE THINGS I WANT TO SAY GET STUCK IN MY MOUTH,14,2,615,137,"""We walked down the boardwalk toward Coney Island.""",137,"""...but it was all I could think of to change the subject.""",39,1138,0,2,2
+621,9_6. LOOKING FOR SOMEONE WHO MOST LIKELY DOESN'T EXIST,14,2,615,137,"""'I'm looking for a number for Alma Mereminski?' I said.""",138,"""When I lay on his pillow, it smelled of him""",39,1138,0,2,2
+622,9_7. IF THINGS GO ON LIKE THIS,14,2,615,138,"""When Misha was young his family went to their dacha every summer...""",139,"""For this reason, I did not put any butterflies on Misha's card.""",39,1138,0,2,2
+623,9_8. INTERGLACIAL,14,2,615,139,"""The same February my mother got the letter asking her to translate The History of Love...""",140,"""Misha took my hand and held it.""",39,1138,0,2,2
+624,9_9. IF SHE'S REAL,14,2,615,140,"""'What is giving you idea Alma came to New York?' Misha asked.""",141,"""But I couldn't, so he leaned down and kissed me.""",39,1138,0,2,2
+625,9_10. THEN,14,2,615,141,"""His tongue was in my mouth.""",141,"""When I stood, there was the sound of sand scattering.""",39,1138,0,2,2
+626,9_11. A WEEK PASSED AND MISHA AND I DIDN'T SPEAK,14,2,615,142,"""I studied Edible Plants and Flowers in North America"" again for old times sake.""",142,"""When I was finished, I lay down in it and tried to remember as many things as I could about Dad.""",39,1138,0,2,2
+627,9_12. MEMORIES PASSED DOWN TO ME FROM MY FATHER,14,2,615,143,"""echad   The taste of raw sugar cane...""",143,"""... eser   The paleness of my mother's skin""",39,1138,0,2,2
+628,"9_13. TWO WEEKS PASSED, MISHA AND STILL HADN'T SPOKEN, UNCLE JULIAN HADN'T LEFT, AND IT WAS ALMOST THE END OF AUGUST",14,2,615,143,"""The History of Love has thirty-nine chapter and my mother had finished another eleven since ...""",144,"""I thought maybe Uncle Julian wouldn't be finishing his research on Alberto Giacometti anytime soon""",39,1138,0,2,2
+629,"9_""Dog, Frances?...""",14,3,628,144,"""Dog, Frances?""",144,"""how you hardly bear any resemblance at all to the to the girl I once-""",42,1192,1193,3,2
+630,9_14. THEN I HAD AN IDEA,14,2,615,144,"""They must record all deaths somewhere.""",144,"""And so I thought, maybe they have a record of her.""",39,1138,0,2,2
+631,9_15. THE NEXT DAY WAS SUNDAY,14,2,615,144,"""It was raining outside, so I sat around reading The Street of Crocodiles, which I'd checked...""",145,"""...which, according to the internet, is where they keep the records of births and deaths.""",39,1138,0,2,2
+632,"9_16. 31 CHAMBERS STREET, ROOM 103",14,2,615,145,"""'Mereminski,'I said to the man with the round black glasses behind the desk.""",146,"""I thought: Great.""",39,1138,0,2,2
+633,9_17. THE WORST MISTAKE MY MOTHER EVER MADE,14,2,615,146,"""When I got home, my mother was curled up on the couch reading a book.""",146,"""That night I dialed Misha's number, but hung up on the first ring.""",39,1138,0,2,2
+634,9_18. THEN IT WAS TUESDAY,14,2,615,147,"""It was still raining.""",148,"""Then I went to sleep.""",39,1138,0,2,2
+635,9_19. LONELY PEOPLE ARE ALWAYS UP IN THE MIDDLE OF THE NIGHT,14,2,615,148,"""When I opened my eyes, Uncle Julian was standing above me.""",148,"""'That's what I was hoping you'd say.'""",39,1138,0,2,2
+636,9_20. AWAKE IN THE DARK,14,2,615,148,"""I thought about Misha and Luba, and my father and mother, and why Zvi Litvinoff had moved...""",149,"""Then I thought: Wait a minute.""",39,1138,0,2,2
+637,9_21. SHE MUST HAVE GOTTEN MARRIED!,14,2,615,149,"""That was it!""",149,"""Why hadn't I thought of it before?""",39,1138,0,2,2
+638,9_22. BEING NORMAL,14,2,615,149,"""I reached under my bed and pulled out the flashlight from my survival backpack...""",149,"""What there's going to be is a flood.""",39,1138,0,2,2
+639,9_April 9,5,3,638,149,"""I have been a normal person for three days in a row.""",149,"""So far it hasn't been that hard.""",41,1139,0,2,2
+640,9_April 10,14,3,638,150,"""This is the fourth day in a row that I've acted normal.""",150,"""...that G-d wouldn't let anything happen to me because I am almost definitely a lamed vovnik.""",41,1139,0,2,2
+641,9_April 11,14,3,638,150,"""Today was my fifth day of being normal.""",151,"""It probably hurt a lot more when I broke my wrist when I was six but I don't remember.""",41,1139,0,2,2
+642,9_June 27,14,3,638,151,"""So far I've made $295.50 from selling lemon-aid.""",151,"""Only $384.50 to go.""",41,1139,0,2,2
+643,9_June 28,14,3,638,151,"""Today I almost did something not normal.""",152,"""What there's going to be is a flood.""",41,1139,0,2,2
+644,"9_23. OUTSIDE, IT WAS STILL COMING DOWN",14,2,615,152,,152,,39,0,0,2,2
+645,9_HERE WE ARE TOGETHER,14,1,0,153,"""On his last morning in Poland, after his friend pulled his hat down over his eyes...""",159,"""Then, choking back tears, he lit a match and watched his friend's handwriting burn.""",40,1140,0,0,2
+646,9_DIE LAUGHING,14,1,0,160,"""What does it say?""",160,"""Aside from myself, there was no sign of me.""",38,1132,0,0,2
+647,"9_""Happy Birthday""",14,3,646,162,"""Happy Birthday...""",163,"""...From Leo.""",38,0,1151,3,2
+648,"9_""I know you watch him...""",14,2,646,163,"""I know you watch him...""",163,"""I hear your voice like you were next to me.""",50,1151,1132,3,2
+649,"9_""Dear Isaac..""",14,2,646,165,"""Dear Isaac...""",165,"""I'm writing to say that I haven't read your book and I'm not going to.""",51,1278,1157,3,2
+650,"9_IF NOT, NOT",14,1,0,170,,182,,39,1138,0,2,2
+651,9_1. WHAT I LOOK LIKE NAKED,14,2,650,170,"""When I woke up in my sleeping bag the rain had stopped and my bed was empty, the sheets stripped.""",170,"""When I raised my arms over my head, my chest became concave.""",39,1138,0,2,2
+652,9_2. MY MOTHER LOOKS RIGHT THROUGH ME,14,2,650,171,"""Downstairs, my mother was in her kimono reading the newspaper in the sunlight.""",171,"""...by the way she was looking at me I knew she hadn't really heard, since it wasn't me she saw.""",39,1138,0,2,2
+653,9_3. ALL THE LIES I'VE EVER TOLD WILL COME BACK TO ME ONE DAY,14,2,650,172,"""On the street I passed Herman Cooper sitting on his front stoop.""",173,"""...like last words, white lies, and false descendants of Catherine the Great.""",39,1138,0,2,2
+654,9_4. THE BROKEN LIGHTBULB,14,2,650,173,"""The man behind the desk at the City Clerk's Office was old.""",175,"""'...would break a lightbulb under his foot the chassan because no one could spare a glass.'""",39,1138,0,2,2
+655,9_5. THERE ARE NO PAY PHONES IN THE ARCTIC,14,2,650,175,"""I found a pay phone and called home.""",175,"""I wrote it down on my palm and caught a subway uptown.""",39,1138,0,2,2
+656,9_6. I KNOCK AND SHE ANSWERS,14,2,650,175,"""She's old with long white hair held back by a tortoiseshell comb.""",176,"""The talking parrot squawks, 'Alma!' and both of us turn.""",39,1138,0,2,2
+657,9_7. I'M SICK OF FAMOUS WRITERS,14,2,650,176,"""Daydreaming, I missed my stop and had to walk back ten blocks, and with every block...""",177,"""'No, thank you,' I said, because I'd never heard of any Isaac Moritz.""",39,1138,0,2,2
+658,9_8. UNCLE JULIAN,14,2,650,177,"""That evening, Uncle Julian ordered a beer for himself and a mango lassi for me...""",179,"""'I think he would have wanted that very much.""",39,1138,0,2,2
+659,9_9. MERDE,14,2,650,179,"""When we got home, my mother was out in the backyard.""",180,"""'Dad used to love to garden,' she said, as if I'd never known him at all.""",39,1138,0,2,2
+660,9_10. MEMORIES PASSED DOWN TO ME FROM MY MOTHER,14,2,650,180,"""i  Getting up for school in the pitch-dark...""",180,"""...xiii  Thousands of pages""",39,1138,0,2,2
+661,9_11. HOW TO RESTORE A HEARTBEAT,14,2,650,181,"""Chapters 1 through 28 of The History of Love sat in a pile by my mother's computer.""",181,"""...a crumpled piece of paper that said: Back in Paris, Alberto began to have second thoughts.""",39,1138,0,2,2
+662,9_12. I GAVE UP,14,2,650,181,"""That was the end of my search to find someone that would make my mother happy again.""",182,"""When I opened my eyes he was pushing the sheets into a ball, and the seat of his pajamas was wet.""",39,1138,0,2,2
+663,9_13. THEN IT WAS SEPTEMBER,14,2,650,182,"""And summer was over, and Misha and I were officially not speaking, and no more letters arrived ...""",182,"""Love, your Uncle Julian.""",39,1138,0,2,2
+664,"9_""Dear Al,...""",14,3,663,182,"""Dear Al,...""",182,"""Love, your Uncle Julian.""",42,0,1138,3,2
+665,9_THE LAST PAGE,14,1,0,183,"""In the beginning it was easy.""",191,"""...grabbed the basket of strawberries from the hall table, and hurried out the door.""",40,1140,0,0,2
+666,"9_""CHAPTER 18....LOVE AMONG THE ANGELS.""",14,2,665,185,"""HOW ANGELS SLEEP.""",186,"""...not in the general, but in the specific.""",38,0,1140,4,2
+667,"9_""We always woke at five or six in the morning,...""",14,2,665,187,"""We always woke at five or six in the morning...""",188,"""It was just like that.""",45,1140,0,1,2
+668,"9_""Dear Zvi,...""",14,2,665,189,"""Dear Zvi,..""",190,"""Sending a warm embrace, L.G.""",38,0,1209,3,2
+669,"9_""Dear Mr. Gursky,...""",14,2,665,190,"""Dear Mr. Gursky,..""",190,"""I hope you can find a way to forgive us.""",45,0,1132,3,2
+670,9_MY LIFE UNDERWATER,14,1,0,192,,202,,39,1138,0,0,2
+671,9_1. THE LONGING THAT EXISTS BETWEEN SPECIES,14,2,670,192,"""After Uncle Julian left, my mother became more withdrawn, or maybe a better word...""",192,"""At these moments, I wonder if this is the way it feels to be my mother.""",39,1138,0,2,2
+672,9_2. SELF-PORTRAIT WITH BREASTS,14,2,670,193,"""Every Tuesday evening I took the subway into the city and attended 'Drawing from Life.'""",193,"""Whenever the teacher came by, I hunched over my work and shaded vigorously.""",39,1138,0,2,2
+673,9_3. HOW TO WATERPROOF YOUR BROTHER,14,2,670,193,"""The rain started near the end of September, a few days before my birthday.""",194,"""I wanted to help him, but I didn't know how.""",39,1138,0,2,2
+674,9_4. THE MORE I THOUGHT ABOUT IT THE MORE MY STOMACH HURT,14,2,670,194,"""The morning of my fifteenth birthday I woke up to Bird shouting 'UP AND AT EM'...""",194,"""Instead, mixed in with dirty clothes under my bed and two weeks overdue, I found...""",39,1138,0,2,2
+675,9_5. ONCE,14,2,670,195,"""I'd casually asked my mother if she'd heard of Isaac Moritz...""",195,"""Jacob Marcus stood waiting for his mother at the corner of Broadway and Graham.""",39,1138,0,2,2
+676,"9_""CHAPTER ONE...""",14,3,675,195,"""Jacob Marcus stood waiting for his mother at the corner of Broadway and Graham.""",195,"""Jacob Marcus stood waiting for his mother at the corner of Broadway and Graham.""",52,1207,1138,4,2
+677,9_6. I READ IT AGAIN,14,2,670,195,"""Jacob Marcus stood waiting for his mother at the corner of Broadway and Graham.""",195,"""Jacob Marcus stood waiting for his mother at the corner of Broadway and Graham.""",39,0,0,2,2
+678,"9_""Jacob Marcus stood waiting for his mother at the corner of Broadway and Graham.""",14,3,677,195,"""Jacob Marcus stood waiting for his mother at the corner of Broadway and Graham.""",195,"""Jacob Marcus stood waiting for his mother at the corner of Broadway and Graham.""",52,1207,1138,4,2
+679,9_7. AND AGAIN,14,2,670,196,"""Jacob Marcus stood waiting for his mother""",196,"""Jacob Marcus stood waiting for his mother""",39,0,0,2,2
+680,"9_""Jacob Marcus stood waiting for his mother""",14,3,679,196,"""Jacob Marcus stood waiting for his mother""",196,"""Jacob Marcus stood waiting for his mother""",52,1207,1138,4,2
+681,9_8. AND AGAIN,14,2,670,196,"""Jacob Marcus""",196,"""Jacob Marcus""",39,0,0,2,2
+682,"9_""Jacob Marcus""",14,3,681,196,"""Jacob Marcus""",196,"""Jacob Marcus""",52,1207,1138,4,2
+683,9_9. HOLY COW,14,2,670,196,"""I flipped back to the photograph.""",196,"""I stood in front of the entrance with the book under my arm, watching the rain...""",39,1138,0,2,2
+684,9_10. THE SITUATION,14,2,670,196,"""That night while my mother was upstairs translating The History of Love for the man...""",196,"""...who also happened to be real.""",39,1138,0,2,2
+685,9_11. WAITING,14,2,670,197,"""When I'd finished the last page, I called Misha and let it ring twice before hanging up.""",197,"""This probably meant he didn't want to talk to me.""",39,1138,0,2,2
+686,9_12. ALL THE FRIENDS I EVER HAD,14,2,670,197,"""Down the hall in his room my brother was asleep, his kippah dropped to the floor.""",198,"""...I said, and only as the words came out did I realize they weren't true.""",39,1138,0,2,2
+687,"9_13. IN ANOTHER ROOM, MY MOTHER SLEPT CURLED NEXT TO THE WARMTH OF A PILE OF BOOKS",14,2,670,198,,198,,39,1138,0,2,2
+688,9_14. I TRIED NOT TO THINK ABOUT,14,2,670,198,"""a) Misha Shklovsky...""",198,"""...e) Isaac Moritz""",39,1138,0,2,2
+689,9_15. I SHOULD,14,2,670,198,"""Get out more, join some clubs.""",199,"""...life is nothing but a long preparation for a few finger sandwiches with the Queen.""",39,1138,0,2,2
+690,9_16. A HUNDRED THINGS CAN CHANGE YOUR LIFE,14,2,670,199,"""I opened my desk drawer and turned it upside down in search of the piece of paper on which...""",199,"""...and when he came down he'd wet his hair and changed into a fresh blue T-shirt.""",39,1138,0,2,2
+691,9_17. LOOK AT ME,14,2,670,199,"""'Where are we going, Canada?' Herman asked when he saw the map.""",200,"""When he handed a five-dollar bill across the counter, his hands were shaking.""",39,1138,0,2,2
+692,9_18. I TOLD HIM THE WHOLE STORY ABOUT THE HISTORY OF LOVE,14,2,670,200,"""It was raining so hard that we had to pull over to the other side of the road.""",200,"""...I felt a pang of sadness that next year Herman would be gone to start his life.""",39,1138,0,2,2
+693,9_19. I JUST DO,14,2,670,200,"""After looking forever, we finally found the dirt road to Isaac Moritz's house.""",201,"""...to the middle of nowhere, with a boy I'd grown up with but hardly knew.""",39,1138,0,2,2
+694,"9_20. SHALLON, SHALLOP, SHALLOT, SHALLOW",14,2,670,201,"""I got out of the car and took a deep breath.""",201,"""I thought, My name is Alma Singer you don't know me but I was named after your mother.""",39,1138,0,2,2
+695,"9_21. SHALOM, SHAM, SHAMAN, SHAMBLE",14,2,670,201,"""I knocked on the door.""",201,"""...Herman was leaning against the car with his arms crossed over his chest.""",39,1138,0,2,2
+696,9_22. I DECIDED THERE WAS NOTHING LEFT TO LOSE,14,2,670,201,"""We sat together on the porch of Isaac Moritz's house, swinging on a bench and watching the rain.""",202,"""'Not sad,' I said.""",39,1138,0,2,2
+697,9_ONE NICE THING,14,1,0,203,,207,,41,1139,0,0,2
+698,9_September 28,14,2,697,203,"""Today is the 10th day in a row of rain.""",203,"""The way I felt about this was angry.""",41,1139,0,2,2
+699,9_September 29,14,2,697,204,"""It's been raining for 11 days.""",204,"""If you want to remember how to say it just think of Dr. Fishinabucket.""",41,1139,0,2,2
+700,9_September 30,14,2,697,204,"""Today the rain stopped and the firemen took down my ark because they said it was a fire hazard.""",205,"""...and also she should have asked me before she threw away everything that belonged to Dad.""",41,1139,0,2,2
+701,9_October 1,14,2,697,205,"""Today I went to see Mr. Goldstein for the first time since tried to go to Israel.""",205,"""...and I understood that the thing he was crying about was me.""",41,1139,0,2,2
+702,9_October 2,14,2,697,206,"""It started to rain again today, but I didn't even care because the ark is gone now and...""",206,"""I don't know if this means I am not a lamed vovnik anymore.""",41,1139,0,2,2
+703,9_October 3,14,2,697,206,"""Today Dr, Vishnubakat asked me if I was feeling depressed so I said What do you mean...""",207,"""I did not know Alma was looking for someone and I tried to think of who but I couldn't.""",41,1139,0,2,2
+704,9_October 4,14,2,697,207,"""Today something terrible happened.""",207,"""So I tried to think of someone who needed help and all of the sudden I knew the answer.""",41,1139,0,2,2
+705,9_THE LAST TIME I SAW YOU,14,1,0,208,"""I was in bed, dreaming a dream that took place in the former Yugoslavia, or maybe it was...""",212,"""...because now when I needed him most there was nothing at all.""",38,1132,0,0,2
+706,"9_""Dear Leopold Gursky...""",14,2,705,212,"""Dear Leopold Gursky...""",212,"""Alma""",41,0,1132,3,2
+707,9_WOULD A LAMED VOVNIK DO THIS?,14,1,0,213,,218,,41,1139,0,0,2
+708,9_October 5,14,2,707,213,"""This morning I snuck into Alma's room while she was in the shower...""",215,"""I also know that if I am a real lamed vovnik I will be able to help her.""",41,1139,0,2,2
+709,9_October 6,14,2,707,215,"""I pretended to be sick for the second day in a row so I could stay home from school again...""",218,"""...504 Grand Street, closed the phone book, and put the step ladder away.""",41,1139,0,2,2
+710,9_October 7,14,2,707,218,"""Today was Saturday so I did not have to pretend I was sick again.""",218,"""I did not know where Grand Street was but I'm almost 12 and I knew I would find it.""",41,1139,0,2,2
+711,9_A+L,14,1,0,219,,252,,0,0,0,0,2
+712,9_A+L [1.1],14,2,711,219,"""The letter arrived in the mail with no return address.""",219,"""Sincerely yours, Leopold Gursky.""",39,1138,0,0,2
+713,"9_""Dear Alma,..."" (Bird)",14,3,712,219,"""Dear Alma,...""",219,"""Sincerely yours, Leopold Gursky.""",41,0,1138,3,2
+714,9_A+L [1.2],14,2,711,220,"""I don't know how long I've been sitting on this park bench.""",220,"""It's been falling for years and after I go it will keep on falling.""",38,1132,0,0,2
+715,9_A+L [1.3],14,2,711,221,"""I read the letter again.""",221,"""But I didn't know anyone named Leopold Gursky.""",39,1138,0,0,2
+716,"9_""I think you know who I am...""",14,3,715,221,"""I think you know who I am...""",221,"""I think you know who I am...""",41,0,1138,3,2
+717,9_A+L [1.4],14,2,711,222,"""I've made up my mind to sit here and wait.""",222,"""I wanted to say to him: If not you, who?""",38,1132,0,0,2
+718,9_A+L [1.5],14,2,711,223,"""Maybe it really was from Misha.""",223,"""But probably not.""",39,1138,0,0,2
+719,9_A+L [1.6],14,2,711,224,"""Sometimes I thought about nothing and sometimes I thought about my life.""",224,"""I found out how little is unbearable""",38,1132,0,0,2
+720,9_A+L [1.7],14,2,711,225,"""If it wasn't from Misha, maybe it was from the man with the glasses...""",225,"""Or maybe he thought I was older than fifteen.""",39,1138,0,0,2
+721,9_A+L [1.8],14,2,711,226,"""There was a time I lived in the forest, or in the forests, plural.""",226,"""But I did.""",38,1132,0,0,2
+722,9_A+L [1.9],14,2,711,227,"""Or maybe it was from the old Jewish man who worked at the City Clerk's Office at 1 Centre Street.""",227,"""Maybe he knew something about Alma Moritz, or Isaac, or The History of Love.""",39,1138,0,0,2
+723,9_A+L [1.10],14,2,711,228,"""I remember the first time I realized I could make myself see something that wasn't there.""",228,"""And I found I could.""",38,1132,0,0,2
+724,9_A+L [1.11],14,2,711,229,"""Or maybe the letter was from the doorman at 450 East 52nd Street.""",229,"""...and had given the doorman something to give to me.""",39,1138,0,0,2
+725,9_A+L [1.12],14,2,711,230,"""After that day when I saw the elephant, I let myself see more and believe more.""",230,"""In my heart, I know my hand is empty.""",38,1132,0,0,2
+726,9_A+L [1.13],14,2,711,231,"""Or maybe the letter was from Isaac himself, who'd written it before he died.""",231,"""And now it was too late- when I went tomorrow, the park bench would be empty.""",39,1138,0,0,2
+727,9_A+L [1.14],14,2,711,232,"""There are so many ways to be alive, but only one way to be dead.""",232,"""...I took out the index card I carry in my wallet and safety-pinned it to my jacket.""",38,1132,0,0,2
+728,9_A+L [1.15],14,2,711,233,"""A hundred things can change your life.""",233,"""...I received the letter and the time I went to meet whoever had sent it, anything was possible.""",39,1138,0,0,2
+729,9_A+L [1.16],14,2,711,234,"""A policeman passed.""",234,"""...she was the opposite of death- and now I am still here waiting?""",38,1132,0,0,2
+730,9_A+L [1.17],14,2,711,235,"""Saturday finally came.""",235,"""Then I set out.""",39,1138,0,0,2
+731,9_A+L [1.18],14,2,711,236,"""Now that mine is almost over, I can say that the thing that struck me the most about life...""",236,"""...the effort they call, for lack of a better word, being human.""",38,1132,0,0,2
+732,9_A+L [1.19],14,2,711,237,"""I got out of the subway station and walked toward Central Park.""",237,"""Maybe he was late.""",39,1138,0,0,2
+733,9_A+L [1.20],14,2,711,238,"""Once I was hiding in a potato cellar when the SS came.""",238,"""...I can't think straight, he said, I've lost my appetite completely.""",38,1132,0,0,2
+734,9_A+L [1.21],14,2,711,239,"""Fifteen minutes passed, then twenty.""",239,"""...I HAVE A PLOT THERE IN THE JEWISH PART THANK YOU FOR YOUR CONSIDERATION.""",39,1138,0,0,2
+735,9_A+L [1.22],14,2,711,240,"""Because of that wife who got tired of waiting for her soldier, I lived.""",240,"""...and she never knew, and how that, too, is a part of the history of love.""",38,1132,0,0,2
+736,9_A+L [1.23],14,2,711,241,"""I stood in front of him.""",241,"""I said, 'My name is Alma.'""",39,1138,0,0,2
+737,9_A+L [1.24],14,2,711,242,"""And that's when I saw her.""",242,"""What do you know, I said. My favorite name.""",38,1132,0,0,2
+738,9_A+L [1.25],14,2,711,243,"""I said, 'I was named after every girl in a book called The History of Love.""",243,"""I said, 'I was named after every girl in a book called The History of Love.""",39,1138,0,0,2
+739,9_A+L [1.26],14,2,711,244,"""I said, I wrote that book.""",244,"""I said, I wrote that book.""",38,1132,0,0,2
+740,9_A+L [1.27],14,2,711,245,"""'Oh' I said. 'I'm serious. It's a real book.'""",245,"""'Oh' I said. 'I'm serious. It's a real book.'""",39,1138,0,0,2
+741,9_A+L [1.28],14,2,711,246,"""I played along. I said: I couldn't be more serious.""",246,"""I played along. I said: I couldn't be more serious.""",38,1132,0,0,2
+742,9_A+L [1.29],14,2,711,247,"""I didn't know what to say.""",247,"""I said, 'I'm sorry. I don't understand.""",39,1138,0,0,2
+743,9_A+L [1.30],14,2,711,248,"""I saw that I'd frightened her.""",250,"""His name was Isaac.""",38,1132,0,0,2
+744,9_A+L [1.31],14,2,711,251,"""And then I realized that I'd been searching for the wrong person.""",251,"""I said, 'The son you think didn't know you existed, was his name Isaac Moritz?""",39,1138,0,0,2
+745,9_A+L [1.32],14,2,711,252,"""I felt my heart surge.""",252,"""She tapped me twice.""",38,1132,0,0,2
+746,9_THE DEATH OF LEOPOLD GURSKY,14,1,0,255,"""Leopold Gursky started dying on August 18th, 1920.""",255,"""It was life.""",38,1132,0,0,2
+747,"9_""Once upon a time there was a boy""",14,3,534,11,"""Once upon a time there was a boy""",13,"""After all, what does it mean for a man to hide one more thing when he has vanished completely?""",38,0,0,4,2
+749,Volume 1,12,1,0,3,,128,,53,0,0,0,2
+750,Chapter II,12,2,749,8,"""Mr. Bennet was among the earliest of those who waited on Mr. Bingley.""",10,"""...how soon he would return Mr. Bennet's visit, and determining when they should ask him to dinner.",53,0,0,0,2
+751,Chapter III,12,2,749,11,"""Not all that Mrs Bennet, however, with the assistance of her five daughters...""",15,"""'I quite detest the man.'""",53,0,0,0,2
+752,Chapter IV,12,2,749,16,"""When Jane and Elizabeth were alone, the former, who had been cautious in her praise...""",18,"""...and their brother felt authorised by such a commendation to think of her as he chose.""",53,0,0,0,2
+753,Chapter V,12,2,749,19,"""Within a short walk of Longbourn lived a family with whom the Bennets were particularly intimate.""",21,"""...she continued to declare that she would, and the argument ended only with the visit.""",53,0,0,0,2
+754,Chapter VI,12,2,749,22,"""The ladies of Longbourn soon waited on those of Netherfield.""",28,"""...and as his composure convinced her that all was safe, her with flowed long.""",53,0,0,0,2
+755,Chapter VII,12,2,749,29,"""Mr. Bennet's property consisted almost entirely in an estate of two thousand a year...""",34,"""...to Longbourn to acquaint the family with her stay, and bring back a supply of clothes.""",53,0,0,0,2
+756,Chapter VIII,12,2,749,35,"""At five o'clock the two ladies retired to dress, and half past six Elizabeth was summoned...""",40,"""...every possible attention might be paid to the sick lady and her sister.""",53,0,0,0,2
+757,Chapter IX,12,2,749,41,,45,,53,0,0,0,2
+758,Chapter X,12,2,749,42,,52,,53,0,0,0,2
+759,Chapter XI,12,2,749,53,,57,,53,0,0,0,2
+760,Chapter XII,12,2,749,58,,59,,53,0,0,0,2
+761,Chapter XIII,12,2,749,60,,64,,53,0,0,0,2
+762,Chapter XIV,12,2,749,65,,68,,53,0,0,0,2
+763,Chapter XV,12,2,749,69,,73,,53,0,0,0,2
+764,Chapter XVI,12,2,749,74,,83,,53,0,0,0,2
+765,Chapter XVII,12,2,749,84,,87,,53,0,0,0,2
+766,Chapter XVIII,12,2,749,88,,101,,53,0,0,0,2
+767,Chapter XIX,12,2,749,102,,107,,53,0,0,0,2
+768,Chapter XX,12,2,749,108,,112,,53,0,0,0,2
+769,Chapter XXI,12,2,749,113,,118,,53,0,0,0,2
+770,Chapter XXII,12,2,749,119,,123,,53,0,0,0,2
+772,Volume 2,12,1,0,129,,232,,53,0,0,0,2
+773,Chapter I (V2),12,2,772,131,,136,,53,0,0,0,2
+775,Chapter II (V2),12,2,772,137,,141,,53,0,0,0,2
+776,Chapter III (V2),12,2,772,142,,148,,53,0,0,0,2
+777,Chapter IV (V2),12,2,772,149,,152,,53,0,0,0,2
+778,Chapter V (V2),12,2,772,153,,156,,53,0,0,0,2
+779,Chapter VI (V2),12,2,772,157,,163,,53,0,0,0,2
+780,Chapter VII (V2),12,2,772,164,,167,,53,0,0,0,2
+781,Chapter VIII (V2),12,2,772,168,,172,,53,0,0,0,2
+782,Chapter IX (V2),12,2,772,173,,177,,53,0,0,0,2
+783,Chapter X (V2),12,2,772,178,,183,,53,0,0,0,2
+785,Chapter XI (V2),12,2,772,184,,189,,53,0,0,0,2
+786,Chapter XII (V2),12,2,772,190,,197,,53,0,0,0,2
+787,Chapter XIII (V2),12,2,772,198,,205,,53,0,0,0,2
+788,Chapter XIV (V2),12,2,772,204,,207,,53,0,0,0,2
+789,Chapter XV (V2),12,2,772,208,,210,,53,0,0,0,2
+790,Chapter XVI (V2),12,2,772,211,,215,,53,0,0,0,2
+791,Chapter XVII (V2),12,2,772,216,,220,,53,0,0,0,2
+792,Chapter XVIII (V2),12,2,772,221,,227,,53,0,0,0,2
+793,Chapter XIX (V2),12,2,772,228,,232,,53,0,0,0,2
+794,Volume 3,12,1,0,233,,367,,53,0,0,0,2
+795,Chapter I (V3),12,2,794,235,,247,,53,0,0,0,2
+796,Chapter II (V3),12,2,794,248,,254,,53,0,0,0,2
+797,Chapter III (V3),12,2,794,255,,259,,53,0,0,0,2
+798,Chapter IV (V3),12,2,794,260,,267,,53,0,0,0,2
+799,Chapter V (V3),12,2,794,268,,278,,53,0,0,0,2
+800,Chapter VI (V3),12,2,794,279,,284,,53,0,0,0,2
+801,Chapter VII (V3),12,2,794,285,,291,,53,0,0,0,2
+802,Chapter VIII (V3),12,2,794,292,,297,,53,0,0,0,2
+803,Chapter IX (V3),12,2,794,298,,303,,53,0,0,0,2
+804,Chapter X (V3),12,2,794,304,,311,,53,0,0,0,2
+805,Chapter XI (V3),12,2,794,312,,319,,53,0,0,0,2
+806,Chapter XII (V3),12,2,794,320,,324,,53,0,0,0,2
+807,Chapter XIII (V3),12,2,794,325,,331,,53,0,0,0,2
+808,Chapter XIV (V3),12,2,794,332,,339,,53,0,0,0,2
+809,Chapter XV (V3),12,2,794,340,,344,,53,0,0,0,2
+810,Chapter XVI (V3),12,2,794,345,,351,,53,0,0,0,2
+811,Chapter XVII (V3),12,2,794,352,,358,,53,0,0,0,2
+812,Chapter XVIII (V3),12,2,794,359,,363,,53,0,0,0,2
+813,Chapter XIX (V3),12,2,794,364,,367,,53,0,0,0,2
+814,Chapter I,12,2,748,5,,7,,53,0,0,0,2
+815,"9_""The book you gave me is sitting on my desk, and every day I learn to read it a little more""",14,3,544,39,"9_""The book you gave me is sitting on my desk, and every day I learn to read it a little more""",39,"9_""The book you gave me is sitting on my desk, and every day I learn to read it a little more""",43,1177,1182,3,2
+816,"8_April Sixth, 1928.",15,1,0,180,"""Once a bitch always a bitch, what I say.""",264,"""...and two of them can sleep in my bed and another one can have my place at the table too.""",54,1434,0,0,2
+817,"8_April Eighth, 1928.",15,1,0,265,"""The day dawned bleak and chill, a moving wall of gray light out of the northeast which, instead...""",321,"""...from left to right, post and tree, window and doorway and signboard each in its ordered place.""",55,0,0,0,2
+818,"8_""I had no answer to my letter about Quentin's easter dress.""",15,2,816,190,"""I had no answer to my letter about Quentin's easter dress....""",190,"""...You'd better wire me at once about her to this address.""",56,1435,1434,3,2
+819,Chapter XXIII,12,2,748,124,,128,,53,0,0,0,2
+820,"8_""Dear daddy wish you were here.""",15,2,816,193,"""Dear daddy wish you were here.""",193,"""No good parties when daddys out of town I miss my sweet daddy""",57,1462,1434,3,2
+821,I,17,1,0,1,The Korowai Pass had been closed since the end of the summer...,122,"...Mr Darvish knelt, and Sir Owen arose.",0,0,0,0,2
+822,Roots,19,1,0,1,First there was nothing.,152,"The whole house dims, the moment she dies.",59,0,0,0,2
+823,Trunk,19,1,0,153,A man sits at a desk in his cell in a medium-security prison.,352,"She struggles for a few seconds to hear the answer, before softening into whatever happens next.",59,0,0,0,2
+824,Crown,19,1,0,353,A man in the boreal north lies on his back on the cold ground at dawn.,472,...he might even finish out the first half of the sentence just in time to die.,59,0,0,0,2
+825,Seeds,19,1,0,473,Say the planet is born at midnight and it runs for one day.,502,This will never end.,59,0,0,0,2
+826,Nicholas Hoel,19,2,822,5,Now is the time of chestnuts,23,...the bluest of midwestern winter skies.,59,0,0,0,2
+827,Mimi Ma,19,2,822,24,The day in 1948 when Ma Sih Hsuin gets his third-class ticket for a crossing...,46,The fisherman's song.,59,0,0,0,2
+828,Adam Appich,19,2,822,47,A five-year-old in 1968 paints a picture.,63,"""Don't ever blow smoke up my ass again.""",59,0,0,0,2
+829,Ray Brinkman and Dorothy Cazaly,19,2,822,64,They're not hard to find: two people for whom trees mean almost nothing.,72,"""Huh. It's okay. I'm not going anywhere. Let's plant something.""",59,0,0,0,2
+830,Douglas Pavlicek,19,2,822,73,The cops arrive on the landing of Douglas Pavlicek's tiny efficiency...,90,Then no one will be left to fuck you over.,59,0,0,0,2
+831,Neelay Mehta,19,2,822,91,The boy who'll help change humans into other creatures...,111,"...the plan that now uses him, although he thinks it's his.",59,0,0,0,2
+832,Patricia Westerford,19,2,822,112,"It's 1950, and like the boy Cyparissus, whom she'll soon discover...",144,...and every one of them keeps making things.,59,0,0,0,2
+833,Olivia Vandergriff,19,2,822,145,Snow is thigh-high and the going slow.,152,"The whole house dims, the moment she dies.",59,0,0,0,2
+834,"8_""'My dear young nephew...'""",15,2,816,223,"""'My dear young nephew', it says,...""",224,"""'...Maury L. Bascomb.'""",58,1448,1434,3,2
+835,Prologue: Island,20,1,0,1,"Once upon a memory, at the far end of the Mediterranean Sea...",6,...as every secret is bound to do in the end.,61,0,0,0,2
+836,Part One: How to Bury a Tree,20,1,0,7,It was the last lesson of the year at Brook Hill Secondary School in north London.,72,She dropped another sugar cube into her tea and watched it dissolve.,61,0,0,0,2
+837,Part Two: Roots,20,1,0,73,An hour to midnight.,142,Our future...,61,0,0,0,2
+838,Part Three: Trunk,20,1,0,143,It was the day a heatwave descended on Nicosia.,190,"...there will be no winners, human or otherwise.",61,0,0,0,2
+839,Part Four: Branches,20,1,0,191,'So what exactly are you working on nowadays?',256,"...and yet he felt more alive than he had in a long, long while.",61,0,0,0,2
+840,Part Five: Ecosystem,20,1,0,257,The next day the butterflies came.,308,"If you find my husband, please bury him next to me.",61,0,0,0,2
+841,Part Six: How to Unbury a Tree,20,1,0,309,On New Year's Eve they had planned a quiet dinner...,343,...the remains of our love.,61,0,0,0,2
+842,Economy,21,1,0,3,,80,,60,0,0,0,2
+843,"Where I lived, and What I Lived For",21,1,0,81,,98,,60,0,0,0,2
+844,Reading,21,1,0,99,,110,,60,0,0,0,2
+845,Sounds,21,1,0,111,,128,,60,0,0,0,2
+846,Solitude,21,1,0,129,,139,,60,0,0,0,2
+847,Visitors,21,1,0,140,,154,,60,0,0,0,2
+848,The Bean-Field,21,1,0,155,,166,,60,0,0,0,2
+849,The Village,21,1,0,167,,172,,60,0,0,0,2
+850,The Ponds,21,1,0,173,,200,,60,0,0,0,2
+851,Baker Farm,21,1,0,201,,209,,60,0,0,0,2
+852,Higher Laws,21,1,0,210,,222,,60,0,0,0,2
+853,Brute Neighbours,21,1,0,223,,237,,60,0,0,0,2
+854,House-Warming,21,1,0,238,,255,,60,0,0,0,2
+855,Former Inhabitants: and Winter Visitors,21,1,0,256,,270,,60,0,0,0,2
+856,Winter Animals,21,1,0,271,,281,,60,0,0,0,2
+857,The Pond in Winter,21,1,0,282,,298,,60,0,0,0,2
+858,Spring (W),21,1,0,299,,319,,60,0,0,0,2
+859,Conclusion,21,1,0,320,,334,,60,0,0,0,2
+860,"8_April Seventh, 1928",15,1,0,3,"""Through the fence, between the curling flower spaces, I could see them hitting.""",75,"""...even when Caddy says that I have been asleep.""",62,1443,0,0,2
+861,"8_June Second, 1910",15,1,0,76,"""When the shadow of the sash appeared on the curtains...""",179,"""...so I didn't have to open the bag anymore.""",63,1444,0,0,2
+862,Test Emma Level 1,22,1,0,1,,3,,64,2566,2567,0,2
+863,Test Emma Level 2,22,2,862,2,,3,,64,2566,2567,0,2

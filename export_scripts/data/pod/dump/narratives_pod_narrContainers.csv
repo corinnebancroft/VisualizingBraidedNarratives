@@ -1,0 +1,73 @@
+narrContainer_id,narrContainer_title,narrContainer_level_id_fk,narrContainer_startPage,narrContainer_endPage,narrContainer_narrator_character_id_fk,narrContainer_protagonist_id_fk,narrContainer_embeddedContainerType_id_fk
+1,SOLO,0,1,1,0,NULL,0
+2,Evelina,0,3,86,3,NULL,0
+3,Judge Antone Basil Coutts,0,87,134,4,NULL,0
+4,Marne Wolde,0,135,179,5,NULL,0
+5,Evelina,0,181,192,3,NULL,0
+6,Judge Antone Basil Coutts,0,193,217,4,NULL,0
+7,Evelina,0,219,268,3,NULL,0
+8,Judge Antone Basil Coutts,0,269,292,4,NULL,0
+9,Doctor Cordelia Lochren,0,293,311,6,NULL,0
+10,The Plague of Doves,1,5,20,3,NULL,0
+11,A Little Nip,1,21,42,3,NULL,0
+12,Sister Godzilla,1,43,53,3,NULL,0
+13,Holy Track,1,54,79,3,NULL,0
+14,Bitter Tea,1,80,86,3,NULL,0
+15,The Way Things Are,1,89,95,4,NULL,0
+16,Town Fever,1,96,113,4,NULL,0
+17,The Wolf,1,114,117,4,NULL,0
+18,Come In,1,118,134,4,NULL,0
+19,Satan: Hijacker of a Planet,1,137,146,5,51,0
+20,The Daniels,1,147,157,5,NULL,0
+21,The Kindred,1,158,179,5,NULL,0
+22,The 4-B's,1,183,192,3,NULL,0
+23,Shamengwa,1,195,217,4,NULL,0
+24,The Reptile Garden,1,221,254,3,NULL,0
+25,All Souls' Day,1,255,266,3,0,0
+26,Road in the Sky,1,267,268,3,NULL,0
+27,The Veil,1,271,273,4,NULL,0
+28,Demolition,1,274,292,4,NULL,0
+29,Disaster Stamps of Pluto,1,295,311,6,NULL,0
+30,The Million Names,2,9,11,3,NULL,0
+31,Apparition,2,11,13,3,NULL,4
+32,The Burning Glare,2,13,15,3,NULL,0
+33,Mustache Maude,2,15,19,3,NULL,4
+34,Story,2,19,20,3,NULL,0
+35,The Boots,2,57,59,3,NULL,4
+36,The Clothesline,2,59,59,3,NULL,4
+37,The Basket Makers,2,60,61,3,NULL,4
+38,The Lochren Farm,2,61,63,3,NULL,4
+39,A Little Medicine,2,64,65,3,NULL,4
+40,Confessional,2,65,67,3,NULL,4
+41,The Sisters,2,68,68,3,NULL,0
+42,The Party,2,68,70,3,NULL,4
+43,The Baby,2,70,71,3,NULL,4
+44,Vogeli,2,71,72,3,NULL,4
+45,Death Song,2,72,77,3,NULL,4
+46,The Clatter of Wings,2,77,79,3,NULL,4
+47,Lines,2,86,86,3,NULL,0
+48,The Expedition,2,99,100,4,NULL,0
+49,The Great Drive,2,100,104,4,0,0
+50,Batner's Powders,2,104,106,4,NULL,0
+51,The Emissary,2,106,109,4,NULL,0
+52,The Millions,2,109,110,3,NULL,0
+53,Lafayette Peace,2,110,112,4,NULL,0
+54,The Saint,2,112,113,4,NULL,0
+55,The Gingerbread Boy,2,124,126,4,0,0
+56,Helpless,2,126,127,4,NULL,0
+57,Murdo Harp,2,127,129,4,NULL,0
+58,The Gesture,2,129,130,4,NULL,0
+59,The Lions,2,130,131,4,NULL,0
+60,The Garage,2,131,132,4,NULL,0
+61,The Entryway,2,132,134,4,NULL,0
+62,A Shiver of Possibility,2,134,134,4,NULL,0
+63,The First Fiddle,2,200,207,61,0,4
+64,Silent Passage,2,207,209,4,31,0
+65,The Fire,2,209,214,4,NULL,0
+66,Letter,2,214,216,4,0,2
+67,Warren,2,226,230,3,NULL,0
+68,Nonette,2,230,234,3,NULL,0
+69,The Kiss,2,234,240,3,NULL,0
+70,Nonette's Bed,2,240,244,3,NULL,0
+71,The Concert,2,244,248,3,NULL,0
+72,Walking on Air,2,248,254,3,NULL,0

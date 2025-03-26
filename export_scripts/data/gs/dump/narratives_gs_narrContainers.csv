@@ -1,0 +1,33 @@
+narrContainer_id,narrContainer_title,narrContainer_level_id_fk,narrContainer_startPage,narrContainer_endPage,narrContainer_narrator_character_id_fk,narrContainer_protagonist_id_fk,narrContainer_embeddedContainerType_id_fk
+73,RW_TestContainer_GS1,0,11,44,62,63,0
+74,RW_TestContainer_GS2,1,33,44,63,63,8
+75,EA_TestContainer_1,1,2,2,64,64,7
+76,EA_TestContainer_2,2,2,2,65,64,5
+77,A,0,1,108,0,0,0
+78,1 Found Objects,1,3,18,0,66,0
+79,2 The Gold Cure,1,19,38,0,67,0
+81,3 Ask Me If I Care,1,39,58,87,0,0
+82,4 Safari,1,59,83,0,0,0
+83,I. Grass,2,59,63,0,385,0
+84,II. Hills,2,63,75,0,397,0
+85,III. Sand,2,75,83,0,386,0
+86,5 You (Plural),1,84,91,86,0,0
+87,6 X's and O's,1,92,108,84,0,0
+88,B,0,109,340,0,0,0
+89,7 A to B,1,111,136,0,82,0
+90,I,2,111,114,0,0,0
+91,II,2,114,118,0,0,0
+92,III,2,119,124,0,0,0
+93,IV,2,124,132,0,0,0
+94,V,2,132,136,0,0,0
+95,8 Selling the General,1,137,165,0,347,0
+96,GENERAL B.'s ODD HEADGEAR SPURS CANCER RUMORS; LOCAL UNREST GROWS,3,137,137,0,0,8
+97,"EXTENT OF B'S WAR CRIMES MAY BE EXAGGERATED, NEW EVIDENCE SHOWS",3,141,141,0,0,0
+98,"""a set of goals""",3,7,7,0,66,1
+99,"9 Forty-Minute Lunch: Kitty Jackson Opens Up About Love, Fame, and Nixon!",1,166,185,138,0,8
+100,10 Out of Body,1,186,207,139,0,0
+101,"11 Good-bye, My Love",1,208,233,0,141,0
+102,12 Great Rock and Roll Pauses By Alison Blake,1,234,308,140,0,1
+103,13 Pure Language,1,310,340,0,71,0
+104,"""You said you were a fairy princess [...]""",2,45,45,126,0,0
+105,"""I am the passenger"" (song lyrics)",2,55,55,392,0,0
