@@ -66,9 +66,9 @@
             </xsl:for-each>
         </xsl:map>
     </xsl:variable>
-    <xsl:variable name="mapMenOrExes" as="map(xs:string, xs:string)">
+    <xsl:variable name="mapMenOrExs" as="map(xs:string, xs:string)">
         <xsl:map>
-            <xsl:for-each select="//table_data[@name='menOrExes']/row">
+            <xsl:for-each select="//table_data[@name='menOrExs']/row">
                 <xsl:map-entry key="xs:string(field[@name='menOrEx_id'])" select="xs:string(field[@name='menOrEx_text'])"/>
             </xsl:for-each>
         </xsl:map>
@@ -105,6 +105,8 @@
         <xsl:result-document format="csv" href="{replace(document-uri(/), '\.xml$', '_characters_test.csv')}">
             <xsl:sequence select="string-join($outputCharacters, '')"/>
         </xsl:result-document>
+        
+        <xsl:message>Generating CSV for Containers table ('narrContainers')...</xsl:message>
         <xsl:variable name="outputContainers" as="xs:string*">
             <xsl:value-of select="'id,Title,Level,Start Page,End Page,Narrator,Protagonist,Embed. Type'"/>
             <xsl:for-each select="//table_data[@name='narrContainers']/row">
@@ -116,12 +118,32 @@
                 <xsl:sequence select="hcmc:escapeString(field[@name='narrContainer_endPage']) || ','"/>
                 <xsl:sequence select="hcmc:escapeString(map:get($mapCharacters, field[@name='narrContainer_narrator_character_id_fk'])) || ','"/>
                 <xsl:sequence select="hcmc:escapeString(map:get($mapCharacters, field[@name='narrContainer_protagonist_id_fk'])) || ','"/>
-                <xsl:sequence select="hcmc:escapeString(map:get($mapEmbeddedContainerTypes, field[@name='narrContainer_embeddedContainerType_id_fk'])) || ','"/>
+                <xsl:sequence select="hcmc:escapeString(map:get($mapEmbeddedContainerTypes, field[@name='narrContainer_embeddedContainerType_id_fk']))"/>
             </xsl:for-each>
         </xsl:variable>
         
-        <xsl:result-document format="csv" href="{replace(document-uri(/), '\.xml$', '_containers_test.csv')}">
+        <xsl:result-document format="csv" href="{replace(document-uri(/), '\.xml$', '_narrContainers_test.csv')}">
             <xsl:sequence select="string-join($outputContainers, '')"/>
+        </xsl:result-document>
+        
+        <xsl:message>Generating CSV for Relationships table ('menExs')...</xsl:message>
+        <xsl:variable name="outputRelationships" as="xs:string*">
+            <xsl:value-of select="'id,Type of Relationship,Character 1,Character 2,Is Reciprocal?,Narrative Container,Start Page,End Page'"/>
+            <xsl:for-each select="//table_data[@name='menExs']/row">
+                <xsl:sort select="xs:integer(field[@name='meneEx_startPage'])"/>
+                <xsl:sequence select="'&#x0a;' || xs:string(field[@name='menEx_id']) || ','"/>
+                <xsl:sequence select="hcmc:escapeString(map:get($mapMenOrExs, field[@name='menEx_menOrEx_id_fk'])) || ','"/>
+                <xsl:sequence select="hcmc:escapeString(map:get($mapCharacters, field[@name='menEx_character1_id_fk'])) || ','"/>
+                <xsl:sequence select="hcmc:escapeString(map:get($mapCharacters, field[@name='menEx_character2_id_fk'])) || ','"/>
+                <xsl:sequence select="hcmc:escapeString(field[@name='menEx_isReciprocal_id_fk']) || ','"/>
+                <xsl:sequence select="hcmc:escapeString(map:get($mapNarrContainers, field[@name='menEx_narrContainer_id_fk'])) || ','"/>
+                <xsl:sequence select="hcmc:escapeString(field[@name='menEx_startPage']) || ','"/>
+                <xsl:sequence select="hcmc:escapeString(field[@name='menEx_endPage'])"/>
+            </xsl:for-each>
+        </xsl:variable>
+        
+        <xsl:result-document format="csv" href="{replace(document-uri(/), '\.xml$', '_relationships_test.csv')}">
+            <xsl:sequence select="string-join($outputRelationships, '')"/>
         </xsl:result-document>
         
     </xsl:template>
