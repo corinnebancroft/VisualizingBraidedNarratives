@@ -1,568 +1,618 @@
-menEx_id,menEx_menOrEx_id_fk,menEx_character1_id_fk,menEx_character2_id_fk,menEx_narrContainer_id_fk,menEx_isReciprocal_id_fk,menEx_startPage,menEx_endPage
-186,1,68,71,89,0,34,35
-187,2,69,72,90,1,38,41
-188,2,69,73,90,1,38,38
-189,0,69,74,90,1,38,38
-190,0,69,75,90,1,38,38
-191,0,69,76,90,1,38,38
-192,2,69,77,90,1,38,38
-193,0,69,78,90,0,38,38
-194,0,69,79,90,1,38,38
-195,1,69,80,90,0,39,39
-196,0,72,81,90,1,39,39
-197,0,69,81,90,0,39,39
-198,1,72,82,90,0,40,40
-199,1,69,82,90,0,40,40
-200,0,69,85,90,1,40,40
-201,0,83,84,90,1,40,40
-202,0,69,86,90,1,41,41
-203,2,69,87,90,1,41,44
-204,0,87,88,90,0,41,41
-205,0,87,89,90,1,41,42
-206,0,87,78,90,0,42,42
-207,0,89,78,90,1,42,42
-208,0,87,68,90,1,42,42
-209,1,87,90,90,0,42,42
-210,1,87,91,90,0,42,42
-211,1,87,92,90,0,42,42
-212,2,87,68,90,1,43,43
-213,0,87,93,90,1,44,44
-214,0,87,94,90,0,44,44
-215,0,87,68,90,1,44,44
-216,1,87,95,90,0,44,44
-217,0,69,66,90,1,44,44
-218,2,69,66,90,1,45,45
-219,0,66,96,90,1,45,45
-220,0,69,97,90,1,45,45
-221,2,69,72,90,1,45,45
-222,0,66,98,90,1,45,45
-223,0,69,87,90,1,46,46
-224,0,69,68,90,0,46,46
-225,0,70,99,91,1,47,47
-226,0,70,100,91,1,47,47
-227,2,70,102,91,1,48,48
-228,2,70,103,91,1,48,48
-229,2,70,104,91,1,48,48
-230,2,70,105,91,1,48,48
-231,2,70,106,91,1,48,48
-232,2,70,107,91,1,48,48
-233,2,70,108,91,1,48,48
-234,2,70,109,91,1,48,48
-235,2,70,110,91,1,48,48
-236,2,70,111,91,1,48,48
-237,2,70,112,91,1,48,48
-238,2,70,113,91,1,48,48
-239,2,70,115,91,1,48,48
-240,2,70,114,91,1,48,48
-241,2,70,116,91,1,48,48
-242,2,70,117,91,1,48,48
-243,2,70,118,91,1,48,48
-244,2,70,119,91,1,48,48
-245,2,70,120,91,1,48,48
-246,2,70,121,91,1,48,48
-247,2,70,122,91,1,48,48
-248,2,70,123,91,1,48,48
-249,2,124,123,91,0,48,48
-250,1,124,70,91,1,48,48
-251,1,70,125,91,0,49,49
-252,1,70,126,91,0,49,49
-253,1,70,127,91,0,50,50
-254,1,70,128,91,0,50,50
-255,1,70,129,91,0,50,50
-256,2,70,130,91,1,50,50
-257,2,70,139,91,1,51,51
-258,0,66,69,85,1,4,4
-259,0,66,98,85,1,4,4
-260,2,66,69,85,1,4,7
-261,2,66,143,85,1,7,9
-263,0,143,145,85,1,7,10
-264,0,66,143,85,1,7,7
-265,0,66,146,85,1,7,7
-266,0,69,145,85,1,7,7
-267,0,69,98,85,1,5,7
-268,1,69,146,85,0,7,7
-269,0,66,145,85,1,7,10
-270,0,69,149,85,1,4,5
-271,2,66,149,85,1,4,5
-272,1,96,150,85,1,5,5
-273,1,69,150,85,1,5,5
-274,1,69,151,85,0,5,6
-275,1,69,152,85,1,6,6
-276,0,151,152,85,1,6,6
-277,0,152,150,85,1,5,5
-278,0,66,148,85,1,7,8
-279,1,69,148,85,1,7,7
-280,1,143,148,85,0,8,8
-281,1,143,154,85,0,8,8
-282,1,143,155,85,0,8,8
-284,0,66,154,85,1,8,8
-285,1,66,155,85,0,8,8
-286,2,143,156,85,1,8,8
-287,0,66,156,85,1,8,8
-288,0,143,157,85,1,9,9
-289,1,66,157,85,1,9,9
-290,1,66,158,85,0,8,9
-291,0,143,158,85,1,8,9
-292,1,66,144,85,0,11,11
-293,2,98,159,86,1,14,14
-295,1,98,160,86,1,14,14
-296,0,98,161,86,1,15,15
-297,0,98,162,86,1,15,15
-298,0,98,163,86,1,15,15
-300,1,98,164,86,1,15,16
-301,1,98,165,86,1,15,15
-302,0,98,166,86,1,15,15
-303,2,98,166,86,1,16,16
-304,2,161,166,86,1,16,16
-305,2,98,162,86,1,16,16
-306,2,98,161,86,1,16,16
-307,0,98,167,86,1,16,16
-308,0,161,167,86,1,16,16
-309,0,98,66,86,1,16,16
-310,2,98,66,86,1,17,17
-311,0,98,145,86,1,17,17
-312,0,161,163,86,1,17,17
-313,1,98,168,86,0,17,17
-314,1,98,168,86,0,17,18
-315,0,98,169,86,1,18,18
-317,2,72,69,87,1,18,25
-318,1,72,176,87,0,18,18
-319,1,72,177,87,1,18,18
-320,1,72,178,87,0,18,18
-321,1,72,170,87,0,18,18
-322,1,72,171,87,0,18,18
-323,1,72,172,87,0,19,19
-324,1,72,173,87,1,19,19
-325,1,72,174,87,0,19,19
-326,1,72,175,87,0,19,19
-327,1,69,171,87,0,18,18
-328,1,69,172,87,0,19,19
-329,1,69,173,87,0,19,19
-332,1,69,177,87,1,18,18
-333,1,69,176,87,0,18,18
-334,1,69,178,87,0,18,18
-335,1,69,170,87,0,18,18
-336,1,69,171,87,0,18,18
-339,1,69,174,87,0,19,19
-340,1,69,175,87,0,19,19
-341,1,72,180,87,0,19,19
-342,2,72,184,87,1,21,22
-344,0,184,69,87,1,21,22
-345,0,72,185,87,1,21,21
-346,0,184,185,87,1,21,21
-347,0,184,186,87,1,21,21
-348,0,185,186,87,1,21,21
-349,1,72,181,87,0,21,21
-350,1,184,181,87,0,21,21
-351,1,72,182,87,0,21,21
-352,1,184,182,87,0,21,21
-353,0,69,186,87,1,21,21
-354,0,69,185,87,1,21,21
-355,1,72,183,87,0,21,21
-356,1,184,183,87,0,21,21
-357,1,72,187,87,0,22,23
-358,1,69,187,87,0,22,23
-359,1,72,188,87,0,24,24
-360,1,69,188,87,0,24,24
-361,2,87,189,88,1,25,26
-362,1,87,192,88,1,27,27
-363,2,87,189,88,1,27,29
-364,0,87,190,88,1,28,28
-365,1,87,191,88,0,28,28
-366,2,190,191,88,1,28,28
-367,0,190,197,88,1,28,28
-368,0,191,197,88,1,28,28
-369,1,87,197,88,0,28,28
-370,1,87,193,88,0,29,29
-371,2,87,194,88,1,29,29
-372,1,87,195,88,0,30,30
-373,2,87,196,88,1,30,31
-374,1,87,198,88,0,32,32
-375,2,87,189,88,1,32,33
-376,1,72,199,93,0,58,58
-377,1,69,199,93,0,58,58
-378,2,72,69,93,1,58,59
-379,2,72,200,93,1,59,60
-380,1,72,201,93,0,60,60
-381,1,69,201,93,0,60,60
-382,2,72,69,93,1,60,62
-383,0,69,87,93,1,61,61
-384,1,72,87,93,0,61,61
-385,0,72,83,93,1,61,61
-386,2,72,83,93,1,61,61
-387,1,72,151,93,0,61,61
-388,1,72,202,93,0,61,61
-389,1,72,150,93,0,61,61
-390,0,69,202,93,1,61,61
-391,2,66,145,85,1,4,4
-392,0,66,96,85,1,5,5
-393,0,69,96,85,1,5,5
-394,0,96,152,85,1,5,5
-395,0,69,145,85,1,6,6
-396,0,66,145,85,1,6,6
-397,0,98,145,85,1,6,6
-398,0,143,98,85,1,7,8
-399,0,148,154,85,1,8,8
-400,0,66,98,85,1,8,8
-401,0,143,156,85,1,9,9
-402,0,66,156,85,1,9,9
-403,0,143,78,85,1,9,9
-404,0,66,78,85,1,9,9
-405,0,66,69,85,1,9,9
-406,0,143,69,85,1,9,9
-407,1,66,203,85,0,9,9
-408,1,143,203,85,0,9,9
-409,1,158,203,85,0,9,9
-410,1,69,203,85,0,9,9
-411,0,143,204,85,1,9,9
-412,0,66,204,85,1,9,9
-413,0,66,98,85,1,10,10
-414,2,69,66,85,1,10,10
-415,0,69,66,85,1,11,11
-416,0,66,69,85,1,12,12
-417,0,66,69,85,1,13,13
-418,1,69,144,85,0,11,11
-419,2,66,143,85,1,11,11
-420,0,98,205,86,1,14,14
-421,0,159,205,86,1,14,14
-422,0,98,206,86,1,14,14
-423,0,98,207,86,1,14,14
-424,0,159,206,86,1,14,14
-425,0,159,207,86,1,14,14
-426,0,161,162,86,1,15,15
-427,0,162,163,86,1,15,15
-428,0,161,163,86,1,15,15
-429,0,164,166,86,1,15,16
-430,0,161,164,85,1,15,16
-431,0,98,159,86,1,16,16
-432,2,98,162,86,1,17,18
-433,0,98,163,86,1,17,18
-434,0,162,167,86,1,16,16
-435,0,162,208,86,1,16,16
-436,0,161,208,86,1,16,16
-437,2,98,209,86,1,16,16
-438,0,162,167,86,1,17,18
-439,0,162,208,86,1,17,18
-440,0,161,167,86,1,17,17
-441,0,161,167,86,1,17,17
-442,0,161,208,86,1,17,17
-443,0,98,167,86,1,17,18
-444,0,98,208,86,1,17,18
-445,0,98,163,86,1,17,18
-446,0,98,145,86,1,18,18
-447,0,98,66,86,1,18,18
-448,0,66,145,85,1,12,12
-449,2,66,145,85,1,13,17
-450,1,72,178,87,1,18,19
-451,1,69,178,87,1,18,19
-452,1,72,211,87,0,20,20
-453,1,69,211,87,0,20,20
-454,1,72,212,87,0,20,20
-455,1,69,212,87,0,20,20
-456,0,72,210,87,1,20,20
-457,1,69,210,87,0,20,20
-458,1,72,178,87,0,21,21
-459,1,69,178,87,0,21,21
-460,0,72,186,87,1,21,21
-461,0,184,186,87,1,21,21
-462,1,69,214,87,0,22,22
-463,0,72,214,87,1,22,22
-464,2,69,66,87,1,23,23
-465,1,72,66,87,1,23,23
-466,2,72,215,87,1,24,24
-467,1,69,215,87,0,24,24
-468,1,72,176,87,1,24,24
-469,1,69,176,87,1,24,24
-470,2,66,149,94,1,63,64
-471,0,66,98,94,1,64,64
-472,0,143,156,94,1,64,64
-473,0,66,156,94,1,64,64
-474,0,143,149,94,1,64,64
-475,2,66,98,94,1,65,65
-476,0,66,145,94,1,65,65
-477,0,143,145,94,1,65,65
-478,1,66,216,94,0,65,65
-479,1,66,217,94,0,65,65
-480,1,66,218,94,0,65,65
-481,1,143,216,94,0,65,65
-482,1,143,218,94,0,65,65
-483,1,143,217,94,0,65,65
-484,1,66,219,94,0,65,65
-485,1,143,219,94,0,65,65
-486,0,66,69,94,1,65,65
-487,0,143,69,94,0,65,65
-488,1,66,220,94,0,65,65
-489,1,143,220,94,0,65,65
-490,0,143,97,94,1,66,66
-491,0,143,72,94,1,66,66
-492,1,66,97,94,0,66,66
-493,1,66,72,94,1,66,66
-494,0,143,149,94,1,66,66
-495,0,66,149,94,1,66,66
-496,2,143,66,94,1,64,67
-497,2,143,66,85,1,7,9
-498,2,143,145,85,1,7,7
-499,2,143,145,94,1,67,67
-500,0,143,69,94,1,67,67
-501,0,143,158,94,1,67,67
-502,1,66,158,94,0,67,67
-503,1,143,222,94,0,67,67
-504,1,66,222,94,0,67,67
-505,1,145,158,94,0,67,67
-506,1,145,222,94,0,67,67
-507,0,66,69,94,1,67,67
-508,2,66,145,94,1,67,68
-509,0,66,149,94,1,68,68
-510,0,66,143,94,1,68,68
-511,0,66,69,94,1,68,68
-512,1,223,69,94,0,68,68
-513,2,66,223,94,1,68,69
-514,0,66,149,94,1,69,69
-515,2,66,145,94,1,69,70
-516,0,66,149,94,1,70,70
-517,1,225,162,96,0,76,76
-518,1,225,163,96,0,76,76
-519,1,98,226,96,0,76,76
-520,1,225,227,96,0,76,76
-521,0,98,162,96,1,76,76
-522,0,98,163,96,1,76,76
-523,0,98,227,96,1,76,76
-524,1,98,225,96,1,76,76
-525,1,225,98,96,1,76,76
-526,0,225,228,96,1,76,76
-527,1,98,228,96,1,76,76
-528,0,98,66,96,1,76,76
-529,0,98,145,96,1,76,76
-530,0,98,146,96,1,76,76
-531,0,146,66,96,1,76,76
-532,2,98,146,96,1,77,77
-533,0,98,66,96,1,77,77
-534,0,146,66,96,1,77,77
-535,0,146,229,96,1,77,77
-536,2,98,229,96,1,77,77
-537,0,98,146,96,1,78,78
-538,0,98,66,96,1,78,78
-539,1,98,225,96,1,78,78
-540,0,98,230,96,1,78,78
-541,0,98,231,96,1,78,78
-542,0,66,230,96,1,78,78
-543,0,66,231,96,1,78,78
-544,0,98,145,96,1,78,78
-545,2,98,146,96,1,78,78
-546,2,98,232,96,1,78,79
-547,0,232,66,96,1,78,78
-548,0,232,145,96,1,78,78
-549,0,232,233,96,1,78,78
-550,1,98,233,96,0,78,78
-551,0,232,234,96,1,78,78
-552,0,233,234,96,1,78,78
-553,1,98,234,96,0,78,78
-554,1,98,235,96,0,78,78
-555,0,98,236,96,1,78,78
-556,0,232,235,96,1,78,78
-557,0,232,236,96,1,78,78
-558,0,232,66,96,1,79,79
-559,2,98,66,96,1,79,80
-560,2,98,237,96,1,79,79
-561,0,98,161,96,1,79,79
-562,2,98,238,96,1,79,80
-563,0,98,239,96,1,80,80
-564,0,98,145,96,1,80,80
-565,1,87,147,97,0,80,80
-566,1,69,147,97,0,80,80
-567,0,87,69,97,1,80,80
-568,1,87,240,97,0,81,81
-569,0,87,241,97,1,81,81
-570,1,87,242,97,0,82,82
-571,1,87,243,97,0,82,82
-572,1,87,244,97,0,82,82
-573,1,87,245,97,0,82,82
-574,1,87,246,97,0,82,82
-575,1,87,247,97,0,82,82
-576,0,87,241,97,1,82,82
-577,1,87,248,97,0,82,82
-578,1,87,249,97,0,82,82
-579,1,87,248,97,0,83,83
-580,1,87,249,97,0,83,83
-581,2,249,248,97,1,82,83
-582,1,87,250,97,0,82,82
-583,0,248,250,97,0,82,82
-584,1,249,250,97,0,82,82
-585,0,87,189,97,1,83,83
-586,1,248,189,97,0,83,83
-587,1,249,189,97,0,83,83
-588,2,87,189,97,1,84,84
-589,2,87,251,97,1,84,85
-590,1,87,252,97,0,84,84
-591,1,87,253,97,0,84,84
-592,0,251,252,97,1,84,84
-593,1,87,254,97,0,84,84
-594,1,87,255,97,0,84,84
-595,1,251,254,97,0,84,84
-596,1,251,255,97,0,84,84
-597,2,87,256,97,1,85,86
-598,1,87,258,97,0,86,86
-599,1,256,258,97,0,86,86
-600,1,87,257,97,0,86,86
-601,1,256,257,97,0,86,86
-602,1,98,259,99,1,97,97
-603,1,98,225,99,1,97,97
-604,1,98,260,99,0,97,97
-605,0,98,66,99,1,97,97
-606,0,98,145,99,1,97,97
-607,0,98,66,99,1,98,98
-608,0,98,145,99,1,98,98
-609,1,98,261,99,0,98,98
-610,1,98,262,99,0,98,98
-611,1,98,263,99,0,98,98
-612,1,98,264,99,0,98,98
-613,2,98,259,99,1,98,101
-614,0,259,225,99,1,99,99
-615,1,98,225,99,1,99,99
-616,0,98,265,99,1,99,99
-617,1,98,266,99,1,99,99
-618,1,259,266,99,0,99,99
-619,0,98,167,99,1,99,99
-620,0,98,169,99,1,99,99
-621,1,259,167,99,0,99,99
-622,1,98,225,99,1,100,100
-623,1,98,266,99,1,100,100
-624,0,259,225,99,1,100,100
-625,1,259,266,99,0,100,100
-626,0,98,162,99,1,100,100
-627,0,162,225,99,1,100,100
-628,0,162,266,99,1,100,100
-629,0,98,66,99,1,101,101
-630,0,98,167,99,1,101,101
-631,1,98,225,99,1,101,101
-632,1,68,269,92,0,55,55
-633,1,68,270,92,0,55,55
-634,2,269,270,92,1,55,55
-635,1,68,271,92,0,55,55
-636,1,271,272,92,1,55,55
-637,1,68,272,92,0,55,55
-638,0,68,273,92,1,56,56
-639,0,68,274,92,1,56,56
-640,0,273,274,92,1,56,56
-641,0,68,275,92,1,56,56
-642,1,70,277,95,0,71,71
-643,0,277,224,95,1,71,71
-644,0,70,224,95,1,71,71
-645,1,70,272,95,0,72,72
-646,2,278,70,85,1,72,72
-647,2,278,272,95,1,72,72
-648,1,272,279,95,1,72,72
-649,2,70,279,95,0,72,72
-650,2,280,279,95,1,72,72
-651,2,70,272,95,1,73,73
-652,2,70,281,95,1,73,73
-653,2,282,70,95,1,74,74
-654,0,70,272,95,1,74,75
-655,2,70,277,95,1,75,75
-656,0,277,224,95,1,75,75
-657,0,70,224,95,1,75,75
-658,1,69,283,98,0,86,86
-659,1,69,284,98,0,86,86
-660,2,69,87,98,1,87,87
-661,1,87,95,98,0,87,87
-662,2,69,285,98,1,87,87
-663,2,285,95,98,1,87,87
-664,2,95,286,98,1,87,87
-665,2,69,95,98,1,87,87
-666,0,95,287,98,1,87,89
-667,2,69,72,98,1,87,89
-668,0,72,201,98,0,87,87
-669,1,72,95,98,0,87,88
-670,1,72,287,98,0,87,88
-671,1,72,288,98,0,87,88
-672,0,288,95,98,1,87,88
-673,0,288,287,98,1,87,88
-674,2,289,95,98,1,89,89
-675,0,289,287,98,1,89,89
-676,2,69,289,98,1,89,89
-677,2,69,290,98,1,89,89
-678,2,72,291,98,1,89,89
-679,2,69,291,98,1,89,89
-680,1,87,267,100,0,102,102
-681,1,87,268,100,0,102,102
-682,0,87,251,100,1,102,102
-683,1,87,293,100,0,102,102
-684,1,87,294,100,0,102,102
-685,1,87,295,100,0,102,102
-686,1,87,292,100,0,102,102
-687,2,87,189,100,0,103,103
-688,1,87,296,100,0,103,103
-689,1,87,297,100,0,103,103
-690,1,87,298,100,0,103,103
-691,1,87,299,100,0,103,103
-692,1,87,300,100,0,103,103
-693,0,87,256,100,0,103,103
-694,2,87,302,100,1,104,104
-695,2,87,301,100,1,104,104
-696,1,87,303,100,0,104,104
-697,0,301,303,100,0,104,104
-698,0,301,302,100,1,104,104
-699,0,87,304,100,1,104,104
-700,1,301,304,100,0,104,104
-701,2,87,305,100,1,104,106
-702,1,87,192,100,0,105,105
-703,1,305,192,100,0,105,105
-704,1,87,306,100,0,106,106
-705,1,87,306,100,0,105,105
-706,1,309,306,100,0,105,105
-707,1,309,306,100,0,106,106
-708,0,87,251,100,0,106,106
-709,0,87,311,100,1,106,106
-710,0,87,307,100,1,106,106
-711,0,87,311,100,1,107,107
-712,0,87,251,100,0,107,107
-713,0,307,251,100,0,106,106
-714,0,311,251,100,0,106,106
-715,0,311,251,100,0,107,107
-716,1,87,254,100,0,107,107
-717,1,87,308,100,0,107,107
-718,2,66,145,102,1,114,114
-719,0,66,143,102,1,114,114
-720,0,145,143,102,1,114,114
-721,0,66,149,102,1,115,115
-722,0,66,69,102,1,115,115
-723,2,66,145,102,1,115,115
-724,0,66,98,102,1,115,115
-725,2,143,145,102,1,116,117
-726,2,66,143,102,1,115,117
-727,0,143,158,102,1,115,115
-728,1,66,158,102,1,115,115
-729,2,66,145,102,1,116,116
-730,0,66,158,102,1,116,116
-731,2,158,312,102,1,116,116
-732,1,66,312,102,0,116,116
-733,1,66,313,102,0,116,116
-734,1,158,313,102,0,116,116
-735,1,143,312,102,0,116,116
-736,1,143,313,102,0,116,116
-737,0,66,98,102,1,116,116
-738,0,66,158,102,1,117,117
-739,0,143,158,102,1,117,117
-740,0,66,156,102,1,117,117
-741,0,143,156,102,1,117,117
-742,0,66,98,102,1,117,117
-743,2,158,312,102,1,117,118
-744,0,158,145,102,0,117,117
-745,1,312,145,102,0,117,117
-746,1,66,312,102,1,117,117
-747,0,158,314,102,1,117,117
-748,1,312,314,102,0,117,117
-749,0,158,314,102,1,118,118
-750,1,158,315,102,1,118,118
-751,1,312,314,102,0,118,118
-752,0,312,315,102,1,118,118
-753,0,312,316,102,1,118,118
-754,1,158,316,102,1,118,118
-755,2,66,158,102,1,118,118
-756,0,66,145,102,1,118,118
-757,1,66,312,102,1,118,118
-758,0,158,145,102,0,118,118
-759,1,312,145,102,0,118,118
-760,1,316,145,102,0,118,118
-761,0,66,145,102,1,119,119
-762,0,66,143,102,1,119,119
+id,Type of Relationship,Character 1,Character 2,Is Reciprocal?,Narrative Container,Start Page,End Page
+186,"Knows of","Manzanar Murakami","People in Traffic (34)","0","5: Traffic Window - Harbor Freeway","34","35"
+187,"Exchange","Gabriel Balboa","Emi","1","6: Coffee Break - Downtown","38","41"
+188,"Exchange","Gabriel Balboa","Terry","1","6: Coffee Break - Downtown","38","38"
+189,"Knows","Gabriel Balboa","Editor One (38)","1","6: Coffee Break - Downtown","38","38"
+190,"Knows","Gabriel Balboa","Editor Two (38)","1","6: Coffee Break - Downtown","38","38"
+191,"Knows","Gabriel Balboa","Editor Three (38)","1","6: Coffee Break - Downtown","38","38"
+192,"Exchange","Gabriel Balboa","Editor Four (38)","1","6: Coffee Break - Downtown","38","38"
+193,"Knows","Gabriel Balboa","God","0","6: Coffee Break - Downtown","38","38"
+194,"Knows","Gabriel Balboa","mothers of gang-bangers (38)","1","6: Coffee Break - Downtown","38","38"
+195,"Knows of","Gabriel Balboa","Rubén Salazar","0","6: Coffee Break - Downtown","39","39"
+196,"Knows","Emi","Bob the Weatherman","1","6: Coffee Break - Downtown","39","39"
+197,"Knows","Gabriel Balboa","Bob the Weatherman","0","6: Coffee Break - Downtown","39","39"
+198,"Knows of","Emi","Surfers (40)","0","6: Coffee Break - Downtown","40","40"
+199,"Knows of","Gabriel Balboa","Surfers (40)","0","6: Coffee Break - Downtown","40","40"
+200,"Knows","Gabriel Balboa","Gabriel Balboa's family","1","6: Coffee Break - Downtown","40","40"
+201,"Knows","Gabriel Balboa's mother","Gabriel Balboa's mother's priest","1","6: Coffee Break - Downtown","40","40"
+202,"Knows","Gabriel Balboa","Beth","1","6: Coffee Break - Downtown","41","41"
+203,"Exchange","Gabriel Balboa","Buzzworm","1","6: Coffee Break - Downtown","41","44"
+204,"Knows","Buzzworm","Folks in the bridge rafters (41)","0","6: Coffee Break - Downtown","41","41"
+205,"Knows","Buzzworm","Cross-dresser (41)","1","6: Coffee Break - Downtown","41","42"
+206,"Knows","Buzzworm","God","0","6: Coffee Break - Downtown","42","42"
+207,"Knows","Cross-dresser (41)","God","1","6: Coffee Break - Downtown","42","42"
+208,"Knows","Buzzworm","Manzanar Murakami","1","6: Coffee Break - Downtown","42","42"
+209,"Knows of","Buzzworm","Leonard Bernstein","0","6: Coffee Break - Downtown","42","42"
+210,"Knows of","Buzzworm","Esa-Pekka Solanen","0","6: Coffee Break - Downtown","42","42"
+211,"Knows of","Buzzworm","Seji Ozawa","0","6: Coffee Break - Downtown","42","42"
+212,"Exchange","Buzzworm","Manzanar Murakami","1","6: Coffee Break - Downtown","43","43"
+213,"Knows","Buzzworm","East L.A. boy","1","6: Coffee Break - Downtown","44","44"
+214,"Knows","Buzzworm","Webb reporter in San Jose","0","6: Coffee Break - Downtown","44","44"
+215,"Knows","Buzzworm","Manzanar Murakami","1","6: Coffee Break - Downtown","44","44"
+216,"Knows of","Buzzworm","Corazon Juarez","0","6: Coffee Break - Downtown","44","44"
+217,"Knows","Gabriel Balboa","Rafaela Cortes","1","6: Coffee Break - Downtown","44","44"
+218,"Exchange","Gabriel Balboa","Rafaela Cortes","1","6: Coffee Break - Downtown","45","45"
+219,"Knows","Rafaela Cortes","workers at Gabriel's house","1","6: Coffee Break - Downtown","45","45"
+220,"Knows","Gabriel Balboa","Gabriel Balboa's friends","1","6: Coffee Break - Downtown","45","45"
+221,"Exchange","Gabriel Balboa","Emi","1","6: Coffee Break - Downtown","45","45"
+222,"Knows","Rafaela Cortes","Bobby Ngu","1","6: Coffee Break - Downtown","45","45"
+223,"Knows","Gabriel Balboa","Buzzworm","1","6: Coffee Break - Downtown","46","46"
+224,"Knows","Gabriel Balboa","Manzanar Murakami","0","6: Coffee Break - Downtown","46","46"
+225,"Knows","Arcangel","Carmen Miranda","1","7: To Wake - The Marketplace","47","47"
+226,"Knows","Arcangel","Cantiflas","1","7: To Wake - The Marketplace","47","47"
+227,"Exchange","Arcangel","""the masses"" (48)","1","7: To Wake - The Marketplace","48","48"
+228,"Exchange","Arcangel","Che in Bolivia","1","7: To Wake - The Marketplace","48","48"
+229,"Exchange","Arcangel","Eva Péron","1","7: To Wake - The Marketplace","48","48"
+230,"Exchange","Arcangel","Pelé","1","7: To Wake - The Marketplace","48","48"
+231,"Exchange","Arcangel","Pinochet","1","7: To Wake - The Marketplace","48","48"
+232,"Exchange","Arcangel","Allende","1","7: To Wake - The Marketplace","48","48"
+233,"Exchange","Arcangel","El General Stroessner","1","7: To Wake - The Marketplace","48","48"
+234,"Exchange","Arcangel","Pablo Escobar","1","7: To Wake - The Marketplace","48","48"
+235,"Exchange","Arcangel","The DEA","1","7: To Wake - The Marketplace","48","48"
+236,"Exchange","Arcangel","Noriega","1","7: To Wake - The Marketplace","48","48"
+237,"Exchange","Arcangel","Vargas Llosa","1","7: To Wake - The Marketplace","48","48"
+238,"Exchange","Arcangel","Fujimori","1","7: To Wake - The Marketplace","48","48"
+239,"Exchange","Arcangel","Sandino","1","7: To Wake - The Marketplace","48","48"
+240,"Exchange","Arcangel","Somoza","1","7: To Wake - The Marketplace","48","48"
+241,"Exchange","Arcangel","Borges","1","7: To Wake - The Marketplace","48","48"
+242,"Exchange","Arcangel","Neruda","1","7: To Wake - The Marketplace","48","48"
+243,"Exchange","Arcangel","Archbishop Romero","1","7: To Wake - The Marketplace","48","48"
+244,"Exchange","Arcangel","Porfirio Díaz","1","7: To Wake - The Marketplace","48","48"
+245,"Exchange","Arcangel","Fidel Castro","1","7: To Wake - The Marketplace","48","48"
+246,"Exchange","Arcangel","Arcangel's torturers","1","7: To Wake - The Marketplace","48","48"
+247,"Exchange","Arcangel","Arcangel's inmates","1","7: To Wake - The Marketplace","48","48"
+248,"Exchange","Arcangel","Gabriel Garcia Márquez","1","7: To Wake - The Marketplace","48","48"
+249,"Exchange","performance goer (48)","Gabriel Garcia Márquez","0","7: To Wake - The Marketplace","48","48"
+250,"Knows of","performance goer (48)","Arcangel","1","7: To Wake - The Marketplace","48","48"
+251,"Knows of","Arcangel","Christopher Columbus","0","7: To Wake - The Marketplace","49","49"
+252,"Knows of","Arcangel","John Cabot","0","7: To Wake - The Marketplace","49","49"
+253,"Knows of","Arcangel","Pedro Alvares Cabral","0","7: To Wake - The Marketplace","50","50"
+254,"Knows of","Arcangel","Ferdinand Magellan","0","7: To Wake - The Marketplace","50","50"
+255,"Knows of","Arcangel","Hernán Cortés","0","7: To Wake - The Marketplace","50","50"
+256,"Exchange","Arcangel","""young man"" (50)","1","7: To Wake - The Marketplace","50","50"
+257,"Exchange","Arcangel","""children and passerby"" (51)","1","7: To Wake - The Marketplace","51","51"
+258,"Knows","Rafaela Cortes","Gabriel Balboa","1","1: Midday - Not Too Far from Mazatlán","4","4"
+259,"Knows","Rafaela Cortes","Bobby Ngu","1","1: Midday - Not Too Far from Mazatlán","4","4"
+260,"Exchange","Rafaela Cortes","Gabriel Balboa","1","1: Midday - Not Too Far from Mazatlán","4","7"
+261,"Exchange","Rafaela Cortes","Doña Maria","1","1: Midday - Not Too Far from Mazatlán","7","9"
+263,"Knows","Doña Maria","Sol","1","1: Midday - Not Too Far from Mazatlán","7","10"
+264,"Knows","Rafaela Cortes","Doña Maria","1","1: Midday - Not Too Far from Mazatlán","7","7"
+265,"Knows","Rafaela Cortes","Pepe","1","1: Midday - Not Too Far from Mazatlán","7","7"
+266,"Knows","Gabriel Balboa","Sol","1","1: Midday - Not Too Far from Mazatlán","7","7"
+267,"Knows","Gabriel Balboa","Bobby Ngu","1","1: Midday - Not Too Far from Mazatlán","5","7"
+268,"Knows of","Gabriel Balboa","Pepe","0","1: Midday - Not Too Far from Mazatlán","7","7"
+269,"Knows","Rafaela Cortes","Sol","1","1: Midday - Not Too Far from Mazatlán","7","10"
+270,"Knows","Gabriel Balboa","Rodriguez","1","1: Midday - Not Too Far from Mazatlán","4","5"
+271,"Exchange","Rafaela Cortes","Rodriguez","1","1: Midday - Not Too Far from Mazatlán","4","5"
+272,"Knows of","workers at Gabriel's house","Pancho Villa","1","1: Midday - Not Too Far from Mazatlán","5","5"
+273,"Knows of","Gabriel Balboa","Pancho Villa","1","1: Midday - Not Too Far from Mazatlán","5","5"
+274,"Knows of","Gabriel Balboa","Gabriel's Grandmother","0","1: Midday - Not Too Far from Mazatlán","5","6"
+275,"Knows of","Gabriel Balboa","Gabriel's Grandfather","1","1: Midday - Not Too Far from Mazatlán","6","6"
+276,"Knows","Gabriel's Grandmother","Gabriel's Grandfather","1","1: Midday - Not Too Far from Mazatlán","6","6"
+277,"Knows","Gabriel's Grandfather","Pancho Villa","1","1: Midday - Not Too Far from Mazatlán","5","5"
+278,"Knows","Rafaela Cortes","Rafaela's Mother","1","1: Midday - Not Too Far from Mazatlán","7","8"
+279,"Knows of","Gabriel Balboa","Rafaela's Mother","1","1: Midday - Not Too Far from Mazatlán","7","7"
+280,"Knows of","Doña Maria","Rafaela's Mother","0","1: Midday - Not Too Far from Mazatlán","8","8"
+281,"Knows of","Doña Maria","Rafaela's Father","0","1: Midday - Not Too Far from Mazatlán","8","8"
+282,"Knows of","Doña Maria","Rafaela's Great-Great-Grandfather","0","1: Midday - Not Too Far from Mazatlán","8","8"
+284,"Knows","Rafaela Cortes","Rafaela's Father","1","1: Midday - Not Too Far from Mazatlán","8","8"
+285,"Knows of","Rafaela Cortes","Rafaela's Great-Great-Grandfather","0","1: Midday - Not Too Far from Mazatlán","8","8"
+286,"Exchange","Doña Maria","Lupe","1","1: Midday - Not Too Far from Mazatlán","8","8"
+287,"Knows","Rafaela Cortes","Lupe","1","1: Midday - Not Too Far from Mazatlán","8","8"
+288,"Knows","Doña Maria","Benito","1","1: Midday - Not Too Far from Mazatlán","9","9"
+289,"Knows of","Rafaela Cortes","Benito","1","1: Midday - Not Too Far from Mazatlán","9","9"
+290,"Knows of","Rafaela Cortes","Hernando","0","1: Midday - Not Too Far from Mazatlán","8","9"
+291,"Knows","Doña Maria","Hernando","1","1: Midday - Not Too Far from Mazatlán","8","9"
+292,"Knows of","Rafaela Cortes","L.C. Tibbets","0","1: Midday - Not Too Far from Mazatlán","11","11"
+293,"Exchange","Bobby Ngu","Car Jacker (mentioned in Bobby's intro)","1","2: Benefits - Koreatown","14","14"
+295,"Knows of","Bobby Ngu","Bruce Lee","1","2: Benefits - Koreatown","14","14"
+296,"Knows","Bobby Ngu","Bobby's Brother","1","2: Benefits - Koreatown","15","15"
+297,"Knows","Bobby Ngu","Bobby's Father","1","2: Benefits - Koreatown","15","15"
+298,"Knows","Bobby Ngu","Bobby's Mother","1","2: Benefits - Koreatown","15","15"
+300,"Knows of","Bobby Ngu","Refugees","1","2: Benefits - Koreatown","15","16"
+301,"Knows of","Bobby Ngu","Americans (in the abstract)","1","2: Benefits - Koreatown","15","15"
+302,"Knows","Bobby Ngu","Refugee Camp Guards","1","2: Benefits - Koreatown","15","15"
+303,"Exchange","Bobby Ngu","Refugee Camp Guards","1","2: Benefits - Koreatown","16","16"
+304,"Exchange","Bobby's Brother","Refugee Camp Guards","1","2: Benefits - Koreatown","16","16"
+305,"Exchange","Bobby Ngu","Bobby's Father","1","2: Benefits - Koreatown","16","16"
+306,"Exchange","Bobby Ngu","Bobby's Brother","1","2: Benefits - Koreatown","16","16"
+307,"Knows","Bobby Ngu","Bobby's Sister 1","1","2: Benefits - Koreatown","16","16"
+308,"Knows","Bobby's Brother","Bobby's Sister 1","1","2: Benefits - Koreatown","16","16"
+309,"Knows","Bobby Ngu","Rafaela Cortes","1","2: Benefits - Koreatown","16","16"
+310,"Exchange","Bobby Ngu","Rafaela Cortes","1","2: Benefits - Koreatown","17","17"
+311,"Knows","Bobby Ngu","Sol","1","2: Benefits - Koreatown","17","17"
+312,"Knows","Bobby's Brother","Bobby's Mother","1","2: Benefits - Koreatown","17","17"
+313,"Knows of","Bobby Ngu","Bicycle Factory Workers","0","2: Benefits - Koreatown","17","17"
+314,"Knows of","Bobby Ngu","Bicycle Factory Workers","0","2: Benefits - Koreatown","17","18"
+315,"Knows","Bobby Ngu","Bobby's Nephews and Nieces","1","2: Benefits - Koreatown","18","18"
+317,"Exchange","Emi","Gabriel Balboa","1","3: Weather Report - Westside","18","25"
+318,"Knows of","Emi","Waiters","0","3: Weather Report - Westside","18","18"
+319,"Knows of","Emi","Cocktail Hostess","1","3: Weather Report - Westside","18","18"
+320,"Knows of","Emi","Diners","0","3: Weather Report - Westside","18","18"
+321,"Knows of","Emi","Raymond Chandler","0","3: Weather Report - Westside","18","18"
+322,"Knows of","Emi","Alfred Hitchcock","0","3: Weather Report - Westside","18","18"
+323,"Knows of","Emi","Roman Polanski","0","3: Weather Report - Westside","19","19"
+324,"Knows of","Emi","Robert Altman","1","3: Weather Report - Westside","19","19"
+325,"Knows of","Emi","Robert Zemeckis","0","3: Weather Report - Westside","19","19"
+326,"Knows of","Emi","Roger Rabbit","0","3: Weather Report - Westside","19","19"
+327,"Knows of","Gabriel Balboa","Alfred Hitchcock","0","3: Weather Report - Westside","18","18"
+328,"Knows of","Gabriel Balboa","Roman Polanski","0","3: Weather Report - Westside","19","19"
+329,"Knows of","Gabriel Balboa","Robert Altman","0","3: Weather Report - Westside","19","19"
+332,"Knows of","Gabriel Balboa","Cocktail Hostess","1","3: Weather Report - Westside","18","18"
+333,"Knows of","Gabriel Balboa","Waiters","0","3: Weather Report - Westside","18","18"
+334,"Knows of","Gabriel Balboa","Diners","0","3: Weather Report - Westside","18","18"
+335,"Knows of","Gabriel Balboa","Raymond Chandler","0","3: Weather Report - Westside","18","18"
+336,"Knows of","Gabriel Balboa","Alfred Hitchcock","0","3: Weather Report - Westside","18","18"
+339,"Knows of","Gabriel Balboa","Robert Zemeckis","0","3: Weather Report - Westside","19","19"
+340,"Knows of","Gabriel Balboa","Roger Rabbit","0","3: Weather Report - Westside","19","19"
+341,"Knows of","Emi","David Hockney","0","3: Weather Report - Westside","19","19"
+342,"Exchange","Emi","Emi's Mother","1","3: Weather Report - Westside","21","22"
+344,"Knows","Emi's Mother","Gabriel Balboa","1","3: Weather Report - Westside","21","22"
+345,"Knows","Emi","Emi's Father","1","3: Weather Report - Westside","21","21"
+346,"Knows","Emi's Mother","Emi's Father","1","3: Weather Report - Westside","21","21"
+347,"Knows","Emi's Mother","Emi's Siblings","1","3: Weather Report - Westside","21","21"
+348,"Knows","Emi's Father","Emi's Siblings","1","3: Weather Report - Westside","21","21"
+349,"Knows of","Emi","Montel Williams","0","3: Weather Report - Westside","21","21"
+350,"Knows of","Emi's Mother","Montel Williams","0","3: Weather Report - Westside","21","21"
+351,"Knows of","Emi","Rikki Lake","0","3: Weather Report - Westside","21","21"
+352,"Knows of","Emi's Mother","Rikki Lake","0","3: Weather Report - Westside","21","21"
+353,"Knows","Gabriel Balboa","Emi's Siblings","1","3: Weather Report - Westside","21","21"
+354,"Knows","Gabriel Balboa","Emi's Father","1","3: Weather Report - Westside","21","21"
+355,"Knows of","Emi","Sally Jesse Raphael","0","3: Weather Report - Westside","21","21"
+356,"Knows of","Emi's Mother","Sally Jesse Raphael","0","3: Weather Report - Westside","21","21"
+357,"Knows of","Emi","Philip Marlowe","0","3: Weather Report - Westside","22","23"
+358,"Knows of","Gabriel Balboa","Philip Marlowe","0","3: Weather Report - Westside","22","23"
+359,"Knows of","Emi","Nicholas Meyer","0","3: Weather Report - Westside","24","24"
+360,"Knows of","Gabriel Balboa","Nicholas Meyer","0","3: Weather Report - Westside","24","24"
+361,"Exchange","Buzzworm","Unnamed members of L.A. Underclass","1","4: Station ID - Jefferson & Normandie","25","26"
+362,"Knows of","Buzzworm","LAPD","1","4: Station ID - Jefferson & Normandie","27","27"
+363,"Exchange","Buzzworm","Unnamed members of L.A. Underclass","1","4: Station ID - Jefferson & Normandie","27","29"
+364,"Knows","Buzzworm","Cisco","1","4: Station ID - Jefferson & Normandie","28","28"
+365,"Knows of","Buzzworm","Cisco's dealer","0","4: Station ID - Jefferson & Normandie","28","28"
+366,"Exchange","Cisco","Cisco's dealer","1","4: Station ID - Jefferson & Normandie","28","28"
+367,"Knows","Cisco","Cisco's Old man","1","4: Station ID - Jefferson & Normandie","28","28"
+368,"Knows","Cisco's dealer","Cisco's Old man","1","4: Station ID - Jefferson & Normandie","28","28"
+369,"Knows of","Buzzworm","Cisco's Old man","0","4: Station ID - Jefferson & Normandie","28","28"
+370,"Knows of","Buzzworm","Papa John Creach","0","4: Station ID - Jefferson & Normandie","29","29"
+371,"Exchange","Buzzworm","Buzzworm's friend Kwon","1","4: Station ID - Jefferson & Normandie","29","29"
+372,"Knows of","Buzzworm","U.S. Surgeon General","0","4: Station ID - Jefferson & Normandie","30","30"
+373,"Exchange","Buzzworm","L.A. Suburbanites","1","4: Station ID - Jefferson & Normandie","30","31"
+374,"Knows of","Buzzworm","L.A. City Crew","0","4: Station ID - Jefferson & Normandie","32","32"
+375,"Exchange","Buzzworm","Unnamed members of L.A. Underclass","1","4: Station ID - Jefferson & Normandie","32","33"
+376,"Knows of","Emi","Joan Didion","0","9: NewsNow - Hollywood South","58","58"
+377,"Knows of","Gabriel Balboa","Joan Didion","0","9: NewsNow - Hollywood South","58","58"
+378,"Exchange","Emi","Gabriel Balboa","1","9: NewsNow - Hollywood South","58","59"
+379,"Exchange","Emi","NewsNow Van Guys","1","9: NewsNow - Hollywood South","59","60"
+380,"Knows of","Emi","Astor Piazzolla","0","9: NewsNow - Hollywood South","60","60"
+381,"Knows of","Gabriel Balboa","Astor Piazzolla","0","9: NewsNow - Hollywood South","60","60"
+382,"Exchange","Emi","Gabriel Balboa","1","9: NewsNow - Hollywood South","60","62"
+383,"Knows","Gabriel Balboa","Buzzworm","1","9: NewsNow - Hollywood South","61","61"
+384,"Knows of","Emi","Buzzworm","0","9: NewsNow - Hollywood South","61","61"
+385,"Knows","Emi","Gabriel Balboa's mother","1","9: NewsNow - Hollywood South","61","61"
+386,"Exchange","Emi","Gabriel Balboa's mother","1","9: NewsNow - Hollywood South","61","61"
+387,"Knows of","Emi","Gabriel's Grandmother","0","9: NewsNow - Hollywood South","61","61"
+388,"Knows of","Emi","Gabriel's Cousin Joe","0","9: NewsNow - Hollywood South","61","61"
+389,"Knows of","Emi","Pancho Villa","0","9: NewsNow - Hollywood South","61","61"
+390,"Knows","Gabriel Balboa","Gabriel's Cousin Joe","1","9: NewsNow - Hollywood South","61","61"
+391,"Exchange","Rafaela Cortes","Sol","1","1: Midday - Not Too Far from Mazatlán","4","4"
+392,"Knows","Rafaela Cortes","workers at Gabriel's house","1","1: Midday - Not Too Far from Mazatlán","5","5"
+393,"Knows","Gabriel Balboa","workers at Gabriel's house","1","1: Midday - Not Too Far from Mazatlán","5","5"
+394,"Knows","workers at Gabriel's house","Gabriel's Grandfather","1","1: Midday - Not Too Far from Mazatlán","5","5"
+395,"Knows","Gabriel Balboa","Sol","1","1: Midday - Not Too Far from Mazatlán","6","6"
+396,"Knows","Rafaela Cortes","Sol","1","1: Midday - Not Too Far from Mazatlán","6","6"
+397,"Knows","Bobby Ngu","Sol","1","1: Midday - Not Too Far from Mazatlán","6","6"
+398,"Knows","Doña Maria","Bobby Ngu","1","1: Midday - Not Too Far from Mazatlán","7","8"
+399,"Knows","Rafaela's Mother","Rafaela's Father","1","1: Midday - Not Too Far from Mazatlán","8","8"
+400,"Knows","Rafaela Cortes","Bobby Ngu","1","1: Midday - Not Too Far from Mazatlán","8","8"
+401,"Knows","Doña Maria","Lupe","1","1: Midday - Not Too Far from Mazatlán","9","9"
+402,"Knows","Rafaela Cortes","Lupe","1","1: Midday - Not Too Far from Mazatlán","9","9"
+403,"Knows","Doña Maria","God","1","1: Midday - Not Too Far from Mazatlán","9","9"
+404,"Knows","Rafaela Cortes","God","1","1: Midday - Not Too Far from Mazatlán","9","9"
+405,"Knows","Rafaela Cortes","Gabriel Balboa","1","1: Midday - Not Too Far from Mazatlán","9","9"
+406,"Knows","Doña Maria","Gabriel Balboa","1","1: Midday - Not Too Far from Mazatlán","9","9"
+407,"Knows of","Rafaela Cortes","tourists","0","1: Midday - Not Too Far from Mazatlán","9","9"
+408,"Knows of","Doña Maria","tourists","0","1: Midday - Not Too Far from Mazatlán","9","9"
+409,"Knows of","Hernando","tourists","0","1: Midday - Not Too Far from Mazatlán","9","9"
+410,"Knows of","Gabriel Balboa","tourists","0","1: Midday - Not Too Far from Mazatlán","9","9"
+411,"Knows","Doña Maria","Doña Maria's Sister","1","1: Midday - Not Too Far from Mazatlán","9","9"
+412,"Knows","Rafaela Cortes","Doña Maria's Sister","1","1: Midday - Not Too Far from Mazatlán","9","9"
+413,"Knows","Rafaela Cortes","Bobby Ngu","1","1: Midday - Not Too Far from Mazatlán","10","10"
+414,"Exchange","Gabriel Balboa","Rafaela Cortes","1","1: Midday - Not Too Far from Mazatlán","10","10"
+415,"Knows","Gabriel Balboa","Rafaela Cortes","1","1: Midday - Not Too Far from Mazatlán","11","11"
+416,"Knows","Rafaela Cortes","Gabriel Balboa","1","1: Midday - Not Too Far from Mazatlán","12","12"
+417,"Knows","Rafaela Cortes","Gabriel Balboa","1","1: Midday - Not Too Far from Mazatlán","13","13"
+418,"Knows of","Gabriel Balboa","L.C. Tibbets","0","1: Midday - Not Too Far from Mazatlán","11","11"
+419,"Exchange","Rafaela Cortes","Doña Maria","1","1: Midday - Not Too Far from Mazatlán","11","11"
+420,"Knows","Bobby Ngu","sanitary","1","2: Benefits - Koreatown","14","14"
+421,"Knows","Car Jacker (mentioned in Bobby's intro)","sanitary","1","2: Benefits - Koreatown","14","14"
+422,"Knows","Bobby Ngu","police","1","2: Benefits - Koreatown","14","14"
+423,"Knows","Bobby Ngu","crowd","1","2: Benefits - Koreatown","14","14"
+424,"Knows","Car Jacker (mentioned in Bobby's intro)","police","1","2: Benefits - Koreatown","14","14"
+425,"Knows","Car Jacker (mentioned in Bobby's intro)","crowd","1","2: Benefits - Koreatown","14","14"
+426,"Knows","Bobby's Brother","Bobby's Father","1","2: Benefits - Koreatown","15","15"
+427,"Knows","Bobby's Father","Bobby's Mother","1","2: Benefits - Koreatown","15","15"
+428,"Knows","Bobby's Brother","Bobby's Mother","1","2: Benefits - Koreatown","15","15"
+429,"Knows","Refugees","Refugee Camp Guards","1","2: Benefits - Koreatown","15","16"
+430,"Knows","Bobby's Brother","Refugees","1","1: Midday - Not Too Far from Mazatlán","15","16"
+431,"Knows","Bobby Ngu","Car Jacker (mentioned in Bobby's intro)","1","2: Benefits - Koreatown","16","16"
+432,"Exchange","Bobby Ngu","Bobby's Father","1","2: Benefits - Koreatown","17","18"
+433,"Knows","Bobby Ngu","Bobby's Mother","1","2: Benefits - Koreatown","17","18"
+434,"Knows","Bobby's Father","Bobby's Sister 1","1","2: Benefits - Koreatown","16","16"
+435,"Knows","Bobby's Father","Bobby's Sister 2","1","2: Benefits - Koreatown","16","16"
+436,"Knows","Bobby's Brother","Bobby's Sister 2","1","2: Benefits - Koreatown","16","16"
+437,"Exchange","Bobby Ngu","nighttime guard","1","2: Benefits - Koreatown","16","16"
+438,"Knows","Bobby's Father","Bobby's Sister 1","1","2: Benefits - Koreatown","17","18"
+439,"Knows","Bobby's Father","Bobby's Sister 2","1","2: Benefits - Koreatown","17","18"
+440,"Knows","Bobby's Brother","Bobby's Sister 1","1","2: Benefits - Koreatown","17","17"
+441,"Knows","Bobby's Brother","Bobby's Sister 1","1","2: Benefits - Koreatown","17","17"
+442,"Knows","Bobby's Brother","Bobby's Sister 2","1","2: Benefits - Koreatown","17","17"
+443,"Knows","Bobby Ngu","Bobby's Sister 1","1","2: Benefits - Koreatown","17","18"
+444,"Knows","Bobby Ngu","Bobby's Sister 2","1","2: Benefits - Koreatown","17","18"
+445,"Knows","Bobby Ngu","Bobby's Mother","1","2: Benefits - Koreatown","17","18"
+446,"Knows","Bobby Ngu","Sol","1","2: Benefits - Koreatown","18","18"
+447,"Knows","Bobby Ngu","Rafaela Cortes","1","2: Benefits - Koreatown","18","18"
+448,"Knows","Rafaela Cortes","Sol","1","1: Midday - Not Too Far from Mazatlán","12","12"
+449,"Exchange","Rafaela Cortes","Sol","1","1: Midday - Not Too Far from Mazatlán","13","17"
+450,"Knows of","Emi","Diners","1","3: Weather Report - Westside","18","19"
+451,"Knows of","Gabriel Balboa","Diners","1","3: Weather Report - Westside","18","19"
+452,"Knows of","Emi","Bogie","0","3: Weather Report - Westside","20","20"
+453,"Knows of","Gabriel Balboa","Bogie","0","3: Weather Report - Westside","20","20"
+454,"Knows of","Emi","Sponsor","0","3: Weather Report - Westside","20","20"
+455,"Knows of","Gabriel Balboa","Sponsor","0","3: Weather Report - Westside","20","20"
+456,"Knows","Emi","Emi's technicians","1","3: Weather Report - Westside","20","20"
+457,"Knows of","Gabriel Balboa","Emi's technicians","0","3: Weather Report - Westside","20","20"
+458,"Knows of","Emi","Diners","0","3: Weather Report - Westside","21","21"
+459,"Knows of","Gabriel Balboa","Diners","0","3: Weather Report - Westside","21","21"
+460,"Knows","Emi","Emi's Siblings","1","3: Weather Report - Westside","21","21"
+461,"Knows","Emi's Mother","Emi's Siblings","1","3: Weather Report - Westside","21","21"
+462,"Knows of","Gabriel Balboa","Chef","0","3: Weather Report - Westside","22","22"
+463,"Knows","Emi","Chef","1","3: Weather Report - Westside","22","22"
+464,"Exchange","Gabriel Balboa","Rafaela Cortes","1","3: Weather Report - Westside","23","23"
+465,"Knows of","Emi","Rafaela Cortes","1","3: Weather Report - Westside","23","23"
+466,"Exchange","Emi","person on the phone","1","3: Weather Report - Westside","24","24"
+467,"Knows of","Gabriel Balboa","person on the phone","0","3: Weather Report - Westside","24","24"
+468,"Knows of","Emi","Waiters","1","3: Weather Report - Westside","24","24"
+469,"Knows of","Gabriel Balboa","Waiters","1","3: Weather Report - Westside","24","24"
+470,"Exchange","Rafaela Cortes","Rodriguez","1","10: Morning - En México","63","64"
+471,"Knows","Rafaela Cortes","Bobby Ngu","1","10: Morning - En México","64","64"
+472,"Knows","Doña Maria","Lupe","1","10: Morning - En México","64","64"
+473,"Knows","Rafaela Cortes","Lupe","1","10: Morning - En México","64","64"
+474,"Knows","Doña Maria","Rodriguez","1","10: Morning - En México","64","64"
+475,"Exchange","Rafaela Cortes","Bobby Ngu","1","10: Morning - En México","65","65"
+476,"Knows","Rafaela Cortes","Sol","1","10: Morning - En México","65","65"
+477,"Knows","Doña Maria","Sol","1","10: Morning - En México","65","65"
+478,"Knows of","Rafaela Cortes","Frida Kahlo","0","10: Morning - En México","65","65"
+479,"Knows of","Rafaela Cortes","Van Gogh","0","10: Morning - En México","65","65"
+480,"Knows of","Rafaela Cortes","Picasso","0","10: Morning - En México","65","65"
+481,"Knows of","Doña Maria","Frida Kahlo","0","10: Morning - En México","65","65"
+482,"Knows of","Doña Maria","Picasso","0","10: Morning - En México","65","65"
+483,"Knows of","Doña Maria","Van Gogh","0","10: Morning - En México","65","65"
+484,"Knows of","Rafaela Cortes","Quetzalcoatl","0","10: Morning - En México","65","65"
+485,"Knows of","Doña Maria","Quetzalcoatl","0","10: Morning - En México","65","65"
+486,"Knows","Rafaela Cortes","Gabriel Balboa","1","10: Morning - En México","65","65"
+487,"Knows","Doña Maria","Gabriel Balboa","0","10: Morning - En México","65","65"
+488,"Knows of","Rafaela Cortes","Louis XIV","0","10: Morning - En México","65","65"
+489,"Knows of","Doña Maria","Louis XIV","0","10: Morning - En México","65","65"
+490,"Knows","Doña Maria","Gabriel Balboa's friends","1","10: Morning - En México","66","66"
+491,"Knows","Doña Maria","Emi","1","10: Morning - En México","66","66"
+492,"Knows of","Rafaela Cortes","Gabriel Balboa's friends","0","10: Morning - En México","66","66"
+493,"Knows of","Rafaela Cortes","Emi","1","10: Morning - En México","66","66"
+494,"Knows","Doña Maria","Rodriguez","1","10: Morning - En México","66","66"
+495,"Knows","Rafaela Cortes","Rodriguez","1","10: Morning - En México","66","66"
+496,"Exchange","Doña Maria","Rafaela Cortes","1","10: Morning - En México","64","67"
+497,"Exchange","Doña Maria","Rafaela Cortes","1","1: Midday - Not Too Far from Mazatlán","7","9"
+498,"Exchange","Doña Maria","Sol","1","1: Midday - Not Too Far from Mazatlán","7","7"
+499,"Exchange","Doña Maria","Sol","1","10: Morning - En México","67","67"
+500,"Knows","Doña Maria","Gabriel Balboa","1","10: Morning - En México","67","67"
+501,"Knows","Doña Maria","Hernando","1","10: Morning - En México","67","67"
+502,"Knows of","Rafaela Cortes","Hernando","0","10: Morning - En México","67","67"
+503,"Knows of","Doña Maria","Satellite Dish men","0","10: Morning - En México","67","67"
+504,"Knows of","Rafaela Cortes","Satellite Dish men","0","10: Morning - En México","67","67"
+505,"Knows of","Sol","Hernando","0","10: Morning - En México","67","67"
+506,"Knows of","Sol","Satellite Dish men","0","10: Morning - En México","67","67"
+507,"Knows","Rafaela Cortes","Gabriel Balboa","1","10: Morning - En México","67","67"
+508,"Exchange","Rafaela Cortes","Sol","1","10: Morning - En México","67","68"
+509,"Knows","Rafaela Cortes","Rodriguez","1","10: Morning - En México","68","68"
+510,"Knows","Rafaela Cortes","Doña Maria","1","10: Morning - En México","68","68"
+511,"Knows","Rafaela Cortes","Gabriel Balboa","1","10: Morning - En México","68","68"
+512,"Knows of","Hotel Manager","Gabriel Balboa","0","10: Morning - En México","68","68"
+513,"Exchange","Rafaela Cortes","Hotel Manager","1","10: Morning - En México","68","69"
+514,"Knows","Rafaela Cortes","Rodriguez","1","10: Morning - En México","69","69"
+515,"Exchange","Rafaela Cortes","Sol","1","10: Morning - En México","69","70"
+516,"Knows","Rafaela Cortes","Rodriguez","1","10: Morning - En México","70","70"
+517,"Knows of","Xiayue","Bobby's Father","0","12: Car Payment Due - Tijuana via Singapore","76","76"
+518,"Knows of","Xiayue","Bobby's Mother","0","12: Car Payment Due - Tijuana via Singapore","76","76"
+519,"Knows of","Bobby Ngu","Bobby's grandfather","0","12: Car Payment Due - Tijuana via Singapore","76","76"
+520,"Knows of","Xiayue","Bobby's uncles","0","12: Car Payment Due - Tijuana via Singapore","76","76"
+521,"Knows","Bobby Ngu","Bobby's Father","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+522,"Knows","Bobby Ngu","Bobby's Mother","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+523,"Knows","Bobby Ngu","Bobby's uncles","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+524,"Knows of","Bobby Ngu","Xiayue","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+525,"Knows of","Xiayue","Bobby Ngu","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+526,"Knows","Xiayue","smugglers","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+527,"Knows of","Bobby Ngu","smugglers","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+528,"Knows","Bobby Ngu","Rafaela Cortes","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+529,"Knows","Bobby Ngu","Sol","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+530,"Knows","Bobby Ngu","Pepe","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+531,"Knows","Pepe","Rafaela Cortes","1","12: Car Payment Due - Tijuana via Singapore","76","76"
+532,"Exchange","Bobby Ngu","Pepe","1","12: Car Payment Due - Tijuana via Singapore","77","77"
+533,"Knows","Bobby Ngu","Rafaela Cortes","1","12: Car Payment Due - Tijuana via Singapore","77","77"
+534,"Knows","Pepe","Rafaela Cortes","1","12: Car Payment Due - Tijuana via Singapore","77","77"
+535,"Knows","Pepe","People from Tijuana","1","12: Car Payment Due - Tijuana via Singapore","77","77"
+536,"Exchange","Bobby Ngu","People from Tijuana","1","12: Car Payment Due - Tijuana via Singapore","77","77"
+537,"Knows","Bobby Ngu","Pepe","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+538,"Knows","Bobby Ngu","Rafaela Cortes","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+539,"Knows of","Bobby Ngu","Xiayue","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+540,"Knows","Bobby Ngu","immigration lawyer","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+541,"Knows","Bobby Ngu","Rafaela's smugglers","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+542,"Knows","Rafaela Cortes","immigration lawyer","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+543,"Knows","Rafaela Cortes","Rafaela's smugglers","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+544,"Knows","Bobby Ngu","Sol","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+545,"Exchange","Bobby Ngu","Pepe","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+546,"Exchange","Bobby Ngu","Celia Oh","1","12: Car Payment Due - Tijuana via Singapore","78","79"
+547,"Knows","Celia Oh","Rafaela Cortes","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+548,"Knows","Celia Oh","Sol","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+549,"Knows","Celia Oh","Celia Oh's Mother","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+550,"Knows of","Bobby Ngu","Celia Oh's Mother","0","12: Car Payment Due - Tijuana via Singapore","78","78"
+551,"Knows","Celia Oh","Unnamed baby","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+552,"Knows","Celia Oh's Mother","Unnamed baby","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+553,"Knows of","Bobby Ngu","Unnamed baby","0","12: Car Payment Due - Tijuana via Singapore","78","78"
+554,"Knows of","Bobby Ngu","Celia Oh's Father","0","12: Car Payment Due - Tijuana via Singapore","78","78"
+555,"Knows","Bobby Ngu","Celia Oh's Brother","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+556,"Knows","Celia Oh","Celia Oh's Father","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+557,"Knows","Celia Oh","Celia Oh's Brother","1","12: Car Payment Due - Tijuana via Singapore","78","78"
+558,"Knows","Celia Oh","Rafaela Cortes","1","12: Car Payment Due - Tijuana via Singapore","79","79"
+559,"Exchange","Bobby Ngu","Rafaela Cortes","1","12: Car Payment Due - Tijuana via Singapore","79","80"
+560,"Exchange","Bobby Ngu","Worker on the phone","1","12: Car Payment Due - Tijuana via Singapore","79","79"
+561,"Knows","Bobby Ngu","Bobby's Brother","1","12: Car Payment Due - Tijuana via Singapore","79","79"
+562,"Exchange","Bobby Ngu","v Boys","1","12: Car Payment Due - Tijuana via Singapore","79","80"
+563,"Knows","Bobby Ngu","Bobby's Homies","1","12: Car Payment Due - Tijuana via Singapore","80","80"
+564,"Knows","Bobby Ngu","Sol","1","12: Car Payment Due - Tijuana via Singapore","80","80"
+565,"Knows of","Buzzworm","Mike Davis (Quartz City / City of Quartz)","0","13: Oldies - This Old Hood","80","80"
+566,"Knows of","Gabriel Balboa","Mike Davis (Quartz City / City of Quartz)","0","13: Oldies - This Old Hood","80","80"
+567,"Knows","Buzzworm","Gabriel Balboa","1","13: Oldies - This Old Hood","80","80"
+568,"Knows of","Buzzworm","George Bush","0","13: Oldies - This Old Hood","81","81"
+569,"Knows","Buzzworm","Buzzworm's Grandmother","1","13: Oldies - This Old Hood","81","81"
+570,"Knows of","Buzzworm","Debbi Fields (Mrs. Fields)","0","13: Oldies - This Old Hood","82","82"
+571,"Knows of","Buzzworm","Dorothy Buffum Chandler","0","13: Oldies - This Old Hood","82","82"
+572,"Knows of","Buzzworm","Yonetaro Otani","0","13: Oldies - This Old Hood","82","82"
+573,"Knows of","Buzzworm","Mexican Rancheros","0","13: Oldies - This Old Hood","82","82"
+574,"Knows of","Buzzworm","Chumash People","0","13: Oldies - This Old Hood","82","82"
+575,"Knows of","Buzzworm","Tongva (Yaanga) People","0","13: Oldies - This Old Hood","82","82"
+576,"Knows","Buzzworm","Buzzworm's Grandmother","1","13: Oldies - This Old Hood","82","82"
+577,"Knows of","Buzzworm","City Bureaucrats","0","13: Oldies - This Old Hood","82","82"
+578,"Knows of","Buzzworm","Woman at Neighbourhood meeting","0","13: Oldies - This Old Hood","82","82"
+579,"Knows of","Buzzworm","City Bureaucrats","0","13: Oldies - This Old Hood","83","83"
+580,"Knows of","Buzzworm","Woman at Neighbourhood meeting","0","13: Oldies - This Old Hood","83","83"
+581,"Exchange","Woman at Neighbourhood meeting","City Bureaucrats","1","13: Oldies - This Old Hood","82","83"
+582,"Knows of","Buzzworm","""People in the way"" (82)","0","13: Oldies - This Old Hood","82","82"
+583,"Knows","City Bureaucrats","""People in the way"" (82)","0","13: Oldies - This Old Hood","82","82"
+584,"Knows of","Woman at Neighbourhood meeting","""People in the way"" (82)","0","13: Oldies - This Old Hood","82","82"
+585,"Knows","Buzzworm","Unnamed members of L.A. Underclass","1","13: Oldies - This Old Hood","83","83"
+586,"Knows of","City Bureaucrats","Unnamed members of L.A. Underclass","0","13: Oldies - This Old Hood","83","83"
+587,"Knows of","Woman at Neighbourhood meeting","Unnamed members of L.A. Underclass","0","13: Oldies - This Old Hood","83","83"
+588,"Exchange","Buzzworm","Unnamed members of L.A. Underclass","1","13: Oldies - This Old Hood","84","84"
+589,"Exchange","Buzzworm","Margarita","1","13: Oldies - This Old Hood","84","85"
+590,"Knows of","Buzzworm","Margarita's Boys","0","13: Oldies - This Old Hood","84","84"
+591,"Knows of","Buzzworm","MS-13 (Mara Salvatrucha)","0","13: Oldies - This Old Hood","84","84"
+592,"Knows","Margarita","Margarita's Boys","1","13: Oldies - This Old Hood","84","84"
+593,"Knows of","Buzzworm","Aretha Franklin","0","13: Oldies - This Old Hood","84","84"
+594,"Knows of","Buzzworm","Mariachi los Camperos de Nati Cano","0","13: Oldies - This Old Hood","84","84"
+595,"Knows of","Margarita","Aretha Franklin","0","13: Oldies - This Old Hood","84","84"
+596,"Knows of","Margarita","Mariachi los Camperos de Nati Cano","0","13: Oldies - This Old Hood","84","84"
+597,"Exchange","Buzzworm","The kid who survived / dies","1","13: Oldies - This Old Hood","85","86"
+598,"Knows of","Buzzworm","Previous watch-owner","0","13: Oldies - This Old Hood","86","86"
+599,"Knows of","The kid who survived / dies","Previous watch-owner","0","13: Oldies - This Old Hood","86","86"
+600,"Knows of","Buzzworm","Muhammad Ali","0","13: Oldies - This Old Hood","86","86"
+601,"Knows of","The kid who survived / dies","Muhammad Ali","0","13: Oldies - This Old Hood","86","86"
+602,"Knows of","Bobby Ngu","The Snakehead","1","15: Second Mortgage - Chinatown","97","97"
+603,"Knows of","Bobby Ngu","Xiayue","1","15: Second Mortgage - Chinatown","97","97"
+604,"Knows of","Bobby Ngu","Xiayue's parents","0","15: Second Mortgage - Chinatown","97","97"
+605,"Knows","Bobby Ngu","Rafaela Cortes","1","15: Second Mortgage - Chinatown","97","97"
+606,"Knows","Bobby Ngu","Sol","1","15: Second Mortgage - Chinatown","97","97"
+607,"Knows","Bobby Ngu","Rafaela Cortes","1","15: Second Mortgage - Chinatown","98","98"
+608,"Knows","Bobby Ngu","Sol","1","15: Second Mortgage - Chinatown","98","98"
+609,"Knows of","Bobby Ngu","The boys in Singapore","0","15: Second Mortgage - Chinatown","98","98"
+610,"Knows of","Bobby Ngu","Asian dude in the poster","0","15: Second Mortgage - Chinatown","98","98"
+611,"Knows of","Bobby Ngu","Asian beauties in the poster","0","15: Second Mortgage - Chinatown","98","98"
+612,"Knows of","Bobby Ngu","Chow Yun-Fat","0","15: Second Mortgage - Chinatown","98","98"
+613,"Exchange","Bobby Ngu","The Snakehead","1","15: Second Mortgage - Chinatown","98","101"
+614,"Knows","The Snakehead","Xiayue","1","15: Second Mortgage - Chinatown","99","99"
+615,"Knows of","Bobby Ngu","Xiayue","1","15: Second Mortgage - Chinatown","99","99"
+616,"Knows","Bobby Ngu","Bobby's Family (abstract)","1","15: Second Mortgage - Chinatown","99","99"
+617,"Knows of","Bobby Ngu","Xiayue's Brother","1","15: Second Mortgage - Chinatown","99","99"
+618,"Knows of","The Snakehead","Xiayue's Brother","0","15: Second Mortgage - Chinatown","99","99"
+619,"Knows","Bobby Ngu","Bobby's Sister 1","1","15: Second Mortgage - Chinatown","99","99"
+620,"Knows","Bobby Ngu","Bobby's Nephews and Nieces","1","15: Second Mortgage - Chinatown","99","99"
+621,"Knows of","The Snakehead","Bobby's Sister 1","0","15: Second Mortgage - Chinatown","99","99"
+622,"Knows of","Bobby Ngu","Xiayue","1","15: Second Mortgage - Chinatown","100","100"
+623,"Knows of","Bobby Ngu","Xiayue's Brother","1","15: Second Mortgage - Chinatown","100","100"
+624,"Knows","The Snakehead","Xiayue","1","15: Second Mortgage - Chinatown","100","100"
+625,"Knows of","The Snakehead","Xiayue's Brother","0","15: Second Mortgage - Chinatown","100","100"
+626,"Knows","Bobby Ngu","Bobby's Father","1","15: Second Mortgage - Chinatown","100","100"
+627,"Knows","Bobby's Father","Xiayue","1","15: Second Mortgage - Chinatown","100","100"
+628,"Knows","Bobby's Father","Xiayue's Brother","1","15: Second Mortgage - Chinatown","100","100"
+629,"Knows","Bobby Ngu","Rafaela Cortes","1","15: Second Mortgage - Chinatown","101","101"
+630,"Knows","Bobby Ngu","Bobby's Sister 1","1","15: Second Mortgage - Chinatown","101","101"
+631,"Knows of","Bobby Ngu","Xiayue","1","15: Second Mortgage - Chinatown","101","101"
+632,"Knows of","Manzanar Murakami","Driver of red Porsche","0","8: Rideshare - Downtown Interchange","55","55"
+633,"Knows of","Manzanar Murakami","Passenger in red Porsche","0","8: Rideshare - Downtown Interchange","55","55"
+634,"Exchange","Driver of red Porsche","Passenger in red Porsche","1","8: Rideshare - Downtown Interchange","55","55"
+635,"Knows of","Manzanar Murakami","semi truck driver","0","8: Rideshare - Downtown Interchange","55","55"
+636,"Knows of","semi truck driver","people in car jam (55)","1","8: Rideshare - Downtown Interchange","55","55"
+637,"Knows of","Manzanar Murakami","people in car jam (55)","0","8: Rideshare - Downtown Interchange","55","55"
+638,"Knows","Manzanar Murakami","surgical resident","1","8: Rideshare - Downtown Interchange","56","56"
+639,"Knows","Manzanar Murakami","surgery patient","1","8: Rideshare - Downtown Interchange","56","56"
+640,"Knows","surgical resident","surgery patient","1","8: Rideshare - Downtown Interchange","56","56"
+641,"Knows","Manzanar Murakami","The homeless","1","8: Rideshare - Downtown Interchange","56","56"
+642,"Knows of","Arcangel","woman in dream","0","11: To Wash - On The Tropic","71","71"
+643,"Knows","woman in dream","The Orange","1","11: To Wash - On The Tropic","71","71"
+644,"Knows","Arcangel","The Orange","1","11: To Wash - On The Tropic","71","71"
+645,"Knows of","Arcangel","people in car jam (55)","0","11: To Wash - On The Tropic","72","72"
+646,"Exchange","occupants of houses","Arcangel","1","1: Midday - Not Too Far from Mazatlán","72","72"
+647,"Exchange","occupants of houses","people in car jam (55)","1","11: To Wash - On The Tropic","72","72"
+648,"Knows of","people in car jam (55)","man with stalled truck","1","11: To Wash - On The Tropic","72","72"
+649,"Exchange","Arcangel","man with stalled truck","0","11: To Wash - On The Tropic","72","72"
+650,"Exchange","merchants","man with stalled truck","1","11: To Wash - On The Tropic","72","72"
+651,"Exchange","Arcangel","people in car jam (55)","1","11: To Wash - On The Tropic","73","73"
+652,"Exchange","Arcangel","young boy (73)","1","11: To Wash - On The Tropic","73","73"
+653,"Exchange","someone (74)","Arcangel","1","11: To Wash - On The Tropic","74","74"
+654,"Knows","Arcangel","people in car jam (55)","1","11: To Wash - On The Tropic","74","75"
+655,"Exchange","Arcangel","woman in dream","1","11: To Wash - On The Tropic","75","75"
+656,"Knows","woman in dream","The Orange","1","11: To Wash - On The Tropic","75","75"
+657,"Knows","Arcangel","The Orange","1","11: To Wash - On The Tropic","75","75"
+658,"Knows of","Gabriel Balboa","wave of Koreans (86)","0","14: Budgets - Skirting Downtown","86","86"
+659,"Knows of","Gabriel Balboa","American tourists (86)","0","14: Budgets - Skirting Downtown","86","86"
+660,"Exchange","Gabriel Balboa","Buzzworm","1","14: Budgets - Skirting Downtown","87","87"
+661,"Knows of","Buzzworm","Corazon Juarez","0","14: Budgets - Skirting Downtown","87","87"
+662,"Exchange","Gabriel Balboa","airport anouncer","1","14: Budgets - Skirting Downtown","87","87"
+663,"Exchange","airport anouncer","Corazon Juarez","1","14: Budgets - Skirting Downtown","87","87"
+664,"Exchange","Corazon Juarez","man with briefcase","1","14: Budgets - Skirting Downtown","87","87"
+665,"Exchange","Gabriel Balboa","Corazon Juarez","1","14: Budgets - Skirting Downtown","87","87"
+666,"Knows","Corazon Juarez","Corazon Juárez's child","1","14: Budgets - Skirting Downtown","87","89"
+667,"Exchange","Gabriel Balboa","Emi","1","14: Budgets - Skirting Downtown","87","91"
+668,"Knows","Emi","Astor Piazzolla","0","14: Budgets - Skirting Downtown","87","87"
+669,"Knows of","Emi","Corazon Juarez","0","14: Budgets - Skirting Downtown","87","88"
+670,"Knows of","Emi","Corazon Juárez's child","0","14: Budgets - Skirting Downtown","87","88"
+671,"Knows of","Emi","taxi driver","0","14: Budgets - Skirting Downtown","87","88"
+672,"Knows","taxi driver","Corazon Juarez","1","14: Budgets - Skirting Downtown","87","88"
+673,"Knows","taxi driver","Corazon Juárez's child","1","14: Budgets - Skirting Downtown","87","88"
+674,"Exchange","hospital aide","Corazon Juarez","1","14: Budgets - Skirting Downtown","89","89"
+675,"Knows","hospital aide","Corazon Juárez's child","1","14: Budgets - Skirting Downtown","89","89"
+676,"Exchange","Gabriel Balboa","hospital aide","1","14: Budgets - Skirting Downtown","89","89"
+677,"Exchange","Gabriel Balboa","nurse at station","1","14: Budgets - Skirting Downtown","89","89"
+678,"Exchange","Emi","""a CHP"" (89)","1","14: Budgets - Skirting Downtown","89","89"
+679,"Exchange","Gabriel Balboa","""a CHP"" (89)","1","14: Budgets - Skirting Downtown","89","89"
+680,"Knows of","Buzzworm","Malcolm X","0","16: LA X - Margarita's Corner","102","102"
+681,"Knows of","Buzzworm","Shaquille O'Neal","0","16: LA X - Margarita's Corner","102","102"
+682,"Knows","Buzzworm","Margarita","1","16: LA X - Margarita's Corner","102","102"
+683,"Knows of","Buzzworm","Boyz 2 Men","0","16: LA X - Margarita's Corner","102","102"
+684,"Knows of","Buzzworm","Snoop Dogg","0","16: LA X - Margarita's Corner","102","102"
+685,"Knows of","Buzzworm","Kid Frost","0","16: LA X - Margarita's Corner","102","102"
+686,"Knows of","Buzzworm","MC Hammer","0","16: LA X - Margarita's Corner","102","102"
+687,"Exchange","Buzzworm","Unnamed members of L.A. Underclass","0","16: LA X - Margarita's Corner","103","103"
+688,"Knows of","Buzzworm","Count Basie","0","16: LA X - Margarita's Corner","103","103"
+689,"Knows of","Buzzworm","Duke Ellington","0","16: LA X - Margarita's Corner","103","103"
+690,"Knows of","Buzzworm","Charlie Parker","0","16: LA X - Margarita's Corner","103","103"
+691,"Knows of","Buzzworm","Fats Domino","0","16: LA X - Margarita's Corner","103","103"
+692,"Knows of","Buzzworm","Ray Charles","0","16: LA X - Margarita's Corner","103","103"
+693,"Knows","Buzzworm","The kid who survived / dies","0","16: LA X - Margarita's Corner","103","103"
+694,"Exchange","Buzzworm","coroner","1","16: LA X - Margarita's Corner","104","104"
+695,"Exchange","Buzzworm","Mother of the dead boy","1","16: LA X - Margarita's Corner","104","104"
+696,"Knows of","Buzzworm","The dead boy's brother","0","16: LA X - Margarita's Corner","104","104"
+697,"Knows","Mother of the dead boy","The dead boy's brother","0","16: LA X - Margarita's Corner","104","104"
+698,"Knows","Mother of the dead boy","coroner","1","16: LA X - Margarita's Corner","104","104"
+699,"Knows","Buzzworm","Reclaim Our Children","1","16: LA X - Margarita's Corner","104","104"
+700,"Knows of","Mother of the dead boy","Reclaim Our Children","0","16: LA X - Margarita's Corner","104","104"
+701,"Exchange","Buzzworm","The Dead Boy's Crew","1","16: LA X - Margarita's Corner","104","106"
+702,"Knows of","Buzzworm","LAPD","0","16: LA X - Margarita's Corner","105","105"
+703,"Knows of","The Dead Boy's Crew","LAPD","0","16: LA X - Margarita's Corner","105","105"
+704,"Knows of","Buzzworm","Beethoven","0","16: LA X - Margarita's Corner","106","106"
+705,"Knows of","Buzzworm","Beethoven","0","16: LA X - Margarita's Corner","105","105"
+706,"Knows of","Walkman Kid","Beethoven","0","16: LA X - Margarita's Corner","105","105"
+707,"Knows of","Walkman Kid","Beethoven","0","16: LA X - Margarita's Corner","106","106"
+708,"Knows","Buzzworm","Margarita","0","16: LA X - Margarita's Corner","106","106"
+709,"Knows","Buzzworm","Margarita's Eldest","1","16: LA X - Margarita's Corner","106","106"
+710,"Knows","Buzzworm","Margarita's Family","1","16: LA X - Margarita's Corner","106","106"
+711,"Knows","Buzzworm","Margarita's Eldest","1","16: LA X - Margarita's Corner","107","107"
+712,"Knows","Buzzworm","Margarita","0","16: LA X - Margarita's Corner","107","107"
+713,"Knows","Margarita's Family","Margarita","0","16: LA X - Margarita's Corner","106","106"
+714,"Knows","Margarita's Eldest","Margarita","0","16: LA X - Margarita's Corner","106","106"
+715,"Knows","Margarita's Eldest","Margarita","0","16: LA X - Margarita's Corner","107","107"
+716,"Knows of","Buzzworm","Aretha Franklin","0","16: LA X - Margarita's Corner","107","107"
+717,"Knows of","Buzzworm","Radio Listener","0","16: LA X - Margarita's Corner","107","107"
+718,"Exchange","Rafaela Cortes","Sol","1","18: Daylight - The Cornfield","114","114"
+719,"Knows","Rafaela Cortes","Doña Maria","1","18: Daylight - The Cornfield","114","114"
+720,"Knows","Sol","Doña Maria","1","18: Daylight - The Cornfield","114","114"
+721,"Knows","Rafaela Cortes","Rodriguez","1","18: Daylight - The Cornfield","115","115"
+722,"Knows","Rafaela Cortes","Gabriel Balboa","1","18: Daylight - The Cornfield","115","115"
+723,"Exchange","Rafaela Cortes","Sol","1","18: Daylight - The Cornfield","115","115"
+724,"Knows","Rafaela Cortes","Bobby Ngu","1","18: Daylight - The Cornfield","115","115"
+725,"Exchange","Doña Maria","Sol","1","18: Daylight - The Cornfield","116","117"
+726,"Exchange","Rafaela Cortes","Doña Maria","1","18: Daylight - The Cornfield","115","117"
+727,"Knows","Doña Maria","Hernando","1","18: Daylight - The Cornfield","115","115"
+728,"Knows of","Rafaela Cortes","Hernando","1","18: Daylight - The Cornfield","115","115"
+729,"Exchange","Rafaela Cortes","Sol","1","18: Daylight - The Cornfield","116","116"
+730,"Knows","Rafaela Cortes","Hernando","1","18: Daylight - The Cornfield","116","116"
+731,"Exchange","Hernando","person on the phone with Hernando","1","18: Daylight - The Cornfield","116","116"
+732,"Knows of","Rafaela Cortes","person on the phone with Hernando","0","18: Daylight - The Cornfield","116","116"
+733,"Knows of","Rafaela Cortes","Those Brazilians","0","18: Daylight - The Cornfield","116","116"
+734,"Knows of","Hernando","Those Brazilians","0","18: Daylight - The Cornfield","116","116"
+735,"Knows of","Doña Maria","person on the phone with Hernando","0","18: Daylight - The Cornfield","116","116"
+736,"Knows of","Doña Maria","Those Brazilians","0","18: Daylight - The Cornfield","116","116"
+737,"Knows","Rafaela Cortes","Bobby Ngu","1","18: Daylight - The Cornfield","116","116"
+738,"Knows","Rafaela Cortes","Hernando","1","18: Daylight - The Cornfield","117","117"
+739,"Knows","Doña Maria","Hernando","1","18: Daylight - The Cornfield","117","117"
+740,"Knows","Rafaela Cortes","Lupe","1","18: Daylight - The Cornfield","117","117"
+741,"Knows","Doña Maria","Lupe","1","18: Daylight - The Cornfield","117","117"
+742,"Knows","Rafaela Cortes","Bobby Ngu","1","18: Daylight - The Cornfield","117","117"
+743,"Exchange","Hernando","person on the phone with Hernando","1","18: Daylight - The Cornfield","117","118"
+744,"Knows","Hernando","Sol","0","18: Daylight - The Cornfield","117","117"
+745,"Knows of","person on the phone with Hernando","Sol","0","18: Daylight - The Cornfield","117","117"
+746,"Knows of","Rafaela Cortes","person on the phone with Hernando","1","18: Daylight - The Cornfield","117","117"
+747,"Knows","Hernando","""They"" (Organ buyers)","1","18: Daylight - The Cornfield","117","117"
+748,"Knows of","person on the phone with Hernando","""They"" (Organ buyers)","0","18: Daylight - The Cornfield","117","117"
+749,"Knows","Hernando","""They"" (Organ buyers)","1","18: Daylight - The Cornfield","118","118"
+750,"Knows of","Hernando","""They"" (Organ Traffickers)","1","18: Daylight - The Cornfield","118","118"
+751,"Knows of","person on the phone with Hernando","""They"" (Organ buyers)","0","18: Daylight - The Cornfield","118","118"
+752,"Knows","person on the phone with Hernando","""They"" (Organ Traffickers)","1","18: Daylight - The Cornfield","118","118"
+753,"Knows","person on the phone with Hernando","""The Doctor""","1","18: Daylight - The Cornfield","118","118"
+754,"Knows of","Hernando","""The Doctor""","1","18: Daylight - The Cornfield","118","118"
+755,"Exchange","Rafaela Cortes","Hernando","1","18: Daylight - The Cornfield","118","118"
+756,"Knows","Rafaela Cortes","Sol","1","18: Daylight - The Cornfield","118","118"
+757,"Knows of","Rafaela Cortes","person on the phone with Hernando","1","18: Daylight - The Cornfield","118","118"
+758,"Knows","Hernando","Sol","0","18: Daylight - The Cornfield","118","118"
+759,"Knows of","person on the phone with Hernando","Sol","0","18: Daylight - The Cornfield","118","118"
+760,"Knows of","""The Doctor""","Sol","0","18: Daylight - The Cornfield","118","118"
+761,"Knows","Rafaela Cortes","Sol","1","18: Daylight - The Cornfield","119","119"
+762,"Knows","Rafaela Cortes","Doña Maria","1","18: Daylight - The Cornfield","119","119"
+763,"Knows","Gabriel Balboa","Steven Maier","1","14: Budgets - Skirting Downtown","89","89"
+764,"Knows of","Emi","semi truck driver","0","14: Budgets - Skirting Downtown","90","90"
+765,"Knows of","Gabriel Balboa","semi truck driver","0","14: Budgets - Skirting Downtown","90","90"
+766,"Knows of","Emi","Driver of red Porsche","0","14: Budgets - Skirting Downtown","90","90"
+767,"Knows of","Gabriel Balboa","Driver of red Porsche","0","14: Budgets - Skirting Downtown","90","90"
+768,"Knows of","Emi","Passenger in red Porsche","0","14: Budgets - Skirting Downtown","90","90"
+769,"Knows of","Gabriel Balboa","Passenger in red Porsche","0","14: Budgets - Skirting Downtown","90","90"
+770,"Knows","semi truck driver","Driver of red Porsche","1","14: Budgets - Skirting Downtown","90","90"
+771,"Knows","semi truck driver","Passenger in red Porsche","1","14: Budgets - Skirting Downtown","90","90"
+772,"Knows of","NewsNow Van Guys","Driver of red Porsche","0","14: Budgets - Skirting Downtown","90","90"
+773,"Knows of","NewsNow Van Guys","Passenger in red Porsche","0","14: Budgets - Skirting Downtown","90","90"
+774,"Knows of","NewsNow Van Guys","semi truck driver","0","14: Budgets - Skirting Downtown","90","90"
+775,"Exchange","LAPD","people in car jam (55)","1","14: Budgets - Skirting Downtown","90","90"
+776,"Exchange","Emi","Corazon Juarez","1","14: Budgets - Skirting Downtown","90","90"
+777,"Knows","Emi","Corazon Juárez's child","1","14: Budgets - Skirting Downtown","90","91"
+778,"Knows","Emi","Corazon Juarez","1","14: Budgets - Skirting Downtown","91","91"
+779,"Knows","Emi","Emi's sister","1","14: Budgets - Skirting Downtown","91","91"
+780,"Knows","Emi","Emi's nibling(s)","1","14: Budgets - Skirting Downtown","91","91"
+781,"Knows of","Gabriel Balboa","Emi's sister","0","14: Budgets - Skirting Downtown","91","91"
+782,"Knows of","Gabriel Balboa","Emi's nibling(s)","0","14: Budgets - Skirting Downtown","91","91"
+783,"Knows","Emi","taxi driver","1","14: Budgets - Skirting Downtown","91","91"
+784,"Knows","Corazon Juarez","taxi driver","1","14: Budgets - Skirting Downtown","91","91"
+785,"Knows","taxi driver","Corazon Juárez's child","1","14: Budgets - Skirting Downtown","91","91"
+786,"Knows of","Emi","Mexican wet nurses","1","14: Budgets - Skirting Downtown","91","91"
+787,"Exchange","Emi","bureaucrats in parking violations (91)","1","14: Budgets - Skirting Downtown","91","91"
+788,"Knows of","Gabriel Balboa","bureaucrats in parking violations (91)","0","14: Budgets - Skirting Downtown","91","91"
+789,"Exchange","Gabriel Balboa","Buzzworm","0","14: Budgets - Skirting Downtown","91","91"
+790,"Exchange","Gabriel Balboa","Buzzworm","1","14: Budgets - Skirting Downtown","92","92"
+791,"Knows of","Buzzworm","Corazon Juarez","0","14: Budgets - Skirting Downtown","92","92"
+792,"Knows of","Buzzworm","Corazon Juárez's child","0","14: Budgets - Skirting Downtown","92","92"
+793,"Knows","Buzzworm","Buzzworm's informant","1","14: Budgets - Skirting Downtown","92","92"
+794,"Knows","Buzzworm","Manzanar Murakami","1","14: Budgets - Skirting Downtown","92","92"
+795,"Knows","Buzzworm","The homeless","0","14: Budgets - Skirting Downtown","92","92"
+796,"Knows of","Buzzworm","jive radio show host","0","14: Budgets - Skirting Downtown","92","92"
+797,"Knows of","Buzzworm","Nazis","0","14: Budgets - Skirting Downtown","92","92"
+798,"Knows of","Buzzworm","Ted Hayes","0","14: Budgets - Skirting Downtown","92","92"
+799,"Knows","Buzzworm","Rubén Salazar","1","14: Budgets - Skirting Downtown","92","92"
+800,"Knows","Gabriel Balboa","Emi","1","14: Budgets - Skirting Downtown","92","93"
+801,"Knows","Gabriel Balboa","Richard Iizuka","1","14: Budgets - Skirting Downtown","92","92"
+802,"Knows of","Gabriel Balboa","Attorneys (93)","0","14: Budgets - Skirting Downtown","93","93"
+803,"Knows of","Gabriel Balboa","Single fathers","0","14: Budgets - Skirting Downtown","93","93"
+804,"Knows","Gabriel Balboa","Rafaela Cortes","1","14: Budgets - Skirting Downtown","93","93"
+805,"Exchange","Buzzworm","Manzanar Murakami","1","17: The Interview - Manzanar","107","109"
+806,"Exchange","Gabriel Balboa","Manzanar Murakami","1","17: The Interview - Manzanar","108","108"
+807,"Exchange","Buzzworm","Gabriel Balboa","1","17: The Interview - Manzanar","108","108"
+808,"Knows of","Gabriel Balboa","The homeless","0","17: The Interview - Manzanar","108","108"
+809,"Knows","Buzzworm","President of United States","0","17: The Interview - Manzanar","108","108"
+810,"Knows","Buzzworm","The homeless","0","17: The Interview - Manzanar","109","109"
+811,"Knows","Manzanar Murakami","The homeless","0","17: The Interview - Manzanar","109","109"
+812,"Knows of","Buzzworm","the Russians","0","17: The Interview - Manzanar","109","109"

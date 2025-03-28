@@ -1,312 +1,312 @@
-menEx_id,menEx_menOrEx_id_fk,menEx_character1_id_fk,menEx_character2_id_fk,menEx_narrContainer_id_fk,menEx_isReciprocal_id_fk,menEx_startPage,menEx_endPage
-1,0,1,4,2,0,107,107
-3,0,5,6,1,1,107,NULL
-4,2,6,5,1,1,7,7
-5,2,5,4,1,1,7,7
-6,2,6,4,1,1,7,7
-7,0,25,5,1,1,7,7
-8,0,25,26,1,1,7,7
-9,0,1,25,1,1,7,7
-10,0,1,26,1,1,7,7
-11,0,5,27,1,1,7,7
-12,1,1,11,9,1,191,191
-13,0,6,19,1,0,7,7
-14,0,1,30,9,1,191,191
-15,0,6,29,1,0,7,7
-16,2,29,29,1,1,8,8
-17,0,1,31,9,1,191,191
-18,0,6,32,1,1,8,8
-19,0,1,19,9,1,191,191
-20,2,6,33,1,0,9,9
-21,0,1,20,9,1,191,191
-22,0,1,9,9,1,191,191
-23,0,1,15,9,1,191,191
-24,0,9,15,9,1,191,191
-25,1,29,25,1,0,9,9
-26,1,29,26,1,0,9,9
-27,1,29,1,1,0,9,9
-28,1,9,11,9,1,191,191
-29,1,15,11,9,1,191,191
-30,2,6,34,1,1,9,10
-31,0,1,8,9,1,191,191
-32,0,9,8,9,1,191,191
-33,1,34,11,1,0,10,10
-34,1,15,11,9,1,191,191
-35,2,6,19,1,1,10,10
-36,1,35,36,1,0,10,10
-37,2,37,38,1,0,11,11
-38,0,6,10,1,0,12,12
-39,2,9,1,9,1,192,193
-40,0,1,42,9,1,192,192
-41,0,1,41,9,1,192,192
-42,2,39,40,9,1,192,192
-43,2,15,1,9,1,192,192
-44,0,9,12,9,1,192,192
-45,0,1,12,9,1,192,192
-46,0,8,30,9,1,192,192
-47,0,8,30,9,1,192,192
-48,0,15,16,9,1,192,192
-49,0,1,16,9,1,192,192
-50,0,16,10,9,1,192,192
-51,0,1,10,9,1,192,192
-52,2,15,1,9,1,193,193
-53,2,1,9,9,1,193,193
-54,2,16,43,9,1,193,193
-55,2,15,16,9,1,193,193
-56,2,1,16,9,1,193,193
-57,0,16,30,9,1,193,193
-58,2,1,16,9,1,194,194
-59,2,16,15,9,1,194,194
-60,2,16,9,9,1,194,194
-61,0,1,10,9,1,194,194
-62,1,1,11,9,1,194,194
-63,0,1,30,9,1,194,194
-64,0,1,8,9,1,194,194
-65,2,19,43,9,1,194,194
-66,0,1,44,9,1,194,194
-67,0,1,45,9,1,194,194
-68,0,19,10,9,1,194,194
-69,2,1,19,9,1,195,195
-70,0,1,10,9,1,195,195
-71,2,8,43,9,1,195,195
-72,2,1,9,9,1,195,195
-73,2,8,1,9,1,195,195
-74,2,1,9,9,1,196,196
-75,2,15,9,9,1,196,196
-76,0,15,31,9,1,196,196
-77,0,1,19,9,1,196,196
-78,2,19,43,9,1,196,196
-79,2,46,1,9,1,196,196
-80,0,46,31,9,1,196,196
-81,0,46,8,9,1,196,196
-82,0,9,8,9,1,196,196
-83,2,1,15,9,1,196,196
-84,2,1,9,9,1,196,196
-85,1,1,11,9,1,196,196
-86,1,1,11,9,1,197,197
-87,0,1,47,9,1,197,197
-88,2,9,1,9,1,197,197
-89,0,1,48,9,1,197,197
-90,2,15,1,9,1,197,197
-91,0,9,31,9,1,197,197
-92,0,1,42,9,1,197,197
-93,2,15,1,9,1,197,197
-94,0,1,16,9,1,197,197
-95,0,1,30,9,1,197,197
-96,0,1,49,9,1,197,197
-97,2,20,43,9,1,197,197
-98,2,1,20,9,1,198,198
-99,2,9,20,9,1,198,198
-100,0,1,8,9,1,198,198
-101,0,1,30,9,1,198,198
-102,0,20,50,9,1,198,198
-103,2,1,9,9,1,199,199
-104,2,1,20,9,1,199,199
-105,0,1,51,9,1,199,199
-106,0,1,49,9,1,199,199
-107,0,1,52,9,1,199,199
-108,2,51,43,9,1,199,199
-109,0,51,49,9,1,199,199
-110,0,1,53,9,1,199,199
-111,0,51,53,9,1,199,199
-112,2,15,1,9,1,200,200
-113,0,1,8,9,1,200,200
-114,0,1,30,9,1,200,200
-115,2,9,1,9,1,200,200
-116,0,15,8,9,1,200,200
-117,0,1,16,9,1,200,200
-118,0,1,30,9,1,200,200
-119,2,15,9,9,1,200,200
-120,2,15,1,9,1,200,200
-121,0,1,9,9,1,201,201
-122,2,1,15,9,1,201,201
-123,0,1,54,9,1,201,201
-124,0,15,54,9,1,201,201
-125,2,1,9,9,1,201,201
-126,0,1,10,9,1,201,201
-127,2,15,9,9,1,201,201
-128,0,15,54,9,1,201,201
-129,2,15,9,9,1,202,202
-130,2,1,9,9,1,202,202
-131,0,9,8,9,1,202,202
-132,0,1,55,9,1,202,202
-133,2,15,1,9,1,202,202
-134,2,15,1,9,1,203,203
-135,2,15,9,9,1,203,203
-136,2,1,9,9,1,203,203
-137,2,1,15,9,1,204,204
-138,2,1,9,9,1,204,204
-139,2,15,9,9,1,204,204
-140,2,1,15,9,1,205,205
-141,2,15,9,9,1,205,205
-142,0,15,8,9,1,205,205
-143,0,1,15,9,1,206,206
-144,0,9,15,9,1,206,206
-145,2,9,1,9,1,206,206
-146,0,9,56,9,1,206,206
-147,0,9,31,9,1,206,206
-148,0,9,19,9,1,206,206
-149,0,9,7,9,1,206,206
-150,0,9,8,9,1,206,206
-151,0,1,8,9,1,206,206
-152,0,9,1,9,1,207,207
-153,2,9,1,9,1,207,207
-154,0,1,15,9,1,207,207
-155,0,1,30,9,1,208,208
-156,0,1,54,9,1,208,208
-157,0,1,10,9,1,208,208
-158,2,9,1,9,1,208,208
-159,1,9,11,9,1,208,208
-160,0,1,8,9,1,208,208
-161,0,1,11,9,1,208,208
-162,2,10,19,1,1,13,13
-163,1,57,10,1,1,13,13
-164,1,10,58,1,0,13,13
-165,1,19,11,1,0,13,13
-166,2,10,12,1,1,14,14
-167,1,60,11,1,1,14,14
-168,1,60,61,1,0,14,14
-169,2,1,11,1,1,15,15
-170,2,11,62,1,1,15,15
-171,0,10,1,1,1,16,16
-172,2,10,16,1,1,17,17
-173,2,19,16,1,1,17,17
-174,2,10,1,1,1,18,18
-175,2,5,1,1,0,18,18
-176,2,1,5,11,1,20,20
-177,2,6,1,11,0,21,21
-178,2,6,4,11,1,21,21
-179,0,5,4,11,1,21,21
-180,2,5,65,11,1,22,22
-181,2,4,66,11,1,23,23
-182,1,67,47,11,1,24,24
-183,2,4,1,11,1,24,24
-184,2,66,1,11,1,27,27
-185,2,68,1,11,0,27,27
-186,2,69,1,11,0,27,27
-187,2,70,1,11,0,27,27
-188,2,4,65,12,0,28,28
-189,0,9,42,9,1,197,197
-190,0,15,42,9,1,197,197
-191,2,1,7,9,1,209,209
-192,2,9,20,9,1,199,199
-193,2,15,20,9,1,199,199
-194,0,9,52,9,1,199,199
-195,0,15,52,9,1,199,199
-196,0,9,30,9,1,200,200
-197,0,15,30,9,1,200,200
-198,0,1,8,10,1,209,209
-199,0,7,8,10,1,209,209
-200,0,7,9,10,1,209,209
-201,0,7,10,10,1,209,209
-202,2,16,4,13,1,39,39
-203,2,7,1,10,1,210,210
-204,0,7,8,10,1,210,210
-205,2,6,16,13,1,40,40
-206,0,7,10,10,1,210,210
-207,0,7,11,10,1,210,210
-208,0,8,26,10,1,210,210
-209,1,7,26,10,0,210,210
-210,2,1,7,10,1,211,211
-211,0,7,11,10,1,211,211
-212,2,7,11,10,1,211,211
-213,0,11,1,10,1,211,211
-214,2,7,1,10,1,212,212
-215,0,1,10,10,1,212,212
-216,2,11,7,10,1,212,212
-217,2,11,1,10,1,212,212
-218,2,11,1,10,1,213,213
-219,0,11,7,10,1,213,213
-220,0,11,26,10,1,213,213
-221,0,11,25,10,1,213,213
-222,2,11,7,10,1,213,213
-223,2,11,1,10,1,214,214
-224,2,16,5,13,1,47,47
-225,0,1,7,10,1,214,214
-226,0,1,11,10,1,214,214
-227,2,10,1,10,1,214,214
-228,0,10,7,10,1,214,214
-229,0,10,59,10,1,214,214
-230,0,10,22,10,1,214,214
-231,1,60,16,13,1,52,52
-232,0,10,74,10,1,214,214
-233,0,10,9,10,1,215,215
-234,0,10,15,10,1,215,215
-235,2,10,1,10,1,215,215
-236,0,10,7,10,1,215,215
-237,1,1,13,10,1,215,215
-238,0,10,13,10,1,215,215
-239,1,1,14,10,1,215,215
-240,0,10,14,10,1,215,215
-241,2,1,10,10,1,216,216
-242,0,1,11,10,1,216,216
-243,0,10,11,10,1,216,216
-244,0,10,7,10,1,216,216
-245,2,1,10,10,1,217,217
-246,0,10,26,10,1,217,217
-247,0,1,7,10,1,217,217
-248,0,1,8,10,1,217,217
-249,0,10,17,10,1,217,217
-250,2,1,59,10,1,218,218
-251,0,1,10,10,1,218,218
-252,0,59,10,10,1,218,218
-253,2,9,1,10,1,218,218
-254,2,15,1,10,1,218,218
-255,0,9,10,10,1,218,218
-256,0,1,7,10,1,218,218
-257,0,15,13,10,1,218,218
-258,2,9,1,10,1,219,219
-259,0,1,10,10,1,219,219
-260,2,15,1,10,1,219,219
-261,0,15,10,10,1,219,219
-262,0,1,11,10,1,219,219
-263,0,1,59,10,1,219,219
-264,0,9,10,10,1,219,219
-265,0,15,59,10,1,219,219
-266,2,59,1,10,1,219,219
-267,2,59,9,10,1,219,219
-268,2,59,15,10,1,219,219
-269,2,1,59,10,1,219,219
-270,0,59,10,10,1,219,219
-271,2,64,1,10,1,219,219
-272,0,16,30,10,1,219,219
-273,0,1,11,10,1,219,219
-274,1,64,11,10,1,219,219
-275,2,1,16,10,1,220,220
-276,0,16,1,10,1,220,220
-277,0,1,26,10,1,220,220
-278,0,1,25,10,1,220,220
-279,0,1,59,10,1,220,220
-280,0,1,10,10,1,220,220
-281,0,1,17,10,1,221,221
-282,2,10,75,10,1,221,221
-283,2,10,15,10,1,221,221
-284,2,18,75,10,1,221,221
-285,0,18,19,10,1,221,221
-286,2,10,9,10,1,221,221
-287,0,1,9,10,1,221,221
-288,2,10,1,10,1,221,221
-289,2,10,20,10,1,221,221
-290,0,1,20,10,1,221,221
-291,0,9,20,10,1,221,221
-292,0,15,20,10,1,221,221
-293,0,1,15,10,1,222,222
-294,0,1,17,10,1,222,222
-295,0,15,17,10,1,222,222
-296,2,10,75,10,1,222,222
-297,0,1,8,10,1,222,222
-298,2,1,19,10,1,222,222
-299,0,1,9,10,1,222,222
-300,0,1,20,10,1,222,222
-301,0,1,21,10,1,222,222
-302,0,1,15,10,1,222,222
-303,2,22,1,10,1,222,222
-304,0,1,16,10,1,222,222
-305,2,15,1,10,1,223,223
-306,0,1,9,10,1,223,223
-307,2,23,24,10,1,223,223
-308,2,24,1,10,1,223,223
-309,2,6,1,10,1,223,223
-310,0,1,5,10,1,223,223
-311,0,4,1,10,1,223,223
-312,2,9,1,10,1,223,223
+id,Type of Relationship,Character 1,Character 2,Is Reciprocal?,Narrative Container,Start Page,End Page
+1,"Knows","Harry Potter","Dudley Dursley","0","The Midnight Duel","107","107"
+3,"Knows","Petunia Dursley","Vernon Dursley","1","The Boy Who Lived","107",""
+4,"Exchange","Vernon Dursley","Petunia Dursley","1","The Boy Who Lived","7","7"
+5,"Exchange","Petunia Dursley","Dudley Dursley","1","The Boy Who Lived","7","7"
+6,"Exchange","Vernon Dursley","Dudley Dursley","1","The Boy Who Lived","7","7"
+7,"Knows","Lily Potter","Petunia Dursley","1","The Boy Who Lived","7","7"
+8,"Knows","Lily Potter","James Potter","1","The Boy Who Lived","7","7"
+9,"Knows","Harry Potter","Lily Potter","1","The Boy Who Lived","7","7"
+10,"Knows","Harry Potter","James Potter","1","The Boy Who Lived","7","7"
+11,"Knows","Petunia Dursley","Neighbours (of the Dursleys)","1","The Boy Who Lived","7","7"
+12,"Knows of","Harry Potter","Voldemort","1","Through the Trapdoor","191","191"
+13,"Knows","Vernon Dursley","Professor McGonagall","0","The Boy Who Lived","7","7"
+14,"Knows","Harry Potter","Fuffy","1","Through the Trapdoor","191","191"
+15,"Knows","Vernon Dursley","People in cloaks","0","The Boy Who Lived","7","7"
+16,"Exchange","People in cloaks","People in cloaks","1","The Boy Who Lived","8","8"
+17,"Knows","Harry Potter","Professor Flitwick","1","Through the Trapdoor","191","191"
+18,"Knows","Vernon Dursley","man in emerald green cloak","1","The Boy Who Lived","8","8"
+19,"Knows","Harry Potter","Professor McGonagall","1","Through the Trapdoor","191","191"
+20,"Exchange","Vernon Dursley","five different people","0","The Boy Who Lived","9","9"
+21,"Knows","Harry Potter","Neville Longbottom","1","Through the Trapdoor","191","191"
+22,"Knows","Harry Potter","Hermione Granger","1","Through the Trapdoor","191","191"
+23,"Knows","Harry Potter","Ronald Weasley","1","Through the Trapdoor","191","191"
+24,"Knows","Hermione Granger","Ronald Weasley","1","Through the Trapdoor","191","191"
+25,"Knows of","People in cloaks","Lily Potter","0","The Boy Who Lived","9","9"
+26,"Knows of","People in cloaks","James Potter","0","The Boy Who Lived","9","9"
+27,"Knows of","People in cloaks","Harry Potter","0","The Boy Who Lived","9","9"
+28,"Knows of","Hermione Granger","Voldemort","1","Through the Trapdoor","191","191"
+29,"Knows of","Ronald Weasley","Voldemort","1","Through the Trapdoor","191","191"
+30,"Exchange","Vernon Dursley","Tiny old man","1","The Boy Who Lived","9","10"
+31,"Knows","Harry Potter","Severus Snape","1","Through the Trapdoor","191","191"
+32,"Knows","Hermione Granger","Severus Snape","1","Through the Trapdoor","191","191"
+33,"Knows of","Tiny old man","Voldemort","0","The Boy Who Lived","10","10"
+34,"Knows of","Ronald Weasley","Voldemort","1","Through the Trapdoor","191","191"
+35,"Exchange","Vernon Dursley","Professor McGonagall","1","The Boy Who Lived","10","10"
+36,"Knows of","Bird Watchers","Owls","0","The Boy Who Lived","10","10"
+37,"Exchange","Jim McGuffin","Viewers","0","The Boy Who Lived","11","11"
+38,"Knows","Vernon Dursley","Albus Dumbledore","0","The Boy Who Lived","12","12"
+39,"Exchange","Hermione Granger","Harry Potter","1","Through the Trapdoor","192","193"
+40,"Knows","Harry Potter","Lee Jordan","1","Through the Trapdoor","192","192"
+41,"Knows","Harry Potter","The Weasley Twins","1","Through the Trapdoor","192","192"
+42,"Exchange","Professor Binns","Students in Professor Binns class","1","Through the Trapdoor","192","192"
+43,"Exchange","Ronald Weasley","Harry Potter","1","Through the Trapdoor","192","192"
+44,"Knows","Hermione Granger","","1","Through the Trapdoor","192","192"
+45,"Knows","Harry Potter","","1","Through the Trapdoor","192","192"
+46,"Knows","Severus Snape","Fuffy","1","Through the Trapdoor","192","192"
+47,"Knows","Severus Snape","Fuffy","1","Through the Trapdoor","192","192"
+48,"Knows","Ronald Weasley","Rubeus Hagrid","1","Through the Trapdoor","192","192"
+49,"Knows","Harry Potter","Rubeus Hagrid","1","Through the Trapdoor","192","192"
+50,"Knows","Rubeus Hagrid","Albus Dumbledore","1","Through the Trapdoor","192","192"
+51,"Knows","Harry Potter","Albus Dumbledore","1","Through the Trapdoor","192","192"
+52,"Exchange","Ronald Weasley","Harry Potter","1","Through the Trapdoor","193","193"
+53,"Exchange","Harry Potter","Hermione Granger","1","Through the Trapdoor","193","193"
+54,"Exchange","Rubeus Hagrid","The Golden Trio","1","Through the Trapdoor","193","193"
+55,"Exchange","Ronald Weasley","Rubeus Hagrid","1","Through the Trapdoor","193","193"
+56,"Exchange","Harry Potter","Rubeus Hagrid","1","Through the Trapdoor","193","193"
+57,"Knows","Rubeus Hagrid","Fuffy","1","Through the Trapdoor","193","193"
+58,"Exchange","Harry Potter","Rubeus Hagrid","1","Through the Trapdoor","194","194"
+59,"Exchange","Rubeus Hagrid","Ronald Weasley","1","Through the Trapdoor","194","194"
+60,"Exchange","Rubeus Hagrid","Hermione Granger","1","Through the Trapdoor","194","194"
+61,"Knows","Harry Potter","Albus Dumbledore","1","Through the Trapdoor","194","194"
+62,"Knows of","Harry Potter","Voldemort","1","Through the Trapdoor","194","194"
+63,"Knows","Harry Potter","Fuffy","1","Through the Trapdoor","194","194"
+64,"Knows","Harry Potter","Severus Snape","1","Through the Trapdoor","194","194"
+65,"Exchange","Professor McGonagall","The Golden Trio","1","Through the Trapdoor","194","194"
+66,"Knows","Harry Potter","Bane","1","Through the Trapdoor","194","194"
+67,"Knows","Harry Potter","Firenze","1","Through the Trapdoor","194","194"
+68,"Knows","Professor McGonagall","Albus Dumbledore","1","Through the Trapdoor","194","194"
+69,"Exchange","Harry Potter","Professor McGonagall","1","Through the Trapdoor","195","195"
+70,"Knows","Harry Potter","Albus Dumbledore","1","Through the Trapdoor","195","195"
+71,"Exchange","Severus Snape","The Golden Trio","1","Through the Trapdoor","195","195"
+72,"Exchange","Harry Potter","Hermione Granger","1","Through the Trapdoor","195","195"
+73,"Exchange","Severus Snape","Harry Potter","1","Through the Trapdoor","195","195"
+74,"Exchange","Harry Potter","Hermione Granger","1","Through the Trapdoor","196","196"
+75,"Exchange","Ronald Weasley","Hermione Granger","1","Through the Trapdoor","196","196"
+76,"Knows","Ronald Weasley","Professor Flitwick","1","Through the Trapdoor","196","196"
+77,"Knows","Harry Potter","Professor McGonagall","1","Through the Trapdoor","196","196"
+78,"Exchange","Professor McGonagall","The Golden Trio","1","Through the Trapdoor","196","196"
+79,"Exchange","The Fat Lady","Harry Potter","1","Through the Trapdoor","196","196"
+80,"Knows","The Fat Lady","Professor Flitwick","1","Through the Trapdoor","196","196"
+81,"Knows","The Fat Lady","Severus Snape","1","Through the Trapdoor","196","196"
+82,"Knows","Hermione Granger","Severus Snape","1","Through the Trapdoor","196","196"
+83,"Exchange","Harry Potter","Ronald Weasley","1","Through the Trapdoor","196","196"
+84,"Exchange","Harry Potter","Hermione Granger","1","Through the Trapdoor","196","196"
+85,"Knows of","Harry Potter","Voldemort","1","Through the Trapdoor","196","196"
+86,"Knows of","Harry Potter","Voldemort","1","Through the Trapdoor","197","197"
+87,"Knows","Harry Potter","The Dursleys","1","Through the Trapdoor","197","197"
+88,"Exchange","Hermione Granger","Harry Potter","1","Through the Trapdoor","197","197"
+89,"Knows","Harry Potter","James and Lily Potter","1","Through the Trapdoor","197","197"
+90,"Exchange","Ronald Weasley","Harry Potter","1","Through the Trapdoor","197","197"
+91,"Knows","Hermione Granger","Professor Flitwick","1","Through the Trapdoor","197","197"
+92,"Knows","Harry Potter","Lee Jordan","1","Through the Trapdoor","197","197"
+93,"Exchange","Ronald Weasley","Harry Potter","1","Through the Trapdoor","197","197"
+94,"Knows","Harry Potter","Rubeus Hagrid","1","Through the Trapdoor","197","197"
+95,"Knows","Harry Potter","Fuffy","1","Through the Trapdoor","197","197"
+96,"Knows","Harry Potter","Argus Filtch","1","Through the Trapdoor","197","197"
+97,"Exchange","Neville Longbottom","The Golden Trio","1","Through the Trapdoor","197","197"
+98,"Exchange","Harry Potter","Neville Longbottom","1","Through the Trapdoor","198","198"
+99,"Exchange","Hermione Granger","Neville Longbottom","1","Through the Trapdoor","198","198"
+100,"Knows","Harry Potter","Severus Snape","1","Through the Trapdoor","198","198"
+101,"Knows","Harry Potter","Fuffy","1","Through the Trapdoor","198","198"
+102,"Knows","Neville Longbottom","Trevor","1","Through the Trapdoor","198","198"
+103,"Exchange","Harry Potter","Hermione Granger","1","Through the Trapdoor","199","199"
+104,"Exchange","Harry Potter","Neville Longbottom","1","Through the Trapdoor","199","199"
+105,"Knows","Harry Potter","Peeves","1","Through the Trapdoor","199","199"
+106,"Knows","Harry Potter","Argus Filtch","1","Through the Trapdoor","199","199"
+107,"Knows","Harry Potter","Mrs. Norris","1","Through the Trapdoor","199","199"
+108,"Exchange","Peeves","The Golden Trio","1","Through the Trapdoor","199","199"
+109,"Knows","Peeves","Argus Filtch","1","Through the Trapdoor","199","199"
+110,"Knows","Harry Potter","The Bloody Baron","1","Through the Trapdoor","199","199"
+111,"Knows","Peeves","The Bloody Baron","1","Through the Trapdoor","199","199"
+112,"Exchange","Ronald Weasley","Harry Potter","1","Through the Trapdoor","200","200"
+113,"Knows","Harry Potter","Severus Snape","1","Through the Trapdoor","200","200"
+114,"Knows","Harry Potter","Fuffy","1","Through the Trapdoor","200","200"
+115,"Exchange","Hermione Granger","Harry Potter","1","Through the Trapdoor","200","200"
+116,"Knows","Ronald Weasley","Severus Snape","1","Through the Trapdoor","200","200"
+117,"Knows","Harry Potter","Rubeus Hagrid","1","Through the Trapdoor","200","200"
+118,"Knows","Harry Potter","Fuffy","1","Through the Trapdoor","200","200"
+119,"Exchange","Ronald Weasley","Hermione Granger","1","Through the Trapdoor","200","200"
+120,"Exchange","Ronald Weasley","Harry Potter","1","Through the Trapdoor","200","200"
+121,"Knows","Harry Potter","Hermione Granger","1","Through the Trapdoor","201","201"
+122,"Exchange","Harry Potter","Ronald Weasley","1","Through the Trapdoor","201","201"
+123,"Knows","Harry Potter","Hedwig","1","Through the Trapdoor","201","201"
+124,"Knows","Ronald Weasley","Hedwig","1","Through the Trapdoor","201","201"
+125,"Exchange","Harry Potter","Hermione Granger","1","Through the Trapdoor","201","201"
+126,"Knows","Harry Potter","Albus Dumbledore","1","Through the Trapdoor","201","201"
+127,"Exchange","Ronald Weasley","Hermione Granger","1","Through the Trapdoor","201","201"
+128,"Knows","Ronald Weasley","Hedwig","1","Through the Trapdoor","201","201"
+129,"Exchange","Ronald Weasley","Hermione Granger","1","Through the Trapdoor","202","202"
+130,"Exchange","Harry Potter","Hermione Granger","1","Through the Trapdoor","202","202"
+131,"Knows","Hermione Granger","Severus Snape","1","Through the Trapdoor","202","202"
+132,"Knows","Harry Potter","Norbert","1","Through the Trapdoor","202","202"
+133,"Exchange","Ronald Weasley","Harry Potter","1","Through the Trapdoor","202","202"
+134,"Exchange","Ronald Weasley","Harry Potter","1","Through the Trapdoor","203","203"
+135,"Exchange","Ronald Weasley","Hermione Granger","1","Through the Trapdoor","203","203"
+136,"Exchange","Harry Potter","Hermione Granger","1","Through the Trapdoor","203","203"
+137,"Exchange","Harry Potter","Ronald Weasley","1","Through the Trapdoor","204","204"
+138,"Exchange","Harry Potter","Hermione Granger","1","Through the Trapdoor","204","204"
+139,"Exchange","Ronald Weasley","Hermione Granger","1","Through the Trapdoor","204","204"
+140,"Exchange","Harry Potter","Ronald Weasley","1","Through the Trapdoor","205","205"
+141,"Exchange","Ronald Weasley","Hermione Granger","1","Through the Trapdoor","205","205"
+142,"Knows","Ronald Weasley","Severus Snape","1","Through the Trapdoor","205","205"
+143,"Knows","Harry Potter","Ronald Weasley","1","Through the Trapdoor","206","206"
+144,"Knows","Hermione Granger","Ronald Weasley","1","Through the Trapdoor","206","206"
+145,"Exchange","Hermione Granger","Harry Potter","1","Through the Trapdoor","206","206"
+146,"Knows","Hermione Granger","Professor Sprout","1","Through the Trapdoor","206","206"
+147,"Knows","Hermione Granger","Professor Flitwick","1","Through the Trapdoor","206","206"
+148,"Knows","Hermione Granger","Professor McGonagall","1","Through the Trapdoor","206","206"
+149,"Knows","Hermione Granger","Quirrel","1","Through the Trapdoor","206","206"
+150,"Knows","Hermione Granger","Severus Snape","1","Through the Trapdoor","206","206"
+151,"Knows","Harry Potter","Severus Snape","1","Through the Trapdoor","206","206"
+152,"Knows","Hermione Granger","Harry Potter","1","Through the Trapdoor","207","207"
+153,"Exchange","Hermione Granger","Harry Potter","1","Through the Trapdoor","207","207"
+154,"Knows","Harry Potter","Ronald Weasley","1","Through the Trapdoor","207","207"
+155,"Knows","Harry Potter","Fuffy","1","Through the Trapdoor","208","208"
+156,"Knows","Harry Potter","Hedwig","1","Through the Trapdoor","208","208"
+157,"Knows","Harry Potter","Albus Dumbledore","1","Through the Trapdoor","208","208"
+158,"Exchange","Hermione Granger","Harry Potter","1","Through the Trapdoor","208","208"
+159,"Knows of","Hermione Granger","Voldemort","1","Through the Trapdoor","208","208"
+160,"Knows","Harry Potter","Severus Snape","1","Through the Trapdoor","208","208"
+161,"Knows","Harry Potter","Voldemort","1","Through the Trapdoor","208","208"
+162,"Exchange","Albus Dumbledore","Professor McGonagall","1","The Boy Who Lived","13","13"
+163,"Knows of","The Muggles","Albus Dumbledore","1","The Boy Who Lived","13","13"
+164,"Knows of","Albus Dumbledore","Dedalus Diggle","0","The Boy Who Lived","13","13"
+165,"Knows of","Professor McGonagall","Voldemort","0","The Boy Who Lived","13","13"
+166,"Exchange","Albus Dumbledore","","1","The Boy Who Lived","14","14"
+167,"Knows of","everyone","Voldemort","1","The Boy Who Lived","14","14"
+168,"Knows of","everyone","The Potters","0","The Boy Who Lived","14","14"
+169,"Exchange","Harry Potter","Voldemort","1","The Boy Who Lived","15","15"
+170,"Exchange","Voldemort","People he's killed","1","The Boy Who Lived","15","15"
+171,"Knows","Albus Dumbledore","Harry Potter","1","The Boy Who Lived","16","16"
+172,"Exchange","Albus Dumbledore","Rubeus Hagrid","1","The Boy Who Lived","17","17"
+173,"Exchange","Professor McGonagall","Rubeus Hagrid","1","The Boy Who Lived","17","17"
+174,"Exchange","Albus Dumbledore","Harry Potter","1","The Boy Who Lived","18","18"
+175,"Exchange","Petunia Dursley","Harry Potter","0","The Boy Who Lived","18","18"
+176,"Exchange","Harry Potter","Petunia Dursley","1","The Vanishing Glass","20","20"
+177,"Exchange","Vernon Dursley","Harry Potter","0","The Vanishing Glass","21","21"
+178,"Exchange","Vernon Dursley","Dudley Dursley","1","The Vanishing Glass","21","21"
+179,"Knows","Petunia Dursley","Dudley Dursley","1","The Vanishing Glass","21","21"
+180,"Exchange","Petunia Dursley","Mrs. Figg","1","The Vanishing Glass","22","22"
+181,"Exchange","Dudley Dursley","Piers Polkiss","1","The Vanishing Glass","23","23"
+182,"Knows of","Harry's Headmistress","The Dursleys","1","The Vanishing Glass","24","24"
+183,"Exchange","Dudley Dursley","Harry Potter","1","The Vanishing Glass","24","24"
+184,"Exchange","Piers Polkiss","Harry Potter","1","The Vanishing Glass","27","27"
+185,"Exchange","man in a violet top","Harry Potter","0","The Vanishing Glass","27","27"
+186,"Exchange","Woman dressed in all green","Harry Potter","0","The Vanishing Glass","27","27"
+187,"Exchange","Bald man in a purple coat","Harry Potter","0","The Vanishing Glass","27","27"
+188,"Exchange","Dudley Dursley","Mrs. Figg","0","The Letters From No One","28","28"
+189,"Knows","Hermione Granger","Lee Jordan","1","Through the Trapdoor","197","197"
+190,"Knows","Ronald Weasley","Lee Jordan","1","Through the Trapdoor","197","197"
+191,"Exchange","Harry Potter","Quirrel","1","Through the Trapdoor","209","209"
+192,"Exchange","Hermione Granger","Neville Longbottom","1","Through the Trapdoor","199","199"
+193,"Exchange","Ronald Weasley","Neville Longbottom","1","Through the Trapdoor","199","199"
+194,"Knows","Hermione Granger","Mrs. Norris","1","Through the Trapdoor","199","199"
+195,"Knows","Ronald Weasley","Mrs. Norris","1","Through the Trapdoor","199","199"
+196,"Knows","Hermione Granger","Fuffy","1","Through the Trapdoor","200","200"
+197,"Knows","Ronald Weasley","Fuffy","1","Through the Trapdoor","200","200"
+198,"Knows","Harry Potter","Severus Snape","1","The Man with Two Faces","209","209"
+199,"Knows","Quirrel","Severus Snape","1","The Man with Two Faces","209","209"
+200,"Knows","Quirrel","Hermione Granger","1","The Man with Two Faces","209","209"
+201,"Knows","Quirrel","Albus Dumbledore","1","The Man with Two Faces","209","209"
+202,"Exchange","Rubeus Hagrid","Dudley Dursley","1","The Keeper of the Keys","39","39"
+203,"Exchange","Quirrel","Harry Potter","1","The Man with Two Faces","210","210"
+204,"Knows","Quirrel","Severus Snape","1","The Man with Two Faces","210","210"
+205,"Exchange","Vernon Dursley","Rubeus Hagrid","1","The Keeper of the Keys","40","40"
+206,"Knows","Quirrel","Albus Dumbledore","1","The Man with Two Faces","210","210"
+207,"Knows","Quirrel","Voldemort","1","The Man with Two Faces","210","210"
+208,"Knows","Severus Snape","James Potter","1","The Man with Two Faces","210","210"
+209,"Knows of","Quirrel","James Potter","0","The Man with Two Faces","210","210"
+210,"Exchange","Harry Potter","Quirrel","1","The Man with Two Faces","211","211"
+211,"Knows","Quirrel","Voldemort","1","The Man with Two Faces","211","211"
+212,"Exchange","Quirrel","Voldemort","1","The Man with Two Faces","211","211"
+213,"Knows","Voldemort","Harry Potter","1","The Man with Two Faces","211","211"
+214,"Exchange","Quirrel","Harry Potter","1","The Man with Two Faces","212","212"
+215,"Knows","Harry Potter","Albus Dumbledore","1","The Man with Two Faces","212","212"
+216,"Exchange","Voldemort","Quirrel","1","The Man with Two Faces","212","212"
+217,"Exchange","Voldemort","Harry Potter","1","The Man with Two Faces","212","212"
+218,"Exchange","Voldemort","Harry Potter","1","The Man with Two Faces","213","213"
+219,"Knows","Voldemort","Quirrel","1","The Man with Two Faces","213","213"
+220,"Knows","Voldemort","James Potter","1","The Man with Two Faces","213","213"
+221,"Knows","Voldemort","Lily Potter","1","The Man with Two Faces","213","213"
+222,"Exchange","Voldemort","Quirrel","1","The Man with Two Faces","213","213"
+223,"Exchange","Voldemort","Harry Potter","1","The Man with Two Faces","214","214"
+224,"Exchange","Rubeus Hagrid","Petunia Dursley","1","The Keeper of the Keys","47","47"
+225,"Knows","Harry Potter","Quirrel","1","The Man with Two Faces","214","214"
+226,"Knows","Harry Potter","Voldemort","1","The Man with Two Faces","214","214"
+227,"Exchange","Albus Dumbledore","Harry Potter","1","The Man with Two Faces","214","214"
+228,"Knows","Albus Dumbledore","Quirrel","1","The Man with Two Faces","214","214"
+229,"Knows","Albus Dumbledore","Madam Pomfrey","1","The Man with Two Faces","214","214"
+230,"Knows","Albus Dumbledore","Fred Weasley","1","The Man with Two Faces","214","214"
+231,"Knows of","everyone","Rubeus Hagrid","1","The Keeper of the Keys","52","52"
+232,"Knows","Albus Dumbledore","George Weasley","1","The Man with Two Faces","214","214"
+233,"Knows","Albus Dumbledore","Hermione Granger","1","The Man with Two Faces","215","215"
+234,"Knows","Albus Dumbledore","Ronald Weasley","1","The Man with Two Faces","215","215"
+235,"Exchange","Albus Dumbledore","Harry Potter","1","The Man with Two Faces","215","215"
+236,"Knows","Albus Dumbledore","Quirrel","1","The Man with Two Faces","215","215"
+237,"Knows of","Harry Potter","Nicolas Flamel","1","The Man with Two Faces","215","215"
+238,"Knows","Albus Dumbledore","Nicolas Flamel","1","The Man with Two Faces","215","215"
+239,"Knows of","Harry Potter","Perenelle Flamel","1","The Man with Two Faces","215","215"
+240,"Knows","Albus Dumbledore","Perenelle Flamel","1","The Man with Two Faces","215","215"
+241,"Exchange","Harry Potter","Albus Dumbledore","1","The Man with Two Faces","216","216"
+242,"Knows","Harry Potter","Voldemort","1","The Man with Two Faces","216","216"
+243,"Knows","Albus Dumbledore","Voldemort","1","The Man with Two Faces","216","216"
+244,"Knows","Albus Dumbledore","Quirrel","1","The Man with Two Faces","216","216"
+245,"Exchange","Harry Potter","Albus Dumbledore","1","The Man with Two Faces","217","217"
+246,"Knows","Albus Dumbledore","James Potter","1","The Man with Two Faces","217","217"
+247,"Knows","Harry Potter","Quirrel","1","The Man with Two Faces","217","217"
+248,"Knows","Harry Potter","Severus Snape","1","The Man with Two Faces","217","217"
+249,"Knows","Albus Dumbledore","Draco Malfoy","1","The Man with Two Faces","217","217"
+250,"Exchange","Harry Potter","Madam Pomfrey","1","The Man with Two Faces","218","218"
+251,"Knows","Harry Potter","Albus Dumbledore","1","The Man with Two Faces","218","218"
+252,"Knows","Madam Pomfrey","Albus Dumbledore","1","The Man with Two Faces","218","218"
+253,"Exchange","Hermione Granger","Harry Potter","1","The Man with Two Faces","218","218"
+254,"Exchange","Ronald Weasley","Harry Potter","1","The Man with Two Faces","218","218"
+255,"Knows","Hermione Granger","Albus Dumbledore","1","The Man with Two Faces","218","218"
+256,"Knows","Harry Potter","Quirrel","1","The Man with Two Faces","218","218"
+257,"Knows","Ronald Weasley","Nicolas Flamel","1","The Man with Two Faces","218","218"
+258,"Exchange","Hermione Granger","Harry Potter","1","The Man with Two Faces","219","219"
+259,"Knows","Harry Potter","Albus Dumbledore","1","The Man with Two Faces","219","219"
+260,"Exchange","Ronald Weasley","Harry Potter","1","The Man with Two Faces","219","219"
+261,"Knows","Ronald Weasley","Albus Dumbledore","1","The Man with Two Faces","219","219"
+262,"Knows","Harry Potter","Voldemort","1","The Man with Two Faces","219","219"
+263,"Knows","Harry Potter","Madam Pomfrey","1","The Man with Two Faces","219","219"
+264,"Knows","Hermione Granger","Albus Dumbledore","1","The Man with Two Faces","219","219"
+265,"Knows","Ronald Weasley","Madam Pomfrey","1","The Man with Two Faces","219","219"
+266,"Exchange","Madam Pomfrey","Harry Potter","1","The Man with Two Faces","219","219"
+267,"Exchange","Madam Pomfrey","Hermione Granger","1","The Man with Two Faces","219","219"
+268,"Exchange","Madam Pomfrey","Ronald Weasley","1","The Man with Two Faces","219","219"
+269,"Exchange","Harry Potter","Madam Pomfrey","1","The Man with Two Faces","219","219"
+270,"Knows","Madam Pomfrey","Albus Dumbledore","1","The Man with Two Faces","219","219"
+271,"Exchange","Hagrid","Harry Potter","1","The Man with Two Faces","219","219"
+272,"Knows","Rubeus Hagrid","Fuffy","1","The Man with Two Faces","219","219"
+273,"Knows","Harry Potter","Voldemort","1","The Man with Two Faces","219","219"
+274,"Knows of","Hagrid","Voldemort","1","The Man with Two Faces","219","219"
+275,"Exchange","Harry Potter","Rubeus Hagrid","1","The Man with Two Faces","220","220"
+276,"Knows","Rubeus Hagrid","Harry Potter","1","The Man with Two Faces","220","220"
+277,"Knows","Harry Potter","James Potter","1","The Man with Two Faces","220","220"
+278,"Knows","Harry Potter","Lily Potter","1","The Man with Two Faces","220","220"
+279,"Knows","Harry Potter","Madam Pomfrey","1","The Man with Two Faces","220","220"
+280,"Knows","Harry Potter","Albus Dumbledore","1","The Man with Two Faces","220","220"
+281,"Knows","Harry Potter","Draco Malfoy","1","The Man with Two Faces","221","221"
+282,"Exchange","Albus Dumbledore","Hogwarts Students","1","The Man with Two Faces","221","221"
+283,"Exchange","Albus Dumbledore","Ronald Weasley","1","The Man with Two Faces","221","221"
+284,"Exchange","Percy Weasley","Hogwarts Students","1","The Man with Two Faces","221","221"
+285,"Knows","Percy Weasley","Professor McGonagall","1","The Man with Two Faces","221","221"
+286,"Exchange","Albus Dumbledore","Hermione Granger","1","The Man with Two Faces","221","221"
+287,"Knows","Harry Potter","Hermione Granger","1","The Man with Two Faces","221","221"
+288,"Exchange","Albus Dumbledore","Harry Potter","1","The Man with Two Faces","221","221"
+289,"Exchange","Albus Dumbledore","Neville Longbottom","1","The Man with Two Faces","221","221"
+290,"Knows","Harry Potter","Neville Longbottom","1","The Man with Two Faces","221","221"
+291,"Knows","Hermione Granger","Neville Longbottom","1","The Man with Two Faces","221","221"
+292,"Knows","Ronald Weasley","Neville Longbottom","1","The Man with Two Faces","221","221"
+293,"Knows","Harry Potter","Ronald Weasley","1","The Man with Two Faces","222","222"
+294,"Knows","Harry Potter","Draco Malfoy","1","The Man with Two Faces","222","222"
+295,"Knows","Ronald Weasley","Draco Malfoy","1","The Man with Two Faces","222","222"
+296,"Exchange","Albus Dumbledore","Hogwarts Students","1","The Man with Two Faces","222","222"
+297,"Knows","Harry Potter","Severus Snape","1","The Man with Two Faces","222","222"
+298,"Exchange","Harry Potter","Professor McGonagall","1","The Man with Two Faces","222","222"
+299,"Knows","Harry Potter","Hermione Granger","1","The Man with Two Faces","222","222"
+300,"Knows","Harry Potter","Neville Longbottom","1","The Man with Two Faces","222","222"
+301,"Knows","Harry Potter","Goyle","1","The Man with Two Faces","222","222"
+302,"Knows","Harry Potter","Ronald Weasley","1","The Man with Two Faces","222","222"
+303,"Exchange","Fred Weasley","Harry Potter","1","The Man with Two Faces","222","222"
+304,"Knows","Harry Potter","Rubeus Hagrid","1","The Man with Two Faces","222","222"
+305,"Exchange","Ronald Weasley","Harry Potter","1","The Man with Two Faces","223","223"
+306,"Knows","Harry Potter","Hermione Granger","1","The Man with Two Faces","223","223"
+307,"Exchange","Ginny Weasley","Molly Weasley","1","The Man with Two Faces","223","223"
+308,"Exchange","Molly Weasley","Harry Potter","1","The Man with Two Faces","223","223"
+309,"Exchange","Vernon Dursley","Harry Potter","1","The Man with Two Faces","223","223"
+310,"Knows","Harry Potter","Petunia Dursley","1","The Man with Two Faces","223","223"
+311,"Knows","Dudley Dursley","Harry Potter","1","The Man with Two Faces","223","223"
+312,"Exchange","Hermione Granger","Harry Potter","1","The Man with Two Faces","223","223"

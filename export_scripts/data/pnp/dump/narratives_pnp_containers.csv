@@ -1,4 +1,4 @@
-narrContainer_id,narrContainer_title,narrContainer_level_id_fk,narrContainer_startPage,narrContainer_endPage,narrContainer_narrator_character_id_fk,narrContainer_protagonist_id_fk,narrContainer_embeddedContainerType_id_fk
-4,Volume Two,0,129,232,0,0,0
-5,Chapter I (V2),1,131,136,0,0,0
-6,Chapter II (V2),1,137,141,0,0,0
+id,Title,Level,Start Page,End Page,Narrator,Protagonist,Embed. Type
+4,"Volume Two","level 1 (section)","129","232","[NULL]","[NULL]","[NULL]"
+5,"Chapter I (V2)","level 2 (sub-section)","131","136","[NULL]","[NULL]","[NULL]"
+6,"Chapter II (V2)","level 2 (sub-section)","137","141","[NULL]","[NULL]","[NULL]"

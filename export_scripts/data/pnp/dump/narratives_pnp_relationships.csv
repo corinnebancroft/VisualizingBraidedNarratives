@@ -1,120 +1,120 @@
-menEx_id,menEx_menOrEx_id_fk,menEx_character1_id_fk,menEx_character2_id_fk,menEx_narrContainer_id_fk,menEx_isReciprocal_id_fk,menEx_startPage,menEx_endPage
-4,0,3,4,5,1,131,132
-5,2,3,10,5,0,131,131
-6,0,4,8,5,1,131,131
-7,0,4,9,5,1,131,131
-8,0,4,10,5,1,131,135
-9,0,4,11,5,1,131,135
-10,0,4,12,5,1,131,131
-11,0,4,13,5,1,131,131
-12,0,4,14,5,1,131,131
-13,0,3,15,5,1,131,131
-14,0,10,15,5,0,131,131
-15,0,4,5,5,1,131,132
-16,0,3,5,5,1,131,131
-17,0,10,5,5,1,131,131
-18,2,10,11,5,1,131,135
-19,0,11,3,5,1,131,131
-20,0,11,4,5,1,131,132
-21,0,3,6,5,1,131,131
-22,0,3,7,5,1,131,131
-23,0,11,6,5,1,131,131
-24,0,11,7,5,1,131,131
-25,0,11,5,5,1,131,131
-26,0,11,15,5,0,131,131
-27,0,4,6,5,1,131,132
-28,0,4,7,5,1,131,132
-29,0,9,10,5,1,132,132
-30,0,9,11,5,1,132,132
-31,0,11,16,5,1,133,133
-32,0,11,17,5,1,133,133
-33,0,16,17,5,1,133,133
-34,0,10,16,5,1,133,133
-35,0,10,17,5,1,133,133
-36,0,16,21,5,1,133,133
-37,0,16,18,5,1,133,133
-38,0,16,19,5,1,133,133
-39,0,16,22,5,1,133,133
-40,0,16,20,5,1,133,133
-41,0,18,19,5,1,133,133
-42,0,18,20,5,1,133,133
-43,0,18,22,5,1,133,133
-44,0,18,21,5,1,133,133
-45,0,19,20,5,1,133,133
-46,0,19,22,5,1,133,133
-47,0,19,21,5,1,133,133
-48,0,20,22,5,1,133,133
-49,0,20,21,5,1,133,133
-50,0,22,21,5,1,133,133
-51,0,10,18,5,1,133,133
-52,0,10,19,5,1,133,133
-53,0,10,20,5,1,133,133
-54,0,10,22,5,1,133,133
-55,0,10,21,5,1,133,133
-56,0,11,3,5,1,134,135
-57,0,11,6,5,1,134,135
-58,0,10,3,5,1,134,135
-59,0,10,6,5,1,134,135
-60,0,11,5,5,1,134,136
-61,0,10,5,5,1,134,136
-62,0,4,3,5,1,134,135
-63,0,4,6,5,1,134,135
-64,0,4,5,5,1,134,134
-65,0,11,15,5,1,134,134
-66,0,10,15,5,1,134,134
-67,0,4,15,5,1,134,134
-68,0,3,15,5,1,134,134
-69,0,6,15,5,1,134,134
-70,0,5,15,5,1,134,134
-71,0,9,4,5,1,135,135
-72,2,9,11,5,1,135,135
-73,0,9,10,5,1,135,135
-74,2,8,11,5,1,135,135
-75,0,8,10,5,1,135,135
-76,0,8,23,5,1,135,135
-77,0,11,23,5,1,135,135
-78,0,8,12,5,1,135,135
-79,0,8,13,5,1,135,135
-80,0,8,14,5,1,135,135
-81,0,9,8,5,1,135,135
-82,0,9,12,5,1,135,135
-83,0,9,13,5,1,135,135
-84,0,9,14,5,1,135,135
-85,0,10,12,5,1,135,135
-86,0,10,13,5,1,135,135
-87,0,10,14,5,1,135,135
-88,0,11,12,5,1,135,135
-89,0,11,13,5,1,135,135
-90,0,11,14,5,1,135,135
-91,0,12,13,5,1,135,135
-92,0,12,14,5,1,135,135
-93,0,13,14,5,1,135,135
-94,0,23,9,5,1,135,135
-95,0,23,10,5,1,135,135
-96,0,23,12,5,1,135,135
-97,0,23,13,5,1,135,135
-98,0,23,14,5,1,135,135
-99,0,23,5,5,1,135,136
-100,0,9,5,5,1,135,136
-101,0,8,5,5,1,135,136
-103,0,12,5,5,1,135,136
-104,0,13,5,5,1,135,136
-105,0,14,5,5,1,135,136
-106,0,17,16,6,1,137,137
-107,2,17,8,6,1,137,137
-108,0,17,9,6,1,137,137
-109,2,17,10,6,1,137,137
-110,2,17,11,6,1,137,137
-111,2,17,12,6,1,137,137
-112,2,17,13,6,1,137,137
-113,2,17,14,6,1,137,137
-114,0,9,24,6,1,137,137
-115,0,9,25,6,1,137,137
-116,0,9,26,6,1,137,137
-117,0,25,24,6,1,137,137
-118,0,24,26,6,1,137,137
-119,0,25,10,6,1,137,137
-120,0,25,11,6,1,137,137
-121,0,25,12,6,1,137,137
-122,0,25,13,6,1,137,137
-123,0,25,14,6,1,137,137
+id,Type of Relationship,Character 1,Character 2,Is Reciprocal?,Narrative Container,Start Page,End Page
+4,"Knows","Miss Bingley","Mr. Bingley","1","Chapter I (V2)","131","132"
+5,"Exchange","Miss Bingley","Jane Bennet","0","Chapter I (V2)","131","131"
+6,"Knows","Mr. Bingley","Mr. Bennet","1","Chapter I (V2)","131","131"
+7,"Knows","Mr. Bingley","Mrs. Bennet","1","Chapter I (V2)","131","131"
+8,"Knows","Mr. Bingley","Jane Bennet","1","Chapter I (V2)","131","135"
+9,"Knows","Mr. Bingley","Elizabeth Bennet","1","Chapter I (V2)","131","135"
+10,"Knows","Mr. Bingley","Mary Bennet","1","Chapter I (V2)","131","131"
+11,"Knows","Mr. Bingley","Lydia Bennet","1","Chapter I (V2)","131","131"
+12,"Knows","Mr. Bingley","Kitty Bennet","1","Chapter I (V2)","131","131"
+13,"Knows","Miss Bingley","Miss Darcy","1","Chapter I (V2)","131","131"
+14,"Knows","Jane Bennet","Miss Darcy","0","Chapter I (V2)","131","131"
+15,"Knows","Mr. Bingley","Mr. Darcy","1","Chapter I (V2)","131","132"
+16,"Knows","Miss Bingley","Mr. Darcy","1","Chapter I (V2)","131","131"
+17,"Knows","Jane Bennet","Mr. Darcy","1","Chapter I (V2)","131","131"
+18,"Exchange","Jane Bennet","Elizabeth Bennet","1","Chapter I (V2)","131","135"
+19,"Knows","Elizabeth Bennet","Miss Bingley","1","Chapter I (V2)","131","131"
+20,"Knows","Elizabeth Bennet","Mr. Bingley","1","Chapter I (V2)","131","132"
+21,"Knows","Miss Bingley","Mrs. Hurst","1","Chapter I (V2)","131","131"
+22,"Knows","Miss Bingley","Mr. Hurst","1","Chapter I (V2)","131","131"
+23,"Knows","Elizabeth Bennet","Mrs. Hurst","1","Chapter I (V2)","131","131"
+24,"Knows","Elizabeth Bennet","Mr. Hurst","1","Chapter I (V2)","131","131"
+25,"Knows","Elizabeth Bennet","Mr. Darcy","1","Chapter I (V2)","131","131"
+26,"Knows","Elizabeth Bennet","Miss Darcy","0","Chapter I (V2)","131","131"
+27,"Knows","Mr. Bingley","Mrs. Hurst","1","Chapter I (V2)","131","132"
+28,"Knows","Mr. Bingley","Mr. Hurst","1","Chapter I (V2)","131","132"
+29,"Knows","Mrs. Bennet","Jane Bennet","1","Chapter I (V2)","132","132"
+30,"Knows","Mrs. Bennet","Elizabeth Bennet","1","Chapter I (V2)","132","132"
+31,"Knows","Elizabeth Bennet","Charlotte Lucas","1","Chapter I (V2)","133","133"
+32,"Knows","Elizabeth Bennet","Mr. Collins","1","Chapter I (V2)","133","133"
+33,"Knows","Charlotte Lucas","Mr. Collins","1","Chapter I (V2)","133","133"
+34,"Knows","Jane Bennet","Charlotte Lucas","1","Chapter I (V2)","133","133"
+35,"Knows","Jane Bennet","Mr. Collins","1","Chapter I (V2)","133","133"
+36,"Knows","Charlotte Lucas","Young Lucas","1","Chapter I (V2)","133","133"
+37,"Knows","Charlotte Lucas","Lady Lucas","1","Chapter I (V2)","133","133"
+38,"Knows","Charlotte Lucas","Sir William Lucas","1","Chapter I (V2)","133","133"
+39,"Knows","Charlotte Lucas","Lucas brothers","1","Chapter I (V2)","133","133"
+40,"Knows","Charlotte Lucas","Maria Lucas","1","Chapter I (V2)","133","133"
+41,"Knows","Lady Lucas","Sir William Lucas","1","Chapter I (V2)","133","133"
+42,"Knows","Lady Lucas","Maria Lucas","1","Chapter I (V2)","133","133"
+43,"Knows","Lady Lucas","Lucas brothers","1","Chapter I (V2)","133","133"
+44,"Knows","Lady Lucas","Young Lucas","1","Chapter I (V2)","133","133"
+45,"Knows","Sir William Lucas","Maria Lucas","1","Chapter I (V2)","133","133"
+46,"Knows","Sir William Lucas","Lucas brothers","1","Chapter I (V2)","133","133"
+47,"Knows","Sir William Lucas","Young Lucas","1","Chapter I (V2)","133","133"
+48,"Knows","Maria Lucas","Lucas brothers","1","Chapter I (V2)","133","133"
+49,"Knows","Maria Lucas","Young Lucas","1","Chapter I (V2)","133","133"
+50,"Knows","Lucas brothers","Young Lucas","1","Chapter I (V2)","133","133"
+51,"Knows","Jane Bennet","Lady Lucas","1","Chapter I (V2)","133","133"
+52,"Knows","Jane Bennet","Sir William Lucas","1","Chapter I (V2)","133","133"
+53,"Knows","Jane Bennet","Maria Lucas","1","Chapter I (V2)","133","133"
+54,"Knows","Jane Bennet","Lucas brothers","1","Chapter I (V2)","133","133"
+55,"Knows","Jane Bennet","Young Lucas","1","Chapter I (V2)","133","133"
+56,"Knows","Elizabeth Bennet","Miss Bingley","1","Chapter I (V2)","134","135"
+57,"Knows","Elizabeth Bennet","Mrs. Hurst","1","Chapter I (V2)","134","135"
+58,"Knows","Jane Bennet","Miss Bingley","1","Chapter I (V2)","134","135"
+59,"Knows","Jane Bennet","Mrs. Hurst","1","Chapter I (V2)","134","135"
+60,"Knows","Elizabeth Bennet","Mr. Darcy","1","Chapter I (V2)","134","136"
+61,"Knows","Jane Bennet","Mr. Darcy","1","Chapter I (V2)","134","136"
+62,"Knows","Mr. Bingley","Miss Bingley","1","Chapter I (V2)","134","135"
+63,"Knows","Mr. Bingley","Mrs. Hurst","1","Chapter I (V2)","134","135"
+64,"Knows","Mr. Bingley","Mr. Darcy","1","Chapter I (V2)","134","134"
+65,"Knows","Elizabeth Bennet","Miss Darcy","1","Chapter I (V2)","134","134"
+66,"Knows","Jane Bennet","Miss Darcy","1","Chapter I (V2)","134","134"
+67,"Knows","Mr. Bingley","Miss Darcy","1","Chapter I (V2)","134","134"
+68,"Knows","Miss Bingley","Miss Darcy","1","Chapter I (V2)","134","134"
+69,"Knows","Mrs. Hurst","Miss Darcy","1","Chapter I (V2)","134","134"
+70,"Knows","Mr. Darcy","Miss Darcy","1","Chapter I (V2)","134","134"
+71,"Knows","Mrs. Bennet","Mr. Bingley","1","Chapter I (V2)","135","135"
+72,"Exchange","Mrs. Bennet","Elizabeth Bennet","1","Chapter I (V2)","135","135"
+73,"Knows","Mrs. Bennet","Jane Bennet","1","Chapter I (V2)","135","135"
+74,"Exchange","Mr. Bennet","Elizabeth Bennet","1","Chapter I (V2)","135","135"
+75,"Knows","Mr. Bennet","Jane Bennet","1","Chapter I (V2)","135","135"
+76,"Knows","Mr. Bennet","Mr. Wickham","1","Chapter I (V2)","135","135"
+77,"Knows","Elizabeth Bennet","Mr. Wickham","1","Chapter I (V2)","135","135"
+78,"Knows","Mr. Bennet","Mary Bennet","1","Chapter I (V2)","135","135"
+79,"Knows","Mr. Bennet","Lydia Bennet","1","Chapter I (V2)","135","135"
+80,"Knows","Mr. Bennet","Kitty Bennet","1","Chapter I (V2)","135","135"
+81,"Knows","Mrs. Bennet","Mr. Bennet","1","Chapter I (V2)","135","135"
+82,"Knows","Mrs. Bennet","Mary Bennet","1","Chapter I (V2)","135","135"
+83,"Knows","Mrs. Bennet","Lydia Bennet","1","Chapter I (V2)","135","135"
+84,"Knows","Mrs. Bennet","Kitty Bennet","1","Chapter I (V2)","135","135"
+85,"Knows","Jane Bennet","Mary Bennet","1","Chapter I (V2)","135","135"
+86,"Knows","Jane Bennet","Lydia Bennet","1","Chapter I (V2)","135","135"
+87,"Knows","Jane Bennet","Kitty Bennet","1","Chapter I (V2)","135","135"
+88,"Knows","Elizabeth Bennet","Mary Bennet","1","Chapter I (V2)","135","135"
+89,"Knows","Elizabeth Bennet","Lydia Bennet","1","Chapter I (V2)","135","135"
+90,"Knows","Elizabeth Bennet","Kitty Bennet","1","Chapter I (V2)","135","135"
+91,"Knows","Mary Bennet","Lydia Bennet","1","Chapter I (V2)","135","135"
+92,"Knows","Mary Bennet","Kitty Bennet","1","Chapter I (V2)","135","135"
+93,"Knows","Lydia Bennet","Kitty Bennet","1","Chapter I (V2)","135","135"
+94,"Knows","Mr. Wickham","Mrs. Bennet","1","Chapter I (V2)","135","135"
+95,"Knows","Mr. Wickham","Jane Bennet","1","Chapter I (V2)","135","135"
+96,"Knows","Mr. Wickham","Mary Bennet","1","Chapter I (V2)","135","135"
+97,"Knows","Mr. Wickham","Lydia Bennet","1","Chapter I (V2)","135","135"
+98,"Knows","Mr. Wickham","Kitty Bennet","1","Chapter I (V2)","135","135"
+99,"Knows","Mr. Wickham","Mr. Darcy","1","Chapter I (V2)","135","136"
+100,"Knows","Mrs. Bennet","Mr. Darcy","1","Chapter I (V2)","135","136"
+101,"Knows","Mr. Bennet","Mr. Darcy","1","Chapter I (V2)","135","136"
+103,"Knows","Mary Bennet","Mr. Darcy","1","Chapter I (V2)","135","136"
+104,"Knows","Lydia Bennet","Mr. Darcy","1","Chapter I (V2)","135","136"
+105,"Knows","Kitty Bennet","Mr. Darcy","1","Chapter I (V2)","135","136"
+106,"Knows","Mr. Collins","Charlotte Lucas","1","Chapter II (V2)","137","137"
+107,"Exchange","Mr. Collins","Mr. Bennet","1","Chapter II (V2)","137","137"
+108,"Knows","Mr. Collins","Mrs. Bennet","1","Chapter II (V2)","137","137"
+109,"Exchange","Mr. Collins","Jane Bennet","1","Chapter II (V2)","137","137"
+110,"Exchange","Mr. Collins","Elizabeth Bennet","1","Chapter II (V2)","137","137"
+111,"Exchange","Mr. Collins","Mary Bennet","1","Chapter II (V2)","137","137"
+112,"Exchange","Mr. Collins","Lydia Bennet","1","Chapter II (V2)","137","137"
+113,"Exchange","Mr. Collins","Kitty Bennet","1","Chapter II (V2)","137","137"
+114,"Knows","Mrs. Bennet","Mr. Gardiner","1","Chapter II (V2)","137","137"
+115,"Knows","Mrs. Bennet","Mrs. Gardiner","1","Chapter II (V2)","137","137"
+116,"Knows","Mrs. Bennet","Mrs. Philips","1","Chapter II (V2)","137","137"
+117,"Knows","Mrs. Gardiner","Mr. Gardiner","1","Chapter II (V2)","137","137"
+118,"Knows","Mr. Gardiner","Mrs. Philips","1","Chapter II (V2)","137","137"
+119,"Knows","Mrs. Gardiner","Jane Bennet","1","Chapter II (V2)","137","137"
+120,"Knows","Mrs. Gardiner","Elizabeth Bennet","1","Chapter II (V2)","137","137"
+121,"Knows","Mrs. Gardiner","Mary Bennet","1","Chapter II (V2)","137","137"
+122,"Knows","Mrs. Gardiner","Lydia Bennet","1","Chapter II (V2)","137","137"
+123,"Knows","Mrs. Gardiner","Kitty Bennet","1","Chapter II (V2)","137","137"

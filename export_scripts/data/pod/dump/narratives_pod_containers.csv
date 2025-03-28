@@ -1,73 +1,73 @@
-narrContainer_id,narrContainer_title,narrContainer_level_id_fk,narrContainer_startPage,narrContainer_endPage,narrContainer_narrator_character_id_fk,narrContainer_protagonist_id_fk,narrContainer_embeddedContainerType_id_fk
-1,SOLO,0,1,1,0,NULL,0
-2,Evelina,0,3,86,3,NULL,0
-3,Judge Antone Basil Coutts,0,87,134,4,NULL,0
-4,Marne Wolde,0,135,179,5,NULL,0
-5,Evelina,0,181,192,3,NULL,0
-6,Judge Antone Basil Coutts,0,193,217,4,NULL,0
-7,Evelina,0,219,268,3,NULL,0
-8,Judge Antone Basil Coutts,0,269,292,4,NULL,0
-9,Doctor Cordelia Lochren,0,293,311,6,NULL,0
-10,The Plague of Doves,1,5,20,3,NULL,0
-11,A Little Nip,1,21,42,3,NULL,0
-12,Sister Godzilla,1,43,53,3,NULL,0
-13,Holy Track,1,54,79,3,NULL,0
-14,Bitter Tea,1,80,86,3,NULL,0
-15,The Way Things Are,1,89,95,4,NULL,0
-16,Town Fever,1,96,113,4,NULL,0
-17,The Wolf,1,114,117,4,NULL,0
-18,Come In,1,118,134,4,NULL,0
-19,Satan: Hijacker of a Planet,1,137,146,5,51,0
-20,The Daniels,1,147,157,5,NULL,0
-21,The Kindred,1,158,179,5,NULL,0
-22,The 4-B's,1,183,192,3,NULL,0
-23,Shamengwa,1,195,217,4,NULL,0
-24,The Reptile Garden,1,221,254,3,NULL,0
-25,All Souls' Day,1,255,266,3,0,0
-26,Road in the Sky,1,267,268,3,NULL,0
-27,The Veil,1,271,273,4,NULL,0
-28,Demolition,1,274,292,4,NULL,0
-29,Disaster Stamps of Pluto,1,295,311,6,NULL,0
-30,The Million Names,2,9,11,3,NULL,0
-31,Apparition,2,11,13,3,NULL,4
-32,The Burning Glare,2,13,15,3,NULL,0
-33,Mustache Maude,2,15,19,3,NULL,4
-34,Story,2,19,20,3,NULL,0
-35,The Boots,2,57,59,3,NULL,4
-36,The Clothesline,2,59,59,3,NULL,4
-37,The Basket Makers,2,60,61,3,NULL,4
-38,The Lochren Farm,2,61,63,3,NULL,4
-39,A Little Medicine,2,64,65,3,NULL,4
-40,Confessional,2,65,67,3,NULL,4
-41,The Sisters,2,68,68,3,NULL,0
-42,The Party,2,68,70,3,NULL,4
-43,The Baby,2,70,71,3,NULL,4
-44,Vogeli,2,71,72,3,NULL,4
-45,Death Song,2,72,77,3,NULL,4
-46,The Clatter of Wings,2,77,79,3,NULL,4
-47,Lines,2,86,86,3,NULL,0
-48,The Expedition,2,99,100,4,NULL,0
-49,The Great Drive,2,100,104,4,0,0
-50,Batner's Powders,2,104,106,4,NULL,0
-51,The Emissary,2,106,109,4,NULL,0
-52,The Millions,2,109,110,3,NULL,0
-53,Lafayette Peace,2,110,112,4,NULL,0
-54,The Saint,2,112,113,4,NULL,0
-55,The Gingerbread Boy,2,124,126,4,0,0
-56,Helpless,2,126,127,4,NULL,0
-57,Murdo Harp,2,127,129,4,NULL,0
-58,The Gesture,2,129,130,4,NULL,0
-59,The Lions,2,130,131,4,NULL,0
-60,The Garage,2,131,132,4,NULL,0
-61,The Entryway,2,132,134,4,NULL,0
-62,A Shiver of Possibility,2,134,134,4,NULL,0
-63,The First Fiddle,2,200,207,61,0,4
-64,Silent Passage,2,207,209,4,31,0
-65,The Fire,2,209,214,4,NULL,0
-66,Letter,2,214,216,4,0,2
-67,Warren,2,226,230,3,NULL,0
-68,Nonette,2,230,234,3,NULL,0
-69,The Kiss,2,234,240,3,NULL,0
-70,Nonette's Bed,2,240,244,3,NULL,0
-71,The Concert,2,244,248,3,NULL,0
-72,Walking on Air,2,248,254,3,NULL,0
+id,Title,Level,Start Page,End Page,Narrator,Protagonist,Embed. Type
+1,"SOLO","level 1 (section)","1","1","[NULL]","[NULL]","[NULL]"
+2,"Evelina","level 1 (section)","3","86","Evelina Harp","[NULL]","[NULL]"
+3,"Judge Antone Basil Coutts","level 1 (section)","87","134","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+4,"Marne Wolde","level 1 (section)","135","179","Marn Wolde","[NULL]","[NULL]"
+5,"Evelina","level 1 (section)","181","192","Evelina Harp","[NULL]","[NULL]"
+6,"Judge Antone Basil Coutts","level 1 (section)","193","217","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+7,"Evelina","level 1 (section)","219","268","Evelina Harp","[NULL]","[NULL]"
+8,"Judge Antone Basil Coutts","level 1 (section)","269","292","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+9,"Doctor Cordelia Lochren","level 1 (section)","293","311","Doctor Cordelia Lochren","[NULL]","[NULL]"
+10,"The Plague of Doves","level 2 (sub-section)","5","20","Evelina Harp","[NULL]","[NULL]"
+11,"A Little Nip","level 2 (sub-section)","21","42","Evelina Harp","[NULL]","[NULL]"
+12,"Sister Godzilla","level 2 (sub-section)","43","53","Evelina Harp","[NULL]","[NULL]"
+13,"Holy Track","level 2 (sub-section)","54","79","Evelina Harp","[NULL]","[NULL]"
+14,"Bitter Tea","level 2 (sub-section)","80","86","Evelina Harp","[NULL]","[NULL]"
+15,"The Way Things Are","level 2 (sub-section)","89","95","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+16,"Town Fever","level 2 (sub-section)","96","113","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+17,"The Wolf","level 2 (sub-section)","114","117","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+18,"Come In","level 2 (sub-section)","118","134","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+19,"Satan: Hijacker of a Planet","level 2 (sub-section)","137","146","Marn Wolde","Billy Peace","[NULL]"
+20,"The Daniels","level 2 (sub-section)","147","157","Marn Wolde","[NULL]","[NULL]"
+21,"The Kindred","level 2 (sub-section)","158","179","Marn Wolde","[NULL]","[NULL]"
+22,"The 4-B's","level 2 (sub-section)","183","192","Evelina Harp","[NULL]","[NULL]"
+23,"Shamengwa","level 2 (sub-section)","195","217","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+24,"The Reptile Garden","level 2 (sub-section)","221","254","Evelina Harp","[NULL]","[NULL]"
+25,"All Souls' Day","level 2 (sub-section)","255","266","Evelina Harp","[NULL]","[NULL]"
+26,"Road in the Sky","level 2 (sub-section)","267","268","Evelina Harp","[NULL]","[NULL]"
+27,"The Veil","level 2 (sub-section)","271","273","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+28,"Demolition","level 2 (sub-section)","274","292","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+29,"Disaster Stamps of Pluto","level 2 (sub-section)","295","311","Doctor Cordelia Lochren","[NULL]","[NULL]"
+30,"The Million Names","level 3 (sub-sub-section)","9","11","Evelina Harp","[NULL]","[NULL]"
+31,"Apparition","level 3 (sub-sub-section)","11","13","Evelina Harp","[NULL]","Oral Story"
+32,"The Burning Glare","level 3 (sub-sub-section)","13","15","Evelina Harp","[NULL]","[NULL]"
+33,"Mustache Maude","level 3 (sub-sub-section)","15","19","Evelina Harp","[NULL]","Oral Story"
+34,"Story","level 3 (sub-sub-section)","19","20","Evelina Harp","[NULL]","[NULL]"
+35,"The Boots","level 3 (sub-sub-section)","57","59","Evelina Harp","[NULL]","Oral Story"
+36,"The Clothesline","level 3 (sub-sub-section)","59","59","Evelina Harp","[NULL]","Oral Story"
+37,"The Basket Makers","level 3 (sub-sub-section)","60","61","Evelina Harp","[NULL]","Oral Story"
+38,"The Lochren Farm","level 3 (sub-sub-section)","61","63","Evelina Harp","[NULL]","Oral Story"
+39,"A Little Medicine","level 3 (sub-sub-section)","64","65","Evelina Harp","[NULL]","Oral Story"
+40,"Confessional","level 3 (sub-sub-section)","65","67","Evelina Harp","[NULL]","Oral Story"
+41,"The Sisters","level 3 (sub-sub-section)","68","68","Evelina Harp","[NULL]","[NULL]"
+42,"The Party","level 3 (sub-sub-section)","68","70","Evelina Harp","[NULL]","Oral Story"
+43,"The Baby","level 3 (sub-sub-section)","70","71","Evelina Harp","[NULL]","Oral Story"
+44,"Vogeli","level 3 (sub-sub-section)","71","72","Evelina Harp","[NULL]","Oral Story"
+45,"Death Song","level 3 (sub-sub-section)","72","77","Evelina Harp","[NULL]","Oral Story"
+46,"The Clatter of Wings","level 3 (sub-sub-section)","77","79","Evelina Harp","[NULL]","Oral Story"
+47,"Lines","level 3 (sub-sub-section)","86","86","Evelina Harp","[NULL]","[NULL]"
+48,"The Expedition","level 3 (sub-sub-section)","99","100","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+49,"The Great Drive","level 3 (sub-sub-section)","100","104","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+50,"Batner's Powders","level 3 (sub-sub-section)","104","106","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+51,"The Emissary","level 3 (sub-sub-section)","106","109","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+52,"The Millions","level 3 (sub-sub-section)","109","110","Evelina Harp","[NULL]","[NULL]"
+53,"Lafayette Peace","level 3 (sub-sub-section)","110","112","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+54,"The Saint","level 3 (sub-sub-section)","112","113","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+55,"The Gingerbread Boy","level 3 (sub-sub-section)","124","126","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+56,"Helpless","level 3 (sub-sub-section)","126","127","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+57,"Murdo Harp","level 3 (sub-sub-section)","127","129","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+58,"The Gesture","level 3 (sub-sub-section)","129","130","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+59,"The Lions","level 3 (sub-sub-section)","130","131","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+60,"The Garage","level 3 (sub-sub-section)","131","132","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+61,"The Entryway","level 3 (sub-sub-section)","132","134","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+62,"A Shiver of Possibility","level 3 (sub-sub-section)","134","134","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+63,"The First Fiddle","level 3 (sub-sub-section)","200","207","Shamengwa Milk","[NULL]","Oral Story"
+64,"Silent Passage","level 3 (sub-sub-section)","207","209","Judge Antone Bazil Coutts","Corwin Peace","[NULL]"
+65,"The Fire","level 3 (sub-sub-section)","209","214","Judge Antone Bazil Coutts","[NULL]","[NULL]"
+66,"Letter","level 3 (sub-sub-section)","214","216","Judge Antone Bazil Coutts","[NULL]","Letter"
+67,"Warren","level 3 (sub-sub-section)","226","230","Evelina Harp","[NULL]","[NULL]"
+68,"Nonette","level 3 (sub-sub-section)","230","234","Evelina Harp","[NULL]","[NULL]"
+69,"The Kiss","level 3 (sub-sub-section)","234","240","Evelina Harp","[NULL]","[NULL]"
+70,"Nonette's Bed","level 3 (sub-sub-section)","240","244","Evelina Harp","[NULL]","[NULL]"
+71,"The Concert","level 3 (sub-sub-section)","244","248","Evelina Harp","[NULL]","[NULL]"
+72,"Walking on Air","level 3 (sub-sub-section)","248","254","Evelina Harp","[NULL]","[NULL]"

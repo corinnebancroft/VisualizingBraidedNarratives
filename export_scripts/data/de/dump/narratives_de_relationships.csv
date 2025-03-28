@@ -1,267 +1,289 @@
-menEx_id,menEx_menOrEx_id_fk,menEx_character1_id_fk,menEx_character2_id_fk,menEx_narrContainer_id_fk,menEx_isReciprocal_id_fk,menEx_startPage,menEx_endPage
-7,2,6,5,1,1,3,16
-8,0,6,32,1,1,4,4
-9,1,6,31,1,1,5,5
-10,0,6,32,1,1,9,9
-11,2,6,31,1,1,9,15
-13,2,5,31,1,1,10,13
-14,2,6,5,1,1,14,16
-15,2,31,5,1,1,15,15
-16,2,29,25,2,1,17,17
-17,1,29,30,2,1,17,17
-18,0,29,33,2,1,18,21
-19,1,29,5,2,0,17,17
-20,1,29,6,2,0,17,17
-21,0,29,25,2,1,18,18
-22,2,29,25,2,0,19,20
-23,0,29,34,2,1,18,18
-24,1,29,35,2,0,18,18
-25,0,29,37,2,1,18,18
-26,0,29,40,2,1,18,19
-27,0,29,38,2,1,19,19
-28,0,25,40,2,1,18,19
-29,0,25,37,2,1,18,18
-30,0,25,38,2,1,19,19
-31,0,29,42,2,1,20,21
-32,2,29,44,2,1,20,20
-33,2,29,43,2,1,20,20
-34,2,25,29,2,1,21,21
-35,0,29,25,2,1,21,26
-36,2,30,29,2,1,22,25
-37,1,25,45,2,1,22,22
-38,0,25,37,2,1,23,23
-39,0,30,25,2,1,22,23
-40,1,30,33,2,1,23,23
-41,0,29,33,2,1,24,26
-42,2,30,29,2,1,24,25
-43,2,30,25,2,1,24,24
-44,1,30,6,2,0,24,24
-45,1,30,5,2,0,24,24
-46,1,25,6,2,0,24,24
-47,1,25,5,2,0,24,24
-49,1,29,6,2,0,24,24
-50,1,29,5,2,0,24,24
-51,1,30,47,2,0,24,24
-52,1,30,46,2,0,24,24
-53,1,25,47,2,0,24,24
-54,1,25,46,2,0,24,24
-55,1,29,47,2,0,24,24
-56,1,29,46,2,0,24,24
-57,1,29,32,2,0,24,24
-58,1,30,32,2,0,24,24
-59,1,25,32,2,1,24,24
-60,2,33,25,2,1,25,25
-61,2,29,25,2,0,27,27
-62,1,25,6,2,0,26,26
-63,1,25,5,2,0,26,26
-64,2,25,30,2,1,26,26
-65,2,29,25,2,1,26,26
-66,0,29,30,2,1,26,26
-67,1,29,6,2,0,26,27
-68,1,29,5,2,0,26,27
-69,1,30,33,2,1,26,26
-70,1,49,29,2,1,27,27
-71,1,29,51,2,0,27,28
-72,2,29,50,2,1,27,28
-73,1,29,52,2,0,27,28
-74,1,29,53,2,0,28,28
-75,0,29,25,2,1,28,31
-76,0,29,30,2,1,28,29
-77,0,29,33,2,1,29,31
-78,1,33,56,2,0,20,20
-79,1,29,56,2,0,20,20
-80,1,29,57,2,0,17,17
-81,1,30,57,2,0,24,24
-82,1,25,57,2,0,24,24
-83,1,29,57,2,0,24,24
-84,1,25,57,2,0,26,26
-85,1,29,57,2,0,26,27
-86,2,54,29,2,1,29,30
-87,0,29,57,2,0,29,31
-88,1,29,6,2,0,29,29
-89,1,29,5,2,0,29,29
-90,0,29,30,2,1,28,29
-91,0,5,32,1,1,4,4
-92,1,5,31,1,1,5,5
-93,1,6,58,1,0,5,8
-94,1,5,58,1,0,5,8
-95,1,6,51,1,0,9,9
-96,1,5,51,1,0,9,9
-97,0,5,32,1,1,9,9
-98,1,6,59,1,0,11,12
-99,1,5,59,1,0,11,11
-100,1,6,22,1,1,12,12
-101,1,6,61,1,0,12,12
-102,1,5,61,1,0,12,12
-103,1,6,62,1,0,12,12
-104,1,5,62,1,0,12,12
-105,1,5,22,1,1,12,12
-106,0,6,63,1,0,12,12
-107,1,5,63,1,0,12,12
-108,0,6,32,1,1,13,16
-109,0,5,32,1,1,13,16
-110,1,31,32,1,0,14,14
-111,1,25,57,2,0,17,17
-112,0,29,30,2,1,17,17
-113,1,25,6,2,0,17,17
-114,1,25,5,2,0,17,17
-115,1,29,64,2,0,18,18
-116,1,33,64,2,1,18,18
-117,1,29,64,2,0,18,18
-118,1,54,6,2,0,29,30
-119,1,54,5,2,0,29,30
-120,1,54,57,2,0,29,30
-121,1,54,56,2,0,29,30
-123,1,54,33,2,0,30,30
-124,0,29,30,2,1,31,31
-125,2,23,24,3,1,32,33
-126,1,24,57,3,0,33,33
-127,1,24,6,3,0,33,33
-128,1,24,5,3,0,33,33
-129,0,24,23,3,1,34,34
-130,2,22,24,3,1,34,37
-132,2,65,24,3,1,34,34
-133,2,24,23,3,1,35,37
-134,0,22,23,3,1,34,34
-135,1,65,23,3,1,34,34
-136,0,22,66,3,1,35,35
-137,0,22,63,3,1,35,36
-138,1,29,67,2,0,24,24
-139,1,30,67,1,0,24,24
-140,1,25,67,2,0,24,24
-141,1,30,68,2,0,24,24
-142,1,25,68,2,0,24,24
-143,1,29,68,2,0,24,24
-145,0,22,67,3,1,35,35
-146,1,22,57,3,0,35,38
-147,1,22,6,3,0,35,35
-148,1,22,5,3,0,35,35
-149,1,22,56,3,0,35,38
-150,1,24,57,3,0,35,38
-151,1,67,56,3,0,35,35
-152,1,67,57,3,0,35,35
-153,1,68,6,2,0,24,24
-154,1,68,5,2,0,24,24
-155,1,68,57,2,0,24,24
-156,0,24,65,3,1,36,36
-157,0,24,69,3,1,36,36
-158,1,24,41,3,0,36,36
-159,1,24,70,3,0,36,36
-160,1,24,47,3,0,36,36
-161,0,24,63,3,0,35,36
-162,0,22,72,3,1,36,36
-163,0,22,73,3,1,36,36
-164,1,24,72,3,0,36,36
-165,1,24,73,3,0,36,36
-166,0,22,23,3,1,36,36
-167,2,22,23,3,1,37,37
-168,1,23,56,3,0,37,38
-169,1,23,57,3,0,37,38
-170,1,23,6,3,0,37,38
-171,1,23,5,3,0,37,38
-172,1,72,56,3,0,38,38
-173,1,72,57,3,0,38,38
-174,1,72,6,3,0,38,38
-175,1,72,5,3,0,38,38
-176,1,72,46,3,0,38,38
-177,1,72,74,3,0,38,38
-178,1,73,56,3,0,38,38
-179,1,73,57,3,0,38,38
-180,1,73,6,3,0,38,38
-181,1,73,5,3,0,38,38
-182,1,22,6,3,0,37,38
-183,1,22,5,3,0,37,38
-184,1,24,56,3,0,35,38
-185,1,24,6,3,0,36,38
-186,1,24,5,3,0,36,38
-187,0,24,72,3,1,38,38
-188,0,24,73,3,1,38,38
-189,2,23,22,3,1,37,37
-190,2,72,23,3,1,38,38
-191,2,22,72,3,1,38,38
-192,1,75,57,3,0,37,38
-193,1,75,56,3,0,37,38
-194,1,75,6,3,0,37,38
-195,1,75,5,3,0,37,38
-196,2,23,75,3,1,37,38
-197,0,75,22,3,1,37,38
-198,0,24,75,3,1,37,38
-199,0,24,77,3,1,39,39
-200,0,24,76,3,1,39,39
-201,0,24,78,3,1,39,39
-202,1,23,67,3,0,38,38
-203,1,24,67,3,0,35,35
-204,1,24,67,3,0,38,38
-205,0,24,79,3,1,37,37
-206,1,24,80,3,1,37,37
-208,1,29,67,2,0,29,31
-210,1,22,81,3,0,38,38
-211,1,22,82,3,0,38,38
-212,1,24,83,3,0,39,39
-213,0,24,46,3,0,39,39
-214,1,24,85,3,0,39,39
-215,0,22,66,3,1,39,40
-216,0,24,66,3,1,39,40
-217,0,23,66,3,1,39,40
-218,1,24,86,3,0,39,40
-219,1,22,86,3,0,39,40
-220,0,66,86,3,1,39,40
-221,0,66,86,3,1,39,40
-222,1,24,87,3,0,40,40
-223,1,23,87,3,0,40,40
-224,0,23,88,3,1,38,38
-225,1,24,88,3,1,38,38
-226,1,24,88,3,0,40,41
-227,0,23,88,1,1,40,41
-228,0,23,54,3,1,40,40
-229,1,24,54,3,0,40,40
-230,0,24,80,3,1,40,40
-231,0,24,79,3,1,40,40
-232,0,24,23,3,1,38,38
-233,2,24,23,3,1,39,45
-234,2,54,88,3,1,40,40
-235,1,24,6,3,0,40,41
-236,1,24,5,3,0,40,41
-237,1,23,6,3,0,40,41
-238,1,23,5,3,0,40,41
-239,1,23,57,3,0,40,41
-240,1,23,56,3,0,40,41
-241,1,24,56,3,0,40,41
-242,1,24,57,3,0,40,41
-243,0,24,67,3,0,41,41
-244,0,23,67,3,0,41,41
-245,0,24,22,3,1,41,41
-246,0,23,22,3,1,41,41
-247,1,22,56,3,0,41,41
-248,1,24,56,3,0,44,44
-249,0,30,48,4,1,46,47
-250,0,30,25,4,1,46,47
-251,1,30,6,4,0,46,46
-252,1,30,5,4,0,46,46
-253,1,30,57,4,0,46,46
-254,0,48,25,4,1,46,47
-255,2,30,89,4,1,47,47
-256,0,30,90,4,1,47,48
-257,2,12,13,5,1,107,113
-258,1,12,91,5,0,107,107
-259,1,13,91,5,0,107,107
-260,1,12,92,5,0,107,110
-261,1,13,92,5,0,107,110
-262,2,12,11,5,1,108,110
-263,0,11,13,5,1,108,108
-264,1,13,93,5,0,108,108
-265,1,93,92,5,0,108,108
-266,2,11,19,5,1,108,109
-267,2,11,21,5,1,108,109
-268,2,19,21,5,1,108,110
-269,0,12,19,5,1,108,112
-270,0,12,21,5,1,108,111
-271,1,21,94,5,0,108,108
-272,1,11,94,5,0,108,108
-273,1,12,94,5,0,108,108
-274,1,19,94,5,0,108,108
-275,1,12,93,5,0,108,108
-276,0,19,13,5,1,108,111
-277,0,13,21,5,1,108,111
-278,0,13,15,5,1,109,109
-279,0,12,15,5,1,109,109
+id,Type of Relationship,Character 1,Character 2,Is Reciprocal?,Narrative Container,Start Page,End Page
+7,"Exchange","Alyona Golosovsky","Sophia Golosovsky","1","August","3","16"
+8,"Knows","Alyona Golosovsky","Marina Alexandrovna","1","August","4","4"
+9,"Knows of","Alyona Golosovsky","Yegor Gusakov","1","August","5","5"
+10,"Knows","Alyona Golosovsky","Marina Alexandrovna","1","August","9","9"
+11,"Exchange","Alyona Golosovsky","Yegor Gusakov","1","August","9","15"
+13,"Exchange","Sophia Golosovsky","Yegor Gusakov","1","August","10","13"
+14,"Exchange","Alyona Golosovsky","Sophia Golosovsky","1","August","14","16"
+15,"Exchange","Yegor Gusakov","Sophia Golosovsky","1","August","15","15"
+16,"Exchange","Olya/Olga","Diana","1","September","17","17"
+17,"Knows of","Olya/Olga","Valentina Nikolaevna","1","September","17","17"
+18,"Knows","Olya/Olga","Olya's Mother (name??)","1","September","18","21"
+19,"Knows of","Olya/Olga","Sophia Golosovsky","0","September","17","17"
+20,"Knows of","Olya/Olga","Alyona Golosovsky","0","September","17","17"
+21,"Knows","Olya/Olga","Diana","1","September","18","18"
+22,"Exchange","Olya/Olga","Diana","0","September","19","20"
+23,"Knows","Olya/Olga","history teacher","1","September","18","18"
+24,"Knows of","Olya/Olga","""someone's girlfriend"" (18)","0","September","18","18"
+25,"Knows","Olya/Olga","Classmate 1 in picture (18)","1","September","18","18"
+26,"Knows","Olya/Olga","""girl they knew"" (18)","1","September","18","19"
+27,"Knows","Olya/Olga","Classmate 2 in picture (19)","1","September","19","19"
+28,"Knows","Diana","""girl they knew"" (18)","1","September","18","19"
+29,"Knows","Diana","Classmate 1 in picture (18)","1","September","18","18"
+30,"Knows","Diana","Classmate 2 in picture (19)","1","September","19","19"
+31,"Knows","Olya/Olga","Classmate 3 (20)","1","September","20","21"
+32,"Exchange","Olya/Olga","""the nurse giving her an injection"" (20)","1","September","20","20"
+33,"Exchange","Olya/Olga","grocery-store cashier (20)","1","September","20","20"
+34,"Exchange","Diana","Olya/Olga","1","September","21","21"
+35,"Knows","Olya/Olga","Diana","1","September","21","26"
+36,"Exchange","Valentina Nikolaevna","Olya/Olga","1","September","22","25"
+37,"Knows of","Diana","""a couple"" (22)","1","September","22","22"
+38,"Knows","Diana","Classmate 1 in picture (18)","1","September","23","23"
+39,"Knows","Valentina Nikolaevna","Diana","1","September","22","23"
+40,"Knows of","Valentina Nikolaevna","Olya's Mother (name??)","1","September","23","23"
+41,"Knows","Olya/Olga","Olya's Mother (name??)","1","September","24","26"
+42,"Exchange","Valentina Nikolaevna","Olya/Olga","1","September","24","25"
+43,"Exchange","Valentina Nikolaevna","Diana","1","September","24","24"
+44,"Knows of","Valentina Nikolaevna","Alyona Golosovsky","0","September","24","24"
+45,"Knows of","Valentina Nikolaevna","Sophia Golosovsky","0","September","24","24"
+46,"Knows of","Diana","Alyona Golosovsky","0","September","24","24"
+47,"Knows of","Diana","Sophia Golosovsky","0","September","24","24"
+49,"Knows of","Olya/Olga","Alyona Golosovsky","0","September","24","24"
+50,"Knows of","Olya/Olga","Sophia Golosovsky","0","September","24","24"
+51,"Knows of","Valentina Nikolaevna","migrants (generally)","0","September","24","24"
+52,"Knows of","Valentina Nikolaevna","Native peoples of Kamchatka","0","September","24","24"
+53,"Knows of","Diana","migrants (generally)","0","September","24","24"
+54,"Knows of","Diana","Native peoples of Kamchatka","0","September","24","24"
+55,"Knows of","Olya/Olga","migrants (generally)","0","September","24","24"
+56,"Knows of","Olya/Olga","Native peoples of Kamchatka","0","September","24","24"
+57,"Knows of","Olya/Olga","Marina Alexandrovna","0","September","24","24"
+58,"Knows of","Valentina Nikolaevna","Marina Alexandrovna","0","September","24","24"
+59,"Knows of","Diana","Marina Alexandrovna","1","September","24","24"
+60,"Exchange","Olya's Mother (name??)","Diana","1","September","25","25"
+61,"Exchange","Olya/Olga","Diana","0","September","27","27"
+62,"Knows of","Diana","Alyona Golosovsky","0","September","26","26"
+63,"Knows of","Diana","Sophia Golosovsky","0","September","26","26"
+64,"Exchange","Diana","Valentina Nikolaevna","1","September","26","26"
+65,"Exchange","Olya/Olga","Diana","1","September","26","26"
+66,"Knows","Olya/Olga","Valentina Nikolaevna","1","September","26","26"
+67,"Knows of","Olya/Olga","Alyona Golosovsky","0","September","26","27"
+68,"Knows of","Olya/Olga","Sophia Golosovsky","0","September","26","27"
+69,"Knows of","Valentina Nikolaevna","Olya's Mother (name??)","1","September","26","26"
+70,"Knows of","""an old lady"" (27)","Olya/Olga","1","September","27","27"
+71,"Knows of","Olya/Olga","Lenin (27)","0","September","27","28"
+72,"Exchange","Olya/Olga","""a vendor"" (27)","1","September","27","28"
+73,"Knows of","Olya/Olga","""high school boys on their bikes"" (27)","0","September","27","28"
+74,"Knows of","Olya/Olga","crane operators (28)","0","September","28","28"
+75,"Knows","Olya/Olga","Diana","1","September","28","31"
+76,"Knows","Olya/Olga","Valentina Nikolaevna","1","September","28","29"
+77,"Knows","Olya/Olga","Olya's Mother (name??)","1","September","29","31"
+78,"Knows of","Olya's Mother (name??)","the kidnappER","0","September","20","20"
+79,"Knows of","Olya/Olga","the kidnappER","0","September","20","20"
+80,"Knows of","Olya/Olga","the kidnappING","0","September","17","17"
+81,"Knows of","Valentina Nikolaevna","the kidnappING","0","September","24","24"
+82,"Knows of","Diana","the kidnappING","0","September","24","24"
+83,"Knows of","Olya/Olga","the kidnappING","0","September","24","24"
+84,"Knows of","Diana","the kidnappING","0","September","26","26"
+85,"Knows of","Olya/Olga","the kidnappING","0","September","26","27"
+86,"Exchange","Lieutenant Ryakhovsky","Olya/Olga","1","September","29","30"
+87,"Knows","Olya/Olga","the kidnappING","0","September","29","31"
+88,"Knows of","Olya/Olga","Alyona Golosovsky","0","September","29","29"
+89,"Knows of","Olya/Olga","Sophia Golosovsky","0","September","29","29"
+90,"Knows","Olya/Olga","Valentina Nikolaevna","1","September","28","29"
+91,"Knows","Sophia Golosovsky","Marina Alexandrovna","1","August","4","4"
+92,"Knows of","Sophia Golosovsky","Yegor Gusakov","1","August","5","5"
+93,"Knows of","Alyona Golosovsky","""the townspeople"" (6)","0","August","5","8"
+94,"Knows of","Sophia Golosovsky","""the townspeople"" (6)","0","August","5","8"
+95,"Knows of","Alyona Golosovsky","Lenin (27)","0","August","9","9"
+96,"Knows of","Sophia Golosovsky","Lenin (27)","0","August","9","9"
+97,"Knows","Sophia Golosovsky","Marina Alexandrovna","1","August","9","9"
+98,"Knows of","Alyona Golosovsky","""an older boy in a fitted cap"" (11)","0","August","11","12"
+99,"Knows of","Sophia Golosovsky","""an older boy in a fitted cap"" (11)","0","August","11","11"
+100,"Knows of","Alyona Golosovsky","Oksana","1","August","12","12"
+101,"Knows of","Alyona Golosovsky","""cruise-ship tourists"" (12)","0","August","12","12"
+102,"Knows of","Sophia Golosovsky","""cruise-ship tourists"" (12)","0","August","12","12"
+103,"Knows of","Alyona Golosovsky","""a short haired woman"" (12)","0","August","12","12"
+104,"Knows of","Sophia Golosovsky","""a short haired woman"" (12)","0","August","12","12"
+105,"Knows of","Sophia Golosovsky","Oksana","1","August","12","12"
+106,"Knows","Alyona Golosovsky","Maylish (Oksana's dog)","0","August","12","12"
+107,"Knows of","Sophia Golosovsky","Maylish (Oksana's dog)","0","August","12","12"
+108,"Knows","Alyona Golosovsky","Marina Alexandrovna","1","August","13","16"
+109,"Knows","Sophia Golosovsky","Marina Alexandrovna","1","August","13","16"
+110,"Knows of","Yegor Gusakov","Marina Alexandrovna","0","August","14","14"
+111,"Knows of","Diana","the kidnappING","0","September","17","17"
+112,"Knows","Olya/Olga","Valentina Nikolaevna","1","September","17","17"
+113,"Knows of","Diana","Alyona Golosovsky","0","September","17","17"
+114,"Knows of","Diana","Sophia Golosovsky","0","September","17","17"
+115,"Knows of","Olya/Olga","tourists (generally)","0","September","18","18"
+116,"Knows of","Olya's Mother (name??)","tourists (generally)","1","September","18","18"
+117,"Knows of","Olya/Olga","tourists (generally)","0","September","18","18"
+118,"Knows of","Lieutenant Ryakhovsky","Alyona Golosovsky","0","September","29","30"
+119,"Knows of","Lieutenant Ryakhovsky","Sophia Golosovsky","0","September","29","30"
+120,"Knows of","Lieutenant Ryakhovsky","the kidnappING","0","September","29","30"
+121,"Knows of","Lieutenant Ryakhovsky","the kidnappER","0","September","29","30"
+123,"Knows of","Lieutenant Ryakhovsky","Olya's Mother (name??)","0","September","30","30"
+124,"Knows","Olya/Olga","Valentina Nikolaevna","1","September","31","31"
+125,"Exchange","Max/Maxim","Katya/Ekaterina","1","October","32","33"
+126,"Knows of","Katya/Ekaterina","the kidnappING","0","October","33","33"
+127,"Knows of","Katya/Ekaterina","Alyona Golosovsky","0","October","33","33"
+128,"Knows of","Katya/Ekaterina","Sophia Golosovsky","0","October","33","33"
+129,"Knows","Katya/Ekaterina","Max/Maxim","1","October","34","34"
+130,"Exchange","Oksana","Katya/Ekaterina","1","October","34","37"
+132,"Exchange","Katya's ""girlfriends"" (34, 36)","Katya/Ekaterina","1","October","34","34"
+133,"Exchange","Katya/Ekaterina","Max/Maxim","1","October","35","37"
+134,"Knows","Oksana","Max/Maxim","1","October","34","34"
+135,"Knows of","Katya's ""girlfriends"" (34, 36)","Max/Maxim","1","October","34","34"
+136,"Knows","Oksana","Oksana's ex-husband (35)","1","October","35","35"
+137,"Knows","Oksana","Maylish (Oksana's dog)","1","October","35","36"
+138,"Knows of","Olya/Olga","Kamchatka police","0","September","24","24"
+139,"Knows of","Valentina Nikolaevna","Kamchatka police","0","August","24","24"
+140,"Knows of","Diana","Kamchatka police","0","September","24","24"
+141,"Knows of","Valentina Nikolaevna","""news reporter"" (24)","0","September","24","24"
+142,"Knows of","Diana","""news reporter"" (24)","0","September","24","24"
+143,"Knows of","Olya/Olga","""news reporter"" (24)","0","September","24","24"
+145,"Knows","Oksana","Kamchatka police","1","October","35","35"
+146,"Knows of","Oksana","the kidnappING","0","October","35","38"
+147,"Knows of","Oksana","Alyona Golosovsky","0","October","35","35"
+148,"Knows of","Oksana","Sophia Golosovsky","0","October","35","35"
+149,"Knows of","Oksana","the kidnappER","0","October","35","38"
+150,"Knows of","Katya/Ekaterina","the kidnappING","0","October","35","38"
+151,"Knows of","Kamchatka police","the kidnappER","0","October","35","35"
+152,"Knows of","Kamchatka police","the kidnappING","0","October","35","35"
+153,"Knows of","""news reporter"" (24)","Alyona Golosovsky","0","September","24","24"
+154,"Knows of","""news reporter"" (24)","Sophia Golosovsky","0","September","24","24"
+155,"Knows of","""news reporter"" (24)","the kidnappING","0","September","24","24"
+156,"Knows","Katya/Ekaterina","Katya's ""girlfriends"" (34, 36)","1","October","36","36"
+157,"Knows","Katya/Ekaterina","""customs officers"" (36)","1","October","36","36"
+158,"Knows of","Katya/Ekaterina","men (generally?)","0","October","36","36"
+159,"Knows of","Katya/Ekaterina","criminals (generally)","0","October","36","36"
+160,"Knows of","Katya/Ekaterina","migrants (generally)","0","October","36","36"
+161,"Knows","Katya/Ekaterina","Maylish (Oksana's dog)","0","October","35","36"
+162,"Knows","Oksana","boring colleague/supervisor (36/37)","1","October","36","36"
+163,"Knows","Oksana","pregnant colleague (36)","1","October","36","36"
+164,"Knows of","Katya/Ekaterina","boring colleague/supervisor (36/37)","0","October","36","36"
+165,"Knows of","Katya/Ekaterina","pregnant colleague (36)","0","October","36","36"
+166,"Knows","Oksana","Max/Maxim","1","October","36","36"
+167,"Exchange","Oksana","Max/Maxim","1","October","37","37"
+168,"Knows of","Max/Maxim","the kidnappER","0","October","37","38"
+169,"Knows of","Max/Maxim","the kidnappING","0","October","37","38"
+170,"Knows of","Max/Maxim","Alyona Golosovsky","0","October","37","38"
+171,"Knows of","Max/Maxim","Sophia Golosovsky","0","October","37","38"
+172,"Knows of","boring colleague/supervisor (36/37)","the kidnappER","0","October","38","38"
+173,"Knows of","boring colleague/supervisor (36/37)","the kidnappING","0","October","38","38"
+174,"Knows of","boring colleague/supervisor (36/37)","Alyona Golosovsky","0","October","38","38"
+175,"Knows of","boring colleague/supervisor (36/37)","Sophia Golosovsky","0","October","38","38"
+176,"Knows of","boring colleague/supervisor (36/37)","Native peoples of Kamchatka","0","October","38","38"
+177,"Knows of","boring colleague/supervisor (36/37)","""Tajik"" ethnic group (38)","0","October","38","38"
+178,"Knows of","pregnant colleague (36)","the kidnappER","0","October","38","38"
+179,"Knows of","pregnant colleague (36)","the kidnappING","0","October","38","38"
+180,"Knows of","pregnant colleague (36)","Alyona Golosovsky","0","October","38","38"
+181,"Knows of","pregnant colleague (36)","Sophia Golosovsky","0","October","38","38"
+182,"Knows of","Oksana","Alyona Golosovsky","0","October","37","38"
+183,"Knows of","Oksana","Sophia Golosovsky","0","October","37","38"
+184,"Knows of","Katya/Ekaterina","the kidnappER","0","October","35","38"
+185,"Knows of","Katya/Ekaterina","Alyona Golosovsky","0","October","36","38"
+186,"Knows of","Katya/Ekaterina","Sophia Golosovsky","0","October","36","38"
+187,"Knows","Katya/Ekaterina","boring colleague/supervisor (36/37)","1","October","38","38"
+188,"Knows","Katya/Ekaterina","pregnant colleague (36)","1","October","38","38"
+189,"Exchange","Max/Maxim","Oksana","1","October","37","37"
+190,"Exchange","boring colleague/supervisor (36/37)","Max/Maxim","1","October","38","38"
+191,"Exchange","Oksana","boring colleague/supervisor (36/37)","1","October","38","38"
+192,"Knows of","The Nalychevo group (37)","the kidnappING","0","October","37","38"
+193,"Knows of","The Nalychevo group (37)","the kidnappER","0","October","37","38"
+194,"Knows of","The Nalychevo group (37)","Alyona Golosovsky","0","October","37","38"
+195,"Knows of","The Nalychevo group (37)","Sophia Golosovsky","0","October","37","38"
+196,"Exchange","Max/Maxim","The Nalychevo group (37)","1","October","37","38"
+197,"Knows","The Nalychevo group (37)","Oksana","1","October","37","38"
+198,"Knows","Katya/Ekaterina","The Nalychevo group (37)","1","October","37","38"
+199,"Knows","Katya/Ekaterina","Katya's father","1","October","39","39"
+200,"Knows","Katya/Ekaterina","Katya's mother","1","October","39","39"
+201,"Knows","Katya/Ekaterina","Katya's brothers","1","October","39","39"
+202,"Knows of","Max/Maxim","Kamchatka police","0","October","38","38"
+203,"Knows of","Katya/Ekaterina","Kamchatka police","0","October","35","35"
+204,"Knows of","Katya/Ekaterina","Kamchatka police","0","October","38","38"
+205,"Knows","Katya/Ekaterina","""male coleagues"" (37)","1","October","37","37"
+206,"Knows of","Katya/Ekaterina","""female colleagues"" (37)","1","October","37","37"
+208,"Knows of","Olya/Olga","Kamchatka police","0","September","29","31"
+210,"Knows of","Oksana","Koreans (38)","0","October","38","38"
+211,"Knows of","Oksana","Chukchi ethnic group (38)","0","October","38","38"
+212,"Knows of","Katya/Ekaterina","Putin","0","October","39","39"
+213,"Knows","Katya/Ekaterina","Native peoples of Kamchatka","0","October","39","39"
+214,"Knows of","Katya/Ekaterina","Communists","0","October","39","39"
+215,"Knows","Oksana","Oksana's ex-husband (35)","1","October","39","40"
+216,"Knows","Katya/Ekaterina","Oksana's ex-husband (35)","1","October","39","40"
+217,"Knows","Max/Maxim","Oksana's ex-husband (35)","1","October","39","40"
+218,"Knows of","Katya/Ekaterina","""yet another woman"" (39)","0","October","39","40"
+219,"Knows of","Oksana","""yet another woman"" (39)","0","October","39","40"
+220,"Knows","Oksana's ex-husband (35)","""yet another woman"" (39)","1","October","39","40"
+221,"Knows","Oksana's ex-husband (35)","""yet another woman"" (39)","1","October","39","40"
+222,"Knows of","Katya/Ekaterina","""people at a neighbouring campsite"" (40)","0","October","40","40"
+223,"Knows of","Max/Maxim","""people at a neighbouring campsite"" (40)","0","October","40","40"
+224,"Knows","Max/Maxim","volunteers for the search parties","1","October","38","38"
+225,"Knows of","Katya/Ekaterina","volunteers for the search parties","1","October","38","38"
+226,"Knows of","Katya/Ekaterina","volunteers for the search parties","0","October","40","41"
+227,"Knows","Max/Maxim","volunteers for the search parties","1","August","40","41"
+228,"Knows","Max/Maxim","Lieutenant Ryakhovsky","1","October","40","40"
+229,"Knows of","Katya/Ekaterina","Lieutenant Ryakhovsky","0","October","40","41"
+230,"Knows","Katya/Ekaterina","""female colleagues"" (37)","1","October","40","40"
+231,"Knows","Katya/Ekaterina","""male coleagues"" (37)","1","October","40","40"
+232,"Knows","Katya/Ekaterina","Max/Maxim","1","October","38","38"
+233,"Exchange","Katya/Ekaterina","Max/Maxim","1","October","39","45"
+234,"Exchange","Lieutenant Ryakhovsky","volunteers for the search parties","1","October","40","40"
+235,"Knows of","Katya/Ekaterina","Alyona Golosovsky","0","October","40","41"
+236,"Knows of","Katya/Ekaterina","Sophia Golosovsky","0","October","40","41"
+237,"Knows of","Max/Maxim","Alyona Golosovsky","0","October","40","41"
+238,"Knows of","Max/Maxim","Sophia Golosovsky","0","October","40","41"
+239,"Knows of","Max/Maxim","the kidnappING","0","October","40","41"
+240,"Knows of","Max/Maxim","the kidnappER","0","October","40","41"
+241,"Knows of","Katya/Ekaterina","the kidnappER","0","October","40","41"
+242,"Knows of","Katya/Ekaterina","the kidnappING","0","October","40","41"
+243,"Knows","Katya/Ekaterina","Kamchatka police","0","October","41","41"
+244,"Knows","Max/Maxim","Kamchatka police","0","October","41","41"
+245,"Knows","Katya/Ekaterina","Oksana","1","October","41","41"
+246,"Knows","Max/Maxim","Oksana","1","October","41","41"
+247,"Knows of","Oksana","the kidnappER","0","October","41","41"
+248,"Knows of","Katya/Ekaterina","the kidnappER","0","October","44","44"
+249,"Knows","Valentina Nikolaevna","Valentina's Husband (name?)","1","November","46","47"
+250,"Knows","Valentina Nikolaevna","Diana","1","November","46","47"
+251,"Knows of","Valentina Nikolaevna","Alyona Golosovsky","0","November","46","46"
+252,"Knows of","Valentina Nikolaevna","Sophia Golosovsky","0","November","46","46"
+253,"Knows of","Valentina Nikolaevna","the kidnappING","0","November","46","46"
+254,"Knows","Valentina's Husband (name?)","Diana","1","November","46","47"
+255,"Exchange","Valentina Nikolaevna","""the women in the school office"" (47)","1","November","47","47"
+256,"Exchange","""the doctor"" (47)","Valentina Nikolaevna","1","November","47","48"
+257,"Exchange","Natasha/Natalia","Denis","1","January","107","113"
+258,"Knows of","Natasha/Natalia","Travis Walton","0","January","107","107"
+259,"Knows of","Denis","Travis Walton","0","January","107","107"
+260,"Knows of","Natasha/Natalia","Aliens","0","January","107","110"
+261,"Knows of","Denis","Aliens","0","January","107","110"
+262,"Exchange","Natasha/Natalia","Alla Innokentevna","1","January","108","110"
+263,"Knows","Alla Innokentevna","Denis","1","January","108","108"
+264,"Knows of","Denis","Minister of Defense","0","January","108","108"
+265,"Knows of","Minister of Defense","Aliens","0","January","108","108"
+266,"Exchange","Alla Innokentevna","Lev","1","January","108","109"
+267,"Exchange","Alla Innokentevna","Yulka/Yulia","1","January","108","109"
+268,"Exchange","Lev","Yulka/Yulia","1","January","108","110"
+269,"Knows","Natasha/Natalia","Lev","1","January","108","112"
+270,"Knows","Natasha/Natalia","Yulka/Yulia","1","January","108","111"
+271,"Knows of","Yulka/Yulia","Jack London","0","January","108","108"
+272,"Knows of","Alla Innokentevna","Jack London","0","January","108","108"
+273,"Knows of","Natasha/Natalia","Jack London","0","January","108","108"
+274,"Knows of","Lev","Jack London","0","January","108","108"
+275,"Knows of","Natasha/Natalia","Minister of Defense","0","January","108","108"
+276,"Knows","Lev","Denis","1","January","108","111"
+277,"Knows","Denis","Yulka/Yulia","1","January","108","111"
+278,"Knows","Denis","Lilia","1","January","109","109"
+279,"Knows","Natasha/Natalia","Lilia","1","January","109","109"
+280,"Knows","Olya/Olga","Olya's Mother (name??)","1","September","16","16"
+281,"Knows of","Oksana","Native peoples of Kamchatka","0","October","41","41"
+282,"Knows of","Max/Maxim","Native peoples of Kamchatka","0","October","41","41"
+283,"Knows of","Katya/Ekaterina","""tabloid reporter"" (41)","0","October","41","41"
+284,"Exchange","Katya/Ekaterina","a bear (44-45)","1","October","44","45"
+285,"Exchange","Max/Maxim","a bear (44-45)","1","October","44","45"
+286,"Knows of","Valentina Nikolaevna","""parents neglecting their duties"" (46)","0","November","46","46"
+287,"Knows of","Valentina Nikolaevna","""children wandering"" (46)","1","November","46","46"
+288,"Knows","Valentina Nikolaevna","""the girl at the desk"" (48)","1","November","48","48"
+289,"Exchange","Valentina Nikolaevna","Valentina's ""colleague"" (48)","1","November","48","49"
+290,"Knows","Valentina's ""colleague"" (48)","Lieutenant Ryakhovsky","1","November","48","49"
+291,"Knows","Valentina Nikolaevna","Lieutenant Ryakhovsky","1","November","48","49"
+292,"Knows of","Valentina's ""colleague"" (48)","Alyona Golosovsky","0","November","48","48"
+293,"Knows of","Valentina's ""colleague"" (48)","Sophia Golosovsky","0","November","48","48"
+294,"Knows of","Valentina Nikolaevna","Alyona Golosovsky","0","November","48","48"
+295,"Knows of","Valentina Nikolaevna","Sophia Golosovsky","0","November","48","48"
+296,"Knows of","Valentina Nikolaevna","Golosovskaya girls' father (name?) (48)","0","November","48","48"
+297,"Knows of","Valentina's ""colleague"" (48)","Golosovskaya girls' father (name?) (48)","0","November","48","48"
+298,"Knows of","Lieutenant Ryakhovsky","Golosovskaya girls' father (name?) (48)","0","November","48","48"
+299,"Knows","Valentina Nikolaevna","""the principal"" (49)","1","November","49","49"
+300,"Knows","Valentina Nikolaevna","Diana","1","November","49","50"
+301,"Knows","Valentina Nikolaevna","""the doctor"" (47)","1","November","49","49"
