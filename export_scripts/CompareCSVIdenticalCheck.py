@@ -21,7 +21,7 @@ def compare_csv(file1, file2):
 
 
 # Example usage
-file1 = 'data/pod/PoDGephiReadyMar12/PoDTextSpaceEdgesMar52025.csv'
+file1 = 'data/pod/Feb212025_exports/TEST_pod_exports_text_space_edges_20250224-10H35M.csv'
 file2 = 'data/pod/Mar29/podTextSpaceEdges_20250329-17H44M.csv'
 compare_csv(file1, file2)
 
