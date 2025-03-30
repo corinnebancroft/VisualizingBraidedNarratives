@@ -21,7 +21,7 @@ def compare_csv(file1, file2):
 
 
 # Example usage
-file1 = 'data/gs/Mar12/GSGephiReadyMar12/GSExchangesOnlyMar12.csv'
-file2 = 'data/gs/Mar27/GSExchangesOnlyMar12.csv'
+file1 = 'data/tt/Mar29/ttTextSpaceEdges_20250329-17H03M.csv'
+file2 = 'data/tt/Mar29/tt_exports_text_human_space_edges_20250329-17H11M.csv'
 compare_csv(file1, file2)
 
