@@ -34,7 +34,7 @@
     <xd:doc>
         <xd:desc>The project data directory.</xd:desc>
     </xd:doc>
-    <xsl:variable name="dataDir" select="replace(document-uri(/), '/xslt/[^/]+\.xsl$', '/data/')"/>
+    <xsl:variable name="dataDir" as="xs:string" select="replace(base-uri(/), '/xslt/[^/]+\.xsl$', '/data/')"/>
     
     <xd:doc>
         <xd:desc>Some useful strings.</xd:desc>
@@ -48,7 +48,7 @@
         <xd:desc>The root template does everything.</xd:desc>
     </xd:doc>
     <xsl:template match="/">
-        
+        <xsl:message>Source document uri is: {base-uri(/)}. Data directory is: {$dataDir}</xsl:message>
         <xsl:for-each select="$dbIds">
             <xsl:variable name="currDbId" as="xs:string" select="."/>
             <xsl:variable name="currDb" as="document-node()?" select="doc($dataDir || $currDbId || '/dump/narratives_' || $currDbId || '.xml')"/>
