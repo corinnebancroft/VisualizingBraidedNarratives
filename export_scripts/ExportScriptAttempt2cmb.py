@@ -6,9 +6,9 @@ import itertools
 
 # Read three dataframes, one for each of characters, containers, and relationships tables exported from the DB
 
-df_chars = pd.read_csv('data/tt/dump/narratives_tt_characters.csv')
-df_conts = pd.read_csv('data/tt/dump/narratives_tt_containers.csv')
-df_rels = pd.read_csv('data/tt/dump/narratives_tt_relationships.csv')
+df_chars = pd.read_csv('data/pod/Mar29/podchar.csv')
+df_conts = pd.read_csv('data/pod/Mar29/podcont.csv')
+df_rels = pd.read_csv('data/pod/Mar29/podrels.csv')
 
 # merge the containers and relationships "on the right": using keys from the right dataframe
 # and also do the merge based on the mutual column named "Narrative Container". Use "_cont" and "_rels" suffixes for the
@@ -153,7 +153,7 @@ df_no_duplicates = df_no_duplicates.sort_values(by=['Character 1 <br />(choose)'
 
 # df_no_duplicates = df_no_duplicates.drop(columns=['Character 1 <br />(choose)', 'Character 2 <br />(choose)'])
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
-df_no_duplicates.to_csv(f'data/tt/Mar29/tt_StorySpaceEdges_{date}.csv', index=False)
+df_no_duplicates.to_csv(f'data/pod/Mar29/pod_StorySpaceEdges_{date}.csv', index=False)
 
 df_og = df_no_duplicates
 
@@ -210,7 +210,7 @@ final_human_df = pd.DataFrame(rows_human_list)
 final_gephi_df = pd.DataFrame(rows_gephi_list)
 
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
-final_human_df.to_csv(f'data/tt/Mar29/ttTextSpaceEdges_{date}.csv', index=False)
+final_human_df.to_csv(f'data/pod/Mar29/podTextSpaceEdges_{date}.csv', index=False)
 #final_gephi_df.to_csv(f'data/gs/Mar12/gs_exports_text_gephi_space_edges_{date}.csv', index=False)
 
 df = df_no_duplicates
@@ -218,6 +218,6 @@ df = df_no_duplicates
 filtered_df = df[df['category'] == 'Exchange']
 
 # Write the filtered data to a new CSV file
-output_file = 'data/tt/Mar29/ttExchangesOnlyMar29.csv'
+output_file = 'data/pod/Mar29/podExchangesOnlyMar29.csv'
 filtered_df.to_csv(output_file, index=False)
 
