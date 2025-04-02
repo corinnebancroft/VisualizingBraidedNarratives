@@ -72,75 +72,114 @@ for index, row in df.iterrows():
             linestyle='--',
             alpha=0.2)
 
-    if row['Caddy']:
+    if row['Evelina Harp']:
         axs2.plot(
             [int(row['id']), int(row['id'])],
-            ['Caddy', 'Caddy'],
+            ['Evelina Harp', 'Evelina Harp'],
             color=line_colours[idx_narr],
             linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Caddy', 'Caddy'],
+                     ['Evelina Harp', 'Evelina Harp'],
                      marker=marker_style[0],
                      color='k'
                      )
-    if row['Quentin']:
+    if row['Judge Antone Bazil Coutts']:
         axs2.plot(
             [int(row['id']), int(row['id'])],
-            ['Quentin', 'Quentin'],
+            ['Judge Antone Bazil Coutts', 'Judge Antone Bazil Coutts'],
             color='k',
             linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Quentin', 'Quentin'],
+                     ['Judge Antone Bazil Coutts', 'Judge Antone Bazil Coutts'],
                      marker=marker_style[0],
                      color='k'
                      )
-    if row['Benjy']:
+    if row['Marn Wolde']:
         axs2.plot(
             [int(row['id']), int(row['id'])],
-            ['Benjy', 'Benjy'],
+            ['Marn Wolde', 'Marn Wolde'],
             color='k',
             linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Benjy', 'Benjy'],
+                     ['Marn Wolde', 'Marn Wolde'],
                      marker=marker_style[0],
                      color='k'
                      )
-    if row['Jason']:
+    if row['Doctor Cordelia Lochren']:
         axs2.plot(
             [int(row['id']), int(row['id'])],
-            ['Jason', 'Jason'],
+            ['Doctor Cordelia Lochren', 'Doctor Cordelia Lochren'],
             color='k',
             linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Jason', 'Jason'],
+                     ['Doctor Cordelia Lochren', 'Doctor Cordelia Lochren'],
                      marker=marker_style[0],
                      color='k'
                      )
-    if row['Dilsey']:
+    if row['Seraph Milk']:
         axs2.plot(
             [int(row['id']), int(row['id'])],
-            ['Dilsey', 'Dilsey'],
+            ['Seraph Milk', 'Seraph Milk'],
             color='k',
             linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Dilsey', 'Dilsey'],
+                     ['Seraph Milk', 'Seraph Milk'],
                      marker=marker_style[0],
                      color='k'
                      )
-    if row['Quentin Jr']:
+    if row['Corwin Peace']:
         axs2.plot(
             [int(row['id']), int(row['id'])],
-            ['Quentin Jr', 'Quentin Jr'],
+            ['Corwin Peace', 'Corwin Peace'],
             color='k',
             linestyle=line_style[0],
             linewidth=5)
         axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Quentin Jr', 'Quentin Jr'],
+                     ['Corwin Peace', 'Corwin Peace'],
+                     marker=marker_style[0],
+                     color='k'
+                     )
+
+    if row['Billy Peace']:
+        axs2.plot(
+            [int(row['id']), int(row['id'])],
+            ['Billy Peace', 'Billy Peace'],
+            color='k',
+            linestyle=line_style[0],
+            linewidth=5)
+        axs2.scatter([int(row['id']), int(row['id'])],
+                     ['Billy Peace', 'Billy Peace'],
+                     marker=marker_style[0],
+                     color='k'
+                     )
+
+    if row['Warren Wolde']:
+        axs2.plot(
+            [int(row['id']), int(row['id'])],
+            ['Warren Wolde', 'Warren Wolde'],
+            color='k',
+            linestyle=line_style[0],
+            linewidth=5)
+        axs2.scatter([int(row['id']), int(row['id'])],
+                     ['Warren Wolde', 'Warren Wolde'],
+                     marker=marker_style[0],
+                     color='k'
+                     )
+
+    if row['Shamengwa Milk']:
+        axs2.plot(
+            [int(row['id']), int(row['id'])],
+            ['Shamengwa Milk', 'Shamengwa Milk'],
+            color='k',
+            linestyle=line_style[0],
+            linewidth=5)
+        axs2.scatter([int(row['id']), int(row['id'])],
+                     ['Shamengwa Milk', 'Shamengwa Milk'],
                      marker=marker_style[0],
                      color='k'
                      )
