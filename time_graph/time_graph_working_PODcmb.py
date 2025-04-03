@@ -5,8 +5,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 import matplotlib as mpl
+import math
 
-mpl.use('macosx')
+#mpl.use('macosx')
 cwd = os.getcwd()
 path_to_time_graph_data = os.path.join(cwd, 'PoDTimeGraphApril2.csv')
 df = pd.read_csv(path_to_time_graph_data)
@@ -37,7 +38,8 @@ for index, row in df.iterrows():
     idx_narr = [i for i, x in enumerate(narrators) if x == row['Narrator']][0]
 
     line_style = ['--' if row['Is Approximate?'] else '-']
-    marker_style = ['x' if row['Is Approximate?'] else '.']
+    #print('str' if row['Is Approximate?'] is str else 'not')
+    marker_style = ['x' if row['Is Approximate?'] == 'T'  else '.']
 
     if row['Start Date'] == row['End Date']:
         axs.scatter([row['Start Date'],
@@ -75,6 +77,8 @@ for index, row in df.iterrows():
 column_titles = df.columns[15:]  # Get titles starting from column 16 (index 15)
 
 for index, row in df.iterrows():
+    idx_narr = [i for i, x in enumerate(narrators) if x == row['Narrator']][0]
+    marker_style = ['x' if row['Is Approximate?'] == 'T'  else '.']
     for title in column_titles:
         if row[title]:
             axs2.plot(
