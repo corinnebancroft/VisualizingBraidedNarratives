@@ -72,49 +72,34 @@ for index, row in df.iterrows():
             linestyle='--',
             alpha=0.2)
 
-    # Get the list of column titles
-    columns = list(row.keys())
+column_titles = df.columns[15:]  # Get titles starting from column 16 (index 15)
 
-    # Find the starting index for column 'P'
-    start_index = columns.index('P')
+for index, row in df.iterrows():
+    for title in column_titles:
+        if row[title]:
+            axs2.plot(
+                [int(row['id']), int(row['id'])],
+                [title, title],
+                color=line_colours[idx_narr],
+                linestyle=line_style[0],
+                linewidth=5
+            )
+            axs2.scatter([int(row['id']), int(row['id'])],
+                         [title, title],
+                         marker=marker_style[0],
+                         color='k'
+                         )
 
 
-def column_letter_to_index(letter):
-    return ord(letter.upper()) - ord('A')
-
-    # Get the list of column titles
-
-
-columns = list(row.keys())
-
-# Find the starting index for column 'P'
-start_index = column_letter_to_index('P')
-
-# Loop through columns starting from 'P' onwards
-for col in columns[start_index:]:
-    if row[col]:  # Check if the column has data
-        axs2.plot(
-            [int(row['id']), int(row['id'])],
-            [col, col],
-            color=line_colours[idx_narr],
-            linestyle=line_style[0],
-            linewidth=5
-        )
-        axs2.scatter(
-            [int(row['id']), int(row['id'])],
-            [col, col],
-            marker=marker_style[0],
-            color='k'
-        )
 
 # Plotting the Start Page and End Page
-axs3.scatter(
-    [int(row['id']), int(row['id'])],
-    [row['Start Page'], row['End Page']],
-    color=line_colours[idx_narr],
-    marker=marker_style[0],
-    label=f"{row['Narrator']}"
-)
+        axs3.scatter([int(row['id']),
+                  int(row['id'])],
+                 [row['Start Page'], row['End Page']],
+                 color=line_colours[idx_narr],
+                 marker=marker_style[0],
+                 label=f"{row['Narrator']}"
+                 )
 
 # plt.xticks(np.arange(df['id'].min()-1, df['id'].max(), 5))
 for idx, narrator in enumerate(narrators):
@@ -137,7 +122,20 @@ y_lim2 = axs2.get_ylim()
 
 axs2.set_xlabel('Relative Order')
 axs2.set_ylabel('Participating Character')
-axs2.vlines(list(range(int(np.floor(x_lim2[0]).item()), int(np.ceil(x_lim2[1]).item()), 1)), 'Caddy', 'Quentin Jr', linestyles='--', colors='k', linewidth=0.5)
+# Extract the first and last column titles from column_titles
+first_column_title = column_titles[0]
+last_column_title = column_titles[-1]
+
+# Update the axs2.vlines line
+axs2.vlines(
+    list(range(int(np.floor(x_lim2[0]).item()), int(np.ceil(x_lim2[1]).item()), 1)),
+    first_column_title,
+    last_column_title,
+    linestyles='--',
+    colors='k',
+    linewidth=0.5
+)
+
 
 
 x_lim3 = axs3.get_xlim()
