@@ -81,7 +81,8 @@ for index, row in df.iterrows():
     #marker_style = ['x' if row['Is Approximate?'] == 'T'  else '.']
     for title in column_titles:
         if row[title]:
-            marker_style = ['x' if (row['Is Approximate?'] == 'T' and row[title] == 'T') else '.' if row[title] == 'T' else '']
+            marker_style = ['x' if (row['Is Approximate?'] == 'T' and row[title] == 'T') 
+                            else '.' if row[title] == 'T' else '']
             axs2.plot(
                 [int(row['id']), int(row['id'])],
                 [title, title],
