@@ -72,126 +72,49 @@ for index, row in df.iterrows():
             linestyle='--',
             alpha=0.2)
 
-    if row['Evelina Harp']:
+    # Get the list of column titles
+    columns = list(row.keys())
+
+    # Find the starting index for column 'P'
+    start_index = columns.index('P')
+
+
+def column_letter_to_index(letter):
+    return ord(letter.upper()) - ord('A')
+
+    # Get the list of column titles
+
+
+columns = list(row.keys())
+
+# Find the starting index for column 'P'
+start_index = column_letter_to_index('P')
+
+# Loop through columns starting from 'P' onwards
+for col in columns[start_index:]:
+    if row[col]:  # Check if the column has data
         axs2.plot(
             [int(row['id']), int(row['id'])],
-            ['Evelina Harp', 'Evelina Harp'],
+            [col, col],
             color=line_colours[idx_narr],
             linestyle=line_style[0],
-            linewidth=5)
-        axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Evelina Harp', 'Evelina Harp'],
-                     marker=marker_style[0],
-                     color='k'
-                     )
-    if row['Judge Antone Bazil Coutts']:
-        axs2.plot(
+            linewidth=5
+        )
+        axs2.scatter(
             [int(row['id']), int(row['id'])],
-            ['Judge Antone Bazil Coutts', 'Judge Antone Bazil Coutts'],
-            color='k',
-            linestyle=line_style[0],
-            linewidth=5)
-        axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Judge Antone Bazil Coutts', 'Judge Antone Bazil Coutts'],
-                     marker=marker_style[0],
-                     color='k'
-                     )
-    if row['Marn Wolde']:
-        axs2.plot(
-            [int(row['id']), int(row['id'])],
-            ['Marn Wolde', 'Marn Wolde'],
-            color='k',
-            linestyle=line_style[0],
-            linewidth=5)
-        axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Marn Wolde', 'Marn Wolde'],
-                     marker=marker_style[0],
-                     color='k'
-                     )
-    if row['Doctor Cordelia Lochren']:
-        axs2.plot(
-            [int(row['id']), int(row['id'])],
-            ['Doctor Cordelia Lochren', 'Doctor Cordelia Lochren'],
-            color='k',
-            linestyle=line_style[0],
-            linewidth=5)
-        axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Doctor Cordelia Lochren', 'Doctor Cordelia Lochren'],
-                     marker=marker_style[0],
-                     color='k'
-                     )
-    if row['Seraph Milk']:
-        axs2.plot(
-            [int(row['id']), int(row['id'])],
-            ['Seraph Milk', 'Seraph Milk'],
-            color='k',
-            linestyle=line_style[0],
-            linewidth=5)
-        axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Seraph Milk', 'Seraph Milk'],
-                     marker=marker_style[0],
-                     color='k'
-                     )
-    if row['Corwin Peace']:
-        axs2.plot(
-            [int(row['id']), int(row['id'])],
-            ['Corwin Peace', 'Corwin Peace'],
-            color='k',
-            linestyle=line_style[0],
-            linewidth=5)
-        axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Corwin Peace', 'Corwin Peace'],
-                     marker=marker_style[0],
-                     color='k'
-                     )
+            [col, col],
+            marker=marker_style[0],
+            color='k'
+        )
 
-    if row['Billy Peace']:
-        axs2.plot(
-            [int(row['id']), int(row['id'])],
-            ['Billy Peace', 'Billy Peace'],
-            color='k',
-            linestyle=line_style[0],
-            linewidth=5)
-        axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Billy Peace', 'Billy Peace'],
-                     marker=marker_style[0],
-                     color='k'
-                     )
-
-    if row['Warren Wolde']:
-        axs2.plot(
-            [int(row['id']), int(row['id'])],
-            ['Warren Wolde', 'Warren Wolde'],
-            color='k',
-            linestyle=line_style[0],
-            linewidth=5)
-        axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Warren Wolde', 'Warren Wolde'],
-                     marker=marker_style[0],
-                     color='k'
-                     )
-
-    if row['Shamengwa Milk']:
-        axs2.plot(
-            [int(row['id']), int(row['id'])],
-            ['Shamengwa Milk', 'Shamengwa Milk'],
-            color='k',
-            linestyle=line_style[0],
-            linewidth=5)
-        axs2.scatter([int(row['id']), int(row['id'])],
-                     ['Shamengwa Milk', 'Shamengwa Milk'],
-                     marker=marker_style[0],
-                     color='k'
-                     )
-
-    axs3.scatter([int(row['id']),
-                  int(row['id'])],
-                 [row['Start Page'], row['End Page']],
-                 color=line_colours[idx_narr],
-                 marker=marker_style[0],
-                 label=f"{row['Narrator']}"
-                 )
-
+# Plotting the Start Page and End Page
+axs3.scatter(
+    [int(row['id']), int(row['id'])],
+    [row['Start Page'], row['End Page']],
+    color=line_colours[idx_narr],
+    marker=marker_style[0],
+    label=f"{row['Narrator']}"
+)
 
 # plt.xticks(np.arange(df['id'].min()-1, df['id'].max(), 5))
 for idx, narrator in enumerate(narrators):
