@@ -29,15 +29,51 @@ axs3 = plt.axes()
 
 narrators = df['Narrator'].unique()
 num_narrators = len(narrators)
-line_colours = plt.cm.Dark2(np.linspace(0.25, 0.75, num_narrators))
+
+# Print the names of the narrators
+print("Narrators:")
+for i, narrator in enumerate(narrators):
+    print(f"{i+1}. {narrator}")
+
+# Define custom colors with their names
+custom_colors = {
+    'Red': '#FF0000',
+    'Blue': '#0000FF',
+    'Yellow': '#FFFF00',
+    'Magenta': '#FF00FF',
+    'Green': '#00FF00',
+    'Cyan': '#00FFFF',
+    'Orange': '#FFA500',
+    'Violet': '#8D01FF',
+    'Chartreuse': '#C9FF00'
+}
+
+narrator_colors = {}
+
+for narrator in narrators:
+    while True:
+        print(f"Available colors: {list(custom_colors.keys())}")
+        color_name = input(f"Enter the color name for {narrator}: ")
+        if color_name in custom_colors:
+            narrator_colors[narrator] = custom_colors[color_name]
+            break
+        else:
+            print("Invalid color name. Please choose from the available colors.")
+
+print("\nNarrator Colors:")
+for narrator, color in narrator_colors.items():
+    print(f"{narrator}: {color}")
+
+# Use the custom colors in your plot
+line_colours = [narrator_colors[narrator] for narrator in narrators]
 
 legend_items = []
 
 for index, row in df.iterrows():
     idx_narr = [i for i, x in enumerate(narrators) if x == row['Narrator']][0]
 
-    line_style = ['--' if row['Is Approximate?'] else '-']
-    marker_style = ['x' if row['Is Approximate?'] else '.']
+    line_style = ['--' if row['Is Approximate?'] == 'T' else '-']
+    marker_style = ['x' if row['Is Approximate?'] == 'T' else '.']
 
     if row['Start Date'] == row['End Date']:
         axs.scatter([row['Start Date'],
