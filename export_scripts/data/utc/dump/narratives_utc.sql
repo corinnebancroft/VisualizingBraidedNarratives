@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.41, for Linux (x86_64)
 --
--- Host: persimmon.hcmc.uvic.ca    Database: narratives_pnp
+-- Host: persimmon.hcmc.uvic.ca    Database: narratives_utc
 -- ------------------------------------------------------
 -- Server version	8.0.41
 
@@ -26,7 +26,7 @@ CREATE TABLE `characters` (
   `character_id` int NOT NULL AUTO_INCREMENT,
   `character_name` varchar(50) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
   PRIMARY KEY (`character_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -35,7 +35,7 @@ CREATE TABLE `characters` (
 
 LOCK TABLES `characters` WRITE;
 /*!40000 ALTER TABLE `characters` DISABLE KEYS */;
-INSERT INTO `characters` VALUES (0,'[NULL]'),(3,'Miss Bingley'),(4,'Mr. Bingley'),(5,'Mr. Darcy'),(6,'Mrs. Hurst'),(7,'Mr. Hurst'),(8,'Mr. Bennet'),(9,'Mrs. Bennet'),(10,'Jane Bennet'),(11,'Elizabeth Bennet'),(12,'Mary Bennet'),(13,'Lydia Bennet'),(14,'Kitty Bennet'),(15,'Miss Darcy'),(16,'Charlotte Lucas'),(17,'Mr. Collins'),(18,'Lady Lucas'),(19,'Sir William Lucas'),(20,'Maria Lucas'),(21,'Young Lucas'),(22,'Lucas brothers'),(23,'Mr. Wickham'),(24,'Mr. Gardiner'),(25,'Mrs. Gardiner'),(26,'Mrs. Philips');
+INSERT INTO `characters` VALUES (0,'[NULL]');
 /*!40000 ALTER TABLE `characters` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -140,7 +140,7 @@ CREATE TABLE `menExs` (
   CONSTRAINT `menExs_ibfk_3` FOREIGN KEY (`menEx_character2_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
   CONSTRAINT `menExs_ibfk_4` FOREIGN KEY (`menEx_isReciprocal_id_fk`) REFERENCES `isReciprocals` (`isReciprocal_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
   CONSTRAINT `menExs_ibfk_5` FOREIGN KEY (`menEx_narrContainer_id_fk`) REFERENCES `narrContainers` (`narrContainer_id`) ON DELETE RESTRICT ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=124 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -149,7 +149,6 @@ CREATE TABLE `menExs` (
 
 LOCK TABLES `menExs` WRITE;
 /*!40000 ALTER TABLE `menExs` DISABLE KEYS */;
-INSERT INTO `menExs` VALUES (4,0,3,4,5,1,131,132),(5,2,3,10,5,0,131,131),(6,0,4,8,5,1,131,131),(7,0,4,9,5,1,131,131),(8,0,4,10,5,1,131,135),(9,0,4,11,5,1,131,135),(10,0,4,12,5,1,131,131),(11,0,4,13,5,1,131,131),(12,0,4,14,5,1,131,131),(13,0,3,15,5,1,131,131),(14,0,10,15,5,0,131,131),(15,0,4,5,5,1,131,132),(16,0,3,5,5,1,131,131),(17,0,10,5,5,1,131,131),(18,2,10,11,5,1,131,135),(19,0,11,3,5,1,131,131),(20,0,11,4,5,1,131,132),(21,0,3,6,5,1,131,131),(22,0,3,7,5,1,131,131),(23,0,11,6,5,1,131,131),(24,0,11,7,5,1,131,131),(25,0,11,5,5,1,131,131),(26,0,11,15,5,0,131,131),(27,0,4,6,5,1,131,132),(28,0,4,7,5,1,131,132),(29,0,9,10,5,1,132,132),(30,0,9,11,5,1,132,132),(31,0,11,16,5,1,133,133),(32,0,11,17,5,1,133,133),(33,0,16,17,5,1,133,133),(34,0,10,16,5,1,133,133),(35,0,10,17,5,1,133,133),(36,0,16,21,5,1,133,133),(37,0,16,18,5,1,133,133),(38,0,16,19,5,1,133,133),(39,0,16,22,5,1,133,133),(40,0,16,20,5,1,133,133),(41,0,18,19,5,1,133,133),(42,0,18,20,5,1,133,133),(43,0,18,22,5,1,133,133),(44,0,18,21,5,1,133,133),(45,0,19,20,5,1,133,133),(46,0,19,22,5,1,133,133),(47,0,19,21,5,1,133,133),(48,0,20,22,5,1,133,133),(49,0,20,21,5,1,133,133),(50,0,22,21,5,1,133,133),(51,0,10,18,5,1,133,133),(52,0,10,19,5,1,133,133),(53,0,10,20,5,1,133,133),(54,0,10,22,5,1,133,133),(55,0,10,21,5,1,133,133),(56,0,11,3,5,1,134,135),(57,0,11,6,5,1,134,135),(58,0,10,3,5,1,134,135),(59,0,10,6,5,1,134,135),(60,0,11,5,5,1,134,136),(61,0,10,5,5,1,134,136),(62,0,4,3,5,1,134,135),(63,0,4,6,5,1,134,135),(64,0,4,5,5,1,134,134),(65,0,11,15,5,1,134,134),(66,0,10,15,5,1,134,134),(67,0,4,15,5,1,134,134),(68,0,3,15,5,1,134,134),(69,0,6,15,5,1,134,134),(70,0,5,15,5,1,134,134),(71,0,9,4,5,1,135,135),(72,2,9,11,5,1,135,135),(73,0,9,10,5,1,135,135),(74,2,8,11,5,1,135,135),(75,0,8,10,5,1,135,135),(76,0,8,23,5,1,135,135),(77,0,11,23,5,1,135,135),(78,0,8,12,5,1,135,135),(79,0,8,13,5,1,135,135),(80,0,8,14,5,1,135,135),(81,0,9,8,5,1,135,135),(82,0,9,12,5,1,135,135),(83,0,9,13,5,1,135,135),(84,0,9,14,5,1,135,135),(85,0,10,12,5,1,135,135),(86,0,10,13,5,1,135,135),(87,0,10,14,5,1,135,135),(88,0,11,12,5,1,135,135),(89,0,11,13,5,1,135,135),(90,0,11,14,5,1,135,135),(91,0,12,13,5,1,135,135),(92,0,12,14,5,1,135,135),(93,0,13,14,5,1,135,135),(94,0,23,9,5,1,135,135),(95,0,23,10,5,1,135,135),(96,0,23,12,5,1,135,135),(97,0,23,13,5,1,135,135),(98,0,23,14,5,1,135,135),(99,0,23,5,5,1,135,136),(100,0,9,5,5,1,135,136),(101,0,8,5,5,1,135,136),(103,0,12,5,5,1,135,136),(104,0,13,5,5,1,135,136),(105,0,14,5,5,1,135,136),(106,0,17,16,6,1,137,137),(107,2,17,8,6,1,137,137),(108,0,17,9,6,1,137,137),(109,2,17,10,6,1,137,137),(110,2,17,11,6,1,137,137),(111,2,17,12,6,1,137,137),(112,2,17,13,6,1,137,137),(113,2,17,14,6,1,137,137),(114,0,9,24,6,1,137,137),(115,0,9,25,6,1,137,137),(116,0,9,26,6,1,137,137),(117,0,25,24,6,1,137,137),(118,0,24,26,6,1,137,137),(119,0,25,10,6,1,137,137),(120,0,25,11,6,1,137,137),(121,0,25,12,6,1,137,137),(122,0,25,13,6,1,137,137),(123,0,25,14,6,1,137,137);
 /*!40000 ALTER TABLE `menExs` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -202,7 +201,7 @@ CREATE TABLE `narrContainers` (
   CONSTRAINT `narrContainers_ibfk_1` FOREIGN KEY (`narrContainer_level_id_fk`) REFERENCES `containerLevels` (`containerLevel_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
   CONSTRAINT `narrContainers_ibfk_2` FOREIGN KEY (`narrContainer_narrator_character_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
   CONSTRAINT `narrContainers_ibfk_3` FOREIGN KEY (`narrContainer_protagonist_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -211,7 +210,6 @@ CREATE TABLE `narrContainers` (
 
 LOCK TABLES `narrContainers` WRITE;
 /*!40000 ALTER TABLE `narrContainers` DISABLE KEYS */;
-INSERT INTO `narrContainers` VALUES (4,'Volume Two',0,129,232,0,0,0),(5,'Chapter I (V2)',1,131,136,0,0,0),(6,'Chapter II (V2)',1,137,141,0,0,0);
 /*!40000 ALTER TABLE `narrContainers` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -248,4 +246,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-04-03 11:33:08
+-- Dump completed on 2025-04-03 11:33:09

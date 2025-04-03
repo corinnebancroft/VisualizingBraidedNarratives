@@ -15,7 +15,7 @@ import subprocess
 import os
 
 #This is the (current) list of database names, minus the leading "narratives_".
-dbs = ["de", "gs", "hp", "original", "pnp", "pod", "tkam", "to", "tt"] 
+dbs = ["de", "gs", "hp", "original", "pnp", "pod", "tkam", "to", "tt", "sh", "fs", "s", "utc"] 
 
 for db in dbs:
     print(f"Getting dbs for {db}...")
