@@ -78,9 +78,10 @@ column_titles = df.columns[15:]  # Get titles starting from column 16 (index 15)
 
 for index, row in df.iterrows():
     idx_narr = [i for i, x in enumerate(narrators) if x == row['Narrator']][0]
-    marker_style = ['x' if row['Is Approximate?'] == 'T'  else '.']
+    #marker_style = ['x' if row['Is Approximate?'] == 'T'  else '.']
     for title in column_titles:
         if row[title]:
+            marker_style = ['x' if (row['Is Approximate?'] == 'T' and row[title] == 'T') else '.' if row[title] == 'T' else '']
             axs2.plot(
                 [int(row['id']), int(row['id'])],
                 [title, title],
