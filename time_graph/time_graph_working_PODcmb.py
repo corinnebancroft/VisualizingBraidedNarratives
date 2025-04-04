@@ -16,7 +16,7 @@ df['End Date'] = pd.to_datetime(df['End Date'])
 df['Start Date TT'] = pd.to_datetime(df['Start Date TT'])
 df['End Date TT'] = pd.to_datetime(df['End Date TT'])
 
-df.sort_values(by='Start Date', inplace=True)
+df.sort_values(by='id', inplace=True)
 
 fig = plt.figure(figsize=(12, 10))
 axs = plt.axes()
@@ -73,7 +73,7 @@ for index, row in df.iterrows():
     idx_narr = [i for i, x in enumerate(narrators) if x == row['Narrator']][0]
 
     line_style = ['--' if row['Is Approximate?'] == 'T' else '-']
-    marker_style = ['x' if row['Is Approximate?'] == 'T' else '.']
+    marker_style = ['*' if row['Is Approximate?'] == 'T' else '.']
 
     if row['Start Date'] == row['End Date']:
         axs.scatter([row['Start Date'],
@@ -113,6 +113,8 @@ column_titles = df.columns[15:]  # Get titles starting from column 16 (index 15)
 for index, row in df.iterrows():
     for title in column_titles:
         if row[title]:
+            marker_style = ['*' if (row['Is Approximate?'] == 'T' and row[title] == 'T')
+                            else '.' if row[title] == 'T' else ' ']
             axs2.plot(
                 [int(row['id']), int(row['id'])],
                 [title, title],
@@ -127,7 +129,7 @@ for index, row in df.iterrows():
                          )
 
 
-
+        idx_narr = [i for i, x in enumerate(narrators) if x == row['Narrator']] [0]
 # Plotting the Start Page and End Page
         axs3.scatter([int(row['id']),
                   int(row['id'])],
@@ -188,9 +190,9 @@ ax22 = axs2.twiny()
 ax22.set_xlim(axs2.get_xlim())
 ax22.set_xticks(new_tick_locations)
 dates = [
-    (start_date.strftime('%Y-%m-%d ') + event_name)[0:39]
+    (start_date.strftime('%Y-%m-%d ') + event_name)[0:41]
     if start_date == end_date
-    else (start_date.strftime('%Y-%m-%d') + '/' + end_date.strftime('%Y-%m-%d ') + event_name)[0:39]
+    else (start_date.strftime('%Y-%m-%d') + '/' + end_date.strftime('%Y-%m-%d ') + event_name)[0:41]
     for start_date, end_date, event_name in zip(df['Start Date'], df['End Date'], df['Event Name'])
 ]
 ax22.set_xticklabels(dates)
