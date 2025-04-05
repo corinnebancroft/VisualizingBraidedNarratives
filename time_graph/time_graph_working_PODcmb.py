@@ -45,7 +45,11 @@ custom_colors = {
     'Cyan': '#00FFFF',
     'Orange': '#FFA500',
     'Violet': '#8D01FF',
-    'Chartreuse': '#C9FF00'
+    'Chartreuse': '#C9FF00',
+    'Pink': '#FFC0CB',
+    'Teal': '#008080',
+    'Purple': '#800080'
+
 }
 
 narrator_colors = {}
@@ -67,7 +71,18 @@ for narrator, color in narrator_colors.items():
 # Use the custom colors in your plot
 line_colours = [narrator_colors[narrator] for narrator in narrators]
 
+# Combine narrators and colors into a list of tuples
+narrator_color_pairs = list(zip(narrators, line_colours))
+
+# Sort the list of tuples by narrator name
+narrator_color_pairs.sort(key=lambda x: x[0])
+
 legend_items = []
+
+circle_marker = plt.Line2D([], [], color='black', marker='o', linestyle='None', markersize=10, label='Exact Date')
+asterisk_marker = plt.Line2D([], [], color='black', marker='*', linestyle='None', markersize=10, label='Approximate Date')
+solid_line = plt.Line2D([], [], color='black', marker='None', linestyle='-', markersize=10, label='Exact Date Range')
+dashed_line = plt.Line2D([], [], color='black', marker='None', linestyle='--', markersize=10, label='Approximate Date Range')
 
 for index, row in df.iterrows():
     idx_narr = [i for i, x in enumerate(narrators) if x == row['Narrator']][0]
@@ -143,8 +158,21 @@ for index, row in df.iterrows():
 for idx, narrator in enumerate(narrators):
     legend_items += [(plt.Rectangle((0, 0), 1, 1, color=line_colours[idx]), narrator)]
 
-axs.legend(*zip(*legend_items), loc='best')
-axs3.legend(*zip(*legend_items), loc='best')
+# Separate handles and labels for custom markers
+custom_handles = [circle_marker, asterisk_marker, solid_line, dashed_line]
+custom_labels = [marker.get_label() for marker in custom_handles]
+
+# Combine narrator handles and labels
+handles, labels = zip(*legend_items)
+
+# Add custom markers to the legend
+handles += tuple(custom_handles)
+labels += tuple(custom_labels)
+
+# Adding the legend
+axs.legend(handles, labels, loc='best')
+axs3.legend(handles, labels, loc='best')
+
 
 axs.set_xlabel('Event Date')
 axs.set_ylabel('Page Number')
@@ -167,8 +195,8 @@ last_column_title = column_titles[-1]
 # Update the axs2.vlines line
 axs2.vlines(
     list(range(int(np.floor(x_lim2[0]).item()), int(np.ceil(x_lim2[1]).item()), 1)),
-    first_column_title,
     last_column_title,
+    first_column_title,
     linestyles='--',
     colors='k',
     linewidth=0.5
@@ -212,40 +240,3 @@ fig3.savefig(f"Fig_3_{date}.svg", bbox_inches='tight')
 
 plt.tight_layout()
 plt.show()
-
-# df = df[['id', 'Event Name', 'Caddy', 'Quentin', 'Benjy', 'Jason', 'Dilsey', 'Quentin Jr']]
-#
-# writer = pd.ExcelWriter('projection_graph_TSATF.xlsx', engine='xlsxwriter')
-#
-# df.sort_values('id', ascending=True, inplace=True)
-#
-# df.to_excel(writer, sheet_name='Sheet1')
-#
-# workbook = writer.book
-# worksheet = writer.sheets['Sheet1']
-#
-# # Add formats
-# orange_format = workbook.add_format({'bg_color': 'orange'})
-# green_format = workbook.add_format({'bg_color': 'green'})
-# cyan_format = workbook.add_format({'bg_color': 'cyan'})
-# magenta_format = workbook.add_format({'bg_color': 'magenta'})
-# lime_format = workbook.add_format({'bg_color': 'lime'})
-# navy_format = workbook.add_format({'bg_color': 'navy'})
-#
-# bg_formats = [orange_format, green_format, cyan_format, magenta_format, lime_format, navy_format]
-#
-# # Get the dimensions of the dataframe.
-# (max_row, max_col) = df.shape
-#
-# for i in range(len(bg_formats)):
-#     # Apply a conditional format to the required cell range.
-#     worksheet.conditional_format(1, 3 + i, max_row, 3 + i,
-#                                  {'type': 'cell',
-#                                   'criteria': 'equal to',
-#                                   'value': 'true',
-#                                   'format': bg_formats[i]})
-#
-#
-# # Close the Pandas Excel writer and output the Excel file.
-# # workbook.write()
-# writer.close()
