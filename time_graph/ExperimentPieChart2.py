@@ -6,7 +6,7 @@ from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 from io import BytesIO
 
 # Load your data into a DataFrame
-# Replace 'your_data.csv' with the path to your dataset
+# Replace 'TestPie.csv' with the path to your dataset
 df = pd.read_csv('TestPie.csv')
 
 # Convert 'Start Date' to datetime format
@@ -19,18 +19,31 @@ y = df['Start Page']
 # Convert datetime to numerical values
 x_num = mdates.date2num(x)
 
-# Sample data for pie charts
-pie_data = [np.random.rand(4) for _ in range(len(x))]
+# Define colors for each character
+colors = {
+    "Evelina Harp": "red",
+    "Judge Antone Bazil Coutts": "blue",
+    "Marn Wolde": "green",
+    "Doctor Cordelia Lochren": "purple",
+    "Seraph Milk": "orange",
+    "Corwin Peace": "brown",
+    "Billy Peace": "pink",
+    "Warren Wolde": "gray",
+    "Shamengwa Milk": "cyan"
+}
 
 # Create scatter plot with pie charts as points
 fig, ax = plt.subplots()
 
-for (i, j, data) in zip(x_num, y, pie_data):
+for index, row in df.iterrows():
     size = 0.1  # Size of the pie chart
+
+    # Get the characters with 'T' in the current row
+    pie_data = [colors[character] for character in colors if row[character] == 'T']
 
     # Create a new figure for each pie chart without extra whitespace around it.
     fig_pie, ax_pie = plt.subplots(figsize=(size, size), dpi=300)
-    wedges, texts = ax_pie.pie(data)
+    wedges, texts = ax_pie.pie([1] * len(pie_data), colors=pie_data)
     ax_pie.axis('off')  # Hide axes
 
     # Save figure into buffer without extra padding or margins.
@@ -40,7 +53,7 @@ for (i, j, data) in zip(x_num, y, pie_data):
     image = plt.imread(buf)
     imagebox = OffsetImage(image, zoom=0.3)  # Adjust the zoom level
 
-    ab = AnnotationBbox(imagebox, (i, j), frameon=False)
+    ab = AnnotationBbox(imagebox, (x_num[index], y[index]), frameon=False)
     ax.add_artist(ab)
     plt.close(fig_pie)  # Close the pie chart figure
 
