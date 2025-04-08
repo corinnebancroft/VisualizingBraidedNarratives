@@ -4,9 +4,10 @@ import numpy as np
 import matplotlib.dates as mdates
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 from io import BytesIO
+from PIL import Image, ImageDraw
 
 # Load your data into a DataFrame
-# Replace 'TestPie.csv' with the path to your dataset
+# Replace 'your_data.csv' with the path to your dataset
 df = pd.read_csv('TestPie.csv')
 
 # Convert 'Start Date' to datetime format
@@ -19,41 +20,54 @@ y = df['Start Page']
 # Convert datetime to numerical values
 x_num = mdates.date2num(x)
 
-# Define colors for each character
-colors = {
-    "Evelina Harp": "red",
-    "Judge Antone Bazil Coutts": "blue",
-    "Marn Wolde": "green",
-    "Doctor Cordelia Lochren": "purple",
-    "Seraph Milk": "orange",
-    "Corwin Peace": "brown",
-    "Billy Peace": "pink",
-    "Warren Wolde": "gray",
-    "Shamengwa Milk": "cyan"
-}
+# Sample data for pie charts
+pie_data = [np.random.rand(4) for _ in range(len(x))]
 
 # Create scatter plot with pie charts as points
 fig, ax = plt.subplots()
+fig.patch.set_facecolor('gray')  # Set background color of the figure to gray
+ax.set_facecolor('gray')  # Set background color of the axes to gray
 
-for index, row in df.iterrows():
-    size = 0.1  # Size of the pie chart
-
-    # Get the characters with 'T' in the current row
-    pie_data = [colors[character] for character in colors if row[character] == 'T']
+for (i, j, data, is_approx) in zip(x_num, y, pie_data, df['Is Approximate?']):
+    # Set size based on "Is Approximate?" column
+    if is_approx == 'T':
+        width, height = 20, 20  # Dimensions for approximate pie charts
+    else:
+        width, height = 40, 20  # Dimensions for non-approximate pie charts
 
     # Create a new figure for each pie chart without extra whitespace around it.
-    fig_pie, ax_pie = plt.subplots(figsize=(size, size), dpi=300)
-    wedges, texts = ax_pie.pie([1] * len(pie_data), colors=pie_data)
+    fig_pie, ax_pie = plt.subplots(figsize=(1, 1), dpi=300)
+    wedges, texts = ax_pie.pie(data)
     ax_pie.axis('off')  # Hide axes
+
+    # Set background color based on "Is Approximate?" column
+    if is_approx == 'T':
+        fig_pie.patch.set_facecolor('white')
+    else:
+        fig_pie.patch.set_facecolor('black')
 
     # Save figure into buffer without extra padding or margins.
     buf = BytesIO()
     fig_pie.savefig(buf, format='png', bbox_inches='tight', pad_inches=0)
     buf.seek(0)
-    image = plt.imread(buf)
+    image = Image.open(buf)
+
+    # Resize the image to create an elliptical shape
+    image = image.resize((width, height), Image.Resampling.LANCZOS)
+
+    # Create a circular mask
+    mask = Image.new('L', image.size, 0)
+    draw = ImageDraw.Draw(mask)
+    draw.ellipse((0, 0, image.size[0], image.size[1]), fill=255)
+
+    # Apply the mask to the image
+    image.putalpha(mask)
+
+    # Convert image to array for OffsetImage
+    image = np.array(image)
     imagebox = OffsetImage(image, zoom=0.3)  # Adjust the zoom level
 
-    ab = AnnotationBbox(imagebox, (x_num[index], y[index]), frameon=False)
+    ab = AnnotationBbox(imagebox, (i, j), frameon=False)
     ax.add_artist(ab)
     plt.close(fig_pie)  # Close the pie chart figure
 
