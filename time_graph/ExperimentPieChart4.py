@@ -1,3 +1,4 @@
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -20,11 +21,11 @@ df['Mid Date'] = df['Start Date'] + (df['End Date'] - df['Start Date']) / 2
 df['Mid Page'] = df['Start Page'] + (df['End Page'] - df['Start Page']) / 2
 
 # Extract x and y coordinates
-x = df['Mid Date']
-y = df['Mid Page']
+x = df['Mid Page']
+y = df['Mid Date']
 
 # Convert datetime to numerical values
-x_num = mdates.date2num(x)
+y_num = mdates.date2num(y)
 
 # Detect column titles starting from column 16 (index 15)
 pie_columns = df.columns[15:]
@@ -66,26 +67,26 @@ total_pages = abs(latest_page - earliest_page)
 # Get the width of the plot in inches
 plot_width_in_inches = fig.get_size_inches()[0]
 
-for (i, j, data, is_approx, start_date, end_date, start_page, end_page, narrator) in zip(x_num, y, pie_data,
+for (i, j, data, is_approx, start_date, end_date, start_page, end_page, narrator) in zip(x, y_num, pie_data,
                                                                                          df['Is Approximate?'],
                                                                                          df['Start Date'],
                                                                                          df['End Date'],
                                                                                          df['Start Page'],
                                                                                          df['End Page'],
                                                                                          df['Narrator']):
-    # Determine width based on "Start Date" and "End Date"
-    if start_date == end_date:
+    # Determine width based on "Start Page" and "End Page"
+    if start_page == end_page:
         width = 20
     else:
-        date_diff_days = (end_date - start_date).days
-        width = 20 + (date_diff_days / total_days) * plot_width_in_inches * 100  # Convert to inches and scale
+        page_diff = abs(end_page - start_page)
+        width = 20 + (page_diff / total_pages) * plot_width_in_inches * 100  # Convert to inches and scale
 
-    # Determine height based on "Start Page" and "End Page"
-    if start_page == end_page:
+    # Determine height based on "Start Date" and "End Date"
+    if start_date == end_date:
         height = 20
     else:
-        page_diff = abs(end_page - start_page)
-        height = 20 + (page_diff / total_pages) * plot_width_in_inches * 100  # Convert to inches and scale
+        date_diff_days = (end_date - start_date).days
+        height = 20 + (date_diff_days / total_days) * plot_width_in_inches * 100  # Convert to inches and scale
 
     # Create a new figure for each pie chart without extra whitespace around it.
     fig_pie, ax_pie = plt.subplots(figsize=(width / 100, height / 100), dpi=300)
@@ -141,21 +142,21 @@ for (i, j, data, is_approx, start_date, end_date, start_page, end_page, narrator
     plt.close(fig_pie)  # Close the pie chart figure
 
 # Add buffer to the x and y limits
-buffer_x = 400  # Adjust this value as needed
-buffer_y = 1  # Adjust this value as needed
+buffer_x = 1  # Adjust this value as needed
+buffer_y = 400  # Adjust this value as needed
 
-ax.set_xlim(min(x_num) - buffer_x, max(x_num) + buffer_x)
-ax.set_ylim(df['Start Page'].min() - buffer_y, df['End Page'].max() + buffer_y) # Set y-axis limits with buffer
+ax.set_xlim(df['Start Page'].min() - buffer_x, df['End Page'].max() + buffer_x)  # Set x-axis limits with buffer
+ax.set_ylim(min(y_num) - buffer_y, max(y_num) + buffer_y)  # Set y-axis limits with buffer
 
 ax.set_aspect('auto')
 
-# Format the x-axis to show dates
-ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-ax.xaxis.set_major_locator(mdates.AutoDateLocator())
+# Format the y-axis to show dates
+ax.yaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+ax.yaxis.set_major_locator(mdates.AutoDateLocator())
 
-plt.xlabel('Start Date')
-plt.ylabel('Start Page')
-plt.title('Scatter Plot of Start Date vs Start Page with Pie Charts as Points')
+plt.xlabel('Start Page')
+plt.ylabel('Start Date')
+plt.title('Scatter Plot of Start Page vs Start Date with Pie Charts as Points')
 
 # Rotate date labels for better readability
 plt.gcf().autofmt_xdate()
