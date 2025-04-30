@@ -5,7 +5,7 @@
 		<field Field="character_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
 		<field Field="character_name" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
 		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2025-04-03 17:55:04" Update_time="2025-04-03 17:55:04" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2025-04-03 17:55:04" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="characters">
 	<row>
@@ -17,7 +17,7 @@
 		<field Field="containerLevel_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
 		<field Field="containerLevel_term" Type="varchar(100)" Null="NO" Key="" Extra="" Comment="" />
 		<key Table="containerLevels" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="containerLevel_id" Collation="A" Cardinality="5" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="containerLevels" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="5" Avg_row_length="3276" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="5" Create_time="2025-04-03 17:55:04" Update_time="2025-04-03 17:55:04" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="containerLevels" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="5" Avg_row_length="3276" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="5" Create_time="2025-04-03 17:55:04" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="containerLevels">
 	<row>
@@ -45,7 +45,7 @@
 		<field Field="embeddedContainerType_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
 		<field Field="embeddedContainerType_term" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
 		<key Table="embeddedContainerTypes" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="embeddedContainerType_id" Collation="A" Cardinality="9" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="embeddedContainerTypes" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="9" Avg_row_length="1820" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="9" Create_time="2025-04-03 17:55:04" Update_time="2025-04-03 17:55:04" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="embeddedContainerTypes" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="9" Avg_row_length="1820" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="9" Create_time="2025-04-03 17:55:04" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="embeddedContainerTypes">
 	<row>
@@ -89,7 +89,7 @@
 		<field Field="isReciprocal_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
 		<field Field="isReciprocal_text" Type="varchar(32)" Null="NO" Key="" Extra="" Comment="" />
 		<key Table="isReciprocals" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="isReciprocal_id" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="isReciprocals" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="2" Avg_row_length="8192" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="2" Create_time="2025-04-03 17:55:04" Update_time="2025-04-03 17:55:04" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="isReciprocals" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="2" Avg_row_length="8192" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="2" Create_time="2025-04-03 17:55:04" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="isReciprocals">
 	<row>
