@@ -4,13 +4,469 @@
 	<table_structure name="characters">
 		<field Field="character_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
 		<field Field="character_name" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
-		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2025-04-03 17:55:55" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="96" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="100" Avg_row_length="163" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="118" Create_time="2025-04-03 17:55:55" Update_time="2025-06-19 06:55:24" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="characters">
 	<row>
 		<field name="character_id">0</field>
 		<field name="character_name">[NULL]</field>
+	</row>
+	<row>
+		<field name="character_id">3</field>
+		<field name="character_name">Sarah</field>
+	</row>
+	<row>
+		<field name="character_id">4</field>
+		<field name="character_name">Ruth</field>
+	</row>
+	<row>
+		<field name="character_id">5</field>
+		<field name="character_name">Silas</field>
+	</row>
+	<row>
+		<field name="character_id">6</field>
+		<field name="character_name">Tom</field>
+	</row>
+	<row>
+		<field name="character_id">7</field>
+		<field name="character_name">&quot;everbody&quot; (victims of war)</field>
+	</row>
+	<row>
+		<field name="character_id">8</field>
+		<field name="character_name">&quot;men&quot; (soldiers)</field>
+	</row>
+	<row>
+		<field name="character_id">9</field>
+		<field name="character_name">&quot;little boy&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">10</field>
+		<field name="character_name">God</field>
+	</row>
+	<row>
+		<field name="character_id">11</field>
+		<field name="character_name">gramophone salesman</field>
+	</row>
+	<row>
+		<field name="character_id">12</field>
+		<field name="character_name">&quot;buddy&quot; (of gramophone salesman)</field>
+	</row>
+	<row>
+		<field name="character_id">13</field>
+		<field name="character_name">Burgess</field>
+	</row>
+	<row>
+		<field name="character_id">14</field>
+		<field name="character_name">&quot;white folks&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">15</field>
+		<field name="character_name">farm hire</field>
+	</row>
+	<row>
+		<field name="character_id">16</field>
+		<field name="character_name">Aunt Peel</field>
+	</row>
+	<row>
+		<field name="character_id">17</field>
+		<field name="character_name">&quot;black and white soldiers&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">18</field>
+		<field name="character_name">&quot;black soldier&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">19</field>
+		<field name="character_name">&quot;white woman&quot; (accuser of black soldier)</field>
+	</row>
+	<row>
+		<field name="character_id">20</field>
+		<field name="character_name">&quot;black folks&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">22</field>
+		<field name="character_name">&quot;white men&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">23</field>
+		<field name="character_name">&quot;black men&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">24</field>
+		<field name="character_name">&quot;black women&quot; (croppers)</field>
+	</row>
+	<row>
+		<field name="character_id">25</field>
+		<field name="character_name">&quot;black woman&quot; (hypothetical)</field>
+	</row>
+	<row>
+		<field name="character_id">26</field>
+		<field name="character_name">figure in nightmare</field>
+	</row>
+	<row>
+		<field name="character_id">27</field>
+		<field name="character_name">&quot;white men with pistols and rifles&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">28</field>
+		<field name="character_name">arsonist with gun</field>
+	</row>
+	<row>
+		<field name="character_id">29</field>
+		<field name="character_name">arsonist with red can</field>
+	</row>
+	<row>
+		<field name="character_id">30</field>
+		<field name="character_name">&quot;white man&quot; (shot by Silas)</field>
+	</row>
+	<row>
+		<field name="character_id">31</field>
+		<field name="character_name">Reverend Dan Taylor</field>
+	</row>
+	<row>
+		<field name="character_id">32</field>
+		<field name="character_name">&quot;the white man&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">33</field>
+		<field name="character_name">&quot;the n*****&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">34</field>
+		<field name="character_name">the Reds</field>
+	</row>
+	<row>
+		<field name="character_id">35</field>
+		<field name="character_name">&quot;five or six thousand of us&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">36</field>
+		<field name="character_name">white woman at desk</field>
+	</row>
+	<row>
+		<field name="character_id">37</field>
+		<field name="character_name">valley residents</field>
+	</row>
+	<row>
+		<field name="character_id">38</field>
+		<field name="character_name">Hadley</field>
+	</row>
+	<row>
+		<field name="character_id">39</field>
+		<field name="character_name">Greens</field>
+	</row>
+	<row>
+		<field name="character_id">40</field>
+		<field name="character_name">Jimmy</field>
+	</row>
+	<row>
+		<field name="character_id">41</field>
+		<field name="character_name">May</field>
+	</row>
+	<row>
+		<field name="character_id">42</field>
+		<field name="character_name">Taylor's mother</field>
+	</row>
+	<row>
+		<field name="character_id">43</field>
+		<field name="character_name">Taylor's father</field>
+	</row>
+	<row>
+		<field name="character_id">44</field>
+		<field name="character_name">Moses</field>
+	</row>
+	<row>
+		<field name="character_id">45</field>
+		<field name="character_name">Bess (Taylor's mule)</field>
+	</row>
+	<row>
+		<field name="character_id">46</field>
+		<field name="character_name">Taylor's congregation</field>
+	</row>
+	<row>
+		<field name="character_id">47</field>
+		<field name="character_name">committee from congregation</field>
+	</row>
+	<row>
+		<field name="character_id">48</field>
+		<field name="character_name">Mayor Bolton</field>
+	</row>
+	<row>
+		<field name="character_id">49</field>
+		<field name="character_name">Deacon Smith</field>
+	</row>
+	<row>
+		<field name="character_id">50</field>
+		<field name="character_name">Judas</field>
+	</row>
+	<row>
+		<field name="character_id">51</field>
+		<field name="character_name">the Devil</field>
+	</row>
+	<row>
+		<field name="character_id">52</field>
+		<field name="character_name">&quot;sonny&quot; (congregation member)</field>
+	</row>
+	<row>
+		<field name="character_id">53</field>
+		<field name="character_name">&quot;Sistah&quot; (congregation member)</field>
+	</row>
+	<row>
+		<field name="character_id">54</field>
+		<field name="character_name">&quot;Brother&quot;  (congregation member)</field>
+	</row>
+	<row>
+		<field name="character_id">55</field>
+		<field name="character_name">Jesus</field>
+	</row>
+	<row>
+		<field name="character_id">56</field>
+		<field name="character_name">Chief Bruden</field>
+	</row>
+	<row>
+		<field name="character_id">57</field>
+		<field name="character_name">Mr. Lowe</field>
+	</row>
+	<row>
+		<field name="character_id">58</field>
+		<field name="character_name">Sam (Jimmy's friend)</field>
+	</row>
+	<row>
+		<field name="character_id">59</field>
+		<field name="character_name">Pete (Jimmy's friend)</field>
+	</row>
+	<row>
+		<field name="character_id">60</field>
+		<field name="character_name">Bob (Jimmy's friend)</field>
+	</row>
+	<row>
+		<field name="character_id">61</field>
+		<field name="character_name">Jack (Jimmy's friend)</field>
+	</row>
+	<row>
+		<field name="character_id">62</field>
+		<field name="character_name">Jimmy's boys</field>
+	</row>
+	<row>
+		<field name="character_id">63</field>
+		<field name="character_name">Deacon Board</field>
+	</row>
+	<row>
+		<field name="character_id">64</field>
+		<field name="character_name">the police</field>
+	</row>
+	<row>
+		<field name="character_id">65</field>
+		<field name="character_name">&quot;thin black woman&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">66</field>
+		<field name="character_name">Sister Harris</field>
+	</row>
+	<row>
+		<field name="character_id">67</field>
+		<field name="character_name">Sister Davis</field>
+	</row>
+	<row>
+		<field name="character_id">68</field>
+		<field name="character_name">Sister James</field>
+	</row>
+	<row>
+		<field name="character_id">69</field>
+		<field name="character_name">children of thin black woman</field>
+	</row>
+	<row>
+		<field name="character_id">70</field>
+		<field name="character_name">Brother Booker</field>
+	</row>
+	<row>
+		<field name="character_id">71</field>
+		<field name="character_name">&quot;mankind&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">72</field>
+		<field name="character_name">&quot;chillun of Israel&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">73</field>
+		<field name="character_name">Shadrach, Meshach, and Abednego</field>
+	</row>
+	<row>
+		<field name="character_id">74</field>
+		<field name="character_name">Jonah</field>
+	</row>
+	<row>
+		<field name="character_id">75</field>
+		<field name="character_name">“wicked men”</field>
+	</row>
+	<row>
+		<field name="character_id">76</field>
+		<field name="character_name">Jacob</field>
+	</row>
+	<row>
+		<field name="character_id">77</field>
+		<field name="character_name">Saul</field>
+	</row>
+	<row>
+		<field name="character_id">78</field>
+		<field name="character_name">children in the church</field>
+	</row>
+	<row>
+		<field name="character_id">79</field>
+		<field name="character_name">leaders of organizations</field>
+	</row>
+	<row>
+		<field name="character_id">80</field>
+		<field name="character_name">&quot;a crowd&quot; (of demonstrators)</field>
+	</row>
+	<row>
+		<field name="character_id">81</field>
+		<field name="character_name">Scott</field>
+	</row>
+	<row>
+		<field name="character_id">82</field>
+		<field name="character_name">mob that attacked Scott</field>
+	</row>
+	<row>
+		<field name="character_id">83</field>
+		<field name="character_name">children in the playground</field>
+	</row>
+	<row>
+		<field name="character_id">84</field>
+		<field name="character_name">&quot;bad n*****s&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">85</field>
+		<field name="character_name">Chamber of Commerce</field>
+	</row>
+	<row>
+		<field name="character_id">86</field>
+		<field name="character_name">Deacon Bonds</field>
+	</row>
+	<row>
+		<field name="character_id">87</field>
+		<field name="character_name">Deacon Williams</field>
+	</row>
+	<row>
+		<field name="character_id">88</field>
+		<field name="character_name">Red Squad</field>
+	</row>
+	<row>
+		<field name="character_id">89</field>
+		<field name="character_name">Deacon Hilton</field>
+	</row>
+	<row>
+		<field name="character_id">90</field>
+		<field name="character_name">Deacon Jones</field>
+	</row>
+	<row>
+		<field name="character_id">91</field>
+		<field name="character_name">&quot;poor white folks&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">92</field>
+		<field name="character_name">Bob (kidnapper 1)</field>
+	</row>
+	<row>
+		<field name="character_id">93</field>
+		<field name="character_name">Ellis (kidnapper 2)</field>
+	</row>
+	<row>
+		<field name="character_id">94</field>
+		<field name="character_name">kidnapper 3</field>
+	</row>
+	<row>
+		<field name="character_id">95</field>
+		<field name="character_name">kidnapper 4</field>
+	</row>
+	<row>
+		<field name="character_id">96</field>
+		<field name="character_name">Houston</field>
+	</row>
+	<row>
+		<field name="character_id">97</field>
+		<field name="character_name">&quot;the dead&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">98</field>
+		<field name="character_name">&quot;white man&quot; (Houston's neighbourhood)</field>
+	</row>
+	<row>
+		<field name="character_id">99</field>
+		<field name="character_name">&quot;white boy&quot; (Houston's neighbourhood)</field>
+	</row>
+	<row>
+		<field name="character_id">100</field>
+		<field name="character_name">&quot;white woman&quot; (Houston's neighbourhood)</field>
+	</row>
+	<row>
+		<field name="character_id">101</field>
+		<field name="character_name">Samson</field>
+	</row>
+	<row>
+		<field name="character_id">102</field>
+		<field name="character_name">policeman (Houston's neighbourhood)</field>
+	</row>
+	<row>
+		<field name="character_id">103</field>
+		<field name="character_name">&quot;a janitah&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">104</field>
+		<field name="character_name">&quot;Miz Harvey&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">105</field>
+		<field name="character_name">&quot;a doctah&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">106</field>
+		<field name="character_name">Deacon Bonds’s children</field>
+	</row>
+	<row>
+		<field name="character_id">107</field>
+		<field name="character_name">Deacon Bonds’s wife</field>
+	</row>
+	<row>
+		<field name="character_id">108</field>
+		<field name="character_name">&quot;black man&quot; (valley resident)</field>
+	</row>
+	<row>
+		<field name="character_id">109</field>
+		<field name="character_name">&quot;black man&quot; (hypothetical)</field>
+	</row>
+	<row>
+		<field name="character_id">110</field>
+		<field name="character_name">&quot;Sistah Henry&quot; (congregation member)</field>
+	</row>
+	<row>
+		<field name="character_id">111</field>
+		<field name="character_name">&quot;blue-coated policemen&quot;</field>
+	</row>
+	<row>
+		<field name="character_id">112</field>
+		<field name="character_name">people on sidewalks</field>
+	</row>
+	<row>
+		<field name="character_id">113</field>
+		<field name="character_name">policeman (City Hall)</field>
+	</row>
+	<row>
+		<field name="character_id">114</field>
+		<field name="character_name">Big Boy</field>
+	</row>
+	<row>
+		<field name="character_id">115</field>
+		<field name="character_name">Bobo</field>
+	</row>
+	<row>
+		<field name="character_id">116</field>
+		<field name="character_name">Will</field>
+	</row>
+	<row>
+		<field name="character_id">117</field>
+		<field name="character_name">Bertha</field>
 	</row>
 	</table_data>
 	<table_structure name="containerLevels">
@@ -151,15 +607,75 @@
 		<field Field="narrContainer_narrator_character_id_fk" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
 		<field Field="narrContainer_protagonist_id_fk" Type="int" Null="YES" Key="MUL" Extra="" Comment="" />
 		<field Field="narrContainer_embeddedContainerType_id_fk" Type="int" Null="YES" Key="" Extra="" Comment="" />
-		<key Table="narrContainers" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="narrContainer_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_startPage" Seq_in_index="1" Column_name="narrContainer_startPage" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_endPage" Seq_in_index="1" Column_name="narrContainer_endPage" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_level_id_fk" Seq_in_index="1" Column_name="narrContainer_level_id_fk" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_protagonist_id_fk" Seq_in_index="1" Column_name="narrContainer_protagonist_id_fk" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_narrator_character_id_fk" Seq_in_index="1" Column_name="narrContainer_narrator_character_id_fk" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="narrContainers" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="81920" Data_free="0" Auto_increment="1" Create_time="2025-04-03 17:55:55" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<key Table="narrContainers" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="narrContainer_id" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_startPage" Seq_in_index="1" Column_name="narrContainer_startPage" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_endPage" Seq_in_index="1" Column_name="narrContainer_endPage" Collation="A" Cardinality="6" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_level_id_fk" Seq_in_index="1" Column_name="narrContainer_level_id_fk" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_protagonist_id_fk" Seq_in_index="1" Column_name="narrContainer_protagonist_id_fk" Collation="A" Cardinality="3" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_narrator_character_id_fk" Seq_in_index="1" Column_name="narrContainer_narrator_character_id_fk" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="narrContainers" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="6" Avg_row_length="2730" Data_length="16384" Max_data_length="0" Index_length="81920" Data_free="0" Auto_increment="7" Create_time="2025-04-03 17:55:55" Update_time="2025-06-19 06:48:13" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="narrContainers">
+	<row>
+		<field name="narrContainer_id">1</field>
+		<field name="narrContainer_title">Long Black Song</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">125</field>
+		<field name="narrContainer_endPage">156</field>
+		<field name="narrContainer_narrator_character_id_fk">0</field>
+		<field name="narrContainer_protagonist_id_fk">3</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">2</field>
+		<field name="narrContainer_title">Fire and Cloud</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">157</field>
+		<field name="narrContainer_endPage">220</field>
+		<field name="narrContainer_narrator_character_id_fk">0</field>
+		<field name="narrContainer_protagonist_id_fk">31</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">3</field>
+		<field name="narrContainer_title">The Ethics of Living Jim Crow</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">1</field>
+		<field name="narrContainer_endPage">15</field>
+		<field name="narrContainer_narrator_character_id_fk">0</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">4</field>
+		<field name="narrContainer_title">Big Boy Leaves Home</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">16</field>
+		<field name="narrContainer_endPage">61</field>
+		<field name="narrContainer_narrator_character_id_fk">0</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">5</field>
+		<field name="narrContainer_title">Bright and Morning Star</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">221</field>
+		<field name="narrContainer_endPage">264</field>
+		<field name="narrContainer_narrator_character_id_fk">0</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">6</field>
+		<field name="narrContainer_title">Down by the Riverside</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">62</field>
+		<field name="narrContainer_endPage">124</field>
+		<field name="narrContainer_narrator_character_id_fk">0</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
 	</table_data>
 	<table_structure name="narratorTypes">
 		<field Field="narratorType_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />

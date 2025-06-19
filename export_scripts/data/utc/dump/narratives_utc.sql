@@ -26,7 +26,7 @@ CREATE TABLE `characters` (
   `character_id` int NOT NULL AUTO_INCREMENT,
   `character_name` varchar(50) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
   PRIMARY KEY (`character_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=118 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -35,7 +35,7 @@ CREATE TABLE `characters` (
 
 LOCK TABLES `characters` WRITE;
 /*!40000 ALTER TABLE `characters` DISABLE KEYS */;
-INSERT INTO `characters` VALUES (0,'[NULL]');
+INSERT INTO `characters` VALUES (0,'[NULL]'),(3,'Sarah'),(4,'Ruth'),(5,'Silas'),(6,'Tom'),(7,'\"everbody\" (victims of war)'),(8,'\"men\" (soldiers)'),(9,'\"little boy\"'),(10,'God'),(11,'gramophone salesman'),(12,'\"buddy\" (of gramophone salesman)'),(13,'Burgess'),(14,'\"white folks\"'),(15,'farm hire'),(16,'Aunt Peel'),(17,'\"black and white soldiers\"'),(18,'\"black soldier\"'),(19,'\"white woman\" (accuser of black soldier)'),(20,'\"black folks\"'),(22,'\"white men\"'),(23,'\"black men\"'),(24,'\"black women\" (croppers)'),(25,'\"black woman\" (hypothetical)'),(26,'figure in nightmare'),(27,'\"white men with pistols and rifles\"'),(28,'arsonist with gun'),(29,'arsonist with red can'),(30,'\"white man\" (shot by Silas)'),(31,'Reverend Dan Taylor'),(32,'\"the white man\"'),(33,'\"the n*****\"'),(34,'the Reds'),(35,'\"five or six thousand of us\"'),(36,'white woman at desk'),(37,'valley residents'),(38,'Hadley'),(39,'Greens'),(40,'Jimmy'),(41,'May'),(42,'Taylor\'s mother'),(43,'Taylor\'s father'),(44,'Moses'),(45,'Bess (Taylor\'s mule)'),(46,'Taylor\'s congregation'),(47,'committee from congregation'),(48,'Mayor Bolton'),(49,'Deacon Smith'),(50,'Judas'),(51,'the Devil'),(52,'\"sonny\" (congregation member)'),(53,'\"Sistah\" (congregation member)'),(54,'\"Brother\"  (congregation member)'),(55,'Jesus'),(56,'Chief Bruden'),(57,'Mr. Lowe'),(58,'Sam (Jimmy\'s friend)'),(59,'Pete (Jimmy\'s friend)'),(60,'Bob (Jimmy\'s friend)'),(61,'Jack (Jimmy\'s friend)'),(62,'Jimmy\'s boys'),(63,'Deacon Board'),(64,'the police'),(65,'\"thin black woman\"'),(66,'Sister Harris'),(67,'Sister Davis'),(68,'Sister James'),(69,'children of thin black woman'),(70,'Brother Booker'),(71,'\"mankind\"'),(72,'\"chillun of Israel\"'),(73,'Shadrach, Meshach, and Abednego'),(74,'Jonah'),(75,'“wicked men”'),(76,'Jacob'),(77,'Saul'),(78,'children in the church'),(79,'leaders of organizations'),(80,'\"a crowd\" (of demonstrators)'),(81,'Scott'),(82,'mob that attacked Scott'),(83,'children in the playground'),(84,'\"bad n*****s\"'),(85,'Chamber of Commerce'),(86,'Deacon Bonds'),(87,'Deacon Williams'),(88,'Red Squad'),(89,'Deacon Hilton'),(90,'Deacon Jones'),(91,'\"poor white folks\"'),(92,'Bob (kidnapper 1)'),(93,'Ellis (kidnapper 2)'),(94,'kidnapper 3'),(95,'kidnapper 4'),(96,'Houston'),(97,'\"the dead\"'),(98,'\"white man\" (Houston\'s neighbourhood)'),(99,'\"white boy\" (Houston\'s neighbourhood)'),(100,'\"white woman\" (Houston\'s neighbourhood)'),(101,'Samson'),(102,'policeman (Houston\'s neighbourhood)'),(103,'\"a janitah\"'),(104,'\"Miz Harvey\"'),(105,'\"a doctah\"'),(106,'Deacon Bonds’s children'),(107,'Deacon Bonds’s wife'),(108,'\"black man\" (valley resident)'),(109,'\"black man\" (hypothetical)'),(110,'\"Sistah Henry\" (congregation member)'),(111,'\"blue-coated policemen\"'),(112,'people on sidewalks'),(113,'policeman (City Hall)'),(114,'Big Boy'),(115,'Bobo'),(116,'Will'),(117,'Bertha');
 /*!40000 ALTER TABLE `characters` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -201,7 +201,7 @@ CREATE TABLE `narrContainers` (
   CONSTRAINT `narrContainers_ibfk_1` FOREIGN KEY (`narrContainer_level_id_fk`) REFERENCES `containerLevels` (`containerLevel_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
   CONSTRAINT `narrContainers_ibfk_2` FOREIGN KEY (`narrContainer_narrator_character_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
   CONSTRAINT `narrContainers_ibfk_3` FOREIGN KEY (`narrContainer_protagonist_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -210,6 +210,7 @@ CREATE TABLE `narrContainers` (
 
 LOCK TABLES `narrContainers` WRITE;
 /*!40000 ALTER TABLE `narrContainers` DISABLE KEYS */;
+INSERT INTO `narrContainers` VALUES (1,'Long Black Song',0,125,156,0,3,0),(2,'Fire and Cloud',0,157,220,0,31,0),(3,'The Ethics of Living Jim Crow',0,1,15,0,0,0),(4,'Big Boy Leaves Home',0,16,61,0,0,0),(5,'Bright and Morning Star',0,221,264,0,0,0),(6,'Down by the Riverside',0,62,124,0,0,0);
 /*!40000 ALTER TABLE `narrContainers` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -246,4 +247,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-04-30  1:30:07
+-- Dump completed on 2025-06-19  1:30:06
