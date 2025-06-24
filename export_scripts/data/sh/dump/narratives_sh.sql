@@ -26,7 +26,7 @@ CREATE TABLE `characters` (
   `character_id` int NOT NULL AUTO_INCREMENT,
   `character_name` varchar(50) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
   PRIMARY KEY (`character_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -35,7 +35,7 @@ CREATE TABLE `characters` (
 
 LOCK TABLES `characters` WRITE;
 /*!40000 ALTER TABLE `characters` DISABLE KEYS */;
-INSERT INTO `characters` VALUES (0,'[NULL]');
+INSERT INTO `characters` VALUES (0,'[NULL]'),(1,'Bobby'),(2,'Josie'),(3,'Lily'),(4,'Vasya'),(5,'Réaltín'),(6,'Timmy'),(7,'Brian'),(8,'Trevor'),(9,'Bridie'),(10,'Jason'),(11,'Hillary'),(12,'Seanie'),(13,'Kate'),(14,'Lloyd'),(15,'Rory'),(16,'Millicent'),(17,'Denis'),(18,'Mags'),(19,'Jim'),(20,'Frank'),(21,'Triona');
 /*!40000 ALTER TABLE `characters` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -201,7 +201,7 @@ CREATE TABLE `narrContainers` (
   CONSTRAINT `narrContainers_ibfk_1` FOREIGN KEY (`narrContainer_level_id_fk`) REFERENCES `containerLevels` (`containerLevel_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
   CONSTRAINT `narrContainers_ibfk_2` FOREIGN KEY (`narrContainer_narrator_character_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
   CONSTRAINT `narrContainers_ibfk_3` FOREIGN KEY (`narrContainer_protagonist_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -210,6 +210,7 @@ CREATE TABLE `narrContainers` (
 
 LOCK TABLES `narrContainers` WRITE;
 /*!40000 ALTER TABLE `narrContainers` DISABLE KEYS */;
+INSERT INTO `narrContainers` VALUES (1,'Bobby',0,9,20,1,0,0),(2,'Josie',0,21,26,2,0,0),(3,'Lily',0,27,34,3,0,0),(4,'Vasya',0,35,41,4,0,0),(5,'Réaltín',0,42,48,5,0,0),(6,'Timmy',0,49,55,6,0,0),(7,'Brian',0,56,61,7,0,0),(8,'Trevor',0,62,67,8,0,0),(9,'Bridie',0,68,75,9,0,0),(10,'Jason',0,76,81,10,0,0),(11,'Hillary',0,82,89,11,0,0),(12,'Seanie',0,90,96,12,0,0),(13,'Kate',0,97,102,13,0,0),(14,'Lloyd',0,103,107,14,0,0),(15,'Rory',0,108,113,15,0,0),(16,'Millicent',0,114,119,16,0,0),(17,'Denis',0,120,125,17,0,0),(18,'Mags',0,126,131,18,0,0),(19,'Jim',0,132,138,19,0,0),(20,'Frank',0,139,145,20,0,0),(21,'Triona',0,146,156,21,0,0);
 /*!40000 ALTER TABLE `narrContainers` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -246,4 +247,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-06-19  1:30:05
+-- Dump completed on 2025-06-24  1:30:04

@@ -4,13 +4,97 @@
 	<table_structure name="characters">
 		<field Field="character_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
 		<field Field="character_name" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
-		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2025-04-03 17:54:17" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="22" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="22" Avg_row_length="744" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="22" Create_time="2025-04-03 17:54:17" Update_time="2025-06-19 15:55:32" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="characters">
 	<row>
 		<field name="character_id">0</field>
 		<field name="character_name">[NULL]</field>
+	</row>
+	<row>
+		<field name="character_id">1</field>
+		<field name="character_name">Bobby</field>
+	</row>
+	<row>
+		<field name="character_id">2</field>
+		<field name="character_name">Josie</field>
+	</row>
+	<row>
+		<field name="character_id">3</field>
+		<field name="character_name">Lily</field>
+	</row>
+	<row>
+		<field name="character_id">4</field>
+		<field name="character_name">Vasya</field>
+	</row>
+	<row>
+		<field name="character_id">5</field>
+		<field name="character_name">Réaltín</field>
+	</row>
+	<row>
+		<field name="character_id">6</field>
+		<field name="character_name">Timmy</field>
+	</row>
+	<row>
+		<field name="character_id">7</field>
+		<field name="character_name">Brian</field>
+	</row>
+	<row>
+		<field name="character_id">8</field>
+		<field name="character_name">Trevor</field>
+	</row>
+	<row>
+		<field name="character_id">9</field>
+		<field name="character_name">Bridie</field>
+	</row>
+	<row>
+		<field name="character_id">10</field>
+		<field name="character_name">Jason</field>
+	</row>
+	<row>
+		<field name="character_id">11</field>
+		<field name="character_name">Hillary</field>
+	</row>
+	<row>
+		<field name="character_id">12</field>
+		<field name="character_name">Seanie</field>
+	</row>
+	<row>
+		<field name="character_id">13</field>
+		<field name="character_name">Kate</field>
+	</row>
+	<row>
+		<field name="character_id">14</field>
+		<field name="character_name">Lloyd</field>
+	</row>
+	<row>
+		<field name="character_id">15</field>
+		<field name="character_name">Rory</field>
+	</row>
+	<row>
+		<field name="character_id">16</field>
+		<field name="character_name">Millicent</field>
+	</row>
+	<row>
+		<field name="character_id">17</field>
+		<field name="character_name">Denis</field>
+	</row>
+	<row>
+		<field name="character_id">18</field>
+		<field name="character_name">Mags</field>
+	</row>
+	<row>
+		<field name="character_id">19</field>
+		<field name="character_name">Jim</field>
+	</row>
+	<row>
+		<field name="character_id">20</field>
+		<field name="character_name">Frank</field>
+	</row>
+	<row>
+		<field name="character_id">21</field>
+		<field name="character_name">Triona</field>
 	</row>
 	</table_data>
 	<table_structure name="containerLevels">
@@ -151,15 +235,225 @@
 		<field Field="narrContainer_narrator_character_id_fk" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
 		<field Field="narrContainer_protagonist_id_fk" Type="int" Null="YES" Key="MUL" Extra="" Comment="" />
 		<field Field="narrContainer_embeddedContainerType_id_fk" Type="int" Null="YES" Key="" Extra="" Comment="" />
-		<key Table="narrContainers" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="narrContainer_id" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_startPage" Seq_in_index="1" Column_name="narrContainer_startPage" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_endPage" Seq_in_index="1" Column_name="narrContainer_endPage" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_level_id_fk" Seq_in_index="1" Column_name="narrContainer_level_id_fk" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_protagonist_id_fk" Seq_in_index="1" Column_name="narrContainer_protagonist_id_fk" Collation="A" Cardinality="0" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_narrator_character_id_fk" Seq_in_index="1" Column_name="narrContainer_narrator_character_id_fk" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="narrContainers" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="81920" Data_free="0" Auto_increment="1" Create_time="2025-04-03 17:54:17" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<key Table="narrContainers" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="narrContainer_id" Collation="A" Cardinality="18" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_startPage" Seq_in_index="1" Column_name="narrContainer_startPage" Collation="A" Cardinality="18" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_endPage" Seq_in_index="1" Column_name="narrContainer_endPage" Collation="A" Cardinality="18" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_level_id_fk" Seq_in_index="1" Column_name="narrContainer_level_id_fk" Collation="A" Cardinality="1" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_protagonist_id_fk" Seq_in_index="1" Column_name="narrContainer_protagonist_id_fk" Collation="A" Cardinality="1" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<key Table="narrContainers" Non_unique="1" Key_name="narrContainer_narrator_character_id_fk" Seq_in_index="1" Column_name="narrContainer_narrator_character_id_fk" Collation="A" Cardinality="18" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
+		<options Name="narrContainers" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="18" Avg_row_length="910" Data_length="16384" Max_data_length="0" Index_length="81920" Data_free="0" Auto_increment="22" Create_time="2025-04-03 17:54:17" Update_time="2025-06-19 15:55:55" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="narrContainers">
+	<row>
+		<field name="narrContainer_id">1</field>
+		<field name="narrContainer_title">Bobby</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">9</field>
+		<field name="narrContainer_endPage">20</field>
+		<field name="narrContainer_narrator_character_id_fk">1</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">2</field>
+		<field name="narrContainer_title">Josie</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">21</field>
+		<field name="narrContainer_endPage">26</field>
+		<field name="narrContainer_narrator_character_id_fk">2</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">3</field>
+		<field name="narrContainer_title">Lily</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">27</field>
+		<field name="narrContainer_endPage">34</field>
+		<field name="narrContainer_narrator_character_id_fk">3</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">4</field>
+		<field name="narrContainer_title">Vasya</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">35</field>
+		<field name="narrContainer_endPage">41</field>
+		<field name="narrContainer_narrator_character_id_fk">4</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">5</field>
+		<field name="narrContainer_title">Réaltín</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">42</field>
+		<field name="narrContainer_endPage">48</field>
+		<field name="narrContainer_narrator_character_id_fk">5</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">6</field>
+		<field name="narrContainer_title">Timmy</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">49</field>
+		<field name="narrContainer_endPage">55</field>
+		<field name="narrContainer_narrator_character_id_fk">6</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">7</field>
+		<field name="narrContainer_title">Brian</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">56</field>
+		<field name="narrContainer_endPage">61</field>
+		<field name="narrContainer_narrator_character_id_fk">7</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">8</field>
+		<field name="narrContainer_title">Trevor</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">62</field>
+		<field name="narrContainer_endPage">67</field>
+		<field name="narrContainer_narrator_character_id_fk">8</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">9</field>
+		<field name="narrContainer_title">Bridie</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">68</field>
+		<field name="narrContainer_endPage">75</field>
+		<field name="narrContainer_narrator_character_id_fk">9</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">10</field>
+		<field name="narrContainer_title">Jason</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">76</field>
+		<field name="narrContainer_endPage">81</field>
+		<field name="narrContainer_narrator_character_id_fk">10</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">11</field>
+		<field name="narrContainer_title">Hillary</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">82</field>
+		<field name="narrContainer_endPage">89</field>
+		<field name="narrContainer_narrator_character_id_fk">11</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">12</field>
+		<field name="narrContainer_title">Seanie</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">90</field>
+		<field name="narrContainer_endPage">96</field>
+		<field name="narrContainer_narrator_character_id_fk">12</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">13</field>
+		<field name="narrContainer_title">Kate</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">97</field>
+		<field name="narrContainer_endPage">102</field>
+		<field name="narrContainer_narrator_character_id_fk">13</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">14</field>
+		<field name="narrContainer_title">Lloyd</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">103</field>
+		<field name="narrContainer_endPage">107</field>
+		<field name="narrContainer_narrator_character_id_fk">14</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">15</field>
+		<field name="narrContainer_title">Rory</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">108</field>
+		<field name="narrContainer_endPage">113</field>
+		<field name="narrContainer_narrator_character_id_fk">15</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">16</field>
+		<field name="narrContainer_title">Millicent</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">114</field>
+		<field name="narrContainer_endPage">119</field>
+		<field name="narrContainer_narrator_character_id_fk">16</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">17</field>
+		<field name="narrContainer_title">Denis</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">120</field>
+		<field name="narrContainer_endPage">125</field>
+		<field name="narrContainer_narrator_character_id_fk">17</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">18</field>
+		<field name="narrContainer_title">Mags</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">126</field>
+		<field name="narrContainer_endPage">131</field>
+		<field name="narrContainer_narrator_character_id_fk">18</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">19</field>
+		<field name="narrContainer_title">Jim</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">132</field>
+		<field name="narrContainer_endPage">138</field>
+		<field name="narrContainer_narrator_character_id_fk">19</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">20</field>
+		<field name="narrContainer_title">Frank</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">139</field>
+		<field name="narrContainer_endPage">145</field>
+		<field name="narrContainer_narrator_character_id_fk">20</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
+	<row>
+		<field name="narrContainer_id">21</field>
+		<field name="narrContainer_title">Triona</field>
+		<field name="narrContainer_level_id_fk">0</field>
+		<field name="narrContainer_startPage">146</field>
+		<field name="narrContainer_endPage">156</field>
+		<field name="narrContainer_narrator_character_id_fk">21</field>
+		<field name="narrContainer_protagonist_id_fk">0</field>
+		<field name="narrContainer_embeddedContainerType_id_fk">0</field>
+	</row>
 	</table_data>
 	<table_structure name="narratorTypes">
 		<field Field="narratorType_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
