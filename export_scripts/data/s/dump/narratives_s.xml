@@ -5,7 +5,7 @@
 		<field Field="character_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
 		<field Field="character_name" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
 		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="146" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="146" Avg_row_length="112" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="160" Create_time="2025-04-03 17:55:37" Update_time="2025-07-01 20:27:37" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="146" Avg_row_length="112" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="164" Create_time="2025-04-03 17:55:37" Update_time="2025-07-04 01:26:58" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="characters">
 	<row>
@@ -414,11 +414,11 @@
 	</row>
 	<row>
 		<field name="character_id">106</field>
-		<field name="character_name">an orangutan</field>
+		<field name="character_name">an orangutan named Clementine (in story)</field>
 	</row>
 	<row>
 		<field name="character_id">107</field>
-		<field name="character_name">the orangutan's mother</field>
+		<field name="character_name">the orangutan's mother (in story)</field>
 	</row>
 	<row>
 		<field name="character_id">108</field>
@@ -628,6 +628,22 @@
 		<field name="character_id">159</field>
 		<field name="character_name">&quot;spies disguised as waiters&quot; (on TV)(105)</field>
 	</row>
+	<row>
+		<field name="character_id">160</field>
+		<field name="character_name">Hakim</field>
+	</row>
+	<row>
+		<field name="character_id">161</field>
+		<field name="character_name">farmers</field>
+	</row>
+	<row>
+		<field name="character_id">162</field>
+		<field name="character_name">&quot;a young girl named Samantha&quot; (108)</field>
+	</row>
+	<row>
+		<field name="character_id">163</field>
+		<field name="character_name">&quot;the zookeeper&quot; (in story) (108)</field>
+	</row>
 	</table_data>
 	<table_structure name="containerLevels">
 		<field Field="containerLevel_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
@@ -734,7 +750,7 @@
 		<key Table="menExs" Non_unique="1" Key_name="menEx_isReciprocal_id_fk" Seq_in_index="1" Column_name="menEx_isReciprocal_id_fk" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
 		<key Table="menExs" Non_unique="1" Key_name="menEx_startPage_fk" Seq_in_index="1" Column_name="menEx_startPage" Collation="A" Cardinality="70" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
 		<key Table="menExs" Non_unique="1" Key_name="menEx_endPage_fk" Seq_in_index="1" Column_name="menEx_endPage" Collation="A" Cardinality="74" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="menExs" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="457" Avg_row_length="143" Data_length="65536" Max_data_length="0" Index_length="114688" Data_free="0" Auto_increment="553" Create_time="2025-04-03 17:55:37" Update_time="2025-07-01 20:29:23" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="menExs" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="457" Avg_row_length="143" Data_length="65536" Max_data_length="0" Index_length="114688" Data_free="0" Auto_increment="590" Create_time="2025-04-03 17:55:37" Update_time="2025-07-04 01:41:56" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="menExs">
 	<row>
@@ -5892,7 +5908,7 @@
 		<field name="menEx_menOrEx_id_fk">2</field>
 		<field name="menEx_character1_id_fk">10</field>
 		<field name="menEx_character2_id_fk">28</field>
-		<field name="menEx_narrContainer_id_fk">6</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
 		<field name="menEx_isReciprocal_id_fk">1</field>
 		<field name="menEx_startPage">103</field>
 		<field name="menEx_endPage">104</field>
@@ -6189,7 +6205,7 @@
 	</row>
 	<row>
 		<field name="menEx_id">550</field>
-		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
 		<field name="menEx_character1_id_fk">10</field>
 		<field name="menEx_character2_id_fk">7</field>
 		<field name="menEx_narrContainer_id_fk">23</field>
@@ -6216,6 +6232,376 @@
 		<field name="menEx_isReciprocal_id_fk">0</field>
 		<field name="menEx_startPage">105</field>
 		<field name="menEx_endPage">105</field>
+	</row>
+	<row>
+		<field name="menEx_id">553</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
+		<field name="menEx_character1_id_fk">159</field>
+		<field name="menEx_character2_id_fk">159</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">105</field>
+		<field name="menEx_endPage">105</field>
+	</row>
+	<row>
+		<field name="menEx_id">554</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">5</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">105</field>
+		<field name="menEx_endPage">105</field>
+	</row>
+	<row>
+		<field name="menEx_id">555</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
+		<field name="menEx_character1_id_fk">31</field>
+		<field name="menEx_character2_id_fk">10</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">107</field>
+	</row>
+	<row>
+		<field name="menEx_id">556</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">28</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">106</field>
+	</row>
+	<row>
+		<field name="menEx_id">557</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
+		<field name="menEx_character1_id_fk">31</field>
+		<field name="menEx_character2_id_fk">158</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">106</field>
+	</row>
+	<row>
+		<field name="menEx_id">558</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
+		<field name="menEx_character1_id_fk">160</field>
+		<field name="menEx_character2_id_fk">31</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">106</field>
+	</row>
+	<row>
+		<field name="menEx_id">559</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">158</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">107</field>
+	</row>
+	<row>
+		<field name="menEx_id">560</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">160</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">106</field>
+	</row>
+	<row>
+		<field name="menEx_id">561</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
+		<field name="menEx_character1_id_fk">158</field>
+		<field name="menEx_character2_id_fk">160</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">106</field>
+	</row>
+	<row>
+		<field name="menEx_id">562</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
+		<field name="menEx_character1_id_fk">11</field>
+		<field name="menEx_character2_id_fk">10</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">105</field>
+		<field name="menEx_endPage">105</field>
+	</row>
+	<row>
+		<field name="menEx_id">563</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">160</field>
+		<field name="menEx_character2_id_fk">161</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">106</field>
+	</row>
+	<row>
+		<field name="menEx_id">564</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">158</field>
+		<field name="menEx_character2_id_fk">161</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">107</field>
+	</row>
+	<row>
+		<field name="menEx_id">565</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">161</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">106</field>
+	</row>
+	<row>
+		<field name="menEx_id">566</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">28</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">107</field>
+		<field name="menEx_endPage">108</field>
+	</row>
+	<row>
+		<field name="menEx_id">567</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">28</field>
+		<field name="menEx_character2_id_fk">38</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">107</field>
+		<field name="menEx_endPage">108</field>
+	</row>
+	<row>
+		<field name="menEx_id">568</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">28</field>
+		<field name="menEx_character2_id_fk">29</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">107</field>
+		<field name="menEx_endPage">107</field>
+	</row>
+	<row>
+		<field name="menEx_id">569</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">38</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">107</field>
+		<field name="menEx_endPage">108</field>
+	</row>
+	<row>
+		<field name="menEx_id">570</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">29</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">107</field>
+		<field name="menEx_endPage">107</field>
+	</row>
+	<row>
+		<field name="menEx_id">571</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">31</field>
+		<field name="menEx_character2_id_fk">161</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">106</field>
+		<field name="menEx_endPage">106</field>
+	</row>
+	<row>
+		<field name="menEx_id">572</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">29</field>
+		<field name="menEx_character2_id_fk">38</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">107</field>
+		<field name="menEx_endPage">108</field>
+	</row>
+	<row>
+		<field name="menEx_id">573</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">11</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">108</field>
+	</row>
+	<row>
+		<field name="menEx_id">574</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">28</field>
+		<field name="menEx_character2_id_fk">31</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">108</field>
+	</row>
+	<row>
+		<field name="menEx_id">575</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">31</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">108</field>
+	</row>
+	<row>
+		<field name="menEx_id">576</field>
+		<field name="menEx_menOrEx_id_fk">2</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">25</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">112</field>
+	</row>
+	<row>
+		<field name="menEx_id">577</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">106</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">111</field>
+	</row>
+	<row>
+		<field name="menEx_id">578</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">25</field>
+		<field name="menEx_character2_id_fk">106</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">111</field>
+	</row>
+	<row>
+		<field name="menEx_id">579</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">162</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">109</field>
+	</row>
+	<row>
+		<field name="menEx_id">580</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">25</field>
+		<field name="menEx_character2_id_fk">162</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">109</field>
+	</row>
+	<row>
+		<field name="menEx_id">581</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">163</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">109</field>
+	</row>
+	<row>
+		<field name="menEx_id">582</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">25</field>
+		<field name="menEx_character2_id_fk">163</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">109</field>
+	</row>
+	<row>
+		<field name="menEx_id">583</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">10</field>
+		<field name="menEx_character2_id_fk">107</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">109</field>
+	</row>
+	<row>
+		<field name="menEx_id">584</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">25</field>
+		<field name="menEx_character2_id_fk">107</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">109</field>
+	</row>
+	<row>
+		<field name="menEx_id">585</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">162</field>
+		<field name="menEx_character2_id_fk">106</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">0</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">109</field>
+	</row>
+	<row>
+		<field name="menEx_id">586</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">106</field>
+		<field name="menEx_character2_id_fk">107</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">110</field>
+	</row>
+	<row>
+		<field name="menEx_id">587</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">163</field>
+		<field name="menEx_character2_id_fk">162</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">109</field>
+	</row>
+	<row>
+		<field name="menEx_id">588</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">163</field>
+		<field name="menEx_character2_id_fk">107</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">109</field>
+		<field name="menEx_endPage">110</field>
+	</row>
+	<row>
+		<field name="menEx_id">589</field>
+		<field name="menEx_menOrEx_id_fk">0</field>
+		<field name="menEx_character1_id_fk">163</field>
+		<field name="menEx_character2_id_fk">106</field>
+		<field name="menEx_narrContainer_id_fk">23</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">108</field>
+		<field name="menEx_endPage">110</field>
 	</row>
 	</table_data>
 	<table_structure name="menOrExs">
