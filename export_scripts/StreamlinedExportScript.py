@@ -1,14 +1,12 @@
 from datetime import datetime
-
 import pandas as pd
-
 import itertools
 
 # Read three dataframes, one for each of characters, containers, and relationships tables exported from the DB
 
-df_chars = pd.read_csv('data/to/dump/narratives_to_characters.csv')
-df_conts = pd.read_csv('data/to/dump/narratives_to_containers.csv')
-df_rels = pd.read_csv('data/to/dump/narratives_to_relationships.csv')
+df_chars = pd.read_csv('data/pnp/FinalPnPChars.csv')
+df_conts = pd.read_csv('data/pnp/dump/narratives_pnp_containers.csv')
+df_rels = pd.read_csv('data/pnp/dump/narratives_pnp_relationships.csv')
 
 # merge the containers and relationships "on the right": using keys from the right dataframe
 # and also do the merge based on the mutual column named "Narrative Container". Use "_cont" and "_rels" suffixes for the
@@ -157,9 +155,12 @@ df_no_duplicates["category"] = pd.Categorical(df_no_duplicates["category"], cate
 #dropping duplicates, retaining highest priority
 df_no_duplicates = df_no_duplicates.sort_values(by=['Character 1', 'Character 2', 'startPage', 'category']).drop_duplicates(subset=['Character 1', 'Character 2', 'startPage'])
 
+# Sort the DataFrame by 'startPage' in ascending order
+df_no_duplicates = df_no_duplicates.sort_values(by='startPage').reset_index(drop=True)
+
 # df_no_duplicates = df_no_duplicates.drop(columns=['Character 1', 'Character 2'])
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
-df_no_duplicates.to_csv(f'data/to/June24Exports/to_StorySpaceEdges_{date}.csv', index=False)
+df_no_duplicates.to_csv(f'data/pnp/July12Exports/pnp_StorySpaceEdges_{date}.csv', index=False)
 
 df_og = df_no_duplicates
 
@@ -215,14 +216,21 @@ for page_num, characters in result.items():
 final_human_df = pd.DataFrame(rows_human_list)
 final_gephi_df = pd.DataFrame(rows_gephi_list)
 
+# Sort the DataFrame by 'startPage' in ascending order
+final_human_df = final_human_df.sort_values(by='startPage').reset_index(drop=True)
+
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
-final_human_df.to_csv(f'data/to/June24Exports/toTextSpaceEdges_{date}.csv', index=False)
+final_human_df.to_csv(f'data/pnp/July12Exports/pnpTextSpaceEdges_{date}.csv', index=False)
 #final_gephi_df.to_csv(f'data/gs/Mar12/gs_exports_text_gephi_space_edges_{date}.csv', index=False)
 
 df = df_no_duplicates
 # Filter the data where category is 'Exchange'
 filtered_df = df[df['category'] == 'Exchange']
 
+# Sort the DataFrame by 'startPage' in ascending order
+filtered_df = filtered_df.sort_values(by='startPage').reset_index(drop=True)
+
+
 # Write the filtered data to a new CSV file
-output_file = 'data/to/June24Exports/toExchangesOnlyJune24.csv'
+output_file = 'data/pnp/July12Exports/pnpExchangesOnlyJune24.csv'
 filtered_df.to_csv(output_file, index=False)
