@@ -1,28 +1,12 @@
 from datetime import datetime
 import pandas as pd
 import itertools
-import os
 
-# Ask the user for the dataset acronym
-acronym = input("Enter the dataset acronym (e.g., 'de'): ").strip()
-# Ask the user for the date in the format 'MonthDay' (e.g., 'July16')
-date_str = input("Enter the date (e.g., 'July16'): ").strip()
+# Read three dataframes, one for each of characters, containers, and relationships tables exported from the DB
 
-# Construct file paths based on the acronym
-base_path = f"data/{acronym}/dump/narratives_{acronym}_"
-
-# Construct output file paths based on the acronym and date
-StorySpace_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}StorySpaceEdges{date_str}.csv"
-TextSpace_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}TextSpaceEdges{date_str}.csv"
-ExchangesOnly_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}ExchangesOnlyEdges{date_str}.csv"
-
-# Ensure the output directory exists
-os.makedirs(os.path.dirname(StorySpace_path), exist_ok=True)
-
-# Read the CSV files from the db dump
-df_chars = pd.read_csv(f"{base_path}characters.csv")
-df_conts = pd.read_csv(f"{base_path}containers.csv")
-df_rels = pd.read_csv(f"{base_path}relationships.csv")
+df_chars = pd.read_csv('data/de/dump/narratives_de_characters.csv')
+df_conts = pd.read_csv('data/de/dump/narratives_de_containers.csv')
+df_rels = pd.read_csv('data/de/dump/narratives_de_relationships.csv')
 
 # merge the containers and relationships "on the right": using keys from the right dataframe
 # and also do the merge based on the mutual column named "Narrative Container". Use "_cont" and "_rels" suffixes for the
@@ -110,6 +94,9 @@ temp_chars_extended.rename(columns={"id": "source"}, inplace=True)
 final_df = pd.merge(df_chars, temp_chars_extended, how='right', left_on='Name',
                     right_on='Character 2', suffixes=('_l', '_r'))
 
+# getting the current DATETIME in a string to print files with a timestamp
+date = datetime.now().strftime("%Y%m%d-%HH%MM")
+
 # dropping duplicates again from the final DF (dataframe)
 final_df = final_df.drop_duplicates(
     subset=['Character 1', 'Character 2', 'Type of Relationship',
@@ -172,7 +159,8 @@ df_no_duplicates = df_no_duplicates.sort_values(by=['Character 1', 'Character 2'
 df_no_duplicates = df_no_duplicates.sort_values(by='startPage').reset_index(drop=True)
 
 # df_no_duplicates = df_no_duplicates.drop(columns=['Character 1', 'Character 2'])
-df_no_duplicates.to_csv(StorySpace_path, index=False)
+date = datetime.now().strftime("%Y%m%d-%HH%MM")
+df_no_duplicates.to_csv(f'data/pnp/July12Exports/pnp_StorySpaceEdges_{date}.csv', index=False)
 
 df_og = df_no_duplicates
 
@@ -231,8 +219,8 @@ final_gephi_df = pd.DataFrame(rows_gephi_list)
 # Sort the DataFrame by 'startPage' in ascending order
 final_human_df = final_human_df.sort_values(by='startPage').reset_index(drop=True)
 
-
-final_human_df.to_csv(TextSpace_path, index=False)
+date = datetime.now().strftime("%Y%m%d-%HH%MM")
+final_human_df.to_csv(f'data/pnp/July12Exports/pnpTextSpaceEdges_{date}.csv', index=False)
 #final_gephi_df.to_csv(f'data/gs/Mar12/gs_exports_text_gephi_space_edges_{date}.csv', index=False)
 
 df = df_no_duplicates
@@ -244,5 +232,5 @@ filtered_df = filtered_df.sort_values(by='startPage').reset_index(drop=True)
 
 
 # Write the filtered data to a new CSV file
-
-filtered_df.to_csv(ExchangesOnly_path, index=False)
+output_file = 'data/pnp/July12Exports/pnpExchangesOnlyJune24.csv'
+filtered_df.to_csv(output_file, index=False)
