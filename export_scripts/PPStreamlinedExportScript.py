@@ -4,9 +4,9 @@ import itertools
 
 # Read three dataframes, one for each of characters, containers, and relationships tables exported from the DB
 
-df_chars = pd.read_csv('data/de/dump/narratives_de_characters.csv')
-df_conts = pd.read_csv('data/de/dump/narratives_de_containers.csv')
-df_rels = pd.read_csv('data/de/dump/narratives_de_relationships.csv')
+df_chars = pd.read_csv('data/pnp/FinalPnPChars.csv')
+df_conts = pd.read_csv('data/pnp/dump/narratives_pnp_containers.csv')
+df_rels = pd.read_csv('data/pnp/dump/narratives_pnp_relationships.csv')
 
 # merge the containers and relationships "on the right": using keys from the right dataframe
 # and also do the merge based on the mutual column named "Narrative Container". Use "_cont" and "_rels" suffixes for the
@@ -160,7 +160,7 @@ df_no_duplicates = df_no_duplicates.sort_values(by='startPage').reset_index(drop
 
 # df_no_duplicates = df_no_duplicates.drop(columns=['Character 1', 'Character 2'])
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
-df_no_duplicates.to_csv(f'data/pnp/July12Exports/pnp_StorySpaceEdges_{date}.csv', index=False)
+df_no_duplicates.to_csv(f'data/pnp/July26/pnp_StorySpaceEdges_{date}.csv', index=False)
 
 df_og = df_no_duplicates
 
@@ -220,7 +220,7 @@ final_gephi_df = pd.DataFrame(rows_gephi_list)
 final_human_df = final_human_df.sort_values(by='startPage').reset_index(drop=True)
 
 date = datetime.now().strftime("%Y%m%d-%HH%MM")
-final_human_df.to_csv(f'data/pnp/July12Exports/pnpTextSpaceEdges_{date}.csv', index=False)
+final_human_df.to_csv(f'data/pnp/July26/pnpTextSpaceEdges_{date}.csv', index=False)
 #final_gephi_df.to_csv(f'data/gs/Mar12/gs_exports_text_gephi_space_edges_{date}.csv', index=False)
 
 df = df_no_duplicates
@@ -232,5 +232,5 @@ filtered_df = filtered_df.sort_values(by='startPage').reset_index(drop=True)
 
 
 # Write the filtered data to a new CSV file
-output_file = 'data/pnp/July12Exports/pnpExchangesOnlyJune24.csv'
+output_file = 'data/pnp/July26/pnpExchangesOnlyJune24.csv'
 filtered_df.to_csv(output_file, index=False)
