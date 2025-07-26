@@ -3,7 +3,6 @@ import pandas as pd
 # csv files for all Pride and Prejudice data
 originalChars = pd.read_csv('OriginalPnP/PnP_nodesInOrder.csv')
 newChars = pd.read_csv('dump/narratives_pnp_characters.csv')
-newRels = pd.read_csv('dump/narratives_pnp_relationships.csv')
 
 # Merge based on matching names (Perform a full outer join on the name/label columns)
 merged = pd.merge(

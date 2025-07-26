@@ -9,18 +9,18 @@ page_ranges = [(1, 130), (164, 172), (184, 189), (204, 207), (233, 247)]
 file_pairs = [
     {
         'input_file': 'OriginalPnP/PnP_edges.csv',
-        'second_file': 'July12Exports/pnp_StorySpaceEdges_20250713-11H17M.csv',
-        'output_file': 'July13Exports/StorySpaceEdges.csv'
+        'second_file': 'July26/pnp_StorySpaceEdges_20250726-11H24M.csv',
+        'output_file': 'July26GephiReadyExports/StorySpaceEdges.csv'
     },
     {
         'input_file': 'OriginalPnP/PnP_edgesAllCharsOnPage3col.csv',
-        'second_file': 'July12Exports/pnpTextSpaceEdges_20250713-11H17M.csv',
-        'output_file': 'July13Exports/TextSpaceEdges.csv'
+        'second_file': 'July26/pnpExchangesOnlyJune24.csv',
+        'output_file': 'July26GephiReadyExports/TextSpaceEdges.csv'
     },
     {
         'input_file': 'OriginalPnP/PnP_edgesExchangesOnly.csv',
-        'second_file': 'July12Exports/pnpExchangesOnlyJune24.csv',
-        'output_file': 'July13Exports/ExchangesOnlyEdges.csv'
+        'second_file': 'July26/pnpTextSpaceEdges_20250726-11H24M.csv',
+        'output_file': 'July26GephiReadyExports/ExchangesOnlyEdges.csv'
     },
     # Add more file pairs as needed
 ]
