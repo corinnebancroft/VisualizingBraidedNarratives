@@ -20263,7 +20263,7 @@
 		<field Field="character_novel_id_fk" Type="int" Null="NO" Key="MUL" Extra="" Comment="" />
 		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="2487" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
 		<key Table="characters" Non_unique="1" Key_name="character_novel_id_fk" Seq_in_index="1" Column_name="character_novel_id_fk" Collation="A" Cardinality="15" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="2487" Avg_row_length="65" Data_length="163840" Max_data_length="0" Index_length="81920" Data_free="0" Auto_increment="2568" Create_time="2025-01-24 17:25:16" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="2487" Avg_row_length="65" Data_length="163840" Max_data_length="0" Index_length="81920" Data_free="0" Auto_increment="2568" Create_time="2025-01-24 17:25:16" Update_time="2025-07-24 19:51:35" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="characters">
 	<row>
@@ -28773,7 +28773,7 @@
 	</row>
 	<row>
 		<field name="character_id">1772</field>
-		<field name="character_name">Bennet's Butler</field>
+		<field name="character_name">Butler (at Longbourn)</field>
 		<field name="character_novel_id_fk">12</field>
 	</row>
 	<row>
@@ -32693,7 +32693,7 @@
 	</row>
 	<row>
 		<field name="character_id">2564</field>
-		<field name="character_name">&quot;freinds in Lambton&quot;</field>
+		<field name="character_name">&quot;Lambton friends&quot;</field>
 		<field name="character_novel_id_fk">12</field>
 	</row>
 	<row>
