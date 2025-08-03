@@ -30,8 +30,8 @@ unique_narrators = df['Narrator'].dropna().unique()
 narrator_color_map = {narrator: color_dict.get(narrator, 'gray') for narrator in unique_narrators}
 color_map = {char: color_dict.get(char, 'gray') for char in all_characters}
 
-# Create figure Size
-fig, ax = plt.subplots(figsize=(12, 8), constrained_layout=True)
+# Create figure size
+fig, ax = plt.subplots(figsize=(12, 8))
 
 # Define a single radius in page units
 circle_radius = 4  # adjust this value to control spacing
@@ -122,9 +122,10 @@ legend2 = ax.legend(handles=character_handles, title="Participating Characters",
                     loc='upper left', bbox_to_anchor=(1.02, 0.5), borderaxespad=0.)
 
 # Plot graph
+plt.tight_layout()  # Optional: helps with spacing of other elements
 plt.savefig("Plague_of_Doves_Time_Graph.svg", format="svg", bbox_inches='tight')
-
 plt.show()
+
 
 
 
