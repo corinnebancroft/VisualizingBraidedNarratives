@@ -113,17 +113,17 @@ character_handles = [
 ]
 
 # Add narrator legend
-legend1 = ax.legend(handles=narrator_handles, title="Narrators",
-                    loc='upper left', bbox_to_anchor=(1.02, 1), borderaxespad=0.)
-ax.add_artist(legend1)
+#legend1 = ax.legend(handles=narrator_handles, title="Narrators",
+                    #loc='upper left', bbox_to_anchor=(1.02, 1), borderaxespad=0.)
+#ax.add_artist(legend1)
 
 # Add character legend
-legend2 = ax.legend(handles=character_handles, title="Participating Characters",
-                    loc='upper left', bbox_to_anchor=(1.02, 0.5), borderaxespad=0.)
+#legend2 = ax.legend(handles=character_handles, title="Participating Characters",
+                   # loc='upper left', bbox_to_anchor=(1.02, 0.5), borderaxespad=0.)
 
 # Plot graph
 plt.tight_layout()  # Optional: helps with spacing of other elements
-plt.savefig("Plague_of_Doves_Time_Graph.svg", format="svg", bbox_inches='tight')
+plt.savefig("Plague_of_Doves_Time_Graphnolegend.svg", format="svg", bbox_inches='tight')
 plt.show()
 
 
