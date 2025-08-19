@@ -34,7 +34,7 @@ narrator_color_map = {narrator: color_dict.get(narrator, 'gray') for narrator in
 color_map = {char: color_dict.get(char, 'gray') for char in all_characters}
 
 # Create figure size
-fig, ax = plt.subplots(figsize=(12, 8))
+fig, ax = plt.subplots(figsize=(15, 8))
 
 # Define a single radius in page units
 circle_radius = 4  # adjust this value to control spacing
@@ -97,21 +97,21 @@ for _, row in df.iterrows():
             ax.plot([x_event, x_event], [y_event, y_interp], '--', color=color, linewidth=0.25, gid='tellline_' + str(_))
 
 # Final touches
-ax.set_title("Plague of Doves Time Graph")
+ax.set_title("Plague of Doves Time Graph", gid='graphTitle')
 ax.set_xlabel("Text Time")
 ax.set_ylabel("Story Time")
 
 # Narrator legend handles
 narrator_handles = [
     Line2D([0], [0], marker='o', color='w', label=narrator,
-           markerfacecolor=narrator_color_map[narrator], markersize=10)
+           markerfacecolor=narrator_color_map[narrator], markersize=10, gid='narrHandle' + narrator.replace(' ', '_'))
     for narrator in sorted(narrator_color_map)
 ]
 
 # Character legend handles
 character_handles = [
     Line2D([0], [0], marker='o', color='w', label=char,
-           markerfacecolor=color_map[char], markersize=5)
+           markerfacecolor=color_map[char], markersize=5, gid='charHandle' + narrator.replace(' ', '_'))
     for char in sorted(color_map)
 ]
 
