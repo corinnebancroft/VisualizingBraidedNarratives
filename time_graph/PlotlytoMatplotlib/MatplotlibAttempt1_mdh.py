@@ -55,7 +55,7 @@ for _, row in df.iterrows():
     y_base = row['Midpoint Date']
     narrator = row['Narrator']
     narrator_color = narrator_color_map.get(narrator, 'gray')
-    ax.plot(x_base, y_base, 'o', color=narrator_color, markersize=4)
+    ax.plot(x_base, y_base, 'o', color=narrator_color, markersize=4, gid='narrmark_' + str(_) + '_' + re.sub(rePattern, '_', narrator))
 
     characters = row['Participating Characters']
     n = len(characters)
@@ -91,14 +91,14 @@ for _, row in df.iterrows():
         color = narrator_color_map.get(narrator, 'gray')
         x_mid = (x0 + x1) / 2
         y_mid = y0 + (y1 - y0) / 2
-        ax.plot([x0, x_mid, x1], [y0, y_mid, y1], '-', color=color, linewidth=3)
+        ax.plot([x0, x_mid, x1], [y0, y_mid, y1], '-', color=color, linewidth=3, gid='tellline_1_' + str(_))
 
         x_event = row['Start Page']
         y_event = row['Midpoint Date']
         if x0 != x1 and min(x0, x1) <= x_event <= max(x0, x1):
             fraction = (x_event - x0) / (x1 - x0)
             y_interp = y0 + (y1 - y0) * fraction
-            ax.plot([x_event, x_event], [y_event, y_interp], '--', color=color, linewidth=0.25, gid='tellline_' + str(_))
+            ax.plot([x_event, x_event], [y_event, y_interp], '--', color=color, linewidth=0.25, gid='tellline_2_' + str(_))
 
 # Final touches
 ax.set_title("Plague of Doves Time Graph", gid='graphTitle')

@@ -70,6 +70,7 @@
                         margin: 0.25em;
                     }
                 </style>
+                <script src="time_graph.js"></script>
             </head>
             <body>
                 <main>
@@ -86,7 +87,7 @@
                             <div class="legend">
                                 <h4>Other Controls</h4>
                                 <ul>
-                                    <li><input type="checkbox" data-id="tellline" checked="checked"/> Telling time</li>
+                                    <li><input type="checkbox" data-id="tellline" data-regex="^tellline" checked="checked"/> Telling time</li>
                                 </ul>
                             </div>
                         </div>
@@ -126,7 +127,9 @@
         <xsl:param name="idPrefix" as="xs:string" tunnel="yes"/>
         <xsl:variable name="style" as="xs:string" select="replace(child::g[child::use][1]/use/@style, '^.*fill:\s*(#[a-h0-9]+).*$', 'background-color: $1; accent-color: $1;')"/>
         <xsl:variable name="persName" as="xs:string" select="xs:string(following-sibling::g[child::text][1])"/>
-        <li><span style="{if (contains($style, 'color')) then $style else 'background-color: #000000; accent-color: #000000;'}"><input data-id="{$idPrefix}_{hcmc:nameToIdBit($persName)}" type="checkbox" checked="checked"/></span> <xsl:value-of select="$persName"/></li>
+        <li><span style="{if (contains($style, 'color')) then $style else 'background-color: #000000; accent-color: #000000;'}"><input data-id="{$idPrefix}_{hcmc:nameToIdBit($persName)}" 
+                    data-regex="{hcmc:nameToIdRegex($persName, $idPrefix)}"
+                    type="checkbox" checked="checked"/></span> <xsl:value-of select="$persName"/></li>
     </xsl:template>
     
     <xd:doc>
@@ -136,7 +139,19 @@
     </xd:doc>
     <xsl:function name="hcmc:nameToIdBit" as="xs:string">
         <xsl:param name="name" as="xs:string"/>
-        <xsl:sequence select="replace($name, '[^a-zA-Z0-9]+', '_')"/>
+        <xsl:sequence select="replace(normalize-space($name), '[^a-zA-Z0-9]+', '_')"/>
+    </xsl:function>
+    
+    <xd:doc>
+        <xd:desc>This function converts a name to a regex that will match the ids of associated svg elements in 
+            the graph.</xd:desc>
+        <xd:param name="name" as="xs:string">The incoming name, which might have spaces or punctuation.</xd:param>
+        <xd:param name="prefix" as="xs:string">The prefix to prepend.</xd:param>
+    </xd:doc>
+    <xsl:function name="hcmc:nameToIdRegex" as="xs:string">
+        <xsl:param name="name" as="xs:string"/>
+        <xsl:param name="prefix" as="xs:string"/>
+        <xsl:sequence select="$prefix || '(line|mark)?_\d+_' || replace(normalize-space($name), '[^a-zA-Z0-9]+', '_')"/>
     </xsl:function>
     
 </xsl:stylesheet>
