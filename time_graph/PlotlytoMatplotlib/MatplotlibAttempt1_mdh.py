@@ -1,8 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import math
+import re
 from datetime import timedelta
 from matplotlib.lines import Line2D
+
+# Pattern for turning names into usable id components.
+rePattern = r'[^0-9a-zA-Z]+'
 
 # Ensure text is output as text rather than weird vectors.
 plt.rcParams['svg.fonttype'] = 'none' 
@@ -61,8 +65,8 @@ for _, row in df.iterrows():
         y_offset = timedelta(days=circle_radius * math.cos(angle) * page_to_day_ratio)
         x_char = x_base + x_offset
         y_char = y_base + y_offset
-        ax.plot(x_char, y_char, 'o', color=color_map[char], markersize=2.5, gid='char_' + str(_) + '_' + char.replace(' ', '_'))
-        ax.plot([x_base, x_char], [y_base, y_char], '-', color=color_map[char], linewidth=0.5, gid='charline_' + str(_) + '_' + char.replace(' ', '_'))
+        ax.plot(x_char, y_char, 'o', color=color_map[char], markersize=2.5, gid='char_' + str(_) + '_' + re.sub(rePattern, '_', char))
+        ax.plot([x_base, x_char], [y_base, y_char], '-', color=color_map[char], linewidth=0.5, gid='charline_' + str(_) + '_' + re.sub(rePattern, '_', char))
 
 # Connect narrator points
 narrator_line_df = df[['Narrator', 'Start Page', 'Midpoint Date']].dropna().sort_values(by='Start Page')
@@ -73,7 +77,7 @@ for i in range(len(narrator_line_df) - 1):
         color = narrator_color_map.get(row1['Narrator'], 'gray')
         ax.plot([row1['Start Page'], row2['Start Page']],
                 [row1['Midpoint Date'], row2['Midpoint Date']],
-                '-', color=color, linewidth=0.5, gid='narr_' + str(i) + '_' + row1['Narrator'].replace(' ', '_'))
+                '-', color=color, linewidth=0.5, gid='narr_' + str(i) + '_' + re.sub(rePattern, '_', row1['Narrator']))
 
 # Telling time lines and vertical guidelines
 for _, row in df.iterrows():
@@ -104,14 +108,14 @@ ax.set_ylabel("Story Time")
 # Narrator legend handles
 narrator_handles = [
     Line2D([0], [0], marker='o', color='w', label=narrator,
-           markerfacecolor=narrator_color_map[narrator], markersize=10, gid='narrHandle' + narrator.replace(' ', '_'))
+           markerfacecolor=narrator_color_map[narrator], markersize=10, gid='narrHandle' + re.sub(rePattern, '_', narrator))
     for narrator in sorted(narrator_color_map)
 ]
 
 # Character legend handles
 character_handles = [
     Line2D([0], [0], marker='o', color='w', label=char,
-           markerfacecolor=color_map[char], markersize=5, gid='charHandle' + narrator.replace(' ', '_'))
+           markerfacecolor=color_map[char], markersize=5, gid='charHandle' + re.sub(rePattern, '_', narrator))
     for char in sorted(color_map)
 ]
 

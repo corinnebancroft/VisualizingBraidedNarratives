@@ -8,6 +8,7 @@
     xmlns:svg="http://www.w3.org/2000/svg"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xh="http://www.w3.org/1999/xhtml"
+    xmlns:hcmc="http://hcmc.uvic.ca/ns"
     version="3.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
@@ -58,6 +59,11 @@
                         justify-content: center;
                         div.legend{
                             border: solid 1pt gray;
+                            padding: 0.25em;
+                            ul{
+                                list-style-type: none;
+                                padding: 0.25em;
+                            }
                         }
                     }
                     h4{
@@ -74,9 +80,17 @@
                         <xsl:apply-templates mode="initial"/>
                     </div>
                     <xsl:comment>Re-creation of legends in HTML.</xsl:comment>
-                    <div class="legends">
-                        <xsl:apply-templates select="//g[matches(@id, '^legend_\d+$')]" mode="legends"/>
-                    </div>
+                    <form>
+                        <div class="legends">
+                            <xsl:apply-templates select="//g[matches(@id, '^legend_\d+$')]" mode="legends"/>
+                            <div class="legend">
+                                <h4>Other Controls</h4>
+                                <ul>
+                                    <li><input type="checkbox" data-id="tellline" checked="checked"/> Telling time</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
                 </main>
             </body>
         </html>
@@ -91,20 +105,38 @@
         <xd:desc>In generating the HTML controls, we start from the.</xd:desc>
     </xd:doc>
     <xsl:template match="g[matches(@id, '^legend_\d+$')]" mode="legends">
+        <xsl:variable name="idPrefix" as="xs:string" select="if (contains(descendant::text[1], 'arrator')) then 'narr' else 'char'"/>
         <div class="legend">
             <!-- The caption is the first descendant text element. -->
             <h4><xsl:value-of select="descendant::text[1]"/></h4>
             <ul>
-                <xsl:apply-templates select="child::g[starts-with(@id, 'line2d_')]" mode="#current"/>
+                <xsl:apply-templates select="child::g[starts-with(@id, 'line2d_')]" mode="#current">
+                    <xsl:with-param tunnel="yes" name="idPrefix" as="xs:string" select="$idPrefix"/>
+                </xsl:apply-templates>
             </ul>
         </div>
     </xsl:template>
     
     <xd:doc>
         <xd:desc>For each line (and its following-sibling text element) we generate a list item.</xd:desc>
+        <xd:param name="idPrefix" as="xs:string">A tunnelled parameter which identifies what type
+        of role the entity has -- narr = narrator, char = character.</xd:param>
     </xd:doc>
     <xsl:template match="g[starts-with(@id, 'line2d_')]" mode="legends">
-        <li>...</li>
+        <xsl:param name="idPrefix" as="xs:string" tunnel="yes"/>
+        <xsl:variable name="style" as="xs:string" select="replace(child::g[child::use][1]/use/@style, '^.*fill:\s*(#[a-h0-9]+).*$', 'background-color: $1; accent-color: $1;')"/>
+        <xsl:variable name="persName" as="xs:string" select="xs:string(following-sibling::g[child::text][1])"/>
+        <li><span style="{if (contains($style, 'color')) then $style else 'background-color: #000000; accent-color: #000000;'}"><input data-id="{$idPrefix}_{hcmc:nameToIdBit($persName)}" type="checkbox" checked="checked"/></span> <xsl:value-of select="$persName"/></li>
     </xsl:template>
+    
+    <xd:doc>
+        <xd:desc>This function converts a name to something that can function as part of an id.
+        This matches the process used in the Python file when generating the SVG.</xd:desc>
+        <xd:param name="name" as="xs:string">The incoming name, which might have spaces or punctuation.</xd:param>
+    </xd:doc>
+    <xsl:function name="hcmc:nameToIdBit" as="xs:string">
+        <xsl:param name="name" as="xs:string"/>
+        <xsl:sequence select="replace($name, '[^a-zA-Z0-9]+', '_')"/>
+    </xsl:function>
     
 </xsl:stylesheet>
