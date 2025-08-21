@@ -49,7 +49,7 @@
                         justify-content: center;
                     }
                     div.graph svg|svg{
-                        width: 90vw;
+                        max-width: 80rem;
                         height: auto;
                         transform-origin: top left;
                         tranform: scale(1.25);
@@ -110,7 +110,7 @@
         <xsl:variable name="strWAxisWidth" as="xs:string" select="replace(descendant::g[@id='axes_1']/g[1]/path/@d, '^[^L]+L\s*([\d\.]+)\s.+$', '$1')"/>
         <xsl:variable name="newWidth" as="xs:float" select="xs:float($strWAxisWidth) + 20"/>
         <xsl:variable name="strOldWidth" as="xs:string" select="replace(@width, '[^\.\d]+', '')"/>
-        <xsl:variable name="strNewWidth" as="xs:string" select="format-number($newWidth, '#.###')"/>
+        <xsl:variable name="strNewWidth" as="xs:string" select="format-number($newWidth, '#.######')"/>
         <xsl:message expand-text="yes">Converting old width of {$strOldWidth} to {$strNewWidth} based on horizontal axis width of {$strWAxisWidth}.</xsl:message>
         <xsl:copy>
             <xsl:apply-templates select="@*" mode="#current">
@@ -129,6 +129,11 @@
         <xsl:param name="strNewWidth" as="xs:string" tunnel="yes"/>
         <xsl:attribute name="{local-name()}" select="replace(., $strOldWidth, $strNewWidth)"/>
     </xsl:template>
+    
+    <xd:doc>
+        <xd:desc>Suppressing DTD default attributes.</xd:desc>
+    </xd:doc>
+    <!--<xsl:template match="svg/@zoomAndPan | svg/@preserveAspectRatio"/>-->
     
     <xd:doc>
         <xd:desc>In processing the svg, we remove the legends.</xd:desc>
