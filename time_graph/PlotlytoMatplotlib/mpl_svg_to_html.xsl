@@ -109,7 +109,7 @@
         <xsl:variable name="idPrefix" as="xs:string" select="if (contains(descendant::text[1], 'arrator')) then 'narr' else 'char'"/>
         <div class="legend">
             <!-- The caption is the first descendant text element. -->
-            <h4><xsl:value-of select="descendant::text[1]"/></h4>
+            <h4><xsl:value-of select="descendant::text[1]"/><xsl:text> </xsl:text><input type="checkbox" checked="checked" class="group"/></h4>
             <ul>
                 <xsl:apply-templates select="child::g[starts-with(@id, 'line2d_')]" mode="#current">
                     <xsl:with-param tunnel="yes" name="idPrefix" as="xs:string" select="$idPrefix"/>
