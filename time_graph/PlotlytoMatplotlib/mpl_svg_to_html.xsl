@@ -39,7 +39,7 @@
                 <meta charset="UTF-8"/>
                 <title><xsl:value-of select="//g[@id='graphTitle']"/></title>
                 <style>
-                    @namespace svg url("http://www.w3.org/2000/svg")
+                    @namespace svg url("http://www.w3.org/2000/svg");
                     
                     div.graph{
                         width: 100%;

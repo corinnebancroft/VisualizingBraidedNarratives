@@ -53,6 +53,7 @@ function alignCheckboxes(groupCheckbox){
                 }
             }
             groupCheckbox.checked = state;
+            groupCheckbox.indeterminate = false;
         }
     }
     catch(error){
