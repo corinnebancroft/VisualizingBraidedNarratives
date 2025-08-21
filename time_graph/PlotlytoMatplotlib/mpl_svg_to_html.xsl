@@ -44,6 +44,9 @@
                     div.graph{
                         width: 100%;
                         margin: 1rem auto 1rem auto;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
                     }
                     div.graph svg|svg{
                         width: 90vw;
@@ -95,6 +98,36 @@
                 </main>
             </body>
         </html>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc>Since we'll be removing the legends, we need to calculate and reset the 
+        image width and the viewbox width. We'll do this by finding the width of the main axes,
+        then adding a small factor to it to give us a little padding; then we'll fix the 
+        existing numbers.</xd:desc>
+    </xd:doc>
+    <xsl:template match="svg" mode="initial">
+        <xsl:variable name="strWAxisWidth" as="xs:string" select="replace(descendant::g[@id='axes_1']/g[1]/path/@d, '^[^L]+L\s*([\d\.]+)\s.+$', '$1')"/>
+        <xsl:variable name="newWidth" as="xs:float" select="xs:float($strWAxisWidth) + 20"/>
+        <xsl:variable name="strOldWidth" as="xs:string" select="replace(@width, '[^\.\d]+', '')"/>
+        <xsl:variable name="strNewWidth" as="xs:string" select="format-number($newWidth, '#.###')"/>
+        <xsl:message expand-text="yes">Converting old width of {$strOldWidth} to {$strNewWidth} based on horizontal axis width of {$strWAxisWidth}.</xsl:message>
+        <xsl:copy>
+            <xsl:apply-templates select="@*" mode="#current">
+                <xsl:with-param name="strOldWidth" as="xs:string" select="$strOldWidth" tunnel="yes"/>
+                <xsl:with-param name="strNewWidth" as="xs:string" select="$strNewWidth" tunnel="yes"/>
+            </xsl:apply-templates>
+            <xsl:apply-templates select="node()" mode="#current"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc>These are the attributes in which we change the width.</xd:desc>
+    </xd:doc>
+    <xsl:template match="svg/@width | svg/@viewBox" mode="initial">
+        <xsl:param name="strOldWidth" as="xs:string" tunnel="yes"/>
+        <xsl:param name="strNewWidth" as="xs:string" tunnel="yes"/>
+        <xsl:attribute name="{local-name()}" select="replace(., $strOldWidth, $strNewWidth)"/>
     </xsl:template>
     
     <xd:doc>
