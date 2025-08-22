@@ -4,15 +4,45 @@
 
 let graphComponents = [];
 let switching = false;
+let tellingTimeCheck = null;
 
 function showHideGraphElements(sender){
     console.log('Click from ' + sender.getAttribute('data-id'));
     console.log('Sender checked? ' + sender.checked);
     let display = sender.checked ? '' : 'none';
-    let re = new RegExp(sender.getAttribute('data-regex'));
-    for (let i=0; i < graphComponents.length; i++){
-        if (graphComponents[i].id.match(re)){
-            graphComponents[i].style.display = display;
+    let strRe = sender.getAttribute('data-regex');
+    let re = new RegExp(strRe);
+    //If sender is the telling time control, we need to work carefully.
+    if ((sender.getAttribute('data-id') == 'tellline') && (sender.checked)){
+        for (let i=0; i < graphComponents.length; i++){
+            let gc = graphComponents[i];
+            if (gc.id.match(re)){
+                let narr = gc.getAttribute('id').replace(/^tellline_\d+_(.+)_\d+$/, '$1');
+                //console.log(narr);
+                let checkNarr = document.querySelector('input[data-id="' + 'narr_' + narr + '"]');
+                if (checkNarr && checkNarr.checked){
+                    gc.style.display = display;
+                }
+            }
+        }
+    }
+    else{
+        for (let i=0; i < graphComponents.length; i++){
+            if (graphComponents[i].id.match(re)){
+                graphComponents[i].style.display = display;
+            }
+        }
+    }
+
+    //Now we may need to do something with telling time lines.
+    if (strRe.match('^narr')){
+        let tellingLinesDisplay = (sender.checked && tellingTimeCheck.checked)? '' : 'none';
+        let strTellingRe = sender.getAttribute('data-telling-regex');
+        let tellingRe = new RegExp(strTellingRe);
+        for (let i=0; i < graphComponents.length; i++){
+            if (graphComponents[i].id.match(tellingRe)){
+                graphComponents[i].style.display = tellingLinesDisplay;
+            }
         }
     }
     if (!switching){
@@ -40,7 +70,7 @@ function showHideAllGraphElements(sender){
 }
 
 function alignCheckboxes(groupCheckbox){
-    if (switching){return;}
+    if (switching || !groupCheckbox){return;}
     try{
         switching = true;
         let subs = groupCheckbox.parentNode.parentNode.querySelectorAll('ul>li input');
@@ -80,6 +110,7 @@ function setupControls(){
         groupChecks[i].addEventListener('change', function(){showHideAllGraphElements(this);}.bind(groupChecks[i]));
     }
     console.log(`Found ${groupChecks.length} group checkboxes.`);
+    tellingTimeCheck = document.querySelector('input[data-id="tellline"]');
 }   
 
 window.addEventListener('load', function(){setupControls();});

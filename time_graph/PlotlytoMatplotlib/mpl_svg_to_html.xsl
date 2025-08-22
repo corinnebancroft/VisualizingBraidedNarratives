@@ -167,7 +167,11 @@
         <xsl:variable name="persName" as="xs:string" select="xs:string(following-sibling::g[child::text][1])"/>
         <li><span style="{if (contains($style, 'color')) then $style else 'background-color: #000000; accent-color: #000000;'}"><input data-id="{$idPrefix}_{hcmc:nameToIdBit($persName)}" 
                     data-regex="{hcmc:nameToIdRegex($persName, $idPrefix)}"
-                    type="checkbox" checked="checked"/></span> <xsl:value-of select="$persName"/></li>
+                    type="checkbox" checked="checked">
+                    <xsl:if test="$idPrefix eq 'narr'">
+                        <xsl:attribute name="data-telling-regex" select="'^tellline_\d+_' || hcmc:nameToIdBit($persName) || '_\d+$'"/>
+                    </xsl:if>
+        </input></span> <xsl:value-of select="$persName"/></li>
     </xsl:template>
     
     <xd:doc>
@@ -189,7 +193,8 @@
     <xsl:function name="hcmc:nameToIdRegex" as="xs:string">
         <xsl:param name="name" as="xs:string"/>
         <xsl:param name="prefix" as="xs:string"/>
-        <xsl:sequence select="$prefix || '(line|mark)?_\d+_' || replace(normalize-space($name), '[^a-zA-Z0-9]+', '_')"/>
+        <!--<xsl:variable name="fullPrefix" as="xs:string" select="if "-->
+        <xsl:sequence select="$prefix || '(line|mark)?_\d+_' || hcmc:nameToIdBit($name)"/>
     </xsl:function>
     
 </xsl:stylesheet>
