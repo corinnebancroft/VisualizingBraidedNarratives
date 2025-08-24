@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="buildSvgPage" default="all">
+  
+  <description>
+      This build file runs the process of generating an HTML page containing an
+      SVG diagram, which itself is first generated from a CSV file using Matplotlib.
+      Another CSV file provides the colours to be used for the narrators and characters.
+  </description>
+    
+    <!-- These are the two input files to be processed. -->
+    <property name="inputData" value="PoDTimeGraphApril2.csv"/>
+    <property name="inputColours" value="PoDColorCode.csv"/>
+    
+    <!-- This is the output file we want to create initially. -->
+    <property name="outputSvg" value="Plague_of_Doves_Time_Graph_text_legend.svg"/>
+    
+    <!-- This is the final HTML file we want to create. -->
+    <basename property="outputNoExt" file="${outputSvg}"/>
+    <property name="outputHtml" value="${outputNoExt}.html"/>
+  
+    <property name="echo.separator" value="************************************************"/>
+    
+    <!-- We'll need access to the date. -->
+    <tstamp>
+        <format property="today" pattern="yyyy-MM-dd" locale="en,CA"/>
+    </tstamp>
+    
+    <!--  Some paths, libs and tasks. (May not all be needed.) -->
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
+    
+    <!-- Location of Saxon jar. -->
+    <property name="saxon" value="${basedir}/lib/saxon-he-12.jar"/>
+  
+  
+  <target name="doMatPlotLib">
+      <description>
+          TARGET doMatPlotLib
+          This generates an SVG graph using two input CSVs, one of which 
+          is the colour map and the other is the narrative data.
+      </description>
+      <exec executable="python" dir="${basedir}">
+          <arg value="MatplotlibAttempt1_mdh.py"/>
+      </exec>
+  </target>
+    
+    <target name="mplSvgToHtml">
+        <description>
+            TARGET mplSvgToHtml
+            This processes the SVG created in doMatPlotLib using XSLT
+            to create an HTML file with embedded JS and CSS.
+        </description>
+        <java fork="true" classname="net.sf.saxon.Transform" 
+            classpath="${saxon}" 
+            failonerror="true">
+            <jvmarg value="-Xmx2048m"/>
+            <arg value="-s:${outputSvg}"/>
+            <arg value="-xsl:mpl_svg_to_html.xsl"/>
+            <arg value="-o:${outputHtml}"/>
+            <arg value="baseDir=${basedir}"/>
+            <arg value="--suppressXsltNamespaceCheck:on"/>
+        </java>
+    </target>
+  
+  <target name="all">
+      <description>
+          TARGET all
+          This runs the entire process to build an SVG file and then 
+          create a web page from it.
+      </description>
+      <antcall target="doMatPlotLib"/>
+      <antcall target="mplSvgToHtml"/>
+  </target>
+  
+</project>
