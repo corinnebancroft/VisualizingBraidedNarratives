@@ -9,7 +9,7 @@
     
     <!-- These are the two input files to be processed. -->
     <property name="inputData" value="PoDTimeGraphApril2.csv"/>
-    <property name="inputColours" value="PoDColorCode.csv"/>
+    <property name="inputColors" value="PoDColorCode.csv"/>
     
     <!-- This is the output file we want to create initially. -->
     <property name="outputSvg" value="Plague_of_Doves_Time_Graph_text_legend.svg"/>
@@ -40,6 +40,8 @@
       </description>
       <exec executable="python" dir="${basedir}">
           <arg value="MatplotlibAttempt1_mdh.py"/>
+          <arg value="--in_df=${inputData}"/>
+          <arg value="--in_color_df=${inputColors}"/>
       </exec>
   </target>
     
