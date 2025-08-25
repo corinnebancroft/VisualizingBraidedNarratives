@@ -15,7 +15,7 @@
     <property name="outputSvg" value="Plague_of_Doves_Time_Graph_text_legend.svg"/>
     
     <!-- This is the final HTML file we want to create. -->
-    <basename property="outputNoExt" file="${outputSvg}"/>
+    <basename property="outputNoExt" file="${outputSvg}" suffix=".svg"/>
     <property name="outputHtml" value="${outputNoExt}.html"/>
   
     <property name="echo.separator" value="************************************************"/>

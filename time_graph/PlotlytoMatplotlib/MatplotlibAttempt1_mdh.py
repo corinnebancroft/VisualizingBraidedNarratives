@@ -2,8 +2,17 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 import re
+import argparse
 from datetime import timedelta
 from matplotlib.lines import Line2D
+
+# Parse command-line arguments.
+argparser = argparse.ArgumentParser(description="Figuring out input files")
+
+argparser.add_argument("--in_df", type=str, default="PoDTimeGraphApril2.csv", help="The main input CSV.")
+argparser.add_argument("--in_color_df", type=str, default="PoDColorCode.csv", help="The CSV specifying colours for chars/narrators.")
+args = argparser.parse_args()
+print(f"Processing input documents {args.in_df} and {args.in_color_df}")
 
 # Pattern for turning names into usable id components.
 rePattern = r'[^0-9a-zA-Z]+'
@@ -12,8 +21,10 @@ rePattern = r'[^0-9a-zA-Z]+'
 plt.rcParams['svg.fonttype'] = 'none' 
 
 # Load data
-df = pd.read_csv('PoDTimeGraphApril2.csv')
-color_df = pd.read_csv('PoDColorCode.csv')
+#df = pd.read_csv('PoDTimeGraphApril2.csv')
+df = pd.read_csv(args.in_df)
+#color_df = pd.read_csv('PoDColorCode.csv')
+color_df = pd.read_csv(args.in_color_df)
 color_dict = dict(zip(color_df.iloc[:, 0], color_df.iloc[:, 2]))
 
 # Convert date columns
