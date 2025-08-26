@@ -13,18 +13,6 @@
 		<field name="character_name">[NULL]</field>
 	</row>
 	<row>
-		<field name="character_id">1</field>
-		<field name="character_name">Test 1</field>
-	</row>
-	<row>
-		<field name="character_id">2</field>
-		<field name="character_name">Test 2</field>
-	</row>
-	<row>
-		<field name="character_id">4</field>
-		<field name="character_name">Test 4</field>
-	</row>
-	<row>
 		<field name="character_id">5</field>
 		<field name="character_name">Sophia Golosovsky</field>
 	</row>
@@ -209,10 +197,6 @@
 		<field name="character_name">crane operators</field>
 	</row>
 	<row>
-		<field name="character_id">54</field>
-		<field name="character_name">Lieutenant Ryakhovsky</field>
-	</row>
-	<row>
 		<field name="character_id">56</field>
 		<field name="character_name">the kidnappER</field>
 	</row>
@@ -227,10 +211,6 @@
 	<row>
 		<field name="character_id">59</field>
 		<field name="character_name">&quot;an older boy in a fitted cap&quot;</field>
-	</row>
-	<row>
-		<field name="character_id">60</field>
-		<field name="character_name">&quot;local teenagers&quot;</field>
 	</row>
 	<row>
 		<field name="character_id">61</field>
@@ -251,10 +231,6 @@
 	<row>
 		<field name="character_id">65</field>
 		<field name="character_name">Katya's &quot;girlfriends&quot;</field>
-	</row>
-	<row>
-		<field name="character_id">66</field>
-		<field name="character_name">Oksana's ex-husband</field>
 	</row>
 	<row>
 		<field name="character_id">67</field>
@@ -321,10 +297,6 @@
 		<field name="character_name">Putin</field>
 	</row>
 	<row>
-		<field name="character_id">84</field>
-		<field name="character_name">The Communists</field>
-	</row>
-	<row>
 		<field name="character_id">85</field>
 		<field name="character_name">Communists</field>
 	</row>
@@ -335,10 +307,6 @@
 	<row>
 		<field name="character_id">87</field>
 		<field name="character_name">&quot;people at a neighbouring campsite&quot;</field>
-	</row>
-	<row>
-		<field name="character_id">88</field>
-		<field name="character_name">volunteers for the search parties</field>
 	</row>
 	<row>
 		<field name="character_id">89</field>
@@ -517,10 +485,6 @@
 		<field name="character_name">&quot;the public&quot; (53) ?</field>
 	</row>
 	<row>
-		<field name="character_id">135</field>
-		<field name="character_name">Russia's currently ruiling political &quot;party&quot;</field>
-	</row>
-	<row>
 		<field name="character_id">137</field>
 		<field name="character_name">The doctor</field>
 	</row>
@@ -581,16 +545,8 @@
 		<field name="character_name">Esso's dance troupes</field>
 	</row>
 	<row>
-		<field name="character_id">153</field>
-		<field name="character_name">Even indigenous peoples</field>
-	</row>
-	<row>
 		<field name="character_id">154</field>
 		<field name="character_name">&quot;professional [dance] ensembles&quot;</field>
-	</row>
-	<row>
-		<field name="character_id">155</field>
-		<field name="character_name">university &quot;students&quot; (61)</field>
 	</row>
 	<row>
 		<field name="character_id">156</field>
@@ -677,10 +633,6 @@
 		<field name="character_name">Chander</field>
 	</row>
 	<row>
-		<field name="character_id">177</field>
-		<field name="character_name">Chegga's &quot;current girlfriend&quot; (66)</field>
-	</row>
-	<row>
 		<field name="character_id">178</field>
 		<field name="character_name">a boy from Achavayam</field>
 	</row>
@@ -721,16 +673,8 @@
 		<field name="character_name">Lilia's father</field>
 	</row>
 	<row>
-		<field name="character_id">190</field>
-		<field name="character_name">&quot;the village police&quot; (Esso)</field>
-	</row>
-	<row>
 		<field name="character_id">191</field>
 		<field name="character_name">News reporters</field>
-	</row>
-	<row>
-		<field name="character_id">192</field>
-		<field name="character_name">Kor</field>
 	</row>
 	<row>
 		<field name="character_id">193</field>
@@ -811,10 +755,6 @@
 	<row>
 		<field name="character_id">215</field>
 		<field name="character_name">Kristina's cousin</field>
-	</row>
-	<row>
-		<field name="character_id">216</field>
-		<field name="character_name">&quot;the girl next to him&quot;</field>
 	</row>
 	<row>
 		<field name="character_id">217</field>
@@ -1277,10 +1217,6 @@
 		<field name="character_name">a vendor (219)</field>
 	</row>
 	<row>
-		<field name="character_id">341</field>
-		<field name="character_name">reporter/photographer (219)</field>
-	</row>
-	<row>
 		<field name="character_id">342</field>
 		<field name="character_name">Marina's colleagues</field>
 	</row>
@@ -1309,10 +1245,6 @@
 		<field name="character_name">orphan girl raised by wolves</field>
 	</row>
 	<row>
-		<field name="character_id">349</field>
-		<field name="character_name">villagers washed out to sea (253)</field>
-	</row>
-	<row>
 		<field name="character_id">350</field>
 		<field name="character_name">Yegor's Friends</field>
 	</row>
@@ -1323,10 +1255,6 @@
 	<row>
 		<field name="character_id">352</field>
 		<field name="character_name">two cousins</field>
-	</row>
-	<row>
-		<field name="character_id">353</field>
-		<field name="character_name">Marx</field>
 	</row>
 	<row>
 		<field name="character_id">354</field>
@@ -1421,16 +1349,8 @@
 		<field name="character_name">&quot;arsonists&quot;</field>
 	</row>
 	<row>
-		<field name="character_id">377</field>
-		<field name="character_name">&quot;mauled hunters&quot;</field>
-	</row>
-	<row>
 		<field name="character_id">378</field>
 		<field name="character_name">&quot;people freezing to death over the winter&quot;</field>
-	</row>
-	<row>
-		<field name="character_id">379</field>
-		<field name="character_name">&quot;drunk drivers&quot; (36)</field>
 	</row>
 	<row>
 		<field name="character_id">380</field>
