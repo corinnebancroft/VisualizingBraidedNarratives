@@ -42,9 +42,9 @@ svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="c
     cursor: pointer;
 }
 dialog#dlgEvents{
-    position: absolute;
+    position: fixed;
     margin: 0 0 0 auto;
-    bottom: 1em;
+    top: 1em;
     right: 1em;
     width: 30vw;
     max-width: 70em;

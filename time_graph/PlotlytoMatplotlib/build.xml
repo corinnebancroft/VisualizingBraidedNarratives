@@ -16,11 +16,10 @@
     <property name="inputJson" value="${inputDataNoExt}.json"/>
     
     <!-- This is the output file we want to create initially. -->
-    <property name="outputSvg" value="Plague_of_Doves_Time_Graph_text_legend.svg"/>
+    <property name="outputSvg" value="${inputDataNoExt}.svg"/>
     
     <!-- This is the final HTML file we want to create. -->
-    <basename property="outputNoExt" file="${outputSvg}" suffix=".svg"/>
-    <property name="outputHtml" value="${outputNoExt}.html"/>
+    <property name="outputHtml" value="${inputDataNoExt}.html"/>
   
     <property name="echo.separator" value="************************************************"/>
     

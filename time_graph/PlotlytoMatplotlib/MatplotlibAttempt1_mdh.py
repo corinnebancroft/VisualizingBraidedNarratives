@@ -145,7 +145,9 @@ legend2 = ax.legend(handles=character_handles, title="Participating Characters",
 
 # Plot graph
 plt.tight_layout()  # Optional: helps with spacing of other elements
-plt.savefig("Plague_of_Doves_Time_Graph_text_legend.svg", format="svg", bbox_inches='tight')
+# Calculate output filename
+outFile = Path(args.in_df).with_suffix('.svg')
+plt.savefig(outFile, format="svg", bbox_inches='tight')
 plt.show()
 
 
