@@ -9,6 +9,7 @@
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xh="http://www.w3.org/1999/xhtml"
     xmlns:hcmc="http://hcmc.uvic.ca/ns"
+    xmlns:js="http://www.w3.org/2005/xpath-functions"
     version="3.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
@@ -18,6 +19,9 @@
             Python's Mathplotlib to wrap it in HTML, and inject some interactivity 
             and controls.</xd:p>
         </xd:desc>
+        <xd:param name="jsonFile" as="xs:string">The path to the JSON file created from the 
+        original CSV for the novel, from which we retrieve the Evidence column data to create
+        popups.</xd:param>
     </xd:doc>
     
     <xd:doc>
@@ -27,6 +31,16 @@
                 omit-xml-declaration="yes" include-content-type="no"/>
     
     <xd:doc>
+        <xd:desc>We need to know where to find the JSON created from the CSV file to get the Evidence row data.</xd:desc>
+    </xd:doc>
+    <xsl:param name="jsonFile" as="xs:string" select="'PoDTimeGraphApril2.json'"/>
+    
+    <xd:doc>
+        <xd:desc>This is the JSON data extracted from the file.</xd:desc>
+    </xd:doc>
+    <xsl:variable name="jsonData" as="document-node()" select="json-to-xml(unparsed-text($jsonFile))"/>
+    
+    <xd:doc>
         <xd:desc>This is basically an identity tranform, although we output a document
         in a different namespace from the input root.</xd:desc>
     </xd:doc>
@@ -34,6 +48,12 @@
     <xsl:mode name="legends" on-no-match="shallow-copy"/>
     
     <xsl:template match="/">
+        <!-- Temporary hack. -->
+        <!--<xsl:result-document method="xml" indent="yes" href="temp.xml">
+            <xsl:sequence select="$jsonData"/>
+        </xsl:result-document>-->
+        
+        <!-- Main output. -->
         <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
             <head>
                 <meta charset="UTF-8"/>
@@ -72,6 +92,12 @@
                     h4{
                         margin: 0.25em;
                     }
+                    section.appendix{
+                        display: none;
+                    }
+                    svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="char_"], svg|g[id^="tellline_"]{
+                        cursor: pointer;
+                    }
                 </style>
                 <script src="time_graph.js"></script>
             </head>
@@ -96,6 +122,20 @@
                         </div>
                     </form>
                 </main>
+                <section class="appendix">
+                    <ul>
+                        <xsl:for-each select="$jsonData//js:map[@key='Event Name']/js:string">
+                            <xsl:variable name="key" as="xs:string" select="@key"/>
+                            <li id="event_{$key}">
+                                <h5><xsl:sequence select="text()"/></h5>
+                                <p><xsl:sequence select="$jsonData//js:map[@key='Evidence']/js:string[@key=$key]/text()"/></p>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </section>
+                <dialog id="dlgEvents">
+                    
+                </dialog>
             </body>
         </html>
     </xsl:template>

@@ -11,6 +11,10 @@
     <property name="inputData" value="PoDTimeGraphApril2.csv"/>
     <property name="inputColors" value="PoDColorCode.csv"/>
     
+    <!-- One of them will be converted to a JSON file. -->
+    <basename property="inputDataNoExt" file="${inputData}" suffix=".csv"/>
+    <property name="inputJson" value="${inputDataNoExt}.json"/>
+    
     <!-- This is the output file we want to create initially. -->
     <property name="outputSvg" value="Plague_of_Doves_Time_Graph_text_legend.svg"/>
     
@@ -59,6 +63,7 @@
             <arg value="-xsl:mpl_svg_to_html.xsl"/>
             <arg value="-o:${outputHtml}"/>
             <arg value="baseDir=${basedir}"/>
+            <arg value="jsonFile=${inputJson}"/>
             <arg value="--suppressXsltNamespaceCheck:on"/>
         </java>
     </target>

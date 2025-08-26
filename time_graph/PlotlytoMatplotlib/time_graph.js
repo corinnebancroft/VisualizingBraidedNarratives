@@ -5,6 +5,7 @@
 let graphComponents = [];
 let switching = false;
 let tellingTimeCheck = null;
+let dlgEvents = null;
 
 function showHideGraphElements(sender){
     console.log('Click from ' + sender.getAttribute('data-id'));
@@ -92,7 +93,15 @@ function alignCheckboxes(groupCheckbox){
     finally{
         switching = false;
     }
+}
 
+function showEvent(sender){
+    let numEvent = sender.id.split('_')[1];
+    let eventInfo = document.getElementById('event_' + numEvent);
+    if (eventInfo !== null){
+        dlgEvents.innerHTML = eventInfo.innerHTML;
+        dlgEvents.show();
+    }
 }
 
 function setupControls(){
@@ -104,6 +113,14 @@ function setupControls(){
     }
     graphComponents = document.querySelectorAll('g[id]');
     console.log(`Found ${graphComponents.length} individual g elements.`);
+    for (let i = 0; i < graphComponents.length; i++){
+        if (graphComponents[i].id.match(/^(narr|narrmark|charline|char|tellline)_/)){
+            graphComponents[i].addEventListener('click', function(){showEvent(this);}.bind(graphComponents[i]));
+        }
+    }
+
+    dlgEvents = document.querySelector('dialog#dlgEvents');
+
     let groupChecks = document.querySelectorAll('input.group');
 
     for (let i = 0; i < groupChecks.length; i++){

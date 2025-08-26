@@ -5,6 +5,7 @@ import re
 import argparse
 from datetime import timedelta
 from matplotlib.lines import Line2D
+from pathlib import Path
 
 # Parse command-line arguments.
 argparser = argparse.ArgumentParser(description="Figuring out input files")
@@ -26,6 +27,9 @@ df = pd.read_csv(args.in_df)
 #color_df = pd.read_csv('PoDColorCode.csv')
 color_df = pd.read_csv(args.in_color_df)
 color_dict = dict(zip(color_df.iloc[:, 0], color_df.iloc[:, 2]))
+
+# Render the CSV as JSON so we can read it later in the XSLT transformation.
+df.to_json(Path(args.in_df).with_suffix('.json'))
 
 # Convert date columns
 df['Start Date'] = pd.to_datetime(df['Start Date'])
