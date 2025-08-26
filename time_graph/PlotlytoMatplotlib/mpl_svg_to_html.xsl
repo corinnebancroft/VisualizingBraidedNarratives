@@ -58,47 +58,7 @@
             <head>
                 <meta charset="UTF-8"/>
                 <title><xsl:value-of select="//g[@id='graphTitle']"/></title>
-                <style>
-                    @namespace svg url("http://www.w3.org/2000/svg");
-                    
-                    div.graph{
-                        width: 100%;
-                        margin: 1rem auto 1rem auto;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: center;
-                    }
-                    div.graph svg|svg{
-                        max-width: 80rem;
-                        height: auto;
-                        transform-origin: top left;
-                        tranform: scale(1.25);
-                    }
-                    div.legends{
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                        gap: 1em;
-                        justify-content: center;
-                        div.legend{
-                            border: solid 1pt gray;
-                            padding: 0.25em;
-                            ul{
-                                list-style-type: none;
-                                padding: 0.25em;
-                            }
-                        }
-                    }
-                    h4{
-                        margin: 0.25em;
-                    }
-                    section.appendix{
-                        display: none;
-                    }
-                    svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="char_"], svg|g[id^="tellline_"]{
-                        cursor: pointer;
-                    }
-                </style>
+                <link rel="stylesheet" href="time_graph.css"/>
                 <script src="time_graph.js"></script>
             </head>
             <body>
@@ -133,7 +93,7 @@
                         </xsl:for-each>
                     </ul>
                 </section>
-                <dialog id="dlgEvents">
+                <dialog id="dlgEvents" closedby="any">
                     
                 </dialog>
             </body>
@@ -205,7 +165,7 @@
         <xsl:param name="idPrefix" as="xs:string" tunnel="yes"/>
         <xsl:variable name="style" as="xs:string" select="replace(child::g[child::use][1]/use/@style, '^.*fill:\s*(#[a-h0-9]+).*$', 'background-color: $1; accent-color: $1;')"/>
         <xsl:variable name="persName" as="xs:string" select="xs:string(following-sibling::g[child::text][1])"/>
-        <li><span style="{if (contains($style, 'color')) then $style else 'background-color: #000000; accent-color: #000000;'}"><input data-id="{$idPrefix}_{hcmc:nameToIdBit($persName)}" 
+        <li><span style="{if (contains($style, 'color')) then $style else 'background-color: #000000; accent-color: #000000;'}" class="chkContainer"><input data-id="{$idPrefix}_{hcmc:nameToIdBit($persName)}" 
                     data-regex="{hcmc:nameToIdRegex($persName, $idPrefix)}"
                     type="checkbox" checked="checked">
                     <xsl:if test="$idPrefix eq 'narr'">
