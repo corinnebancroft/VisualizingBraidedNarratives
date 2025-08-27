@@ -116,7 +116,7 @@ for _, row in df.iterrows():
             ax.plot([x_event, x_event], [y_event, y_interp], '--', color=color, linewidth=0.25, gid='tellline_2_' + re.sub(rePattern, '_', narrator) + '_' + str(_))
 
 # Final touches
-ax.set_title("Plague of Doves Time Graph", gid='graphTitle')
+ax.set_title("Time Graph: " + args.in_df, gid='graphTitle')
 ax.set_xlabel("Text Time")
 ax.set_ylabel("Story Time")
 
@@ -148,7 +148,10 @@ plt.tight_layout()  # Optional: helps with spacing of other elements
 # Calculate output filename
 outFile = Path(args.in_df).with_suffix('.svg')
 plt.savefig(outFile, format="svg", bbox_inches='tight')
-plt.show()
+
+# We don't show the image because that blocks subsequent processing.
+# Open the image locally if you would like to see it.
+# plt.show()
 
 
 
