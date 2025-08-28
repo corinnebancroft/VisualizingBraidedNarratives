@@ -5,9 +5,18 @@ from datetime import timedelta
 from matplotlib.lines import Line2D
 
 # Load data
-df = pd.read_csv('PoDTimeGraphApril2.csv')
+df = pd.read_csv('PoDTimeGraphApril2corrected.csv')
 color_df = pd.read_csv('PoDColorCode.csv')
 color_dict = dict(zip(color_df.iloc[:, 0], color_df.iloc[:, 2]))
+
+# Identify characters
+participating_character_columns = df.columns[14:]
+all_characters = sorted(participating_character_columns)
+
+def list_participating_characters(row):
+    return [char for char in all_characters if str(row[char]).strip().upper() in ['T', 'TRUE']]
+
+df['Participating Characters'] = df.apply(list_participating_characters, axis=1)
 
 # Convert date columns
 df['Start Date'] = pd.to_datetime(df['Start Date'])
@@ -15,15 +24,6 @@ df['End Date'] = pd.to_datetime(df['End Date'])
 df['Midpoint Date'] = df['Start Date'] + (df['End Date'] - df['Start Date']) / 2
 df['Start Date TT'] = pd.to_datetime(df['Start Date TT'], errors='coerce')
 df['End Date TT'] = pd.to_datetime(df['End Date TT'], errors='coerce')
-
-# Identify characters
-participating_character_columns = df.columns[15:]
-all_characters = sorted(participating_character_columns)
-
-def list_participating_characters(row):
-    return [char for char in all_characters if str(row[char]).strip().upper() in ['T', 'TRUE']]
-
-df['Participating Characters'] = df.apply(list_participating_characters, axis=1)
 
 # Narrator and character colors
 unique_narrators = df['Narrator'].dropna().unique()
@@ -113,13 +113,13 @@ character_handles = [
 ]
 
 # Add narrator legend
-#legend1 = ax.legend(handles=narrator_handles, title="Narrators",
-                    #loc='upper left', bbox_to_anchor=(1.02, 1), borderaxespad=0.)
-#ax.add_artist(legend1)
+legend1 = ax.legend(handles=narrator_handles, title="Narrators",
+                    loc='upper left', bbox_to_anchor=(1.02, 1), borderaxespad=0.)
+ax.add_artist(legend1)
 
 # Add character legend
-#legend2 = ax.legend(handles=character_handles, title="Participating Characters",
-                   # loc='upper left', bbox_to_anchor=(1.02, 0.5), borderaxespad=0.)
+legend2 = ax.legend(handles=character_handles, title="Participating Characters",
+                   loc='upper left', bbox_to_anchor=(1.02, 0.5), borderaxespad=0.)
 
 # Plot graph
 plt.tight_layout()  # Optional: helps with spacing of other elements
