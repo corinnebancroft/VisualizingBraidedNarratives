@@ -32,14 +32,14 @@
     <property name="saxon" value="${basedir}/lib/saxon-he-12.jar"/>
   
   
-  <target name="doMatPlotLib">
+  <target name="generateSvg">
       <description>
-          TARGET doMatPlotLib
+          TARGET generateSvg
           This generates an SVG graph using two input CSVs, one of which 
           is the colour map and the other is the narrative data.
       </description>
       <exec executable="python" dir="${basedir}">
-          <arg value="MatplotlibAttempt1_mdh.py"/>
+          <arg value="generate_svg.py"/>
           <arg value="--in_df=${inputData}"/>
           <arg value="--in_color_df=${inputColors}"/>
       </exec>
@@ -70,7 +70,7 @@
           This runs the entire process to build an SVG file and then 
           create a web page from it.
       </description>
-      <antcall target="doMatPlotLib"/>
+      <antcall target="generateSvg"/>
       <antcall target="mplSvgToHtml"/>
   </target>
   
