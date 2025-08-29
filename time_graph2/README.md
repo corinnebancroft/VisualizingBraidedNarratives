@@ -22,3 +22,26 @@ The HTML links to two other files, time_graph.js and time_graph.css, also in thi
 
 ## How the process actually works
 
+ - The Python code uses Matplotlib to generate an SVG diagram with a legend which is also rendered in SVG alongside the graph. This process ensures that each component of the graph is labelled with a meaningful id based on its relationship to the data -- narrator, character, telling time, etc. -- and its row number in the CSV. The graph created is perfectly good SVG but it is not interactive, and the position of the legends means that the graph dimensions are constrained. 
+
+ - The Python code also creates a JSON version of the CSV data; this will be used by the XSLT to create popups in the web page.
+
+ - The XSLT processes the SVG to wrap it in an HTML page. The legends are removed from the SVG and the remaining graph is widened to make use of that space; then the legend data from the SVG is used to create new controls in HTML, sitting below the graph, along with an additional Telling Time control. The controls are in the form of checkboxes, all checked by default.
+ - The XSLT also loads the JSON file generated in the previous step, and uses that data to create an appendix in the HTML file, consisting of a list, with one item for each row in the spreadsheet, containing the event data (hidden by default).
+
+ - When the resulting web page is loaded in a browser, the linked JavaScript in time_graph.js parses the controls and the SVG, and adds events which cause parts of the graph to be made visible or invisible when the checkboxes are toggled. It also turns most of the graph components into links which, when clicked, show a popup dialog box which is populated by the contents of one of the invisible event items.
+ 
+## What remains to be done
+
+Among the things we haven't had time to finish as of 2025-08-29 are:
+
+1. Different components of the graph, representing event points, character points, and telling time lines, should display different information. At the moment they all display just the Event Name and Evidence columns from the spreadsheet. This would require more sophisticated XSLT processing of the JSON version of the spreadsheet, to create separate versions of each row for each component; and then the JavaScript would have to be updated so that it links the appropriate version of row data to each graph component.
+
+2. Mechanisms for integrating these generated HTML pages into the main site build. That will require:
+
+ - Moving the required site build components from HCMC's svn into the GitHub repository.
+ - Adding some special processing for HTML pages in (for example) a particular folder, causing them to be integrated into the site in a different way from the existing SVGs.
+ 
+ 
+ 
+ 
