@@ -28,9 +28,6 @@
         <format property="today" pattern="yyyy-MM-dd" locale="en,CA"/>
     </tstamp>
     
-    <!--  Some paths, libs and tasks. (May not all be needed.) -->
-    <taskdef resource="net/sf/antcontrib/antcontrib.properties"/>
-    
     <!-- Location of Saxon jar. -->
     <property name="saxon" value="${basedir}/lib/saxon-he-12.jar"/>
   

@@ -165,13 +165,18 @@
         <xsl:param name="idPrefix" as="xs:string" tunnel="yes"/>
         <xsl:variable name="style" as="xs:string" select="replace(child::g[child::use][1]/use/@style, '^.*fill:\s*(#[a-h0-9]+).*$', 'background-color: $1; accent-color: $1;')"/>
         <xsl:variable name="persName" as="xs:string" select="xs:string(following-sibling::g[child::text][1])"/>
-        <li><span style="{if (contains($style, 'color')) then $style else 'background-color: #000000; accent-color: #000000;'}" class="chkContainer"><input data-id="{$idPrefix}_{hcmc:nameToIdBit($persName)}" 
-                    data-regex="{hcmc:nameToIdRegex($persName, $idPrefix)}"
-                    type="checkbox" checked="checked">
-                    <xsl:if test="$idPrefix eq 'narr'">
-                        <xsl:attribute name="data-telling-regex" select="'^tellline_\d+_' || hcmc:nameToIdBit($persName) || '_\d+$'"/>
-                    </xsl:if>
-        </input></span> <xsl:value-of select="$persName"/></li>
+        
+        <!-- Because of a bug in the original code, a spurious character called "Midpoint Date" is generated.
+             We filter that out. -->
+        <xsl:if test="not(contains($persName, 'Midpoint Date'))">
+            <li><span style="{if (contains($style, 'color')) then $style else 'background-color: #000000; accent-color: #000000;'}" class="chkContainer"><input data-id="{$idPrefix}_{hcmc:nameToIdBit($persName)}" 
+                        data-regex="{hcmc:nameToIdRegex($persName, $idPrefix)}"
+                        type="checkbox" checked="checked">
+                        <xsl:if test="$idPrefix eq 'narr'">
+                            <xsl:attribute name="data-telling-regex" select="'^tellline_\d+_' || hcmc:nameToIdBit($persName) || '_\d+$'"/>
+                        </xsl:if>
+            </input></span> <xsl:value-of select="$persName"/></li>
+        </xsl:if>
     </xsl:template>
     
     <xd:doc>
