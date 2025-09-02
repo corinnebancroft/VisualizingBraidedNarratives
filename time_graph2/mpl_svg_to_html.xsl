@@ -53,15 +53,17 @@
             <xsl:sequence select="$jsonData"/>
         </xsl:result-document>-->
         
+        <xsl:variable name="graphTitle" as="xs:string" select="substring-before(//g[@id='graphTitle'], '.')"/>
+        
         <!-- Main output. -->
         <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
             <head>
                 <meta charset="UTF-8"/>
-                <title><xsl:value-of select="//g[@id='graphTitle']"/></title>
+                <title><xsl:value-of select="$graphTitle"/></title>
                 <link rel="stylesheet" href="time_graph.css"/>
                 <script src="time_graph.js"></script>
             </head>
-            <body>
+            <body id="{$graphTitle}" title="{$graphTitle}">
                 <main>
                     <!--<xsl:comment>SVG loaded as an image, minus legends.</xsl:comment>
                     <img src="{tokenize(base-uri(/), '/')[last()]}" alt="{xs:string(//g[@id='graphTitle'])}"/>-->
