@@ -7,19 +7,7 @@
       Another CSV file provides the colours to be used for the narrators and characters.
   </description>
     
-    <!-- These are the two input files to be processed. -->
-    <property name="inputData" value="PoDTimeGraphApril2.csv"/>
-    <property name="inputColors" value="PoDColorCode.csv"/>
     
-    <!-- One of them will be converted to a JSON file. -->
-    <basename property="inputDataNoExt" file="${inputData}" suffix=".csv"/>
-    <property name="inputJson" value="${inputDataNoExt}.json"/>
-    
-    <!-- This is the output file we want to create initially. -->
-    <property name="outputSvg" value="${inputDataNoExt}.svg"/>
-    
-    <!-- This is the final HTML file we want to create. -->
-    <property name="outputHtml" value="${inputDataNoExt}.html"/>
   
     <property name="echo.separator" value="************************************************"/>
     
@@ -32,6 +20,37 @@
     <property name="saxon" value="${basedir}/lib/saxon-he-12.jar"/>
   
   
+  <target name="init">
+      <description>
+          TARGET init
+          This just sets things up and asks for required input.
+      </description>
+      <!-- A title for the graph. -->
+      <input message="Please provide a title for this graph: e.g. Plague of Doves"
+          addproperty="graphTitle"/>
+      
+      <!-- An id for the graph. -->
+      <input message="Please provide an id for the graph, all lower-case, ending in -ft: e.g. pod-ft"
+          addproperty="graphId"/>
+      
+      <!-- These are the two input files to be processed. -->
+      <input message="Please type the name of a CSV file in this folder which contains the data for the graph: e.g. PoD.csv"
+          addproperty="inputData"/>
+      
+      <input message="Please type the name of a CSV file in this folder which contains the colour mapping for the graph: e.g. PoDColors.csv"
+          addproperty="inputColors"/>
+      
+      <!-- One of them will be converted to a JSON file. -->
+      <basename property="inputDataNoExt" file="${inputData}" suffix=".csv"/>
+      <property name="inputJson" value="${inputDataNoExt}.json"/>
+      
+      <!-- This is the output file we want to create initially. -->
+      <property name="outputSvg" value="${inputDataNoExt}.svg"/>
+      
+      <!-- This is the final HTML file we want to create. -->
+      <property name="outputHtml" value="${graphId}.html"/>
+  </target>
+  
   <target name="generateSvg">
       <description>
           TARGET generateSvg
@@ -42,6 +61,8 @@
           <arg value="generate_svg.py"/>
           <arg value="--in_df=${inputData}"/>
           <arg value="--in_color_df=${inputColors}"/>
+          <arg value="--graph_title=${graphTitle}"/>
+          <arg value="--graph_id=${graphId}"/>
       </exec>
   </target>
     
@@ -60,18 +81,18 @@
             <arg value="-o:${outputHtml}"/>
             <arg value="baseDir=${basedir}"/>
             <arg value="jsonFile=${inputJson}"/>
+            <arg value="graphTitle=${graphTitle}"/>
+            <arg value="graphId=${graphId}"/>
             <arg value="--suppressXsltNamespaceCheck:on"/>
         </java>
     </target>
   
-  <target name="all">
+  <target name="all" depends="init, generateSvg, mplSvgToHtml">
       <description>
           TARGET all
           This runs the entire process to build an SVG file and then 
           create a web page from it.
       </description>
-      <antcall target="generateSvg"/>
-      <antcall target="mplSvgToHtml"/>
   </target>
   
 </project>

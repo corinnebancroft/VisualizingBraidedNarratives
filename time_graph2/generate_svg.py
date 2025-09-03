@@ -12,8 +12,11 @@ argparser = argparse.ArgumentParser(description="Figuring out input files")
 
 argparser.add_argument("--in_df", type=str, default="PoDTimeGraphApril2.csv", help="The main input CSV.")
 argparser.add_argument("--in_color_df", type=str, default="PoDColorCode.csv", help="The CSV specifying colours for chars/narrators.")
+argparser.add_argument("--graph_title", type=str, default="[Graph title]", help="The human-readable title for the graph.")
+argparser.add_argument("--graph_id", type=str, default="PoDTimeGraphApril2-ft", help="The unique id for the graph, ending in -ft.")
 args = argparser.parse_args()
 print(f"Processing input documents {args.in_df} and {args.in_color_df}")
+print(f"Graph id will be {args.graph_id} and title will be {args.graph_title}")
 
 # Pattern for turning names into usable id components.
 rePattern = r'[^0-9a-zA-Z]+'
@@ -116,7 +119,7 @@ for _, row in df.iterrows():
             ax.plot([x_event, x_event], [y_event, y_interp], '--', color=color, linewidth=0.25, gid='tellline_2_' + re.sub(rePattern, '_', narrator) + '_' + str(_))
 
 # Final touches
-ax.set_title("Time Graph: " + args.in_df, gid='graphTitle')
+ax.set_title(args.graph_title, gid='graphTitle')
 ax.set_xlabel("Text Time")
 ax.set_ylabel("Story Time")
 

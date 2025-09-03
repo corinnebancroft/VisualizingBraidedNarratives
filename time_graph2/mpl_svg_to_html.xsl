@@ -41,6 +41,17 @@
     <xsl:variable name="jsonData" as="document-node()" select="json-to-xml(unparsed-text($jsonFile))"/>
     
     <xd:doc>
+        <xd:desc>This title for the graph should be passed in as a parameter,
+        but in its absence we use what's in the SVG.</xd:desc>
+    </xd:doc>
+    <xsl:param name="graphTitle" as="xs:string" select="substring-before(//g[@id='graphTitle'], '.')"/>
+    
+    <xd:doc>
+        <xd:desc>This id for the HTML page should be passed in.</xd:desc>
+    </xd:doc>
+    <xsl:param name="graphId" as="xs:string" select="substring-before(//g[@id='graphTitle'], '.') || '-tg'"/>
+    
+    <xd:doc>
         <xd:desc>This is basically an identity tranform, although we output a document
         in a different namespace from the input root.</xd:desc>
     </xd:doc>
@@ -53,8 +64,6 @@
             <xsl:sequence select="$jsonData"/>
         </xsl:result-document>-->
         
-        <xsl:variable name="graphTitle" as="xs:string" select="substring-before(//g[@id='graphTitle'], '.')"/>
-        
         <!-- Main output. -->
         <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
             <head>
@@ -63,7 +72,7 @@
                 <link rel="stylesheet" href="time_graph.css"/>
                 <script src="time_graph.js"></script>
             </head>
-            <body id="{$graphTitle}" title="{$graphTitle}">
+            <body id="{$graphId}" title="{$graphTitle}">
                 <main>
                     <!--<xsl:comment>SVG loaded as an image, minus legends.</xsl:comment>
                     <img src="{tokenize(base-uri(/), '/')[last()]}" alt="{xs:string(//g[@id='graphTitle'])}"/>-->
