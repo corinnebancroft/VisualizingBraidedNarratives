@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.w3.org/1999/xhtml" id="tsatf-ex" class="svg-viz" title="The Sound and the Fury visualization: Exchanges">
+    <main class="svgView">
+        <div class="content-column">
+            <h1 class="page-title">The Sound and the Fury Text Space, Exchanges</h1>          
+            <details>          
+                <summary>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 18 6-6-6-6"></path>
+                    </svg> View Statistics
+                </summary>    
+                <table>
+                    <tr>
+                        <th>Novel</th>
+                        <th># of Nodes</th>
+                        <th># of Edges</th>
+                        <th>Average Weighted Degree</th>
+                        <th>Network Diameter</th>
+                        <th>Graph Density</th>
+                        <th>Modularity</th>
+                        <th># of Communities</th>
+                    </tr>
+                    <tr>
+                        <td>The Sound and the Fury Exchanges Only</td>
+                        <td>106</td>
+                        <td>381</td>
+                        <td>7.266</td>
+                        <td>6</td>
+                        <td>0.034</td>
+                        <td>0.358</td>
+                        <td>6</td>
+                    </tr>
+                </table>   
+            </details>
+            <embed class="braid" type="image/svg+xml" src="images/viz/tsatf-ex.svg" id="viz" />
+        </div>
+    </main>
+</article>

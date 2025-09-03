@@ -1,0 +1,82 @@
+details {
+	//Details only variables
+	--details-border-color: #8b8a8b;
+	--details-border-width: 2px;
+	--details-border-radius: 5px;
+	--summary-padding: .25rem .5rem .25rem .25rem;
+	--summary-weight: 500;
+	--detail-marker-color: var(--text-color);
+	--detail-marker-width: 20px;
+	--detail-marker-height: 20px;
+	
+	
+	border: var(--details-border-width) solid var(--details-border-color);
+		border-radius: var(--details-border-radius);
+		border-width: var(--details-border-width);
+		transition: all .3s ease-in-out;
+		
+		&:hover {
+			border-color: var(--highlight);
+		}
+		
+		> fieldset {
+			padding: var(--fieldset-padding);
+		}
+	
+		summary {
+			font-family: var(--primary-sans);
+			padding: var(--summary-padding);
+			font-weight: var(--summary-weight);
+			list-style: none;
+			display: grid;
+			gap: 0;
+			grid-template-columns: max-content 1fr;
+			align-items: center;
+			cursor: pointer;
+			color: inherit;
+			transition: color .3s ease-in-out;
+			
+			&:hover {
+				color: var(--highlight);
+				border-color: var(--highlight);
+			}
+			
+			&::-webkit-details-marker {
+			 display: none;
+			}
+			
+			svg {
+				width: var(--detail-marker-width);
+				height: var(--detail-markder-height);
+				transform: rotate(0deg);
+				transition: all .3s ease-in-out;
+				
+				path {
+					stroke: var(--highlight);
+				}
+			}	
+			
+		}
+		
+		summary:hover > svg {
+			transform: rotate(90deg);
+			transition: transform .3s ease-in-out;
+		}
+		
+		summary:hover > svg > path {
+			stroke: var(--highlight);
+		}	
+	}
+	
+	
+	
+	details[open] > summary > svg
+	{
+		transform: rotate(90deg);
+		transition: transform .3s ease-in-out;
+		
+		path {
+			stroke: var(--highlight);
+		}
+	}
+	

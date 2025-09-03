@@ -1,0 +1,252 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" id="methods">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Braided Narratives: Methods</title>
+      <link rel="icon" href="favicon.ico" sizes="48x48"/>
+      <link rel="icon" href="favicon.svg" sizes="any" type="image/svg+xml"/>
+      <link rel="mask-icon" href="mask-icon.svg" color="#ffffff"/>
+      <link rel="manifest" href="site.webmanifest"/>
+      <link rel="stylesheet" href="css/braidednarratives.css"/><script src="js/pux.js"></script>
+      </head>
+   <body id="top">
+      <header data-state="closed" id="site-header" class="open"><a href="#content" class="skip-link">Skip to content</a><div id="mobile-nav-banner" data-state="closed"><a href="index.html"><img width="52" height="40" class="site-logo-mobile" src="images/site-logo-top-colour.webp" alt="Site logo"/></a><button id="hamburger-nav" class="mobile-nav-toggle" aria-label="Open and close mobile navigation menu" aria-expanded="false" aria-controls="site-navigation"><span aria-hidden="true" class="line-container"><span class="bar-top"></span><span class="bar-bottom"></span></span></button></div>
+         <div class="nav-wrapper">
+            <nav class="main-menu" id="site-navigation" aria-expanded="true">
+               <ul class="clicky-menu no-js" role="menu">
+                  <li><a role="menuitem" href="index.html">Home</a></li>
+                  <li><a role="menuitem" href="structure.html">Formal structure</a></li>
+                  <li><a role="menuitem" href="networks.html">Character networks</a></li>
+                  <li><a role="menuitem" href="graphs.html">Time graphs</a></li>
+                  <li><a role="menuitem" href="methods.html">Methods</a></li>
+                  <li><a role="menuitem" href="about.html">About</a></li>
+               </ul>
+            </nav><a href="index.html"><img width="52" height="40" class="site-logo" src="images/site-logo-top-colour.webp" alt="Site logo"/></a></div>
+      </header>
+      <main class="menuItem">
+         
+         
+         <div class="content-column">
+            
+            <h1 class="page-title">Methods</h1>
+            
+            
+            <h2>Data-Collection as Close Reading</h2>
+            
+            
+            <p>This project is built on the idea that interpreting a novel depends as much on the
+               small details as the broad turns of plot. As David Herman writes, “[i]n trying to
+               make sense of narrative, interpreters attempt to reconstruct not to just what happened—who
+               did what to or with whom, for how long, how often and in what order—but also the surrounding
+               context or environment embedding existents, their attributes, and the actions and
+               events in which they are more or less centrally involved” (13-14)<sup>1</sup>. From this cognitive perspective, minute details become cues that help readers re-construct
+               or co-construct<sup>2</sup> the storyworld. Close reading, a traditional strategy of literary interpretation,
+               involves the attentive consideration of these small details and their possible significances.
+               In close reading, specific details such as a particular passage or the use of a specific
+               tense become evidence for broader claims.</p>
+            
+            
+            <p>This project seeks to gather the sort of evidence one would notice while reading closely
+               and collect it in a format that allows us to use digital tools to identify and visualize
+               the patterns that emerge across a large body of evidence. While other digital projects
+               have abandoned close reading practices in favour of “distant reading,” this project
+               maintains a commitment to attending closely to the text and using those very details
+               for a scaled-up analysis. To adopt Paul Martin Eve’s metaphor<sup>3</sup>, digital methods can function both as a microscope, exposing intricate nuances of
+               individual texts, and as a telescope, illuminating patterns across texts. To achieve
+               these scope-like results, we treat data entry as close-reading evidence gathering
+               without pre-existing broader claims. We collect evidence related to formal structure
+               (how is the novel organized into sections and sub-sections?), character networks (how
+               do the characters in the novel form into communities?), and plot events (what happens
+               and when do we learn about it?). After reading the novel and discussing it with the
+               team, research assistants (RAs) begin collecting data. In the pilot project, they
+               entered information into a relational database. If the project receives further funding,
+               we will use Extensible Markup Language (XML) following the Text Encoding Initiative
+               (TEI) guidelines. In some cases, the information the RAs enter into the database is
+               an objective observation such as the title or length of a chapter. In other instances,
+               the information entered is the result of a critical interpretation. For instance,
+               close readers of <cite>The Sound and the Fury</cite> know that the golfer’s call “caddie” references both the person who carries their
+               clubs and Caddy Compson. We discuss situations where the RA cannot interpret the evidence
+               presented as a team and work to land on a reasonable interpretation.</p>
+            
+            
+            <p>The methods for data-collection specific to each visualization are detailed in the
+               following sections. In all visualizations, we use the printed page as the smallest
+               unit of analysis, which corresponds to the dominant citation practices in the discipline.</p>
+            
+            
+            <h2>Braid Visualizations</h2>
+            
+            
+            <p>Data-Collection: RAs enter information about the novel’s organization into the “container
+               table” of the database. We use the term container to refer to any portion of text
+               that is demarcated as a unit. This process involves analyzing the novel’s organization
+               into parts, chapters, sub-sections, and embedded narratives. For instance, a novel
+               divided into two parts will have two “level one” containers. The RAs specify the title
+               of each container, its start page, end page, and narrator (if it has only one). Each
+               of these two parts may contain multiple chapters, which the RAs record as “level two”
+               containers. The RAs specify the same information about title, start page, end page,
+               and narrator. In addition, they indicate that a chapter in Part 1 takes Part 1 as
+               a parent.</p>
+            
+            
+            <p>This process is straightforward for formally marked containers such as parts, chapters,
+               and even labelled sub-sections, but it’s also possible to have containers without
+               formal titles such as embedded narratives. We include informal containers in the “container
+               table” in the following situations:</p>
+            
+            
+            <ul>
+               
+               <li>If the new container has a different narrator than that of the parent container; for
+                  instance, embedded narratives often feature a character narrator different than that
+                  of the parent container.</li>
+               
+               <li>If the new container is typographically marked as distinct; for instance, letters
+                  not only tend to have a different narrator but also are often rendered in a different
+                  font with different sized margins than the parent container.</li>
+               
+               <li>If the narrator identifies the container as separate from the parent; for instance,
+                  in <cite>The History of Love</cite>, character-narrator Leo announces that he is writing a book: "I wrote a sentence:"
+                  (9); the italics that follow the colon belong to that book "<cite>Once upon a time there was a boy</cite>" (9). This is an embedded narrative identified by the narrator.</li>
+               </ul>
+            
+            
+            <p>We do not include dialogue as embedded narratives. We can have several levels in this
+               structure. For instance, a letter in an embedded narrative in a chapter of a part
+               would be a level four container.</p>
+            
+            
+            <p>We used Adobe Illustrator to make the formal structure infographics. Our current process
+               visualizes level one and level two containers. You can find the steps here: <a href="pdf/method-braid.pdf">Braid Method (PDF)</a>.</p>
+            
+            
+            <h2>Social Network Visualizations</h2>
+            
+            
+            <p>Data-Collection: Social Network diagrams connect nodes with edges. For our purposes,
+               each character represents a node and the relationship between characters represent
+               an edge. Some who use social networking visualization adopt an exchange as the criterion
+               for a relationship<sup>4</sup>, but this method, devised for drama, misses much of what happens in a novel, a form
+               that depends on the nuances of focalization, observation, perception, and memory.
+               Consider the classic Peanuts comic strip. Charlie Brown has a significant crush on
+               the Little Red-Haired Girl, but he never actually talks to her. Methods that focus
+               only on exchanges would exclude her from a character network. A similar exclusion
+               may occur in an analysis of <cite>Harry Potter and the Sorcerer’s Stone</cite>. Aside from a few lines of dialogue at the end of the novel, Voldemort does not have
+               any exchanges with anyone. A social network graph that relies only on exchanges would
+               render this major villain as a more minor character than Harry’s cousin Dudley.</p>
+            
+            
+            <p>Our method involves documenting evidence of a relationship, the way one does while
+               close reading, rather than limiting the kinds of relationships included. Because social
+               network graphing visualizes relationships, we strove to be as inclusive as possible
+               with what constitutes a relationship. We record a relationship if there is any evidence
+               of a relationship between the characters. This evidence can include: a traditional
+               exchange, the declaration of a relationship (the phrase “Mr and Mrs Dursley” declares
+               a marriage between the two), a physical interaction (Voldemort tried to kill Harry),
+               a reference to another character (McGonagall said that He Who Must Not Be Named…),
+               and perception and thought (Charlie Brown thought about the Little Red-Haired Girl).
+               In the pilot project, we distinguished between exchanges and relationships, even though
+               all exchanges are evidence of a relationship, to explore the affordances of each method.
+               We discovered that including relationships rather than just exchanges offers a more
+               robust and complete visualization of the novel. If the project receives further funding,
+               we will abandon the distinction between exchanges and relationships and instead distinguish
+               between direct and indirect relationships. A direct relationship is one where two
+               characters actually meet, and an indirect relationship is one where one character
+               only knows about another character. We also marked the direction of a relationship.
+               Charlie Brown’s admiration for the Little-Red-Haired Girl is a one way relationship.
+               The Dursley’s marriage is a two-way or reciprocal relationship. Because we record
+               the page on which a relationship occurs, the HCMC programmers are able to use the
+               Story Space relationship data to create tables of Text Space relationships. Text Space
+               relationships are relationships exist between characters who appear on the same page
+               regardless of whether they have a relationship in the storyworld. For further information
+               on our data collection method see here: <a href="pdf/method-relationship.pdf">Relationships Method (PDF)</a>.</p>
+            
+            
+            <p>We use Gephi, a free, open-source network analysis and visualization software, to
+               make the social network visualizations. This involves exporting the relationship data
+               from the relational database as two .csv files. The first is a node file where each
+               character is assigned a numerical ID. The second is an edges file that documents the
+               relationships between characters (although the file only uses their numerical ID).
+               After importing the spreadsheets into Gephi, we use the software to perform a number
+               of analyses and algorithms that modify the size, placement, and colour of the nodes
+               and edges. Those steps are delineated here: <a href="pdf/method-gephi.pdf">Gephi Method (PDF)</a>.</p>
+            
+            
+            
+            
+            <h2>Time Graphs</h2>
+            
+            
+            <p>Data collection: After reading the novel and gathering all the information relevant
+               for the formal structure and social network visualizations, the project team is quite
+               familiar with the novel’s plot. Each individual develops a list of major plot events
+               that should be included in a timeline of the novel. If an event meets one of the following
+               criteria, we consider it a major event:</p>
+            
+            
+            <ul>
+               
+               
+               <li>The event is a kernel event; Seymour Chatman defines a kernel as “narrative moments
+                  that give rise to cruxes in the direction taken by events. They are nodes of hinges
+                  in the structure, branching points which force a movement into one or two (or more)
+                  possible paths” (53)<sup>5</sup>.</li>
+               
+               <li>The event has major thematic value; the event may not move the plot forward, but does
+                  relate to the novel’s major thematic concerns.</li>
+               
+               </ul>
+            
+            
+            <p>After each team member has developed their list, we compare each against the others.
+               This process reveals consensus about many key events. We use the criteria and evidence
+               from the novel to resolve any conflicts. After agreeing on a list of events, we determine,
+               to the best of our ability, the story time when the event occurred. In many instances,
+               we can identify a fictional date, which allows us to graph absolute time. In cases
+               where we cannot, the relational database allows us to indicate that a given event
+               follows another event, which allows us to graph the relative time. After developing
+               the list of events and their story times, the RAs go back through the novel and document
+               all mentions of each event. This will document their text times. The HCMC programmers
+               use D3, a free, open-source JavaScript library, to plot story time against text time.
+               RAs also indicate which characters participate in each event. The HCMC programmers
+               manipulate the colour of the point representing the event to indicate which major
+               characters participate. We calculated which characters are represented through the
+               weighted degree function in Gephi.</p>
+            </div>
+         
+         <section class="footnotes">       
+            
+            <ul class="bibliography">
+               
+               <li><sup>1</sup>Herman, David. <cite>Story Logic: Problems and Possibilities of Narrative</cite>. University of Nebraska Press, 2002.</li>
+               
+               <li><sup>2</sup>Effron, Malcah, et al. “Narrative Co-Construction: A Rhetorical Approach.” <cite>Narrative</cite>, vol. 27, no. 3, 2019, pp. 332–52, https://doi.org/10.1353/nar.2019.0019.</li>
+               
+               <li><sup>3</sup>Eve, Martin Paul. “Close Reading with Computers: Genre Signals, Parts of Speech, and
+                  David Mitchell’s Cloud Atlas” <cite>SubStance</cite>, vol. 46, no. 3, 2017 (Issue 144), pp. 76-104.</li>
+               
+               <li><sup>4</sup>See Moretti, Franco. Distant Reading. Verso, 2013 or Alexander, Sam. “Social Network
+                  Analysis and the Scale of Modernist Fiction.” <cite>Modernism/modernity</cite>, vol. 3, cycle 4, 2019 (online).</li>
+               
+               <li><sup>5</sup>Chatman, Seymour. <cite>Story and Discourse: Narrative Structure in Fiction and Film</cite>. Cornell University Press, 1978.</li>
+               </ul>
+            </section>
+         </main><a class="scroll-to-top" aria-hidden="false" href="#top"><svg xmlns="http://www.w3.org/2000/svg" class="up-caret" aria-hidden="true" width="12" height="7" viewBox="0 0 12 7">
+            <polyline fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" points="0 5 5 0 9.999 5" transform="translate(1 1)"></polyline>
+            <polyline stroke-linejoin="miter" points="4,28 20,12 36,28"></polyline></svg><span>Back<br/> to Top</span></a><footer>
+         <div class="site-specific-footer"><img class="site-footer-logo" src="images/footer-logo-colour.webp" width="52" height="40" alt="Visualizing Braided Narratives site logo"/></div>
+         <div class="footer-info">
+            <div class="copyright">
+               Edited by <a href="https://www.uvic.ca/humanities/english/people/regularfaculty/bancroft-corinne.php">© 2025 Corinne Bancroft</a></div>
+            <div class="comments"><a href="mailto:corinnebancroft@uvic.ca">Comments and suggestions</a></div>
+         </div>
+         <div class="citation">Cite this page:
+            <span id="citeThisPage">Bancroft, Corinne, ed. “Methods” Visualizing Braided Narratives. University of Victoria,
+               3rd September 2025, https://hcmc.uvic.ca/project/braidednarratives/methods.html.</span></div>
+         <div class="logos"><a class="uvic-logo-internal" href="https://hcmc.uvic.ca"><img width="195" height="35" src="images/logo-uvic-hcmc-research.svg" alt="University of Victoria: Humanities Computing and Media Centre"/></a></div>
+         <div id="buildInfo">
+            <p>Build date: <time datetime="2025-09-03T14:27:43-07:00">September 03, 2025 14:27 (SVN revision Unversioned directory)</time></p>
+         </div>
+      </footer>
+   </body>
+</html>

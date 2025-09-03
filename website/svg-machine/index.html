@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SVG Shapes with Text from CSV</title>
+<style>
+	body {
+		font-family: Arial, sans-serif;
+		margin: 20px;
+	}
+
+	#uploadSection {
+		margin-bottom: 20px;
+	}
+
+	#uploadInstructions {
+		font-weight: bold;
+		color: #333;
+	}
+
+	#csvFileInput {
+		padding: 10px;
+		font-size: 16px;
+		border: 2px solid #6a0dad;
+		border-radius: 5px;
+		background-color: #f3e5f5;
+		color: #6a0dad;
+	}
+
+	#columnInstructions {
+		margin-top: 10px;
+		color: #666;
+	}
+</style>
+</head>
+<body>
+
+<div id="uploadSection">
+	<label for="csvFileInput" id="uploadInstructions">Upload your data (CSV file without headers):</label>
+	<input type="file" id="csvFileInput" accept=".csv">
+</div>
+
+<div>
+	<label for="shapeSelect">Choose shape:</label>
+	<select id="shapeSelect">
+		<option value="">-- Select Shape --</option>
+		<option value="triangle">Triangle</option>
+		<option value="rectangle">Rectangle</option>
+	</select>
+</div>
+
+<button id="generateSvgButton">Make My SVG!</button>
+
+<div id="columnInstructions">
+	<p>Columns should be in the following order: Width (Base for Triangles), Height, Color (hex), Title.</p>
+</div>
+
+<script>
+	function parseCSV(csv) {
+		return csv.split('\n').map(row => row.split(',').map(cell => cell.trim()));
+	}
+
+	function createSVG(data, shapeType) {
+		let svg = '<?xml version="1.0" standalone="no"?>';
+		svg += '<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" ';
+		svg += '"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">';
+
+		let maxWidth = 0;
+		let totalHeight = 0;
+
+		data.forEach(row => {
+			let width = parseFloat(row[0]);
+			let height = parseFloat(row[1]);
+			if (width > maxWidth) maxWidth = width;
+			totalHeight += height + 20;
+		});
+
+		svg += `<svg xmlns="http://www.w3.org/2000/svg" width="${maxWidth + 40}" height="${totalHeight}">`;
+		let yOffset = 0;
+
+		data.forEach(row => {
+			let width = parseFloat(row[0]);
+			let height = parseFloat(row[1]);
+			let color = '#' + row[2];
+			let text = row[3];
+
+			if (shapeType === "triangle") {
+				let x1 = 20, y1 = yOffset + height;
+				let x2 = 20 + width / 2, y2 = yOffset;
+				let x3 = 20 + width, y3 = yOffset + height;
+
+				svg += `<polygon points="${x1},${y1} ${x2},${y2} ${x3},${y3}" fill="${color}" stroke="black" stroke-width="1"/>`;
+				svg += `<text x="${20 + width / 2}" y="${yOffset + height / 2}" fill="black" text-anchor="middle" dominant-baseline="middle" font-size="12">${text}</text>`;
+			} else {
+				svg += `<rect x="20" y="${yOffset}" width="${width}" height="${height}" fill="${color}" stroke="black" stroke-width="1"/>`;
+				svg += `<text x="${20 + width / 2}" y="${yOffset + height / 2}" fill="black" text-anchor="middle" dominant-baseline="middle" font-size="12">${text}</text>`;
+			}
+
+			yOffset += height + 20;
+		});
+
+		svg += '</svg>';
+
+		let blob = new Blob([svg], {type: 'image/svg+xml'});
+		let link = document.createElement('a');
+		link.href = window.URL.createObjectURL(blob);
+		link.download = shapeType + '_with_text.svg';
+		link.click();
+	}
+
+	function handleGenerateSVG() {
+		let fileInput = document.getElementById("csvFileInput");
+		let shapeType = document.getElementById("shapeSelect").value;
+
+		if (!fileInput.files.length) {
+			alert("Please select a CSV file.");
+			return;
+		}
+
+		if (!shapeType) {
+			alert("Please select a shape type.");
+			return;
+		}
+
+		let file = fileInput.files[0];
+		let reader = new FileReader();
+		reader.onload = function(e) {
+			let csvData = e.target.result;
+			let parsedData = parseCSV(csvData);
+			createSVG(parsedData, shapeType);
+		};
+		reader.readAsText(file);
+	}
+
+	document.getElementById("generateSvgButton").addEventListener("click", handleGenerateSVG);
+</script>
+
+</body>
+</html>

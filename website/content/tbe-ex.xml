@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.w3.org/1999/xhtml" id="tbe-ex" class="svg-viz" title="The Bluest Eye visualization: Exchanges Only">
+    <main class="svgView">
+        <div class="content-column">
+            <h1 class="page-title">The Bluest Eye Exchanges Only</h1>
+
+            <details>
+
+                <summary>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 18 6-6-6-6"></path>
+                    </svg> View Statistics
+                </summary>
+
+                <table>
+                    <tr>
+                        <th>Novel</th>
+                        <th># of Nodes</th>
+                        <th># of Edges</th>
+                        <th>Average Weighted Degree</th>
+                        <th>Network Diameter</th>
+                        <th>Graph Density</th>
+                        <th>Modularity</th>
+                        <th># of Communities</th>
+                    </tr>
+                    <tr>
+                        <td>The Bluest Eye Exchanges Only</td>
+                        <td>77</td>
+                        <td>233</td>
+                        <td>2.597</td>
+                        <td>6</td>
+                        <td>0.04</td>
+                        <td>0.456</td>
+                        <td>12</td>
+                    </tr>
+                </table>
+
+            </details>
+            
+            <embed class="time-graph" type="image/svg+xml" src="images/viz/tbe-ex.svg" id="viz" />
+        </div>
+    </main>
+</article>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.w3.org/1999/xhtml" id="about" title="About">
+    <main class="menuItem">
+    
+        <div class="content-column">
+            <h1 class="page-title">About this Project</h1>
+            <p>This project develops, tests, and uses digital methods to visualize the <em>braided narrative</em>, an understudied
+                genre of the novel developed by prominent, diverse authors. Braided narratives differ from novels that
+                focus on the same sequence of events from multiple points of view, a favourite form of detective or
+                mystery novels since Wilkie Collins’s <em>The Woman in White</em>. Braided narratives also differ from short
+                story collections where each unit works independently.</p>
+
+            <p>Authors can use the innovative formal structure of braided narratives to respond to the questions and challenges
+                that characterize our era. For example, Nicole Krauss’s <em>The History of Love</em> (2005) alternates between three main
+                narrators to trace the intergenerational trauma of the Holocaust, and Louise Erdrich’s <em>The Plague of Doves</em> (2008)
+                moves between five narrators to test the potential for reconciliation.</p>
+
+            <h2 class="page-title">Team</h2>
+            <div class="team-container">
+                <h3>Project Investigators</h3>
+                <ul>
+                    <li><a href="https://www.uvic.ca/humanities/english/people/regularfaculty/bancroft-corinne.php"><span class="person">Corinne Bancroft</span></a> —  Project Director, Professor of English, Department of English, University of Victoria</li>
+                    <li><a href="https://www.uvic.ca/humanities/hcmc/aboutus/staff/profiles/holmesmartin.php"><span class="person">Martin Holmes</span></a> — Programmer, Humanities Computing and Media Centre, University of Victoria</li>
+                    <li><a href="https://www.uvic.ca/humanities/hcmc/aboutus/staff/profiles/newtongreg.php"><span class="person">Greg Newton</span></a> — Programmer, Humanities Computing and Media Centre, University of Victoria</li>
+                    <li><a href="https://www.uvic.ca/humanities/hcmc/aboutus/staff/profiles/szpakpat.php"><span class="person">Patrick Szpak</span></a> — Designer, Humanities Computing and Media Centre, University of Victoria</li>
+                    <li><span class="person">Emma Ainsworth</span> — Research assistant, University of Victoria</li>
+                    <li><span class="person">Rowan Watts</span> — Research Assistant, University of Victoria</li>
+                    <li><span class="person">Alexander McLachlan</span> — Research Assistant, University of Victoria</li>
+
+                </ul>
+                <h3>Project Alumni</h3>
+                <ul>
+                    <li><span class="person">Stewart Arneil</span> — Programmer, Humanities Computing and Media Centre, University of Victoria</li>
+                    <li><span class="person">Tracey El Hajj</span> — Programmer, Humanities Computing and Media Centre, University of Victoria</li>
+                    <li><span class="person">Axelle Houlbrecque</span> — Research Assistant, University of Victoria</li>
+                </ul>
+            </div>
+
+            <h2>Partners</h2>
+            <p class="center">We are grateful to our sponsors.</p>
+            <div class="partners-container">
+                <a class="uvic-logo-internal partner" href="https://hcmc.uvic.ca">
+                    <img width="195" height="35" src="images/logo-uvic-hcmc-research.svg" alt="University of Victoria: Humanities Computing and Media Centre" />
+                </a>
+            </div>
+        </div>
+    </main>
+</article>

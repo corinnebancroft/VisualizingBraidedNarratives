@@ -1,0 +1,192 @@
+//static search 
+@use '_utilities' as *;
+
+
+#staticSearch {
+	width: 100%;
+	max-width: 60rem;
+}
+
+
+#staticSearch ul {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+
+.ssContent {
+	width: 100%;
+}
+
+#staticSearch ul li {
+	display: grid;
+	grid-template-columns: 1rem auto;
+	gap: .5rem;
+	color: var(--text-color);
+	font-size: .988rem;
+	padding: 0;
+	margin: 0 0 0 .75rem;
+}
+
+#staticSearch ul li label {
+	@include ss-label();
+}
+
+#staticSearch ul li input[type="checkbox"] {
+	@include ss-checkbox();
+}
+
+#staticSearch ul li input[type="checkbox"]::before {
+	@include ss-checkbox-checked();
+}
+
+#staticSearch ul li input[type="checkbox"]:checked::before {
+	transform: scale(1);
+}
+
+#staticSearch ul li input[type="checkbox"]:focus {
+	@include ss-checkbox-focus();
+}
+
+#staticSearch li+li {
+	margin-top: .25rem;
+}
+
+#ssForm button {
+	@include ss-button();
+}
+
+#ssForm button:hover,
+#ssForm button:active {
+	//background-color: #004E8D;
+}
+
+#ssForm button:focus,
+{
+outline-style: solid;
+outline-color: transparent;
+box-shadow: 0 0 0 2px #002C4F;
+}
+
+
+div.ssDescFilters fieldset,
+div.ssDateFilters fieldset,
+div.ssNumFilters fieldset,
+div.ssBoolFilters fieldset,
+div.ssSearchInFilters fieldset {
+	margin: 0.25em auto;
+	padding: 0.25em;
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+form#ssForm {
+	width: 100%;
+	max-width: var(--page-text-width);
+	margin-bottom: 3rem;
+}
+
+#ssForm *[class^="ss"] fieldset {
+	margin-bottom: 1rem;
+}
+
+#ssForm legend {
+
+	color: var(--text-color);
+	font-family: var(--primary-sans);
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+#ssForm label {
+	font-family: var(--primary-sans);
+}
+
+#ssForm button+button {
+	margin-left: 1rem;
+}
+
+span.ssQueryAndButton {
+	margin-bottom: .5rem;
+}
+
+#ssForm *[class^='ss'] input:not([type='checkbox']) {
+	@include ss-textinput();
+	margin-right: .5rem;
+	//width: 100%;
+	max-width: 100%;
+	font-size: 1rem;
+
+	@include bp1024() {
+		font-size: .878rem;
+	}
+}
+
+
+
+#ssForm *[class^='ss'] input:focus:not([type='checkbox']) {
+	@include ss-textinput-focus();
+	background-color: #fff;
+	color: #222222;
+}
+
+span.clearButton {
+	margin-bottom: 1.5rem;
+}
+
+div#ssResults>ul>li {
+	padding: 0;
+	margin: 0;
+}
+
+#ssForm svg {
+	display: none;
+}
+
+div.ssDateFilters fieldset.ssFieldset span,
+div.ssNumFilters fieldset.ssFieldset span,
+div.ssBoolFilters fieldset.ssFieldset span {
+	padding: 0.5em 0;
+}
+
+div.ssDescFilters,
+div.ssDateFilters,
+div.ssNumFilters,
+div.ssBoolFilters,
+div.ssSearchInFilters {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+
+#search details {
+	@include details-main();
+	max-width: 60rem;
+}
+
+#search details>* {
+	padding: 0rem 1rem;
+	font-family: var(--primary-sans);
+}
+
+#search #staticSearch #ssResults ul li div {
+	margin-bottom: 1.5rem;
+	padding: 1rem;
+}
+
+div#ssResults>ul>li>a>img {
+	width: 50px;
+	height: auto;
+	min-width: none;
+	min-height: none;
+}
+
+div#ssResults {
+	min-height: initial;
+	padding-top: 1rem;
+	margin-top: 0;
+}

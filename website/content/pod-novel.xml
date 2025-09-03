@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.w3.org/1999/xhtml" id="pod-novel" class="svg-viz" title="The Plague of Doves Novel Filtered by Previously Published Short Stories">
+    <main class="svgView">
+        <div class="content-column">
+            <h1 class="page-title">The Plague of Doves Novel Filtered by Previously Published Short Stories</h1>
+
+            <details>
+
+                <summary>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 18 6-6-6-6"></path>
+                    </svg> View Statistics
+                </summary>
+
+                <table>
+                    <tr>
+                        <th>Novel</th>
+                        <th># of Pages</th>
+                        <th># of Nodes</th>
+                        <th># of Edges</th>
+                        <th>Average Degree</th>
+                        <th>Average Weighted Degree</th>
+                        <th>Network Diameter</th>
+                        <th>Graph Density</th>
+                        <th>Modularity</th>
+                        <th># of Communities</th>
+                    </tr>
+                    <tr>
+                        <td>The Plague of Doves novel filtered by Short Story</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </table>
+
+            </details>
+            <a class="vis-shift" href="pod-ss.html">View complete novel network</a>
+            <a class="vis-shift" href="pod-ncn.html">View network with non-character nodes</a>
+            <a class="vis-shift" href="pod-shortstory.html">View network of original short stories</a>
+            <embed class="time-graph" type="image/svg+xml" src="images/viz/pod-novel.svg" id="viz" />
+        </div>
+    </main>
+</article>

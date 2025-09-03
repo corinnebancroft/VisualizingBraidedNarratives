@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.w3.org/1999/xhtml" id="methods-braids" title="Braids Method">
+    <main class="menuItem">
+
+
+
+
+
+<div class="content-column">
+        <h1 class="page-title">Braids method</h1>
+        
+        <h3>Creating the Braid Infographics in Illustrator</h3>
+        
+        <h3>Level 1 Containers</h3>
+        
+        <p>Use <a href="https://hcmc.uvic.ca/project/braidednarratives/svg-machine/">https://hcmc.uvic.ca/project/braidednarratives/svg-machine/</a> to create a rectangle for each Level 1 Container. For our visualizations, width = 450 pixels and height = # of pages x 10 pixels. We used the following colour scheme:</p>
+        
+        <table>
+            <caption>colour Scheme</caption>
+            <tr>
+                <td>Red</td>
+                <td>db4105</td>
+            </tr>
+            <tr>
+                <td>Blue</td>
+                <td>3e8cc6</td>
+            </tr>
+            <tr>
+                <td>Yellow</td>
+                <td>ffe666</td>
+            </tr>
+            <tr>
+                <td>Purple</td>
+                <td>8762a6</td>
+            </tr>
+            <tr>
+                <td>Green</td>
+                <td>a9d164</td>
+            </tr>
+        </table>
+        
+       <ol>
+           <li>Use the alignment tool to center each title in each rectangle and group each pair together.</li>
+           <li>Place the last rectangle on the bottom of your workspace</li>
+           <li>Rotate the second to last rectangle so it sits on top of it. (To help snap to object, go to view menu and make sure only “snap to point” is selected.)</li>
+           <li>Alternate for all the rectangles.</li>
+           <li>Select all and drag the image, so the bottom left corner is on one of the grid boxes one up from the bottom.</li>
+           <li>Draw a line from the bottom to the top at a 45% diagonal through the image to create a center. Move the image to center it.</li>
+           <li>Draw two parallel lines on either side. One should start five boxes up. The other should start five boxes across.</li>
+           <li>Shrink the width of the rectangles (the 450 dimension) to make a triangle with the diagonal line.</li>
+           <li>Use the selection clicker to curve the top corner of the triangle you just created. If you pull it down far enough, it should turn into a red semi-circle indicating that you have reached the other edges of the shape. Do this for all the triangles.</li>
+       </ol>
+       
+       <h3>Level 2 Containers (for containers that fill up the entire Level 1 Container)</h3>
+       
+       <ol>
+           <li>Use <a href="https://hcmc.uvic.ca/project/braidednarratives/svg-machine/">https://hcmc.uvic.ca/project/braidednarratives/svg-machine/</a> to create a rectangle for each Level 2 Container. Use colours and dimensions that agree with what you did for the Level 1 Containers.</li>
+           <li>Use the alignment tool to center each title in each rectangle and group each pair together.</li>
+           <li>Select all the Level 2 Containers that belong in a Level 1 Container.</li>
+           <li>Use the Alignment tool to distribute those rectangles on top of each other. Group everything together.</li>
+           <li>Copy and Paste the Level 1 Container from your braid.</li>
+           <li>Re-size the Level 2 block so it is the same height as the Level 1 Container. Press shift to ensure the text does not get distorted, this will mean the resulting image is the same height as the Level 1 Container, but not the same width.</li>
+           <li>Now, ungroup the Level 2 block and ungroup each text from its rectangle. Then group the rectangles together and move them away so you can group the text together.</li>
+           <li>Select the group of Level 2 Rectangles and click expand appearance.</li>
+           <li>Drag the group of Level 2 Rectangles on top of the Level 1 container. Make it wider than the Level 1 Container and send it to back.</li>
+           <li>Select both the Level 1 Container and Level 2 Rectangles and click Clipping Mask Make. This will cut the Level 2 Rectangles to the same size and shape as the Level 1 Container. Paste the Level 1 Container again and put it behind the Level 2 Shape. This will allow the edges of the Level 1 Container to define the Level 2 Shape.</li>
+           <li>Reduce the width of the Level 2 Shape, so it is about half the size of the Level 1 Container.</li>
+           <li>Drag the text back onto the Shape, so each title is centered in its appropriate container.</li>
+           <li>Group everything together and place it in the larger braid.</li>
+       </ol>
+       
+       <h3>Level 2 Containers (For Containers that don’t fill up the entire Level 1 Container)</h3>
+       
+       <ol>
+           <li>Create a rectangle where the width is 225 and the height= #of pages x 5 pixels. colour the rectangle according to its narrator or status.</li>
+           <li>Create a box to help you locate the container in the Level 1 Container. The height of the box should equal # of pages into the Level 1 Container that the level 2 container appears x 10 pixels.</li>
+           <li>Align that box with the top of the Level 1 Container. Distribute the Level 2 Container Rectangle under the box. Delete the box.</li>
+           <li>Add text to the Level 2 Container.</li>
+           <li>Change the outer corners of the Level 2 so they are both curved.</li>
+       </ol>
+
+
+
+
+
+        
+    
+</div>
+    
+    </main>
+</article>

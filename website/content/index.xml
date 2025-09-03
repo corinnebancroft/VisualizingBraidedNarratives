@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.w3.org/1999/xhtml" id="index" title="Home page">
+    <main class="home menuItem">
+        <div class="splash-container">
+            <h1 class="splash-title">
+                <img width="800" height="208" src="images/splash-logo-colour.webp" alt="Visualizing Braided Narratives" />
+            </h1>
+        </div>
+
+        <div class="splash-desc">
+            <p>Braided Narratives are novels with multiple narrators who tell different stories that twine together.
+                Using digital tools, we visualize braided narratives to better understand 1) how braided narratives differ
+                from other types of novels and 2) how the formal features of braided narratives help contribute to the
+                ethical work of these novels.</p>
+
+            <p>In order to answer these questions, we created three types of visualizations: Formal Structure,
+                Character Networks, and Time Graphs.</p>
+
+            <p>We treated two braided narratives and two comparison texts in this pilot study. The braided narratives were Toni Morrison’s <cite>The Bluest Eye</cite> (1970)<sup>1</sup> and Nicole Krauss’s <cite>The History of Love</cite> (2005)<sup>2</sup>. For comparison texts, we analyzed Jane Austen’s <cite>Pride and Prejudice</cite> (1813)<sup>3</sup> and William Faulkner’s <cite>The Sound and the Fury</cite> (1929)<sup>4</sup>.</p>
+
+            
+
+        </div>
+        
+        <section class="footnotes">
+            <ul class="bibliography">
+                <li><sup>1</sup> Morrison, Toni. <cite>The Bluest Eye</cite>. Vintage International, 2007 (originally 1970).</li>
+                <li><sup>2</sup> Krauss, Nicole. <cite>The History of Love</cite>. Norton, 2005.</li>               
+                
+                
+                <li><sup>3</sup> Austen, Jane. <cite>Pride and Prejudice</cite>. Penguin Classics, 2018 (originally 1813).</li>
+                <li><sup>4</sup> Faulkner, William. <cite>The Sound and the Fury</cite>. Vintage International, 1990 (originally 1929, 1945).</li>
+            </ul>
+        </section>
+        
+    </main>
+</article>

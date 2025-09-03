@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project basedir="." default="all" name="Build Braided Narratives website" xmlns:if="ant:if"
+	xmlns:unless="ant:unless">
+	
+	<description>Build file for Braided Narratives.</description>
+	
+	<property name="timeGraphBuildDir" value="../time_graph2"/>
+	
+	<property name="saxonVersion" value="10.3"/>
+	
+	<property name="saxon" value="utilities/saxon-he-${saxonVersion}.jar"/>
+	
+	<path id="jars">
+		<pathelement path="utilities"/>
+		<pathelement location="saxon-he-${saxonVersion}.jar"/>
+	</path>
+	
+	<condition property="buildingTestsOnly">
+		<equals arg1="" arg2="${inputXml}"/>
+	</condition>
+	
+	<property name="echo.separator"
+		value="*******************************************************************"/>
+	
+	<!-- Footers have a build date -->
+	<tstamp>
+		<format property="iso8601" pattern="yyyy-MM-dd'T'HH:mm:ssXXX" locale="en,CA"/>
+	</tstamp>
+	
+	<tstamp>
+		<format property="builddate" pattern="MMMM dd, yyyy HH:mm" locale="en,CA"/>
+	</tstamp>
+	
+	<target name="clean">
+		<echo message="${echo.separator}"/>
+		<echo message="Cleaning up transient files from previous builds."/>
+		<delete dir="${basedir}/site"/>
+		<delete dir="${basedir}/temp"/>
+	</target>
+	
+	<!-- Note that the sass executable being used is Dart (https://sass-lang.com/dart-sass) -->
+	<target name="buildCss">
+		<echo message="${echo.separator}"/>
+		<echo message="Building SCSS source to create CSS file in HTML folder."/>
+		<mkdir dir="${basedir}/site/css"/>
+		<exec executable="sass">
+			<arg value="${basedir}/sass/braidednarratives.scss"/>
+			<arg value="${basedir}/site/css/braidednarratives.css"/>
+		</exec>
+	</target>
+	
+	<path id="batik.classpath">
+		<fileset dir="utilities" includes="*.jar"/>
+	</path>
+	
+	<target name="graphs">
+		<echo message="Building XHTML version of time graphs content."/>
+		<mkdir dir="${basedir}/temp"/>
+		
+		<!-- Run XSLT to extract article snippets and SVGs -->
+		<java fork="true" classname="net.sf.saxon.Transform" classpath="${saxon}" failonerror="true">
+			<jvmarg value="-Xmx1024m"/>
+			<arg value="basedir=${basedir}"/>
+			<arg value="-xsl:${basedir}/xsl/content.xsl"/>
+			<arg value="-it:time-graphs"/>
+			<arg value="--suppressXsltNamespaceCheck:on"/>
+		</java>
+		
+		<!-- Rasterize all SVGs in temp/ -->
+		<apply executable="java" parallel="false" failonerror="true">
+			<fileset dir="${basedir}/temp" includes="*.svg"/>
+			<arg value="-cp"/>
+			<arg pathref="batik.classpath"/>
+			<arg value="org.apache.batik.apps.rasterizer.Main"/>
+			<arg value="-m"/>
+			<arg value="image/png"/>
+			<arg value="-d"/>
+			<arg value="${basedir}/images"/>
+			<arg value="-maxw"/>
+			<arg value="300"/>
+			<arg value="-maxh"/>
+			<arg value="300"/>
+			<srcfile/>
+		</apply>
+	</target>
+	
+	<target name="content">
+		<echo message="Building XHTML version of main site content."/>
+		<echo message="${basedir}/site/"/>
+		<mkdir dir="${basedir}/site"/>
+		<mkdir dir="${basedir}/site/css"/>
+		<mkdir dir="${basedir}/site/js"/>
+		<mkdir dir="${basedir}/site/fonts"/>
+		<mkdir dir="${basedir}/site/pdf"/>
+		<mkdir dir="${basedir}/site/svg-machine"/>
+		<mkdir dir="${basedir}/site/images/viz"/>
+		<exec executable="svnversion" outputproperty="svnRevNo" />
+		<!-- Transform static portion of site content -->
+		<java fork="true" classname="net.sf.saxon.Transform" classpath="${saxon}" failonerror="true">
+			<jvmarg value="-Xmx1024m"/>
+			<arg value="basedir=${basedir}"/>
+			<arg value="iso8601=${iso8601}"/>
+			<arg value="builddate=${builddate}"/>
+			<arg value="svnRevNo=${svnRevNo}"/>
+			<arg value="-s:${basedir}/content/"/>
+			<arg value="-xsl:${basedir}/xsl/content.xsl"/>
+			<arg value="-o:${basedir}/site/"/>
+			<arg value="--suppressXsltNamespaceCheck:on"/>
+		</java>
+	</target>
+	
+	<target name="copyres">
+		<echo message="${echo.separator}"/>
+		<echo message="Copying resources required for output site."/>
+		<copy todir="${basedir}/site/fonts">
+			<fileset dir="${basedir}/fonts/" includes="*.woff2"/>
+		</copy>
+		<copy todir="${basedir}/site/js">
+			<fileset dir="${basedir}/js/" includes="*.js*"/>
+		</copy>
+		<copy todir="${basedir}/site/js">
+			<fileset dir="${timeGraphBuildDir}" includes="time_graph.js"/>
+		</copy>
+		<copy todir="${basedir}/site/css">
+			<fileset dir="${timeGraphBuildDir}" includes="time_graph.css"/>
+		</copy>
+		<copy todir="${basedir}/site/images">
+			<fileset dir="${basedir}/images"/>
+		</copy>
+		<copy todir="${basedir}/site">
+			<fileset dir="${basedir}/images/" includes="favicon.svg"/>
+		</copy>
+		<copy todir="${basedir}/site/pdf">
+			<fileset dir="${basedir}/pdf/" includes="*.pdf"/>
+		</copy>
+		<copy todir="${basedir}/site/svg-machine">
+			<fileset dir="${basedir}/svg-machine/" includes="index.html"/>
+		</copy>
+	</target>
+	
+	<target name="all">
+		<description> Build entire site, including static search. </description>
+		<antcall target="clean"/>
+		<antcall target="graphs"/>
+		<antcall target="content"/>
+		<antcall target="buildCss"/>
+		<antcall target="copyres"/>
+		<echo message="${echo.separator}"/>
+	</target>
+	
+	<target name="refreshSite">
+		<echo message="${echo.separator}"/>
+		<antcall target="buildCss"/>
+		<echo message="Refreshing resources in ./site/ directory"/>
+		<echo message="Getting JavaScript..."/>
+		<copy todir="${basedir}/site/js">
+			<fileset dir="${basedir}/js/" includes="*.js*"/>
+		</copy>
+		<echo message="Getting images..."/>
+		<copy todir="${basedir}/site/images">
+			<fileset dir="${basedir}/images">
+				<include name="*.png"/>
+				<include name="*.jpg"/>
+				<include name="*.jpeg"/>
+				<include name="*.gif"/>
+				<include name="*.bmp"/>
+				<include name="*.svg"/>
+				<include name="*.webp"/>
+				<exclude name="**/*/*"/>
+			</fileset>
+		</copy>
+		<echo message="Getting fonts..."/>
+		<copy todir="${basedir}/site/fonts">
+			<fileset dir="${basedir}/fonts/" includes="*.woff2"/>
+		</copy>
+		
+		<echo message="Building XHTML version of main site content."/>
+		<exec executable="svnversion" outputproperty="svnRevNo" />
+		<!-- Transform static portion of site content -->
+		<java fork="true" classname="net.sf.saxon.Transform" classpath="${saxon}" failonerror="true">
+			<jvmarg value="-Xmx1024m"/>
+			<arg value="-s:${basedir}/content/"/>
+			<arg value="-xsl:${basedir}/xsl/content.xsl"/>
+			<arg value="-o:${basedir}/site/"/>
+			<arg value="basedir=${basedir}"/>
+			<arg value="iso8601=${iso8601}"/>
+			<arg value="builddate=${builddate}"/>
+			<arg value="svnRevNo=${svnRevNo}"/>
+			<arg value="--suppressXsltNamespaceCheck:on"/>
+		</java>
+	</target>
+</project>

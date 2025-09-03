@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<article xmlns="http://www.w3.org/1999/xhtml" id="structure" title="Formal structure">
+    <main class="menuItem">
+        <div class="content-column">
+            <h1 class="page-title">Formal structure</h1>
+            <h2>Overview</h2>
+            <p>The formal structure infographics visualize the intertwined nature of braided narratives.
+                Like a table of contents, these graphics show how chapters progress over the course of the novel,
+                but they also indicate the narrator of each chapter.</p>
+            <h2>How to read</h2>
+            <p>Each section represents a narrative container, which we define as a narratively discrete block.
+                These narrative blocks are often marked as separate chapters, but can be distinguished by narrative voice.
+                For instance, in the final chapter of <em>The History of Love</em>, two narrators alternate every page or couple of pages.
+                The height of the section, measured along the interior zigzag, is determined by the length of the chapter and the colour corresponds to the narrator.
+                These infographics indicate that narrators in a braided narrative alternate in a pattern, so braided narratives are more interconnected on this level than non-braided narratives.</p>
+                
+                
+                
+        </div>
+
+        <div class="cards">
+            <ul>
+                <li class="card">
+                    <div class="text">
+                        <h2><a href="tbe-br.html">The Bluest Eye</a></h2>
+                        <p>Braid</p>
+                    </div>
+                    <div class="img">
+                        <img src="images/viz/tbe-br.svg"/>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="text">
+                        <h2><a href="thol-br.html">The History of Love</a></h2>
+                        <p>Braid</p>
+                    </div>
+                    <div class="img">
+                        <img src="images/viz/thol-br.svg"/>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="text">
+                        <h2><a href="tsatf-br.html">The Sound and the Fury</a></h2>
+                        <p>Braid</p>
+                    </div>
+                    <div class="img">
+                        <img src="images/viz/tsatf-br.svg"/>
+                    </div>
+                </li>
+                <!-- <li class="card">
+                    <div class="text">
+                        <h2><a href="pod-br.html">Plague of Doves</a></h2>
+                        <p>Braid</p>
+                    </div>
+                    <div class="img">
+                        <img class="pod" src="images/viz/pod-br.svg"/>
+                    </div>
+                </li> -->
+                <li class="card">
+                    <div class="text">
+                        <h2><a href="pnp-br.html">Pride and Prejudice</a></h2>
+                        <p>Braid</p>
+                    </div>
+                    <div class="img">
+                        <img class="pod" src="images/viz/pnp-br.svg"/>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+</article>

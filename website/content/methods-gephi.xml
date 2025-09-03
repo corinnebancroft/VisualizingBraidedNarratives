@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.w3.org/1999/xhtml" id="methods-gephi" title="Gephi Method">
+    <main class="menuItem">
+
+
+
+
+
+<div class="content-column">
+        <h1 class="page-title">Gephi Method</h1>
+    
+        <h3>1. Import the Data</h3>
+        <ol>
+            <li>Import Node table; in the “Finish” window, indicate the graph is directional</li>
+            <li>Import the Edges table; in the “Finish” window, indicate the graph is directional; make sure the “Edges merge strategy” is set to “SUM”; click “append to existing workspace” to make sure the edges are connected to the nodes</li>
+        </ol>
+        
+        <p><b>Explanation:</b> The Node table lists node identification numbers and corresponding character names. The Edge table lists sources and targets. In this study, sources are the character who initiate the relationship, and targets are the characters who receive the relationship. In many cases, relationships are reciprocal. The spreadsheet will reflect this by having two lines representing that relationship, one where Character A is source and Character B is the target and vice versa. In some situations (such as a diverted letter), the relationship only goes from the source to the target. The spreadsheet also lists the page number on which evidence of that relationship is found. In the future, we can develop methods to make a dynamic graph, one that demonstrates how relationships are formed one progresses through the novel.</p>
+    
+        <h3>2. Size the nodes</h3>
+        <ol>
+            <li>Run the “Average Weighted Degree” statistic</li>
+            <li>In the “Appearance Tab,” click “Nodes,” select the size icon and “Ranking,” choose “weighted degree” as the attribute</li>
+            <li>Set “Min Size” to 10 and “Max Size” to 100</li>
+        </ol>
+        
+        <p><b>Explanation:</b> The “degree” of a node is how many edges it has. For instance, if Character A has a relationship with Character B and Character C, then Character A has a degree of 2 while Characters B and C each has a degree of 1.  The “weighted degree” takes into account the weight of each edge; in this study, edges will have greater weights if there is more evidence for that relationship. For instance, if there is evidence that Character A has a relationship with Character C on 10 different pages, the edge between them will have a weight of 10. In this scenario, Character A has a weighted degree of 11 (10 with Character C and 1 with Character B), Character C has a weighted degree of 10, and Character B has a weighted degree of 1. By sizing nodes according to weighted degree, we can see who the major players are in this network.</p> 
+    
+        <h3>3. Run the Fruchterman Reingold Layout</h3>
+        <ol>
+            <li>Set the area to 10 times the number of nodes</li>
+        </ol>
+        <p><b>Explanation:</b> The Fruchterman Reingold Layout is a force-directed layout that pulls nodes closer together based on the strength of their edges; heavier edges have a stronger pull than edges with a lower weight. At the same time, the layout works to distribute nodes evenly and make edges have a uniform length. This layout distributes all of the nodes across the area in a way that achieves a somewhat balanced and symmetrical distribution. We set the area at 10 x the # of nodes to give the graph sufficient space.</p>
+    
+        
+        <h3>4. Run the Force Atlas 2 Layout</h3>
+        <ol>
+            <li>Set scaling to the number of nodes</li>
+            <li>Set gravity to half of the number of nodes</li>
+            <li>Check the “prevent overlap” box</li>
+        </ol>
+        
+        <p><b>Explanation:</b> Force Atlas 2 is a force-directed layout where nodes both repulse and attract another based on the strength of their edges. This algorithm was designed for Gephi and based on Force Atlas Layout algorithm. The scaling setting indicates the repulsion strength, and the gravity setting sets the strength at which the algorithm will pull nodes closer to the center of the graph. The “prevent overlap” feature makes it so no node blocks another node. This modifies the results slightly in a way that improves visibility and usefulness of the graph. Both Fruchterman Reingold and Force Atlas 2 are iterative algorithms, which means they will run again and again until the user stops them. By applying the Fruchterman Reingold Layout first, we distribute the nodes somewhat evenly. The Force Atlas 2 Layout starts with the results of the Fruchterman Reingold Layout, so the nodes in the resulting image are slightly more evenly spaced than they would be if we ran Force Atlas 2 Layout on a random graph.</p>
+    
+        <h3>5. colour the Nodes</h3>
+        <ol>
+            <li>Run the “modularity” statistic in the “community detection” category</li>
+            <li>Make sure the “randomize” box is unchecked</li>
+            <li>Make sure the “resolution” is set at 1</li>
+            <li>In the “Appearance Tab,” click “Nodes,” select the colour icon and “Partition,” choose “modularity Class”</li>
+            <li>If there are many small communities, use the palette option to colour all nodes grey. Then, change the colours so the biggest classes are red (FF0000), blue (0000FF), and yellow (FFFF00). If there are significant smaller classes, they should be magenta (FF00FF), green (00FF00), and Cyan (00FFFF). All other classes should be gray.</li>
+        </ol>
+        
+        <p><b>Explanation:</b> Gephi uses the Louvian algorithm to detect communities and organize or partition nodes into groups or sub-communities. This algorithm involves two phases that are repeated iteratively to optimize modularity. Modularity is a value between -1 and 1 that measures the strength of a partition. Modularity values closer to 1 indicate strong communities with clear divisions.</p> 
+        
+        <p>Modularity values below 0.3 indicate weak to no divisions. Newman and Girvan explain that modularity scores “typically fall in the range from about 0.3 to 0.7” (026113-7). The Louvian algorithm begins with the assumption that all nodes are in their own community. In the first phase, each node is placed in the same community as an adjacent node. If that act increases the modularity score, a tentative community is created. If the modularity is not improved, the node remains in its current community.</p> 
+        
+        <p>The second phase creates a new graph with one node for every tentative community identified in the previous phase. That new node will have a self-referential edge weight that is the total of the previous nodes’ edge weights. This process of creating a smaller new graph is repeated until modularity is maximized. This algorithm will then assign each node in the original graph a group and produce a modularity score for the graph as a whole. If that value is greater than 0.3, the organization of the graph into communities can be considered significant. If that value is less than 0.3, the communities revealed may not be significant.</p> 
+    
+    
+        
+        <h3>6. Run the following statistics and record the information in the Statistical Overview Table</h3>
+        <ol>
+            <li>Average Degree</li>
+            <li>Average Weighted Degree</li>
+            <li>Network Diameter</li>
+            <li>Graph Density</li>
+            <li>Modularity</li>
+        </ol>
+        
+        <p><b>Explanation:</b> Average Degree finds the average of the degrees (explained in step 2) of each node. This statistic gives a sense of the average number of relationships in which a character is involved.</p>
+        
+       <p><b>Average Weighted Degree</b> finds the average of all of the weighted degrees (explained in step 2). This result will take into account the frequency those relationships are represented in the novel. Average Weighted Degree is best used to size nodes because it makes characters who frequently participate in relationships bigger. Average Degree better represents the average number of relationships a character has.</p>
+        
+        <p><b>Network Diameter</b> measures the distance between the two most distant nodes.</p>
+        
+        <p><b>Diameter</b> is communicated in the number of steps one node would have to take to reach the other node. In common parlance, this is the “6-degrees of separation” metric.</p> 
+        
+        <p><b>Graph Density measures</b> the completeness of the graph. If all nodes are connected to all other nodes, the graph will be complete and has a density of 1. A network consisting of members of a single household or sports team will probably have a density of 1 because all members know each other. Networks with lower densities indicate that all members are not connected. Modularity communicates the strength of the subcommunities in the network (explained in step 6).</p>  
+    
+            
+    
+        <h3>7. Export the graph as a SVG</h3>
+        <ol>
+            <li>Go to the preview tab.</li>
+            <li>In the Node label window, click "show labels"; set the font to "Avenir 3 Plain."</li>
+            <li>In the Edges label window, uncheck the box that says "curved."</li>
+            <li>Press "Refresh" to see the graph.</li>
+            <li>Export as SVG; save the file with the acronym of the book and the date.</li>
+        </ol>
+        
+    </div>
+    
+    
+    <section class="footnotes">
+        <ul class="bibliography">
+            <li><sup>1</sup> Fruchterman, T. M. J., &amp; Reingold, E. M. “Graph Drawing by Force-Directed Placement.” <cite>Software: Practice and Experience</cite>, 21(11) 1990.</li>
+            <li><sup>2</sup> Jacomy, Mathieu, et al. “ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software.” PloS One, vol. 9, no. 6, 2014, pp. e98679–e98679, <a href="https://doi.org/10.1371/journal.pone.0098679">https://doi.org/10.1371/journal.pone.0098679</a>.</li>               
+            <li><sup>3</sup> Blondel, Vincent D., et al. “Fast Unfolding of Communities in Large Networks.” <cite>Journal of Statistical Mechanics</cite>, vol. 2008, no. 10, 2008, pp. P10008-12.</li>
+            <li><sup>4</sup> Newman, M. E. J., and M. Girvan. “Finding and Evaluating Community Structure in Networks.” <cite>Physical Review. E, Statistical, Nonlinear, and Soft Matter Physics</cite>, vol. 69, no. 2, 2004, <a href="https://doi.org/10.1103/PhysRevE.69.026113">https://doi.org/10.1103/PhysRevE.69.026113</a>.</li>
+        </ul>
+    </section>
+    
+    </main>
+</article>

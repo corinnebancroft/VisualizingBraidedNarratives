@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.w3.org/1999/xhtml" id="pnp-ss-yellow" class="svg-viz" title="Pride and Prejudice: Story Space">
+    <main class="svgView">
+        <div class="content-column">
+            <h1 class="page-title">Pride and Prejudice, Story Space, Yellow</h1>
+            <details>
+                <summary>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 18 6-6-6-6"></path>
+                    </svg> View Statistics
+                </summary>
+                <table>
+                    <tr>
+                        <th>Novel</th>
+                        <th># of Nodes</th>
+                        <th># of Edges</th>
+                        <th>Average Weighted Degree</th>
+                        <th>Network Diameter</th>
+                        <th>Graph Density</th>
+                        <th>Modularity</th>
+                        <th># of Communities</th>
+                    </tr>
+                    <tr>
+                        <td>Pride and Prejudice Story Space</td>
+                        <td>102</td>
+                        <td>796</td>
+                        <td>41.618</td>
+                        <td>4</td>
+                        <td>0.077</td>
+                        <td>-0.117</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+            </details>
+            <p class="viz-note">These are preliminary visualizations; we have not yet finished proofing the data. These graphs are entirely a single colour because the community detection algorithm found a modularity score of less than 0.3, which indicates that the separation between communities is weak or non-existent. Gephi still identified communities, which can be viewed by clicking the link above. Please note that the divisions between communities in the colour graph do not meet the minimal threshold for modularity.</p>
+            <a class="vis-shift" href="pnp-ss-colour.html">View colour visualization</a>
+            <embed class="braid" type="image/svg+xml" src="images/viz/pnp-ss-yellow.svg" id="viz" />
+        </div>
+    </main>
+</article>

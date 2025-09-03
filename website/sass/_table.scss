@@ -1,0 +1,73 @@
+//tables 
+@use '_utilities' as *;
+
+figure:has(table) {
+	max-width: 100%;
+	overflow-x: scroll;
+}
+
+table {
+	--table-font: var(--primary-sans);
+	--table-font-desktop-size: .772rem;
+	--table-font-weight: 400;
+	--th-font-weight: 600;
+	--table-caption-font-weight: 600;
+	--table-caption-bg-color: hsl(0, 0%, 100%);
+	;
+	--table-font-color: #222222;
+
+	--td-border-color: hsl(0, 0%, 85%);
+	--th-bg-color: hsl(0, 0%, 90%);
+	--td-bg-color: hsl(0, 0%, 100%);
+}
+
+table {
+
+	border-collapse: collapse;
+	@include bp768() {
+		font-size: var(--body-text-desktop-size);
+	}
+}
+
+caption {
+	font-family: var(--table-font);
+	font-weight: var(--table-caption-font-weight);
+	border-top: 1px solid var(--td-border-color);
+	border-left: 1px solid var(--td-border-color);
+	border-right: 1px solid var(--td-border-color);
+	padding: .25rem;
+	background-color: var(--table-caption-bg-color);
+	text-align: right;
+}
+
+th {
+	font-weight: var(--th-font-weight);
+	font-family: var(--table-font);
+	font-size: var(--table-font-desktop-size);
+	font-variant: tabular-nums;
+	background-color: var(--th-bg-color);
+	border-top: 1px solid var(--td-border-color);
+	border-bottom: 1px solid var(--td-border-color);
+	border-top: 1px solid var(--td-border-color);
+	border-left: 1px solid var(--td-border-color);
+	border-right: 1px solid var(--td-border-color);
+	padding: .5rem .5rem;
+}
+
+td {
+	background-color: var(--td-bg-color);
+	font-family: var(--table-font);
+	font-variant: tabular-nums;
+	font-size: var(--table-font-desktop-size);
+	padding: .5rem .5rem;
+	border-top: 1px solid var(--td-border-color);
+	border-bottom: 1px solid var(--td-border-color);
+	border-top: 1px solid var(--td-border-color);
+	border-left: 1px solid var(--td-border-color);
+	border-right: 1px solid var(--td-border-color);
+	text-align: right;
+
+	@include bp768() {
+		padding: .5rem .5rem;
+	}
+}

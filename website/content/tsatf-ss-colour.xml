@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<article xmlns="http://www.w3.org/1999/xhtml" id="tsatf-ss-colour" class="svg-viz" title="The Sound and the Fury visualization: Story Space">
+    <main class="svgView">
+        <div class="content-column">
+            <h1 class="page-title">The Sound and the Fury Story Space, colour</h1>
+            
+            <details>
+            
+                <summary>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 18 6-6-6-6"></path>
+                    </svg> View Statistics
+                </summary>
+            
+                <table>
+                    <tr>
+                        <th>Novel</th>
+                        <th># of Nodes</th>
+                        <th># of Edges</th>
+                        <th>Average Weighted Degree</th>
+                        <th>Network Diameter</th>
+                        <th>Graph Density</th>
+                        <th>Modularity</th>
+                        <th># of Communities</th>
+                    </tr>
+                    <tr>
+                        <td>The Sound and the Fury Story Space</td>
+                        <td>235</td>
+                        <td>816</td>
+                        <td>18.694</td>
+                        <td>6</td>
+                        <td>0.015</td>
+                        <td>0.29</td>
+                        <td>6</td>
+                    </tr>
+                </table>
+            
+            </details>
+            
+            <a class="vis-shift" href="tsatf-ss-red.html">View red visualization</a>
+            <embed class="braid" type="image/svg+xml" src="images/viz/tsatf-ss-colour.svg" id="viz"/>
+        </div>
+    </main>
+</article>

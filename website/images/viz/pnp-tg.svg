@@ -1,0 +1,645 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="svgContainer" viewBox="0 0 1602 980">
+		<defs> 
+			<!-- if you change any of these colour values
+				you must change all references to the same colour 
+				you must ensure the colours used in the narrator lines further down the page are edited so they pair with whatever colour you're using for the matching character. Some of the narrator colours are not identical to the character colours (i.e. character colour #CF6884 is paired with narrator colour #e19cae; #008856 is paired with #6cc8a6; #875692 is paired with #b994c1.)
+			-->
+			<!-- six colours (1)-->
+			<linearGradient id="grad12345s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="16%" style="stop-color:#CF6884;"></stop> <!-- 1stPrimaryCharacter -->
+				<stop offset="17%" style="stop-color:#008856;"></stop> <!-- 2ndPrimaryCharacter -->
+				<stop offset="33%" style="stop-color:#008856;"></stop>
+				<stop offset="34%" style="stop-color:#A1C1F1;"></stop> <!-- 3rdPrimaryCharacter -->
+				<stop offset="50%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="51%" style="stop-color:#F3C300;"></stop> <!-- 4thPrimaryCharacter -->
+				<stop offset="67%" style="stop-color:#F3C300;"></stop>
+				<stop offset="68%" style="stop-color:#875692;"></stop> <!-- 5thPrimaryCharacter -->
+				<stop offset="83%" style="stop-color:#875692;"></stop>
+				<stop offset="84%" style="stop-color:#E8E8E8;"></stop> <!-- all other characters -->
+			</linearGradient>
+			
+			<!-- one colour (6)-->
+			<linearGradient id="grad1" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="1%" style="stop-color:#cf6884;"></stop>
+				<stop offset="100%" style="stop-color:#CF6884;"></stop>
+			</linearGradient>
+			<linearGradient id="grad2" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="1%" style="stop-color:#008856;"></stop>
+				<stop offset="100%" style="stop-color:#008856;"></stop>
+			</linearGradient>
+			<linearGradient id="grad3" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="1%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="100%" style="stop-color:#A1C1F1;"></stop>
+			</linearGradient>
+			<linearGradient id="grad4" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="1%" style="stop-color:#F3C300;"></stop>
+				<stop offset="100%" style="stop-color:#F3C300;"></stop>
+			</linearGradient>
+			<linearGradient id="grad5" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="1%" style="stop-color:#875692;"></stop>
+				<stop offset="100%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grads" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="1%" style="stop-color:#E8E8E8;"></stop>
+				<stop offset="100%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			
+			<!-- two colours (15)-->
+			<linearGradient id="grad12" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#CF6884;"></stop>
+				<stop offset="51%" style="stop-color:#008856;"></stop>
+			</linearGradient>
+			<linearGradient id="grad13" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#CF6884;"></stop>
+				<stop offset="51%" style="stop-color:#A1C1F1;"></stop>
+			</linearGradient>
+			<linearGradient id="grad14" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#CF6884;"></stop>
+				<stop offset="51%" style="stop-color:#F3C300;"></stop>
+			</linearGradient>
+			<linearGradient id="grad15" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#CF6884;"></stop>
+				<stop offset="51%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad1s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#CF6884;"></stop>
+				<stop offset="51%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad23" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#008856;"></stop>
+				<stop offset="51%" style="stop-color:#A1C1F1;"></stop>
+			</linearGradient>
+			<linearGradient id="grad24" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#008856;"></stop>
+				<stop offset="51%" style="stop-color:#F3C300;"></stop>
+			</linearGradient>
+			<linearGradient id="grad25" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#008856;"></stop>
+				<stop offset="51%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad2s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#008856;"></stop>
+				<stop offset="51%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad34" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="51%" style="stop-color:#F3C300;"></stop>
+			</linearGradient>
+			<linearGradient id="grad35" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="51%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad3s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="51%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad45" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#F3C300;"></stop>
+				<stop offset="51%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad4s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#F3C300;"></stop>
+				<stop offset="51%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad5s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="50%" style="stop-color:#875692;"></stop>
+				<stop offset="51%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			
+			<!-- three colours (20)-->
+			<linearGradient id="grad123" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#008856;"></stop>
+				<stop offset="66%" style="stop-color:#008856;"></stop>
+				<stop offset="67%" style="stop-color:#A1C1F1;"></stop>
+			</linearGradient>
+			<linearGradient id="grad124" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#008856;"></stop>
+				<stop offset="66%" style="stop-color:#008856;"></stop>
+				<stop offset="67%" style="stop-color:#F3C300;"></stop>
+			</linearGradient>
+			<linearGradient id="grad125" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#008856;"></stop>
+				<stop offset="66%" style="stop-color:#008856;"></stop>
+				<stop offset="67%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad12s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#008856;"></stop>
+				<stop offset="66%" style="stop-color:#008856;"></stop>
+				<stop offset="67%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad134" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="66%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="67%" style="stop-color:#F3C300;"></stop>
+			</linearGradient>
+			<linearGradient id="grad135" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="66%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="67%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad13s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="66%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="67%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad145" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#F3C300;"></stop>
+				<stop offset="66%" style="stop-color:#F3C300;"></stop>
+				<stop offset="67%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad14s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#F3C300;"></stop>
+				<stop offset="66%" style="stop-color:#F3C300;"></stop>
+				<stop offset="67%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad15s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#CF6884;"></stop>
+				<stop offset="34%" style="stop-color:#875692;"></stop>
+				<stop offset="66%" style="stop-color:#875692;"></stop>
+				<stop offset="67%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad234" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#008856;"></stop>
+				<stop offset="34%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="66%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="67%" style="stop-color:#F3C300;"></stop>
+			</linearGradient>
+			<linearGradient id="grad235" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#008856;"></stop>
+				<stop offset="34%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="66%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="67%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad23s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#008856;"></stop>
+				<stop offset="34%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="66%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="67%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad245" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#008856;"></stop>
+				<stop offset="34%" style="stop-color:#F3C300;"></stop>
+				<stop offset="66%" style="stop-color:#F3C300;"></stop>
+				<stop offset="67%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad24s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#008856;"></stop>
+				<stop offset="34%" style="stop-color:#F3C300;"></stop>
+				<stop offset="66%" style="stop-color:#F3C300;"></stop>
+				<stop offset="67%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad25s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#008856;"></stop>
+				<stop offset="34%" style="stop-color:#875692;"></stop>
+				<stop offset="66%" style="stop-color:#875692;"></stop>
+				<stop offset="67%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad345" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="34%" style="stop-color:#F3C300;"></stop>
+				<stop offset="66%" style="stop-color:#F3C300;"></stop>
+				<stop offset="67%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad34s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="34%" style="stop-color:#F3C300;"></stop>
+				<stop offset="66%" style="stop-color:#F3C300;"></stop>
+				<stop offset="67%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad35s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="34%" style="stop-color:#875692;"></stop>
+				<stop offset="66%" style="stop-color:#875692;"></stop>
+				<stop offset="67%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad45s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="33%" style="stop-color:#F3C300;"></stop>
+				<stop offset="34%" style="stop-color:#875692;"></stop>
+				<stop offset="66%" style="stop-color:#875692;"></stop>
+				<stop offset="67%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			
+			<!-- four colours (15)-->
+			<linearGradient id="grad1234" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#008856;"></stop>
+				<stop offset="49%" style="stop-color:#008856;"></stop>
+				<stop offset="50%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="75%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="76%" style="stop-color:#F3C300;"></stop>
+			</linearGradient>
+			<linearGradient id="grad1235" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#008856;"></stop>
+				<stop offset="49%" style="stop-color:#008856;"></stop>
+				<stop offset="50%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="75%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="76%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad123s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#008856;"></stop>
+				<stop offset="49%" style="stop-color:#008856;"></stop>
+				<stop offset="50%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="75%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad1245" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#008856;"></stop>
+				<stop offset="49%" style="stop-color:#008856;"></stop>
+				<stop offset="50%" style="stop-color:#F3C300;"></stop>
+				<stop offset="75%" style="stop-color:#F3C300;"></stop>
+				<stop offset="76%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad124s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#008856;"></stop>
+				<stop offset="49%" style="stop-color:#008856;"></stop>
+				<stop offset="50%" style="stop-color:#F3C300;"></stop>
+				<stop offset="75%" style="stop-color:#F3C300;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad125s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#008856;"></stop>
+				<stop offset="49%" style="stop-color:#008856;"></stop>
+				<stop offset="50%" style="stop-color:#875692;"></stop>
+				<stop offset="75%" style="stop-color:#875692;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad1345" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="49%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="50%" style="stop-color:#F3C300;"></stop>
+				<stop offset="75%" style="stop-color:#F3C300;"></stop>
+				<stop offset="76%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad134s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="49%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="50%" style="stop-color:#F3C300;"></stop>
+				<stop offset="75%" style="stop-color:#F3C300;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad135s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="49%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="50%" style="stop-color:#875692;"></stop>
+				<stop offset="75%" style="stop-color:#875692;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad145s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#CF6884;"></stop>
+				<stop offset="25%" style="stop-color:#F3C300;"></stop>
+				<stop offset="49%" style="stop-color:#F3C300;"></stop>
+				<stop offset="50%" style="stop-color:#875692;"></stop>
+				<stop offset="75%" style="stop-color:#875692;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad2345" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#008856;"></stop>
+				<stop offset="25%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="49%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="50%" style="stop-color:#F3C300;"></stop>
+				<stop offset="75%" style="stop-color:#F3C300;"></stop>
+				<stop offset="76%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad234s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#008856;"></stop>
+				<stop offset="25%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="49%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="50%" style="stop-color:#F3C300;"></stop>
+				<stop offset="75%" style="stop-color:#F3C300;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad235s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#008856;"></stop>
+				<stop offset="25%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="49%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="50%" style="stop-color:#875692;"></stop>
+				<stop offset="75%" style="stop-color:#875692;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad245s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#008856;"></stop>
+				<stop offset="25%" style="stop-color:#F3C300;"></stop>
+				<stop offset="49%" style="stop-color:#F3C300;"></stop>
+				<stop offset="50%" style="stop-color:#875692;"></stop>
+				<stop offset="75%" style="stop-color:#875692;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad345s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="24%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="25%" style="stop-color:#F3C300;"></stop>
+				<stop offset="49%" style="stop-color:#F3C300;"></stop>
+				<stop offset="50%" style="stop-color:#875692;"></stop>
+				<stop offset="75%" style="stop-color:#875692;"></stop>
+				<stop offset="76%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			
+			<!-- five colours (6)-->
+			<linearGradient id="grad12345" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="20%" style="stop-color:#CF6884;"></stop>
+				<stop offset="21%" style="stop-color:#008856;"></stop>
+				<stop offset="40%" style="stop-color:#008856;"></stop>
+				<stop offset="41%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="60%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="61%" style="stop-color:#F3C300;"></stop>
+				<stop offset="80%" style="stop-color:#F3C300;"></stop>
+				<stop offset="81%" style="stop-color:#875692;"></stop>
+			</linearGradient>
+			<linearGradient id="grad1234s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="20%" style="stop-color:#CF6884;"></stop>
+				<stop offset="21%" style="stop-color:#008856;"></stop>
+				<stop offset="40%" style="stop-color:#008856;"></stop>
+				<stop offset="41%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="60%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="61%" style="stop-color:#F3C300;"></stop>
+				<stop offset="80%" style="stop-color:#F3C300;"></stop>
+				<stop offset="81%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad1235s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="20%" style="stop-color:#CF6884;"></stop>
+				<stop offset="21%" style="stop-color:#008856;"></stop>
+				<stop offset="40%" style="stop-color:#008856;"></stop>
+				<stop offset="41%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="60%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="61%" style="stop-color:#875692;"></stop>
+				<stop offset="80%" style="stop-color:#875692;"></stop>
+				<stop offset="81%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad1245s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="20%" style="stop-color:#CF6884;"></stop>
+				<stop offset="21%" style="stop-color:#008856;"></stop>
+				<stop offset="40%" style="stop-color:#008856;"></stop>
+				<stop offset="41%" style="stop-color:#F3C300;"></stop>
+				<stop offset="60%" style="stop-color:#F3C300;"></stop>
+				<stop offset="61%" style="stop-color:#875692;"></stop>
+				<stop offset="80%" style="stop-color:#875692;"></stop>
+				<stop offset="81%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad1345s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="20%" style="stop-color:#CF6884;"></stop>
+				<stop offset="21%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="40%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="41%" style="stop-color:#F3C300;"></stop>
+				<stop offset="60%" style="stop-color:#F3C300;"></stop>
+				<stop offset="61%" style="stop-color:#875692;"></stop>
+				<stop offset="80%" style="stop-color:#875692;"></stop>
+				<stop offset="81%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			<linearGradient id="grad2345s" x1="0%" y1="0%" y2="100%" x2="0%">
+				<stop offset="20%" style="stop-color:#008856;"></stop>
+				<stop offset="21%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="40%" style="stop-color:#A1C1F1;"></stop>
+				<stop offset="41%" style="stop-color:#F3C300;"></stop>
+				<stop offset="60%" style="stop-color:#F3C300;"></stop>
+				<stop offset="61%" style="stop-color:#875692;"></stop>
+				<stop offset="80%" style="stop-color:#875692;"></stop>
+				<stop offset="81%" style="stop-color:#E8E8E8;"></stop>
+			</linearGradient>
+			
+		</defs>        
+
+	
+	<g transform="translate(60,10)">
+		<g transform="translate(0,940)" fill="none" font-size="10" font-family="sans-serif"
+			text-anchor="middle">
+			<path class="domain" stroke="#000" d="M0.5,6V0.5H1512.5V6"/>
+			<g class="tick" opacity="1" transform="translate(186.91095890410958,0)">
+				<line stroke="#000" y2="6"/>
+				<text fill="#000" y="9" dy="0.71em">50</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(394.0342465753424,0)">
+				<line stroke="#000" y2="6"/>
+				<text fill="#000" y="9" dy="0.71em">100</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(601.1575342465753,0)">
+				<line stroke="#000" y2="6"/>
+				<text fill="#000" y="9" dy="0.71em">150</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(808.2808219178082,0)">
+				<line stroke="#000" y2="6"/>
+				<text fill="#000" y="9" dy="0.71em">200</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(1015.4041095890411,0)">
+				<line stroke="#000" y2="6"/>
+				<text fill="#000" y="9" dy="0.71em">250</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(1222.527397260274,0)">
+				<line stroke="#000" y2="6"/>
+				<text fill="#000" y="9" dy="0.71em">300</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(1429.650684931507,0)">
+				<line stroke="#000" y2="6"/>
+				<text fill="#000" y="9" dy="0.71em">350</text>
+			</g>
+		</g>
+		<g fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+			<path class="domain" stroke="#000" d="M-6,940.5H0.5V0.5H-6"/>
+			<g class="tick" opacity="1" transform="translate(0,940.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1780/1798</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,846.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1782/1800</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,752.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1784/1802</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,658.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1786/1804</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,564.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1788/1806</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,470.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1790/1808</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,376.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1792/1810</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,282.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1794/1812</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,188.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1796/1814</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,94.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1798/1816</text>
+			</g>
+			<g class="tick" opacity="1" transform="translate(0,0.5)">
+				<line stroke="#000" x2="-6"/>
+				<text fill="#000" x="-9" dy="0.32em">1800/1818</text>
+			</g>
+		</g>
+		<g><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path><path d="M0,329L53.85205479452055,329L62.13698630136986,329L107.7041095890411,329L120.13150684931507,329L273.4027397260274,329L331.39726027397256,329L401.8191780821918,329L451.52876712328765,329L472.241095890411,329L476.3835616438356,329L559.2328767123288,517L571.6602739726028,282L571.6602739726028,329L604.8000000000001,282L666.9369863013699,282L695.9342465753425,329L729.0739726027398,329L753.9287671232877,329L758.0712328767124,329L770.4986301369863,282L778.7835616438356,329L782.9260273972602,329L787.0684931506848,517L787.0684931506848,376L791.2109589041095,329L961.0520547945206,282L1014.9041095890411,329L1056.3287671232877,282L1089.468493150685,282L1097.7534246575342,329L1097.7534246575342,376L1114.3232876712327,282L1122.6082191780822,282L1164.0328767123287,282L1164.0328767123287,282L1193.0301369863014,282L1213.7424657534248,282L1238.5972602739726,282L1275.8794520547945,282L1292.4493150684932,329L1300.7342465753425,282L1333.8739726027397,282L1346.3013698630136,329L1408.4383561643835,282L1412.5808219178082,282L1420.8657534246577,282L1425.0082191780823,282L1429.150684931507,282L1437.4356164383562,282L1449.86301369863,282L1470.5753424657535,282L1470.5753424657535,282L1470.5753424657535,329L1474.717808219178,282L1487.145205479452,282L-20.712328767123285,NaN" stroke="#F99379" stroke-width="2" style="fill: none;"><title>narrator: 3rd Person Narrator</title></path></g><g><rect x="0" y="305" width="4" height="24" id="evAc673" style="fill: url(&quot;#grad34s&quot;);"><title>Event: Mr. Bingley comes to Netherfield. 
+Involves: Mr. Bingley; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="53.85205479452055" y="305" width="4" height="24" id="evAc675" style="fill: url(&quot;#grad13s&quot;);"><title>Event: Mr. Darcy snubs Elizabeth at the Meryton assembly. 
+Involves: Elizabeth Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="62.13698630136986" y="305" width="4" height="24" id="evAc676" style="fill: url(&quot;#grad13s&quot;);"><title>Event: Mr. Darcy snubs Elizabeth at the Meryton assembly. 
+Involves: Elizabeth Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="107.7041095890411" y="305" width="4" height="24" id="evAc679" style="fill: url(&quot;#grad234s&quot;);"><title>Event: Jane goes to Netherfield and gets sick. 
+Involves: Mr. Bingley; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="120.13150684931507" y="305" width="4" height="24" id="evAc677" style="fill: url(&quot;#grad1234s&quot;);"><title>Event: Elizabeth goes to Netherfield to care for Jane. 
+Involves: Mr. Bingley; Elizabeth Bennet; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="273.4027397260274" y="305" width="4" height="24" id="evAc680" style="fill: url(&quot;#grad1235s&quot;);"><title>Event: Elizabeth meets Mr. Wickham. 
+Involves: Elizabeth Bennet; Jane Bennet; Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="331.39726027397256" y="305" width="4" height="24" id="evAc681" style="fill: url(&quot;#grad1234s&quot;);"><title>Event: The Ball at Netherfield. 
+Involves: Mr. Bingley; Elizabeth Bennet; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="401.8191780821918" y="305" width="4" height="24" id="evAc683" style="fill: url(&quot;#grad1s&quot;);"><title>Event: Mr. Collins proposes to Elizabeth. 
+Involves: Elizabeth Bennet; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="451.52876712328765" y="305" width="4" height="24" id="evAc685" style="fill: url(&quot;#grad234s&quot;);"><title>Event: The Bingleys leave Netherfield. 
+Involves: Mr. Bingley; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="472.241095890411" y="305" width="4" height="24" id="evAc684" style="fill: url(&quot;#grad1s&quot;);"><title>Event: Mr. Collins proposes to Elizabeth. 
+Involves: Elizabeth Bennet; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="476.3835616438356" y="305" width="4" height="24" id="evAc691" style="fill: url(&quot;#grads&quot;);"><title>Event: Mr. Collins gets engaged to Charlotte Lucas. 
+Involves: other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="559.2328767123288" y="493" width="4" height="24" id="evAc724" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Darcy's father dies and Mr. Wickham asks for an “immediate pecuniary advantage, in leiu of the preferment.”. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="571.6602739726028" y="258" width="4" height="24" id="evAc695" style="fill: url(&quot;#grads&quot;);"><title>Event: Mr. Collins and Charlotte Lucas get married. 
+Involves: other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="571.6602739726028" y="305" width="4" height="24" id="evAc692" style="fill: url(&quot;#grad2s&quot;);"><title>Event: Jane goes to London with the Gardiners. 
+Involves: Jane Bennet; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="604.8000000000001" y="258" width="4" height="24" id="evAc696" style="fill: url(&quot;#grad1s&quot;);"><title>Event: Elizabeth visits the Collinses at Hunsford. 
+Involves: Elizabeth Bennet; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="666.9369863013699" y="258" width="4" height="24" id="evAc697" style="fill: url(&quot;#grad3s&quot;);"><title>Event: Mr. Darcy and Colonel Fitzwilliam visit Rosings. 
+Involves: Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="695.9342465753425" y="305" width="4" height="24" id="evAc686" style="fill: url(&quot;#grad234s&quot;);"><title>Event: The Bingleys leave Netherfield. 
+Involves: Mr. Bingley; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="729.0739726027398" y="305" width="4" height="24" id="evAc689" style="fill: url(&quot;#grad234s&quot;);"><title>Event: The Bingleys leave Netherfield. 
+Involves: Mr. Bingley; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="753.9287671232877" y="305" width="4" height="24" id="evAc687" style="fill: url(&quot;#grad234s&quot;);"><title>Event: The Bingleys leave Netherfield. 
+Involves: Mr. Bingley; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="758.0712328767124" y="305" width="4" height="24" id="evAc674" style="fill: url(&quot;#grad13s&quot;);"><title>Event: Mr. Darcy snubs Elizabeth at the Meryton assembly. 
+Involves: Elizabeth Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="770.4986301369863" y="258" width="4" height="24" id="evAc698" style="fill: url(&quot;#grad13&quot;);"><title>Event: Mr. Darcy proposes to Elizabeth. 
+Involves: Elizabeth Bennet; Mr. Darcy. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="778.7835616438356" y="305" width="4" height="24" id="evAc688" style="fill: url(&quot;#grad234s&quot;);"><title>Event: The Bingleys leave Netherfield. 
+Involves: Mr. Bingley; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="782.9260273972602" y="305" width="4" height="24" id="evAc693" style="fill: url(&quot;#grad2s&quot;);"><title>Event: Jane goes to London with the Gardiners. 
+Involves: Jane Bennet; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="787.0684931506848" y="493" width="4" height="24" id="evAc725" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Darcy's father dies and Mr. Wickham asks for an “immediate pecuniary advantage, in leiu of the preferment.”. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="787.0684931506848" y="352" width="4" height="24" id="evAc726" style="fill: url(&quot;#grad35&quot;);"><title>Event: Mr. Wickham returns and asks for the living. 
+Involves: Mr. Darcy; Mr. Wickham. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="791.2109589041095" y="305" width="4" height="24" id="evAc728" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Wickham seduces and attempts to elope with Mr. Darcy's sister. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="961.0520547945206" y="258" width="4" height="24" id="evAc705" style="fill: url(&quot;#grad13s&quot;);"><title>Event: Elizabeth visits Pemberley. 
+Involves: Elizabeth Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1014.9041095890411" y="305" width="4" height="24" id="evAc682" style="fill: url(&quot;#grad1234s&quot;);"><title>Event: The Ball at Netherfield. 
+Involves: Mr. Bingley; Elizabeth Bennet; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1056.3287671232877" y="258" width="4" height="24" id="evAc700" style="fill: url(&quot;#grad5s&quot;);"><title>Event: Lydia runs away with Mr. Wickham. 
+Involves: Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1089.468493150685" y="258" width="4" height="24" id="evAc701" style="fill: url(&quot;#grad5s&quot;);"><title>Event: Lydia runs away with Mr. Wickham. 
+Involves: Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1097.7534246575342" y="305" width="4" height="24" id="evAc729" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Wickham seduces and attempts to elope with Mr. Darcy's sister. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1097.7534246575342" y="352" width="4" height="24" id="evAc727" style="fill: url(&quot;#grad35&quot;);"><title>Event: Mr. Wickham returns and asks for the living. 
+Involves: Mr. Darcy; Mr. Wickham. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1114.3232876712327" y="258" width="4" height="24" id="evAc702" style="fill: url(&quot;#grad5s&quot;);"><title>Event: Lydia runs away with Mr. Wickham. 
+Involves: Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1122.6082191780822" y="258" width="4" height="24" id="evAc703" style="fill: url(&quot;#grad5s&quot;);"><title>Event: Lydia runs away with Mr. Wickham. 
+Involves: Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1164.0328767123287" y="258" width="4" height="24" id="evAc709" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Darcy settles things between Mr. Wickham and Lydia. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1164.0328767123287" y="258" width="4" height="24" id="evAc706" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Wickham marries Lydia. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1193.0301369863014" y="258" width="4" height="24" id="evAc707" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Wickham marries Lydia. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1213.7424657534248" y="258" width="4" height="24" id="evAc708" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Wickham marries Lydia. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1238.5972602739726" y="258" width="4" height="24" id="evAc710" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Darcy settles things between Mr. Wickham and Lydia. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1275.8794520547945" y="258" width="4" height="24" id="evAc713" style="fill: url(&quot;#grad34&quot;);"><title>Event: Mr. Bingley and Mr. Darcy return to Netherfield. 
+Involves: Mr. Bingley; Mr. Darcy. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1292.4493150684932" y="305" width="4" height="24" id="evAc690" style="fill: url(&quot;#grad234s&quot;);"><title>Event: The Bingleys leave Netherfield. 
+Involves: Mr. Bingley; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1300.7342465753425" y="258" width="4" height="24" id="evAc714" style="fill: url(&quot;#grad34&quot;);"><title>Event: Mr. Bingley and Mr. Darcy return to Netherfield. 
+Involves: Mr. Bingley; Mr. Darcy. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1333.8739726027397" y="258" width="4" height="24" id="evAc716" style="fill: url(&quot;#grad24&quot;);"><title>Event: Mr. Bingley and Jane get engaged. 
+Involves: Mr. Bingley; Jane Bennet. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1346.3013698630136" y="305" width="4" height="24" id="evAc694" style="fill: url(&quot;#grad2s&quot;);"><title>Event: Jane goes to London with the Gardiners. 
+Involves: Jane Bennet; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1408.4383561643835" y="258" width="4" height="24" id="evAc711" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Darcy settles things between Mr. Wickham and Lydia. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1412.5808219178082" y="258" width="4" height="24" id="evAc718" style="fill: url(&quot;#grad13&quot;);"><title>Event: Elizabeth and Mr. Darcy get engaged. 
+Involves: Elizabeth Bennet; Mr. Darcy. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1420.8657534246577" y="258" width="4" height="24" id="evAc699" style="fill: url(&quot;#grad13&quot;);"><title>Event: Mr. Darcy explains everything in a letter. 
+Involves: Elizabeth Bennet; Mr. Darcy. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1425.0082191780823" y="258" width="4" height="24" id="evAc704" style="fill: url(&quot;#grad13s&quot;);"><title>Event: Elizabeth visits Pemberley. 
+Involves: Elizabeth Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1429.150684931507" y="258" width="4" height="24" id="evAc717" style="fill: url(&quot;#grad24&quot;);"><title>Event: Mr. Bingley and Jane get engaged. 
+Involves: Mr. Bingley; Jane Bennet. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1437.4356164383562" y="258" width="4" height="24" id="evAc719" style="fill: url(&quot;#grad13&quot;);"><title>Event: Elizabeth and Mr. Darcy get engaged. 
+Involves: Elizabeth Bennet; Mr. Darcy. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1449.86301369863" y="258" width="4" height="24" id="evAc720" style="fill: url(&quot;#grad13&quot;);"><title>Event: Elizabeth and Mr. Darcy get engaged. 
+Involves: Elizabeth Bennet; Mr. Darcy. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1470.5753424657535" y="258" width="4" height="24" id="evAc715" style="fill: url(&quot;#grad34&quot;);"><title>Event: Mr. Bingley and Mr. Darcy return to Netherfield. 
+Involves: Mr. Bingley; Mr. Darcy. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1470.5753424657535" y="258" width="4" height="24" id="evAc712" style="fill: url(&quot;#grad35s&quot;);"><title>Event: Mr. Darcy settles things between Mr. Wickham and Lydia. 
+Involves: Mr. Darcy; Mr. Wickham; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1470.5753424657535" y="305" width="4" height="24" id="evAc678" style="fill: url(&quot;#grad1234s&quot;);"><title>Event: Elizabeth goes to Netherfield to care for Jane. 
+Involves: Mr. Bingley; Elizabeth Bennet; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1474.717808219178" y="258" width="4" height="24" id="evAc722" style="fill: url(&quot;#grad13&quot;);"><title>Event: Elizabeth and Mr. Darcy get engaged. 
+Involves: Elizabeth Bennet; Mr. Darcy. 
+Narrator: 3rd Person Narrator.</title></rect><rect x="1487.145205479452" y="258" width="4" height="24" id="evAc723" style="fill: url(&quot;#grad1234s&quot;);"><title>Event: Double wedding between Elizabeth and Mr. Darcy, Jane and Mr. Bingley. 
+Involves: Mr. Bingley; Elizabeth Bennet; Jane Bennet; Mr. Darcy; other(s). 
+Narrator: 3rd Person Narrator.</title></rect>
+			</g></g>
+
+<g id="legend" transform="translate(1740,10)">
+	<g transform="translate(0,0)" class="legend-title">
+		<rect width="18" height="18" style="fill: rgb(255, 255, 255);"/>
+		<text x="24" y="9" dy=".35em" style="text-anchor: start;font-weight: bold;">Legend</text>
+	</g>
+	<g transform="translate(0,20)">
+		<rect width="18" height="18" style="fill: rgb(207, 104, 132);"/>
+		<text x="24" y="9" dy=".35em" style="text-anchor: start;">Elizabeth Bennet</text>
+	</g>
+	<g transform="translate(0,40)">
+		<rect width="18" height="18" style="fill: rgb(0, 136, 86);"/>
+		<text x="24" y="9" dy=".35em" style="text-anchor: start;">Jane Bennet</text>
+	</g>
+	<g transform="translate(0,60)">
+		<rect width="18" height="18" style="fill: rgb(161, 202, 241);"/>
+		<text x="24" y="9" dy=".35em" style="text-anchor: start;">Mr. Darcy</text>
+	</g>
+	<g transform="translate(0,80)">
+		<rect width="18" height="18" style="fill: rgb(243, 195, 0);"/>
+		<text x="24" y="9" dy=".35em" style="text-anchor: start;">Mr. Bingley</text>
+	</g>
+	<g transform="translate(0,100)">
+		<rect width="18" height="18" style="fill: rgb(185, 148, 193);"/>
+		<text x="24" y="9" dy=".35em" style="text-anchor: start;">Mr. Wickham</text>
+	</g>
+	<g transform="translate(0,120)">
+		<rect width="18" height="18" style="fill: rgb(232, 232, 232);"/>
+		<text x="24" y="9" dy=".35em" style="text-anchor: start;">other characters</text>
+	</g>
+</g>
+
+
+</svg>

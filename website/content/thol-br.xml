@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<article xmlns="http://www.w3.org/1999/xhtml" id="thol-br" class="svg-viz" title="The History of Love visualization: Braid">
+    <main class="svgView">
+        <div class="content-column">
+            <h1 class="page-title">The History of Love Braid</h1>
+            <details>
+                <summary>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 18 6-6-6-6"></path>
+                    </svg> View Key
+                </summary>
+               <div>
+                Red: Character Narrator Leo Gursky<br />
+                Blue: Character Narrator Alma Singer<br />
+                Yellow: Heterodiegetic Narrator Focalizing Zvi Litvinoff<br />
+                Green: Character Narrator Bird Singer<br />
+                Purple: “A + L” Title
+
+            
+               </div>
+            </details>
+            <embed class="braid" type="image/svg+xml" src="images/viz/thol-br.svg" id="viz"/>
+        </div>
+    </main>
+</article>

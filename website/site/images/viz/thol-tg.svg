@@ -1,0 +1,1910 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="svgContainer" viewBox="0 0 1720 895">
+    <defs>
+        <!-- six colours (1)-->
+        <linearGradient id="grad12345s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="16%" style="stop-color:rgb(207, 104, 132);"/>
+            <!-- 1stPrimaryCharacter -->
+            <stop offset="17%" style="stop-color:rgb(0, 136, 86);"/>
+            <!-- 2ndPrimaryCharacter -->
+            <stop offset="33%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="34%" style="stop-color:rgb(161, 193, 241);"/>
+            <!-- 3rdPrimaryCharacter -->
+            <stop offset="50%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="51%" style="stop-color:rgb(243, 195, 0);"/>
+            <!-- 4thPrimaryCharacter -->
+            <stop offset="67%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="68%" style="stop-color:rgb(135, 86, 146);"/>
+            <!-- 5thPrimaryCharacter -->
+            <stop offset="83%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="84%" style="stop-color:rgb(232, 232, 232);"/>
+            <!-- all other characters -->
+        </linearGradient>
+
+        <!-- one colour (6)-->
+        <linearGradient id="grad1" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="1%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="100%" style="stop-color:rgb(207, 104, 132);"/>
+        </linearGradient>
+        <linearGradient id="grad2" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="1%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="100%" style="stop-color:rgb(0, 136, 86);"/>
+        </linearGradient>
+        <linearGradient id="grad3" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="1%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="100%" style="stop-color:rgb(161, 193, 241);"/>
+        </linearGradient>
+        <linearGradient id="grad4" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="1%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="100%" style="stop-color:rgb(243, 195, 0);"/>
+        </linearGradient>
+        <linearGradient id="grad5" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="1%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="100%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grads" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="1%" style="stop-color:rgb(232, 232, 232);"/>
+            <stop offset="100%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+
+        <!-- two colours (15)-->
+        <linearGradient id="grad12" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="51%" style="stop-color:rgb(0, 136, 86);"/>
+        </linearGradient>
+        <linearGradient id="grad13" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="51%" style="stop-color:rgb(161, 193, 241);"/>
+        </linearGradient>
+        <linearGradient id="grad14" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="51%" style="stop-color:rgb(243, 195, 0);"/>
+        </linearGradient>
+        <linearGradient id="grad15" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="51%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad1s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="51%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad23" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="51%" style="stop-color:rgb(161, 193, 241);"/>
+        </linearGradient>
+        <linearGradient id="grad24" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="51%" style="stop-color:rgb(243, 195, 0);"/>
+        </linearGradient>
+        <linearGradient id="grad25" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="51%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad2s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="51%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad34" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="51%" style="stop-color:rgb(243, 195, 0);"/>
+        </linearGradient>
+        <linearGradient id="grad35" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="51%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad3s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="51%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad45" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="51%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad4s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="51%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad5s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="50%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="51%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+
+        <!-- three colours (20)-->
+        <linearGradient id="grad123" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="66%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="67%" style="stop-color:rgb(161, 193, 241);"/>
+        </linearGradient>
+        <linearGradient id="grad124" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="66%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="67%" style="stop-color:rgb(243, 195, 0);"/>
+        </linearGradient>
+        <linearGradient id="grad125" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="66%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="67%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad12s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="66%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="67%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad134" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="66%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="67%" style="stop-color:rgb(243, 195, 0);"/>
+        </linearGradient>
+        <linearGradient id="grad135" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="66%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="67%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad13s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="66%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="67%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad145" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="66%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="67%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad14s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="66%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="67%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad15s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="34%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="66%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="67%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad234" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="34%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="66%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="67%" style="stop-color:rgb(243, 195, 0);"/>
+        </linearGradient>
+        <linearGradient id="grad235" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="34%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="66%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="67%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad23s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="34%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="66%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="67%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad245" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="34%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="66%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="67%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad24s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="34%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="66%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="67%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad25s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="34%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="66%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="67%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad345" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="34%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="66%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="67%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad34s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="34%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="66%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="67%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad35s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="34%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="66%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="67%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad45s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="33%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="34%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="66%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="67%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+
+        <!-- four colours (15)-->
+        <linearGradient id="grad1234" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="49%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="50%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="75%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="76%" style="stop-color:rgb(243, 195, 0);"/>
+        </linearGradient>
+        <linearGradient id="grad1235" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="49%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="50%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="75%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="76%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad123s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="49%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="50%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="75%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad1245" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="49%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="50%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="75%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="76%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad124s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="49%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="50%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="75%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad125s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="49%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="50%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="75%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad1345" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="49%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="50%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="75%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="76%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad134s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="49%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="50%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="75%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad135s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="49%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="50%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="75%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad145s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="25%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="49%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="50%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="75%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad2345" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="25%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="49%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="50%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="75%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="76%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad234s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="25%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="49%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="50%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="75%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad235s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="25%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="49%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="50%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="75%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad245s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="25%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="49%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="50%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="75%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad345s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="24%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="25%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="49%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="50%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="75%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="76%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+
+        <!-- five colours (6)-->
+        <linearGradient id="grad12345" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="20%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="21%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="40%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="41%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="60%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="61%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="80%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="81%" style="stop-color:rgb(135, 86, 146);"/>
+        </linearGradient>
+        <linearGradient id="grad1234s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="20%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="21%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="40%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="41%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="60%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="61%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="80%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="81%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad1235s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="20%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="21%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="40%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="41%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="60%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="61%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="80%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="81%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad1245s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="20%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="21%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="40%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="41%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="60%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="61%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="80%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="81%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad1345s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="20%" style="stop-color:rgb(207, 104, 132);"/>
+            <stop offset="21%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="40%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="41%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="60%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="61%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="80%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="81%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+        <linearGradient id="grad2345s" x1="0%" y1="0%" y2="100%" x2="0%">
+            <stop offset="20%" style="stop-color:rgb(0, 136, 86);"/>
+            <stop offset="21%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="40%" style="stop-color:rgb(161, 193, 241);"/>
+            <stop offset="41%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="60%" style="stop-color:rgb(243, 195, 0);"/>
+            <stop offset="61%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="80%" style="stop-color:rgb(135, 86, 146);"/>
+            <stop offset="81%" style="stop-color:rgb(232, 232, 232);"/>
+        </linearGradient>
+
+    </defs>
+    <g transform="translate(60,10)">
+        <g transform="translate(0,855)" fill="none" font-size="10" font-family="sans-serif"
+            text-anchor="middle">
+            <path class="domain" stroke="rgb(0, 0, 0)" d="M0.5,6V0.5H1630.5V6"/>
+            <g class="tick" opacity="1" transform="translate(0.5,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">0</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(128.34313725490196,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">20</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(256.1862745098039,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">40</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(384.02941176470586,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">60</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(511.87254901960785,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">80</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(639.7156862745098,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">100</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(767.5588235294117,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">120</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(895.4019607843138,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">140</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(1023.2450980392157,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">160</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(1151.0882352941178,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">180</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(1278.9313725490197,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">200</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(1406.7745098039215,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">220</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(1534.6176470588234,0)">
+                <line stroke="rgb(0, 0, 0)" y2="6"/>
+                <text fill="rgb(0, 0, 0)" y="9" dy="0.71em">240</text>
+            </g>
+        </g>
+        <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+            <path class="domain" stroke="rgb(0, 0, 0)" d="M-6,855.5H0.5V0.5H-6"/>
+            <g class="tick" opacity="1" transform="translate(0,855.5)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,900</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,777.7727272727273)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,910</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,700.0454545454545)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,920</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,622.3181818181819)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,930</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,544.590909090909)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,940</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,466.8636363636364)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,950</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,389.1363636363637)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,960</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,311.4090909090909)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,970</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,233.68181818181813)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,980</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,155.95454545454538)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">1,990</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,78.22727272727275)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">2,000</text>
+            </g>
+            <g class="tick" opacity="1" transform="translate(0,0.5)">
+                <line stroke="rgb(0, 0, 0)" x2="-6"/>
+                <text fill="rgb(0, 0, 0)" x="-9" dy="0.32em">2,010</text>
+            </g>
+        </g>
+        <g>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M25.56862745098039,505.2272727272727L31.96078431372549,303.1363636363636L38.35294117647059,303.1363636363636L44.745098039215684,544.090909090909L51.13725490196078,582.9545454545455L51.13725490196078,544.090909090909L51.13725490196078,544.090909090909L51.13725490196078,536.3181818181818L51.13725490196078,520.7727272727273L57.529411764705884,93.27272727272725L70.31372549019608,582.9545454545455L70.31372549019608,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,544.090909090909L76.70588235294117,536.3181818181818L76.70588235294117,520.7727272727273L76.70588235294117,505.2272727272727L83.09803921568627,544.090909090909L83.09803921568627,505.2272727272727L115.05882352941177,303.1363636363636L217.33333333333334,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M479.4117647058824,77.72727272727275L492.19607843137254,77.72727272727275L492.19607843137254,77.72727272727275L498.5882352941177,544.090909090909L511.37254901960785,582.9545454545455L536.9411764705882,77.72727272727275L543.3333333333333,582.9545454545455L543.3333333333333,116.59090909090912L543.3333333333333,77.72727272727275L549.7254901960785,77.72727272727275L556.1176470588235,77.72727272727275L562.5098039215686,77.72727272727275L568.9019607843137,77.72727272727275L575.2941176470589,582.9545454545455L588.0784313725491,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M773.4509803921568,544.090909090909L773.4509803921568,396.4090909090909L779.843137254902,396.4090909090909L792.6274509803922,93.27272727272725L805.4117647058824,582.9545454545455L811.8039215686275,582.9545454545455L818.1960784313725,699.5454545454545L818.1960784313725,582.9545454545455L824.5882352941176,582.9545454545455L824.5882352941176,520.7727272727273L850.1568627450981,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1029.1372549019607,77.72727272727275L1035.5294117647059,77.72727272727275L1041.9215686274508,116.59090909090912L1041.9215686274508,77.72727272727275L1048.3137254901962,544.090909090909L1067.4901960784314,93.27272727272725L1073.8823529411764,536.3181818181818L1073.8823529411764,520.7727272727273L1073.8823529411764,116.59090909090912L1080.2745098039215,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M1335.9607843137255,93.27272727272725L1335.9607843137255,77.72727272727275L1335.9607843137255,77.72727272727275L1355.137254901961,77.72727272727275L1355.137254901961,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1335.9607843137255,93.27272727272725L1335.9607843137255,77.72727272727275L1335.9607843137255,77.72727272727275L1355.137254901961,77.72727272727275L1355.137254901961,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1335.9607843137255,93.27272727272725L1335.9607843137255,77.72727272727275L1335.9607843137255,77.72727272727275L1355.137254901961,77.72727272727275L1355.137254901961,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1335.9607843137255,93.27272727272725L1335.9607843137255,77.72727272727275L1335.9607843137255,77.72727272727275L1355.137254901961,77.72727272727275L1355.137254901961,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1335.9607843137255,93.27272727272725L1335.9607843137255,77.72727272727275L1335.9607843137255,77.72727272727275L1355.137254901961,77.72727272727275L1355.137254901961,77.72727272727275"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M1444.627450980392,520.7727272727273L1444.627450980392,505.2272727272727L1470.1960784313726,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1444.627450980392,520.7727272727273L1444.627450980392,505.2272727272727L1470.1960784313726,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path
+                d="M1444.627450980392,520.7727272727273L1444.627450980392,505.2272727272727L1470.1960784313726,582.9545454545455"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+        </g>
+        <g>
+            <path d="M1521.3333333333333,520.7727272727273L1534.1176470588234,520.7727272727273"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+            <path d="M1521.3333333333333,520.7727272727273L1534.1176470588234,520.7727272727273"
+                stroke="rgb(225, 156, 174)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Leo</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M223.72549019607845,194.31818181818187L236.50980392156865,256.5L236.50980392156865,139.909090909091L242.90196078431373,256.5L262.07843137254906,194.31818181818187L262.07843137254906,139.909090909091L268.4705882352941,139.909090909091L274.8627450980392,139.909090909091L294.03921568627453,139.909090909091L351.5686274509804,536.3181818181818L351.5686274509804,77.72727272727275L364.3529411764706,582.9545454545455L396.3137254901961,582.9545454545455L402.7058823529412,582.9545454545455"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M600.8627450980392,139.909090909091L607.2549019607843,101.0454545454545L626.4313725490197,101.0454545454545L645.6078431372549,139.909090909091L645.6078431372549,77.72727272727275L690.3529411764706,256.5L696.7450980392157,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M600.8627450980392,139.909090909091L607.2549019607843,101.0454545454545L626.4313725490197,101.0454545454545L645.6078431372549,139.909090909091L645.6078431372549,77.72727272727275L690.3529411764706,256.5L696.7450980392157,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M600.8627450980392,139.909090909091L607.2549019607843,101.0454545454545L626.4313725490197,101.0454545454545L645.6078431372549,139.909090909091L645.6078431372549,77.72727272727275L690.3529411764706,256.5L696.7450980392157,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M600.8627450980392,139.909090909091L607.2549019607843,101.0454545454545L626.4313725490197,101.0454545454545L645.6078431372549,139.909090909091L645.6078431372549,77.72727272727275L690.3529411764706,256.5L696.7450980392157,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M600.8627450980392,139.909090909091L607.2549019607843,101.0454545454545L626.4313725490197,101.0454545454545L645.6078431372549,139.909090909091L645.6078431372549,77.72727272727275L690.3529411764706,256.5L696.7450980392157,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M600.8627450980392,139.909090909091L607.2549019607843,101.0454545454545L626.4313725490197,101.0454545454545L645.6078431372549,139.909090909091L645.6078431372549,77.72727272727275L690.3529411764706,256.5L696.7450980392157,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M600.8627450980392,139.909090909091L607.2549019607843,101.0454545454545L626.4313725490197,101.0454545454545L645.6078431372549,139.909090909091L645.6078431372549,77.72727272727275L690.3529411764706,256.5L696.7450980392157,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M888.5098039215685,77.72727272727275L894.9019607843138,544.090909090909L894.9019607843138,536.3181818181818L901.2941176470589,536.3181818181818L901.2941176470589,77.72727272727275L901.2941176470589,77.72727272727275L952.4313725490197,77.72727272727275L952.4313725490197,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M888.5098039215685,77.72727272727275L894.9019607843138,544.090909090909L894.9019607843138,536.3181818181818L901.2941176470589,536.3181818181818L901.2941176470589,77.72727272727275L901.2941176470589,77.72727272727275L952.4313725490197,77.72727272727275L952.4313725490197,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M888.5098039215685,77.72727272727275L894.9019607843138,544.090909090909L894.9019607843138,536.3181818181818L901.2941176470589,536.3181818181818L901.2941176470589,77.72727272727275L901.2941176470589,77.72727272727275L952.4313725490197,77.72727272727275L952.4313725490197,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M888.5098039215685,77.72727272727275L894.9019607843138,544.090909090909L894.9019607843138,536.3181818181818L901.2941176470589,536.3181818181818L901.2941176470589,77.72727272727275L901.2941176470589,77.72727272727275L952.4313725490197,77.72727272727275L952.4313725490197,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M888.5098039215685,77.72727272727275L894.9019607843138,544.090909090909L894.9019607843138,536.3181818181818L901.2941176470589,536.3181818181818L901.2941176470589,77.72727272727275L901.2941176470589,77.72727272727275L952.4313725490197,77.72727272727275L952.4313725490197,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M888.5098039215685,77.72727272727275L894.9019607843138,544.090909090909L894.9019607843138,536.3181818181818L901.2941176470589,536.3181818181818L901.2941176470589,77.72727272727275L901.2941176470589,77.72727272727275L952.4313725490197,77.72727272727275L952.4313725490197,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M888.5098039215685,77.72727272727275L894.9019607843138,544.090909090909L894.9019607843138,536.3181818181818L901.2941176470589,536.3181818181818L901.2941176470589,77.72727272727275L901.2941176470589,77.72727272727275L952.4313725490197,77.72727272727275L952.4313725490197,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M888.5098039215685,77.72727272727275L894.9019607843138,544.090909090909L894.9019607843138,536.3181818181818L901.2941176470589,536.3181818181818L901.2941176470589,77.72727272727275L901.2941176470589,77.72727272727275L952.4313725490197,77.72727272727275L952.4313725490197,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M1093.0588235294117,544.090909090909L1118.6274509803923,303.1363636363636L1125.0196078431372,116.59090909090912L1125.0196078431372,77.72727272727275L1156.9803921568628,139.909090909091"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M1093.0588235294117,544.090909090909L1118.6274509803923,303.1363636363636L1125.0196078431372,116.59090909090912L1125.0196078431372,77.72727272727275L1156.9803921568628,139.909090909091"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M1093.0588235294117,544.090909090909L1118.6274509803923,303.1363636363636L1125.0196078431372,116.59090909090912L1125.0196078431372,77.72727272727275L1156.9803921568628,139.909090909091"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M1093.0588235294117,544.090909090909L1118.6274509803923,303.1363636363636L1125.0196078431372,116.59090909090912L1125.0196078431372,77.72727272727275L1156.9803921568628,139.909090909091"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M1093.0588235294117,544.090909090909L1118.6274509803923,303.1363636363636L1125.0196078431372,116.59090909090912L1125.0196078431372,77.72727272727275L1156.9803921568628,139.909090909091"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M1252.8627450980393,77.72727272727275L1272.0392156862745,77.72727272727275L1278.4313725490197,77.72727272727275L1291.2156862745098,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M1252.8627450980393,77.72727272727275L1272.0392156862745,77.72727272727275L1278.4313725490197,77.72727272727275L1291.2156862745098,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M1252.8627450980393,77.72727272727275L1272.0392156862745,77.72727272727275L1278.4313725490197,77.72727272727275L1291.2156862745098,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M1252.8627450980393,77.72727272727275L1272.0392156862745,77.72727272727275L1278.4313725490197,77.72727272727275L1291.2156862745098,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M1604.4313725490194,582.9545454545455L1604.4313725490194,544.090909090909L1604.4313725490194,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M1604.4313725490194,582.9545454545455L1604.4313725490194,544.090909090909L1604.4313725490194,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+            <path
+                d="M1604.4313725490194,582.9545454545455L1604.4313725490194,544.090909090909L1604.4313725490194,77.72727272727275"
+                stroke="rgb(108, 200, 166)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Alma</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M415.4901960784313,458.5909090909091L415.4901960784313,248.72727272727275L421.8823529411765,450.8181818181818L421.8823529411765,396.4090909090909L428.2745098039216,396.4090909090909L434.6666666666667,481.90909090909093L434.6666666666667,248.72727272727275L447.4509803921569,396.4090909090909L453.843137254902,248.72727272727275L473.0196078431373,536.3181818181818L473.0196078431373,303.1363636363636"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M703.1372549019608,536.3181818181818L715.9215686274509,536.3181818181818L754.2745098039217,544.090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M703.1372549019608,536.3181818181818L715.9215686274509,536.3181818181818L754.2745098039217,544.090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M703.1372549019608,536.3181818181818L715.9215686274509,536.3181818181818L754.2745098039217,544.090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M978,536.3181818181818L984.3921568627451,536.3181818181818L990.7843137254902,536.3181818181818L997.1764705882354,481.90909090909093L1003.5686274509804,458.5909090909091"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M978,536.3181818181818L984.3921568627451,536.3181818181818L990.7843137254902,536.3181818181818L997.1764705882354,481.90909090909093L1003.5686274509804,458.5909090909091"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M978,536.3181818181818L984.3921568627451,536.3181818181818L990.7843137254902,536.3181818181818L997.1764705882354,481.90909090909093L1003.5686274509804,458.5909090909091"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M978,536.3181818181818L984.3921568627451,536.3181818181818L990.7843137254902,536.3181818181818L997.1764705882354,481.90909090909093L1003.5686274509804,458.5909090909091"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M978,536.3181818181818L984.3921568627451,536.3181818181818L990.7843137254902,536.3181818181818L997.1764705882354,481.90909090909093L1003.5686274509804,458.5909090909091"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+        </g>
+        <g>
+            <path
+                d="M1176.1568627450981,575.1818181818182L1195.3333333333333,248.72727272727275L1201.7254901960785,396.4090909090909L1201.7254901960785,248.72727272727275L1208.1176470588236,396.4090909090909L1208.1176470588236,396.4090909090909L1214.5098039215686,396.4090909090909L1214.5098039215686,396.4090909090909L1220.9019607843138,396.4090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M1176.1568627450981,575.1818181818182L1195.3333333333333,248.72727272727275L1201.7254901960785,396.4090909090909L1201.7254901960785,248.72727272727275L1208.1176470588236,396.4090909090909L1208.1176470588236,396.4090909090909L1214.5098039215686,396.4090909090909L1214.5098039215686,396.4090909090909L1220.9019607843138,396.4090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M1176.1568627450981,575.1818181818182L1195.3333333333333,248.72727272727275L1201.7254901960785,396.4090909090909L1201.7254901960785,248.72727272727275L1208.1176470588236,396.4090909090909L1208.1176470588236,396.4090909090909L1214.5098039215686,396.4090909090909L1214.5098039215686,396.4090909090909L1220.9019607843138,396.4090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M1176.1568627450981,575.1818181818182L1195.3333333333333,248.72727272727275L1201.7254901960785,396.4090909090909L1201.7254901960785,248.72727272727275L1208.1176470588236,396.4090909090909L1208.1176470588236,396.4090909090909L1214.5098039215686,396.4090909090909L1214.5098039215686,396.4090909090909L1220.9019607843138,396.4090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M1176.1568627450981,575.1818181818182L1195.3333333333333,248.72727272727275L1201.7254901960785,396.4090909090909L1201.7254901960785,248.72727272727275L1208.1176470588236,396.4090909090909L1208.1176470588236,396.4090909090909L1214.5098039215686,396.4090909090909L1214.5098039215686,396.4090909090909L1220.9019607843138,396.4090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M1176.1568627450981,575.1818181818182L1195.3333333333333,248.72727272727275L1201.7254901960785,396.4090909090909L1201.7254901960785,248.72727272727275L1208.1176470588236,396.4090909090909L1208.1176470588236,396.4090909090909L1214.5098039215686,396.4090909090909L1214.5098039215686,396.4090909090909L1220.9019607843138,396.4090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M1176.1568627450981,575.1818181818182L1195.3333333333333,248.72727272727275L1201.7254901960785,396.4090909090909L1201.7254901960785,248.72727272727275L1208.1176470588236,396.4090909090909L1208.1176470588236,396.4090909090909L1214.5098039215686,396.4090909090909L1214.5098039215686,396.4090909090909L1220.9019607843138,396.4090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M1176.1568627450981,575.1818181818182L1195.3333333333333,248.72727272727275L1201.7254901960785,396.4090909090909L1201.7254901960785,248.72727272727275L1208.1176470588236,396.4090909090909L1208.1176470588236,396.4090909090909L1214.5098039215686,396.4090909090909L1214.5098039215686,396.4090909090909L1220.9019607843138,396.4090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+            <path
+                d="M1176.1568627450981,575.1818181818182L1195.3333333333333,248.72727272727275L1201.7254901960785,396.4090909090909L1201.7254901960785,248.72727272727275L1208.1176470588236,396.4090909090909L1208.1176470588236,396.4090909090909L1214.5098039215686,396.4090909090909L1214.5098039215686,396.4090909090909L1220.9019607843138,396.4090909090909"
+                stroke="rgb(161, 202, 241)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Zvi's narrator</title>
+            </path>
+        </g>
+        <g>
+            <path d="M1316.7843137254902,139.909090909091L1323.1764705882354,77.72727272727275"
+                stroke="rgb(243, 195, 0)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Bird</title>
+            </path>
+            <path d="M1316.7843137254902,139.909090909091L1323.1764705882354,77.72727272727275"
+                stroke="rgb(243, 195, 0)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Bird</title>
+            </path>
+        </g>
+        <g>
+            <path d="M1380.7058823529412,77.72727272727275L1387.0980392156862,77.72727272727275"
+                stroke="rgb(243, 195, 0)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Bird</title>
+            </path>
+            <path d="M1380.7058823529412,77.72727272727275L1387.0980392156862,77.72727272727275"
+                stroke="rgb(243, 195, 0)" stroke-width="2" style="fill: none;">
+                <title>Narrator: Bird</title>
+            </path>
+        </g>
+        <g>
+            <rect x="25.56862745098039" y="481.2272727272727" width="4" height="24" id="evAc537"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo leaves for America.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="31.96078431372549" y="279.1363636363636" width="4" height="24" id="evAc246"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Bruno reconnect.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="38.35294117647059" y="279.1363636363636" width="4" height="24" id="evAc247"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Bruno reconnect.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="44.745098039215684" y="520.090909090909" width="4" height="24" id="evAc203"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo completes 'The History of Love'.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="51.13725490196078" y="558.9545454545455" width="4" height="24" id="evAc178"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="51.13725490196078" y="520.090909090909" width="4" height="24" id="evAc195"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma leaves for America.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="51.13725490196078" y="520.090909090909" width="4" height="24" id="evAc204"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo completes 'The History of Love'.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="51.13725490196078" y="512.3181818181818" width="4" height="24" id="evAc213"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Nazis invade Slonim.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="51.13725490196078" y="496.77272727272725" width="4" height="24" id="evAc534"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo escapes the Nazis.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="57.529411764705884" y="69.27272727272725" width="4" height="24" id="evAc267"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo begins to write again.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="70.31372549019608" y="558.9545454545455" width="4" height="24" id="evAc179"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="70.31372549019608" y="520.090909090909" width="4" height="24" id="evAc523"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma leaves for America.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="76.70588235294117" y="520.090909090909" width="4" height="24" id="evAc196"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma leaves for America.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="76.70588235294117" y="520.090909090909" width="4" height="24" id="evAc205"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo completes 'The History of Love'.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="76.70588235294117" y="512.3181818181818" width="4" height="24" id="evAc214"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Nazis invade Slonim.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="76.70588235294117" y="496.77272727272725" width="4" height="24" id="evAc218"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo escapes the Nazis.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="76.70588235294117" y="481.2272727272727" width="4" height="24" id="evAc225"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo leaves for America.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="83.09803921568627" y="520.090909090909" width="4" height="24" id="evAc199"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Isaac is born.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="83.09803921568627" y="481.2272727272727" width="4" height="24" id="evAc226"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Alma refuses Leo's proposal.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="115.05882352941177" y="279.1363636363636" width="4" height="24" id="evAc248"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Bruno reconnect.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="217.33333333333334" y="53.72727272727275" width="4" height="24" id="evAc281"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo sends Isaac 'WORDS FOR EVERYTHING'.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="479.4117647058824" y="53.72727272727275" width="4" height="24" id="evAc282"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo sends Isaac 'WORDS FOR EVERYTHING'.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="492.19607843137254" y="53.72727272727275" width="4" height="24" id="evAc287"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Isaac dies.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="492.19607843137254" y="53.72727272727275" width="4" height="24" id="evAc290"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo finds out about Isaac's death.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="498.5882352941177" y="520.090909090909" width="4" height="24" id="evAc200"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Isaac is born.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="511.37254901960785" y="558.9545454545455" width="4" height="24" id="evAc185"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="536.9411764705882" y="53.72727272727275" width="4" height="24" id="evAc294"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo attends Isaac's funeral.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="543.3333333333333" y="558.9545454545455" width="4" height="24" id="evAc186"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="543.3333333333333" y="92.59090909090912" width="4" height="24" id="evAc258"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma Mereminski dies.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="543.3333333333333" y="53.72727272727275" width="4" height="24" id="evAc295"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo attends Isaac's funeral.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="549.7254901960785" y="53.72727272727275" width="4" height="24" id="evAc570"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo attends Isaac's funeral.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="556.1176470588235" y="53.72727272727275" width="4" height="24" id="evAc571"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo attends Isaac's funeral.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="562.5098039215686" y="53.72727272727275" width="4" height="24" id="evAc572"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo attends Isaac's funeral.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="568.9019607843137" y="53.72727272727275" width="4" height="24" id="evAc573"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo attends Isaac's funeral.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="575.2941176470589" y="558.9545454545455" width="4" height="24" id="evAc187"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="588.0784313725491" y="53.72727272727275" width="4" height="24" id="evAc296"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo recieves 'The History of Love'.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="773.4509803921568" y="520.090909090909" width="4" height="24" id="evAc206"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo completes 'The History of Love'.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="773.4509803921568" y="372.4090909090909" width="4" height="24" id="evAc236"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Rosa destroys the manuscript.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="779.843137254902" y="372.4090909090909" width="4" height="24" id="evAc237"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Rosa destroys the manuscript.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="792.6274509803922" y="69.27272727272725" width="4" height="24" id="evAc268"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo begins to write again.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="805.4117647058824" y="558.9545454545455" width="4" height="24" id="evAc188"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="811.8039215686275" y="558.9545454545455" width="4" height="24" id="evAc189"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="818.1960784313725" y="675.5454545454545" width="4" height="24" id="evAc175"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma Mereminski is born.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="818.1960784313725" y="558.9545454545455" width="4" height="24" id="evAc190"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="824.5882352941176" y="558.9545454545455" width="4" height="24" id="evAc191"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="824.5882352941176" y="496.77272727272725" width="4" height="24" id="evAc219"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo escapes the Nazis.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="850.1568627450981" y="558.9545454545455" width="4" height="24" id="evAc521"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1029.1372549019607" y="53.72727272727275" width="4" height="24" id="evAc562"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Isaac dies.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1029.1372549019607" y="53.72727272727275" width="4" height="24" id="evAc297"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo recieves 'The History of Love'.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1029.1372549019607" y="53.72727272727275" width="4" height="24" id="evAc298"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo goes to Isaac's house to retrieve 'Words for Everything'.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1035.5294117647059" y="53.72727272727275" width="4" height="24" id="evAc566"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo goes to Isaac's house to retrieve 'Words for Everything'.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1041.9215686274508" y="92.59090909090912" width="4" height="24" id="evAc259"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma Mereminski dies.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1041.9215686274508" y="53.72727272727275" width="4" height="24" id="evAc299"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo goes to Isaac's house to retrieve 'Words for Everything'.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1048.3137254901962" y="520.090909090909" width="4" height="24" id="evAc201"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Isaac is born.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1067.4901960784314" y="69.27272727272725" width="4" height="24" id="evAc269"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo begins to write again.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1073.8823529411764" y="512.3181818181818" width="4" height="24" id="evAc216"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Nazis invade Slonim.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1073.8823529411764" y="496.77272727272725" width="4" height="24" id="evAc535"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo escapes the Nazis.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1073.8823529411764" y="92.59090909090912" width="4" height="24" id="evAc260"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma Mereminski dies.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1080.2745098039215" y="53.72727272727275" width="4" height="24" id="evAc288"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Isaac dies.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1335.9607843137255" y="69.27272727272725" width="4" height="24" id="evAc270"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo begins to write again.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1335.9607843137255" y="53.72727272727275" width="4" height="24" id="evAc289"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Isaac dies.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1335.9607843137255" y="53.72727272727275" width="4" height="24" id="evAc302"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo learns that Isaac published 'Words for Everything'.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1355.137254901961" y="53.72727272727275" width="4" height="24" id="evAc563"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Isaac dies.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1355.137254901961" y="53.72727272727275" width="4" height="24" id="evAc303"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo receives Bird's letter.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1444.627450980392" y="496.77272727272725" width="4" height="24" id="evAc220"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo escapes the Nazis.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1444.627450980392" y="481.2272727272727" width="4" height="24" id="evAc227"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Alma refuses Leo's proposal.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1470.1960784313726" y="558.9545454545455" width="4" height="24" id="evAc192"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1521.3333333333333" y="496.77272727272725" width="4" height="24" id="evAc221"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo escapes the Nazis.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1534.1176470588234" y="496.77272727272725" width="4" height="24" id="evAc222"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo escapes the Nazis.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1546.9019607843136" y="53.72727272727275" width="4" height="24" id="evAc305"
+                style="fill: url(&quot;#grad12&quot;);">
+                <title>Event: Alma and Leo meet.&#10;Involves: Leo; Alma.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1559.686274509804" y="520.090909090909" width="4" height="24" id="evAc527"
+                style="fill: url(&quot;#grad1&quot;);">
+                <title>Event: Leo completes 'The History of Love'.&#10;Involves: Leo.&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1585.2549019607843" y="372.4090909090909" width="4" height="24" id="evAc239"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Rosa destroys the manuscript.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1591.6470588235293" y="512.3181818181818" width="4" height="24" id="evAc217"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Bruno dies.&#10;Involves: other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1630" y="675.5454545454545" width="4" height="24" id="evAc176"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo is born.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="1630" y="558.9545454545455" width="4" height="24" id="evAc177"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Leo (narrator).</title>
+            </rect>
+            <rect x="223.72549019607845" y="170.31818181818187" width="4" height="24" id="evAc249"
+                style="fill: url(&quot;#grad2s&quot;);">
+                <title>Event: Alma Singer is born.&#10;Involves: Alma; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="236.50980392156865" y="232.5" width="4" height="24" id="evAc242"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Charlotte and David meet.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="236.50980392156865" y="115.90909090909099" width="4" height="24" id="evAc251"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="242.90196078431373" y="232.5" width="4" height="24" id="evAc243"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Charlotte and David meet.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="262.07843137254906" y="170.31818181818187" width="4" height="24" id="evAc250"
+                style="fill: url(&quot;#grad2s&quot;);">
+                <title>Event: Alma Singer is born.&#10;Involves: Alma; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="262.07843137254906" y="115.90909090909099" width="4" height="24" id="evAc255"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="268.4705882352941" y="115.90909090909099" width="4" height="24" id="evAc256"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="274.8627450980392" y="115.90909090909099" width="4" height="24" id="evAc266"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="294.03921568627453" y="115.90909090909099" width="4" height="24" id="evAc252"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="351.5686274509804" y="512.3181818181818" width="4" height="24" id="evAc207"
+                style="fill: url(&quot;#grad13&quot;);">
+                <title>Event: Zvi leaves with 'The History of Love'.&#10;Involves: Leo; Zvi.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="351.5686274509804" y="53.72727272727275" width="4" height="24" id="evAc271"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Charlotte receives Isaac's first letter.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="364.3529411764706" y="558.9545454545455" width="4" height="24" id="evAc180"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="396.3137254901961" y="558.9545454545455" width="4" height="24" id="evAc181"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="402.7058823529412" y="558.9545454545455" width="4" height="24" id="evAc183"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="600.8627450980392" y="115.90909090909099" width="4" height="24" id="evAc253"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="607.2549019607843" y="77.0454545454545" width="4" height="24" id="evAc263"
+                style="fill: url(&quot;#grad2s&quot;);">
+                <title>Event: Misha and Alma become penpals.&#10;Involves: Alma; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="626.4313725490197" y="77.0454545454545" width="4" height="24" id="evAc261"
+                style="fill: url(&quot;#grad2s&quot;);">
+                <title>Event: Misha and Alma become penpals.&#10;Involves: Alma; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="645.6078431372549" y="115.90909090909099" width="4" height="24" id="evAc265"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="645.6078431372549" y="53.72727272727275" width="4" height="24" id="evAc273"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Charlotte receives Isaac's first letter.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="690.3529411764706" y="232.5" width="4" height="24" id="evAc547"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Charlotte and David meet.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="696.7450980392157" y="53.72727272727275" width="4" height="24" id="evAc274"
+                style="fill: url(&quot;#grad2&quot;);">
+                <title>Event: Alma begins searching for Alma Mereminski.&#10;Involves: Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="888.5098039215685" y="53.72727272727275" width="4" height="24" id="evAc272"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Charlotte receives Isaac's first letter.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="894.9019607843138" y="520.090909090909" width="4" height="24" id="evAc524"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma leaves for America.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="894.9019607843138" y="512.3181818181818" width="4" height="24" id="evAc532"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Nazis invade Slonim.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="901.2941176470589" y="512.3181818181818" width="4" height="24" id="evAc531"
+                style="fill: url(&quot;#grad13&quot;);">
+                <title>Event: Zvi leaves with 'The History of Love'.&#10;Involves: Leo; Zvi.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="901.2941176470589" y="53.72727272727275" width="4" height="24" id="evAc275"
+                style="fill: url(&quot;#grad2s&quot;);">
+                <title>Event: Alma and Misha kiss.&#10;Involves: Alma; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="901.2941176470589" y="53.72727272727275" width="4" height="24" id="evAc276"
+                style="fill: url(&quot;#grad2s&quot;);">
+                <title>Event: Alma and Misha kiss.&#10;Involves: Alma; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="946.0392156862746" y="512.3181818181818" width="4" height="24" id="evAc575"
+                style="fill: url(&quot;#grad13&quot;);">
+                <title>Event: Zvi leaves with 'The History of Love'.&#10;Involves: Leo; Zvi.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="952.4313725490197" y="53.72727272727275" width="4" height="24" id="evAc277"
+                style="fill: url(&quot;#grad2&quot;);">
+                <title>Event: Alma realizes Alma Mereminski is married.&#10;Involves: Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="952.4313725490197" y="53.72727272727275" width="4" height="24" id="evAc278"
+                style="fill: url(&quot;#grad2&quot;);">
+                <title>Event: Alma reads Bird's journal.&#10;Involves: Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1093.0588235294117" y="520.090909090909" width="4" height="24" id="evAc197"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma leaves for America.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1118.6274509803923" y="279.1363636363636" width="4" height="24" id="evAc241"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer buys 'The History of Love'.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1125.0196078431372" y="92.59090909090912" width="4" height="24" id="evAc556"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma Mereminski dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1125.0196078431372" y="53.72727272727275" width="4" height="24" id="evAc279"
+                style="fill: url(&quot;#grad2&quot;);">
+                <title>Event: Alma discovers that Alma Mereminski has died.&#10;Involves: Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1156.9803921568628" y="115.90909090909099" width="4" height="24" id="evAc257"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1252.8627450980393" y="53.72727272727275" width="4" height="24" id="evAc280"
+                style="fill: url(&quot;#grad2&quot;);">
+                <title>Event: Alma discovers Jacob Marcus is Isaac Moritz.&#10;Involves: Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1272.0392156862745" y="53.72727272727275" width="4" height="24" id="evAc285"
+                style="fill: url(&quot;#grad2s&quot;);">
+                <title>Event: Alma and Herman go to Isaac's house.&#10;Involves: Alma; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1278.4313725490197" y="53.72727272727275" width="4" height="24" id="evAc286"
+                style="fill: url(&quot;#grad2s&quot;);">
+                <title>Event: Alma and Herman go to Isaac's house.&#10;Involves: Alma; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1291.2156862745098" y="53.72727272727275" width="4" height="24" id="evAc291"
+                style="fill: url(&quot;#grad2&quot;);">
+                <title>Event: Alma learns of Isaac's death.&#10;Involves: Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1399.8823529411764" y="53.72727272727275" width="4" height="24" id="evAc300"
+                style="fill: url(&quot;#grad2&quot;);">
+                <title>Event: Alma receives Bird's letter.&#10;Involves: Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1489.3725490196077" y="53.72727272727275" width="4" height="24" id="evAc301"
+                style="fill: url(&quot;#grad2&quot;);">
+                <title>Event: Alma receives Bird's letter.&#10;Involves: Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1540.5098039215686" y="53.72727272727275" width="4" height="24" id="evAc304"
+                style="fill: url(&quot;#grad12&quot;);">
+                <title>Event: Alma and Leo meet.&#10;Involves: Leo; Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1578.862745098039" y="115.90909090909099" width="4" height="24" id="evAc254"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1604.4313725490194" y="558.9545454545455" width="4" height="24" id="evAc193"
+                style="fill: url(&quot;#grad1s&quot;);">
+                <title>Event: Leo and Alma fall in love.&#10;Involves: Leo; other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1604.4313725490194" y="520.090909090909" width="4" height="24" id="evAc198"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Alma leaves for America.&#10;Involves: other(s).&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1604.4313725490194" y="53.72727272727275" width="4" height="24" id="evAc306"
+                style="fill: url(&quot;#grad2&quot;);">
+                <title>Event: Alma realizes that Leo wrote 'The History of Love'.&#10;Involves: Alma.&#10;Narrator: Alma (narrator).</title>
+            </rect>
+            <rect x="1316.7843137254902" y="115.90909090909099" width="4" height="24" id="evAc264"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer dies.&#10;Involves: other(s).&#10;Narrator: Bird (narrator).</title>
+            </rect>
+            <rect x="1323.1764705882354" y="53.72727272727275" width="4" height="24" id="evAc283"
+                style="fill: url(&quot;#grad4s&quot;);">
+                <title>Event: Bird learns about Alma's search.&#10;Involves: Bird; other(s).&#10;Narrator: Bird (narrator).</title>
+            </rect>
+            <rect x="1380.7058823529412" y="53.72727272727275" width="4" height="24" id="evAc292"
+                style="fill: url(&quot;#grad4s&quot;);">
+                <title>Event: Bernard calls for Alma (revealing Leo's identity to Bird).&#10;Involves: Bird; other(s).&#10;Narrator: Bird (narrator).</title>
+            </rect>
+            <rect x="1387.0980392156862" y="53.72727272727275" width="4" height="24" id="evAc564"
+                style="fill: url(&quot;#grad4s&quot;);">
+                <title>Event: Bernard calls for Alma (revealing Leo's identity to Bird).&#10;Involves: Bird; other(s).&#10;Narrator: Bird (narrator).</title>
+            </rect>
+            <rect x="415.4901960784313" y="434.5909090909091" width="4" height="24" id="evAc229"
+                style="fill: url(&quot;#grad3s&quot;);">
+                <title>Event: Zvi and Rosa meet.&#10;Involves: Zvi; other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="415.4901960784313" y="224.72727272727275" width="4" height="24" id="evAc549"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi dies.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="421.8823529411765" y="426.8181818181818" width="4" height="24" id="evAc231"
+                style="fill: url(&quot;#grad3s&quot;);">
+                <title>Event: Zvi and Rosa finish translating 'The History of Love'.&#10;Involves: Zvi; other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="421.8823529411765" y="372.4090909090909" width="4" height="24" id="evAc235"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Rosa destroys the manuscript.&#10;Involves: other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="428.2745098039216" y="372.4090909090909" width="4" height="24" id="evAc307"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi publishes 'The History of Love'.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="434.6666666666667" y="457.90909090909093" width="4" height="24" id="evAc539"
+                style="fill: url(&quot;#grad3s&quot;);">
+                <title>Event: Zvi learns about his family's death.&#10;Involves: Zvi; other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="434.6666666666667" y="224.72727272727275" width="4" height="24" id="evAc244"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi dies.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="447.4509803921569" y="372.4090909090909" width="4" height="24" id="evAc308"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi publishes 'The History of Love'.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="453.843137254902" y="224.72727272727275" width="4" height="24" id="evAc551"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi dies.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="473.0196078431373" y="512.3181818181818" width="4" height="24" id="evAc208"
+                style="fill: url(&quot;#grad13&quot;);">
+                <title>Event: Zvi leaves with 'The History of Love'.&#10;Involves: Leo; Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="473.0196078431373" y="279.1363636363636" width="4" height="24" id="evAc240"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: David Singer buys 'The History of Love'.&#10;Involves: other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="703.1372549019608" y="512.3181818181818" width="4" height="24" id="evAc209"
+                style="fill: url(&quot;#grad13&quot;);">
+                <title>Event: Zvi leaves with 'The History of Love'.&#10;Involves: Leo; Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="715.9215686274509" y="512.3181818181818" width="4" height="24" id="evAc210"
+                style="fill: url(&quot;#grad13&quot;);">
+                <title>Event: Zvi leaves with 'The History of Love'.&#10;Involves: Leo; Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="754.2745098039217" y="520.090909090909" width="4" height="24" id="evAc202"
+                style="fill: url(&quot;#grad13&quot;);">
+                <title>Event: Zvi steals Leo's obituary.&#10;Involves: Leo; Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="978" y="512.3181818181818" width="4" height="24" id="evAc211"
+                style="fill: url(&quot;#grad13&quot;);">
+                <title>Event: Zvi leaves with 'The History of Love'.&#10;Involves: Leo; Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="984.3921568627451" y="512.3181818181818" width="4" height="24" id="evAc212"
+                style="fill: url(&quot;#grad13&quot;);">
+                <title>Event: Zvi leaves with 'The History of Love'.&#10;Involves: Leo; Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="990.7843137254902" y="512.3181818181818" width="4" height="24" id="evAc215"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Nazis invade Slonim.&#10;Involves: other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="997.1764705882354" y="457.90909090909093" width="4" height="24" id="evAc228"
+                style="fill: url(&quot;#grad3s&quot;);">
+                <title>Event: Zvi learns about his family's death.&#10;Involves: Zvi; other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1003.5686274509804" y="434.5909090909091" width="4" height="24" id="evAc230"
+                style="fill: url(&quot;#grad3s&quot;);">
+                <title>Event: Zvi and Rosa meet.&#10;Involves: Zvi; other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1176.1568627450981" y="551.1818181818182" width="4" height="24" id="evAc194"
+                style="fill: url(&quot;#grad13s&quot;);">
+                <title>Event: Zvi sees Leo and Alma kiss.&#10;Involves: Leo; Zvi; other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1195.3333333333333" y="224.72727272727275" width="4" height="24" id="evAc245"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi dies.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1201.7254901960785" y="372.4090909090909" width="4" height="24" id="evAc541"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi publishes 'The History of Love'.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1201.7254901960785" y="224.72727272727275" width="4" height="24" id="evAc552"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi dies.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1208.1176470588236" y="372.4090909090909" width="4" height="24" id="evAc309"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi adds Leo's obituary to 'The History of Love'.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1208.1176470588236" y="372.4090909090909" width="4" height="24" id="evAc542"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi publishes 'The History of Love'.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1214.5098039215686" y="372.4090909090909" width="4" height="24" id="evAc543"
+                style="fill: url(&quot;#grad3&quot;);">
+                <title>Event: Zvi publishes 'The History of Love'.&#10;Involves: Zvi.&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1214.5098039215686" y="372.4090909090909" width="4" height="24" id="evAc546"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Rosa destroys the manuscript.&#10;Involves: other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+            <rect x="1220.9019607843138" y="372.4090909090909" width="4" height="24" id="evAc238"
+                style="fill: url(&quot;#grads&quot;);">
+                <title>Event: Rosa destroys the manuscript.&#10;Involves: other(s).&#10;Narrator: Zvi's Narrator.</title>
+            </rect>
+        </g>
+    </g>
+    
+    <g id="legend" transform="translate(1750,10)">
+        <g transform="translate(0,0)">
+            <rect width="18" height="18" style="fill: rgb(255, 255, 255);"/>
+            <text x="24" y="9" dy=".35em" style="text-anchor: start;font-weight: bold;">Legend</text>
+        </g>
+        <g transform="translate(0,20)">
+            <rect width="18" height="18" style="fill: rgb(207, 104, 132);"/>
+            <text x="24" y="9" dy=".35em" style="text-anchor: start;">Leo</text>
+        </g>
+        <g transform="translate(0,40)">
+            <rect width="18" height="18" style="fill: rgb(0, 136, 86);"/>
+            <text x="24" y="9" dy=".35em" style="text-anchor: start;">Alma</text>
+        </g>
+        <g transform="translate(0,60)">
+            <rect width="18" height="18" style="fill: rgb(161, 202, 241);"/>
+            <text x="24" y="9" dy=".35em" style="text-anchor: start;">Zvi</text>
+        </g>
+        <g transform="translate(0,80)">
+            <rect width="18" height="18" style="fill: rgb(243, 195, 0);"/>
+            <text x="24" y="9" dy=".35em" style="text-anchor: start;">Bird</text>
+        </g>
+        <g transform="translate(0,100)">
+            <rect width="18" height="18" style="fill: rgb(232, 232, 232);"/>
+            <text x="24" y="9" dy=".35em" style="text-anchor: start;">others</text>
+        </g>
+    </g>
+</svg>

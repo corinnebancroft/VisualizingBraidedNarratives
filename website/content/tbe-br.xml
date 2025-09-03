@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<article xmlns="http://www.w3.org/1999/xhtml" id="tbe-br" class="svg-viz" title="The Bluest Eye visualization: braid">
+    <main class="svgView">
+        <div class="content-column">
+            <h1 class="page-title">The Bluest Eye Braid</h1>
+            <details>
+                <summary>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 18 6-6-6-6"></path>
+                    </svg> View Key
+                </summary>
+               <div>
+                Red: Character Narrator Claudia MacTeer<br /> 
+                Blue: Heterodiegetic Narrator<br />
+                Green: Seasonal Title<br />
+                Yellow: Dick and Jane Sequence<br />
+                Purple: Pecola’s Dialogue
+
+               </div>
+            </details>
+            <embed class="braid" type="image/svg+xml" src="images/viz/tbe-br.svg" id="viz"/>
+        </div>
+    </main>
+</article>

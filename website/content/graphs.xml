@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<article xmlns="http://www.w3.org/1999/xhtml" id="graphs" title="Time graphs">
+    <main class="menuItem">
+        <div class="content-column">
+            <h1 class="page-title">Time graphs</h1>
+       
+            <h2>Overview</h2>
+            <p>Narrative theorists have visualized Gerard Genette’s classic distinction between story and
+                discourse<sup>1</sup> by plotting points on a cartesian plane. Genette proposed a quasi-mathematical
+                shorthand by suggesting we assign events that occur in the fictional storyworld a letter and the order
+                those events appear in the text a number. Newman (2016, 2019)<sup>2</sup> used this formula to create
+                rough graphs by plotting story events on the Y-axis and the chapters they appear in on the X-axis.
+                Nelles and Williams (2018, 2021)<sup>3</sup> have honed this strategy by including more events and
+                using page numbers rather than chapters. Kim et al. (2018)<sup>4</sup> visualized non-linear films and
+                used colours to indicate which characters participate in which events. Yeager (2023)<sup>5</sup>
+                demonstrates how we can take scale into account using textual cues for actual and relative time.
+                This project adopts the general strategy pioneered by Newman and Nelles and Williams but, like Kim
+                et al., includes representations characters in the visualization and, like Yeager, accounts for scale. </p>
+            <h2>How to read</h2>
+            <p>These time graphs are comprised of points, vertical bars, which each represents an event. The location
+                of the point on the y-axis indicates when, in story time, that event takes place. The location of that
+                point on the x-axis indicates the page number on which it was recounted. If an event was recounted more
+                than once, it will have more than one point. By hovering over each point, you can see the name of the
+                event, which characters participate, and who narrates it. The colour of the lines connecting the events
+                represents the narrator who tells them, and the colours that comprise the point represents the
+                characters who participate in it.</p>
+        
+        </div>
+
+        <div class="cards"></div>
+
+        <div id="footnote">
+            <p><sup>1</sup>Genette, Gerard.  <em>Narrative Discourse: An Essay in Method.</em> 1972. Trans by Jane E. Lewin.  
+                Cornell University Press, 1980.</p>
+            <p><sup>2</sup> Newman, Daniel Aureliano.
+                <em>Modernist Life Histories: Biological Theory and the Experimental Bildungsroman.</em>
+                Edinburgh University Press, 2019.<br />
+                ---. “‘Education of an Amphibian’: Anachrony, Neoteny, and Bildung in Huxley’s <em>Eyeless in Gaza.” 
+                Twentieth Century Literature</em>, vol. 62, no. 4, 2016, pp. 403–428.</p>
+            <p><sup>3</sup> Nelles, William and Linda Williams. "Narrative Order in the First-Person Novel."
+                <em>Poetics Today</em>, vol. 39, no. 1, 2018, pp. 131-158.<br />
+                ---. “Doing Hard Time: Narrative Order in Detective Fiction.” <em>Style</em>, vol. 55, no. 2, 2021, pp. 190-281.</p>
+            <p><sup>4</sup> Kim, Nam Wook et al. “Visualizing Nonlinear Narratives with Story Curves.” <em>IEEE
+                Transactions on Visualization and Computer Graphics</em>, vol. 24, no. 1, 2018, pp. 595–604.</p>
+            <p><sup>5</sup> Yeager, Sean A. “Time Maps: Theory and Method.” <em>Journal of Cultural Analytics</em>, 
+                vol. 8, no. 3, 2023.</p>
+        </div>
+    </main>
+</article>
