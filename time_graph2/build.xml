@@ -21,7 +21,7 @@
     
     <!-- Default values for input properties. -->
     <property name="defGraphTitle" value="Plague of Doves"/>
-    <property name="defGraphId" value="pod-ft"/>
+    <property name="defGraphId" value="pod-tg"/>
     <property name="defInputData" value="PoDTimeGraphApril2.csv"/>
     <property name="defInputColors" value="PoDColorCode.csv"/>
   
@@ -36,7 +36,7 @@
           addproperty="graphTitle" defaultvalue="${defGraphTitle}"/>
       
       <!-- An id for the graph. -->
-      <input message="Please provide an id for the graph, all lower-case, ending in -ft: e.g. ${defGraphId}"
+      <input message="Please provide an id for the graph, all lower-case, ending in -tg: e.g. ${defGraphId}"
           addproperty="graphId" defaultvalue="${defGraphId}"/>
       
       <!-- These are the two input files to be processed. -->
