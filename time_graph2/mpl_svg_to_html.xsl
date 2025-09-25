@@ -49,7 +49,7 @@
     <xd:doc>
         <xd:desc>This id for the HTML page should be passed in.</xd:desc>
     </xd:doc>
-    <xsl:param name="graphId" as="xs:string" select="substring-before(//g[@id='graphTitle'], '.') || '-tg'"/>
+    <xsl:param name="graphId" as="xs:string" select="lower-case(substring-before(hcmc:nameToIdBit(//g[@id='graphTitle']), '.') || '-tg')"/>
     
     <xd:doc>
         <xd:desc>This is basically an identity tranform, although we output a document
