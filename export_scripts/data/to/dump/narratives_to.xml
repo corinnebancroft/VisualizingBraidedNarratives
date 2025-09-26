@@ -5,7 +5,7 @@
 		<field Field="character_id" Type="int" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
 		<field Field="character_name" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
 		<key Table="characters" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="character_id" Collation="A" Cardinality="605" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="605" Avg_row_length="81" Data_length="49152" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="848" Create_time="2024-09-23 21:58:43" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="characters" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="605" Avg_row_length="81" Data_length="49152" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="849" Create_time="2024-09-23 21:58:43" Update_time="2025-09-24 23:52:08" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="characters">
 	<row>
@@ -2797,10 +2797,6 @@
 		<field name="character_name">INS</field>
 	</row>
 	<row>
-		<field name="character_id">779</field>
-		<field name="character_name">The Terminator</field>
-	</row>
-	<row>
 		<field name="character_id">780</field>
 		<field name="character_name">Johnny Mnemonic</field>
 	</row>
@@ -3170,7 +3166,7 @@
 		<key Table="menExs" Non_unique="1" Key_name="menEx_isReciprocal_id_fk" Seq_in_index="1" Column_name="menEx_isReciprocal_id_fk" Collation="A" Cardinality="2" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
 		<key Table="menExs" Non_unique="1" Key_name="menEx_startPage_fk" Seq_in_index="1" Column_name="menEx_startPage" Collation="A" Cardinality="240" Null="" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
 		<key Table="menExs" Non_unique="1" Key_name="menEx_endPage_fk" Seq_in_index="1" Column_name="menEx_endPage" Collation="A" Cardinality="244" Null="YES" Index_type="BTREE" Comment="" Index_comment="" Visible="YES" />
-		<options Name="menExs" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="1953" Avg_row_length="75" Data_length="147456" Max_data_length="0" Index_length="409600" Data_free="0" Auto_increment="2307" Create_time="2024-09-23 21:58:43" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
+		<options Name="menExs" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="1953" Avg_row_length="75" Data_length="147456" Max_data_length="0" Index_length="409600" Data_free="0" Auto_increment="2308" Create_time="2024-09-23 21:58:43" Update_time="2025-09-24 23:55:10" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="menExs">
 	<row>
@@ -23862,6 +23858,16 @@
 		<field name="menEx_isReciprocal_id_fk">0</field>
 		<field name="menEx_startPage">66</field>
 		<field name="menEx_endPage">66</field>
+	</row>
+	<row>
+		<field name="menEx_id">2307</field>
+		<field name="menEx_menOrEx_id_fk">1</field>
+		<field name="menEx_character1_id_fk">87</field>
+		<field name="menEx_character2_id_fk">843</field>
+		<field name="menEx_narrContainer_id_fk">121</field>
+		<field name="menEx_isReciprocal_id_fk">1</field>
+		<field name="menEx_startPage">218</field>
+		<field name="menEx_endPage">218</field>
 	</row>
 	</table_data>
 	<table_structure name="menOrExs">
