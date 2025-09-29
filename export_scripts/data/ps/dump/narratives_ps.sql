@@ -1,0 +1,243 @@
+-- MySQL dump 10.13  Distrib 8.0.41, for Linux (x86_64)
+--
+-- Host: persimmon.hcmc.uvic.ca    Database: narratives_ps
+-- ------------------------------------------------------
+-- Server version	8.0.41
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `characters`
+--
+
+DROP TABLE IF EXISTS `characters`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `characters` (
+  `character_id` int NOT NULL AUTO_INCREMENT,
+  `character_name` varchar(50) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
+  PRIMARY KEY (`character_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `characters`
+--
+
+LOCK TABLES `characters` WRITE;
+/*!40000 ALTER TABLE `characters` DISABLE KEYS */;
+/*!40000 ALTER TABLE `characters` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `containerLevels`
+--
+
+DROP TABLE IF EXISTS `containerLevels`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `containerLevels` (
+  `containerLevel_id` int NOT NULL AUTO_INCREMENT,
+  `containerLevel_term` varchar(100) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
+  PRIMARY KEY (`containerLevel_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `containerLevels`
+--
+
+LOCK TABLES `containerLevels` WRITE;
+/*!40000 ALTER TABLE `containerLevels` DISABLE KEYS */;
+/*!40000 ALTER TABLE `containerLevels` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `embeddedContainerTypes`
+--
+
+DROP TABLE IF EXISTS `embeddedContainerTypes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `embeddedContainerTypes` (
+  `embeddedContainerType_id` int NOT NULL AUTO_INCREMENT,
+  `embeddedContainerType_term` varchar(50) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
+  PRIMARY KEY (`embeddedContainerType_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `embeddedContainerTypes`
+--
+
+LOCK TABLES `embeddedContainerTypes` WRITE;
+/*!40000 ALTER TABLE `embeddedContainerTypes` DISABLE KEYS */;
+/*!40000 ALTER TABLE `embeddedContainerTypes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `isReciprocals`
+--
+
+DROP TABLE IF EXISTS `isReciprocals`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `isReciprocals` (
+  `isReciprocal_id` int NOT NULL AUTO_INCREMENT,
+  `isReciprocal_text` varchar(32) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
+  PRIMARY KEY (`isReciprocal_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `isReciprocals`
+--
+
+LOCK TABLES `isReciprocals` WRITE;
+/*!40000 ALTER TABLE `isReciprocals` DISABLE KEYS */;
+/*!40000 ALTER TABLE `isReciprocals` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `menExs`
+--
+
+DROP TABLE IF EXISTS `menExs`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `menExs` (
+  `menEx_id` int NOT NULL AUTO_INCREMENT,
+  `menEx_menOrEx_id_fk` int DEFAULT NULL,
+  `menEx_character1_id_fk` int NOT NULL,
+  `menEx_character2_id_fk` int NOT NULL,
+  `menEx_narrContainer_id_fk` int NOT NULL,
+  `menEx_isReciprocal_id_fk` int NOT NULL,
+  `menEx_startPage` int NOT NULL,
+  `menEx_endPage` int DEFAULT NULL,
+  PRIMARY KEY (`menEx_id`),
+  KEY `menEx_narrContainer_id_fk` (`menEx_narrContainer_id_fk`),
+  KEY `menEx_menOrEx_id_fk` (`menEx_menOrEx_id_fk`),
+  KEY `menEx_character1_id_fk` (`menEx_character1_id_fk`),
+  KEY `menEx_character2_id_fk` (`menEx_character2_id_fk`),
+  KEY `menEx_isReciprocal_id_fk` (`menEx_isReciprocal_id_fk`),
+  KEY `menEx_startPage_fk` (`menEx_startPage`),
+  KEY `menEx_endPage_fk` (`menEx_endPage`),
+  CONSTRAINT `menExs_ibfk_1` FOREIGN KEY (`menEx_menOrEx_id_fk`) REFERENCES `menOrExs` (`menOrEx_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `menExs_ibfk_2` FOREIGN KEY (`menEx_character1_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `menExs_ibfk_3` FOREIGN KEY (`menEx_character2_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `menExs_ibfk_4` FOREIGN KEY (`menEx_isReciprocal_id_fk`) REFERENCES `isReciprocals` (`isReciprocal_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `menExs_ibfk_5` FOREIGN KEY (`menEx_narrContainer_id_fk`) REFERENCES `narrContainers` (`narrContainer_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `menExs`
+--
+
+LOCK TABLES `menExs` WRITE;
+/*!40000 ALTER TABLE `menExs` DISABLE KEYS */;
+/*!40000 ALTER TABLE `menExs` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `menOrExs`
+--
+
+DROP TABLE IF EXISTS `menOrExs`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `menOrExs` (
+  `menOrEx_id` int NOT NULL AUTO_INCREMENT,
+  `menOrEx_text` varchar(32) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
+  PRIMARY KEY (`menOrEx_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `menOrExs`
+--
+
+LOCK TABLES `menOrExs` WRITE;
+/*!40000 ALTER TABLE `menOrExs` DISABLE KEYS */;
+/*!40000 ALTER TABLE `menOrExs` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `narrContainers`
+--
+
+DROP TABLE IF EXISTS `narrContainers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `narrContainers` (
+  `narrContainer_id` int NOT NULL AUTO_INCREMENT,
+  `narrContainer_title` varchar(150) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci DEFAULT NULL,
+  `narrContainer_level_id_fk` int NOT NULL,
+  `narrContainer_startPage` int NOT NULL,
+  `narrContainer_endPage` int NOT NULL,
+  `narrContainer_narrator_character_id_fk` int NOT NULL,
+  `narrContainer_protagonist_id_fk` int DEFAULT NULL,
+  `narrContainer_embeddedContainerType_id_fk` int DEFAULT NULL,
+  PRIMARY KEY (`narrContainer_id`),
+  KEY `narrContainer_startPage` (`narrContainer_startPage`),
+  KEY `narrContainer_endPage` (`narrContainer_endPage`),
+  KEY `narrContainer_level_id_fk` (`narrContainer_level_id_fk`),
+  KEY `narrContainer_protagonist_id_fk` (`narrContainer_protagonist_id_fk`),
+  KEY `narrContainer_narrator_character_id_fk` (`narrContainer_narrator_character_id_fk`),
+  CONSTRAINT `narrContainers_ibfk_1` FOREIGN KEY (`narrContainer_level_id_fk`) REFERENCES `containerLevels` (`containerLevel_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `narrContainers_ibfk_2` FOREIGN KEY (`narrContainer_narrator_character_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE,
+  CONSTRAINT `narrContainers_ibfk_3` FOREIGN KEY (`narrContainer_protagonist_id_fk`) REFERENCES `characters` (`character_id`) ON DELETE RESTRICT ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `narrContainers`
+--
+
+LOCK TABLES `narrContainers` WRITE;
+/*!40000 ALTER TABLE `narrContainers` DISABLE KEYS */;
+/*!40000 ALTER TABLE `narrContainers` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `narratorTypes`
+--
+
+DROP TABLE IF EXISTS `narratorTypes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `narratorTypes` (
+  `narratorType_id` int NOT NULL AUTO_INCREMENT,
+  `narratorType_term` varchar(150) CHARACTER SET utf8mb3 COLLATE utf8mb3_unicode_ci NOT NULL,
+  PRIMARY KEY (`narratorType_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb3_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `narratorTypes`
+--
+
+LOCK TABLES `narratorTypes` WRITE;
+/*!40000 ALTER TABLE `narratorTypes` DISABLE KEYS */;
+/*!40000 ALTER TABLE `narratorTypes` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2025-09-29 10:33:54
