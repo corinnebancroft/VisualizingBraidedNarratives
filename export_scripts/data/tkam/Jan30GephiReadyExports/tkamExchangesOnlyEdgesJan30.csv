@@ -1,0 +1,2185 @@
+source,target,Character 1,Character 2,type,weight,startPage,category
+9,8,Atticus Finch,Jem Finch,Directed,1,3,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,3,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,3,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,3,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,3,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,3,Exchange
+16,21,Simon Finch,Simon Finch's wife,Directed,1,4,Exchange
+21,16,Simon Finch's wife,Simon Finch,Directed,1,4,Exchange
+20,16,"""Three slaves""",Simon Finch,Directed,1,4,Exchange
+16,20,Simon Finch,"""Three slaves""",Directed,1,4,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,5,Exchange
+23,7,Jimmy Hancock,Alexandra Finch,Directed,1,5,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,5,Exchange
+7,23,Alexandra Finch,Jimmy Hancock,Directed,1,5,Exchange
+26,28,The Haverfords,Maycomb's leading blacksmith,Directed,1,5,Exchange
+26,9,The Haverfords,Atticus Finch,Directed,1,5,Exchange
+9,26,Atticus Finch,The Haverfords,Directed,1,5,Exchange
+28,26,Maycomb's leading blacksmith,The Haverfords,Directed,1,5,Exchange
+125,26,Judge Taylor,The Haverfords,Directed,1,5,Exchange
+26,125,The Haverfords,Judge Taylor,Directed,1,5,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,8,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,8,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,8,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,8,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,8,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,8,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,9,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,9,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,9,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,9,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,9,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,9,Exchange
+49,125,Mr. Conner,Judge Taylor,Directed,1,12,Exchange
+4,3,Test 4,Test 3,Directed,1,12,Exchange
+10,48,Boo Radley,The Cunninghams,Directed,1,12,Exchange
+3,4,Test 3,Test 4,Directed,1,12,Exchange
+10,49,Boo Radley,Mr. Conner,Directed,1,12,Exchange
+49,48,Mr. Conner,The Cunninghams,Directed,1,12,Exchange
+10,125,Boo Radley,Judge Taylor,Directed,1,12,Exchange
+125,49,Judge Taylor,Mr. Conner,Directed,1,12,Exchange
+125,48,Judge Taylor,The Cunninghams,Directed,1,12,Exchange
+48,125,The Cunninghams,Judge Taylor,Directed,1,12,Exchange
+48,10,The Cunninghams,Boo Radley,Directed,1,12,Exchange
+49,10,Mr. Conner,Boo Radley,Directed,1,12,Exchange
+48,49,The Cunninghams,Mr. Conner,Directed,1,12,Exchange
+125,10,Judge Taylor,Boo Radley,Directed,1,12,Exchange
+10,69,Boo Radley,Several people who see Boo,Directed,1,13,Exchange
+47,125,Mr. Radley,Judge Taylor,Directed,1,13,Exchange
+10,48,Boo Radley,The Cunninghams,Directed,1,13,Exchange
+51,8,Miss Stephanie Crawford,Jem Finch,Directed,1,13,Exchange
+4,3,Test 4,Test 3,Directed,1,13,Exchange
+48,10,The Cunninghams,Boo Radley,Directed,1,13,Exchange
+69,10,Several people who see Boo,Boo Radley,Directed,1,13,Exchange
+8,51,Jem Finch,Miss Stephanie Crawford,Directed,1,13,Exchange
+125,47,Judge Taylor,Mr. Radley,Directed,1,13,Exchange
+3,4,Test 3,Test 4,Directed,1,13,Exchange
+8,47,Jem Finch,Mr. Radley,Directed,1,14,Exchange
+47,11,Mr. Radley,Heck Tate,Directed,1,14,Exchange
+5,45,Scout Finch,Mrs. Radley,Directed,1,14,Exchange
+5,47,Scout Finch,Mr. Radley,Directed,1,14,Exchange
+47,8,Mr. Radley,Jem Finch,Directed,1,14,Exchange
+4,3,Test 4,Test 3,Directed,1,14,Exchange
+3,4,Test 3,Test 4,Directed,1,14,Exchange
+47,5,Mr. Radley,Scout Finch,Directed,1,14,Exchange
+8,51,Jem Finch,Miss Stephanie Crawford,Directed,1,14,Exchange
+11,47,Heck Tate,Mr. Radley,Directed,1,14,Exchange
+10,11,Boo Radley,Heck Tate,Directed,1,14,Exchange
+11,10,Heck Tate,Boo Radley,Directed,1,14,Exchange
+5,51,Scout Finch,Miss Stephanie Crawford,Directed,1,14,Exchange
+51,8,Miss Stephanie Crawford,Jem Finch,Directed,1,14,Exchange
+51,5,Miss Stephanie Crawford,Scout Finch,Directed,1,14,Exchange
+60,10,Dr. Reynolds,Boo Radley,Directed,1,15,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,15,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,15,Exchange
+8,24,Jem Finch,Calpurnia,Directed,1,15,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,15,Exchange
+60,47,Dr. Reynolds,Mr. Radley,Directed,1,15,Exchange
+60,45,Dr. Reynolds,Mrs. Radley,Directed,1,15,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,15,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,15,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,15,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,15,Exchange
+10,60,Boo Radley,Dr. Reynolds,Directed,1,15,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,15,Exchange
+1,4,Test 1,Test 4,Directed,1,15,Exchange
+45,60,Mrs. Radley,Dr. Reynolds,Directed,1,15,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,15,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,15,Exchange
+47,60,Mr. Radley,Dr. Reynolds,Directed,1,15,Exchange
+4,1,Test 4,Test 1,Directed,1,15,Exchange
+24,8,Calpurnia,Jem Finch,Directed,1,15,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,16,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,16,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,16,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,16,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,16,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,16,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,17,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,17,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,17,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,17,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,17,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,17,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,18,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,18,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,18,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,18,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,18,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,18,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,19,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,19,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,19,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,19,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,19,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,19,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,20,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,20,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,20,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,20,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,20,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,20,Exchange
+55,54,Miss Maudie Atkinson,Miss Caroline Fisher,Directed,1,21,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,21,Exchange
+54,55,Miss Caroline Fisher,Miss Maudie Atkinson,Directed,1,21,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,21,Exchange
+8,54,Jem Finch,Miss Caroline Fisher,Directed,1,21,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,21,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,21,Exchange
+54,8,Miss Caroline Fisher,Jem Finch,Directed,1,21,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,21,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,21,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,21,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,21,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,21,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,21,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,22,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,22,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,22,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,22,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,23,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,23,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,23,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,23,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,23,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,23,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,24,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,24,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,24,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,24,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,24,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,24,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,24,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,25,Exchange
+57,62,Walter Cunningham Jr.,The first grade,Directed,1,25,Exchange
+5,57,Scout Finch,Walter Cunningham Jr.,Directed,1,25,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,25,Exchange
+62,57,The first grade,Walter Cunningham Jr.,Directed,1,25,Exchange
+57,5,Walter Cunningham Jr.,Scout Finch,Directed,1,25,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,25,Exchange
+57,54,Walter Cunningham Jr.,Miss Caroline Fisher,Directed,1,25,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,25,Exchange
+54,57,Miss Caroline Fisher,Walter Cunningham Jr.,Directed,1,25,Exchange
+5,57,Scout Finch,Walter Cunningham Jr.,Directed,1,26,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,26,Exchange
+54,57,Miss Caroline Fisher,Walter Cunningham Jr.,Directed,1,26,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,26,Exchange
+59,9,Walter Cunningham Sr.,Atticus Finch,Directed,1,26,Exchange
+57,62,Walter Cunningham Jr.,The first grade,Directed,1,26,Exchange
+57,5,Walter Cunningham Jr.,Scout Finch,Directed,1,26,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,26,Exchange
+57,54,Walter Cunningham Jr.,Miss Caroline Fisher,Directed,1,26,Exchange
+9,59,Atticus Finch,Walter Cunningham Sr.,Directed,1,26,Exchange
+62,57,The first grade,Walter Cunningham Jr.,Directed,1,26,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,26,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,27,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,27,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,27,Exchange
+59,9,Walter Cunningham Sr.,Atticus Finch,Directed,1,27,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,27,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,27,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,27,Exchange
+9,59,Atticus Finch,Walter Cunningham Sr.,Directed,1,27,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,27,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,27,Exchange
+54,61,Miss Caroline Fisher,Miss Blount,Directed,1,28,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,28,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,28,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,28,Exchange
+62,61,The first grade,Miss Blount,Directed,1,28,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,28,Exchange
+59,9,Walter Cunningham Sr.,Atticus Finch,Directed,1,28,Exchange
+5,61,Scout Finch,Miss Blount,Directed,1,28,Exchange
+5,57,Scout Finch,Walter Cunningham Jr.,Directed,1,28,Exchange
+62,5,The first grade,Scout Finch,Directed,1,28,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,28,Exchange
+57,5,Walter Cunningham Jr.,Scout Finch,Directed,1,28,Exchange
+61,62,Miss Blount,The first grade,Directed,1,28,Exchange
+5,62,Scout Finch,The first grade,Directed,1,28,Exchange
+61,5,Miss Blount,Scout Finch,Directed,1,28,Exchange
+9,59,Atticus Finch,Walter Cunningham Sr.,Directed,1,28,Exchange
+54,57,Miss Caroline Fisher,Walter Cunningham Jr.,Directed,1,28,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,28,Exchange
+57,54,Walter Cunningham Jr.,Miss Caroline Fisher,Directed,1,28,Exchange
+61,54,Miss Blount,Miss Caroline Fisher,Directed,1,28,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,29,Exchange
+5,62,Scout Finch,The first grade,Directed,1,29,Exchange
+57,5,Walter Cunningham Jr.,Scout Finch,Directed,1,29,Exchange
+5,61,Scout Finch,Miss Blount,Directed,1,29,Exchange
+61,54,Miss Blount,Miss Caroline Fisher,Directed,1,29,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,29,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,29,Exchange
+62,61,The first grade,Miss Blount,Directed,1,29,Exchange
+61,5,Miss Blount,Scout Finch,Directed,1,29,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,29,Exchange
+61,62,Miss Blount,The first grade,Directed,1,29,Exchange
+62,5,The first grade,Scout Finch,Directed,1,29,Exchange
+5,57,Scout Finch,Walter Cunningham Jr.,Directed,1,29,Exchange
+54,61,Miss Caroline Fisher,Miss Blount,Directed,1,29,Exchange
+57,5,Walter Cunningham Jr.,Scout Finch,Directed,1,30,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,30,Exchange
+57,8,Walter Cunningham Jr.,Jem Finch,Directed,1,30,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,30,Exchange
+8,57,Jem Finch,Walter Cunningham Jr.,Directed,1,30,Exchange
+5,57,Scout Finch,Walter Cunningham Jr.,Directed,1,30,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,31,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,31,Exchange
+8,24,Jem Finch,Calpurnia,Directed,1,31,Exchange
+9,57,Atticus Finch,Walter Cunningham Jr.,Directed,1,31,Exchange
+57,5,Walter Cunningham Jr.,Scout Finch,Directed,1,31,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,31,Exchange
+57,9,Walter Cunningham Jr.,Atticus Finch,Directed,1,31,Exchange
+57,8,Walter Cunningham Jr.,Jem Finch,Directed,1,31,Exchange
+8,57,Jem Finch,Walter Cunningham Jr.,Directed,1,31,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,31,Exchange
+24,8,Calpurnia,Jem Finch,Directed,1,31,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,31,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,31,Exchange
+5,57,Scout Finch,Walter Cunningham Jr.,Directed,1,31,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,32,Exchange
+24,57,Calpurnia,Walter Cunningham Jr.,Directed,1,32,Exchange
+5,57,Scout Finch,Walter Cunningham Jr.,Directed,1,32,Exchange
+57,8,Walter Cunningham Jr.,Jem Finch,Directed,1,32,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,32,Exchange
+24,8,Calpurnia,Jem Finch,Directed,1,32,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,32,Exchange
+57,9,Walter Cunningham Jr.,Atticus Finch,Directed,1,32,Exchange
+9,57,Atticus Finch,Walter Cunningham Jr.,Directed,1,32,Exchange
+8,24,Jem Finch,Calpurnia,Directed,1,32,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,32,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,32,Exchange
+8,57,Jem Finch,Walter Cunningham Jr.,Directed,1,32,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,32,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,32,Exchange
+57,5,Walter Cunningham Jr.,Scout Finch,Directed,1,32,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,32,Exchange
+57,24,Walter Cunningham Jr.,Calpurnia,Directed,1,32,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,32,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,32,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,33,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,33,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,33,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,33,Exchange
+5,57,Scout Finch,Walter Cunningham Jr.,Directed,1,33,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,33,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,33,Exchange
+57,5,Walter Cunningham Jr.,Scout Finch,Directed,1,33,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,33,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,33,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,33,Exchange
+24,8,Calpurnia,Jem Finch,Directed,1,33,Exchange
+57,8,Walter Cunningham Jr.,Jem Finch,Directed,1,33,Exchange
+57,24,Walter Cunningham Jr.,Calpurnia,Directed,1,33,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,33,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,33,Exchange
+8,57,Jem Finch,Walter Cunningham Jr.,Directed,1,33,Exchange
+9,57,Atticus Finch,Walter Cunningham Jr.,Directed,1,33,Exchange
+8,24,Jem Finch,Calpurnia,Directed,1,33,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,33,Exchange
+24,57,Calpurnia,Walter Cunningham Jr.,Directed,1,33,Exchange
+57,9,Walter Cunningham Jr.,Atticus Finch,Directed,1,33,Exchange
+5,65,Scout Finch,D.C.,Directed,1,34,Exchange
+65,5,D.C.,Scout Finch,Directed,1,34,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,34,Exchange
+64,65,Chuck Little,D.C.,Directed,1,34,Exchange
+64,66,Chuck Little,Burris Ewell,Directed,1,34,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,34,Exchange
+66,64,Burris Ewell,Chuck Little,Directed,1,34,Exchange
+54,66,Miss Caroline Fisher,Burris Ewell,Directed,1,34,Exchange
+66,62,Burris Ewell,The first grade,Directed,1,34,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,34,Exchange
+65,54,D.C.,Miss Caroline Fisher,Directed,1,34,Exchange
+66,5,Burris Ewell,Scout Finch,Directed,1,34,Exchange
+64,54,Chuck Little,Miss Caroline Fisher,Directed,1,34,Exchange
+66,54,Burris Ewell,Miss Caroline Fisher,Directed,1,34,Exchange
+54,65,Miss Caroline Fisher,D.C.,Directed,1,34,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,34,Exchange
+62,66,The first grade,Burris Ewell,Directed,1,34,Exchange
+5,66,Scout Finch,Burris Ewell,Directed,1,34,Exchange
+65,64,D.C.,Chuck Little,Directed,1,34,Exchange
+54,64,Miss Caroline Fisher,Chuck Little,Directed,1,34,Exchange
+66,62,Burris Ewell,The first grade,Directed,1,35,Exchange
+64,66,Chuck Little,Burris Ewell,Directed,1,35,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,35,Exchange
+66,54,Burris Ewell,Miss Caroline Fisher,Directed,1,35,Exchange
+66,64,Burris Ewell,Chuck Little,Directed,1,35,Exchange
+62,66,The first grade,Burris Ewell,Directed,1,35,Exchange
+64,54,Chuck Little,Miss Caroline Fisher,Directed,1,35,Exchange
+54,64,Miss Caroline Fisher,Chuck Little,Directed,1,35,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,35,Exchange
+5,66,Scout Finch,Burris Ewell,Directed,1,35,Exchange
+54,66,Miss Caroline Fisher,Burris Ewell,Directed,1,35,Exchange
+66,5,Burris Ewell,Scout Finch,Directed,1,35,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,35,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,35,Exchange
+66,62,Burris Ewell,The first grade,Directed,1,36,Exchange
+66,5,Burris Ewell,Scout Finch,Directed,1,36,Exchange
+66,64,Burris Ewell,Chuck Little,Directed,1,36,Exchange
+54,209,Miss Caroline Fisher,"""Elderly member of the class"" (36)",Directed,1,36,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,36,Exchange
+66,54,Burris Ewell,Miss Caroline Fisher,Directed,1,36,Exchange
+62,66,The first grade,Burris Ewell,Directed,1,36,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,36,Exchange
+54,64,Miss Caroline Fisher,Chuck Little,Directed,1,36,Exchange
+54,66,Miss Caroline Fisher,Burris Ewell,Directed,1,36,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,36,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,36,Exchange
+209,54,"""Elderly member of the class"" (36)",Miss Caroline Fisher,Directed,1,36,Exchange
+64,54,Chuck Little,Miss Caroline Fisher,Directed,1,36,Exchange
+64,66,Chuck Little,Burris Ewell,Directed,1,36,Exchange
+5,66,Scout Finch,Burris Ewell,Directed,1,36,Exchange
+64,66,Chuck Little,Burris Ewell,Directed,1,37,Exchange
+54,66,Miss Caroline Fisher,Burris Ewell,Directed,1,37,Exchange
+66,62,Burris Ewell,The first grade,Directed,1,37,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,37,Exchange
+66,54,Burris Ewell,Miss Caroline Fisher,Directed,1,37,Exchange
+64,54,Chuck Little,Miss Caroline Fisher,Directed,1,37,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,37,Exchange
+5,66,Scout Finch,Burris Ewell,Directed,1,37,Exchange
+54,64,Miss Caroline Fisher,Chuck Little,Directed,1,37,Exchange
+66,5,Burris Ewell,Scout Finch,Directed,1,37,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,37,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,37,Exchange
+62,66,The first grade,Burris Ewell,Directed,1,37,Exchange
+66,64,Burris Ewell,Chuck Little,Directed,1,37,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,38,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,38,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,38,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,38,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,38,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,38,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,38,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,38,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,39,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,39,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,40,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,40,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,41,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,41,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,42,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,42,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,42,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,42,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,42,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,42,Exchange
+5,10,Scout Finch,Boo Radley,Directed,1,44,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,44,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,44,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,44,Exchange
+5,10,Scout Finch,Boo Radley,Directed,1,45,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,45,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,45,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,45,Exchange
+5,10,Scout Finch,Boo Radley,Directed,1,46,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,46,Exchange
+10,8,Boo Radley,Jem Finch,Directed,1,46,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,46,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,46,Exchange
+8,10,Jem Finch,Boo Radley,Directed,1,46,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,47,Exchange
+32,6,Miss Rachel Haverford,Dill Harris,Directed,1,47,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,47,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,47,Exchange
+10,8,Boo Radley,Jem Finch,Directed,1,47,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,47,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,47,Exchange
+8,10,Jem Finch,Boo Radley,Directed,1,47,Exchange
+6,32,Dill Harris,Miss Rachel Haverford,Directed,1,47,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,47,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,48,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,48,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,48,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,48,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,48,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,48,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,49,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,49,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,49,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,49,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,49,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,49,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,50,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,50,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,50,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,50,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,50,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,50,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,51,Exchange
+24,8,Calpurnia,Jem Finch,Directed,1,51,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,51,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,51,Exchange
+6,24,Dill Harris,Calpurnia,Directed,1,51,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,51,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,51,Exchange
+24,6,Calpurnia,Dill Harris,Directed,1,51,Exchange
+8,24,Jem Finch,Calpurnia,Directed,1,51,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,51,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,51,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,51,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,52,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,52,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,52,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,52,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,52,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,52,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,53,Exchange
+6,47,Dill Harris,Mr. Radley,Directed,1,53,Exchange
+6,55,Dill Harris,Miss Maudie Atkinson,Directed,1,53,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,53,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,53,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,53,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,53,Exchange
+47,8,Mr. Radley,Jem Finch,Directed,1,53,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,53,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,53,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,53,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,53,Exchange
+8,47,Jem Finch,Mr. Radley,Directed,1,53,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,53,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,53,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,53,Exchange
+55,6,Miss Maudie Atkinson,Dill Harris,Directed,1,53,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,53,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,53,Exchange
+47,6,Mr. Radley,Dill Harris,Directed,1,53,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,53,Exchange
+47,5,Mr. Radley,Scout Finch,Directed,1,53,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,53,Exchange
+5,47,Scout Finch,Mr. Radley,Directed,1,53,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,54,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,54,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,54,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,54,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,54,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,54,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,54,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,54,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,54,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,54,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,54,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,54,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,55,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,55,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,55,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,55,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,55,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,55,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,55,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,55,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,56,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,56,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,56,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,56,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,56,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,56,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,56,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,56,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,57,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,57,Exchange
+6,55,Dill Harris,Miss Maudie Atkinson,Directed,1,57,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,57,Exchange
+55,6,Miss Maudie Atkinson,Dill Harris,Directed,1,57,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,57,Exchange
+8,22,Jem Finch,"John Hale ""Jack"" Finch",Directed,1,58,Exchange
+5,22,Scout Finch,"John Hale ""Jack"" Finch",Directed,1,58,Exchange
+55,22,Miss Maudie Atkinson,"John Hale ""Jack"" Finch",Directed,1,58,Exchange
+22,5,"John Hale ""Jack"" Finch",Scout Finch,Directed,1,58,Exchange
+22,55,"John Hale ""Jack"" Finch",Miss Maudie Atkinson,Directed,1,58,Exchange
+22,8,"John Hale ""Jack"" Finch",Jem Finch,Directed,1,58,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,58,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,58,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,59,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,59,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,60,Exchange
+10,51,Boo Radley,Miss Stephanie Crawford,Directed,1,60,Exchange
+51,10,Miss Stephanie Crawford,Boo Radley,Directed,1,60,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,60,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,61,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,61,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,61,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,61,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,61,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,61,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,61,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,61,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,62,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,62,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,62,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,62,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,62,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,62,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,63,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,63,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,63,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,63,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,63,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,63,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,64,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,64,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,64,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,64,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,64,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,64,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,64,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,64,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,64,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,64,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,64,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,64,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,65,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,65,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,65,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,65,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,65,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,65,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,65,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,65,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,65,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,65,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,65,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,65,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,66,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,66,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,66,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,66,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,66,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,66,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,66,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,66,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,66,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,66,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,66,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,66,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,67,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,67,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,67,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,67,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,67,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,67,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,67,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,67,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,67,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,67,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,68,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,68,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,68,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,68,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,68,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,68,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,69,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,69,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,69,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,69,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,69,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,69,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,70,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,70,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,70,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,70,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,70,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,70,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,71,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,71,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,71,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,71,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,71,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,71,Exchange
+5,47,Scout Finch,Mr. Radley,Directed,1,72,Exchange
+5,51,Scout Finch,Miss Stephanie Crawford,Directed,1,72,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,72,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,72,Exchange
+51,8,Miss Stephanie Crawford,Jem Finch,Directed,1,72,Exchange
+47,5,Mr. Radley,Scout Finch,Directed,1,72,Exchange
+219,6,"""The neighbors"" (73)",Dill Harris,Directed,1,72,Exchange
+51,6,Miss Stephanie Crawford,Dill Harris,Directed,1,72,Exchange
+219,8,"""The neighbors"" (73)",Jem Finch,Directed,1,72,Exchange
+47,6,Mr. Radley,Dill Harris,Directed,1,72,Exchange
+51,5,Miss Stephanie Crawford,Scout Finch,Directed,1,72,Exchange
+5,219,Scout Finch,"""The neighbors"" (73)",Directed,1,72,Exchange
+47,8,Mr. Radley,Jem Finch,Directed,1,72,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,72,Exchange
+8,219,Jem Finch,"""The neighbors"" (73)",Directed,1,72,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,72,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,72,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,72,Exchange
+6,55,Dill Harris,Miss Maudie Atkinson,Directed,1,72,Exchange
+8,51,Jem Finch,Miss Stephanie Crawford,Directed,1,72,Exchange
+219,5,"""The neighbors"" (73)",Scout Finch,Directed,1,72,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,72,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,72,Exchange
+55,6,Miss Maudie Atkinson,Dill Harris,Directed,1,72,Exchange
+6,219,Dill Harris,"""The neighbors"" (73)",Directed,1,72,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,72,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,72,Exchange
+8,47,Jem Finch,Mr. Radley,Directed,1,72,Exchange
+6,51,Dill Harris,Miss Stephanie Crawford,Directed,1,72,Exchange
+6,47,Dill Harris,Mr. Radley,Directed,1,72,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,73,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,73,Exchange
+32,5,Miss Rachel Haverford,Scout Finch,Directed,1,73,Exchange
+219,8,"""The neighbors"" (73)",Jem Finch,Directed,1,73,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,73,Exchange
+219,9,"""The neighbors"" (73)",Atticus Finch,Directed,1,73,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,73,Exchange
+5,32,Scout Finch,Miss Rachel Haverford,Directed,1,73,Exchange
+219,5,"""The neighbors"" (73)",Scout Finch,Directed,1,73,Exchange
+32,8,Miss Rachel Haverford,Jem Finch,Directed,1,73,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,73,Exchange
+219,6,"""The neighbors"" (73)",Dill Harris,Directed,1,73,Exchange
+9,32,Atticus Finch,Miss Rachel Haverford,Directed,1,73,Exchange
+6,219,Dill Harris,"""The neighbors"" (73)",Directed,1,73,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,73,Exchange
+6,32,Dill Harris,Miss Rachel Haverford,Directed,1,73,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,73,Exchange
+32,6,Miss Rachel Haverford,Dill Harris,Directed,1,73,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,73,Exchange
+9,219,Atticus Finch,"""The neighbors"" (73)",Directed,1,73,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,73,Exchange
+32,9,Miss Rachel Haverford,Atticus Finch,Directed,1,73,Exchange
+8,32,Jem Finch,Miss Rachel Haverford,Directed,1,73,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,73,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,73,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,73,Exchange
+5,219,Scout Finch,"""The neighbors"" (73)",Directed,1,73,Exchange
+8,219,Jem Finch,"""The neighbors"" (73)",Directed,1,73,Exchange
+219,8,"""The neighbors"" (73)",Jem Finch,Directed,1,74,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,74,Exchange
+219,9,"""The neighbors"" (73)",Atticus Finch,Directed,1,74,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,74,Exchange
+32,8,Miss Rachel Haverford,Jem Finch,Directed,1,74,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,74,Exchange
+32,9,Miss Rachel Haverford,Atticus Finch,Directed,1,74,Exchange
+219,5,"""The neighbors"" (73)",Scout Finch,Directed,1,74,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,74,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,74,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,74,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,74,Exchange
+32,6,Miss Rachel Haverford,Dill Harris,Directed,1,74,Exchange
+32,5,Miss Rachel Haverford,Scout Finch,Directed,1,74,Exchange
+6,219,Dill Harris,"""The neighbors"" (73)",Directed,1,74,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,74,Exchange
+9,219,Atticus Finch,"""The neighbors"" (73)",Directed,1,74,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,74,Exchange
+219,6,"""The neighbors"" (73)",Dill Harris,Directed,1,74,Exchange
+5,219,Scout Finch,"""The neighbors"" (73)",Directed,1,74,Exchange
+9,32,Atticus Finch,Miss Rachel Haverford,Directed,1,74,Exchange
+8,32,Jem Finch,Miss Rachel Haverford,Directed,1,74,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,74,Exchange
+6,32,Dill Harris,Miss Rachel Haverford,Directed,1,74,Exchange
+5,32,Scout Finch,Miss Rachel Haverford,Directed,1,74,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,74,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,74,Exchange
+8,219,Jem Finch,"""The neighbors"" (73)",Directed,1,74,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,75,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,75,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,76,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,76,Exchange
+54,5,Miss Caroline Fisher,Scout Finch,Directed,1,77,Exchange
+5,54,Scout Finch,Miss Caroline Fisher,Directed,1,77,Exchange
+62,54,The first grade,Miss Caroline Fisher,Directed,1,77,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,77,Exchange
+54,62,Miss Caroline Fisher,The first grade,Directed,1,77,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,77,Exchange
+10,8,Boo Radley,Jem Finch,Directed,1,78,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,78,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,78,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,78,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,79,Exchange
+10,8,Boo Radley,Jem Finch,Directed,1,79,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,79,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,79,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,79,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,79,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,80,Exchange
+10,8,Boo Radley,Jem Finch,Directed,1,80,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,80,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,80,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,81,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,81,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,81,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,81,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,81,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,81,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,82,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,82,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,83,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,83,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,83,Exchange
+8,47,Jem Finch,Mr. Radley,Directed,1,83,Exchange
+5,47,Scout Finch,Mr. Radley,Directed,1,83,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,83,Exchange
+47,8,Mr. Radley,Jem Finch,Directed,1,83,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,83,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,83,Exchange
+47,5,Mr. Radley,Scout Finch,Directed,1,83,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,84,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,84,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,84,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,84,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,84,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,84,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,85,Exchange
+85,5,Mr. Avery,Scout Finch,Directed,1,85,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,85,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,85,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,85,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,85,Exchange
+5,85,Scout Finch,Mr. Avery,Directed,1,85,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,85,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,86,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,86,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,86,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,86,Exchange
+201,9,Eula May,Atticus Finch,Directed,1,86,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,86,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,86,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,86,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,86,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,86,Exchange
+9,201,Atticus Finch,Eula May,Directed,1,86,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,86,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,87,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,87,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,87,Exchange
+8,85,Jem Finch,Mr. Avery,Directed,1,87,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,87,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,87,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,87,Exchange
+5,85,Scout Finch,Mr. Avery,Directed,1,87,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,87,Exchange
+85,8,Mr. Avery,Jem Finch,Directed,1,87,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,87,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,87,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,87,Exchange
+85,5,Mr. Avery,Scout Finch,Directed,1,87,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,88,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,88,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,88,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,88,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,88,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,88,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,89,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,89,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,89,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,89,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,89,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,89,Exchange
+9,55,Atticus Finch,Miss Maudie Atkinson,Directed,1,90,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,90,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,90,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,90,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,90,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,90,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,90,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,90,Exchange
+55,9,Miss Maudie Atkinson,Atticus Finch,Directed,1,90,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,90,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,90,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,90,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,91,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,91,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,91,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,91,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,91,Exchange
+55,9,Miss Maudie Atkinson,Atticus Finch,Directed,1,91,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,91,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,91,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,91,Exchange
+9,55,Atticus Finch,Miss Maudie Atkinson,Directed,1,91,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,91,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,91,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,91,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,91,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,92,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,92,Exchange
+9,55,Atticus Finch,Miss Maudie Atkinson,Directed,1,92,Exchange
+55,9,Miss Maudie Atkinson,Atticus Finch,Directed,1,92,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,92,Exchange
+221,55,Men of Maycomb (92),Miss Maudie Atkinson,Directed,1,92,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,92,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,92,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,92,Exchange
+55,221,Miss Maudie Atkinson,Men of Maycomb (92),Directed,1,92,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,93,Exchange
+221,55,Men of Maycomb (92),Miss Maudie Atkinson,Directed,1,93,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,93,Exchange
+8,85,Jem Finch,Mr. Avery,Directed,1,93,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,93,Exchange
+221,85,Men of Maycomb (92),Mr. Avery,Directed,1,93,Exchange
+55,9,Miss Maudie Atkinson,Atticus Finch,Directed,1,93,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,93,Exchange
+85,221,Mr. Avery,Men of Maycomb (92),Directed,1,93,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,93,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,93,Exchange
+55,221,Miss Maudie Atkinson,Men of Maycomb (92),Directed,1,93,Exchange
+5,85,Scout Finch,Mr. Avery,Directed,1,93,Exchange
+9,55,Atticus Finch,Miss Maudie Atkinson,Directed,1,93,Exchange
+55,9,Miss Maudie Atkinson,Atticus Finch,Directed,1,94,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,94,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,94,Exchange
+9,55,Atticus Finch,Miss Maudie Atkinson,Directed,1,94,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,95,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,95,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,95,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,95,Exchange
+55,9,Miss Maudie Atkinson,Atticus Finch,Directed,1,95,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,95,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,95,Exchange
+9,55,Atticus Finch,Miss Maudie Atkinson,Directed,1,95,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,96,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,96,Exchange
+24,8,Calpurnia,Jem Finch,Directed,1,96,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,96,Exchange
+8,24,Jem Finch,Calpurnia,Directed,1,96,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,96,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,96,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,96,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,96,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,96,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,96,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,97,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,97,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,97,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,97,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,97,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,97,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,98,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,98,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,98,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,98,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,98,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,98,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,99,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,99,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,99,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,99,Exchange
+172,5,Cecil Jacobs,Scout Finch,Directed,1,99,Exchange
+5,172,Scout Finch,Cecil Jacobs,Directed,1,99,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,100,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,100,Exchange
+223,5,Cousin Ike Finch,Scout Finch,Directed,1,101,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,101,Exchange
+5,223,Scout Finch,Cousin Ike Finch,Directed,1,101,Exchange
+223,9,Cousin Ike Finch,Atticus Finch,Directed,1,101,Exchange
+9,223,Atticus Finch,Cousin Ike Finch,Directed,1,101,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,101,Exchange
+5,172,Scout Finch,Cecil Jacobs,Directed,1,102,Exchange
+172,5,Cecil Jacobs,Scout Finch,Directed,1,102,Exchange
+5,22,Scout Finch,"John Hale ""Jack"" Finch",Directed,1,104,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,104,Exchange
+9,22,Atticus Finch,"John Hale ""Jack"" Finch",Directed,1,104,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,104,Exchange
+22,9,"John Hale ""Jack"" Finch",Atticus Finch,Directed,1,104,Exchange
+22,5,"John Hale ""Jack"" Finch",Scout Finch,Directed,1,104,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,105,Exchange
+9,22,Atticus Finch,"John Hale ""Jack"" Finch",Directed,1,105,Exchange
+5,22,Scout Finch,"John Hale ""Jack"" Finch",Directed,1,105,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,105,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,105,Exchange
+22,8,"John Hale ""Jack"" Finch",Jem Finch,Directed,1,105,Exchange
+8,22,Jem Finch,"John Hale ""Jack"" Finch",Directed,1,105,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,105,Exchange
+22,5,"John Hale ""Jack"" Finch",Scout Finch,Directed,1,105,Exchange
+22,9,"John Hale ""Jack"" Finch",Atticus Finch,Directed,1,105,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,106,Exchange
+9,22,Atticus Finch,"John Hale ""Jack"" Finch",Directed,1,106,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,106,Exchange
+22,9,"John Hale ""Jack"" Finch",Atticus Finch,Directed,1,106,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,193,Exchange
+8,11,Jem Finch,Heck Tate,Directed,1,193,Exchange
+11,8,Heck Tate,Jem Finch,Directed,1,193,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,193,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,193,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,193,Exchange
+9,83,Atticus Finch,"""[S]omeone""",Directed,1,194,Exchange
+81,11,Link Deas,Heck Tate,Directed,1,194,Exchange
+8,7,Jem Finch,Alexandra Finch,Directed,1,194,Exchange
+81,9,Link Deas,Atticus Finch,Directed,1,194,Exchange
+7,8,Alexandra Finch,Jem Finch,Directed,1,194,Exchange
+11,5,Heck Tate,Scout Finch,Directed,1,194,Exchange
+9,81,Atticus Finch,Link Deas,Directed,1,194,Exchange
+5,11,Scout Finch,Heck Tate,Directed,1,194,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,194,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,194,Exchange
+83,9,"""[S]omeone""",Atticus Finch,Directed,1,194,Exchange
+11,81,Heck Tate,Link Deas,Directed,1,194,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,195,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,195,Exchange
+7,8,Alexandra Finch,Jem Finch,Directed,1,195,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,195,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,195,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,195,Exchange
+9,81,Atticus Finch,Link Deas,Directed,1,195,Exchange
+81,5,Link Deas,Scout Finch,Directed,1,195,Exchange
+5,81,Scout Finch,Link Deas,Directed,1,195,Exchange
+8,7,Jem Finch,Alexandra Finch,Directed,1,195,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,195,Exchange
+81,9,Link Deas,Atticus Finch,Directed,1,195,Exchange
+86,87,Ku Klux Klan,Sam Levy,Directed,1,196,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,196,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,196,Exchange
+87,86,Sam Levy,Ku Klux Klan,Directed,1,196,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,196,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,196,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,196,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,196,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,196,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,196,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,197,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,197,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,197,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,197,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,197,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,197,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,198,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,198,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,198,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,198,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,198,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,198,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,198,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,198,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,199,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,199,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,199,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,199,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,199,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,199,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,199,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,199,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,200,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,200,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,200,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,200,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,200,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,200,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,201,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,201,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,201,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,201,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,201,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,201,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,201,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,201,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,202,Exchange
+9,59,Atticus Finch,Walter Cunningham Sr.,Directed,1,202,Exchange
+82,59,Old Sarum Bunch,Walter Cunningham Sr.,Directed,1,202,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,202,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,202,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,202,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,202,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,202,Exchange
+59,9,Walter Cunningham Sr.,Atticus Finch,Directed,1,202,Exchange
+59,82,Walter Cunningham Sr.,Old Sarum Bunch,Directed,1,202,Exchange
+82,9,Old Sarum Bunch,Atticus Finch,Directed,1,202,Exchange
+9,82,Atticus Finch,Old Sarum Bunch,Directed,1,202,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,203,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,203,Exchange
+82,59,Old Sarum Bunch,Walter Cunningham Sr.,Directed,1,203,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,203,Exchange
+8,82,Jem Finch,Old Sarum Bunch,Directed,1,203,Exchange
+82,8,Old Sarum Bunch,Jem Finch,Directed,1,203,Exchange
+82,5,Old Sarum Bunch,Scout Finch,Directed,1,203,Exchange
+59,82,Walter Cunningham Sr.,Old Sarum Bunch,Directed,1,203,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,203,Exchange
+82,9,Old Sarum Bunch,Atticus Finch,Directed,1,203,Exchange
+5,82,Scout Finch,Old Sarum Bunch,Directed,1,203,Exchange
+9,82,Atticus Finch,Old Sarum Bunch,Directed,1,203,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,204,Exchange
+82,9,Old Sarum Bunch,Atticus Finch,Directed,1,204,Exchange
+8,82,Jem Finch,Old Sarum Bunch,Directed,1,204,Exchange
+82,8,Old Sarum Bunch,Jem Finch,Directed,1,204,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,204,Exchange
+5,82,Scout Finch,Old Sarum Bunch,Directed,1,204,Exchange
+5,59,Scout Finch,Walter Cunningham Sr.,Directed,1,204,Exchange
+82,5,Old Sarum Bunch,Scout Finch,Directed,1,204,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,204,Exchange
+9,82,Atticus Finch,Old Sarum Bunch,Directed,1,204,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,204,Exchange
+59,5,Walter Cunningham Sr.,Scout Finch,Directed,1,204,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,205,Exchange
+59,5,Walter Cunningham Sr.,Scout Finch,Directed,1,205,Exchange
+5,82,Scout Finch,Old Sarum Bunch,Directed,1,205,Exchange
+5,59,Scout Finch,Walter Cunningham Sr.,Directed,1,205,Exchange
+82,5,Old Sarum Bunch,Scout Finch,Directed,1,205,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,205,Exchange
+89,9,Mr. Underwood,Atticus Finch,Directed,1,206,Exchange
+59,82,Walter Cunningham Sr.,Old Sarum Bunch,Directed,1,206,Exchange
+89,5,Mr. Underwood,Scout Finch,Directed,1,206,Exchange
+59,5,Walter Cunningham Sr.,Scout Finch,Directed,1,206,Exchange
+5,80,Scout Finch,Tom Robinson,Directed,1,206,Exchange
+80,5,Tom Robinson,Scout Finch,Directed,1,206,Exchange
+9,89,Atticus Finch,Mr. Underwood,Directed,1,206,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,206,Exchange
+5,59,Scout Finch,Walter Cunningham Sr.,Directed,1,206,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,206,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,206,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,206,Exchange
+82,5,Old Sarum Bunch,Scout Finch,Directed,1,206,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,206,Exchange
+5,82,Scout Finch,Old Sarum Bunch,Directed,1,206,Exchange
+5,89,Scout Finch,Mr. Underwood,Directed,1,206,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,206,Exchange
+82,59,Old Sarum Bunch,Walter Cunningham Sr.,Directed,1,206,Exchange
+89,9,Mr. Underwood,Atticus Finch,Directed,1,207,Exchange
+9,89,Atticus Finch,Mr. Underwood,Directed,1,207,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,207,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,207,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,208,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,208,Exchange
+8,7,Jem Finch,Alexandra Finch,Directed,1,209,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,209,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,209,Exchange
+7,24,Alexandra Finch,Calpurnia,Directed,1,209,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,209,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,209,Exchange
+7,8,Alexandra Finch,Jem Finch,Directed,1,209,Exchange
+24,7,Calpurnia,Alexandra Finch,Directed,1,209,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,209,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,209,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,209,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,209,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,209,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,209,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,210,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,210,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,210,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,210,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,210,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,210,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,211,Exchange
+7,8,Alexandra Finch,Jem Finch,Directed,1,211,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,211,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,211,Exchange
+8,7,Jem Finch,Alexandra Finch,Directed,1,211,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,211,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,211,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,211,Exchange
+7,6,Alexandra Finch,Dill Harris,Directed,1,211,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,211,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,211,Exchange
+6,7,Dill Harris,Alexandra Finch,Directed,1,211,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,211,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,211,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,211,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,211,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,211,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,211,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,212,Exchange
+102,55,Foot-washers,Miss Maudie Atkinson,Directed,1,212,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,212,Exchange
+96,95,Mr. X Billups' clerk,Mr. X Billups,Directed,1,212,Exchange
+55,102,Miss Maudie Atkinson,Foot-washers,Directed,1,212,Exchange
+95,96,Mr. X Billups,Mr. X Billups' clerk,Directed,1,212,Exchange
+55,6,Miss Maudie Atkinson,Dill Harris,Directed,1,213,Exchange
+102,55,Foot-washers,Miss Maudie Atkinson,Directed,1,213,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,213,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,213,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,213,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,213,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,213,Exchange
+55,51,Miss Maudie Atkinson,Miss Stephanie Crawford,Directed,1,213,Exchange
+51,55,Miss Stephanie Crawford,Miss Maudie Atkinson,Directed,1,213,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,213,Exchange
+55,102,Miss Maudie Atkinson,Foot-washers,Directed,1,213,Exchange
+6,55,Dill Harris,Miss Maudie Atkinson,Directed,1,213,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,214,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,214,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,214,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,214,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,214,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,214,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,215,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,215,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,215,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,215,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,216,Exchange
+22,8,"John Hale ""Jack"" Finch",Jem Finch,Directed,1,216,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,216,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,216,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,216,Exchange
+8,22,Jem Finch,"John Hale ""Jack"" Finch",Directed,1,216,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,217,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,217,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,218,Exchange
+5,119,Scout Finch,Idlers' Club,Directed,1,218,Exchange
+119,5,Idlers' Club,Scout Finch,Directed,1,218,Exchange
+106,119,Crowd (at the trial),Idlers' Club,Directed,1,218,Exchange
+119,106,Idlers' Club,Crowd (at the trial),Directed,1,218,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,218,Exchange
+119,119,Idlers' Club,Idlers' Club,Directed,1,218,Exchange
+121,6,Reverend Sykes,Dill Harris,Directed,1,219,Exchange
+121,8,Reverend Sykes,Jem Finch,Directed,1,219,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,219,Exchange
+121,5,Reverend Sykes,Scout Finch,Directed,1,219,Exchange
+5,121,Scout Finch,Reverend Sykes,Directed,1,219,Exchange
+6,121,Dill Harris,Reverend Sykes,Directed,1,219,Exchange
+8,121,Jem Finch,Reverend Sykes,Directed,1,219,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,219,Exchange
+127,125,Jeems Cunningham,Judge Taylor,Directed,1,220,Exchange
+125,127,Judge Taylor,Jeems Cunningham,Directed,1,220,Exchange
+125,124,Judge Taylor,Mr. Whitley,Directed,1,220,Exchange
+124,125,Mr. Whitley,Judge Taylor,Directed,1,220,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,221,Exchange
+48,125,The Cunninghams,Judge Taylor,Directed,1,221,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,221,Exchange
+125,48,Judge Taylor,The Cunninghams,Directed,1,221,Exchange
+126,125,The Coninghams,Judge Taylor,Directed,1,221,Exchange
+125,126,Judge Taylor,The Coninghams,Directed,1,221,Exchange
+11,123,Heck Tate,Mr. Gilmer,Directed,1,222,Exchange
+123,11,Mr. Gilmer,Heck Tate,Directed,1,222,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,222,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,222,Exchange
+14,11,Bob Ewell,Heck Tate,Directed,1,223,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,223,Exchange
+123,11,Mr. Gilmer,Heck Tate,Directed,1,223,Exchange
+15,11,Mayella Ewell,Heck Tate,Directed,1,223,Exchange
+11,123,Heck Tate,Mr. Gilmer,Directed,1,223,Exchange
+11,15,Heck Tate,Mayella Ewell,Directed,1,223,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,223,Exchange
+11,14,Heck Tate,Bob Ewell,Directed,1,223,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,224,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,224,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,224,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,224,Exchange
+11,14,Heck Tate,Bob Ewell,Directed,1,224,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,224,Exchange
+11,15,Heck Tate,Mayella Ewell,Directed,1,224,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,224,Exchange
+15,11,Mayella Ewell,Heck Tate,Directed,1,224,Exchange
+14,11,Bob Ewell,Heck Tate,Directed,1,224,Exchange
+130,9,Court reporter,Atticus Finch,Directed,1,225,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,225,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,225,Exchange
+9,130,Atticus Finch,Court reporter,Directed,1,225,Exchange
+6,121,Dill Harris,Reverend Sykes,Directed,1,226,Exchange
+125,11,Judge Taylor,Heck Tate,Directed,1,226,Exchange
+121,6,Reverend Sykes,Dill Harris,Directed,1,226,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,226,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,226,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,226,Exchange
+123,125,Mr. Gilmer,Judge Taylor,Directed,1,226,Exchange
+123,9,Mr. Gilmer,Atticus Finch,Directed,1,226,Exchange
+9,123,Atticus Finch,Mr. Gilmer,Directed,1,226,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,226,Exchange
+125,123,Judge Taylor,Mr. Gilmer,Directed,1,226,Exchange
+11,125,Heck Tate,Judge Taylor,Directed,1,226,Exchange
+117,14,Circuit clerk,Bob Ewell,Directed,1,227,Exchange
+14,117,Bob Ewell,Circuit clerk,Directed,1,227,Exchange
+5,131,Scout Finch,Maycomb's mayor,Directed,1,228,Exchange
+131,9,Maycomb's mayor,Atticus Finch,Directed,1,228,Exchange
+131,8,Maycomb's mayor,Jem Finch,Directed,1,228,Exchange
+131,5,Maycomb's mayor,Scout Finch,Directed,1,228,Exchange
+8,131,Jem Finch,Maycomb's mayor,Directed,1,228,Exchange
+9,131,Atticus Finch,Maycomb's mayor,Directed,1,228,Exchange
+14,123,Bob Ewell,Mr. Gilmer,Directed,1,229,Exchange
+123,14,Mr. Gilmer,Bob Ewell,Directed,1,229,Exchange
+125,123,Judge Taylor,Mr. Gilmer,Directed,1,230,Exchange
+123,14,Mr. Gilmer,Bob Ewell,Directed,1,230,Exchange
+125,14,Judge Taylor,Bob Ewell,Directed,1,230,Exchange
+123,8,Mr. Gilmer,Jem Finch,Directed,1,230,Exchange
+14,125,Bob Ewell,Judge Taylor,Directed,1,230,Exchange
+14,123,Bob Ewell,Mr. Gilmer,Directed,1,230,Exchange
+8,123,Jem Finch,Mr. Gilmer,Directed,1,230,Exchange
+123,125,Mr. Gilmer,Judge Taylor,Directed,1,230,Exchange
+14,125,Bob Ewell,Judge Taylor,Directed,1,231,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,231,Exchange
+80,14,Tom Robinson,Bob Ewell,Directed,1,231,Exchange
+123,14,Mr. Gilmer,Bob Ewell,Directed,1,231,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,231,Exchange
+121,8,Reverend Sykes,Jem Finch,Directed,1,231,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,231,Exchange
+11,106,Heck Tate,Crowd (at the trial),Directed,1,231,Exchange
+125,14,Judge Taylor,Bob Ewell,Directed,1,231,Exchange
+106,125,Crowd (at the trial),Judge Taylor,Directed,1,231,Exchange
+106,11,Crowd (at the trial),Heck Tate,Directed,1,231,Exchange
+14,80,Bob Ewell,Tom Robinson,Directed,1,231,Exchange
+122,122,"""Four N*****s"" (219)","""Four N*****s"" (219)",Directed,1,231,Exchange
+125,106,Judge Taylor,Crowd (at the trial),Directed,1,231,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,231,Exchange
+14,123,Bob Ewell,Mr. Gilmer,Directed,1,231,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,231,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,231,Exchange
+8,121,Jem Finch,Reverend Sykes,Directed,1,231,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,232,Exchange
+121,8,Reverend Sykes,Jem Finch,Directed,1,232,Exchange
+125,123,Judge Taylor,Mr. Gilmer,Directed,1,232,Exchange
+123,125,Mr. Gilmer,Judge Taylor,Directed,1,232,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,232,Exchange
+14,125,Bob Ewell,Judge Taylor,Directed,1,232,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,232,Exchange
+125,106,Judge Taylor,Crowd (at the trial),Directed,1,232,Exchange
+106,125,Crowd (at the trial),Judge Taylor,Directed,1,232,Exchange
+125,14,Judge Taylor,Bob Ewell,Directed,1,232,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,232,Exchange
+8,121,Jem Finch,Reverend Sykes,Directed,1,232,Exchange
+9,123,Atticus Finch,Mr. Gilmer,Directed,1,233,Exchange
+14,123,Bob Ewell,Mr. Gilmer,Directed,1,233,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,233,Exchange
+123,14,Mr. Gilmer,Bob Ewell,Directed,1,233,Exchange
+125,14,Judge Taylor,Bob Ewell,Directed,1,233,Exchange
+123,9,Mr. Gilmer,Atticus Finch,Directed,1,233,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,233,Exchange
+14,125,Bob Ewell,Judge Taylor,Directed,1,233,Exchange
+14,123,Bob Ewell,Mr. Gilmer,Directed,1,234,Exchange
+15,14,Mayella Ewell,Bob Ewell,Directed,1,234,Exchange
+14,125,Bob Ewell,Judge Taylor,Directed,1,234,Exchange
+125,14,Judge Taylor,Bob Ewell,Directed,1,234,Exchange
+123,14,Mr. Gilmer,Bob Ewell,Directed,1,234,Exchange
+14,15,Bob Ewell,Mayella Ewell,Directed,1,234,Exchange
+9,14,Atticus Finch,Bob Ewell,Directed,1,234,Exchange
+14,9,Bob Ewell,Atticus Finch,Directed,1,234,Exchange
+130,9,Court reporter,Atticus Finch,Directed,1,235,Exchange
+9,123,Atticus Finch,Mr. Gilmer,Directed,1,235,Exchange
+123,9,Mr. Gilmer,Atticus Finch,Directed,1,235,Exchange
+9,130,Atticus Finch,Court reporter,Directed,1,235,Exchange
+9,14,Atticus Finch,Bob Ewell,Directed,1,235,Exchange
+14,9,Bob Ewell,Atticus Finch,Directed,1,235,Exchange
+123,9,Mr. Gilmer,Atticus Finch,Directed,1,236,Exchange
+130,9,Court reporter,Atticus Finch,Directed,1,236,Exchange
+125,123,Judge Taylor,Mr. Gilmer,Directed,1,236,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,236,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,236,Exchange
+9,14,Atticus Finch,Bob Ewell,Directed,1,236,Exchange
+123,125,Mr. Gilmer,Judge Taylor,Directed,1,236,Exchange
+9,123,Atticus Finch,Mr. Gilmer,Directed,1,236,Exchange
+9,130,Atticus Finch,Court reporter,Directed,1,236,Exchange
+14,9,Bob Ewell,Atticus Finch,Directed,1,236,Exchange
+14,125,Bob Ewell,Judge Taylor,Directed,1,237,Exchange
+14,9,Bob Ewell,Atticus Finch,Directed,1,237,Exchange
+125,14,Judge Taylor,Bob Ewell,Directed,1,237,Exchange
+9,14,Atticus Finch,Bob Ewell,Directed,1,237,Exchange
+14,123,Bob Ewell,Mr. Gilmer,Directed,1,238,Exchange
+123,14,Mr. Gilmer,Bob Ewell,Directed,1,238,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,238,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,238,Exchange
+106,117,Crowd (at the trial),Circuit clerk,Directed,1,239,Exchange
+15,123,Mayella Ewell,Mr. Gilmer,Directed,1,239,Exchange
+117,106,Circuit clerk,Crowd (at the trial),Directed,1,239,Exchange
+123,15,Mr. Gilmer,Mayella Ewell,Directed,1,239,Exchange
+15,123,Mayella Ewell,Mr. Gilmer,Directed,1,240,Exchange
+123,15,Mr. Gilmer,Mayella Ewell,Directed,1,240,Exchange
+15,125,Mayella Ewell,Judge Taylor,Directed,1,240,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,240,Exchange
+125,15,Judge Taylor,Mayella Ewell,Directed,1,240,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,240,Exchange
+123,15,Mr. Gilmer,Mayella Ewell,Directed,1,241,Exchange
+80,15,Tom Robinson,Mayella Ewell,Directed,1,241,Exchange
+15,123,Mayella Ewell,Mr. Gilmer,Directed,1,241,Exchange
+15,80,Mayella Ewell,Tom Robinson,Directed,1,241,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,242,Exchange
+14,15,Bob Ewell,Mayella Ewell,Directed,1,242,Exchange
+123,125,Mr. Gilmer,Judge Taylor,Directed,1,242,Exchange
+123,15,Mr. Gilmer,Mayella Ewell,Directed,1,242,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,242,Exchange
+125,123,Judge Taylor,Mr. Gilmer,Directed,1,242,Exchange
+15,123,Mayella Ewell,Mr. Gilmer,Directed,1,242,Exchange
+15,14,Mayella Ewell,Bob Ewell,Directed,1,242,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,243,Exchange
+125,15,Judge Taylor,Mayella Ewell,Directed,1,243,Exchange
+125,130,Judge Taylor,Court reporter,Directed,1,243,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,243,Exchange
+130,125,Court reporter,Judge Taylor,Directed,1,243,Exchange
+15,125,Mayella Ewell,Judge Taylor,Directed,1,243,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,244,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,244,Exchange
+138,15,Social worker,Mayella Ewell,Directed,1,245,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,245,Exchange
+15,138,Mayella Ewell,Social worker,Directed,1,245,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,245,Exchange
+15,125,Mayella Ewell,Judge Taylor,Directed,1,246,Exchange
+125,15,Judge Taylor,Mayella Ewell,Directed,1,246,Exchange
+15,80,Mayella Ewell,Tom Robinson,Directed,1,246,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,246,Exchange
+80,15,Tom Robinson,Mayella Ewell,Directed,1,246,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,246,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,247,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,247,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,248,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,248,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,248,Exchange
+125,15,Judge Taylor,Mayella Ewell,Directed,1,248,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,248,Exchange
+121,8,Reverend Sykes,Jem Finch,Directed,1,248,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,248,Exchange
+8,121,Jem Finch,Reverend Sykes,Directed,1,248,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,248,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,248,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,248,Exchange
+15,125,Mayella Ewell,Judge Taylor,Directed,1,248,Exchange
+8,121,Jem Finch,Reverend Sykes,Directed,1,249,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,249,Exchange
+123,125,Mr. Gilmer,Judge Taylor,Directed,1,249,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,249,Exchange
+121,8,Reverend Sykes,Jem Finch,Directed,1,249,Exchange
+125,123,Judge Taylor,Mr. Gilmer,Directed,1,249,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,250,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,250,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,250,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,250,Exchange
+123,15,Mr. Gilmer,Mayella Ewell,Directed,1,251,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,251,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,251,Exchange
+15,123,Mayella Ewell,Mr. Gilmer,Directed,1,251,Exchange
+125,123,Judge Taylor,Mr. Gilmer,Directed,1,252,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,252,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,252,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,252,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,252,Exchange
+123,125,Mr. Gilmer,Judge Taylor,Directed,1,252,Exchange
+5,121,Scout Finch,Reverend Sykes,Directed,1,252,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,252,Exchange
+121,5,Reverend Sykes,Scout Finch,Directed,1,252,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,252,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,253,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,253,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,253,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,253,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,253,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,253,Exchange
+125,80,Judge Taylor,Tom Robinson,Directed,1,254,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,254,Exchange
+9,106,Atticus Finch,Crowd (at the trial),Directed,1,254,Exchange
+80,125,Tom Robinson,Judge Taylor,Directed,1,254,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,254,Exchange
+106,9,Crowd (at the trial),Atticus Finch,Directed,1,254,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,254,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,254,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,255,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,255,Exchange
+80,15,Tom Robinson,Mayella Ewell,Directed,1,255,Exchange
+15,80,Mayella Ewell,Tom Robinson,Directed,1,255,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,255,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,255,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,256,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,256,Exchange
+80,15,Tom Robinson,Mayella Ewell,Directed,1,256,Exchange
+15,80,Mayella Ewell,Tom Robinson,Directed,1,256,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,256,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,256,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,256,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,256,Exchange
+5,15,Scout Finch,Mayella Ewell,Directed,1,257,Exchange
+15,5,Mayella Ewell,Scout Finch,Directed,1,257,Exchange
+80,106,Tom Robinson,Crowd (at the trial),Directed,1,257,Exchange
+9,106,Atticus Finch,Crowd (at the trial),Directed,1,257,Exchange
+106,9,Crowd (at the trial),Atticus Finch,Directed,1,257,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,257,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,257,Exchange
+133,80,Maycomb's Black community,Tom Robinson,Directed,1,257,Exchange
+133,9,Maycomb's Black community,Atticus Finch,Directed,1,257,Exchange
+106,80,Crowd (at the trial),Tom Robinson,Directed,1,257,Exchange
+9,133,Atticus Finch,Maycomb's Black community,Directed,1,257,Exchange
+80,133,Tom Robinson,Maycomb's Black community,Directed,1,257,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,258,Exchange
+80,15,Tom Robinson,Mayella Ewell,Directed,1,258,Exchange
+15,80,Mayella Ewell,Tom Robinson,Directed,1,258,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,258,Exchange
+80,125,Tom Robinson,Judge Taylor,Directed,1,259,Exchange
+80,15,Tom Robinson,Mayella Ewell,Directed,1,259,Exchange
+125,80,Judge Taylor,Tom Robinson,Directed,1,259,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,259,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,259,Exchange
+15,80,Mayella Ewell,Tom Robinson,Directed,1,259,Exchange
+15,80,Mayella Ewell,Tom Robinson,Directed,1,260,Exchange
+80,14,Tom Robinson,Bob Ewell,Directed,1,260,Exchange
+80,15,Tom Robinson,Mayella Ewell,Directed,1,260,Exchange
+15,14,Mayella Ewell,Bob Ewell,Directed,1,260,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,260,Exchange
+14,15,Bob Ewell,Mayella Ewell,Directed,1,260,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,260,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,260,Exchange
+14,80,Bob Ewell,Tom Robinson,Directed,1,260,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,260,Exchange
+106,81,Crowd (at the trial),Link Deas,Directed,1,261,Exchange
+14,80,Bob Ewell,Tom Robinson,Directed,1,261,Exchange
+80,14,Tom Robinson,Bob Ewell,Directed,1,261,Exchange
+125,81,Judge Taylor,Link Deas,Directed,1,261,Exchange
+15,14,Mayella Ewell,Bob Ewell,Directed,1,261,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,261,Exchange
+81,106,Link Deas,Crowd (at the trial),Directed,1,261,Exchange
+81,125,Link Deas,Judge Taylor,Directed,1,261,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,261,Exchange
+14,15,Bob Ewell,Mayella Ewell,Directed,1,261,Exchange
+123,80,Mr. Gilmer,Tom Robinson,Directed,1,262,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,262,Exchange
+80,125,Tom Robinson,Judge Taylor,Directed,1,262,Exchange
+123,125,Mr. Gilmer,Judge Taylor,Directed,1,262,Exchange
+80,130,Tom Robinson,Court reporter,Directed,1,262,Exchange
+130,125,Court reporter,Judge Taylor,Directed,1,262,Exchange
+80,123,Tom Robinson,Mr. Gilmer,Directed,1,262,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,262,Exchange
+130,80,Court reporter,Tom Robinson,Directed,1,262,Exchange
+125,130,Judge Taylor,Court reporter,Directed,1,262,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,262,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,262,Exchange
+125,105,Judge Taylor,Tom Robinson's jury,Directed,1,262,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,262,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,262,Exchange
+125,80,Judge Taylor,Tom Robinson,Directed,1,262,Exchange
+105,125,Tom Robinson's jury,Judge Taylor,Directed,1,262,Exchange
+125,123,Judge Taylor,Mr. Gilmer,Directed,1,262,Exchange
+80,123,Tom Robinson,Mr. Gilmer,Directed,1,263,Exchange
+123,80,Mr. Gilmer,Tom Robinson,Directed,1,263,Exchange
+15,80,Mayella Ewell,Tom Robinson,Directed,1,264,Exchange
+80,15,Tom Robinson,Mayella Ewell,Directed,1,264,Exchange
+80,123,Tom Robinson,Mr. Gilmer,Directed,1,264,Exchange
+123,80,Mr. Gilmer,Tom Robinson,Directed,1,264,Exchange
+15,123,Mayella Ewell,Mr. Gilmer,Directed,1,264,Exchange
+123,15,Mr. Gilmer,Mayella Ewell,Directed,1,264,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,265,Exchange
+80,123,Tom Robinson,Mr. Gilmer,Directed,1,265,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,265,Exchange
+81,5,Link Deas,Scout Finch,Directed,1,265,Exchange
+123,80,Mr. Gilmer,Tom Robinson,Directed,1,265,Exchange
+5,81,Scout Finch,Link Deas,Directed,1,265,Exchange
+5,121,Scout Finch,Reverend Sykes,Directed,1,265,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,265,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,265,Exchange
+121,5,Reverend Sykes,Scout Finch,Directed,1,265,Exchange
+9,14,Atticus Finch,Bob Ewell,Directed,1,266,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,266,Exchange
+123,80,Mr. Gilmer,Tom Robinson,Directed,1,266,Exchange
+14,9,Bob Ewell,Atticus Finch,Directed,1,266,Exchange
+9,15,Atticus Finch,Mayella Ewell,Directed,1,266,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,266,Exchange
+15,9,Mayella Ewell,Atticus Finch,Directed,1,266,Exchange
+6,93,Dill Harris,Mr. Dolphus Raymond,Directed,1,266,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,266,Exchange
+80,123,Tom Robinson,Mr. Gilmer,Directed,1,266,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,266,Exchange
+93,6,Mr. Dolphus Raymond,Dill Harris,Directed,1,266,Exchange
+6,93,Dill Harris,Mr. Dolphus Raymond,Directed,1,267,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,267,Exchange
+5,93,Scout Finch,Mr. Dolphus Raymond,Directed,1,267,Exchange
+93,5,Mr. Dolphus Raymond,Scout Finch,Directed,1,267,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,267,Exchange
+93,6,Mr. Dolphus Raymond,Dill Harris,Directed,1,267,Exchange
+93,6,Mr. Dolphus Raymond,Dill Harris,Directed,1,268,Exchange
+93,5,Mr. Dolphus Raymond,Scout Finch,Directed,1,268,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,268,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,268,Exchange
+5,93,Scout Finch,Mr. Dolphus Raymond,Directed,1,268,Exchange
+6,93,Dill Harris,Mr. Dolphus Raymond,Directed,1,268,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,269,Exchange
+6,93,Dill Harris,Mr. Dolphus Raymond,Directed,1,269,Exchange
+5,93,Scout Finch,Mr. Dolphus Raymond,Directed,1,269,Exchange
+93,6,Mr. Dolphus Raymond,Dill Harris,Directed,1,269,Exchange
+93,5,Mr. Dolphus Raymond,Scout Finch,Directed,1,269,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,269,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,270,Exchange
+9,105,Atticus Finch,Tom Robinson's jury,Directed,1,270,Exchange
+105,9,Tom Robinson's jury,Atticus Finch,Directed,1,270,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,270,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,270,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,270,Exchange
+9,105,Atticus Finch,Tom Robinson's jury,Directed,1,271,Exchange
+105,9,Tom Robinson's jury,Atticus Finch,Directed,1,271,Exchange
+9,105,Atticus Finch,Tom Robinson's jury,Directed,1,272,Exchange
+105,9,Tom Robinson's jury,Atticus Finch,Directed,1,272,Exchange
+105,9,Tom Robinson's jury,Atticus Finch,Directed,1,273,Exchange
+142,9,Thomas Jefferson,Atticus Finch,Directed,1,273,Exchange
+9,105,Atticus Finch,Tom Robinson's jury,Directed,1,273,Exchange
+142,9,Thomas Jefferson,Atticus Finch,Directed,1,274,Exchange
+105,9,Tom Robinson's jury,Atticus Finch,Directed,1,274,Exchange
+143,9,Yankees,Atticus Finch,Directed,1,274,Exchange
+9,105,Atticus Finch,Tom Robinson's jury,Directed,1,274,Exchange
+144,9,American Executive Branch,Atticus Finch,Directed,1,274,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,275,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,275,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,275,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,275,Exchange
+105,9,Tom Robinson's jury,Atticus Finch,Directed,1,275,Exchange
+9,105,Atticus Finch,Tom Robinson's jury,Directed,1,275,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,275,Exchange
+9,89,Atticus Finch,Mr. Underwood,Directed,1,276,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,276,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,276,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,276,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,276,Exchange
+125,9,Judge Taylor,Atticus Finch,Directed,1,276,Exchange
+125,24,Judge Taylor,Calpurnia,Directed,1,276,Exchange
+24,125,Calpurnia,Judge Taylor,Directed,1,276,Exchange
+9,125,Atticus Finch,Judge Taylor,Directed,1,276,Exchange
+89,9,Mr. Underwood,Atticus Finch,Directed,1,276,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,277,Exchange
+24,8,Calpurnia,Jem Finch,Directed,1,277,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,277,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,277,Exchange
+8,24,Jem Finch,Calpurnia,Directed,1,277,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,277,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,277,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,277,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,278,Exchange
+7,24,Alexandra Finch,Calpurnia,Directed,1,278,Exchange
+6,24,Dill Harris,Calpurnia,Directed,1,278,Exchange
+8,24,Jem Finch,Calpurnia,Directed,1,278,Exchange
+24,7,Calpurnia,Alexandra Finch,Directed,1,278,Exchange
+24,6,Calpurnia,Dill Harris,Directed,1,278,Exchange
+24,8,Calpurnia,Jem Finch,Directed,1,278,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,278,Exchange
+123,9,Mr. Gilmer,Atticus Finch,Directed,1,279,Exchange
+9,123,Atticus Finch,Mr. Gilmer,Directed,1,279,Exchange
+105,125,Tom Robinson's jury,Judge Taylor,Directed,1,279,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,279,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,279,Exchange
+8,121,Jem Finch,Reverend Sykes,Directed,1,279,Exchange
+125,105,Judge Taylor,Tom Robinson's jury,Directed,1,279,Exchange
+121,8,Reverend Sykes,Jem Finch,Directed,1,279,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,280,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,280,Exchange
+123,89,Mr. Gilmer,Mr. Underwood,Directed,1,280,Exchange
+121,8,Reverend Sykes,Jem Finch,Directed,1,280,Exchange
+8,121,Jem Finch,Reverend Sykes,Directed,1,280,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,280,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,280,Exchange
+89,123,Mr. Underwood,Mr. Gilmer,Directed,1,280,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,281,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,281,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,281,Exchange
+106,11,Crowd (at the trial),Heck Tate,Directed,1,281,Exchange
+11,106,Heck Tate,Crowd (at the trial),Directed,1,281,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,281,Exchange
+9,123,Atticus Finch,Mr. Gilmer,Directed,1,282,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,282,Exchange
+11,117,Heck Tate,Circuit clerk,Directed,1,282,Exchange
+9,130,Atticus Finch,Court reporter,Directed,1,282,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,282,Exchange
+117,125,Circuit clerk,Judge Taylor,Directed,1,282,Exchange
+130,9,Court reporter,Atticus Finch,Directed,1,282,Exchange
+105,11,Tom Robinson's jury,Heck Tate,Directed,1,282,Exchange
+123,9,Mr. Gilmer,Atticus Finch,Directed,1,282,Exchange
+125,106,Judge Taylor,Crowd (at the trial),Directed,1,282,Exchange
+106,125,Crowd (at the trial),Judge Taylor,Directed,1,282,Exchange
+125,8,Judge Taylor,Jem Finch,Directed,1,282,Exchange
+125,117,Judge Taylor,Circuit clerk,Directed,1,282,Exchange
+117,11,Circuit clerk,Heck Tate,Directed,1,282,Exchange
+11,105,Heck Tate,Tom Robinson's jury,Directed,1,282,Exchange
+121,5,Reverend Sykes,Scout Finch,Directed,1,283,Exchange
+5,121,Scout Finch,Reverend Sykes,Directed,1,283,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,284,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,284,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,284,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,284,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,285,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,285,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,285,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,285,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,285,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,285,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,286,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,286,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,286,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,286,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,286,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,286,Exchange
+6,32,Dill Harris,Miss Rachel Haverford,Directed,1,286,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,286,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,286,Exchange
+32,6,Miss Rachel Haverford,Dill Harris,Directed,1,286,Exchange
+6,7,Dill Harris,Alexandra Finch,Directed,1,287,Exchange
+5,51,Scout Finch,Miss Stephanie Crawford,Directed,1,287,Exchange
+7,6,Alexandra Finch,Dill Harris,Directed,1,287,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,287,Exchange
+55,51,Miss Maudie Atkinson,Miss Stephanie Crawford,Directed,1,287,Exchange
+51,8,Miss Stephanie Crawford,Jem Finch,Directed,1,287,Exchange
+51,6,Miss Stephanie Crawford,Dill Harris,Directed,1,287,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,287,Exchange
+6,51,Dill Harris,Miss Stephanie Crawford,Directed,1,287,Exchange
+51,55,Miss Stephanie Crawford,Miss Maudie Atkinson,Directed,1,287,Exchange
+8,51,Jem Finch,Miss Stephanie Crawford,Directed,1,287,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,287,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,287,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,287,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,287,Exchange
+85,51,Mr. Avery,Miss Stephanie Crawford,Directed,1,287,Exchange
+85,55,Mr. Avery,Miss Maudie Atkinson,Directed,1,287,Exchange
+51,85,Miss Stephanie Crawford,Mr. Avery,Directed,1,287,Exchange
+51,5,Miss Stephanie Crawford,Scout Finch,Directed,1,287,Exchange
+55,85,Miss Maudie Atkinson,Mr. Avery,Directed,1,287,Exchange
+8,51,Jem Finch,Miss Stephanie Crawford,Directed,1,288,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,288,Exchange
+51,8,Miss Stephanie Crawford,Jem Finch,Directed,1,288,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,288,Exchange
+85,51,Mr. Avery,Miss Stephanie Crawford,Directed,1,289,Exchange
+8,51,Jem Finch,Miss Stephanie Crawford,Directed,1,289,Exchange
+51,8,Miss Stephanie Crawford,Jem Finch,Directed,1,289,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,289,Exchange
+51,85,Miss Stephanie Crawford,Mr. Avery,Directed,1,289,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,289,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,289,Exchange
+8,55,Jem Finch,Miss Maudie Atkinson,Directed,1,289,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,289,Exchange
+55,8,Miss Maudie Atkinson,Jem Finch,Directed,1,289,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,290,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,290,Exchange
+8,51,Jem Finch,Miss Stephanie Crawford,Directed,1,290,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,290,Exchange
+51,5,Miss Stephanie Crawford,Scout Finch,Directed,1,290,Exchange
+32,6,Miss Rachel Haverford,Dill Harris,Directed,1,290,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,290,Exchange
+51,8,Miss Stephanie Crawford,Jem Finch,Directed,1,290,Exchange
+6,32,Dill Harris,Miss Rachel Haverford,Directed,1,290,Exchange
+14,9,Bob Ewell,Atticus Finch,Directed,1,290,Exchange
+51,6,Miss Stephanie Crawford,Dill Harris,Directed,1,290,Exchange
+5,51,Scout Finch,Miss Stephanie Crawford,Directed,1,290,Exchange
+6,51,Dill Harris,Miss Stephanie Crawford,Directed,1,290,Exchange
+9,14,Atticus Finch,Bob Ewell,Directed,1,290,Exchange
+14,9,Bob Ewell,Atticus Finch,Directed,1,291,Exchange
+51,8,Miss Stephanie Crawford,Jem Finch,Directed,1,291,Exchange
+8,51,Jem Finch,Miss Stephanie Crawford,Directed,1,291,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,291,Exchange
+5,51,Scout Finch,Miss Stephanie Crawford,Directed,1,291,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,291,Exchange
+9,14,Atticus Finch,Bob Ewell,Directed,1,291,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,291,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,291,Exchange
+51,5,Miss Stephanie Crawford,Scout Finch,Directed,1,291,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,292,Exchange
+8,6,Jem Finch,Dill Harris,Directed,1,292,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,292,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,292,Exchange
+14,9,Bob Ewell,Atticus Finch,Directed,1,292,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,292,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,292,Exchange
+9,14,Atticus Finch,Bob Ewell,Directed,1,292,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,292,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,292,Exchange
+6,8,Dill Harris,Jem Finch,Directed,1,292,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,292,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,293,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,293,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,293,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,293,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,293,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,293,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,294,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,294,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,294,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,294,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,295,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,295,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,295,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,295,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,296,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,296,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,296,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,296,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,297,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,297,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,297,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,297,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,298,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,298,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,298,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,298,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,299,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,299,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,299,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,299,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,299,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,299,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,300,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,300,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,300,Exchange
+7,8,Alexandra Finch,Jem Finch,Directed,1,300,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,300,Exchange
+8,7,Jem Finch,Alexandra Finch,Directed,1,300,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,301,Exchange
+7,8,Alexandra Finch,Jem Finch,Directed,1,301,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,301,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,301,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,301,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,301,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,301,Exchange
+8,7,Jem Finch,Alexandra Finch,Directed,1,301,Exchange
+8,7,Jem Finch,Alexandra Finch,Directed,1,302,Exchange
+7,8,Alexandra Finch,Jem Finch,Directed,1,302,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,302,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,302,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,302,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,302,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,303,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,303,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,303,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,303,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,303,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,303,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,304,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,304,Exchange
+7,155,Alexandra Finch,Mrs. Grace Merriweather,Directed,1,305,Exchange
+55,155,Miss Maudie Atkinson,Mrs. Grace Merriweather,Directed,1,305,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,305,Exchange
+155,7,Mrs. Grace Merriweather,Alexandra Finch,Directed,1,305,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,305,Exchange
+156,155,Mrs. Gertrude Farrow,Mrs. Grace Merriweather,Directed,1,305,Exchange
+32,155,Miss Rachel Haverford,Mrs. Grace Merriweather,Directed,1,305,Exchange
+51,155,Miss Stephanie Crawford,Mrs. Grace Merriweather,Directed,1,305,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,305,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,305,Exchange
+155,32,Mrs. Grace Merriweather,Miss Rachel Haverford,Directed,1,305,Exchange
+155,156,Mrs. Grace Merriweather,Mrs. Gertrude Farrow,Directed,1,305,Exchange
+155,55,Mrs. Grace Merriweather,Miss Maudie Atkinson,Directed,1,305,Exchange
+155,51,Mrs. Grace Merriweather,Miss Stephanie Crawford,Directed,1,305,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,305,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,305,Exchange
+7,155,Alexandra Finch,Mrs. Grace Merriweather,Directed,1,306,Exchange
+7,156,Alexandra Finch,Mrs. Gertrude Farrow,Directed,1,306,Exchange
+55,7,Miss Maudie Atkinson,Alexandra Finch,Directed,1,306,Exchange
+7,51,Alexandra Finch,Miss Stephanie Crawford,Directed,1,306,Exchange
+7,32,Alexandra Finch,Miss Rachel Haverford,Directed,1,306,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,306,Exchange
+155,55,Mrs. Grace Merriweather,Miss Maudie Atkinson,Directed,1,306,Exchange
+55,32,Miss Maudie Atkinson,Miss Rachel Haverford,Directed,1,306,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,306,Exchange
+155,156,Mrs. Grace Merriweather,Mrs. Gertrude Farrow,Directed,1,306,Exchange
+55,155,Miss Maudie Atkinson,Mrs. Grace Merriweather,Directed,1,306,Exchange
+155,51,Mrs. Grace Merriweather,Miss Stephanie Crawford,Directed,1,306,Exchange
+55,51,Miss Maudie Atkinson,Miss Stephanie Crawford,Directed,1,306,Exchange
+55,156,Miss Maudie Atkinson,Mrs. Gertrude Farrow,Directed,1,306,Exchange
+155,32,Mrs. Grace Merriweather,Miss Rachel Haverford,Directed,1,306,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,306,Exchange
+51,155,Miss Stephanie Crawford,Mrs. Grace Merriweather,Directed,1,306,Exchange
+7,55,Alexandra Finch,Miss Maudie Atkinson,Directed,1,306,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,306,Exchange
+32,7,Miss Rachel Haverford,Alexandra Finch,Directed,1,306,Exchange
+51,55,Miss Stephanie Crawford,Miss Maudie Atkinson,Directed,1,306,Exchange
+32,55,Miss Rachel Haverford,Miss Maudie Atkinson,Directed,1,306,Exchange
+156,7,Mrs. Gertrude Farrow,Alexandra Finch,Directed,1,306,Exchange
+156,32,Mrs. Gertrude Farrow,Miss Rachel Haverford,Directed,1,306,Exchange
+156,51,Mrs. Gertrude Farrow,Miss Stephanie Crawford,Directed,1,306,Exchange
+156,55,Mrs. Gertrude Farrow,Miss Maudie Atkinson,Directed,1,306,Exchange
+51,32,Miss Stephanie Crawford,Miss Rachel Haverford,Directed,1,306,Exchange
+32,51,Miss Rachel Haverford,Miss Stephanie Crawford,Directed,1,306,Exchange
+156,155,Mrs. Gertrude Farrow,Mrs. Grace Merriweather,Directed,1,306,Exchange
+51,156,Miss Stephanie Crawford,Mrs. Gertrude Farrow,Directed,1,306,Exchange
+155,7,Mrs. Grace Merriweather,Alexandra Finch,Directed,1,306,Exchange
+51,7,Miss Stephanie Crawford,Alexandra Finch,Directed,1,306,Exchange
+32,155,Miss Rachel Haverford,Mrs. Grace Merriweather,Directed,1,306,Exchange
+32,156,Miss Rachel Haverford,Mrs. Gertrude Farrow,Directed,1,306,Exchange
+32,5,Miss Rachel Haverford,Scout Finch,Directed,1,307,Exchange
+156,5,Mrs. Gertrude Farrow,Scout Finch,Directed,1,307,Exchange
+155,5,Mrs. Grace Merriweather,Scout Finch,Directed,1,307,Exchange
+5,155,Scout Finch,Mrs. Grace Merriweather,Directed,1,307,Exchange
+5,32,Scout Finch,Miss Rachel Haverford,Directed,1,307,Exchange
+51,5,Miss Stephanie Crawford,Scout Finch,Directed,1,307,Exchange
+5,156,Scout Finch,Mrs. Gertrude Farrow,Directed,1,307,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,307,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,307,Exchange
+5,51,Scout Finch,Miss Stephanie Crawford,Directed,1,307,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,307,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,307,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,307,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,307,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,308,Exchange
+51,32,Miss Stephanie Crawford,Miss Rachel Haverford,Directed,1,308,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,308,Exchange
+5,51,Scout Finch,Miss Stephanie Crawford,Directed,1,308,Exchange
+51,55,Miss Stephanie Crawford,Miss Maudie Atkinson,Directed,1,308,Exchange
+55,51,Miss Maudie Atkinson,Miss Stephanie Crawford,Directed,1,308,Exchange
+51,156,Miss Stephanie Crawford,Mrs. Gertrude Farrow,Directed,1,308,Exchange
+51,7,Miss Stephanie Crawford,Alexandra Finch,Directed,1,308,Exchange
+51,155,Miss Stephanie Crawford,Mrs. Grace Merriweather,Directed,1,308,Exchange
+155,51,Mrs. Grace Merriweather,Miss Stephanie Crawford,Directed,1,308,Exchange
+5,155,Scout Finch,Mrs. Grace Merriweather,Directed,1,308,Exchange
+5,158,Scout Finch,Mr. Merriweather,Directed,1,308,Exchange
+51,5,Miss Stephanie Crawford,Scout Finch,Directed,1,308,Exchange
+156,51,Mrs. Gertrude Farrow,Miss Stephanie Crawford,Directed,1,308,Exchange
+7,51,Alexandra Finch,Miss Stephanie Crawford,Directed,1,308,Exchange
+158,5,Mr. Merriweather,Scout Finch,Directed,1,308,Exchange
+32,51,Miss Rachel Haverford,Miss Stephanie Crawford,Directed,1,308,Exchange
+155,5,Mrs. Grace Merriweather,Scout Finch,Directed,1,308,Exchange
+156,155,Mrs. Gertrude Farrow,Mrs. Grace Merriweather,Directed,1,309,Exchange
+5,155,Scout Finch,Mrs. Grace Merriweather,Directed,1,309,Exchange
+155,5,Mrs. Grace Merriweather,Scout Finch,Directed,1,309,Exchange
+155,156,Mrs. Grace Merriweather,Mrs. Gertrude Farrow,Directed,1,309,Exchange
+155,159,Mrs. Grace Merriweather,J. Grimes Everett,Directed,1,309,Exchange
+159,155,J. Grimes Everett,Mrs. Grace Merriweather,Directed,1,309,Exchange
+156,155,Mrs. Gertrude Farrow,Mrs. Grace Merriweather,Directed,1,310,Exchange
+155,5,Mrs. Grace Merriweather,Scout Finch,Directed,1,310,Exchange
+5,155,Scout Finch,Mrs. Grace Merriweather,Directed,1,310,Exchange
+160,155,Sophy,Mrs. Grace Merriweather,Directed,1,310,Exchange
+155,156,Mrs. Grace Merriweather,Mrs. Gertrude Farrow,Directed,1,310,Exchange
+155,160,Mrs. Grace Merriweather,Sophy,Directed,1,310,Exchange
+155,156,Mrs. Grace Merriweather,Mrs. Gertrude Farrow,Directed,1,311,Exchange
+156,155,Mrs. Gertrude Farrow,Mrs. Grace Merriweather,Directed,1,311,Exchange
+161,156,Brother Hutson,Mrs. Gertrude Farrow,Directed,1,311,Exchange
+156,161,Mrs. Gertrude Farrow,Brother Hutson,Directed,1,311,Exchange
+7,162,Alexandra Finch,Mrs. Gates,Directed,1,312,Exchange
+155,55,Mrs. Grace Merriweather,Miss Maudie Atkinson,Directed,1,312,Exchange
+55,155,Miss Maudie Atkinson,Mrs. Grace Merriweather,Directed,1,312,Exchange
+55,7,Miss Maudie Atkinson,Alexandra Finch,Directed,1,312,Exchange
+155,156,Mrs. Grace Merriweather,Mrs. Gertrude Farrow,Directed,1,312,Exchange
+7,155,Alexandra Finch,Mrs. Grace Merriweather,Directed,1,312,Exchange
+162,163,Mrs. Gates,Mrs. Perkins,Directed,1,312,Exchange
+7,55,Alexandra Finch,Miss Maudie Atkinson,Directed,1,312,Exchange
+156,155,Mrs. Gertrude Farrow,Mrs. Grace Merriweather,Directed,1,312,Exchange
+155,163,Mrs. Grace Merriweather,Mrs. Perkins,Directed,1,312,Exchange
+163,155,Mrs. Perkins,Mrs. Grace Merriweather,Directed,1,312,Exchange
+163,162,Mrs. Perkins,Mrs. Gates,Directed,1,312,Exchange
+155,7,Mrs. Grace Merriweather,Alexandra Finch,Directed,1,312,Exchange
+162,7,Mrs. Gates,Alexandra Finch,Directed,1,312,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,313,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,313,Exchange
+80,9,Tom Robinson,Atticus Finch,Directed,1,313,Exchange
+155,163,Mrs. Grace Merriweather,Mrs. Perkins,Directed,1,313,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,313,Exchange
+163,155,Mrs. Perkins,Mrs. Grace Merriweather,Directed,1,313,Exchange
+24,165,Calpurnia,Miss Rachel's cook,Directed,1,313,Exchange
+165,24,Miss Rachel's cook,Calpurnia,Directed,1,313,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,313,Exchange
+55,7,Miss Maudie Atkinson,Alexandra Finch,Directed,1,313,Exchange
+7,55,Alexandra Finch,Miss Maudie Atkinson,Directed,1,313,Exchange
+9,80,Atticus Finch,Tom Robinson,Directed,1,313,Exchange
+51,9,Miss Stephanie Crawford,Atticus Finch,Directed,1,314,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,314,Exchange
+155,9,Mrs. Grace Merriweather,Atticus Finch,Directed,1,314,Exchange
+9,55,Atticus Finch,Miss Maudie Atkinson,Directed,1,314,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,314,Exchange
+55,9,Miss Maudie Atkinson,Atticus Finch,Directed,1,314,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,314,Exchange
+9,155,Atticus Finch,Mrs. Grace Merriweather,Directed,1,314,Exchange
+165,24,Miss Rachel's cook,Calpurnia,Directed,1,314,Exchange
+9,156,Atticus Finch,Mrs. Gertrude Farrow,Directed,1,314,Exchange
+9,51,Atticus Finch,Miss Stephanie Crawford,Directed,1,314,Exchange
+162,9,Mrs. Gates,Atticus Finch,Directed,1,314,Exchange
+156,9,Mrs. Gertrude Farrow,Atticus Finch,Directed,1,314,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,314,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,314,Exchange
+24,165,Calpurnia,Miss Rachel's cook,Directed,1,314,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,314,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,314,Exchange
+9,162,Atticus Finch,Mrs. Gates,Directed,1,314,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,314,Exchange
+24,9,Calpurnia,Atticus Finch,Directed,1,315,Exchange
+166,80,Prison guards,Tom Robinson,Directed,1,315,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,315,Exchange
+9,24,Atticus Finch,Calpurnia,Directed,1,315,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,315,Exchange
+80,166,Tom Robinson,Prison guards,Directed,1,315,Exchange
+7,55,Alexandra Finch,Miss Maudie Atkinson,Directed,1,316,Exchange
+55,7,Miss Maudie Atkinson,Alexandra Finch,Directed,1,316,Exchange
+7,163,Alexandra Finch,Mrs. Perkins,Directed,1,317,Exchange
+5,55,Scout Finch,Miss Maudie Atkinson,Directed,1,317,Exchange
+155,163,Mrs. Grace Merriweather,Mrs. Perkins,Directed,1,317,Exchange
+55,155,Miss Maudie Atkinson,Mrs. Grace Merriweather,Directed,1,317,Exchange
+55,7,Miss Maudie Atkinson,Alexandra Finch,Directed,1,317,Exchange
+55,5,Miss Maudie Atkinson,Scout Finch,Directed,1,317,Exchange
+163,155,Mrs. Perkins,Mrs. Grace Merriweather,Directed,1,317,Exchange
+163,7,Mrs. Perkins,Alexandra Finch,Directed,1,317,Exchange
+155,55,Mrs. Grace Merriweather,Miss Maudie Atkinson,Directed,1,317,Exchange
+7,55,Alexandra Finch,Miss Maudie Atkinson,Directed,1,317,Exchange
+155,5,Mrs. Grace Merriweather,Scout Finch,Directed,1,318,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,318,Exchange
+5,155,Scout Finch,Mrs. Grace Merriweather,Directed,1,318,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,318,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,319,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,319,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,320,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,320,Exchange
+169,9,Sam Robinson,Atticus Finch,Directed,1,321,Exchange
+9,8,Atticus Finch,Jem Finch,Directed,1,321,Exchange
+140,9,Tom Robinson's children,Atticus Finch,Directed,1,321,Exchange
+9,140,Atticus Finch,Tom Robinson's children,Directed,1,321,Exchange
+6,9,Dill Harris,Atticus Finch,Directed,1,321,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,321,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,321,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,321,Exchange
+9,169,Atticus Finch,Sam Robinson,Directed,1,321,Exchange
+9,6,Atticus Finch,Dill Harris,Directed,1,321,Exchange
+139,9,Helen Robinson,Atticus Finch,Directed,1,321,Exchange
+9,139,Atticus Finch,Helen Robinson,Directed,1,321,Exchange
+136,6,Mayella Ewell's siblings,Dill Harris,Directed,1,322,Exchange
+6,5,Dill Harris,Scout Finch,Directed,1,322,Exchange
+5,6,Scout Finch,Dill Harris,Directed,1,322,Exchange
+15,14,Mayella Ewell,Bob Ewell,Directed,1,323,Exchange
+51,8,Miss Stephanie Crawford,Jem Finch,Directed,1,323,Exchange
+51,15,Miss Stephanie Crawford,Mayella Ewell,Directed,1,323,Exchange
+8,51,Jem Finch,Miss Stephanie Crawford,Directed,1,323,Exchange
+7,51,Alexandra Finch,Miss Stephanie Crawford,Directed,1,323,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,323,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,323,Exchange
+51,7,Miss Stephanie Crawford,Alexandra Finch,Directed,1,323,Exchange
+15,51,Mayella Ewell,Miss Stephanie Crawford,Directed,1,323,Exchange
+14,15,Bob Ewell,Mayella Ewell,Directed,1,323,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,325,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,325,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,326,Exchange
+5,30,Scout Finch,Mrs. Dubose,Directed,1,326,Exchange
+30,5,Mrs. Dubose,Scout Finch,Directed,1,326,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,326,Exchange
+64,171,Chuck Little,Miss Gates,Directed,1,327,Exchange
+172,171,Cecil Jacobs,Miss Gates,Directed,1,327,Exchange
+171,64,Miss Gates,Chuck Little,Directed,1,327,Exchange
+171,172,Miss Gates,Cecil Jacobs,Directed,1,327,Exchange
+171,174,Miss Gates,Anonymous classmate,Directed,1,328,Exchange
+174,171,Anonymous classmate,Miss Gates,Directed,1,328,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,328,Exchange
+171,5,Miss Gates,Scout Finch,Directed,1,328,Exchange
+171,172,Miss Gates,Cecil Jacobs,Directed,1,328,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,328,Exchange
+5,171,Scout Finch,Miss Gates,Directed,1,328,Exchange
+172,171,Cecil Jacobs,Miss Gates,Directed,1,328,Exchange
+171,175,Miss Gates,Henry,Directed,1,329,Exchange
+171,172,Miss Gates,Cecil Jacobs,Directed,1,329,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,329,Exchange
+172,171,Cecil Jacobs,Miss Gates,Directed,1,329,Exchange
+171,5,Miss Gates,Scout Finch,Directed,1,329,Exchange
+175,171,Henry,Miss Gates,Directed,1,329,Exchange
+5,171,Scout Finch,Miss Gates,Directed,1,329,Exchange
+176,9,Elmer Davis,Atticus Finch,Directed,1,329,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,329,Exchange
+177,8,Football coach,Jem Finch,Directed,1,330,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,330,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,330,Exchange
+171,5,Miss Gates,Scout Finch,Directed,1,330,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,330,Exchange
+5,171,Scout Finch,Miss Gates,Directed,1,330,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,330,Exchange
+8,177,Jem Finch,Football coach,Directed,1,330,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,331,Exchange
+8,9,Jem Finch,Atticus Finch,Directed,1,331,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,331,Exchange
+51,171,Miss Stephanie Crawford,Miss Gates,Directed,1,331,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,331,Exchange
+171,51,Miss Gates,Miss Stephanie Crawford,Directed,1,331,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,331,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,332,Exchange
+9,178,Atticus Finch,Miss Ruth Jones,Directed,1,332,Exchange
+178,5,Miss Ruth Jones,Scout Finch,Directed,1,332,Exchange
+178,14,Miss Ruth Jones,Bob Ewell,Directed,1,332,Exchange
+14,178,Bob Ewell,Miss Ruth Jones,Directed,1,332,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,332,Exchange
+178,9,Miss Ruth Jones,Atticus Finch,Directed,1,332,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,333,Exchange
+139,81,Helen Robinson,Link Deas,Directed,1,333,Exchange
+81,139,Link Deas,Helen Robinson,Directed,1,333,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,333,Exchange
+14,81,Bob Ewell,Link Deas,Directed,1,334,Exchange
+139,81,Helen Robinson,Link Deas,Directed,1,334,Exchange
+81,139,Link Deas,Helen Robinson,Directed,1,334,Exchange
+136,81,Mayella Ewell's siblings,Link Deas,Directed,1,334,Exchange
+81,136,Link Deas,Mayella Ewell's siblings,Directed,1,334,Exchange
+81,14,Link Deas,Bob Ewell,Directed,1,334,Exchange
+5,172,Scout Finch,Cecil Jacobs,Directed,1,335,Exchange
+172,5,Cecil Jacobs,Scout Finch,Directed,1,335,Exchange
+81,139,Link Deas,Helen Robinson,Directed,1,335,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,335,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,335,Exchange
+139,81,Helen Robinson,Link Deas,Directed,1,335,Exchange
+14,81,Bob Ewell,Link Deas,Directed,1,335,Exchange
+81,14,Link Deas,Bob Ewell,Directed,1,335,Exchange
+163,55,Mrs. Perkins,Miss Maudie Atkinson,Directed,1,336,Exchange
+5,172,Scout Finch,Cecil Jacobs,Directed,1,336,Exchange
+155,55,Mrs. Grace Merriweather,Miss Maudie Atkinson,Directed,1,336,Exchange
+156,55,Mrs. Gertrude Farrow,Miss Maudie Atkinson,Directed,1,336,Exchange
+162,55,Mrs. Gates,Miss Maudie Atkinson,Directed,1,336,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,336,Exchange
+55,32,Miss Maudie Atkinson,Miss Rachel Haverford,Directed,1,336,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,336,Exchange
+55,51,Miss Maudie Atkinson,Miss Stephanie Crawford,Directed,1,336,Exchange
+32,55,Miss Rachel Haverford,Miss Maudie Atkinson,Directed,1,336,Exchange
+51,55,Miss Stephanie Crawford,Miss Maudie Atkinson,Directed,1,336,Exchange
+172,5,Cecil Jacobs,Scout Finch,Directed,1,336,Exchange
+55,162,Miss Maudie Atkinson,Mrs. Gates,Directed,1,336,Exchange
+55,163,Miss Maudie Atkinson,Mrs. Perkins,Directed,1,336,Exchange
+55,155,Miss Maudie Atkinson,Mrs. Grace Merriweather,Directed,1,336,Exchange
+55,156,Miss Maudie Atkinson,Mrs. Gertrude Farrow,Directed,1,336,Exchange
+184,11,Miss Frutti Barber,Heck Tate,Directed,1,337,Exchange
+11,184,Heck Tate,Miss Frutti Barber,Directed,1,337,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,337,Exchange
+11,183,Heck Tate,Miss Tutti Barber,Directed,1,337,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,337,Exchange
+186,183,Misses Barbersi neighbours,Miss Tutti Barber,Directed,1,337,Exchange
+183,186,Miss Tutti Barber,Misses Barbersi neighbours,Directed,1,337,Exchange
+183,11,Miss Tutti Barber,Heck Tate,Directed,1,337,Exchange
+155,5,Mrs. Grace Merriweather,Scout Finch,Directed,1,338,Exchange
+5,155,Scout Finch,Mrs. Grace Merriweather,Directed,1,338,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,338,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,338,Exchange
+155,5,Mrs. Grace Merriweather,Scout Finch,Directed,1,339,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,339,Exchange
+5,155,Scout Finch,Mrs. Grace Merriweather,Directed,1,339,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,339,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,339,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,339,Exchange
+24,5,Calpurnia,Scout Finch,Directed,1,340,Exchange
+5,24,Scout Finch,Calpurnia,Directed,1,340,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,341,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,341,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,342,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,342,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,343,Exchange
+5,172,Scout Finch,Cecil Jacobs,Directed,1,343,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,343,Exchange
+172,8,Cecil Jacobs,Jem Finch,Directed,1,343,Exchange
+172,5,Cecil Jacobs,Scout Finch,Directed,1,343,Exchange
+8,172,Jem Finch,Cecil Jacobs,Directed,1,343,Exchange
+191,172,"""[T]emporary ghoul""",Cecil Jacobs,Directed,1,344,Exchange
+192,172,Mrs. Merriweather's runners,Cecil Jacobs,Directed,1,344,Exchange
+172,5,Cecil Jacobs,Scout Finch,Directed,1,344,Exchange
+172,191,Cecil Jacobs,"""[T]emporary ghoul""",Directed,1,344,Exchange
+192,5,Mrs. Merriweather's runners,Scout Finch,Directed,1,344,Exchange
+172,192,Cecil Jacobs,Mrs. Merriweather's runners,Directed,1,344,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,344,Exchange
+191,5,"""[T]emporary ghoul""",Scout Finch,Directed,1,344,Exchange
+5,192,Scout Finch,Mrs. Merriweather's runners,Directed,1,344,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,344,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,344,Exchange
+190,172,Cecil Jacobs' parents,Cecil Jacobs,Directed,1,344,Exchange
+172,190,Cecil Jacobs,Cecil Jacobs' parents,Directed,1,344,Exchange
+5,191,Scout Finch,"""[T]emporary ghoul""",Directed,1,344,Exchange
+5,172,Scout Finch,Cecil Jacobs,Directed,1,344,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,344,Exchange
+155,193,Mrs. Grace Merriweather,Crowd (at the pageant),Directed,1,345,Exchange
+194,5,Man (shushes Cecil),Scout Finch,Directed,1,345,Exchange
+172,5,Cecil Jacobs,Scout Finch,Directed,1,345,Exchange
+5,194,Scout Finch,Man (shushes Cecil),Directed,1,345,Exchange
+193,155,Crowd (at the pageant),Mrs. Grace Merriweather,Directed,1,345,Exchange
+5,172,Scout Finch,Cecil Jacobs,Directed,1,345,Exchange
+194,172,Man (shushes Cecil),Cecil Jacobs,Directed,1,345,Exchange
+172,194,Cecil Jacobs,Man (shushes Cecil),Directed,1,345,Exchange
+193,155,Crowd (at the pageant),Mrs. Grace Merriweather,Directed,1,346,Exchange
+155,5,Mrs. Grace Merriweather,Scout Finch,Directed,1,346,Exchange
+155,193,Mrs. Grace Merriweather,Crowd (at the pageant),Directed,1,346,Exchange
+5,155,Scout Finch,Mrs. Grace Merriweather,Directed,1,346,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,347,Exchange
+155,193,Mrs. Grace Merriweather,Crowd (at the pageant),Directed,1,347,Exchange
+8,199,Jem Finch,"""[S]omeone"" (347)",Directed,1,347,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,347,Exchange
+155,5,Mrs. Grace Merriweather,Scout Finch,Directed,1,347,Exchange
+199,8,"""[S]omeone"" (347)",Jem Finch,Directed,1,347,Exchange
+5,155,Scout Finch,Mrs. Grace Merriweather,Directed,1,347,Exchange
+193,155,Crowd (at the pageant),Mrs. Grace Merriweather,Directed,1,347,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,348,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,348,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,349,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,349,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,350,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,350,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,351,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,351,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,352,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,352,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,353,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,353,Exchange
+9,201,Atticus Finch,Eula May,Directed,1,353,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,353,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,353,Exchange
+7,201,Alexandra Finch,Eula May,Directed,1,353,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,353,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,353,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,353,Exchange
+201,7,Eula May,Alexandra Finch,Directed,1,353,Exchange
+201,9,Eula May,Atticus Finch,Directed,1,353,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,353,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,354,Exchange
+5,60,Scout Finch,Dr. Reynolds,Directed,1,354,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,354,Exchange
+60,5,Dr. Reynolds,Scout Finch,Directed,1,354,Exchange
+60,5,Dr. Reynolds,Scout Finch,Directed,1,355,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,355,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,355,Exchange
+5,11,Scout Finch,Heck Tate,Directed,1,355,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,355,Exchange
+5,60,Scout Finch,Dr. Reynolds,Directed,1,355,Exchange
+11,5,Heck Tate,Scout Finch,Directed,1,355,Exchange
+5,11,Scout Finch,Heck Tate,Directed,1,356,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,356,Exchange
+11,5,Heck Tate,Scout Finch,Directed,1,356,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,356,Exchange
+11,5,Heck Tate,Scout Finch,Directed,1,357,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,357,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,357,Exchange
+5,11,Scout Finch,Heck Tate,Directed,1,357,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,358,Exchange
+11,7,Heck Tate,Alexandra Finch,Directed,1,358,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,358,Exchange
+7,11,Alexandra Finch,Heck Tate,Directed,1,358,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,358,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,358,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,359,Exchange
+11,5,Heck Tate,Scout Finch,Directed,1,359,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,359,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,359,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,359,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,359,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,359,Exchange
+7,11,Alexandra Finch,Heck Tate,Directed,1,359,Exchange
+11,7,Heck Tate,Alexandra Finch,Directed,1,359,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,359,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,359,Exchange
+5,11,Scout Finch,Heck Tate,Directed,1,359,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,360,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,360,Exchange
+5,11,Scout Finch,Heck Tate,Directed,1,360,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,360,Exchange
+7,9,Alexandra Finch,Atticus Finch,Directed,1,360,Exchange
+9,7,Atticus Finch,Alexandra Finch,Directed,1,360,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,360,Exchange
+11,5,Heck Tate,Scout Finch,Directed,1,360,Exchange
+11,5,Heck Tate,Scout Finch,Directed,1,361,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,361,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,361,Exchange
+8,5,Jem Finch,Scout Finch,Directed,1,361,Exchange
+9,14,Atticus Finch,Bob Ewell,Directed,1,361,Exchange
+14,9,Bob Ewell,Atticus Finch,Directed,1,361,Exchange
+5,11,Scout Finch,Heck Tate,Directed,1,361,Exchange
+5,8,Scout Finch,Jem Finch,Directed,1,361,Exchange
+5,11,Scout Finch,Heck Tate,Directed,1,362,Exchange
+11,5,Heck Tate,Scout Finch,Directed,1,362,Exchange
+5,10,Scout Finch,Boo Radley,Directed,1,362,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,362,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,363,Exchange
+5,60,Scout Finch,Dr. Reynolds,Directed,1,363,Exchange
+9,60,Atticus Finch,Dr. Reynolds,Directed,1,363,Exchange
+11,60,Heck Tate,Dr. Reynolds,Directed,1,363,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,363,Exchange
+60,11,Dr. Reynolds,Heck Tate,Directed,1,363,Exchange
+60,9,Dr. Reynolds,Atticus Finch,Directed,1,363,Exchange
+60,10,Dr. Reynolds,Boo Radley,Directed,1,363,Exchange
+60,5,Dr. Reynolds,Scout Finch,Directed,1,363,Exchange
+10,60,Boo Radley,Dr. Reynolds,Directed,1,363,Exchange
+5,10,Scout Finch,Boo Radley,Directed,1,364,Exchange
+5,60,Scout Finch,Dr. Reynolds,Directed,1,364,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,364,Exchange
+60,9,Dr. Reynolds,Atticus Finch,Directed,1,364,Exchange
+60,5,Dr. Reynolds,Scout Finch,Directed,1,364,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,364,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,364,Exchange
+9,60,Atticus Finch,Dr. Reynolds,Directed,1,364,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,365,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,365,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,365,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,365,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,366,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,366,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,366,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,366,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,367,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,367,Exchange
+11,60,Heck Tate,Dr. Reynolds,Directed,1,367,Exchange
+60,11,Dr. Reynolds,Heck Tate,Directed,1,367,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,368,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,368,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,369,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,369,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,370,Exchange
+9,11,Atticus Finch,Heck Tate,Directed,1,370,Exchange
+9,10,Atticus Finch,Boo Radley,Directed,1,370,Exchange
+10,9,Boo Radley,Atticus Finch,Directed,1,370,Exchange
+11,9,Heck Tate,Atticus Finch,Directed,1,370,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,370,Exchange
+7,10,Alexandra Finch,Boo Radley,Directed,1,371,Exchange
+5,10,Scout Finch,Boo Radley,Directed,1,371,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,371,Exchange
+7,5,Alexandra Finch,Scout Finch,Directed,1,371,Exchange
+10,7,Boo Radley,Alexandra Finch,Directed,1,371,Exchange
+5,7,Scout Finch,Alexandra Finch,Directed,1,371,Exchange
+5,10,Scout Finch,Boo Radley,Directed,1,372,Exchange
+10,5,Boo Radley,Scout Finch,Directed,1,372,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,375,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,375,Exchange
+9,5,Atticus Finch,Scout Finch,Directed,1,376,Exchange
+5,9,Scout Finch,Atticus Finch,Directed,1,376,Exchange
