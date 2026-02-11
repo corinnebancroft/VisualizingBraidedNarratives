@@ -18,6 +18,9 @@
     
     <!-- Location of Saxon jar. -->
     <property name="saxon" value="${basedir}/lib/saxon-he-12.jar"/>
+
+    <!-- Location of python interpreter -->
+    <property name="python.cmd" value="/Users/COBAN3/VisualizingBraidedNarratives/.venv/bin/python3"/>
     
     <!-- Default values for input properties. -->
     <property name="defGraphTitle" value="Plague of Doves"/>
@@ -63,7 +66,7 @@
           This generates an SVG graph using two input CSVs, one of which 
           is the colour map and the other is the narrative data.
       </description>
-      <exec executable="python" dir="${basedir}">
+      <exec executable="${python.cmd}">
           <arg value="generate_svg.py"/>
           <arg value="--in_df=${inputData}"/>
           <arg value="--in_color_df=${inputColors}"/>
@@ -82,6 +85,7 @@
             classpath="${saxon}" 
             failonerror="true">
             <jvmarg value="-Xmx2048m"/>
+            <jvmarg value="-Djdk.xml.maxParameterEntitySizeLimit=0"/>
             <arg value="-s:${outputSvg}"/>
             <arg value="-xsl:mpl_svg_to_html.xsl"/>
             <arg value="-o:${outputHtml}"/>
