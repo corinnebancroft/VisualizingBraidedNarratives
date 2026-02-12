@@ -98,8 +98,43 @@
                         <xsl:for-each select="$jsonData//js:map[@key='Event Name']/js:string">
                             <xsl:variable name="key" as="xs:string" select="@key"/>
                             <li id="event_{$key}">
-                                <h5><xsl:sequence select="text()"/></h5>
-                                <p><xsl:sequence select="$jsonData//js:map[@key='Evidence']/js:string[@key=$key]/text()"/></p>
+                                <h5> <strong>Event: </strong> <xsl:sequence select="text()"/> </h5>
+                                <!-- Date: Start Date (or Start Date - End Date), formatted -->
+                                <xsl:variable name="startRaw"
+                                select="$jsonData//js:map[@key='Start Date']/(js:string|js:number)[@key=$key]/text()"/>
+                                <xsl:variable name="endRaw"
+                                select="$jsonData//js:map[@key='End Date']  /(js:string|js:number)[@key=$key]/text()"/>
+
+                                <xsl:variable name="startFmt" select="format-date(xs:date($startRaw), '[MNn] [D], [Y]')"/>
+                                <xsl:variable name="endFmt"   select="format-date(xs:date($endRaw),   '[MNn] [D], [Y]')"/>
+
+                                <p class="attributes">
+                                <strong>Date: </strong>
+                                    <!-- Is Approximate? flag from CSV (T/F, True/False, etc.) -->
+                                <xsl:variable name="approxRaw"
+                                select="$jsonData//js:map[@key='Is Approximate?']/(js:string|js:number|js:boolean)[@key=$key]/text()"/>
+                                <xsl:variable name="isApprox" as="xs:boolean"
+                                select="lower-case(normalize-space($approxRaw)) = ('t','true','1','yes','y')"/>
+                                    <xsl:if test="$isApprox"><xsl:text>Approximately, </xsl:text></xsl:if>
+                                <xsl:choose>
+                                <xsl:when test="normalize-space($startRaw) = normalize-space($endRaw)">
+                                <xsl:value-of select="$startFmt"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                <xsl:value-of select="$startFmt"/>
+                                <xsl:text> - </xsl:text>
+                                <xsl:value-of select="$endFmt"/>
+                                </xsl:otherwise>
+                                </xsl:choose>
+                                </p>
+                                <p class="attributes">
+                                <strong>Narrator: </strong>
+                                <xsl:sequence select="$jsonData//js:map[@key='Narrator']/js:string[@key=$key]/text()"/>
+                                </p>
+                                <p class="attributes">
+                                <strong>Evidence: </strong>
+                                <xsl:sequence select="$jsonData//js:map[@key='Evidence']/js:string[@key=$key]/text()"/>
+                                </p>
                             </li>
                         </xsl:for-each>
                     </ul>

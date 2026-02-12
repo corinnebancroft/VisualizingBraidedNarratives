@@ -52,3 +52,7 @@ dialog#dlgEvents{
     box-shadow: 0.1em 0.1em gray;
     border: solid 1pt black;
 }
+
+dialog#dlgEvents p.attributes {
+    font-size: 0.83em; /* match h5 default size */
+}
