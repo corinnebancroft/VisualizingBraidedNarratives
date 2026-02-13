@@ -131,6 +131,43 @@
                                 <strong>Narrator: </strong>
                                 <xsl:sequence select="$jsonData//js:map[@key='Narrator']/js:string[@key=$key]/text()"/>
                                 </p>
+                                <!-- Telling Time: Start Date TT (or Start Date TT - End Date TT), formatted -->
+                                <xsl:variable name="startTTRaw"
+                                              select="$jsonData//js:map[@key='Start Date TT']/(js:string|js:number)[@key=$key]/text()"/>
+                                <xsl:variable name="endTTRaw"
+                                              select="$jsonData//js:map[@key='End Date TT']/(js:string|js:number)[@key=$key]/text()"/>
+
+                                <!-- Only continue if there is a value -->
+                                <xsl:if test="normalize-space($startTTRaw) != ''">
+
+                                <xsl:variable name="startTTFmt"
+                                    select="format-date(xs:date($startTTRaw), '[MNn] [D], [Y]')"/>
+                                <xsl:variable name="endTTFmt"
+                                select="format-date(xs:date($endTTRaw),   '[MNn] [D], [Y]')"/>
+
+                                <p class="attributes">
+                                <strong>Telling Time: </strong>
+
+                                <!-- Is Approximate TT? -->
+                                <xsl:variable name="approxTTRaw"
+                                select="$jsonData//js:map[@key='Is Approximate TT?']/(js:string|js:number|js:boolean)[@key=$key]/text()"/>
+                                <xsl:variable name="isTTApprox" as="xs:boolean"
+                                select="lower-case(normalize-space($approxTTRaw)) = ('t','true','1','yes','y')"/>
+                                <xsl:if test="$isTTApprox"><xsl:text>Approximately, </xsl:text></xsl:if>
+
+                                <xsl:choose>
+                                <xsl:when test="normalize-space($startTTRaw) = normalize-space($endTTRaw)">
+                                <xsl:value-of select="$startTTFmt"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                <xsl:value-of select="$startTTFmt"/>
+                                <xsl:text> - </xsl:text>
+                                <xsl:value-of select="$endTTFmt"/>
+                                </xsl:otherwise>
+                                </xsl:choose>
+                                </p>
+                                </xsl:if>
+
                                 <p class="attributes">
                                 <strong>Evidence: </strong>
                                 <xsl:sequence select="$jsonData//js:map[@key='Evidence']/js:string[@key=$key]/text()"/>
