@@ -72,7 +72,7 @@
                 <link rel="stylesheet" href="time_graph.css"/>
                 <script src="time_graph.js"></script>
             </head>
-            <body id="{$graphId}" title="{$graphTitle}">
+            <body id="{$graphId}">
                 <main>
                     <!--<xsl:comment>SVG loaded as an image, minus legends.</xsl:comment>
                     <img src="{tokenize(base-uri(/), '/')[last()]}" alt="{xs:string(//g[@id='graphTitle'])}"/>-->
@@ -130,6 +130,11 @@
                                 <p class="attributes">
                                 <strong>Narrator: </strong>
                                 <xsl:sequence select="$jsonData//js:map[@key='Narrator']/js:string[@key=$key]/text()"/>
+                                </p>
+                                <!-- Participating Characters -->
+                                <p class="attributes">
+                                <strong>Participating Characters: </strong>
+                                <xsl:sequence select="$jsonData//js:map[@key='Participating Characters']/js:string[@key=$key]/text()"/>
                                 </p>
                                 <!-- Telling Time: Start Date TT (or Start Date TT - End Date TT), formatted -->
                                 <xsl:variable name="startTTRaw"

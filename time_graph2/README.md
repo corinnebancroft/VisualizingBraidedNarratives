@@ -12,7 +12,7 @@ The process goes as follows (in the time_graph2 folder):
 
 1. Invoke Ant, passing two parameters: the CSV containing the narrative info, and a second CSV containing the colour mapping, which associates each narrator and character name with a colour to be used in the graph:
 
-ant -DinputData=TSATFTimeGraphAug26Clean.csv -DinputColors=TSATFColorCodeAug26.csv
+ant -DinputData=TSATFTimeGraphAug26CleanClean.csv -DinputColors=TSATFColorCodeAug26.csv
 
 2. Ant will first run the python script make_svg.py, which will generate an SVG file of the graph.
 

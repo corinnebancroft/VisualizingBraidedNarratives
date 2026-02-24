@@ -93,6 +93,50 @@ for i in range(limit):
 # Apply corrected headers back to the DataFrame
 df.columns = fixed_headers
 
+# --- Build "Participating Characters" column right after "Evidence" (as a formatted string) ---
+
+if "Evidence" not in df.columns:
+    raise KeyError("Expected column 'Evidence' not found.")
+evidence_idx = df.columns.get_loc("Evidence")
+
+# All columns to the right of Evidence are character columns
+character_cols = list(df.columns[evidence_idx + 1:])
+
+def _is_true(val) -> bool:
+    return str(val).strip().upper() in {"T", "TRUE", "Y", "YES", "1"}
+
+def _list_participating(row):
+    return [col for col in character_cols if _is_true(row.get(col, ""))]
+
+def _format_name_list(names):
+    """
+    Convert a list of names into a natural-language string:
+    - [] -> ""
+    - ["A"] -> "A"
+    - ["A", "B"] -> "A and B"
+    - ["A", "B", "C"] -> "A, B, and C"
+    Names are sorted alphabetically, case-insensitively, preserving original casing.
+    """
+    if not names:
+        return ""
+    # Strip whitespace just in case
+    names = [n.strip() for n in names if str(n).strip() != ""]
+    if not names:
+        return ""
+    # Sort case-insensitively, but keep original forms
+    names = sorted(names, key=lambda s: s.casefold())
+    if len(names) == 1:
+        return names[0]
+    if len(names) == 2:
+        return f"{names[0]} and {names[1]}"
+    # Oxford/serial comma for 3+
+    return f"{', '.join(names[:-1])}, and {names[-1]}"
+
+# Compute and insert the column immediately after "Evidence"
+participating_series = df.apply(_list_participating, axis=1).apply(_format_name_list)
+df.insert(evidence_idx + 1, "Participating Characters", participating_series)
+
+
 # --- Fix dates to YYYY-MM-DD ---
 
 import re
