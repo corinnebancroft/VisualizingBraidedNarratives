@@ -6,6 +6,7 @@ let graphComponents = [];
 let switching = false;
 let tellingTimeCheck = null;
 let dlgEvents = null;
+let dlgTellTime = null;
 
 function showHideGraphElements(sender){
     console.log('Click from ' + sender.getAttribute('data-id'));
@@ -104,6 +105,31 @@ function showEvent(sender){
     }
 }
 
+function showEvent(sender){
+    let numEvent = sender.id.split('_')[1];
+    let eventInfo = document.getElementById('event_' + numEvent);
+    if (eventInfo !== null){
+        dlgEvents.innerHTML = eventInfo.innerHTML;
+        dlgEvents.show();
+    }
+}
+
+// ADD THIS RIGHT BELOW showEvent:
+function showTellTime(sender){
+    // Temporary stub: do nothing until the new dialog and content exist in XSL.
+    if (!dlgTellTime) {
+        console.log('tellline clicked:', sender.id, '(dlgTellTime not present yet)');
+        return;
+    }
+
+    // Later, when your XSL provides <li id="tell_<key>">…</li>, you’ll load & show it here.
+    // Example to fill in later:
+    // const parts = sender.id.split('_');
+    // const numEvent = parts[parts.length - 1];
+    // const ttInfo = document.getElementById('tell_' + numEvent);
+    // if (ttInfo){ dlgTellTime.innerHTML = ttInfo.innerHTML; dlgTellTime.show(); }
+}
+
 function setupControls(){
     console.log('Setting up...');
     let checks = document.querySelectorAll('input[data-id]');
@@ -114,12 +140,22 @@ function setupControls(){
     graphComponents = document.querySelectorAll('g[id]');
     console.log(`Found ${graphComponents.length} individual g elements.`);
     for (let i = 0; i < graphComponents.length; i++){
-        if (graphComponents[i].id.match(/^(narr|narrmark|charline|char|tellline)_/)){
+        if (graphComponents[i].id.match(/^(narrmark|charline|char)_/)){
             graphComponents[i].addEventListener('click', function(){showEvent(this);}.bind(graphComponents[i]));
         }
     }
 
+    // Attach a separate pop-up for telling-time lines.
+    for (let i = 0; i < graphComponents.length; i++){
+        if (/^tellline_/.test(graphComponents[i].id)){
+        graphComponents[i].addEventListener('click', function(){
+            showTellTime(this);
+        }.bind(graphComponents[i]));
+        }
+    }
+
     dlgEvents = document.querySelector('dialog#dlgEvents');
+    dlgTellTime = document.querySelector('dialog#dlgTellTime');
 
     let groupChecks = document.querySelectorAll('input.group');
 

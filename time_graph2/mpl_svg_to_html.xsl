@@ -182,7 +182,7 @@
                     </ul>
                 </section>
                 <dialog id="dlgEvents" closedby="any">
-                    
+                <dialog id="dlgTellTime" closedby="any"></dialog>
                 </dialog>
             </body>
         </html>
