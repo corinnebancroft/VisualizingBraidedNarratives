@@ -114,20 +114,27 @@ function showEvent(sender){
     }
 }
 
-// ADD THIS RIGHT BELOW showEvent:
 function showTellTime(sender){
-    // Temporary stub: do nothing until the new dialog and content exist in XSL.
-    if (!dlgTellTime) {
-        console.log('tellline clicked:', sender.id, '(dlgTellTime not present yet)');
+    // Matches "tellline_1_<NarratorId>_<rowIndex>" or "tellline_2_<NarratorId>_<rowIndex>"
+    const m = sender.id.match(/^tellline_\d+_(.+)_(\d+)$/);
+    if (!m) {
+        console.warn('Unexpected tellline id format:', sender.id);
         return;
     }
+    const narrId = m[1];
+    const rowKey = m[2];
 
-    // Later, when your XSL provides <li id="tell_<key>">…</li>, you’ll load & show it here.
-    // Example to fill in later:
-    // const parts = sender.id.split('_');
-    // const numEvent = parts[parts.length - 1];
-    // const ttInfo = document.getElementById('tell_' + numEvent);
-    // if (ttInfo){ dlgTellTime.innerHTML = ttInfo.innerHTML; dlgTellTime.show(); }
+    const ttInfo = document.getElementById('telltime_' + narrId + '_' + rowKey);
+    if (!dlgTellTime) {
+        console.warn('dlgTellTime not found in DOM.');
+        return;
+    }
+    if (ttInfo) {
+        dlgTellTime.innerHTML = ttInfo.innerHTML;
+        dlgTellTime.show();
+    } else {
+        console.warn('No TT content for narrator/key:', narrId, rowKey);
+    }
 }
 
 function setupControls(){

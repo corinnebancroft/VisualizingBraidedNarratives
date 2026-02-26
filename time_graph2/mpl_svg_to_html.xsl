@@ -181,9 +181,73 @@
                         </xsl:for-each>
                     </ul>
                 </section>
-                <dialog id="dlgEvents" closedby="any">
+                <!-- Hidden appendix for Telling Time pop‑ups (one block per ROW / line) -->
+<section class="appendix tellingtime" hidden="hidden" aria-hidden="true">
+
+  <!-- Iterate over every row via the JSON 'Narrator' column -->
+  <xsl:for-each select="$jsonData//js:map[@key='Narrator']/js:string">
+    <xsl:variable name="key"   as="xs:string" select="@key"/>              <!-- row index -->
+    <xsl:variable name="narr"  as="xs:string" select="normalize-space(.)"/>         <!-- Narrator (human-readable) -->
+    <xsl:variable name="narrId" as="xs:string" select="hcmc:nameToIdBit($narr)"/>   <!-- Narrator id fragment -->
+
+    <!-- Pull required TT fields for this row -->
+    <xsl:variable name="startTTRaw"
+      select="$jsonData//js:map[@key='Start Date TT']/(js:string|js:number)[@key=$key]/text()"/>
+    <xsl:variable name="endTTRaw"
+      select="$jsonData//js:map[@key='End Date TT']  /(js:string|js:number)[@key=$key]/text()"/>
+
+    <!-- TT pages (match Python guard: require all four TT fields to exist) -->
+    <xsl:variable name="startPgTTRaw"
+      select="$jsonData//js:map[@key='Start Page TT']/(js:string|js:number)[@key=$key]/text()"/>
+    <xsl:variable name="endPgTTRaw"
+      select="$jsonData//js:map[@key='End Page TT']  /(js:string|js:number)[@key=$key]/text()"/>
+
+    <!-- Only make a block for rows that could produce a telling-time line in Python -->
+    <xsl:if test="
+      normalize-space($startTTRaw)  != '' and
+      normalize-space($endTTRaw)    != '' and
+      normalize-space($startPgTTRaw)!= '' and
+      normalize-space($endPgTTRaw)  != ''">
+
+      <!-- Cast/format dates (same format as your event pop-ups) -->
+      <xsl:variable name="startTTFmt" select="format-date(xs:date($startTTRaw), '[MNn] [D], [Y]')"/>
+      <xsl:variable name="endTTFmt"   select="format-date(xs:date($endTTRaw),   '[MNn] [D], [Y]')"/>
+
+      <!-- Approx TT? -->
+      <xsl:variable name="approxTTRaw"
+        select="$jsonData//js:map[@key='Is Approximate TT?']/(js:string|js:number|js:boolean)[@key=$key]/text()"/>
+      <xsl:variable name="isTTApprox" as="xs:boolean"
+        select="lower-case(normalize-space($approxTTRaw)) = ('t','true','1','yes','y')"/>
+
+      <!-- One block per row; id must include both narratorId and row index -->
+      <div class="telltime-block" id="{ 'telltime_' || $narrId || '_' || $key }">
+  <h5>
+  <xsl:value-of select="$narr"/><xsl:text>’s Telling Time</xsl:text>
+  <xsl:text>: </xsl:text>
+  <span class="tt-dates" style="font-weight: normal;">
+    <xsl:if test="$isTTApprox">
+      <xsl:text>Approximately, </xsl:text>
+    </xsl:if>
+    <xsl:choose>
+      <xsl:when test="normalize-space($startTTRaw) = normalize-space($endTTRaw)">
+        <xsl:value-of select="$startTTFmt"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$startTTFmt"/>
+        <xsl:text> - </xsl:text>
+        <xsl:value-of select="$endTTFmt"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </span>
+</h5>
+
+</div>
+
+    </xsl:if>
+  </xsl:for-each>
+</section>
+                <dialog id="dlgEvents" closedby="any"></dialog>
                 <dialog id="dlgTellTime" closedby="any"></dialog>
-                </dialog>
             </body>
         </html>
     </xsl:template>
