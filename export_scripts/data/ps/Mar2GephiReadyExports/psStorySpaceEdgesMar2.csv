@@ -1,0 +1,476 @@
+source,target,Character 1,Character 2,type,weight,startPage,category
+60,1,collage photos,Speaker Jordan Abel,Directed,1,3.0,Knows
+60,58,collage photos,"""Pole of Sagaween""",Directed,1,3.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,3.0,Knows
+58,1,"""Pole of Sagaween""",Speaker Jordan Abel,Directed,1,3.4,Knows
+53,58,blank (missing null option here),"""Pole of Sagaween""",Directed,1,3.4,Knows of
+53,1,blank (missing null option here),Speaker Jordan Abel,Directed,1,3.4,Knows of
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",Directed,1,3.4,Knows
+55,54,"""ancestors of Wolves""","""ancestors of Eagles""",Directed,1,5.0,Knows
+55,3,"""ancestors of Wolves""","""Eagle-Raven clan""",Directed,1,5.0,Knows of
+54,20,"""ancestors of Eagles""","Laxgibuu (""Wolf clan"")",Directed,1,5.0,Knows of
+54,55,"""ancestors of Eagles""","""ancestors of Wolves""",Directed,1,5.0,Knows
+54,3,"""ancestors of Eagles""","""Eagle-Raven clan""",Directed,1,5.0,Knows
+4,14,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Real Marius Barbeau,Directed,1,5.0,Knows
+4,7,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","Oyee (""Oyai"")",Directed,1,5.0,Knows
+4,5,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","""Sispagut"" (Gisk'aast)",Directed,1,5.0,Knows
+5,2,"""Sispagut"" (Gisk'aast)","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,5.0,Knows
+5,7,"""Sispagut"" (Gisk'aast)","Oyee (""Oyai"")",Directed,1,5.0,Knows
+5,4,"""Sispagut"" (Gisk'aast)","Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Directed,1,5.0,Knows
+5,6,"""Sispagut"" (Gisk'aast)","""Hladerh"" (Laxgibuu)",Directed,1,5.0,Knows
+5,3,"""Sispagut"" (Gisk'aast)","""Eagle-Raven clan""",Directed,1,5.0,Knows
+4,6,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","""Hladerh"" (Laxgibuu)",Directed,1,5.0,Knows
+2,5,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Sispagut"" (Gisk'aast)",Directed,1,5.0,Knows
+4,3,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","""Eagle-Raven clan""",Directed,1,5.0,Knows
+2,3,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Eagle-Raven clan""",Directed,1,5.0,Knows
+55,20,"""ancestors of Wolves""","Laxgibuu (""Wolf clan"")",Directed,1,5.0,Knows
+2,6,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Hladerh"" (Laxgibuu)",Directed,1,5.0,Exchange
+4,2,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,5.0,Knows
+7,4,"Oyee (""Oyai"")","Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Directed,1,5.0,Knows
+14,3,Real Marius Barbeau,"""Eagle-Raven clan""",Directed,1,5.0,Knows
+7,5,"Oyee (""Oyai"")","""Sispagut"" (Gisk'aast)",Directed,1,5.0,Knows
+14,6,Real Marius Barbeau,"""Hladerh"" (Laxgibuu)",Directed,1,5.0,Knows of
+7,6,"Oyee (""Oyai"")","""Hladerh"" (Laxgibuu)",Directed,1,5.0,Knows of
+14,5,Real Marius Barbeau,"""Sispagut"" (Gisk'aast)",Directed,1,5.0,Knows of
+14,54,Real Marius Barbeau,"""ancestors of Eagles""",Directed,1,5.0,Knows of
+14,55,Real Marius Barbeau,"""ancestors of Wolves""",Directed,1,5.0,Knows of
+57,14,Macmillan Company of Canada,Real Marius Barbeau,Directed,1,5.0,Knows
+56,14,Caxton Printers,Real Marius Barbeau,Directed,1,5.0,Knows
+20,2,"Laxgibuu (""Wolf clan"")","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,5.0,Knows
+14,56,Real Marius Barbeau,Caxton Printers,Directed,1,5.0,Knows
+20,55,"Laxgibuu (""Wolf clan"")","""ancestors of Wolves""",Directed,1,5.0,Knows
+14,4,Real Marius Barbeau,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Directed,1,5.0,Knows
+14,20,Real Marius Barbeau,"Laxgibuu (""Wolf clan"")",Directed,1,5.0,Knows of
+20,54,"Laxgibuu (""Wolf clan"")","""ancestors of Eagles""",Directed,1,5.0,Knows of
+14,57,Real Marius Barbeau,Macmillan Company of Canada,Directed,1,5.0,Knows
+14,7,Real Marius Barbeau,"Oyee (""Oyai"")",Directed,1,5.0,Knows of
+14,2,Real Marius Barbeau,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,5.0,Knows
+55,2,"""ancestors of Wolves""","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,5.0,Knows
+2,54,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""ancestors of Eagles""",Directed,1,5.0,Knows of
+7,2,"Oyee (""Oyai"")","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,5.0,Knows of
+6,4,"""Hladerh"" (Laxgibuu)","Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Directed,1,5.0,Knows
+6,5,"""Hladerh"" (Laxgibuu)","""Sispagut"" (Gisk'aast)",Directed,1,5.0,Knows
+2,7,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","Oyee (""Oyai"")",Directed,1,5.0,Knows of
+3,2,"""Eagle-Raven clan""","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,5.0,Knows
+6,2,"""Hladerh"" (Laxgibuu)","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,5.0,Exchange
+3,4,"""Eagle-Raven clan""","Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Directed,1,5.0,Knows
+3,55,"""Eagle-Raven clan""","""ancestors of Wolves""",Directed,1,5.0,Knows of
+3,54,"""Eagle-Raven clan""","""ancestors of Eagles""",Directed,1,5.0,Knows
+2,20,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","Laxgibuu (""Wolf clan"")",Directed,1,5.0,Knows
+3,5,"""Eagle-Raven clan""","""Sispagut"" (Gisk'aast)",Directed,1,5.0,Knows
+6,7,"""Hladerh"" (Laxgibuu)","Oyee (""Oyai"")",Directed,1,5.0,Knows of
+2,4,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Directed,1,5.0,Knows
+3,6,"""Eagle-Raven clan""","""Hladerh"" (Laxgibuu)",Directed,1,5.0,Knows
+6,3,"""Hladerh"" (Laxgibuu)","""Eagle-Raven clan""",Directed,1,5.0,Knows
+2,55,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""ancestors of Wolves""",Directed,1,5.0,Knows
+2,14,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Real Marius Barbeau,Directed,1,5.0,Knows
+1,5,Speaker Jordan Abel,"""Sispagut"" (Gisk'aast)",Directed,1,7.0,Knows
+14,1,Real Marius Barbeau,Speaker Jordan Abel,Directed,1,7.0,Knows of
+1,2,Speaker Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,7.0,Knows
+14,2,Real Marius Barbeau,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,7.0,Knows of
+1,14,Speaker Jordan Abel,Real Marius Barbeau,Directed,1,7.0,Knows
+14,5,Real Marius Barbeau,"""Sispagut"" (Gisk'aast)",Directed,1,7.0,Knows of
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",Directed,1,9.0,Knows
+14,3,Real Marius Barbeau,"""Eagle-Raven clan""",Directed,1,9.0,Knows
+14,20,Real Marius Barbeau,"Laxgibuu (""Wolf clan"")",Directed,1,9.0,Knows
+1,14,Speaker Jordan Abel,Real Marius Barbeau,Directed,1,9.0,Knows
+1,3,Speaker Jordan Abel,"""Eagle-Raven clan""",Directed,1,9.0,Knows
+1,14,Speaker Jordan Abel,Real Marius Barbeau,Directed,1,11.0,Knows
+1,14,Speaker Jordan Abel,Real Marius Barbeau,Directed,1,13.0,Knows
+1,14,Speaker Jordan Abel,Real Marius Barbeau,Directed,1,15.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,17.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,17.0,Knows
+60,58,collage photos,"""Pole of Sagaween""",Directed,1,17.0,Knows
+53,1,blank (missing null option here),Speaker Jordan Abel,Directed,1,17.3,Knows of
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",Directed,1,17.3,Knows
+53,58,blank (missing null option here),"""Pole of Sagaween""",Directed,1,17.3,Knows of
+58,1,"""Pole of Sagaween""",Speaker Jordan Abel,Directed,1,17.3,Knows
+14,9,Real Marius Barbeau,crew of Indians,Directed,1,19.0,Knows
+14,59,Real Marius Barbeau,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",Directed,1,19.0,Knows
+14,58,Real Marius Barbeau,"""Pole of Sagaween""",Directed,1,19.0,Knows
+9,58,crew of Indians,"""Pole of Sagaween""",Directed,1,19.0,Knows
+9,59,crew of Indians,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",Directed,1,19.0,Knows
+9,8,crew of Indians,railway engineer,Directed,1,19.0,Knows
+58,14,"""Pole of Sagaween""",Real Marius Barbeau,Directed,1,19.0,Knows
+14,8,Real Marius Barbeau,railway engineer,Directed,1,19.0,Knows
+14,10,Real Marius Barbeau,"men walking on ""Pole of Sag̱aween""",Directed,1,19.0,Knows of
+58,8,"""Pole of Sagaween""",railway engineer,Directed,1,19.0,Knows
+59,58,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""","""Pole of Sagaween""",Directed,1,19.0,Knows
+59,14,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",Real Marius Barbeau,Directed,1,19.0,Knows
+58,10,"""Pole of Sagaween""","men walking on ""Pole of Sag̱aween""",Directed,1,19.0,Knows
+59,9,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",crew of Indians,Directed,1,19.0,Knows
+59,8,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",railway engineer,Directed,1,19.0,Knows
+9,14,crew of Indians,Real Marius Barbeau,Directed,1,19.0,Knows
+58,9,"""Pole of Sagaween""",crew of Indians,Directed,1,19.0,Knows
+58,59,"""Pole of Sagaween""","""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",Directed,1,19.0,Knows
+8,14,railway engineer,Real Marius Barbeau,Directed,1,19.0,Knows
+8,9,railway engineer,crew of Indians,Directed,1,19.0,Knows
+8,58,railway engineer,"""Pole of Sagaween""",Directed,1,19.0,Knows
+8,59,railway engineer,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",Directed,1,19.0,Knows
+10,58,"men walking on ""Pole of Sag̱aween""","""Pole of Sagaween""",Directed,1,19.0,Knows
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",Directed,1,21.0,Knows
+58,1,"""Pole of Sagaween""",Speaker Jordan Abel,Directed,1,21.0,Knows
+14,58,Real Marius Barbeau,"""Pole of Sagaween""",Directed,1,23.0,Knows
+58,14,"""Pole of Sagaween""",Real Marius Barbeau,Directed,1,23.0,Knows
+14,11,Real Marius Barbeau,"""Indians"" (abstract)",Directed,1,23.0,Knows
+1,11,Speaker Jordan Abel,"""Indians"" (abstract)",Directed,1,23.0,Knows
+1,14,Speaker Jordan Abel,Real Marius Barbeau,Directed,1,23.0,Knows
+11,14,"""Indians"" (abstract)",Real Marius Barbeau,Directed,1,23.0,Knows
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",Directed,1,23.0,Knows of
+1,11,Speaker Jordan Abel,"""Indians"" (abstract)",Directed,1,25.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,29.0,Knows
+60,58,collage photos,"""Pole of Sagaween""",Directed,1,29.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,29.0,Knows
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",Directed,1,29.3,Knows
+58,1,"""Pole of Sagaween""",Speaker Jordan Abel,Directed,1,29.3,Knows
+58,39,"""Pole of Sagaween""",the Thunderbird,Directed,1,31.0,Knows
+14,12,Real Marius Barbeau,"residents of Git'iks/""Gitiks""",Directed,1,31.0,Knows
+58,14,"""Pole of Sagaween""",Real Marius Barbeau,Directed,1,31.0,Knows
+39,58,the Thunderbird,"""Pole of Sagaween""",Directed,1,31.0,Knows
+14,11,Real Marius Barbeau,"""Indians"" (abstract)",Directed,1,31.0,Knows
+14,58,Real Marius Barbeau,"""Pole of Sagaween""",Directed,1,31.0,Knows
+11,14,"""Indians"" (abstract)",Real Marius Barbeau,Directed,1,31.0,Knows
+14,39,Real Marius Barbeau,the Thunderbird,Directed,1,31.0,Knows
+12,58,"residents of Git'iks/""Gitiks""","""Pole of Sagaween""",Directed,1,33.0,Knows
+1,12,Speaker Jordan Abel,"residents of Git'iks/""Gitiks""",Directed,1,33.0,Knows
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",Directed,1,33.0,Knows
+58,1,"""Pole of Sagaween""",Speaker Jordan Abel,Directed,1,33.0,Knows
+58,12,"""Pole of Sagaween""","residents of Git'iks/""Gitiks""",Directed,1,33.0,Knows
+15,58,Fictional Marius Barbeau,"""Pole of Sagaween""",Directed,1,43.0,Knows
+13,15,Barton (Laxgibuu),Fictional Marius Barbeau,Directed,1,43.0,Knows
+58,15,"""Pole of Sagaween""",Fictional Marius Barbeau,Directed,1,43.0,Knows
+15,13,Fictional Marius Barbeau,Barton (Laxgibuu),Directed,1,43.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,45.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,45.0,Knows
+60,58,collage photos,"""Pole of Sagaween""",Directed,1,45.0,Knows
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",Directed,1,45.5,Knows
+58,1,"""Pole of Sagaween""",Speaker Jordan Abel,Directed,1,45.5,Knows
+14,63,Real Marius Barbeau,"""Gyaibelk"" (carved)",Directed,1,47.0,Knows of
+14,22,Real Marius Barbeau,"son of ""Paraet'Naerhl""",Directed,1,47.0,Knows of
+14,18,Real Marius Barbeau,"second ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows of
+14,17,Real Marius Barbeau,"first ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows of
+17,18,"first ""'Neesyoq"" (Laxgibuu)","second ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows
+14,20,Real Marius Barbeau,"Laxgibuu (""Wolf clan"")",Directed,1,47.0,Knows
+14,23,Real Marius Barbeau,Dennis Wood,Directed,1,47.0,Knows
+20,14,"Laxgibuu (""Wolf clan"")",Real Marius Barbeau,Directed,1,47.0,Knows
+14,61,Real Marius Barbeau,"""the Sperm Whale (hlpoon)"" (carved)",Directed,1,47.0,Knows of
+14,62,Real Marius Barbeau,"""person with many-faced garment (gyet)"" (carved)",Directed,1,47.0,Knows of
+14,21,Real Marius Barbeau,"""Paraet'Naerhl""",Directed,1,47.0,Knows of
+14,19,Real Marius Barbeau,"""'Neeskyinwaet"" (Laxgibuu)",Directed,1,47.0,Knows of
+18,21,"second ""'Neesyoq"" (Laxgibuu)","""Paraet'Naerhl""",Directed,1,47.0,Knows
+14,24,Real Marius Barbeau,"""mythical man with sea cockle (kal'own)"" (carved)",Directed,1,47.0,Knows of
+18,22,"second ""'Neesyoq"" (Laxgibuu)","son of ""Paraet'Naerhl""",Directed,1,47.0,Knows
+62,21,"""person with many-faced garment (gyet)"" (carved)","""Paraet'Naerhl""",Directed,1,47.0,Knows
+23,63,Dennis Wood,"""Gyaibelk"" (carved)",Directed,1,47.0,Knows of
+18,17,"second ""'Neesyoq"" (Laxgibuu)","first ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows
+22,24,"son of ""Paraet'Naerhl""","""mythical man with sea cockle (kal'own)"" (carved)",Directed,1,47.0,Knows
+22,18,"son of ""Paraet'Naerhl""","second ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows
+22,17,"son of ""Paraet'Naerhl""","first ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows of
+62,63,"""person with many-faced garment (gyet)"" (carved)","""Gyaibelk"" (carved)",Directed,1,47.0,Knows
+22,61,"son of ""Paraet'Naerhl""","""the Sperm Whale (hlpoon)"" (carved)",Directed,1,47.0,Knows
+21,63,"""Paraet'Naerhl""","""Gyaibelk"" (carved)",Directed,1,47.0,Knows
+21,24,"""Paraet'Naerhl""","""mythical man with sea cockle (kal'own)"" (carved)",Directed,1,47.0,Knows
+21,62,"""Paraet'Naerhl""","""person with many-faced garment (gyet)"" (carved)",Directed,1,47.0,Knows
+21,61,"""Paraet'Naerhl""","""the Sperm Whale (hlpoon)"" (carved)",Directed,1,47.0,Knows
+24,22,"""mythical man with sea cockle (kal'own)"" (carved)","son of ""Paraet'Naerhl""",Directed,1,47.0,Knows
+21,17,"""Paraet'Naerhl""","first ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows of
+21,18,"""Paraet'Naerhl""","second ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows
+21,22,"""Paraet'Naerhl""","son of ""Paraet'Naerhl""",Directed,1,47.0,Knows
+22,62,"son of ""Paraet'Naerhl""","""person with many-faced garment (gyet)"" (carved)",Directed,1,47.0,Knows
+24,61,"""mythical man with sea cockle (kal'own)"" (carved)","""the Sperm Whale (hlpoon)"" (carved)",Directed,1,47.0,Knows
+24,62,"""mythical man with sea cockle (kal'own)"" (carved)","""person with many-faced garment (gyet)"" (carved)",Directed,1,47.0,Knows
+63,22,"""Gyaibelk"" (carved)","son of ""Paraet'Naerhl""",Directed,1,47.0,Knows
+24,21,"""mythical man with sea cockle (kal'own)"" (carved)","""Paraet'Naerhl""",Directed,1,47.0,Knows
+63,61,"""Gyaibelk"" (carved)","""the Sperm Whale (hlpoon)"" (carved)",Directed,1,47.0,Knows
+63,62,"""Gyaibelk"" (carved)","""person with many-faced garment (gyet)"" (carved)",Directed,1,47.0,Knows
+22,63,"son of ""Paraet'Naerhl""","""Gyaibelk"" (carved)",Directed,1,47.0,Knows
+22,21,"son of ""Paraet'Naerhl""","""Paraet'Naerhl""",Directed,1,47.0,Knows
+61,22,"""the Sperm Whale (hlpoon)"" (carved)","son of ""Paraet'Naerhl""",Directed,1,47.0,Knows
+61,62,"""the Sperm Whale (hlpoon)"" (carved)","""person with many-faced garment (gyet)"" (carved)",Directed,1,47.0,Knows
+23,22,Dennis Wood,"son of ""Paraet'Naerhl""",Directed,1,47.0,Knows of
+61,24,"""the Sperm Whale (hlpoon)"" (carved)","""mythical man with sea cockle (kal'own)"" (carved)",Directed,1,47.0,Knows
+61,21,"""the Sperm Whale (hlpoon)"" (carved)","""Paraet'Naerhl""",Directed,1,47.0,Knows
+23,18,Dennis Wood,"second ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows of
+61,63,"""the Sperm Whale (hlpoon)"" (carved)","""Gyaibelk"" (carved)",Directed,1,47.0,Knows
+23,17,Dennis Wood,"first ""'Neesyoq"" (Laxgibuu)",Directed,1,47.0,Knows of
+23,14,Dennis Wood,Real Marius Barbeau,Directed,1,47.0,Knows
+62,22,"""person with many-faced garment (gyet)"" (carved)","son of ""Paraet'Naerhl""",Directed,1,47.0,Knows
+23,61,Dennis Wood,"""the Sperm Whale (hlpoon)"" (carved)",Directed,1,47.0,Knows of
+62,61,"""person with many-faced garment (gyet)"" (carved)","""the Sperm Whale (hlpoon)"" (carved)",Directed,1,47.0,Knows
+63,21,"""Gyaibelk"" (carved)","""Paraet'Naerhl""",Directed,1,47.0,Knows
+23,62,Dennis Wood,"""person with many-faced garment (gyet)"" (carved)",Directed,1,47.0,Knows of
+63,24,"""Gyaibelk"" (carved)","""mythical man with sea cockle (kal'own)"" (carved)",Directed,1,47.0,Knows
+23,24,Dennis Wood,"""mythical man with sea cockle (kal'own)"" (carved)",Directed,1,47.0,Knows of
+23,21,Dennis Wood,"""Paraet'Naerhl""",Directed,1,47.0,Knows of
+62,24,"""person with many-faced garment (gyet)"" (carved)","""mythical man with sea cockle (kal'own)"" (carved)",Directed,1,47.0,Knows
+24,63,"""mythical man with sea cockle (kal'own)"" (carved)","""Gyaibelk"" (carved)",Directed,1,47.0,Knows
+1,63,Speaker Jordan Abel,"""Gyaibelk"" (carved)",Directed,1,49.0,Knows
+1,24,Speaker Jordan Abel,"""mythical man with sea cockle (kal'own)"" (carved)",Directed,1,49.0,Knows
+1,62,Speaker Jordan Abel,"""person with many-faced garment (gyet)"" (carved)",Directed,1,49.0,Knows
+1,61,Speaker Jordan Abel,"""the Sperm Whale (hlpoon)"" (carved)",Directed,1,49.0,Knows
+65,15,unknown Nass River pole,Fictional Marius Barbeau,Directed,1,55.0,Knows
+15,23,Fictional Marius Barbeau,Dennis Wood,Directed,1,55.0,Exchange
+23,65,Dennis Wood,unknown Nass River pole,Directed,1,55.0,Knows
+65,23,unknown Nass River pole,Dennis Wood,Directed,1,55.0,Knows
+15,64,Fictional Marius Barbeau,man on the top of unknown Nass River pole,Directed,1,55.0,Knows
+15,65,Fictional Marius Barbeau,unknown Nass River pole,Directed,1,55.0,Knows
+23,64,Dennis Wood,man on the top of unknown Nass River pole,Directed,1,55.0,Knows
+23,15,Dennis Wood,Fictional Marius Barbeau,Directed,1,55.0,Exchange
+60,1,collage photos,Speaker Jordan Abel,Directed,1,57.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,57.0,Knows
+58,14,"""Pole of Sagaween""",Real Marius Barbeau,Directed,1,59.0,Knows
+16,25,Biographical Jordan Abel,Jordan Abel's mother,Directed,1,59.0,Knows
+25,66,Jordan Abel's mother,Child Jordan Abel,Directed,1,59.0,Knows
+66,25,Child Jordan Abel,Jordan Abel's mother,Directed,1,59.0,Knows
+66,58,Child Jordan Abel,"""Pole of Sagaween""",Directed,1,59.0,Knows of
+16,14,Biographical Jordan Abel,Real Marius Barbeau,Directed,1,59.0,Knows
+16,2,Biographical Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,59.0,Knows
+16,66,Biographical Jordan Abel,Child Jordan Abel,Directed,1,59.0,Knows
+16,58,Biographical Jordan Abel,"""Pole of Sagaween""",Directed,1,59.0,Knows
+58,16,"""Pole of Sagaween""",Biographical Jordan Abel,Directed,1,59.0,Knows
+14,58,Real Marius Barbeau,"""Pole of Sagaween""",Directed,1,59.0,Knows
+58,66,"""Pole of Sagaween""",Child Jordan Abel,Directed,1,59.0,Knows of
+25,16,Jordan Abel's mother,Biographical Jordan Abel,Directed,1,59.0,Knows
+58,25,"""Pole of Sagaween""",Jordan Abel's mother,Directed,1,63.0,Knows
+25,16,Jordan Abel's mother,Biographical Jordan Abel,Directed,1,63.0,Exchange
+16,26,Biographical Jordan Abel,Jordan Abel's family,Directed,1,63.0,Exchange
+25,58,Jordan Abel's mother,"""Pole of Sagaween""",Directed,1,63.0,Knows
+16,25,Biographical Jordan Abel,Jordan Abel's mother,Directed,1,63.0,Exchange
+16,58,Biographical Jordan Abel,"""Pole of Sagaween""",Directed,1,63.0,Knows of
+26,16,Jordan Abel's family,Biographical Jordan Abel,Directed,1,63.0,Exchange
+1,60,Speaker Jordan Abel,collage photos,Directed,1,65.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,65.0,Knows
+31,30,"""Ksemkaigyet""/""female being""","brother of ""Yaw'l"" who killed ""Huge-Belly""",Directed,1,67.0,Exchange
+31,48,"""Ksemkaigyet""/""female being""",Nisg̱a’a,Directed,1,67.0,Knows
+14,27,Real Marius Barbeau,"""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Knows of
+48,31,Nisg̱a’a,"""Ksemkaigyet""/""female being""",Directed,1,67.0,Knows
+48,14,Nisg̱a’a,Real Marius Barbeau,Directed,1,67.0,Knows
+27,29,"""Yaw'l"" (Laxgibuu)","""Huge-Belly""",Directed,1,67.0,Exchange
+27,31,"""Yaw'l"" (Laxgibuu)","""Ksemkaigyet""/""female being""",Directed,1,67.0,Exchange
+27,48,"""Yaw'l"" (Laxgibuu)",Nisg̱a’a,Directed,1,67.0,Knows
+27,30,"""Yaw'l"" (Laxgibuu)","brother of ""Yaw'l"" who killed ""Huge-Belly""",Directed,1,67.0,Exchange
+27,28,"""Yaw'l"" (Laxgibuu)","brothers of ""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Exchange
+31,28,"""Ksemkaigyet""/""female being""","brothers of ""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Exchange
+31,27,"""Ksemkaigyet""/""female being""","""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Exchange
+29,27,"""Huge-Belly""","""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Exchange
+28,30,"brothers of ""Yaw'l"" (Laxgibuu)","brother of ""Yaw'l"" who killed ""Huge-Belly""",Directed,1,67.0,Exchange
+29,30,"""Huge-Belly""","brother of ""Yaw'l"" who killed ""Huge-Belly""",Directed,1,67.0,Exchange
+48,30,Nisg̱a’a,"brother of ""Yaw'l"" who killed ""Huge-Belly""",Directed,1,67.0,Knows
+28,48,"brothers of ""Yaw'l"" (Laxgibuu)",Nisg̱a’a,Directed,1,67.0,Knows
+28,27,"brothers of ""Yaw'l"" (Laxgibuu)","""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Exchange
+28,31,"brothers of ""Yaw'l"" (Laxgibuu)","""Ksemkaigyet""/""female being""",Directed,1,67.0,Exchange
+28,29,"brothers of ""Yaw'l"" (Laxgibuu)","""Huge-Belly""",Directed,1,67.0,Exchange
+30,28,"brother of ""Yaw'l"" who killed ""Huge-Belly""","brothers of ""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Exchange
+30,48,"brother of ""Yaw'l"" who killed ""Huge-Belly""",Nisg̱a’a,Directed,1,67.0,Knows
+30,27,"brother of ""Yaw'l"" who killed ""Huge-Belly""","""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Exchange
+30,31,"brother of ""Yaw'l"" who killed ""Huge-Belly""","""Ksemkaigyet""/""female being""",Directed,1,67.0,Exchange
+30,29,"brother of ""Yaw'l"" who killed ""Huge-Belly""","""Huge-Belly""",Directed,1,67.0,Exchange
+29,28,"""Huge-Belly""","brothers of ""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Exchange
+48,28,Nisg̱a’a,"brothers of ""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Knows
+48,27,Nisg̱a’a,"""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Knows
+14,30,Real Marius Barbeau,"brother of ""Yaw'l"" who killed ""Huge-Belly""",Directed,1,67.0,Knows of
+14,28,Real Marius Barbeau,"brothers of ""Yaw'l"" (Laxgibuu)",Directed,1,67.0,Knows of
+14,29,Real Marius Barbeau,"""Huge-Belly""",Directed,1,67.0,Knows of
+14,31,Real Marius Barbeau,"""Ksemkaigyet""/""female being""",Directed,1,67.0,Knows of
+14,48,Real Marius Barbeau,Nisg̱a’a,Directed,1,67.0,Knows
+20,1,"Laxgibuu (""Wolf clan"")",Speaker Jordan Abel,Directed,1,71.0,Knows
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",Directed,1,71.0,Knows
+20,1,"Laxgibuu (""Wolf clan"")",Speaker Jordan Abel,Directed,1,73.0,Knows
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",Directed,1,73.0,Knows
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",Directed,1,75.0,Knows
+20,1,"Laxgibuu (""Wolf clan"")",Speaker Jordan Abel,Directed,1,75.0,Knows
+1,48,Speaker Jordan Abel,Nisg̱a’a,Directed,1,75.0,Knows
+48,1,Nisg̱a’a,Speaker Jordan Abel,Directed,1,75.0,Knows
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",Directed,1,77.0,Knows
+1,48,Speaker Jordan Abel,Nisg̱a’a,Directed,1,77.0,Knows
+20,1,"Laxgibuu (""Wolf clan"")",Speaker Jordan Abel,Directed,1,77.0,Knows
+48,1,Nisg̱a’a,Speaker Jordan Abel,Directed,1,77.0,Knows
+1,48,Speaker Jordan Abel,Nisg̱a’a,Directed,1,79.0,Knows
+48,1,Nisg̱a’a,Speaker Jordan Abel,Directed,1,79.0,Knows
+48,1,Nisg̱a’a,Speaker Jordan Abel,Directed,1,81.0,Knows
+1,48,Speaker Jordan Abel,Nisg̱a’a,Directed,1,81.0,Knows
+1,48,Speaker Jordan Abel,Nisg̱a’a,Directed,1,83.0,Knows
+48,1,Nisg̱a’a,Speaker Jordan Abel,Directed,1,83.0,Knows
+1,32,Speaker Jordan Abel,"""Ksemkaigyet""/old man",Directed,1,85.0,Knows
+1,32,Speaker Jordan Abel,"""Ksemkaigyet""/old man",Directed,1,87.0,Knows
+48,1,Nisg̱a’a,Speaker Jordan Abel,Directed,1,87.0,Knows
+1,48,Speaker Jordan Abel,Nisg̱a’a,Directed,1,87.0,Knows
+48,1,Nisg̱a’a,Speaker Jordan Abel,Directed,1,89.0,Knows
+1,48,Speaker Jordan Abel,Nisg̱a’a,Directed,1,89.0,Knows
+32,49,"""Ksemkaigyet""/old man","""glass-nosed spirit""",Directed,1,93.0,Exchange
+1,32,Speaker Jordan Abel,"""Ksemkaigyet""/old man",Directed,1,93.0,Knows of
+1,49,Speaker Jordan Abel,"""glass-nosed spirit""",Directed,1,93.0,Knows of
+49,32,"""glass-nosed spirit""","""Ksemkaigyet""/old man",Directed,1,93.0,Exchange
+60,1,collage photos,Speaker Jordan Abel,Directed,1,95.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,95.0,Knows
+16,33,Biographical Jordan Abel,Jordan Abel's father,Directed,1,97.0,Knows
+16,25,Biographical Jordan Abel,Jordan Abel's mother,Directed,1,97.0,Knows
+16,67,Biographical Jordan Abel,various totem poles in Vancouver,Directed,1,97.0,Knows
+16,34,Biographical Jordan Abel,friends of Abel's parents,Directed,1,97.0,Exchange
+25,16,Jordan Abel's mother,Biographical Jordan Abel,Directed,1,97.0,Knows
+33,16,Jordan Abel's father,Biographical Jordan Abel,Directed,1,97.0,Knows
+67,16,various totem poles in Vancouver,Biographical Jordan Abel,Directed,1,97.0,Knows
+34,16,friends of Abel's parents,Biographical Jordan Abel,Directed,1,97.0,Exchange
+16,1,Biographical Jordan Abel,Speaker Jordan Abel,Directed,1,105.0,Knows of
+1,68,Speaker Jordan Abel,totem pole in Vancouver mall,Directed,1,105.0,Knows
+16,68,Biographical Jordan Abel,totem pole in Vancouver mall,Directed,1,105.0,Knows of
+68,1,totem pole in Vancouver mall,Speaker Jordan Abel,Directed,1,105.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,107.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,107.0,Knows
+14,69,Real Marius Barbeau,"""the Eagle""",Directed,1,109.0,Knows of
+36,38,"""Gitrhawn clan""","chief of ""Gitrhawn clan""",Directed,1,109.0,Exchange
+37,36,"""Gunas"" (Laxsgiik)","""Gitrhawn clan""",Directed,1,109.0,Knows
+36,37,"""Gitrhawn clan""","""Gunas"" (Laxsgiik)",Directed,1,109.0,Knows
+36,69,"""Gitrhawn clan""","""the Eagle""",Directed,1,109.0,Knows
+37,69,"""Gunas"" (Laxsgiik)","""the Eagle""",Directed,1,109.0,Knows
+36,41,"""Gitrhawn clan""","""the Spirit Halibut""",Directed,1,109.0,Knows
+37,41,"""Gunas"" (Laxsgiik)","""the Spirit Halibut""",Directed,1,109.0,Exchange
+41,37,"""the Spirit Halibut""","""Gunas"" (Laxsgiik)",Directed,1,109.0,Exchange
+36,2,"""Gitrhawn clan""","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,109.0,Knows
+37,38,"""Gunas"" (Laxsgiik)","chief of ""Gitrhawn clan""",Directed,1,109.0,Knows
+14,41,Real Marius Barbeau,"""the Spirit Halibut""",Directed,1,109.0,Knows of
+41,38,"""the Spirit Halibut""","chief of ""Gitrhawn clan""",Directed,1,109.0,Knows
+41,36,"""the Spirit Halibut""","""Gitrhawn clan""",Directed,1,109.0,Knows
+14,38,Real Marius Barbeau,"chief of ""Gitrhawn clan""",Directed,1,109.0,Knows of
+38,37,"chief of ""Gitrhawn clan""","""Gunas"" (Laxsgiik)",Directed,1,109.0,Knows
+2,36,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Gitrhawn clan""",Directed,1,109.0,Knows
+2,69,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""the Eagle""",Directed,1,109.0,Knows
+2,41,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""the Spirit Halibut""",Directed,1,109.0,Knows
+69,38,"""the Eagle""","chief of ""Gitrhawn clan""",Directed,1,109.0,Knows
+38,41,"chief of ""Gitrhawn clan""","""the Spirit Halibut""",Directed,1,109.0,Knows
+2,38,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","chief of ""Gitrhawn clan""",Directed,1,109.0,Knows
+38,69,"chief of ""Gitrhawn clan""","""the Eagle""",Directed,1,109.0,Knows
+38,36,"chief of ""Gitrhawn clan""","""Gitrhawn clan""",Directed,1,109.0,Exchange
+14,36,Real Marius Barbeau,"""Gitrhawn clan""",Directed,1,109.0,Knows of
+2,37,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Gunas"" (Laxsgiik)",Directed,1,109.0,Knows
+14,2,Real Marius Barbeau,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,109.0,Knows of
+69,36,"""the Eagle""","""Gitrhawn clan""",Directed,1,109.0,Knows
+69,37,"""the Eagle""","""Gunas"" (Laxsgiik)",Directed,1,109.0,Knows
+14,37,Real Marius Barbeau,"""Gunas"" (Laxsgiik)",Directed,1,109.0,Knows of
+1,50,Speaker Jordan Abel,"""the Spirit""",Directed,1,113.0,Knows
+60,2,collage photos,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,121.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,121.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,121.0,Knows
+60,58,collage photos,"""Pole of Sagaween""",Directed,1,121.0,Knows
+1,2,Speaker Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,121.7,Knows
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",Directed,1,121.7,Knows
+58,1,"""Pole of Sagaween""",Speaker Jordan Abel,Directed,1,121.7,Knows
+44,71,visitors at the house of Sagaween,cedar bark squid,Directed,1,123.0,Exchange
+44,2,visitors at the house of Sagaween,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,123.0,Exchange
+71,2,cedar bark squid,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,123.0,Knows
+44,43,visitors at the house of Sagaween,women singing,Directed,1,123.0,Exchange
+43,2,women singing,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,123.0,Exchange
+71,43,cedar bark squid,women singing,Directed,1,123.0,Exchange
+71,44,cedar bark squid,visitors at the house of Sagaween,Directed,1,123.0,Exchange
+71,42,cedar bark squid,father of Sagaween (Gisk'aast),Directed,1,123.0,Knows
+44,42,visitors at the house of Sagaween,father of Sagaween (Gisk'aast),Directed,1,123.0,Knows
+43,71,women singing,cedar bark squid,Directed,1,123.0,Exchange
+43,44,women singing,visitors at the house of Sagaween,Directed,1,123.0,Exchange
+43,42,women singing,father of Sagaween (Gisk'aast),Directed,1,123.0,Knows
+2,43,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",women singing,Directed,1,123.0,Exchange
+2,44,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",visitors at the house of Sagaween,Directed,1,123.0,Exchange
+2,42,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",father of Sagaween (Gisk'aast),Directed,1,123.0,Knows
+2,71,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",cedar bark squid,Directed,1,123.0,Knows
+14,43,Real Marius Barbeau,women singing,Directed,1,123.0,Knows of
+14,44,Real Marius Barbeau,visitors at the house of Sagaween,Directed,1,123.0,Knows of
+14,42,Real Marius Barbeau,father of Sagaween (Gisk'aast),Directed,1,123.0,Knows of
+14,71,Real Marius Barbeau,cedar bark squid,Directed,1,123.0,Knows of
+14,2,Real Marius Barbeau,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,123.0,Knows of
+1,4,Speaker Jordan Abel,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Directed,1,125.0,Knows
+1,42,Speaker Jordan Abel,father of Sagaween (Gisk'aast),Directed,1,127.0,Knows
+1,33,Speaker Jordan Abel,Jordan Abel's father,Directed,1,127.0,Knows
+33,1,Jordan Abel's father,Speaker Jordan Abel,Directed,1,127.0,Knows
+1,33,Speaker Jordan Abel,Jordan Abel's father,Directed,1,129.0,Knows
+1,42,Speaker Jordan Abel,father of Sagaween (Gisk'aast),Directed,1,129.0,Knows
+33,1,Jordan Abel's father,Speaker Jordan Abel,Directed,1,129.0,Knows
+1,33,Speaker Jordan Abel,Jordan Abel's father,Directed,1,131.0,Knows
+1,42,Speaker Jordan Abel,father of Sagaween (Gisk'aast),Directed,1,131.0,Knows
+33,1,Jordan Abel's father,Speaker Jordan Abel,Directed,1,131.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,137.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,137.0,Knows
+16,19,Biographical Jordan Abel,"""'Neeskyinwaet"" (Laxgibuu)",Directed,1,139.0,Knows of
+16,45,Biographical Jordan Abel,Vancouver carvers,Directed,1,139.0,Knows
+66,33,Child Jordan Abel,Jordan Abel's father,Directed,1,139.0,Knows
+33,66,Jordan Abel's father,Child Jordan Abel,Directed,1,139.0,Knows
+16,33,Biographical Jordan Abel,Jordan Abel's father,Directed,1,139.0,Knows
+16,66,Biographical Jordan Abel,Child Jordan Abel,Directed,1,139.0,Knows
+19,45,"""'Neeskyinwaet"" (Laxgibuu)",Vancouver carvers,Directed,1,139.0,Knows
+45,19,Vancouver carvers,"""'Neeskyinwaet"" (Laxgibuu)",Directed,1,139.0,Knows
+72,46,ROM admissions superiors,ROM admissions staff member,Directed,1,143.0,Knows
+58,16,"""Pole of Sagaween""",Biographical Jordan Abel,Directed,1,143.0,Exchange
+16,58,Biographical Jordan Abel,"""Pole of Sagaween""",Directed,1,143.0,Exchange
+16,46,Biographical Jordan Abel,ROM admissions staff member,Directed,1,143.0,Exchange
+16,72,Biographical Jordan Abel,ROM admissions superiors,Directed,1,143.0,Knows of
+16,14,Biographical Jordan Abel,Real Marius Barbeau,Directed,1,143.0,Knows
+46,58,ROM admissions staff member,"""Pole of Sagaween""",Directed,1,143.0,Knows of
+46,16,ROM admissions staff member,Biographical Jordan Abel,Directed,1,143.0,Exchange
+46,72,ROM admissions staff member,ROM admissions superiors,Directed,1,143.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,153.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,153.0,Knows
+15,13,Fictional Marius Barbeau,Barton (Laxgibuu),Directed,1,163.0,Exchange
+13,73,Barton (Laxgibuu),"""'His grandson'""",Directed,1,163.0,Knows
+13,15,Barton (Laxgibuu),Fictional Marius Barbeau,Directed,1,163.0,Exchange
+13,2,Barton (Laxgibuu),"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,163.0,Knows
+2,13,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Barton (Laxgibuu),Directed,1,163.0,Knows
+15,2,Fictional Marius Barbeau,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,163.0,Knows
+15,73,Fictional Marius Barbeau,"""'His grandson'""",Directed,1,163.0,Knows of
+13,15,Barton (Laxgibuu),Fictional Marius Barbeau,Directed,1,165.2,Exchange
+15,13,Fictional Marius Barbeau,Barton (Laxgibuu),Directed,1,165.2,Exchange
+15,73,Fictional Marius Barbeau,"""'His grandson'""",Directed,1,165.2,Knows of
+15,73,Fictional Marius Barbeau,"""'His grandson'""",Directed,1,167.2,Knows of
+74,15,academic voice,Fictional Marius Barbeau,Directed,1,167.2,Knows of
+74,73,academic voice,"""'His grandson'""",Directed,1,167.2,Knows of
+15,13,Fictional Marius Barbeau,Barton (Laxgibuu),Directed,1,167.2,Knows of
+74,15,academic voice,Fictional Marius Barbeau,Directed,1,169.0,Knows of
+74,60,academic voice,collage photos,Directed,1,169.0,Knows of
+15,60,Fictional Marius Barbeau,collage photos,Directed,1,169.0,Knows
+60,74,collage photos,academic voice,Directed,1,169.0,Knows
+60,15,collage photos,Fictional Marius Barbeau,Directed,1,169.0,Knows
+15,13,Fictional Marius Barbeau,Barton (Laxgibuu),Directed,1,171.2,Knows of
+15,13,Fictional Marius Barbeau,Barton (Laxgibuu),Directed,1,173.0,Knows of
+60,1,collage photos,Speaker Jordan Abel,Directed,1,175.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,175.0,Knows
+60,75,collage photos,James Deans,Directed,1,177.0,Knows of
+60,76,collage photos,Queen Charlotte,Directed,1,177.0,Knows of
+60,14,collage photos,Real Marius Barbeau,Directed,1,177.0,Knows
+14,80,Real Marius Barbeau,"women related to the ""Coffin House""",Directed,1,177.3,Knows of
+14,76,Real Marius Barbeau,Queen Charlotte,Directed,1,177.3,Knows of
+14,75,Real Marius Barbeau,James Deans,Directed,1,177.3,Knows of
+60,74,collage photos,academic voice,Directed,1,183.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,183.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,183.0,Knows
+60,2,collage photos,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,189.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,189.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,189.0,Knows
+1,2,Speaker Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,189.4,Knows
+2,77,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","nephews of ""Samedeek"" (Gisk'ansnaat)",Directed,1,191.0,Knows of
+51,2,"""Samedeek""/""chief Grizzly-Bear"" (Gisk'ansnaat)","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,191.0,Knows
+51,77,"""Samedeek""/""chief Grizzly-Bear"" (Gisk'ansnaat)","nephews of ""Samedeek"" (Gisk'ansnaat)",Directed,1,191.0,Exchange
+14,77,Real Marius Barbeau,"nephews of ""Samedeek"" (Gisk'ansnaat)",Directed,1,191.0,Knows of
+14,2,Real Marius Barbeau,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Directed,1,191.0,Knows of
+2,51,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Samedeek""/""chief Grizzly-Bear"" (Gisk'ansnaat)",Directed,1,191.0,Knows
+14,51,Real Marius Barbeau,"""Samedeek""/""chief Grizzly-Bear"" (Gisk'ansnaat)",Directed,1,191.0,Knows of
+77,51,"nephews of ""Samedeek"" (Gisk'ansnaat)","""Samedeek""/""chief Grizzly-Bear"" (Gisk'ansnaat)",Directed,1,191.0,Exchange
+74,78,academic voice,Haida,Directed,1,199.0,Knows
+60,74,collage photos,academic voice,Directed,1,201.0,Knows
+60,14,collage photos,Real Marius Barbeau,Directed,1,201.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,237.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,237.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,239.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,239.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,241.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,241.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,243.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,243.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,245.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,245.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,247.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,247.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,249.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,249.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,251.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,251.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,253.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,253.0,Knows
+1,60,Speaker Jordan Abel,collage photos,Directed,1,255.0,Knows
+60,1,collage photos,Speaker Jordan Abel,Directed,1,255.0,Knows

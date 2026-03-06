@@ -17,18 +17,6 @@
 		<field name="character_name">Test 1</field>
 	</row>
 	<row>
-		<field name="character_id">2</field>
-		<field name="character_name">Test 2</field>
-	</row>
-	<row>
-		<field name="character_id">3</field>
-		<field name="character_name">Test 3</field>
-	</row>
-	<row>
-		<field name="character_id">4</field>
-		<field name="character_name">Test 4</field>
-	</row>
-	<row>
 		<field name="character_id">5</field>
 		<field name="character_name">Scout Finch</field>
 	</row>
@@ -1007,36 +995,6 @@
 		<options Name="menExs" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="1489" Avg_row_length="77" Data_length="114688" Max_data_length="0" Index_length="245760" Data_free="0" Auto_increment="2207" Create_time="2025-01-14 17:58:25" Collation="utf8mb3_unicode_ci" Create_options="" Comment="" />
 	</table_structure>
 	<table_data name="menExs">
-	<row>
-		<field name="menEx_id">1</field>
-		<field name="menEx_menOrEx_id_fk">0</field>
-		<field name="menEx_character1_id_fk">1</field>
-		<field name="menEx_character2_id_fk">2</field>
-		<field name="menEx_isReciprocal_id_fk">1</field>
-		<field name="menEx_narrContainer_id_fk">1</field>
-		<field name="menEx_startPage">6</field>
-		<field name="menEx_endPage">8</field>
-	</row>
-	<row>
-		<field name="menEx_id">2</field>
-		<field name="menEx_menOrEx_id_fk">2</field>
-		<field name="menEx_character1_id_fk">3</field>
-		<field name="menEx_character2_id_fk">4</field>
-		<field name="menEx_isReciprocal_id_fk">1</field>
-		<field name="menEx_narrContainer_id_fk">1</field>
-		<field name="menEx_startPage">12</field>
-		<field name="menEx_endPage">14</field>
-	</row>
-	<row>
-		<field name="menEx_id">3</field>
-		<field name="menEx_menOrEx_id_fk">2</field>
-		<field name="menEx_character1_id_fk">1</field>
-		<field name="menEx_character2_id_fk">4</field>
-		<field name="menEx_isReciprocal_id_fk">1</field>
-		<field name="menEx_narrContainer_id_fk">1</field>
-		<field name="menEx_startPage">15</field>
-		<field name="menEx_endPage">15</field>
-	</row>
 	<row>
 		<field name="menEx_id">4</field>
 		<field name="menEx_menOrEx_id_fk">0</field>

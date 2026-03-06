@@ -1,0 +1,439 @@
+source,target,Char 1 Name,Char 2 Name,startPage,type,weight
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",3.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,3.0,Undirected,1
+58,60,"""Pole of Sagaween""",collage photos,3.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",3.4,Undirected,1
+58,53,"""Pole of Sagaween""",blank (missing null option here),3.4,Undirected,1
+1,53,Speaker Jordan Abel,blank (missing null option here),3.4,Undirected,1
+4,7,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","Oyee (""Oyai"")",5.0,Undirected,1
+14,57,Real Marius Barbeau,Macmillan Company of Canada,5.0,Undirected,1
+4,56,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Caxton Printers,5.0,Undirected,1
+5,54,"""Sispagut"" (Gisk'aast)","""ancestors of Eagles""",5.0,Undirected,1
+3,57,"""Eagle-Raven clan""",Macmillan Company of Canada,5.0,Undirected,1
+56,57,Caxton Printers,Macmillan Company of Canada,5.0,Undirected,1
+6,7,"""Hladerh"" (Laxgibuu)","Oyee (""Oyai"")",5.0,Undirected,1
+3,54,"""Eagle-Raven clan""","""ancestors of Eagles""",5.0,Undirected,1
+3,5,"""Eagle-Raven clan""","""Sispagut"" (Gisk'aast)",5.0,Undirected,1
+54,57,"""ancestors of Eagles""",Macmillan Company of Canada,5.0,Undirected,1
+20,55,"Laxgibuu (""Wolf clan"")","""ancestors of Wolves""",5.0,Undirected,1
+7,55,"Oyee (""Oyai"")","""ancestors of Wolves""",5.0,Undirected,1
+6,56,"""Hladerh"" (Laxgibuu)",Caxton Printers,5.0,Undirected,1
+14,54,Real Marius Barbeau,"""ancestors of Eagles""",5.0,Undirected,1
+7,14,"Oyee (""Oyai"")",Real Marius Barbeau,5.0,Undirected,1
+2,55,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""ancestors of Wolves""",5.0,Undirected,1
+5,14,"""Sispagut"" (Gisk'aast)",Real Marius Barbeau,5.0,Undirected,1
+2,7,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","Oyee (""Oyai"")",5.0,Undirected,1
+3,20,"""Eagle-Raven clan""","Laxgibuu (""Wolf clan"")",5.0,Undirected,1
+14,20,Real Marius Barbeau,"Laxgibuu (""Wolf clan"")",5.0,Undirected,1
+2,3,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Eagle-Raven clan""",5.0,Undirected,1
+5,20,"""Sispagut"" (Gisk'aast)","Laxgibuu (""Wolf clan"")",5.0,Undirected,1
+7,54,"Oyee (""Oyai"")","""ancestors of Eagles""",5.0,Undirected,1
+2,6,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Hladerh"" (Laxgibuu)",5.0,Undirected,1
+6,55,"""Hladerh"" (Laxgibuu)","""ancestors of Wolves""",5.0,Undirected,1
+7,57,"Oyee (""Oyai"")",Macmillan Company of Canada,5.0,Undirected,1
+20,54,"Laxgibuu (""Wolf clan"")","""ancestors of Eagles""",5.0,Undirected,1
+54,56,"""ancestors of Eagles""",Caxton Printers,5.0,Undirected,1
+20,57,"Laxgibuu (""Wolf clan"")",Macmillan Company of Canada,5.0,Undirected,1
+3,56,"""Eagle-Raven clan""",Caxton Printers,5.0,Undirected,1
+3,14,"""Eagle-Raven clan""",Real Marius Barbeau,5.0,Undirected,1
+2,4,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",5.0,Undirected,1
+5,57,"""Sispagut"" (Gisk'aast)",Macmillan Company of Canada,5.0,Undirected,1
+2,56,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Caxton Printers,5.0,Undirected,1
+55,57,"""ancestors of Wolves""",Macmillan Company of Canada,5.0,Undirected,1
+4,55,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","""ancestors of Wolves""",5.0,Undirected,1
+5,56,"""Sispagut"" (Gisk'aast)",Caxton Printers,5.0,Undirected,1
+3,4,"""Eagle-Raven clan""","Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",5.0,Undirected,1
+7,20,"Oyee (""Oyai"")","Laxgibuu (""Wolf clan"")",5.0,Undirected,1
+3,7,"""Eagle-Raven clan""","Oyee (""Oyai"")",5.0,Undirected,1
+4,6,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","""Hladerh"" (Laxgibuu)",5.0,Undirected,1
+5,7,"""Sispagut"" (Gisk'aast)","Oyee (""Oyai"")",5.0,Undirected,1
+2,54,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""ancestors of Eagles""",5.0,Undirected,1
+2,57,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Macmillan Company of Canada,5.0,Undirected,1
+2,5,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Sispagut"" (Gisk'aast)",5.0,Undirected,1
+6,54,"""Hladerh"" (Laxgibuu)","""ancestors of Eagles""",5.0,Undirected,1
+7,56,"Oyee (""Oyai"")",Caxton Printers,5.0,Undirected,1
+2,14,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Real Marius Barbeau,5.0,Undirected,1
+6,57,"""Hladerh"" (Laxgibuu)",Macmillan Company of Canada,5.0,Undirected,1
+20,56,"Laxgibuu (""Wolf clan"")",Caxton Printers,5.0,Undirected,1
+6,20,"""Hladerh"" (Laxgibuu)","Laxgibuu (""Wolf clan"")",5.0,Undirected,1
+14,56,Real Marius Barbeau,Caxton Printers,5.0,Undirected,1
+4,14,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Real Marius Barbeau,5.0,Undirected,1
+3,6,"""Eagle-Raven clan""","""Hladerh"" (Laxgibuu)",5.0,Undirected,1
+5,6,"""Sispagut"" (Gisk'aast)","""Hladerh"" (Laxgibuu)",5.0,Undirected,1
+5,55,"""Sispagut"" (Gisk'aast)","""ancestors of Wolves""",5.0,Undirected,1
+4,5,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","""Sispagut"" (Gisk'aast)",5.0,Undirected,1
+14,55,Real Marius Barbeau,"""ancestors of Wolves""",5.0,Undirected,1
+4,20,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","Laxgibuu (""Wolf clan"")",5.0,Undirected,1
+3,55,"""Eagle-Raven clan""","""ancestors of Wolves""",5.0,Undirected,1
+4,57,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",Macmillan Company of Canada,5.0,Undirected,1
+6,14,"""Hladerh"" (Laxgibuu)",Real Marius Barbeau,5.0,Undirected,1
+4,54,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)","""ancestors of Eagles""",5.0,Undirected,1
+2,20,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","Laxgibuu (""Wolf clan"")",5.0,Undirected,1
+55,56,"""ancestors of Wolves""",Caxton Printers,5.0,Undirected,1
+54,55,"""ancestors of Eagles""","""ancestors of Wolves""",5.0,Undirected,1
+2,5,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Sispagut"" (Gisk'aast)",7.0,Undirected,1
+1,14,Speaker Jordan Abel,Real Marius Barbeau,7.0,Undirected,1
+5,14,"""Sispagut"" (Gisk'aast)",Real Marius Barbeau,7.0,Undirected,1
+1,2,Speaker Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",7.0,Undirected,1
+2,14,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Real Marius Barbeau,7.0,Undirected,1
+1,5,Speaker Jordan Abel,"""Sispagut"" (Gisk'aast)",7.0,Undirected,1
+3,14,"""Eagle-Raven clan""",Real Marius Barbeau,9.0,Undirected,1
+20,14,"Laxgibuu (""Wolf clan"")",Real Marius Barbeau,9.0,Undirected,1
+3,20,"""Eagle-Raven clan""","Laxgibuu (""Wolf clan"")",9.0,Undirected,1
+1,14,Speaker Jordan Abel,Real Marius Barbeau,9.0,Undirected,1
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",9.0,Undirected,1
+1,3,Speaker Jordan Abel,"""Eagle-Raven clan""",9.0,Undirected,1
+1,14,Speaker Jordan Abel,Real Marius Barbeau,11.0,Undirected,1
+1,14,Speaker Jordan Abel,Real Marius Barbeau,13.0,Undirected,1
+1,14,Speaker Jordan Abel,Real Marius Barbeau,15.0,Undirected,1
+58,60,"""Pole of Sagaween""",collage photos,17.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",17.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,17.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",17.3,Undirected,1
+58,53,"""Pole of Sagaween""",blank (missing null option here),17.3,Undirected,1
+1,53,Speaker Jordan Abel,blank (missing null option here),17.3,Undirected,1
+10,58,"men walking on ""Pole of Sag̱aween""","""Pole of Sagaween""",19.0,Undirected,1
+9,59,crew of Indians,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",19.0,Undirected,1
+9,14,crew of Indians,Real Marius Barbeau,19.0,Undirected,1
+8,9,railway engineer,crew of Indians,19.0,Undirected,1
+14,58,Real Marius Barbeau,"""Pole of Sagaween""",19.0,Undirected,1
+8,58,railway engineer,"""Pole of Sagaween""",19.0,Undirected,1
+8,10,railway engineer,"men walking on ""Pole of Sag̱aween""",19.0,Undirected,1
+9,10,crew of Indians,"men walking on ""Pole of Sag̱aween""",19.0,Undirected,1
+10,14,"men walking on ""Pole of Sag̱aween""",Real Marius Barbeau,19.0,Undirected,1
+58,59,"""Pole of Sagaween""","""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",19.0,Undirected,1
+14,59,Real Marius Barbeau,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",19.0,Undirected,1
+9,58,crew of Indians,"""Pole of Sagaween""",19.0,Undirected,1
+8,59,railway engineer,"""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",19.0,Undirected,1
+8,14,railway engineer,Real Marius Barbeau,19.0,Undirected,1
+10,59,"men walking on ""Pole of Sag̱aween""","""Three Persons Along"", ""Shaking Pole of Kw’axsuu""",19.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",21.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",23.0,Undirected,1
+11,14,"""Indians"" (abstract)",Real Marius Barbeau,23.0,Undirected,1
+1,14,Speaker Jordan Abel,Real Marius Barbeau,23.0,Undirected,1
+58,11,"""Pole of Sagaween""","""Indians"" (abstract)",23.0,Undirected,1
+58,14,"""Pole of Sagaween""",Real Marius Barbeau,23.0,Undirected,1
+1,11,Speaker Jordan Abel,"""Indians"" (abstract)",23.0,Undirected,1
+1,11,Speaker Jordan Abel,"""Indians"" (abstract)",25.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",29.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,29.0,Undirected,1
+58,60,"""Pole of Sagaween""",collage photos,29.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",29.3,Undirected,1
+12,14,"residents of Git'iks/""Gitiks""",Real Marius Barbeau,31.0,Undirected,1
+11,14,"""Indians"" (abstract)",Real Marius Barbeau,31.0,Undirected,1
+39,58,the Thunderbird,"""Pole of Sagaween""",31.0,Undirected,1
+14,58,Real Marius Barbeau,"""Pole of Sagaween""",31.0,Undirected,1
+11,12,"""Indians"" (abstract)","residents of Git'iks/""Gitiks""",31.0,Undirected,1
+39,14,the Thunderbird,Real Marius Barbeau,31.0,Undirected,1
+11,58,"""Indians"" (abstract)","""Pole of Sagaween""",31.0,Undirected,1
+39,11,the Thunderbird,"""Indians"" (abstract)",31.0,Undirected,1
+39,12,the Thunderbird,"residents of Git'iks/""Gitiks""",31.0,Undirected,1
+12,58,"residents of Git'iks/""Gitiks""","""Pole of Sagaween""",31.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",33.0,Undirected,1
+1,12,Speaker Jordan Abel,"residents of Git'iks/""Gitiks""",33.0,Undirected,1
+58,12,"""Pole of Sagaween""","residents of Git'iks/""Gitiks""",33.0,Undirected,1
+58,15,"""Pole of Sagaween""",Fictional Marius Barbeau,43.0,Undirected,1
+13,15,Barton (Laxgibuu),Fictional Marius Barbeau,43.0,Undirected,1
+58,13,"""Pole of Sagaween""",Barton (Laxgibuu),43.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",45.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,45.0,Undirected,1
+58,60,"""Pole of Sagaween""",collage photos,45.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",45.5,Undirected,1
+21,23,"""Paraet'Naerhl""",Dennis Wood,47.0,Undirected,1
+18,24,"second ""'Neesyoq"" (Laxgibuu)","""mythical man with sea cockle (kal'own)"" (carved)",47.0,Undirected,1
+18,21,"second ""'Neesyoq"" (Laxgibuu)","""Paraet'Naerhl""",47.0,Undirected,1
+14,63,Real Marius Barbeau,"""Gyaibelk"" (carved)",47.0,Undirected,1
+21,63,"""Paraet'Naerhl""","""Gyaibelk"" (carved)",47.0,Undirected,1
+22,61,"son of ""Paraet'Naerhl""","""the Sperm Whale (hlpoon)"" (carved)",47.0,Undirected,1
+23,63,Dennis Wood,"""Gyaibelk"" (carved)",47.0,Undirected,1
+17,23,"first ""'Neesyoq"" (Laxgibuu)",Dennis Wood,47.0,Undirected,1
+19,20,"""'Neeskyinwaet"" (Laxgibuu)","Laxgibuu (""Wolf clan"")",47.0,Undirected,1
+18,61,"second ""'Neesyoq"" (Laxgibuu)","""the Sperm Whale (hlpoon)"" (carved)",47.0,Undirected,1
+19,23,"""'Neeskyinwaet"" (Laxgibuu)",Dennis Wood,47.0,Undirected,1
+24,62,"""mythical man with sea cockle (kal'own)"" (carved)","""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+17,20,"first ""'Neesyoq"" (Laxgibuu)","Laxgibuu (""Wolf clan"")",47.0,Undirected,1
+20,61,"Laxgibuu (""Wolf clan"")","""the Sperm Whale (hlpoon)"" (carved)",47.0,Undirected,1
+20,21,"Laxgibuu (""Wolf clan"")","""Paraet'Naerhl""",47.0,Undirected,1
+19,22,"""'Neeskyinwaet"" (Laxgibuu)","son of ""Paraet'Naerhl""",47.0,Undirected,1
+61,62,"""the Sperm Whale (hlpoon)"" (carved)","""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+21,62,"""Paraet'Naerhl""","""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+20,63,"Laxgibuu (""Wolf clan"")","""Gyaibelk"" (carved)",47.0,Undirected,1
+62,63,"""person with many-faced garment (gyet)"" (carved)","""Gyaibelk"" (carved)",47.0,Undirected,1
+14,24,Real Marius Barbeau,"""mythical man with sea cockle (kal'own)"" (carved)",47.0,Undirected,1
+18,63,"second ""'Neesyoq"" (Laxgibuu)","""Gyaibelk"" (carved)",47.0,Undirected,1
+17,22,"first ""'Neesyoq"" (Laxgibuu)","son of ""Paraet'Naerhl""",47.0,Undirected,1
+17,62,"first ""'Neesyoq"" (Laxgibuu)","""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+24,61,"""mythical man with sea cockle (kal'own)"" (carved)","""the Sperm Whale (hlpoon)"" (carved)",47.0,Undirected,1
+14,20,Real Marius Barbeau,"Laxgibuu (""Wolf clan"")",47.0,Undirected,1
+22,24,"son of ""Paraet'Naerhl""","""mythical man with sea cockle (kal'own)"" (carved)",47.0,Undirected,1
+14,23,Real Marius Barbeau,Dennis Wood,47.0,Undirected,1
+14,17,Real Marius Barbeau,"first ""'Neesyoq"" (Laxgibuu)",47.0,Undirected,1
+19,62,"""'Neeskyinwaet"" (Laxgibuu)","""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+20,24,"Laxgibuu (""Wolf clan"")","""mythical man with sea cockle (kal'own)"" (carved)",47.0,Undirected,1
+17,19,"first ""'Neesyoq"" (Laxgibuu)","""'Neeskyinwaet"" (Laxgibuu)",47.0,Undirected,1
+14,21,Real Marius Barbeau,"""Paraet'Naerhl""",47.0,Undirected,1
+18,22,"second ""'Neesyoq"" (Laxgibuu)","son of ""Paraet'Naerhl""",47.0,Undirected,1
+20,22,"Laxgibuu (""Wolf clan"")","son of ""Paraet'Naerhl""",47.0,Undirected,1
+22,63,"son of ""Paraet'Naerhl""","""Gyaibelk"" (carved)",47.0,Undirected,1
+23,62,Dennis Wood,"""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+18,23,"second ""'Neesyoq"" (Laxgibuu)",Dennis Wood,47.0,Undirected,1
+14,62,Real Marius Barbeau,"""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+17,61,"first ""'Neesyoq"" (Laxgibuu)","""the Sperm Whale (hlpoon)"" (carved)",47.0,Undirected,1
+18,20,"second ""'Neesyoq"" (Laxgibuu)","Laxgibuu (""Wolf clan"")",47.0,Undirected,1
+20,23,"Laxgibuu (""Wolf clan"")",Dennis Wood,47.0,Undirected,1
+21,22,"""Paraet'Naerhl""","son of ""Paraet'Naerhl""",47.0,Undirected,1
+23,24,Dennis Wood,"""mythical man with sea cockle (kal'own)"" (carved)",47.0,Undirected,1
+22,23,"son of ""Paraet'Naerhl""",Dennis Wood,47.0,Undirected,1
+14,19,Real Marius Barbeau,"""'Neeskyinwaet"" (Laxgibuu)",47.0,Undirected,1
+14,22,Real Marius Barbeau,"son of ""Paraet'Naerhl""",47.0,Undirected,1
+17,21,"first ""'Neesyoq"" (Laxgibuu)","""Paraet'Naerhl""",47.0,Undirected,1
+24,63,"""mythical man with sea cockle (kal'own)"" (carved)","""Gyaibelk"" (carved)",47.0,Undirected,1
+17,18,"first ""'Neesyoq"" (Laxgibuu)","second ""'Neesyoq"" (Laxgibuu)",47.0,Undirected,1
+19,61,"""'Neeskyinwaet"" (Laxgibuu)","""the Sperm Whale (hlpoon)"" (carved)",47.0,Undirected,1
+19,21,"""'Neeskyinwaet"" (Laxgibuu)","""Paraet'Naerhl""",47.0,Undirected,1
+17,24,"first ""'Neesyoq"" (Laxgibuu)","""mythical man with sea cockle (kal'own)"" (carved)",47.0,Undirected,1
+14,18,Real Marius Barbeau,"second ""'Neesyoq"" (Laxgibuu)",47.0,Undirected,1
+19,63,"""'Neeskyinwaet"" (Laxgibuu)","""Gyaibelk"" (carved)",47.0,Undirected,1
+21,24,"""Paraet'Naerhl""","""mythical man with sea cockle (kal'own)"" (carved)",47.0,Undirected,1
+61,63,"""the Sperm Whale (hlpoon)"" (carved)","""Gyaibelk"" (carved)",47.0,Undirected,1
+22,62,"son of ""Paraet'Naerhl""","""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+17,63,"first ""'Neesyoq"" (Laxgibuu)","""Gyaibelk"" (carved)",47.0,Undirected,1
+14,61,Real Marius Barbeau,"""the Sperm Whale (hlpoon)"" (carved)",47.0,Undirected,1
+23,61,Dennis Wood,"""the Sperm Whale (hlpoon)"" (carved)",47.0,Undirected,1
+20,62,"Laxgibuu (""Wolf clan"")","""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+21,61,"""Paraet'Naerhl""","""the Sperm Whale (hlpoon)"" (carved)",47.0,Undirected,1
+18,62,"second ""'Neesyoq"" (Laxgibuu)","""person with many-faced garment (gyet)"" (carved)",47.0,Undirected,1
+19,24,"""'Neeskyinwaet"" (Laxgibuu)","""mythical man with sea cockle (kal'own)"" (carved)",47.0,Undirected,1
+18,19,"second ""'Neesyoq"" (Laxgibuu)","""'Neeskyinwaet"" (Laxgibuu)",47.0,Undirected,1
+62,63,"""person with many-faced garment (gyet)"" (carved)","""Gyaibelk"" (carved)",49.0,Undirected,1
+1,61,Speaker Jordan Abel,"""the Sperm Whale (hlpoon)"" (carved)",49.0,Undirected,1
+61,63,"""the Sperm Whale (hlpoon)"" (carved)","""Gyaibelk"" (carved)",49.0,Undirected,1
+1,62,Speaker Jordan Abel,"""person with many-faced garment (gyet)"" (carved)",49.0,Undirected,1
+24,61,"""mythical man with sea cockle (kal'own)"" (carved)","""the Sperm Whale (hlpoon)"" (carved)",49.0,Undirected,1
+61,62,"""the Sperm Whale (hlpoon)"" (carved)","""person with many-faced garment (gyet)"" (carved)",49.0,Undirected,1
+24,62,"""mythical man with sea cockle (kal'own)"" (carved)","""person with many-faced garment (gyet)"" (carved)",49.0,Undirected,1
+1,63,Speaker Jordan Abel,"""Gyaibelk"" (carved)",49.0,Undirected,1
+24,63,"""mythical man with sea cockle (kal'own)"" (carved)","""Gyaibelk"" (carved)",49.0,Undirected,1
+1,24,Speaker Jordan Abel,"""mythical man with sea cockle (kal'own)"" (carved)",49.0,Undirected,1
+64,15,man on the top of unknown Nass River pole,Fictional Marius Barbeau,55.0,Undirected,1
+65,15,unknown Nass River pole,Fictional Marius Barbeau,55.0,Undirected,1
+23,15,Dennis Wood,Fictional Marius Barbeau,55.0,Undirected,1
+65,23,unknown Nass River pole,Dennis Wood,55.0,Undirected,1
+64,23,man on the top of unknown Nass River pole,Dennis Wood,55.0,Undirected,1
+64,65,man on the top of unknown Nass River pole,unknown Nass River pole,55.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,57.0,Undirected,1
+2,25,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Jordan Abel's mother,59.0,Undirected,1
+66,2,Child Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",59.0,Undirected,1
+14,25,Real Marius Barbeau,Jordan Abel's mother,59.0,Undirected,1
+16,25,Biographical Jordan Abel,Jordan Abel's mother,59.0,Undirected,1
+14,58,Real Marius Barbeau,"""Pole of Sagaween""",59.0,Undirected,1
+14,16,Real Marius Barbeau,Biographical Jordan Abel,59.0,Undirected,1
+2,58,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Pole of Sagaween""",59.0,Undirected,1
+66,14,Child Jordan Abel,Real Marius Barbeau,59.0,Undirected,1
+2,16,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Biographical Jordan Abel,59.0,Undirected,1
+16,58,Biographical Jordan Abel,"""Pole of Sagaween""",59.0,Undirected,1
+66,16,Child Jordan Abel,Biographical Jordan Abel,59.0,Undirected,1
+66,58,Child Jordan Abel,"""Pole of Sagaween""",59.0,Undirected,1
+25,58,Jordan Abel's mother,"""Pole of Sagaween""",59.0,Undirected,1
+2,14,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Real Marius Barbeau,59.0,Undirected,1
+66,25,Child Jordan Abel,Jordan Abel's mother,59.0,Undirected,1
+25,26,Jordan Abel's mother,Jordan Abel's family,63.0,Undirected,1
+58,26,"""Pole of Sagaween""",Jordan Abel's family,63.0,Undirected,1
+16,25,Biographical Jordan Abel,Jordan Abel's mother,63.0,Undirected,1
+16,26,Biographical Jordan Abel,Jordan Abel's family,63.0,Undirected,1
+25,58,Jordan Abel's mother,"""Pole of Sagaween""",63.0,Undirected,1
+16,58,Biographical Jordan Abel,"""Pole of Sagaween""",63.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,65.0,Undirected,1
+28,29,"brothers of ""Yaw'l"" (Laxgibuu)","""Huge-Belly""",67.0,Undirected,1
+30,31,"brother of ""Yaw'l"" who killed ""Huge-Belly""","""Ksemkaigyet""/""female being""",67.0,Undirected,1
+27,29,"""Yaw'l"" (Laxgibuu)","""Huge-Belly""",67.0,Undirected,1
+28,31,"brothers of ""Yaw'l"" (Laxgibuu)","""Ksemkaigyet""/""female being""",67.0,Undirected,1
+14,29,Real Marius Barbeau,"""Huge-Belly""",67.0,Undirected,1
+48,31,Nisg̱a’a,"""Ksemkaigyet""/""female being""",67.0,Undirected,1
+29,30,"""Huge-Belly""","brother of ""Yaw'l"" who killed ""Huge-Belly""",67.0,Undirected,1
+48,28,Nisg̱a’a,"brothers of ""Yaw'l"" (Laxgibuu)",67.0,Undirected,1
+14,48,Real Marius Barbeau,Nisg̱a’a,67.0,Undirected,1
+27,30,"""Yaw'l"" (Laxgibuu)","brother of ""Yaw'l"" who killed ""Huge-Belly""",67.0,Undirected,1
+48,30,Nisg̱a’a,"brother of ""Yaw'l"" who killed ""Huge-Belly""",67.0,Undirected,1
+14,30,Real Marius Barbeau,"brother of ""Yaw'l"" who killed ""Huge-Belly""",67.0,Undirected,1
+29,31,"""Huge-Belly""","""Ksemkaigyet""/""female being""",67.0,Undirected,1
+48,29,Nisg̱a’a,"""Huge-Belly""",67.0,Undirected,1
+27,31,"""Yaw'l"" (Laxgibuu)","""Ksemkaigyet""/""female being""",67.0,Undirected,1
+27,28,"""Yaw'l"" (Laxgibuu)","brothers of ""Yaw'l"" (Laxgibuu)",67.0,Undirected,1
+28,30,"brothers of ""Yaw'l"" (Laxgibuu)","brother of ""Yaw'l"" who killed ""Huge-Belly""",67.0,Undirected,1
+14,31,Real Marius Barbeau,"""Ksemkaigyet""/""female being""",67.0,Undirected,1
+14,28,Real Marius Barbeau,"brothers of ""Yaw'l"" (Laxgibuu)",67.0,Undirected,1
+14,27,Real Marius Barbeau,"""Yaw'l"" (Laxgibuu)",67.0,Undirected,1
+48,27,Nisg̱a’a,"""Yaw'l"" (Laxgibuu)",67.0,Undirected,1
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",71.0,Undirected,1
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",73.0,Undirected,1
+48,20,Nisg̱a’a,"Laxgibuu (""Wolf clan"")",75.0,Undirected,1
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",75.0,Undirected,1
+48,1,Nisg̱a’a,Speaker Jordan Abel,75.0,Undirected,1
+1,20,Speaker Jordan Abel,"Laxgibuu (""Wolf clan"")",77.0,Undirected,1
+48,20,Nisg̱a’a,"Laxgibuu (""Wolf clan"")",77.0,Undirected,1
+48,1,Nisg̱a’a,Speaker Jordan Abel,77.0,Undirected,1
+48,1,Nisg̱a’a,Speaker Jordan Abel,79.0,Undirected,1
+48,1,Nisg̱a’a,Speaker Jordan Abel,81.0,Undirected,1
+48,1,Nisg̱a’a,Speaker Jordan Abel,83.0,Undirected,1
+32,1,"""Ksemkaigyet""/old man",Speaker Jordan Abel,85.0,Undirected,1
+48,32,Nisg̱a’a,"""Ksemkaigyet""/old man",87.0,Undirected,1
+48,1,Nisg̱a’a,Speaker Jordan Abel,87.0,Undirected,1
+1,32,Speaker Jordan Abel,"""Ksemkaigyet""/old man",87.0,Undirected,1
+48,1,Nisg̱a’a,Speaker Jordan Abel,89.0,Undirected,1
+32,49,"""Ksemkaigyet""/old man","""glass-nosed spirit""",93.0,Undirected,1
+32,1,"""Ksemkaigyet""/old man",Speaker Jordan Abel,93.0,Undirected,1
+1,49,Speaker Jordan Abel,"""glass-nosed spirit""",93.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,95.0,Undirected,1
+33,34,Jordan Abel's father,friends of Abel's parents,97.0,Undirected,1
+16,25,Biographical Jordan Abel,Jordan Abel's mother,97.0,Undirected,1
+33,25,Jordan Abel's father,Jordan Abel's mother,97.0,Undirected,1
+67,25,various totem poles in Vancouver,Jordan Abel's mother,97.0,Undirected,1
+34,67,friends of Abel's parents,various totem poles in Vancouver,97.0,Undirected,1
+33,67,Jordan Abel's father,various totem poles in Vancouver,97.0,Undirected,1
+67,16,various totem poles in Vancouver,Biographical Jordan Abel,97.0,Undirected,1
+34,16,friends of Abel's parents,Biographical Jordan Abel,97.0,Undirected,1
+33,16,Jordan Abel's father,Biographical Jordan Abel,97.0,Undirected,1
+34,25,friends of Abel's parents,Jordan Abel's mother,97.0,Undirected,1
+16,68,Biographical Jordan Abel,totem pole in Vancouver mall,105.0,Undirected,1
+1,68,Speaker Jordan Abel,totem pole in Vancouver mall,105.0,Undirected,1
+16,1,Biographical Jordan Abel,Speaker Jordan Abel,105.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,107.0,Undirected,1
+36,69,"""Gitrhawn clan""","""the Eagle""",109.0,Undirected,1
+36,14,"""Gitrhawn clan""",Real Marius Barbeau,109.0,Undirected,1
+69,14,"""the Eagle""",Real Marius Barbeau,109.0,Undirected,1
+69,41,"""the Eagle""","""the Spirit Halibut""",109.0,Undirected,1
+38,14,"chief of ""Gitrhawn clan""",Real Marius Barbeau,109.0,Undirected,1
+38,69,"chief of ""Gitrhawn clan""","""the Eagle""",109.0,Undirected,1
+36,41,"""Gitrhawn clan""","""the Spirit Halibut""",109.0,Undirected,1
+2,37,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Gunas"" (Laxsgiik)",109.0,Undirected,1
+36,38,"""Gitrhawn clan""","chief of ""Gitrhawn clan""",109.0,Undirected,1
+37,41,"""Gunas"" (Laxsgiik)","""the Spirit Halibut""",109.0,Undirected,1
+38,41,"chief of ""Gitrhawn clan""","""the Spirit Halibut""",109.0,Undirected,1
+41,14,"""the Spirit Halibut""",Real Marius Barbeau,109.0,Undirected,1
+37,14,"""Gunas"" (Laxsgiik)",Real Marius Barbeau,109.0,Undirected,1
+37,69,"""Gunas"" (Laxsgiik)","""the Eagle""",109.0,Undirected,1
+2,41,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""the Spirit Halibut""",109.0,Undirected,1
+2,38,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","chief of ""Gitrhawn clan""",109.0,Undirected,1
+2,14,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Real Marius Barbeau,109.0,Undirected,1
+2,69,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""the Eagle""",109.0,Undirected,1
+36,37,"""Gitrhawn clan""","""Gunas"" (Laxsgiik)",109.0,Undirected,1
+37,38,"""Gunas"" (Laxsgiik)","chief of ""Gitrhawn clan""",109.0,Undirected,1
+2,36,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Gitrhawn clan""",109.0,Undirected,1
+1,50,Speaker Jordan Abel,"""the Spirit""",113.0,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",121.0,Undirected,1
+60,58,collage photos,"""Pole of Sagaween""",121.0,Undirected,1
+2,60,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",collage photos,121.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,121.0,Undirected,1
+1,2,Speaker Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",121.0,Undirected,1
+2,58,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Pole of Sagaween""",121.0,Undirected,1
+58,2,"""Pole of Sagaween""","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",121.7,Undirected,1
+1,2,Speaker Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",121.7,Undirected,1
+1,58,Speaker Jordan Abel,"""Pole of Sagaween""",121.7,Undirected,1
+71,43,cedar bark squid,women singing,123.0,Undirected,1
+71,14,cedar bark squid,Real Marius Barbeau,123.0,Undirected,1
+43,44,women singing,visitors at the house of Sagaween,123.0,Undirected,1
+42,43,father of Sagaween (Gisk'aast),women singing,123.0,Undirected,1
+42,14,father of Sagaween (Gisk'aast),Real Marius Barbeau,123.0,Undirected,1
+44,14,visitors at the house of Sagaween,Real Marius Barbeau,123.0,Undirected,1
+42,44,father of Sagaween (Gisk'aast),visitors at the house of Sagaween,123.0,Undirected,1
+2,44,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",visitors at the house of Sagaween,123.0,Undirected,1
+43,14,women singing,Real Marius Barbeau,123.0,Undirected,1
+2,71,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",cedar bark squid,123.0,Undirected,1
+2,42,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",father of Sagaween (Gisk'aast),123.0,Undirected,1
+71,42,cedar bark squid,father of Sagaween (Gisk'aast),123.0,Undirected,1
+2,43,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",women singing,123.0,Undirected,1
+2,14,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Real Marius Barbeau,123.0,Undirected,1
+71,44,cedar bark squid,visitors at the house of Sagaween,123.0,Undirected,1
+1,4,Speaker Jordan Abel,"Gisk'aast (""Gyispawaduwada""/Killer Whale Clan)",125.0,Undirected,1
+42,33,father of Sagaween (Gisk'aast),Jordan Abel's father,127.0,Undirected,1
+1,42,Speaker Jordan Abel,father of Sagaween (Gisk'aast),127.0,Undirected,1
+1,33,Speaker Jordan Abel,Jordan Abel's father,127.0,Undirected,1
+42,33,father of Sagaween (Gisk'aast),Jordan Abel's father,129.0,Undirected,1
+1,42,Speaker Jordan Abel,father of Sagaween (Gisk'aast),129.0,Undirected,1
+1,33,Speaker Jordan Abel,Jordan Abel's father,129.0,Undirected,1
+1,33,Speaker Jordan Abel,Jordan Abel's father,131.0,Undirected,1
+1,42,Speaker Jordan Abel,father of Sagaween (Gisk'aast),131.0,Undirected,1
+42,33,father of Sagaween (Gisk'aast),Jordan Abel's father,131.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,137.0,Undirected,1
+16,19,Biographical Jordan Abel,"""'Neeskyinwaet"" (Laxgibuu)",139.0,Undirected,1
+45,19,Vancouver carvers,"""'Neeskyinwaet"" (Laxgibuu)",139.0,Undirected,1
+45,16,Vancouver carvers,Biographical Jordan Abel,139.0,Undirected,1
+66,19,Child Jordan Abel,"""'Neeskyinwaet"" (Laxgibuu)",139.0,Undirected,1
+33,66,Jordan Abel's father,Child Jordan Abel,139.0,Undirected,1
+66,16,Child Jordan Abel,Biographical Jordan Abel,139.0,Undirected,1
+66,45,Child Jordan Abel,Vancouver carvers,139.0,Undirected,1
+33,45,Jordan Abel's father,Vancouver carvers,139.0,Undirected,1
+33,16,Jordan Abel's father,Biographical Jordan Abel,139.0,Undirected,1
+33,19,Jordan Abel's father,"""'Neeskyinwaet"" (Laxgibuu)",139.0,Undirected,1
+72,16,ROM admissions superiors,Biographical Jordan Abel,143.0,Undirected,1
+46,14,ROM admissions staff member,Real Marius Barbeau,143.0,Undirected,1
+16,58,Biographical Jordan Abel,"""Pole of Sagaween""",143.0,Undirected,1
+46,58,ROM admissions staff member,"""Pole of Sagaween""",143.0,Undirected,1
+72,46,ROM admissions superiors,ROM admissions staff member,143.0,Undirected,1
+72,14,ROM admissions superiors,Real Marius Barbeau,143.0,Undirected,1
+46,16,ROM admissions staff member,Biographical Jordan Abel,143.0,Undirected,1
+14,16,Real Marius Barbeau,Biographical Jordan Abel,143.0,Undirected,1
+14,58,Real Marius Barbeau,"""Pole of Sagaween""",143.0,Undirected,1
+72,58,ROM admissions superiors,"""Pole of Sagaween""",143.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,153.0,Undirected,1
+73,15,"""'His grandson'""",Fictional Marius Barbeau,163.0,Undirected,1
+73,2,"""'His grandson'""","Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",163.0,Undirected,1
+2,15,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Fictional Marius Barbeau,163.0,Undirected,1
+2,13,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Barton (Laxgibuu),163.0,Undirected,1
+73,13,"""'His grandson'""",Barton (Laxgibuu),163.0,Undirected,1
+13,15,Barton (Laxgibuu),Fictional Marius Barbeau,163.0,Undirected,1
+73,13,"""'His grandson'""",Barton (Laxgibuu),165.2,Undirected,1
+73,15,"""'His grandson'""",Fictional Marius Barbeau,165.2,Undirected,1
+13,15,Barton (Laxgibuu),Fictional Marius Barbeau,165.2,Undirected,1
+73,13,"""'His grandson'""",Barton (Laxgibuu),167.2,Undirected,1
+74,13,academic voice,Barton (Laxgibuu),167.2,Undirected,1
+73,74,"""'His grandson'""",academic voice,167.2,Undirected,1
+13,15,Barton (Laxgibuu),Fictional Marius Barbeau,167.2,Undirected,1
+74,15,academic voice,Fictional Marius Barbeau,167.2,Undirected,1
+73,15,"""'His grandson'""",Fictional Marius Barbeau,167.2,Undirected,1
+60,15,collage photos,Fictional Marius Barbeau,169.0,Undirected,1
+74,60,academic voice,collage photos,169.0,Undirected,1
+74,15,academic voice,Fictional Marius Barbeau,169.0,Undirected,1
+13,15,Barton (Laxgibuu),Fictional Marius Barbeau,171.2,Undirected,1
+13,15,Barton (Laxgibuu),Fictional Marius Barbeau,173.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,175.0,Undirected,1
+60,76,collage photos,Queen Charlotte,177.0,Undirected,1
+60,14,collage photos,Real Marius Barbeau,177.0,Undirected,1
+75,76,James Deans,Queen Charlotte,177.0,Undirected,1
+75,60,James Deans,collage photos,177.0,Undirected,1
+75,14,James Deans,Real Marius Barbeau,177.0,Undirected,1
+14,76,Real Marius Barbeau,Queen Charlotte,177.0,Undirected,1
+80,76,"women related to the ""Coffin House""",Queen Charlotte,177.3,Undirected,1
+75,14,James Deans,Real Marius Barbeau,177.3,Undirected,1
+75,76,James Deans,Queen Charlotte,177.3,Undirected,1
+80,14,"women related to the ""Coffin House""",Real Marius Barbeau,177.3,Undirected,1
+80,75,"women related to the ""Coffin House""",James Deans,177.3,Undirected,1
+76,14,Queen Charlotte,Real Marius Barbeau,177.3,Undirected,1
+1,74,Speaker Jordan Abel,academic voice,183.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,183.0,Undirected,1
+74,60,academic voice,collage photos,183.0,Undirected,1
+2,60,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",collage photos,189.0,Undirected,1
+1,2,Speaker Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",189.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,189.0,Undirected,1
+1,2,Speaker Jordan Abel,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",189.4,Undirected,1
+51,77,"""Samedeek""/""chief Grizzly-Bear"" (Gisk'ansnaat)","nephews of ""Samedeek"" (Gisk'ansnaat)",191.0,Undirected,1
+2,51,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","""Samedeek""/""chief Grizzly-Bear"" (Gisk'ansnaat)",191.0,Undirected,1
+2,77,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)","nephews of ""Samedeek"" (Gisk'ansnaat)",191.0,Undirected,1
+77,14,"nephews of ""Samedeek"" (Gisk'ansnaat)",Real Marius Barbeau,191.0,Undirected,1
+2,14,"Sag̱aween/""Sakau'wan""/""Chief Mountain"" (Laxsgiik)",Real Marius Barbeau,191.0,Undirected,1
+51,14,"""Samedeek""/""chief Grizzly-Bear"" (Gisk'ansnaat)",Real Marius Barbeau,191.0,Undirected,1
+74,78,academic voice,Haida,199.0,Undirected,1
+60,14,collage photos,Real Marius Barbeau,201.0,Undirected,1
+74,14,academic voice,Real Marius Barbeau,201.0,Undirected,1
+74,60,academic voice,collage photos,201.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,237.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,239.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,241.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,243.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,245.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,247.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,249.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,251.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,253.0,Undirected,1
+1,60,Speaker Jordan Abel,collage photos,255.0,Undirected,1

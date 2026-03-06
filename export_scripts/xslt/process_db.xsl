@@ -29,7 +29,7 @@
         <xd:desc>These are the unique identifiers that distinguish the databases. Note: 'original' is ignored, 
         since this has a different structure.</xd:desc>
     </xd:doc>
-    <xsl:variable name="dbIds" as="xs:string+" select="('de', 'gs', 'hp', 'pnp', 'pod', 'tkam', 'to', 'tt', 'sh', 'fs', 's', 'utc')"/>
+    <xsl:variable name="dbIds" as="xs:string+" select="('de', 'gs', 'hp', 'pnp', 'pod', 'tkam', 'to', 'tt', 'sh', 'fs', 's', 'utc', 'ps')"/>
     
     <xd:doc>
         <xd:desc>The project data directory.</xd:desc>
