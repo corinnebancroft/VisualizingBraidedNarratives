@@ -85,9 +85,12 @@
                         <div class="legends">
                             <xsl:apply-templates select="//g[matches(@id, '^legend_\d+$')]" mode="legends"/>
                             <div class="legend">
-                                <h4>Other Controls</h4>
+                                <h4>Lines <input type="checkbox" class="group" checked="checked"/>
+                                </h4>
                                 <ul>
-                                    <li><input type="checkbox" data-id="tellline" data-regex="^tellline" checked="checked"/> Telling time</li>
+                                    <li><input type="checkbox" data-id="tellline" data-regex="^tellline" checked="checked"/> Telling time lines</li>
+                                    <li><input type="checkbox" data-id="tellline2" data-regex="^tellline_2" checked="checked"/> Telling time guidelines</li>
+                                    <li><input type="checkbox" data-id="guidelines" data-regex="^narr_guidelines_" checked="checked"/> Line graph guidelines</li>
                                 </ul>
                             </div>
                         </div>

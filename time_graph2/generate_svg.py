@@ -95,7 +95,7 @@ for i in range(len(narrator_line_df) - 1):
         color = narrator_color_map.get(row1['Narrator'], 'gray')
         ax.plot([row1['Start Page'], row2['Start Page']],
                 [row1['Midpoint Date'], row2['Midpoint Date']],
-                '-', color=color, linewidth=0.5, gid='narr_' + str(i) + '_' + re.sub(rePattern, '_', row1['Narrator']))
+                '-', color=color, linewidth=0.5, gid='narr_guidelines_' + str(i) + '_' + re.sub(rePattern, '_', row1['Narrator']))
 
 # Telling time lines and vertical guidelines
 for _, row in df.iterrows():

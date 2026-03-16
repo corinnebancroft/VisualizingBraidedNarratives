@@ -8,6 +8,21 @@ let tellingTimeCheck = null;
 let dlgEvents = null;
 let dlgTellTime = null;
 
+function syncTellingTimeChild() {
+    const parent = document.querySelector('input[data-id="tellline"]');
+    const child  = document.querySelector('input[data-id="tellline2"]');
+    if (!parent || !child) return;
+
+    if (!parent.checked) {
+        // Parent OFF → child looks off and is disabled
+        child.checked = false;
+        child.disabled = true;
+    } else {
+        // Parent ON → child regains control
+        child.disabled = false;
+    }
+}
+
 function showHideGraphElements(sender){
     console.log('Click from ' + sender.getAttribute('data-id'));
     console.log('Sender checked? ' + sender.checked);
@@ -23,7 +38,10 @@ function showHideGraphElements(sender){
                 //console.log(narr);
                 let checkNarr = document.querySelector('input[data-id="' + 'narr_' + narr + '"]');
                 if (checkNarr && checkNarr.checked){
-                    gc.style.display = display;
+                    const isGuideline = /^tellline_2/.test(gc.id);
+                    const childCheck = document.querySelector('input[data-id="tellline2"]');
+                    const showThis = !isGuideline || (childCheck && childCheck.checked);
+                    gc.style.display = showThis ? display : 'none';
                 }
             }
         }
@@ -47,6 +65,7 @@ function showHideGraphElements(sender){
             }
         }
     }
+    syncTellingTimeChild();
     if (!switching){
         alignCheckboxes(sender.closest('div.legend').querySelector('input.group'));
     }
@@ -150,6 +169,7 @@ function setupControls(){
         if (graphComponents[i].id.match(/^(narrmark|charline|char)_/)){
             graphComponents[i].addEventListener('click', function(){showEvent(this);}.bind(graphComponents[i]));
         }
+    syncTellingTimeChild(); // initialize child disabled/checked state on load
     }
 
     // Attach a separate pop-up for telling-time lines.
