@@ -152,6 +152,17 @@ plt.tight_layout()  # Optional: helps with spacing of other elements
 outFile = Path(args.in_df).with_suffix('.svg')
 plt.savefig(outFile, format="svg", bbox_inches='tight')
 
+# Remove the default 5% horizontal padding inside the axes
+ax.margins(x=0)
+
+# (Optional but robust) force x-limits from all x-like columns you use
+x_vals = pd.concat(
+    [df['Start Page'],
+     df['Start Page TT'], df['End Page TT']]
+).dropna()
+if not x_vals.empty:
+    ax.set_xlim(x_vals.min(), x_vals.max())
+
 # We don't show the image because that blocks subsequent processing.
 # Open the image locally if you would like to see it.
 # plt.show()

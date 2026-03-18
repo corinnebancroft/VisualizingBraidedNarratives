@@ -263,7 +263,7 @@
     </xd:doc>
     <xsl:template match="svg" mode="initial">
         <xsl:variable name="strWAxisWidth" as="xs:string" select="replace(descendant::g[@id='axes_1']/g[1]/path/@d, '^[^L]+L\s*([\d\.]+)\s.+$', '$1')"/>
-        <xsl:variable name="newWidth" as="xs:float" select="xs:float($strWAxisWidth) + 20"/>
+        <xsl:variable name="newWidth" as="xs:float" select="xs:float($strWAxisWidth) + 4"/>
         <xsl:variable name="strOldWidth" as="xs:string" select="replace(@width, '[^\.\d]+', '')"/>
         <xsl:variable name="strNewWidth" as="xs:string" select="format-number($newWidth, '#.######')"/>
         <xsl:message expand-text="yes">Converting old width of {$strOldWidth} to {$strNewWidth} based on horizontal axis width of {$strWAxisWidth}.</xsl:message>
