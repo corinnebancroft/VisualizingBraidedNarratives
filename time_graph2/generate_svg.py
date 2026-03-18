@@ -56,7 +56,7 @@ narrator_color_map = {narrator: color_dict.get(narrator, 'gray') for narrator in
 color_map = {char: color_dict.get(char, 'gray') for char in all_characters}
 
 # Create figure size
-fig, ax = plt.subplots(figsize=(15, 8))
+fig, ax = plt.subplots(figsize=(16, 9))
 
 # Define a single radius in page units
 circle_radius = 4  # adjust this value to control spacing

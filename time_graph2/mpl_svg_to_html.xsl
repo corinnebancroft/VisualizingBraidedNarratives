@@ -74,28 +74,28 @@
             </head>
             <body id="{$graphId}">
                 <main>
-                    <!--<xsl:comment>SVG loaded as an image, minus legends.</xsl:comment>
-                    <img src="{tokenize(base-uri(/), '/')[last()]}" alt="{xs:string(//g[@id='graphTitle'])}"/>-->
-                    <xsl:comment>SVG embedded directly, with some modifications.</xsl:comment>
-                    <div class="graph">
-                        <xsl:apply-templates mode="initial"/>
-                    </div>
-                    <xsl:comment>Re-creation of legends in HTML.</xsl:comment>
-                    <form>
-                        <div class="legends">
-                            <xsl:apply-templates select="//g[matches(@id, '^legend_\d+$')]" mode="legends"/>
-                            <div class="legend">
-                                <h4>Lines <input type="checkbox" class="group" checked="checked"/>
-                                </h4>
-                                <ul>
-                                    <li><input type="checkbox" data-id="tellline" data-regex="^tellline" checked="checked"/> Telling time lines</li>
-                                    <li><input type="checkbox" data-id="tellline2" data-regex="^tellline_2" checked="checked"/> Telling time guidelines</li>
-                                    <li><input type="checkbox" data-id="guidelines" data-regex="^narr_guidelines_" checked="checked"/> Line graph guidelines</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </form>
-                </main>
+  <section class="figure">
+    <!-- SVG embedded directly, with some modifications. -->
+    <div class="graph">
+      <xsl:apply-templates mode="initial"/>
+    </div>
+
+    <!-- Re-creation of legends in HTML. -->
+    <form class="legend-form">
+      <div class="legends">
+        <xsl:apply-templates select="//g[matches(@id, '^legend_\d+$')]" mode="legends"/>
+        <div class="legend">
+          <h4>Lines <input type="checkbox" class="group" checked="checked"/></h4>
+          <ul>
+            <li><input type="checkbox" data-id="tellline"  data-regex="^tellline"    checked="checked"/> Telling time lines</li>
+            <li><input type="checkbox" data-id="tellline2" data-regex="^tellline_2"  checked="checked"/> Telling time guidelines</li>
+            <li><input type="checkbox" data-id="guidelines" data-regex="^narr_guidelines_" checked="checked"/> Line graph guidelines</li>
+          </ul>
+        </div>
+      </div>
+    </form>
+  </section>
+</main>
                 <section class="appendix">
                     <ul>
                         <xsl:for-each select="$jsonData//js:map[@key='Event Name']/js:string">

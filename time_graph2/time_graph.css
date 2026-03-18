@@ -66,3 +66,90 @@ dialog#dlgTellTime{
 dialog#dlgEvents p.attributes {
     font-size: 0.83em; /* match h5 default size */
 }
+
+/* ------------------------------
+   Figure layout (plot + legends)
+   ------------------------------ */
+
+/* Fixed legend width for desktop */
+:root {
+  --legend-width: 320px;
+}
+
+/* Wrapper around plot + legends */
+section.figure {
+  container-type: inline-size;
+  display: grid;
+  grid-template-columns: 1fr; /* default: stack */
+  gap: 1rem;
+}
+
+/* Desktop layout: legends on the right */
+@container (min-width: 1200px) {
+  section.figure {
+    grid-template-columns: 1fr var(--legend-width);
+    align-items: start;
+  }
+
+  section.figure .graph {
+    grid-column: 1;
+  }
+
+  section.figure .legend-form {
+    grid-column: 2;
+  }
+
+  /* Stack legend boxes vertically on desktop */
+  div.legends {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* Let SVG fill its column */
+div.graph {
+  width: 100%;
+  margin: 0;
+}
+
+div.graph svg|svg {
+  max-width: 100%;
+  height: auto;
+}
+/* -----------------------------------------
+   Desktop legend alignment/centering tweaks
+   ----------------------------------------- */
+:root {
+  /* You already set the legend width. Add a tunable top offset
+     so the first legend aligns with the framed SVG (below the title). */
+  --legend-width: 220px;      /* keep as-is, or tweak to 300/360 */
+  --legend-top-offset: 2.25rem; /* nudge down to align with plot frame */
+}
+
+@container (min-width: 1200px) {
+  /* Keep grid: plot | legend column */
+  section.figure {
+    grid-template-columns: 1fr var(--legend-width);
+    align-items: start; /* top-align both columns */
+    column-gap: 0.75rem;
+  }
+
+  /* Align legends to SVG */
+  section.figure .legend-form {
+    grid-column: 2;
+    width: var(--legend-width);
+    margin-top: var(--legend-top-offset);
+    margin-left: -2px;        /* subtle nudge toward the SVG's inner frame; tweak -1px..-3px */
+    margin-right: 0;
+    justify-self: start;      /* anchor to the left edge of the right column */
+  }
+
+  /* Vertical stack of legend boxes with even spacing */
+  .legends {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start; /* make each box the same width */
+    justify-content: flex-start;
+  }
+}
