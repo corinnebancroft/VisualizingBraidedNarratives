@@ -75,6 +75,7 @@
             <body id="{$graphId}">
                 <main>
   <section class="figure">
+      <h3 class="figure-title"><xsl:value-of select="$graphTitle"/></h3>
     <!-- SVG embedded directly, with some modifications. -->
     <div class="graph">
       <xsl:apply-templates mode="initial"/>
@@ -294,6 +295,7 @@
         <xd:desc>In processing the svg, we remove the legends.</xd:desc>
     </xd:doc>
     <xsl:template match="g[matches(@id, '^legend_\d+$')]" mode="initial"/>
+    <xsl:template match="g[@id='graphTitle']" mode="initial"/>
         
     <xd:doc>
         <xd:desc>In generating the HTML controls, we start from the.</xd:desc>

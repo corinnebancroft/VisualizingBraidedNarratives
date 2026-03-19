@@ -90,13 +90,24 @@ section.figure {
   container-type: inline-size;
   display: grid;
   grid-template-columns: 1fr; /* default: stack */
+  grid-template-rows: auto 1fr; /* row 1 = title, row 2 = content */
   gap: 1rem;
+}
+
+/* Title styling (tweak as you like) */
+.figure-title {
+    grid-column: 1 / -1;             /* span all columns */
+    grid-row: 1;
+    margin: 0 0 0.25rem 0;
+    text-align: center;               /* or left */
+    font: 600 1.1rem/1.25 system-ui, sans-serif;
 }
 
 @media (min-width: 1200px) {
   section.figure {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(var(--legend-min), var(--legend-width));
+  grid-template-rows: auto 1fr;   /* title row + content row */
   align-items: start;
   gap: 0.5rem;
   }
@@ -145,6 +156,10 @@ section.figure {
     max-width: none;
     height: auto;
   }
+
+  /* Row placement: title = row 1, plot + legends = row 2 */
+  section.figure .graph       { grid-column: 1; grid-row: 2; }
+  section.figure .legend-form { grid-column: 2; grid-row: 2; }
 }
 
 /* Let SVG fill its column */
