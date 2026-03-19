@@ -71,9 +71,18 @@ dialog#dlgEvents p.attributes {
    Figure layout (plot + legends)
    ------------------------------ */
 
-/* Fixed legend width for desktop */
+/* Determine plot legend width for larger screens */
 :root {
-  --legend-width: 220px;
+  /* Legends: never smaller than 260px, prefer ~22vw, cap around 340px */
+  --legend-min: 220px;
+  --legend-max: 21rem;      /* ≈336px if 1rem=16px */
+  --legend-ideal: 22vw;
+
+  /* Use clamp to compute a responsive legend width */
+  --legend-width: clamp(var(--legend-min), var(--legend-ideal), var(--legend-max));
+
+  /* Plot width cap for wide screens */
+  --svg-max: 80rem;
 }
 
 /* Wrapper around plot + legends */
@@ -84,50 +93,58 @@ section.figure {
   gap: 1rem;
 }
 
-/* Desktop layout: legends on the right */
-@container (min-width: 1200px) {
+@media (min-width: 1200px) {
   section.figure {
-    grid-template-columns: 1fr var(--legend-width);
-    align-items: start;
-    gap: 0.75rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(var(--legend-min), var(--legend-width));
+  align-items: start;
+  gap: 0.5rem;
   }
 
+  /* Center the plot cell only */
+  section.figure .graph { justify-self: center; }
+
+  /* Pin the legend cell to the left edge of its column */
+  section.figure .legend-form { justify-self: start; align-self: start; }
+
+  /* Stop .graph from stretching on large screens */
   section.figure .graph {
     grid-column: 1;
+    outline: 2px dashed blue;    /* TEMP visual aid */
+    display: block;               /* override global flex */
+    margin: 0 auto;
+    width: 100%;           /* hug the SVG width */
+    max-width: none;
   }
 
-  /* Left-justify the legend column content */
   section.figure .legend-form {
     grid-column: 2;
     display: flex;
-    justify-content: flex-start;  /* left-justify the legends block */
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 0;
     margin: 0;
+    min-width: var(--legend-min);
+    outline: 2px dashed red;      /* TEMP visual aid */
   }
 
-  /* Override the global centering */
   section.figure .legend-form .legends {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    justify-content: flex-start;  /* <-- key override */
+    justify-content: flex-start;
+    gap: 0.75 rem;
     margin: 0;
+    text-align: left;
   }
 
-  /* Optional: remove any extra margins on boxes */
-  section.figure .legend-form .legends .legend {
-    margin: 0;
+  /* SVG sizing on large screens */
+  section.figure .graph svg|svg {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
   }
-
-  /* TEMP: visualize the grid and the legend column */
-section.figure { outline: 2px dashed orange; }
-section.figure .graph { outline: 2px dashed blue; }
-section.figure .legend-form { outline: 2px dashed red; }
-
-/* TEMP: show the literal grid gap between columns */
-@container (min-width: 1200px) {
-  section.figure { gap: 0.25rem; } /* tiny gap */
 }
 
 /* Let SVG fill its column */
