@@ -193,4 +193,166 @@ function setupControls(){
     tellingTimeCheck = document.querySelector('input[data-id="tellline"]');
 }   
 
+// --- Zoom & pan (viewBox-based) ---
+function setupZoomPan(){
+    const figure  = document.querySelector('section.figure');
+    if (!figure) return;
+
+    const svg     = figure.querySelector('.graph svg');
+    const toolbar = figure.querySelector('.toolbar');
+    if (!svg) return;
+
+    svg.setAttribute('tabindex','0'); // allow focus/keyboard later
+
+    // Allow pointer panning without browser gestures interfering
+    svg.style.touchAction = 'none';
+
+    // -- Helpers ------------------------------------------------------------
+    function parseViewBox(el){
+        const vbAttr = el.getAttribute('viewBox');
+        if (vbAttr){
+            const [x, y, w, h] = vbAttr.trim().split(/[\s,]+/).map(Number);
+            return { x, y, w, h };
+        }
+        // Fallback if no viewBox present
+        const w = parseFloat(el.getAttribute('width'))  || el.getBoundingClientRect().width  || 100;
+        const h = parseFloat(el.getAttribute('height')) || el.getBoundingClientRect().height || 100;
+        return { x: 0, y: 0, w, h };
+    }
+
+    function setViewBox(vb){
+        svg.setAttribute('viewBox', `${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
+    }
+
+    function clientToSvg(clientX, clientY, vb){
+        const r = svg.getBoundingClientRect();
+        const sx = vb.x + (clientX - r.left) / r.width  * vb.w;
+        const sy = vb.y + (clientY - r.top)  / r.height * vb.h;
+        return { sx, sy, rect: r };
+    }
+
+    function zoomAt(factor, cx, cy){
+        // factor < 1 → zoom in; factor > 1 → zoom out
+        const { x, y, w, h } = vb;
+        const { sx, sy } = clientToSvg(cx, cy, vb);
+
+        const nw = w * factor;
+        const nh = h * factor;
+
+        // Keep the cursor's data point stationary during zoom
+        vb.x = sx - (sx - x) * (nw / w);
+        vb.y = sy - (sy - y) * (nh / h);
+        vb.w = nw;
+        vb.h = nh;
+        setViewBox(vb);
+    }
+
+    function isInteractiveTarget(node){
+    // Do NOT pan if press starts on interactive plot elements
+    return !!(node && node.closest('g[id^="narr_"], g[id^="narrmark_"], g[id^="charline_"], g[id^="char_"], g[id^="tellline_"]'));
+    }
+    const MOVE_THRESHOLD = 6; // px; treat smaller movement as a click, not a pan
+
+
+    // -- State --------------------------------------------------------------
+    const vbOriginal = parseViewBox(svg);
+    const vb = { ...vbOriginal };    // mutable working copy
+    setViewBox(vb);                   // ensure viewBox is present/normalized
+
+    // -- Buttons ------------------------------------------------------------
+    if (toolbar){
+        const btnIn    = toolbar.querySelector('button.zoom-in');
+        const btnOut   = toolbar.querySelector('button.zoom-out');
+        const btnReset = toolbar.querySelector('button.reset');
+
+        if (btnIn){
+            btnIn.addEventListener('click', () => {
+                // 20% zoom in around the view center
+                const r = svg.getBoundingClientRect();
+                zoomAt(1/1.2, r.left + r.width/2, r.top + r.height/2);
+            });
+        }
+        if (btnOut){
+            btnOut.addEventListener('click', () => {
+                // 20% zoom out around the view center
+                const r = svg.getBoundingClientRect();
+                zoomAt(1.2, r.left + r.width/2, r.top + r.height/2);
+            });
+        }
+        if (btnReset){
+            btnReset.addEventListener('click', () => {
+                Object.assign(vb, vbOriginal);
+                setViewBox(vb);
+            });
+        }
+    }
+
+    // -- Wheel zoom (around cursor) ----------------------------------------
+    svg.addEventListener('wheel', (e) => {
+        // Prevent page scroll when interacting with the plot
+        e.preventDefault();
+        // Natural feel: wheel up = zoom in; wheel down = zoom out
+        const factor = (e.deltaY < 0) ? (1/1.2) : 1.2;
+        zoomAt(factor, e.clientX, e.clientY);
+    }, { passive: false });
+
+    // -- Drag pan (always on, but not on interactive targets) ---------------
+let isPanning = false;
+let last = { cx: 0, cy: 0 };
+let movedDuringPan = false;
+
+svg.addEventListener('pointerdown', (e) => {
+    // Only pan on primary button and if press is NOT on an interactive plot element
+    const startOnInteractive = isInteractiveTarget(e.target);
+    isPanning = (e.button === 0) && !startOnInteractive;
+    movedDuringPan = false;
+    last.cx = e.clientX;
+    last.cy = e.clientY;
+
+    if (isPanning) {
+        svg.setPointerCapture(e.pointerId);
+        // Prevent text selection / image drag while panning
+        e.preventDefault();
+    }
+});
+
+svg.addEventListener('pointermove', (e) => {
+    if (!isPanning) return;
+    const dx = e.clientX - last.cx;
+    const dy = e.clientY - last.cy;
+
+    // Convert pixel delta to SVG units using current viewBox
+    const r = svg.getBoundingClientRect();
+    vb.x -= dx / r.width  * vb.w;
+    vb.y -= dy / r.height * vb.h;
+    setViewBox(vb);
+
+    last.cx = e.clientX;
+    last.cy = e.clientY;
+
+    // Flag as a real pan only after a noticeable move
+    if (!movedDuringPan && (Math.abs(dx) + Math.abs(dy) >= MOVE_THRESHOLD)) {
+        movedDuringPan = true;
+    }
+});
+
+function endPan(e){
+    if (!isPanning) return;
+    isPanning = false;
+    // No click suppression: interactive elements should receive clicks normally.
+}
+svg.addEventListener('pointerup', endPan);
+svg.addEventListener('pointercancel', endPan);
+
+
+    // -- Optional: double-click to reset (nice to have)
+    svg.addEventListener('dblclick', () => {
+        Object.assign(vb, vbOriginal);
+        setViewBox(vb);
+    });
+}
+
 window.addEventListener('load', function(){setupControls();});
+
+// Initialize zoom/pan after the page loads
+window.addEventListener('load', function(){ setupZoomPan(); });

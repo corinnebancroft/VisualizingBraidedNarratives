@@ -76,6 +76,8 @@
                 <main>
   <section class="figure">
       <h3 class="figure-title"><xsl:value-of select="$graphTitle"/></h3>
+      <!-- Controls (Zoom+, Zoom−, Reset) -->
+
     <!-- SVG embedded directly, with some modifications. -->
     <div class="graph">
       <xsl:apply-templates mode="initial"/>
@@ -93,6 +95,15 @@
             <li><input type="checkbox" data-id="guidelines" data-regex="^narr_guidelines_" checked="checked"/> Line graph guidelines</li>
           </ul>
         </div>
+          <!-- Zoom controls as a legend card -->
+      <div class="legend legend-zoom">
+        <h4>Zoom</h4>
+        <div class="toolbar" role="group" aria-label="Zoom controls">
+          <button type="button" class="zoom-in">Zoom +</button>
+          <button type="button" class="zoom-out">Zoom −</button>
+          <button type="button" class="reset">Reset</button>
+        </div>
+      </div>
       </div>
     </form>
   </section>

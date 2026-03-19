@@ -107,7 +107,7 @@ section.figure {
   section.figure {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(var(--legend-min), var(--legend-width));
-  grid-template-rows: auto 1fr;   /* title row + content row */
+  grid-template-rows: auto 1fr;   /* row1: title, content */
   align-items: start;
   gap: 0.5rem;
   }
@@ -121,7 +121,7 @@ section.figure {
   /* Stop .graph from stretching on large screens */
   section.figure .graph {
     grid-column: 1;
-    outline: 2px dashed blue;    /* TEMP visual aid */
+    grid-row: 2;
     display: block;               /* override global flex */
     margin: 0 auto;
     width: 100%;           /* hug the SVG width */
@@ -130,13 +130,13 @@ section.figure {
 
   section.figure .legend-form {
     grid-column: 2;
+    grid-row: 2;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 0;
     margin: 0;
     min-width: var(--legend-min);
-    outline: 2px dashed red;      /* TEMP visual aid */
   }
 
   section.figure .legend-form .legends {
@@ -144,7 +144,7 @@ section.figure {
     flex-direction: column;
     align-items: stretch;
     justify-content: flex-start;
-    gap: 0.75 rem;
+    gap: 0.75rem;
     margin: 0;
     text-align: left;
   }
@@ -157,10 +157,10 @@ section.figure {
     height: auto;
   }
 
-  /* Row placement: title = row 1, plot + legends = row 2 */
-  section.figure .graph       { grid-column: 1; grid-row: 2; }
-  section.figure .legend-form { grid-column: 2; grid-row: 2; }
-}
+  /* Row placement: title = row 1, content = row 2 */
+    section.figure .graph       { grid-column: 1; grid-row: 2; }
+    section.figure .legend-form { grid-column: 2; grid-row: 2; }
+    }
 
 /* Let SVG fill its column */
 div.graph {
@@ -173,3 +173,144 @@ div.graph svg|svg {
   height: auto;
 }
 
+/* ------------------------------
+   Zoom toolbar (plot controls)
+   ------------------------------ */
+
+/* Button appearance: match existing site style (neutral gray, subtle borders) */
+section.figure .toolbar button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid #c5c9cf;
+  background-color: #f6f7f9;
+  color: #222;                 /* high-contrast text */
+  border-radius: 0.375rem;     /* ≈6px */
+  padding: 0.4rem 0.75rem;
+  font: 500 0.95rem/1 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+  transition: background-color .12s ease, border-color .12s ease, box-shadow .12s ease;
+}
+
+/* Hover/active states */
+section.figure .toolbar button:hover {
+  background-color: #eef0f3;
+  border-color: #b8bdc4;
+}
+section.figure .toolbar button:active {
+  background-color: #e7eaee;
+  border-color: #aeb3ba;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.06);
+}
+
+/* Focus ring (keyboard and accessibility) */
+section.figure .toolbar button:focus-visible {
+  outline: 2px solid transparent;         /* reset default */
+  box-shadow:
+    0 0 0 2px #fff,                       /* knock-out */
+    0 0 0 4px rgba(33, 113, 199, 0.75);   /* blue focus ring */
+}
+
+/* Keep toolbar from stretching on large screens */
+@media (min-width: 1200px) {
+  section.figure .toolbar {
+    grid-column: 1;  /* same column as the plot */
+    grid-row: 2;     /* same row as the plot */
+    justify-self: start; /* align with plot left edge */
+    margin-top: 0;       /* pull closer to the plot */
+    margin-bottom: 0.5rem;
+  }
+}
+
+section.figure .toolbar { outline: 2px solid hotpink !important; min-height: 2rem; }
+section.figure .toolbar button { display: inline-block !important; }
+
+/* ---------------------------------
+   Card styling to match other page
+   --------------------------------- */
+
+/* Common variables (tweak if needed) */
+:root {
+  --card-bg: #f7f7f7;     /* light grey fill */
+  --card-bd: #dfe3e8;     /* light grey border */
+  --card-radius: 6px;
+}
+
+/* Toolbar as a light-grey card */
+section.figure .toolbar {
+  background: var(--card-bg);
+  border: 1px solid var(--card-bd);
+  border-radius: var(--card-radius);
+  padding: 0.5rem 0.75rem;
+}
+
+/* Plot container as a light-grey card behind the SVG */
+section.figure .graph {
+  background: var(--card-bg);
+  border: 1px solid var(--card-bd);
+  border-radius: var(--card-radius);
+  padding: 0.5rem;             /* keeps SVG off the border */
+}
+
+/* Legends in light-grey cards, stacked inside the right column */
+section.figure .legend-form .legends > .legend {
+  background: var(--card-bg);
+  border: 1px solid var(--card-bd);
+  border-radius: var(--card-radius);
+  padding: 0.5rem;
+}
+
+/* Ensure the legend container itself doesn't add extra borders/margins */
+section.figure .legend-form {
+  background: transparent;
+  border: 0;
+}
+
+/* Buttons already match, but give them a subtle inner spacing from card edge */
+section.figure .toolbar button + button { margin-left: 0.25rem; }
+
+/* Clean up temporary debug lines (you can delete these three rules once happy) */
+section.figure .graph       { outline: none !important; }
+section.figure .legend-form { outline: none !important; }
+section.figure .toolbar     { outline: none !important; }
+
+/* The legend column is a vertical stack on large screens. Ensure it is flex-column. */
+@media (min-width: 1200px) {
+  section.figure .legend-form .legends {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 0.75rem;   /* (fix the space in your earlier rule: was "0.75 rem") */
+    margin: 0;
+    text-align: left;
+    min-height: 100%;
+  }
+
+  /* Push the Zoom card to the bottom of the legend stack */
+  section.figure .legend-form .legend-zoom {
+    margin-top: auto;      /* takes remaining vertical space → bottom */
+  }
+}
+
+/* On narrow screens, legends wrap in rows; park the Zoom card to the right edge */
+@media (max-width: 1199.98px) {
+  .legend-form .legends {
+    display: flex;           /* you already have flex+wrap at the top; this reasserts it */
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center; /* your existing behavior */
+  }
+  .legend-form .legend-zoom {
+    align-self: flex-end;    /* sit at the right side of the wrapping row */
+    margin-left: auto;       /* push to the right when sharing a row */
+  }
+}
+
+/* Zoom card inherits the card look (already added earlier) */
+/* If you want a smaller h4 for this card: */
+.legend-zoom > h4 {
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+  font-size: 1rem;
+}
