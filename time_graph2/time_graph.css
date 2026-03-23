@@ -244,14 +244,6 @@ section.figure .toolbar {
   padding: 0.5rem 0.75rem;
 }
 
-/* Plot container as a light-grey card behind the SVG */
-section.figure .graph {
-  background: var(--card-bg);
-  border: 1px solid var(--card-bd);
-  border-radius: var(--card-radius);
-  padding: 0.5rem;             /* keeps SVG off the border */
-}
-
 /* Legends in light-grey cards, stacked inside the right column */
 section.figure .legend-form .legends > .legend {
   background: var(--card-bg);

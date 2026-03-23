@@ -232,20 +232,34 @@ function setupZoomPan(){
     }
 
     function zoomAt(factor, cx, cy){
-        // factor < 1 → zoom in; factor > 1 → zoom out
-        const { x, y, w, h } = vb;
-        const { sx, sy } = clientToSvg(cx, cy, vb);
+  // factor < 1 → zoom in; factor > 1 → zoom out
+  const { x, y, w, h } = vb;
+  const { sx, sy } = clientToSvg(cx, cy, vb);
 
-        const nw = w * factor;
-        const nh = h * factor;
+  // Compute the unconstrained new size
+  const rawW = w * factor;
+  const rawH = h * factor;
 
-        // Keep the cursor's data point stationary during zoom
-        vb.x = sx - (sx - x) * (nw / w);
-        vb.y = sy - (sy - y) * (nh / h);
-        vb.w = nw;
-        vb.h = nh;
-        setViewBox(vb);
-    }
+  // Clamp so we never go "smaller than 100%" (i.e., never exceed original size)
+  // Keep aspect ratio by reducing the factor uniformly on both dimensions.
+  const maxFactorW = vbOriginal.w / w; // maximum allowed zoom-out scale for width
+  const maxFactorH = vbOriginal.h / h; // maximum allowed zoom-out scale for height
+  const allowedFactor = (factor > 1)
+    ? Math.min(factor, maxFactorW, maxFactorH)
+    : factor;
+
+  const nw = w * allowedFactor;
+  const nh = h * allowedFactor;
+
+  // Keep the cursor's data point stationary during zoom
+  vb.x = sx - (sx - x) * (nw / w);
+  vb.y = sy - (sy - y) * (nh / h);
+  vb.w = nw;
+  vb.h = nh;
+
+  setViewBox(vb);
+  updateButtons();
+}
 
     function isInteractiveTarget(node){
     // Do NOT pan if press starts on interactive plot elements
@@ -259,33 +273,51 @@ function setupZoomPan(){
     const vb = { ...vbOriginal };    // mutable working copy
     setViewBox(vb);                   // ensure viewBox is present/normalized
 
-    // -- Buttons ------------------------------------------------------------
-    if (toolbar){
-        const btnIn    = toolbar.querySelector('button.zoom-in');
-        const btnOut   = toolbar.querySelector('button.zoom-out');
-        const btnReset = toolbar.querySelector('button.reset');
+// ---- Zoom limits (1 = 100%) ---------------------------------------------
+const MIN_ZOOM  = 1;     // cap zoom-out at 100%
+const ZOOM_STEP = 1.2;   // your existing step
 
-        if (btnIn){
-            btnIn.addEventListener('click', () => {
-                // 20% zoom in around the view center
-                const r = svg.getBoundingClientRect();
-                zoomAt(1/1.2, r.left + r.width/2, r.top + r.height/2);
-            });
-        }
-        if (btnOut){
-            btnOut.addEventListener('click', () => {
-                // 20% zoom out around the view center
-                const r = svg.getBoundingClientRect();
-                zoomAt(1.2, r.left + r.width/2, r.top + r.height/2);
-            });
-        }
-        if (btnReset){
-            btnReset.addEventListener('click', () => {
-                Object.assign(vb, vbOriginal);
-                setViewBox(vb);
-            });
-        }
-    }
+// Convenience: buttons may be null if toolbar missing
+const btnIn    = toolbar?.querySelector('button.zoom-in')  || null;
+const btnOut   = toolbar?.querySelector('button.zoom-out') || null;
+const btnReset = toolbar?.querySelector('button.reset')    || null;
+
+// Current zoom factor (derived from viewBox width)
+function currentZoom() {
+  return vbOriginal.w / vb.w;   // 1.0 when vb == vbOriginal
+}
+
+function updateButtons() {
+  if (btnOut) btnOut.disabled = currentZoom() <= MIN_ZOOM + 1e-9;
+  // If you ever add a MAX_ZOOM, you can also disable btnIn here.
+}
+
+    // -- Buttons ------------------------------------------------------------
+
+  // -- Buttons ------------------------------------------------------------
+if (toolbar) {
+  if (btnIn){
+    btnIn.addEventListener('click', () => {
+      const r = svg.getBoundingClientRect();
+      zoomAt(1/ZOOM_STEP, r.left + r.width/2, r.top + r.height/2);
+    });
+  }
+  if (btnOut){
+    btnOut.addEventListener('click', () => {
+      const r = svg.getBoundingClientRect();
+      zoomAt(ZOOM_STEP, r.left + r.width/2, r.top + r.height/2);
+    });
+  }
+  if (btnReset){
+    btnReset.addEventListener('click', () => {
+      Object.assign(vb, vbOriginal);
+      setViewBox(vb);
+      updateButtons();
+    });
+  }
+  // Initialize disabled state on load
+  updateButtons();
+}
 
     // -- Wheel zoom (around cursor) ----------------------------------------
     svg.addEventListener('wheel', (e) => {
