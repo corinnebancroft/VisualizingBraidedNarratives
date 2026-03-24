@@ -192,6 +192,29 @@
                                 <strong>Evidence: </strong>
                                 <xsl:sequence select="$jsonData//js:map[@key='Evidence']/js:string[@key=$key]/text()"/>
                                 </p>
+                                <!-- Page Number: Start Page (or Start Page - End Page) -->
+<xsl:variable name="startPageRaw"
+    select="$jsonData//js:map[@key='Start Page']/(js:string|js:number)[@key=$key]/text()"/>
+<xsl:variable name="endPageRaw"
+    select="$jsonData//js:map[@key='End Page']/(js:string|js:number)[@key=$key]/text()"/>
+
+<!-- Only output if there is at least a start page -->
+<xsl:if test="normalize-space($startPageRaw) != ''">
+    <p class="attributes">
+        <strong>Page Number: </strong>
+        <xsl:choose>
+            <xsl:when test="normalize-space($startPageRaw) = normalize-space($endPageRaw)
+                            or normalize-space($endPageRaw) = ''">
+                <xsl:value-of select="$startPageRaw"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$startPageRaw"/>
+                <xsl:text> - </xsl:text>
+                <xsl:value-of select="$endPageRaw"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </p>
+</xsl:if>
                             </li>
                         </xsl:for-each>
                     </ul>
