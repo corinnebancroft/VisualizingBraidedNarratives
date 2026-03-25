@@ -37,7 +37,17 @@ function showHideGraphElements(sender){
                 let narr = gc.getAttribute('id').replace(/^tellline_\d+_(.+)_\d+$/, '$1');
                 //console.log(narr);
                 let checkNarr = document.querySelector('input[data-id="' + 'narr_' + narr + '"]');
-                if (checkNarr && checkNarr.checked){
+                const senderId = sender.getAttribute('data-id');
+
+if (
+    checkNarr &&
+    checkNarr.checked &&
+    (
+        senderId === ('narr_' + narr) ||
+        senderId === 'tellline' ||
+        senderId === 'tellline2'
+    )
+){
                     const isGuideline = /^tellline_2/.test(gc.id);
                     const childCheck = document.querySelector('input[data-id="tellline2"]');
                     const showThis = !isGuideline || (childCheck && childCheck.checked);
@@ -64,6 +74,15 @@ function showHideGraphElements(sender){
                 graphComponents[i].style.display = tellingLinesDisplay;
             }
         }
+
+        // ALSO hide/show line graph guidelines when Narrator is toggled
+let guidelinesRe = /^narr_guidelines_/;
+
+for (let i = 0; i < graphComponents.length; i++) {
+  if (graphComponents[i].id.match(guidelinesRe)) {
+    graphComponents[i].style.display = tellingLinesDisplay;
+  }
+}
     }
     syncTellingTimeChild();
     if (!switching){
