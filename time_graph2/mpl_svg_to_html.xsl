@@ -366,6 +366,10 @@
                         <xsl:if test="$idPrefix eq 'narr'">
                             <xsl:attribute name="data-telling-regex" select="'^tellline_\d+_' || hcmc:nameToIdBit($persName) || '_\d+$'"/>
                         </xsl:if>
+                        <xsl:if test="$idPrefix eq 'narr'">
+                        <xsl:attribute name="data-guidelines-regex"
+                        select="concat('^narr_guidelines_\d+_', hcmc:nameToIdBit($persName))"/>
+                        </xsl:if>
             </input></span> <xsl:value-of select="$persName"/></li>
         </xsl:if>
     </xsl:template>

@@ -75,13 +75,16 @@ if (
             }
         }
 
-        // ALSO hide/show line graph guidelines when Narrator is toggled
-let guidelinesRe = /^narr_guidelines_/;
+        // ALSO hide/show line graph guidelines for this narrator
+        let strGuidelinesRe = sender.getAttribute('data-guidelines-regex');
+        if (strGuidelinesRe) {
+        let guidelinesRe = new RegExp(strGuidelinesRe);
 
-for (let i = 0; i < graphComponents.length; i++) {
-  if (graphComponents[i].id.match(guidelinesRe)) {
-    graphComponents[i].style.display = tellingLinesDisplay;
-  }
+        for (let i = 0; i < graphComponents.length; i++) {
+            if (graphComponents[i].id.match(guidelinesRe)) {
+            graphComponents[i].style.display = tellingLinesDisplay;
+            }
+        }
 }
     }
     syncTellingTimeChild();
