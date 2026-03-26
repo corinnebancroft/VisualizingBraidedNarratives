@@ -19,8 +19,8 @@ dbs = ["de", "gs", "hp", "original", "pnp", "pod", "tkam", "to", "tt", "sh", "fs
 
 for db in dbs:
     print(f"Getting dbs for {db}...")
-    url1 = f"https://hcmc.uvic.ca/narrdev/exports/{db}/dump/narratives_{db}.sql"
-    url2 = f"https://hcmc.uvic.ca/narrdev/exports/{db}/dump/narratives_{db}.xml"
+    url1 =f"https://hcmc.uvic.ca/people/martin/narratives_dbs/narratives_{db}_latest.sql"
+    url2 =f"https://hcmc.uvic.ca/people/martin/narratives_dbs/narratives_{db}_latest.xml"
     fname1 = f"data/{db}/dump/narratives_{db}.sql"
     fname2 = f"data/{db}/dump/narratives_{db}.xml"
     urllib.request.urlretrieve(url1, fname1)
