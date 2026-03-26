@@ -109,7 +109,7 @@ section.figure {
   grid-template-columns: minmax(0, 1fr) minmax(var(--legend-min), var(--legend-width));
   grid-template-rows: auto 1fr;   /* row1: title, content */
   align-items: start;
-  gap: 0.5rem;
+  gap: 2.0rem;
   }
 
   /* Center the plot cell only */
@@ -258,12 +258,21 @@ section.figure .legend-form {
   border: 0;
 }
 
+/* SVG in light-grey card */
+section.figure .graph svg|svg {
+background: var(--card-bg);
+  border: 1px solid var(--card-bd);
+  border-radius: var(--card-radius);
+  padding: 0.5rem;
+}
+
 /* Buttons already match, but give them a subtle inner spacing from card edge */
 section.figure .toolbar button + button { margin-left: 0.25rem; }
 
-/* Clean up temporary debug lines (you can delete these three rules once happy) */
-section.figure .graph       { outline: none !important; }
-section.figure .legend-form { outline: none !important; }
+/* Clean up temporary debug lines (you can delete these three rules once happy) section.figure .legend-form { outline: 2px solid red !important; } */
+section.figure .graph       { outline: outline: 2px solid blue !important; }
+
+
 section.figure .toolbar     { outline: none !important; }
 
 /* The legend column is a vertical stack on large screens. Ensure it is flex-column. */
