@@ -92,6 +92,7 @@ section.figure {
   grid-template-columns: 1fr; /* default: stack */
   grid-template-rows: auto 1fr; /* row 1 = title, row 2 = content */
   gap: 1rem;
+  justify-items: center;
 }
 
 /* Title styling (tweak as you like) */
@@ -115,8 +116,42 @@ section.figure {
   /* Center the plot cell only */
   section.figure .graph { justify-self: center; }
 
-  /* Pin the legend cell to the left edge of its column */
-  section.figure .legend-form { justify-self: start; align-self: start; }
+  /* Legend column placement and layout */
+  section.figure .legend-form {
+    /* Grid placement */
+    grid-column: 2;
+    grid-row: 2;
+    min-width: var(--legend-min);
+
+    /* Layout */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-self: start;
+    align-self: start;
+
+    /* Box model */
+    padding: 0;
+    margin: 0;
+
+    /* Visual reset */
+    background: transparent;
+    border: 0;
+  }
+
+  section.figure .legend-form .legends {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+
+    gap: 0.75rem;
+    margin: 0;
+    text-align: left;
+
+    min-height: 100%;
+  }
+}
 
   /* Stop .graph from stretching on large screens */
   section.figure .graph {
@@ -128,26 +163,6 @@ section.figure {
     max-width: none;
   }
 
-  section.figure .legend-form {
-    grid-column: 2;
-    grid-row: 2;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0;
-    margin: 0;
-    min-width: var(--legend-min);
-  }
-
-  section.figure .legend-form .legends {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
-    gap: 0.75rem;
-    margin: 0;
-    text-align: left;
-  }
 
   /* SVG sizing on large screens */
   section.figure .graph svg|svg {
@@ -157,15 +172,10 @@ section.figure {
     height: auto;
   }
 
-  /* Row placement: title = row 1, content = row 2 */
-    section.figure .graph       { grid-column: 1; grid-row: 2; }
-    section.figure .legend-form { grid-column: 2; grid-row: 2; }
-    }
-
 /* Let SVG fill its column */
 div.graph {
   width: 100%;
-  margin: 0;
+  margin-inline: auto;
 }
 
 div.graph svg|svg {
@@ -222,7 +232,6 @@ section.figure .toolbar button:focus-visible {
   }
 }
 
-section.figure .toolbar { outline: 2px solid hotpink !important; min-height: 2rem; }
 section.figure .toolbar button { display: inline-block !important; }
 
 /* ---------------------------------
@@ -252,11 +261,6 @@ section.figure .legend-form .legends > .legend {
   padding: 0.5rem;
 }
 
-/* Ensure the legend container itself doesn't add extra borders/margins */
-section.figure .legend-form {
-  background: transparent;
-  border: 0;
-}
 
 /* SVG in light-grey card */
 section.figure .graph svg|svg {
@@ -269,30 +273,11 @@ background: var(--card-bg);
 /* Buttons already match, but give them a subtle inner spacing from card edge */
 section.figure .toolbar button + button { margin-left: 0.25rem; }
 
-/* Clean up temporary debug lines (you can delete these three rules once happy) section.figure .legend-form { outline: 2px solid red !important; } */
-section.figure .graph       { outline: outline: 2px solid blue !important; }
-
-
-section.figure .toolbar     { outline: none !important; }
-
-/* The legend column is a vertical stack on large screens. Ensure it is flex-column. */
-@media (min-width: 1200px) {
-  section.figure .legend-form .legends {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: flex-start;
-    gap: 0.75rem;   /* (fix the space in your earlier rule: was "0.75 rem") */
-    margin: 0;
-    text-align: left;
-    min-height: 100%;
-  }
 
   /* Push the Zoom card to the bottom of the legend stack */
   section.figure .legend-form .legend-zoom {
     margin-top: auto;      /* takes remaining vertical space → bottom */
   }
-}
 
 /* On narrow screens, legends wrap in rows; park the Zoom card to the right edge */
 @media (max-width: 1199.98px) {
