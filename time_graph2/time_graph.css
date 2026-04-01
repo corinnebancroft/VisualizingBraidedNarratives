@@ -1,8 +1,12 @@
 @namespace svg url("http://www.w3.org/2000/svg");
                     
-body{
-    accent-color: black;
+body {
+  accent-color: black;
+  font-family: 'Source Sans Pro', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
+
 span.chkContainer{
     margin-right: 0.5em;
 }
@@ -28,12 +32,29 @@ div.legends{
         padding: 0.25em;
         ul{
             list-style-type: none;
-            padding: 0.25em;
+            padding: 0em;
         }
     }
 }
+
+/* Limit height + scrolling inside long legend lists (Narrators, Characters) */
+div.legend:not(.legend-zoom) ul {
+  max-height: 8rem;     /* ≈ 6 items visible */
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
+/* Keep legend titles visible while scrolling */
+div.legend:not(.legend-zoom) h4 {
+  position: sticky;
+  top: 0;
+  background: var(--card-bg, #f7f7f7);
+  z-index: 1;
+}
+
 h4{
     margin: 0.25em;
+    font-weight: 700;
 }
 section.appendix{
     display: none;
@@ -65,6 +86,7 @@ dialog#dlgTellTime{
 }
 dialog#dlgEvents p.attributes {
     font-size: 0.83em; /* match h5 default size */
+    font-weight: 700
 }
 
 /* ------------------------------
@@ -151,9 +173,7 @@ section.figure {
 
     min-height: 100%;
   }
-}
-
-  /* Stop .graph from stretching on large screens */
+    /* Stop .graph from stretching on large screens */
   section.figure .graph {
     grid-column: 1;
     grid-row: 2;
@@ -182,6 +202,10 @@ div.graph svg|svg {
   max-width: 100%;
   height: auto;
 }
+
+}
+
+
 
 /* ------------------------------
    Zoom toolbar (plot controls)
