@@ -86,7 +86,11 @@ dialog#dlgTellTime{
 }
 dialog#dlgEvents p.attributes {
     font-size: 0.83em; /* match h5 default size */
-    font-weight: 700
+    font-weight: 400
+}
+
+dialog#dlgEvents p.attributes strong {
+    font-weight: 700;
 }
 
 /* ------------------------------
