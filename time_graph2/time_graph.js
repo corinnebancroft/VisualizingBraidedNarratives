@@ -137,83 +137,76 @@ function alignCheckboxes(groupCheckbox){
     }
 }
 
-function showEvent(sender){
-    let numEvent = sender.id.split('_')[1];
-    let eventInfo = document.getElementById('event_' + numEvent);
-    if (eventInfo !== null){
-        dlgEvents.innerHTML = eventInfo.innerHTML;
-        dlgEvents.show();
+function showEvent(event, sender) {
+    const dialog = document.getElementById('dlgEvents');
+    // This logic handles narrmark, charline, char, AND narr prefixes
+    let contentId = sender.id.replace(/^(narrmark|charline|char|narr)_/, 'event_');
+    const content = document.getElementById(contentId);
+
+    if (content) {
+        dialog.innerHTML = content.innerHTML;
+        dialog.style.display = 'block';
+
+        // We use the 'event' object directly for better accuracy
+        dialog.style.left = (event.pageX + 15) + 'px';
+        dialog.style.top = (event.pageY + 15) + 'px';
     }
 }
 
-function showEvent(sender){
-    let numEvent = sender.id.split('_')[1];
-    let eventInfo = document.getElementById('event_' + numEvent);
-    if (eventInfo !== null){
-        dlgEvents.innerHTML = eventInfo.innerHTML;
-        dlgEvents.show();
-    }
-}
+function showTellTime(event, sender) {
+    const dialog = document.getElementById('dlgTellTime');
+    // Map the line ID (tellline_1_Jim_178) to the data ID (telltime_Jim_178)
+    let contentId = sender.id.replace('tellline_1_', 'telltime_').replace('tellline_2_', 'telltime_');
+    const content = document.getElementById(contentId);
 
-function showTellTime(sender){
-    // Matches "tellline_1_<NarratorId>_<rowIndex>" or "tellline_2_<NarratorId>_<rowIndex>"
-    const m = sender.id.match(/^tellline_\d+_(.+)_(\d+)$/);
-    if (!m) {
-        console.warn('Unexpected tellline id format:', sender.id);
-        return;
-    }
-    const narrId = m[1];
-    const rowKey = m[2];
-
-    const ttInfo = document.getElementById('telltime_' + narrId + '_' + rowKey);
-    if (!dlgTellTime) {
-        console.warn('dlgTellTime not found in DOM.');
-        return;
-    }
-    if (ttInfo) {
-        dlgTellTime.innerHTML = ttInfo.innerHTML;
-        dlgTellTime.show();
-    } else {
-        console.warn('No TT content for narrator/key:', narrId, rowKey);
+    if (content) {
+        dialog.innerHTML = content.innerHTML;
+        dialog.style.display = 'block';
+        dialog.style.left = (event.pageX + 15) + 'px';
+        dialog.style.top = (event.pageY + 15) + 'px';
     }
 }
 
 function setupControls(){
     console.log('Setting up...');
     let checks = document.querySelectorAll('input[data-id]');
-    console.log(`Found ${checks.length} individual checkboxes.`);
     for (let i = 0; i < checks.length; i++){
         checks[i].addEventListener('change', function(){showHideGraphElements(this);}.bind(checks[i]));
     }
+
     graphComponents = document.querySelectorAll('g[id]');
     console.log(`Found ${graphComponents.length} individual g elements.`);
+
     for (let i = 0; i < graphComponents.length; i++){
-        if (graphComponents[i].id.match(/^(narrmark|charline|char)_/)){
-            graphComponents[i].addEventListener('click', function(){showEvent(this);}.bind(graphComponents[i]));
+        let item = graphComponents[i];
+
+        // 1. Attach Event Popups (Dots and Character Lines)
+        if (item.id.match(/^(narrmark|charline|char|narr)_/)){
+            item.addEventListener('click', function(e){
+                showEvent(e, this);
+            }.bind(item));
         }
-    syncTellingTimeChild(); // initialize child disabled/checked state on load
+
+        // 2. Attach TellingTime Popups (The specific horizontal lines)
+        if (/^tellline_/.test(item.id)){
+            item.addEventListener('click', function(e){
+                showTellTime(e, this);
+            }.bind(item));
+        }
     }
 
-    // Attach a separate pop-up for telling-time lines.
-    for (let i = 0; i < graphComponents.length; i++){
-        if (/^tellline_/.test(graphComponents[i].id)){
-        graphComponents[i].addEventListener('click', function(){
-            showTellTime(this);
-        }.bind(graphComponents[i]));
-        }
-    }
-
-    dlgEvents = document.querySelector('dialog#dlgEvents');
-    dlgTellTime = document.querySelector('dialog#dlgTellTime');
+    // Update global references (now searching for div instead of dialog)
+    dlgEvents = document.getElementById('dlgEvents');
+    dlgTellTime = document.getElementById('dlgTellTime');
 
     let groupChecks = document.querySelectorAll('input.group');
-
     for (let i = 0; i < groupChecks.length; i++){
         groupChecks[i].addEventListener('change', function(){showHideAllGraphElements(this);}.bind(groupChecks[i]));
     }
-    console.log(`Found ${groupChecks.length} group checkboxes.`);
+
     tellingTimeCheck = document.querySelector('input[data-id="tellline"]');
-}   
+    syncTellingTimeChild();
+}
 
 // --- Zoom & pan (viewBox-based) ---
 function setupZoomPan(){
@@ -410,3 +403,15 @@ window.addEventListener('load', function(){setupControls();});
 
 // Initialize zoom/pan after the page loads
 window.addEventListener('load', function(){ setupZoomPan(); });
+
+// Close pop-ups when clicking anywhere else
+window.addEventListener('mousedown', function(event) {
+    const dlgE = document.getElementById('dlgEvents');
+    const dlgT = document.getElementById('dlgTellTime');
+
+    // If the click is NOT inside a pop-up and NOT on a graph element, hide them
+    if (!event.target.closest('.popup-window') && !event.target.closest('g[id]')) {
+        dlgE.style.display = 'none';
+        dlgT.style.display = 'none';
+    }
+});

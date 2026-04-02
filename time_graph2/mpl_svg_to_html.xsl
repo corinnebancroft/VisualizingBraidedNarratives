@@ -284,8 +284,8 @@
     </xsl:if>
   </xsl:for-each>
 </section>
-                <dialog id="dlgEvents" closedby="any"></dialog>
-                <dialog id="dlgTellTime" closedby="any"></dialog>
+                <div id="dlgEvents" class="popup-window"></div>
+                <div id="dlgTellTime" class="popup-window"></div>
             </body>
         </html>
     </xsl:template>
