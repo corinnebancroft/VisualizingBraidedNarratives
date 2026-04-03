@@ -251,6 +251,12 @@ function addCloseButton(popup){
     popup.prepend(btn);
 }
 
+function closeAllPopups(){
+    if (dlgEvents) dlgEvents.style.display = 'none';
+    if (dlgTellTime) dlgTellTime.style.display = 'none';
+    setSelectedGraphElement(null);
+}
+
 // --- Zoom & pan (viewBox-based) ---
 function setupZoomPan(){
     const figure  = document.querySelector('section.figure');
@@ -264,6 +270,21 @@ function setupZoomPan(){
 
     // Allow pointer panning without browser gestures interfering
     svg.style.touchAction = 'none';
+
+    svg.addEventListener('click', (e) => {
+    // If click was inside a popup, do nothing
+    if (e.target.closest('#dlgEvents, #dlgTellTime')) return;
+
+    // If click was on an interactive graph element, do nothing
+    if (isInteractiveTarget(e.target)) return;
+
+    // Otherwise, close popups
+    closeAllPopups();
+});
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeAllPopups();
+});
 
     // -- Helpers ------------------------------------------------------------
     function parseViewBox(el){
