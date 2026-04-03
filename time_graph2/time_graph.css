@@ -91,6 +91,10 @@ svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="c
     z-index: 1000;
 }
 
+.selected-point {
+    filter: drop-shadow(0 0 3px black);
+}
+
 .popup-close{
     position: absolute;
     top: 4px;

@@ -7,6 +7,8 @@ let switching = false;
 let tellingTimeCheck = null;
 let dlgEvents = null;
 let dlgTellTime = null;
+let selectedGraphElement = null;
+
 
 function syncTellingTimeChild() {
     const parent = document.querySelector('input[data-id="tellline"]');
@@ -142,6 +144,7 @@ function showEvent(sender){
     let eventInfo = document.getElementById('event_' + numEvent);
 
     if (eventInfo){
+        setSelectedGraphElement(sender);
         showPopup(dlgEvents, eventInfo.innerHTML, window.event);
     }
 }
@@ -163,6 +166,7 @@ function showTellTime(sender){
     }
 
     if (ttInfo){
+        setSelectedGraphElement(sender);
         showPopup(dlgTellTime, ttInfo.innerHTML, window.event);
     } else {
         console.warn('No TT content for narrator/key:', narrId, rowKey);
@@ -221,6 +225,18 @@ function showPopup(el, html, evt){
     el.style.display = 'block';
 }
 
+function setSelectedGraphElement(el){
+    if (selectedGraphElement){
+        selectedGraphElement.classList.remove('selected-point');
+    }
+
+    selectedGraphElement = el;
+
+    if (selectedGraphElement){
+        selectedGraphElement.classList.add('selected-point');
+    }
+}
+
 function addCloseButton(popup){
     if (popup.querySelector('.popup-close')) return;
 
@@ -228,7 +244,8 @@ function addCloseButton(popup){
     btn.className = 'popup-close';
     btn.innerHTML = '×';
     btn.addEventListener('click', () => {
-        popup.style.display = 'none';
+    popup.style.display = 'none';
+    setSelectedGraphElement(null);
     });
 
     popup.prepend(btn);
