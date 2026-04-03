@@ -62,33 +62,23 @@ section.appendix{
 svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="char_"], svg|g[id^="tellline_"]{
     cursor: pointer;
 }
-/* Styling for the new Div-based popups */
-.popup-window {
-    display: none;        /* Hidden by default */
-    position: absolute;   /* Allows us to move it to the mouse */
-    z-index: 1000;        /* Keep it on top of everything */
-
-    /* Aesthetics */
-    width: 30vw;
-    max-width: 400px;     /* Keeps it from getting too wide on huge screens */
-    background-color: #f9f9f9;
-    border: 1px solid #333;
-    padding: 15px;
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
-    font-size: 0.9em;
-    pointer-events: auto; /* Makes sure you can click links inside it */
-}
-
 /* Popup window formatting */
-.popup-window{
+.popup-window {
+    display: none;
     position: absolute;
+    z-index: 1000;
+
+    width: 30vw;
     max-width: 320px;
+
     background: white;
     border: 1px solid #999;
     padding: 0.75em;
     box-shadow: 2px 4px 12px rgba(0,0,0,.3);
-    display: none;
-    z-index: 1000;
+
+    pointer-events: auto;
+    font-weight: 400;}
+.popup-window strong {    font-weight: 700;
 }
 
 .selected-point {
