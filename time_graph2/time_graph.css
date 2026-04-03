@@ -80,8 +80,15 @@ svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="c
 }
 
 /* Make sure paragraphs inside look nice */
-.popup-window p {
-    margin: 0 0 10px 0;
+.popup-window{
+    position: absolute;
+    max-width: 320px;
+    background: white;
+    border: 1px solid #999;
+    padding: 0.75em;
+    box-shadow: 2px 4px 12px rgba(0,0,0,.3);
+    display: none;
+    z-index: 1000;
 }
 
 /* ------------------------------
