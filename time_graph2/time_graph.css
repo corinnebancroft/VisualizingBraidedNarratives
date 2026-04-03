@@ -79,7 +79,7 @@ svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="c
     pointer-events: auto; /* Makes sure you can click links inside it */
 }
 
-/* Make sure paragraphs inside look nice */
+/* Popup window formatting */
 .popup-window{
     position: absolute;
     max-width: 320px;
@@ -89,6 +89,17 @@ svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="c
     box-shadow: 2px 4px 12px rgba(0,0,0,.3);
     display: none;
     z-index: 1000;
+}
+
+.popup-close{
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 1;
 }
 
 /* ------------------------------

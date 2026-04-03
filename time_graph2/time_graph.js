@@ -211,6 +211,7 @@ dlgTellTime.style.display = 'none';
 
 function showPopup(el, html, evt){
     el.innerHTML = html;
+    addCloseButton(el);
 
     if (evt){
         el.style.left = evt.pageX + 12 + 'px';
@@ -218,6 +219,19 @@ function showPopup(el, html, evt){
     }
 
     el.style.display = 'block';
+}
+
+function addCloseButton(popup){
+    if (popup.querySelector('.popup-close')) return;
+
+    const btn = document.createElement('button');
+    btn.className = 'popup-close';
+    btn.innerHTML = '×';
+    btn.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    popup.prepend(btn);
 }
 
 // --- Zoom & pan (viewBox-based) ---
