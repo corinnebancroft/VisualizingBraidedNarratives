@@ -15,7 +15,7 @@ with open(csv_file, newline="", encoding="utf-8-sig") as f:
             with open(out_file, "w", encoding="utf-8") as out:
                 for key, value in row.items():
                     prop_key = f"ack.{key.strip().lower()}"
-                    prop_key = prop_key.replace(" ", ".")
+                    prop_key = prop_key.replace(" ", ".").replace("'", "")
                     out.write(f"{prop_key}={value.strip()}\n")
             sys.exit(0)
 

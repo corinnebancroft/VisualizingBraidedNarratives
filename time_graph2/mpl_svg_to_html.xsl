@@ -50,7 +50,21 @@
         <xd:desc>This id for the HTML page should be passed in.</xd:desc>
     </xd:doc>
     <xsl:param name="graphId" as="xs:string" select="lower-case(substring-before(hcmc:nameToIdBit(//g[@id='graphTitle']), '.') || '-tg')"/>
-    
+
+
+    <!-- Parameters for Acknowledgements -->
+<xsl:param name="ackTitle" as="xs:string" select="''"/>
+<xsl:param name="ackAuthorLast" as="xs:string" select="''"/>
+<xsl:param name="ackAuthorFirst" as="xs:string" select="''"/>
+<xsl:param name="ackPublisher" as="xs:string" select="''"/>
+<xsl:param name="ackPublicationDate" as="xs:string" select="''"/>
+<xsl:param name="ackOriginally" as="xs:string" select="''"/>
+<xsl:param name="ackResearchTeam" as="xs:string" select="''"/>
+<xsl:param name="ackNotes" as="xs:string" select="''"/>
+
+
+
+
     <xd:doc>
         <xd:desc>This is basically an identity tranform, although we output a document
         in a different namespace from the input root.</xd:desc>
@@ -108,6 +122,51 @@
     </form>
   </section>
 </main>
+
+    <section class="acknowledgments">
+  <h3>Acknowledgments</h3>
+
+ <!-- Full citation -->
+<p>
+  <xsl:value-of select="$ackAuthorLast"/>
+  <xsl:text>, </xsl:text>
+  <xsl:value-of select="$ackAuthorFirst"/>
+  <xsl:text>. </xsl:text>
+
+  <em>
+    <xsl:value-of select="$ackTitle"/>
+  </em>
+  <xsl:text>. </xsl:text>
+
+  <xsl:value-of select="$ackPublisher"/>
+  <xsl:text>, </xsl:text>
+  <xsl:value-of select="$ackPublicationDate"/>
+
+  <xsl:if test="normalize-space($ackOriginally) != ''">
+    <xsl:text> (Originally, </xsl:text>
+    <xsl:value-of select="$ackOriginally"/>
+    <xsl:text>)</xsl:text>
+  </xsl:if>
+
+  <xsl:text>.</xsl:text>
+</p>
+
+  <!-- Research Assistant Team -->
+  <p>
+    <strong>Research Assistant Team:</strong>
+    <xsl:text> </xsl:text>
+    <xsl:value-of select="$ackResearchTeam"/>
+  </p>
+
+  <!-- Notes (optional) -->
+  <xsl:if test="normalize-space($ackNotes) != ''">
+    <p>
+      <strong>Notes:</strong>
+      <xsl:text> </xsl:text>
+      <xsl:value-of select="$ackNotes"/>
+    </p>
+  </xsl:if>
+</section>
                 <section class="appendix">
                     <ul>
                         <xsl:for-each select="$jsonData//js:map[@key='Event Name']/js:string">
@@ -396,5 +455,6 @@
         <!--<xsl:variable name="fullPrefix" as="xs:string" select="if "-->
         <xsl:sequence select="$prefix || '(line|mark)?_\d+_' || hcmc:nameToIdBit($name)"/>
     </xsl:function>
+
     
 </xsl:stylesheet>

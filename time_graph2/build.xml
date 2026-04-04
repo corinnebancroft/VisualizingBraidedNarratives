@@ -108,6 +108,15 @@
             <arg value="graphTitle=${graphTitle}"/>
             <arg value="graphId=${graphId}"/>
             <arg value="--suppressXsltNamespaceCheck:on"/>
+            <arg value="ackTitle=${ack.title}"/>
+<arg value="ackTitle=${ack.title}"/>
+<arg value="ackAuthorLast=${ack.author.last.name}"/>
+<arg value="ackAuthorFirst=${ack.author.first.name}"/>
+<arg value="ackPublisher=${ack.publisher}"/>
+<arg value="ackPublicationDate=${ack.publication.date}"/>
+<arg value="ackOriginally=${ack.originally}"/>
+<arg value="ackResearchTeam=${ack.research.assistant.team}"/>
+<arg value="ackNotes=${ack.notes}"/>
         </java>
     </target>
   
