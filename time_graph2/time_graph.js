@@ -140,6 +140,7 @@ function alignCheckboxes(groupCheckbox){
 }
 
 function showEvent(sender){
+    closeAllPopups();
     let numEvent = sender.id.split('_')[1];
     let eventInfo = document.getElementById('event_' + numEvent);
 
@@ -150,6 +151,7 @@ function showEvent(sender){
 }
 
 function showTellTime(sender){
+    closeAllPopups();
     const m = sender.id.match(/^tellline_\d+_(.+)_(\d+)$/);
     if (!m){
         console.warn('Unexpected tellline id format:', sender.id);
