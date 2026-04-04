@@ -63,6 +63,10 @@ svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="c
     cursor: pointer;
 }
 /* Popup window formatting */
+
+:root {
+    --accent-color: #333;
+}
 .popup-window {
     display: none;
     position: absolute;
@@ -72,18 +76,26 @@ svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="c
     max-width: 320px;
 
     background: white;
-    border: 1px solid #999;
+    border: 2px solid var(--accent-color);
     padding: 0.75em;
-    box-shadow: 2px 4px 12px rgba(0,0,0,.3);
+
+    box-shadow: 2px 4px 12px color-mix(
+        in srgb,
+        var(--accent-color) 50%,
+        transparent
+    );
 
     pointer-events: auto;
-    font-weight: 400;}
+    font-weight: 400;
+}
+
 .popup-window strong {    font-weight: 700;
 }
 
 .selected-point {
-    filter: drop-shadow(0 0 3px black);
+    filter: drop-shadow(0 0 4px var(--accent-color));
 }
+
 
 .popup-close{
     position: absolute;
@@ -95,6 +107,8 @@ svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="c
     cursor: pointer;
     line-height: 1;
 }
+
+
 
 /* ------------------------------
    Figure layout (plot + legends)

@@ -9,6 +9,59 @@ let dlgEvents = null;
 let dlgTellTime = null;
 let selectedGraphElement = null;
 
+// Figure out color of an element for pop-up window
+function getGraphElementColor(el) {
+    if (!el) return '#000';
+
+    // --------------------------------------------------
+    // 1) Direct shapes (lines etc.)
+    // --------------------------------------------------
+    let target =
+        el.matches('path, line, circle, rect, use')
+            ? el
+            : el.querySelector('path, line, circle, rect, use');
+
+    if (target) {
+        // ✅ FIRST: try inline style (essential for Matplotlib markers)
+        const style = target.getAttribute('style');
+        if (style) {
+            const fillMatch = style.match(/fill:\s*(#[0-9a-fA-F]{6})/);
+            if (fillMatch) return fillMatch[1];
+
+            const strokeMatch = style.match(/stroke:\s*(#[0-9a-fA-F]{6})/);
+            if (strokeMatch) return strokeMatch[1];
+        }
+
+        // ✅ FALLBACK: computed styles (works for lines)
+        const cs = getComputedStyle(target);
+        if (cs.stroke && cs.stroke !== 'none') return cs.stroke;
+        if (cs.fill && cs.fill !== 'none') return cs.fill;
+    }
+
+    // --------------------------------------------------
+    // 2) Walk up ancestors (rare fallback)
+    // --------------------------------------------------
+    let node = el.parentElement;
+    while (node && node.tagName !== 'svg') {
+        if (node.nodeType === 1) {
+            const style = node.getAttribute('style');
+            if (style) {
+                const fillMatch = style.match(/fill:\s*(#[0-9a-fA-F]{6})/);
+                if (fillMatch) return fillMatch[1];
+
+                const strokeMatch = style.match(/stroke:\s*(#[0-9a-fA-F]{6})/);
+                if (strokeMatch) return strokeMatch[1];
+            }
+        }
+        node = node.parentElement;
+    }
+
+    // --------------------------------------------------
+    // 3) Fallback
+    // --------------------------------------------------
+    return '#000';
+}
+
 
 function syncTellingTimeChild() {
     const parent = document.querySelector('input[data-id="tellline"]');
@@ -236,6 +289,10 @@ function setSelectedGraphElement(el){
 
     if (selectedGraphElement){
         selectedGraphElement.classList.add('selected-point');
+
+        // set accent color globally
+        const color = getGraphElementColor(el);
+        document.documentElement.style.setProperty('--accent-color', color);
     }
 }
 
