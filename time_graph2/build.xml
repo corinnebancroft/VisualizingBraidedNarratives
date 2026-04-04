@@ -35,19 +35,33 @@
           This just sets things up and asks for required input.
       </description>
       <!-- A title for the graph. -->
-      <input message="Please provide a title for this graph: e.g. ${defGraphTitle}"
-          addproperty="graphTitle" defaultvalue="${defGraphTitle}"/>
+      <!-- Graph title comes from ack.properties -->
+    <input message="Please provide the dataset acronym:"
+       addproperty="graphAcronym"/>
+
+      <!-- Generate a properties file for the selected dataset -->
+      <exec executable="${python.cmd}" failonerror="true">
+    <arg value="ReadAck.py"/>
+    <arg value="ack.csv"/>
+    <arg value="${graphAcronym}"/>
+    <arg value="ack.active.properties"/>
+    </exec>
+
+      <!-- Load the active dataset metadata -->
+<property file="ack.active.properties"/>
+
+      <!-- Graph title derived from dataset metadata -->
+<property name="graphTitle" value="${ack.title}"/>
       
       <!-- An id for the graph. -->
-      <input message="Please provide an id for the graph, all lower-case, ending in -tg: e.g. ${defGraphId}"
-          addproperty="graphId" defaultvalue="${defGraphId}"/>
+      <!-- Derive graph ID from the dataset acronym -->
+<property name="graphId" value="${graphAcronym}-tg"/>
+
       
       <!-- These are the two input files to be processed. -->
-      <input message="Please type the name of a CSV file in this folder which contains the data for the graph: e.g. ${defInputData}"
-          addproperty="inputData" defaultvalue="${defInputData}"/>
-      
-      <input message="Please type the name of a CSV file in this folder which contains the colour mapping for the graph: e.g. ${defInputColors}"
-          addproperty="inputColors" defaultvalue="${defInputColors}"/>
+      <!-- Derive input filenames from the dataset acronym -->
+<property name="inputData"   value="${graphAcronym}input.csv"/>
+<property name="inputColors" value="${graphAcronym}color.csv"/>
       
       <!-- One of them will be converted to a JSON file. -->
       <basename property="inputDataNoExt" file="${inputData}" suffix=".csv"/>
