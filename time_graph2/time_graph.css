@@ -138,14 +138,18 @@ section.figure {
   justify-items: center;
 }
 
-/* Title styling (tweak as you like) */
 .figure-title {
-    grid-column: 1 / -1;             /* span all columns */
-    grid-row: 1;
-    margin: 0 0 0.25rem 0;
-    text-align: center;               /* or left */
-    font: 600 1.1rem/1.25 system-ui, sans-serif;
+  grid-column: 1 / -1;
+  grid-row: 1;
+  justify-self: start;
+  text-align: left;
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
 }
+
 
 @media (min-width: 1200px) {
   section.figure {
@@ -344,4 +348,17 @@ section.figure .toolbar button + button { margin-left: 0.25rem; }
   margin: 0 0 0.25rem 0;
   font-weight: 600;
   font-size: 1rem;
+}
+
+section.acknowledgments {
+  font-weight: 400;
+  margin-top: 1.5rem;
+}
+
+section.acknowledgments p {
+  margin: 0 0 0.75rem 0;
+}
+
+section.acknowledgments strong {
+  font-weight: 700;
 }

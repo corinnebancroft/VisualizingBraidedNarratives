@@ -10,9 +10,7 @@ For simplicity, it's best to put the CSV files in this folder (time_graph2) to r
 
 The process goes as follows (in the time_graph2 folder):
 
-1. Invoke Ant, passing two parameters: the CSV containing the narrative info, and a second CSV containing the colour mapping, which associates each narrator and character name with a colour to be used in the graph:
-
-ant -DinputData=TSATFTimeGraphAug26CleanClean.csv -DinputColors=TSATFColorCodeAug26.csv
+1. Invoke Ant
 
 2. Ant will first run the python script make_svg.py, which will generate an SVG file of the graph.
 
@@ -35,9 +33,7 @@ The HTML links to two other files, time_graph.js and time_graph.css, also in thi
 
 Among the things we haven't had time to finish as of 2025-08-29 are:
 
-1. Different components of the graph, representing event points, character points, and telling time lines, should display different information. At the moment they all display just the Event Name and Evidence columns from the spreadsheet. This would require more sophisticated XSLT processing of the JSON version of the spreadsheet, to create separate versions of each row for each component; and then the JavaScript would have to be updated so that it links the appropriate version of row data to each graph component.
-
-2. Mechanisms for integrating these generated HTML pages into the main site build. That will require:
+1. Mechanisms for integrating these generated HTML pages into the main site build. That will require:
 
  - Moving the required site build components from HCMC's svn into the GitHub repository.
  - Adding some special processing for HTML pages in (for example) a particular folder, causing them to be integrated into the site in a different way from the existing SVGs.
