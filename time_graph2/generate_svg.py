@@ -6,6 +6,7 @@ import argparse
 from datetime import timedelta
 from matplotlib.lines import Line2D
 from pathlib import Path
+import matplotlib.dates as mdates
 
 # Parse command-line arguments.
 argparser = argparse.ArgumentParser(description="Figuring out input files")
@@ -121,7 +122,29 @@ for _, row in df.iterrows():
 # Final touches
 ax.set_title(args.graph_title, gid='graphTitle')
 ax.set_xlabel("Text Time")
-ax.set_ylabel("Story Time")
+ax.set_ylabel("Story Time", labelpad=15)
+
+
+# Show only the year on the Y axis
+# Force Matplotlib to finalize tick positions
+fig.canvas.draw()
+
+ticks = ax.get_yticks()
+tick_dates = mdates.num2date(ticks)
+
+# Defensive check
+if len(tick_dates) >= 2:
+    delta_days = (tick_dates[1] - tick_dates[0]).days
+
+    if delta_days >= 365:
+        # Yearly spacing
+        ax.yaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+    elif delta_days >= 28:
+        # Monthly spacing
+        ax.yaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+    else:
+        # Daily or finer
+        ax.yaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
 
 # Narrator legend handles
 narrator_handles = [
@@ -147,7 +170,7 @@ legend2 = ax.legend(handles=character_handles, title="Participating Characters",
                     loc='upper left', bbox_to_anchor=(1.02, 0.5), borderaxespad=0.)
 
 # Plot graph
-plt.tight_layout()  # Optional: helps with spacing of other elements
+fig.set_constrained_layout(True) # Optional: helps with spacing of other elements
 # Calculate output filename
 outFile = Path(args.in_df).with_suffix('.svg')
 plt.savefig(outFile, format="svg", bbox_inches='tight')
