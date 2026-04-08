@@ -150,6 +150,14 @@ section.figure {
   margin-bottom: 0.75rem;
 }
 
+.figure-title::after {
+  content: "";
+  display: block;
+  width: 3rem;            /* length of the grey bar */
+  height: 0.25rem;        /* thickness */
+  margin-top: 0.4rem;     /* space between title and bar */
+  background-color: #e0e0e0;  /* light grey */
+}
 
 @media (min-width: 1200px) {
   section.figure {

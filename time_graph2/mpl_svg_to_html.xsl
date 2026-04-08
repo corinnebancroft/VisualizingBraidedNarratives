@@ -89,7 +89,10 @@
             <body id="{$graphId}">
                 <main>
   <section class="figure">
-      <h3 class="figure-title"><xsl:value-of select="$graphTitle"/></h3>
+  <h3 class="figure-title">
+    <xsl:value-of select="$graphTitle"/>
+    <xsl:text>—Time Graph</xsl:text>
+  </h3>
       <!-- Controls (Zoom+, Zoom−, Reset) -->
 
     <!-- SVG embedded directly, with some modifications. -->
