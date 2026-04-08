@@ -13,13 +13,14 @@ if not in_filename:
 # Input is exactly what the user typed
 in_path = Path(in_filename)
 
-# Create output name: insert "Clean" before .csv
-if in_filename.lower().endswith(".csv"):
-    out_filename = in_filename[:-4] + "Clean.csv"
-else:
-    # Fallback, in case user enters something odd
-    out_filename = in_filename + "Clean.csv"
+# Ask user for Acronym
+graphAcronym = input("Enter the acronym for this novel: ").strip()
+if not graphAcronym:
+    print("No acronym provided. Exiting.")
+    quit()
 
+# Create output name: acronym + "input.csv"
+out_filename = f"{graphAcronym}input.csv"
 out_path = Path(out_filename)
 
 # Check that the input exists
