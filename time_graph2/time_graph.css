@@ -139,6 +139,8 @@ section.figure {
   grid-template-rows: auto 1fr; /* row 1 = title, row 2 = content */
   gap: 1rem;
   justify-items: center;
+  padding-inline: 5rem;   /* left & right breathing room */
+
 }
 
 .figure-title {
@@ -169,6 +171,7 @@ section.figure {
   grid-template-rows: auto 1fr;   /* row1: title, content */
   align-items: start;
   gap: 2.0rem;
+  padding-inline: 8rem;
   }
 
   /* Center the plot cell only */
@@ -241,7 +244,11 @@ div.graph svg|svg {
 
 }
 
-
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  section.figure {
+    padding-inline: 2.5rem;
+  }
+}
 
 /* ------------------------------
    Zoom toolbar (plot controls)
@@ -364,6 +371,7 @@ section.figure .toolbar button + button { margin-left: 0.25rem; }
 section.acknowledgments {
   font-weight: 400;
   margin-top: 1.5rem;
+  padding-inline: 5rem;
 }
 
 section.acknowledgments p {
@@ -372,4 +380,16 @@ section.acknowledgments p {
 
 section.acknowledgments strong {
   font-weight: 700;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  section.acknowledgments {
+    padding-inline: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  section.acknowledgments {
+    padding-inline: 8rem;
+  }
 }
