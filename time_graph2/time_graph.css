@@ -92,11 +92,22 @@ svg|g[id^="narr_"], svg|g[id^="narrmark_"], svg|g[id^="charline_"], svg|g[id^="c
 .popup-window strong {    font-weight: 700;
 }
 
+/* Default selection for ALL selected elements */
 .selected-point {
-    transform: scale(1.8);
-    transform-box: fill-box;
-    transform-origin: center;
-    filter: drop-shadow(0 0 4px var(--accent-color));
+  filter: drop-shadow(0 0 4px var(--accent-color));
+}
+
+/* Scale ONLY event points */
+g[id^="narrmark_"].selected-point,
+g[id^="char_"].selected-point {
+  transform: scale(1.8);
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+/* Explicitly exclude telllines (optional clarity) */
+g[id^="tellline_"].selected-point {
+  transform: none;
 }
 
 
