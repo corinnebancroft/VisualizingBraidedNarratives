@@ -531,8 +531,27 @@ svg.addEventListener('pointercancel', endPan);
     });
 }
 
-window.addEventListener('load', function(){setupControls();});
+window.addEventListener('load', function () {
+  setupControls();
+  setupZoomPan();
+  syncLegendHeightToSvg();
+});
 
-// Initialize zoom/pan after the page loads
-window.addEventListener('load', function(){ setupZoomPan(); });
+window.addEventListener('resize', syncLegendHeightToSvg);
 
+function syncLegendHeightToSvg() {
+  const figure = document.querySelector('section.figure');
+  if (!figure) return;
+
+  const svg = figure.querySelector('.graph svg');
+  const legends = figure.querySelector('.legend-form .legends');
+
+  if (!svg || !legends) return;
+
+  // Measure *rendered* SVG height (after layout)
+  const svgRect = svg.getBoundingClientRect();
+  if (!svgRect.height) return;
+
+  // Apply height to legend stack
+  legends.style.maxHeight = `${svgRect.height}px`;
+}
