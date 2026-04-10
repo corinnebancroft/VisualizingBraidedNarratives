@@ -397,6 +397,15 @@ document.addEventListener('keydown', (e) => {
 
   setViewBox(vb);
   updateButtons();
+
+  // ✅ If we've zoomed all the way out, recenter to original viewBox
+if (Math.abs(vb.w - vbOriginal.w) < 1e-6) {
+  vb.x = vbOriginal.x;
+  vb.y = vbOriginal.y;
+  vb.w = vbOriginal.w;
+  vb.h = vbOriginal.h;
+  setViewBox(vb);
+}
 }
 
     function isInteractiveTarget(node){
@@ -413,7 +422,7 @@ document.addEventListener('keydown', (e) => {
 
 // ---- Zoom limits (1 = 100%) ---------------------------------------------
 const MIN_ZOOM  = 1;     // cap zoom-out at 100%
-const ZOOM_STEP = 1.2;   // your existing step
+const ZOOM_STEP = 1.1;   // your existing step
 
 // Convenience: buttons may be null if toolbar missing
 const btnIn    = toolbar?.querySelector('button.zoom-in')  || null;
