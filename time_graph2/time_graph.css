@@ -38,20 +38,6 @@ div.legends{
     }
 }
 
-/* Limit height + scrolling inside long legend lists (Narrators, Characters) */
-div.legend:not(.legend-zoom) ul {
-  max-height: 8rem;     /* ≈ 6 items visible */
-  overflow-y: scroll;
-  scrollbar-gutter: stable;
-}
-
-/* Keep legend titles visible while scrolling */
-div.legend:not(.legend-zoom) h4 {
-  position: sticky;
-  top: 0;
-  background: var(--card-bg, #f7f7f7);
-  z-index: 1;
-}
 
 h4{
     margin: 0.25em;
@@ -180,14 +166,26 @@ section.figure {
   section.figure {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(var(--legend-min), var(--legend-width));
-  grid-template-rows: auto 1fr;   /* row1: title, content */
+  grid-template-rows: auto var(--svg-rendered-height);
   align-items: start;
   gap: 2.0rem;
   padding-inline: 5rem;
+  overflow: hidden;
   }
 
   /* Center the plot cell only */
   section.figure .graph { justify-self: center; }
+
+  div.legends {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+
+  div.legends > div.legend {
+    width: 100%;
+  }
+
 
   /* Legend column placement and layout */
   section.figure .legend-form {
@@ -198,6 +196,7 @@ section.figure {
 
     /* Layout */
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     justify-self: start;
@@ -212,9 +211,11 @@ section.figure {
     border: 0;
   }
 
+
   section.figure .legend-form .legends {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: stretch;
     justify-content: flex-start;
 
@@ -224,6 +225,8 @@ section.figure {
 
     min-height: 100%;
   }
+
+
     /* Stop .graph from stretching on large screens */
   section.figure .graph {
     grid-column: 1;
