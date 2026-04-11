@@ -316,6 +316,17 @@ function closeAllPopups(){
     setSelectedGraphElement(null);
 }
 
+function classifyLegends() {
+  document.querySelectorAll('.legend-form .legend').forEach(legend => {
+    const title = legend.querySelector('h4')?.textContent.trim();
+
+    if (title === 'Narrators') legend.classList.add('legend-narrators');
+    else if (title === 'Participating Characters') legend.classList.add('legend-characters');
+    else if (title === 'Lines') legend.classList.add('legend-lines');
+    else if (title === 'Zoom') legend.classList.add('legend-zoom');
+  });
+}
+
 // --- Zoom & pan (viewBox-based) ---
 function setupZoomPan(){
     const figure  = document.querySelector('section.figure');
@@ -535,6 +546,7 @@ window.addEventListener('load', function () {
   setupControls();
   setupZoomPan();
   syncLegendHeightToSvg();
+  classifyLegends();
 });
 
 window.addEventListener('resize', syncLegendHeightToSvg);
