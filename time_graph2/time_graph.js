@@ -544,14 +544,15 @@ function syncLegendHeightToSvg() {
   if (!figure) return;
 
   const svg = figure.querySelector('.graph svg');
-  const legends = figure.querySelector('.legend-form .legends');
+  if (!svg) return;
 
-  if (!svg || !legends) return;
-
-  // Measure *rendered* SVG height (after layout)
+  // Measure rendered SVG height
   const svgRect = svg.getBoundingClientRect();
   if (!svgRect.height) return;
 
-  // Apply height to legend stack
-  legends.style.maxHeight = `${svgRect.height}px`;
+  // Store value as a CSS custom property on the figure
+  figure.style.setProperty(
+    '--svg-rendered-height',
+    `${svgRect.height}px`
+  );
 }
