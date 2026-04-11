@@ -244,14 +244,14 @@ section.figure {
     flex: 0 0 auto;
   }
 
-
-
   .legend-narrators ul,
   .legend-characters ul {
-    overflow-y: auto;
+    overflow-y: scroll;
     min-height: 0;
-    padding-right: 0.25rem; /* avoid scrollbar overlap */
+    padding-right: 0.25rem;
+    scrollbar-gutter: stable;
   }
+
 
 
     /* Stop .graph from stretching on large screens */
