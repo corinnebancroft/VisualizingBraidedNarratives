@@ -344,7 +344,15 @@ section.figure .toolbar button:focus-visible {
     justify-self: start; /* align with plot left edge */
     margin-top: 0;       /* pull closer to the plot */
     margin-bottom: 0.5rem;
+    font-size: 0.9em;
+
+}
+  section.figure .toolbar button {
+    font-size: 1em;
+    padding: 0.4em 0.65em;
   }
+
+
 }
 
 section.figure .toolbar button { display: inline-block !important; }
@@ -404,10 +412,12 @@ section.figure .toolbar button + button { margin-left: 0.25rem; }
 
 /* Zoom card inherits the card look (already added earlier) */
 /* If you want a smaller h4 for this card: */
-.legend-zoom > h4 {
-  margin: 0 0 0.25rem 0;
-  font-weight: 600;
-  font-size: 1.5rem;
+@media (min-width: 1200px) {
+  .legend-zoom > h4 {
+    margin: 0 0 0.25em 0;
+    font-weight: 600;
+    font-size: 1.1em;
+  }
 }
 
 section.acknowledgments {
