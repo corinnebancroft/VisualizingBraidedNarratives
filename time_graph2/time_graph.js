@@ -568,3 +568,18 @@ function syncLegendHeightToSvg() {
     `${svgRect.height}px`
   );
 }
+
+function updateLegendScrollHints() {
+  document.querySelectorAll(
+    '.legend-narrators, .legend-characters'
+  ).forEach(legend => {
+    const list = legend.querySelector('ul');
+    if (!list) return;
+
+    const hasScroll = list.scrollHeight > list.clientHeight;
+    legend.classList.toggle('has-scroll', hasScroll);
+  });
+}
+
+window.addEventListener('load', updateLegendScrollHints);
+window.addEventListener('resize', updateLegendScrollHints);
