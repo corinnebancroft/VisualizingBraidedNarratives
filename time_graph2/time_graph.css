@@ -234,16 +234,16 @@ section.figure {
   .legend-characters {
     display: flex;
     flex-direction: column;
-    min-height: 0;      /* 🔑 REQUIRED for scrolling */
+    min-height: 0;
     flex: 1 1 auto;
-  }
-
-  /* Fade mask lives on the legend card, not the list */
-  .legend-narrators,
-  .legend-characters {
     position: relative;
-    overflow: hidden;   /* 🔑 THIS is crucial */
-  }
+    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+
 
   .legend-narrators.has-scroll::after,
   .legend-characters.has-scroll::after {
