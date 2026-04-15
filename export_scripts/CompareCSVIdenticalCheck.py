@@ -21,7 +21,31 @@ def compare_csv(file1, file2):
 
 
 # Example usage
-file1 = 'data/pod/PoDGephiReadyMar12/PoDExchangesOnlyEdgesMar122025.csv'
-file2 = 'data/pod/Mar30/podExchangesOnlyMar30.csv'
+file1 = 'data/s/April14GephiReadyExports/sStorySpaceEdgesApril14.csv'
+file2 = 'data/s/April15GephiReadyExports/sStorySpaceEdgesApril15.csv'
 compare_csv(file1, file2)
 
+# --- Compare PRE-DEDUPE diagnostic file to expected row count ---
+
+pre_dedup_path = input(
+    "Enter path to PRE_DEDUP diagnostic CSV: "
+).strip()
+
+pre_dedup_df = pd.read_csv(pre_dedup_path)
+
+expected_pre_dedup_rows = (
+    len(rels)
+    + num_reciprocal_base
+    + expected_narrator_rows
+)
+
+actual_pre_dedup_rows = len(pre_dedup_df)
+
+print("\n--- Pre-Dedup Row Reconciliation ---")
+print("Expected pre-dedup rows:", expected_pre_dedup_rows)
+print("Actual pre-dedup rows  :", actual_pre_dedup_rows)
+
+if actual_pre_dedup_rows != expected_pre_dedup_rows:
+    print("❌ ERROR: Pre-dedup row count does not match expectation.")
+else:
+    print("✅ Pre-dedup row count matches expected value exactly.")

@@ -3,6 +3,9 @@ import pandas as pd
 import itertools
 import os
 
+import os
+print("Current working directory:", os.getcwd())
+
 # Ask the user for the dataset acronym
 acronym = input("Enter the dataset acronym (e.g., 'de'): ").strip()
 # Ask the user for the date in the format 'MonthDay' (e.g., 'July16')
@@ -70,24 +73,38 @@ rels_add_narrator["Is Reciprocal?"] = 0
 # set the relationship type to "knows of"
 rels_add_narrator["Type of Relationship"] = "Knows of"
 
-# above, I've created TWO additional relationships for EACH "narrated" relationship.
-# Now, I have to correctly set Character 1 and Character 2 in these generated relationships.
-# Below, what I'm doing is setting the EVEN replica to be the Narrator -> Character 1 relationship
-# and I'm setting the ODD replica to be the Narrator -> Character 2 relationship
-for i, row in rels_add_narrator.iterrows():
-    if i % 2 == 0:
-        # this creates a relationship between Narrator and Char 1
-        if row['Narrator'] not in row['Character 1']:
-            temp = row['Character 1']
-            row['Character 1'] = row['Narrator']
-            row['Character 2'] = temp
-    else:
-        # this creates a relationship between Narrator and Char 2
-        if row["Narrator"] not in row['Character 2']:
-            row['Character 1'] = row['Narrator']
+# We have already duplicated each narrated relationship twice.
+# Now we explicitly create two clean, metadata-preserving rows:
+#   (1) Narrator -> Character 1
+#   (2) Narrator -> Character 2
 
-    # this line adds the newly edited 'row' from above to the correct location in the add_narrator dataframe
-    rels_add_narrator.loc[i] = row
+new_rows = []
+
+for _, row in rels_add_narrator.iterrows():
+    narrator = row['Narrator']
+    char1 = row['Character 1']
+    char2 = row['Character 2']
+
+    # --- Narrator -> Character 1 relationship ---
+    # This row creates a "knows of" relationship from Narrator to Character 1
+    # All other metadata (pages, IDs, container data, etc.) is preserved
+    if narrator != char1:
+        r1 = row.copy()
+        r1['Character 1'] = narrator
+        r1['Character 2'] = char1
+        new_rows.append(r1)
+
+    # --- Narrator -> Character 2 relationship ---
+    # This row creates a "knows of" relationship from Narrator to Character 2
+    # Again, all metadata is preserved unchanged
+    if narrator != char2:
+        r2 = row.copy()
+        r2['Character 1'] = narrator
+        r2['Character 2'] = char2
+        new_rows.append(r2)
+
+# Replace the duplicated dataframe with the explicitly constructed narrator-follow rows
+rels_add_narrator = pd.DataFrame(new_rows)
 
 # I'm dropping duplicates in the populated "add_narrator" dataframe based on whether the values in a subset of
 # columns are the same. For this purpose, I'm considering two entries identical IF Char 1, Char 2,
@@ -95,6 +112,24 @@ for i, row in rels_add_narrator.iterrows():
 rels_add_narrator = rels_add_narrator.drop_duplicates(
     subset=['Character 1', 'Character 2', 'Type of Relationship',
             'Is Reciprocal?', 'Start Page_rel', 'End Page_rel'])
+
+# --- DIAGNOSTIC EXPORT: before global deduplication ---
+
+os.makedirs("data/DiagnosticTestFiles", exist_ok=True)
+
+pre_dedup_df = pd.concat(
+    [rels, rels_add_narrator, rels_add_recip],
+    ignore_index=True
+)
+
+pre_dedup_path = (
+    f"data/DiagnosticTestFiles/"
+    f"{acronym}_PRE_DEDUP.csv"
+)
+
+pre_dedup_df.to_csv(pre_dedup_path, index=False)
+
+print("Diagnostic PRE_DEDUP file written to:", pre_dedup_path)
 
 # I'm merging the original entries in the "rels" dataframe with the "add_narrator" relationships I've generated above,
 # and the "add_reciprocal" relationships I've generated before that.
@@ -141,7 +176,7 @@ final_df = final_df.drop_duplicates(
 final_df.rename(columns={"Start Page_rel": "startPage"}, inplace=True)
 final_df.rename(columns={"Type of Relationship": "category"}, inplace=True)
 final_df.drop(columns=["id_cont", "Title", "Level", "Start Page_cont",
-                       "End Page_cont", "Narrator", "Protagonist",
+                       "End Page_cont", "Protagonist",
                        "Embed. Type", "id_rel", "Is Reciprocal?",
                        "Narrative Container", "End Page_rel", "index"], inplace=True)
 
@@ -149,7 +184,7 @@ final_df.drop(columns=["id_cont", "Title", "Level", "Start Page_cont",
 # need to test if this will work with Gephi
 final_df["weight"] = 1
 final_df["type"] = "Directed"
-final_df = final_df[['source', 'target', 'Character 1', 'Character 2', 'type', 'weight', 'startPage', 'category']]
+final_df = final_df[['source', 'target', 'Character 1', 'Character 2', 'type', 'weight', 'startPage', 'category', 'Narrator']]
 
 df = final_df
 

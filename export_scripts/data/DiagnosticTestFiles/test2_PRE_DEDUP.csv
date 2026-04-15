@@ -1,0 +1,7 @@
+id_cont,Title,Level,Start Page_cont,End Page_cont,Narrator,Protagonist,Embed. Type,id_rel,Type of Relationship,Character 1,Character 2,Is Reciprocal?,Narrative Container,Start Page_rel,End Page_rel,index
+1,Chapter 1,1,1,1,Alice,Alice,Text,1,Knows,Alice,Bob,0,Chapter 1,1,1,
+1,Chapter 1,1,1,1,Alice,Alice,Text,2,Knows,Bob,Carol,0,Chapter 1,1,1,
+1,Chapter 1,1,1,1,Alice,Alice,Text,3,Knows,Bob,Dave,0,Chapter 1,1,1,
+1,Chapter 1,1,1,1,Alice,Alice,Text,1,Knows of,Alice,Bob,0,Chapter 1,1,1,0.0
+1,Chapter 1,1,1,1,Alice,Alice,Text,2,Knows of,Alice,Carol,0,Chapter 1,1,1,1.0
+1,Chapter 1,1,1,1,Alice,Alice,Text,3,Knows of,Alice,Dave,0,Chapter 1,1,1,2.0

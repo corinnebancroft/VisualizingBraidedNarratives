@@ -1,0 +1,6 @@
+source,target,Character 1,Character 2,type,weight,startPage,category,Narrator
+1,2,Alice,Bob,Directed,1,1,Exchange,Alice
+1,3,Alice,Carol,Directed,1,1,Knows,Alice
+2,1,Bob,Alice,Directed,1,1,Exchange,Alice
+2,3,Bob,Carol,Directed,1,1,Knows,Alice
+3,2,Carol,Bob,Directed,1,1,Knows,Alice
