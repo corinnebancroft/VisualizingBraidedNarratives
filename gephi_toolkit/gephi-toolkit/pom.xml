@@ -18,15 +18,27 @@
     <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
 
+
+  <dependencies>
+    <!-- Gephi Toolkit -->
+    <dependency>
+        <groupId>org.gephi</groupId>
+        <artifactId>gephi-toolkit</artifactId>
+        <version>0.10.1</version>
+    </dependency>
+
+
+    <!-- Required for running a main class via Maven -->
+    <dependency>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <type>maven-plugin</type>
+    </dependency>
+</dependencies>
+
+  
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
