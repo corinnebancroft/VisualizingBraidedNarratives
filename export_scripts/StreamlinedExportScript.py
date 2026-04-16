@@ -15,9 +15,10 @@ date_str = input("Enter the date (e.g., 'July16'): ").strip()
 base_path = f"data/{acronym}/dump/narratives_{acronym}_"
 
 # Construct output file paths based on the acronym and date
-StorySpace_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}StorySpaceEdges{date_str}.csv"
-TextSpace_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}TextSpaceEdges{date_str}.csv"
-ExchangesOnly_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}ExchangesOnlyEdges{date_str}.csv"
+StorySpace_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}StorySpaceEdges.csv"
+TextSpace_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}TextSpaceEdges.csv"
+ExchangesOnly_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}ExchangesOnlyEdges.csv"
+Characters_path = f"data/{acronym}/{date_str}GephiReadyExports/{acronym}Characters.csv"
 
 # Ensure the output directory exists
 os.makedirs(os.path.dirname(StorySpace_path), exist_ok=True)
@@ -281,3 +282,16 @@ filtered_df = filtered_df.sort_values(by='startPage').reset_index(drop=True)
 # Write the filtered data to a new CSV file
 
 filtered_df.to_csv(ExchangesOnly_path, index=False)
+
+# --- Characters export for Gephi (nodes table) ---
+
+df_chars_gephi = df_chars.copy()
+
+# 1) Rename "Name" column to "label"
+df_chars_gephi = df_chars_gephi.rename(columns={"Name": "label"})
+
+# 2) Drop rows where label is "[NULL]"
+df_chars_gephi = df_chars_gephi[df_chars_gephi["label"] != "[NULL]"]
+
+# Export to Gephi-ready Characters file
+df_chars_gephi.to_csv(Characters_path, index=False)
