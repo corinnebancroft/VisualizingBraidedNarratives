@@ -13,3 +13,6 @@ From this directory:
 ```bash
 mvn compile
 mvn exec:java
+
+mvn compile
+mvn exec:java -Dexec.mainClass=edu.youruniversity.vbn.App
