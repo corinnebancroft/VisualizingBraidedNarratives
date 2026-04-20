@@ -474,6 +474,92 @@ for (int i = 0; i < 800; i++) {
 }
 fa2Layout.endAlgo();
 
+// ----- Component-aware rescaling  ----------------------------
+
+graph.readLock();
+try {
+
+    Map<Node, Integer> componentOf = new HashMap<>();
+    List<List<Node>> components = new ArrayList<>();
+
+    int componentId = 0;
+
+    for (Node startNode : graph.getNodes()) {
+        if (componentOf.containsKey(startNode)) continue;
+
+        List<Node> component = new ArrayList<>();
+        ArrayList<Node> bfsQueue = new ArrayList<>();
+        bfsQueue.add(startNode);
+        componentOf.put(startNode, componentId);
+
+        while (!bfsQueue.isEmpty()) {
+            Node currentNode = bfsQueue.remove(0);
+            component.add(currentNode);
+
+            for (Node neighborNode : graph.getNeighbors(currentNode)) {
+                if (!componentOf.containsKey(neighborNode)) {
+                    componentOf.put(neighborNode, componentId);
+                    bfsQueue.add(neighborNode);
+                }
+            }
+        }
+
+        components.add(component);
+        componentId++;
+    }
+
+    // Find the giant component
+    int giantIndex = 0;
+    int giantComponentSize = 0;
+
+    for (int i = 0; i < components.size(); i++) {
+        if (components.get(i).size() > giantComponentSize) {
+            giantComponentSize = components.get(i).size();
+            giantIndex = i;
+        }
+    }
+
+    // Compute centroid of giant component
+    float giantCx = 0f;
+    float giantCy = 0f;
+
+    for (Node giantNode : components.get(giantIndex)) {
+        giantCx += giantNode.x();
+        giantCy += giantNode.y();
+    }
+    giantCx /= components.get(giantIndex).size();
+    giantCy /= components.get(giantIndex).size();
+
+    // Pull satellites closer
+    float compressionFactor = 0.5f;
+
+    for (int cIdx = 0; cIdx < components.size(); cIdx++) {
+        if (cIdx == giantIndex) continue;
+
+        List<Node> satelliteComponent = components.get(cIdx);
+
+        float compCx = 0f;
+        float compCy = 0f;
+
+        for (Node compNode : satelliteComponent) {
+            compCx += compNode.x();
+            compCy += compNode.y();
+        }
+        compCx /= satelliteComponent.size();
+        compCy /= satelliteComponent.size();
+
+        float dx = giantCx - compCx;
+        float dy = giantCy - compCy;
+
+        for (Node compNode : satelliteComponent) {
+            compNode.setX(compNode.x() + dx * compressionFactor);
+            compNode.setY(compNode.y() + dy * compressionFactor);
+        }
+    }
+
+} finally {
+    graph.readUnlock();
+}
     // ---- Export statistics to CSV ----------------------------------------
 
     String statsFile = "network_statistics.csv";
