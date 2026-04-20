@@ -18,6 +18,7 @@ import org.gephi.io.importer.api.Container;
 import org.gephi.io.importer.api.ImportController;
 import org.gephi.io.processor.plugin.DefaultProcessor;
 
+
 import org.gephi.statistics.plugin.Degree;
 import org.gephi.statistics.plugin.GraphDistance;
 import org.gephi.statistics.plugin.Modularity;
@@ -30,7 +31,7 @@ import org.gephi.preview.api.PreviewModel;
 import org.gephi.preview.api.PreviewProperty;
 import org.gephi.io.exporter.api.ExportController;
 import org.gephi.io.exporter.preview.SVGExporter;
-import org.gephi.io.exporter.api.FileExporter;
+import org.gephi.io.exporter.spi.Exporter;
 
 
 
@@ -555,45 +556,24 @@ exportController.exportFile(
 
 System.out.println("SVG exported: " + svgFileName);
 
-// ---- Export graph to GEXF for Gephi GUI -------------------------------
-
-ExportController exportController =
-        Lookup.getDefault().lookup(ExportController.class);
+// ---- Export GEXF (Gephi Toolkit 0.10.x compatible) --------------------
 
 String gexfFileName =
         acronym + "_" +
         graphType.name() + "_" +
         date + ".gexf";
 
-// ---- Export graph to GEXF for Gephi GUI (Toolkit 0.10.x) ---------------
+// Correct type for 0.10.x
+Exporter gexfExporter =
+        exportController.getExporter("gexf");
 
-ExportController exportController =
-        Lookup.getDefault().lookup(ExportController.class);
-
-String gexfFileName =
-        acronym + "_" +
-        graphType.name() + "_" +
-        date + ".gexf";
-
-// Get exporter as FileExporter (correct for 0.10.x)
-FileExporter gexfExporter =
-        (FileExporter) exportController.getExporter("gexf");
-
-// Configure exporter properties
-gexfExporter.getProperties().putValue("exportPosition", true);
-gexfExporter.getProperties().putValue("exportNodeSize", true);
-gexfExporter.getProperties().putValue("exportColors", true);
-
-// Write file
+// Export graph + layout + attributes
 exportController.exportFile(
         new File(gexfFileName),
         gexfExporter
 );
 
-System.out.println("GEXF exported for Gephi: " + gexfFileName);
+System.out.println("GEXF exported: " + gexfFileName);
 
-
-
-System.exit(0);
-    }
+}
 }
