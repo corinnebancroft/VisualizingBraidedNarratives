@@ -789,7 +789,7 @@ try {
     giantCy /= components.get(giantIndex).size();
 
     // Pull satellites closer
-    float compressionFactor = 0.5f;
+    float compressionFactor = 0.4f;
 
     for (int cIdx = 0; cIdx < components.size(); cIdx++) {
         if (cIdx == giantIndex) continue;
@@ -860,6 +860,7 @@ try {
         System.err.println("Failed to write statistics file: " + e.getMessage());
     }
 
+
     // ---- Preview configuration (match Gephi Preview tab) ------------------
 
 PreviewController previewController =
@@ -879,6 +880,7 @@ previewModel.getProperties().putValue(
 // Edges
 previewModel.getProperties().putValue(
         PreviewProperty.EDGE_CURVED, false);
+
 
 // Make sure preview is refreshed
 previewController.refreshPreview();
