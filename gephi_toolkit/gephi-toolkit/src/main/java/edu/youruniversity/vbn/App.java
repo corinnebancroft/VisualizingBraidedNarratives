@@ -53,9 +53,9 @@ import java.util.Scanner;
 public class App {
 
     enum GraphType {
-        EXCHANGES_ONLY,
-        STORY_SPACE,
-        TEXT_SPACE
+        ex,
+        ss,
+        ts
     }
 
     public static void main(String[] args) throws Exception {
@@ -81,13 +81,13 @@ public class App {
         GraphType graphType;
         switch (choice) {
             case 1:
-                graphType = GraphType.EXCHANGES_ONLY;
+                graphType = GraphType.ex;
                 break;
             case 2:
-                graphType = GraphType.STORY_SPACE;
+                graphType = GraphType.ss;
                 break;
             case 3:
-                graphType = GraphType.TEXT_SPACE;
+                graphType = GraphType.ts;
                 break;
             default:
                 throw new IllegalArgumentException("Invalid graph type selection.");
@@ -108,19 +108,19 @@ public class App {
         boolean directed;
 
         switch (graphType) {
-            case EXCHANGES_ONLY:
+            case ex:
                 edgeFile = new File(
                         baseDir + acronym + "ExchangesOnlyEdges.csv");
                 directed = true;
                 break;
 
-            case STORY_SPACE:
+            case ss:
                 edgeFile = new File(
                         baseDir + acronym + "StorySpaceEdges.csv");
                 directed = true;
                 break;
 
-            case TEXT_SPACE:
+            case ts:
                 edgeFile = new File(
                         baseDir + acronym + "TextSpaceEdges.csv");
                 directed = false;
@@ -207,7 +207,7 @@ Graph graph = graphModel.getGraphVisible();
     double totalWeightedDegree = 0.0;
     int nodeCount = graph.getNodeCount();
 
-    if (graphType == GraphType.TEXT_SPACE) {
+    if (graphType == GraphType.ts) {
         // Undirected
         UndirectedGraph ug = graphModel.getUndirectedGraphVisible();
 
@@ -248,7 +248,7 @@ if (strengthColumn == null) {
 }
 
 // Compute per-node strength and store it
-if (graphType == GraphType.TEXT_SPACE) {
+if (graphType == GraphType.ts) {
     UndirectedGraph ug = graphModel.getUndirectedGraphVisible();
     for (Node node : ug.getNodes()) {
         double strength = 0.0;
@@ -317,14 +317,14 @@ for (Node node : graph.getNodes()) {
     // for directed graphs, this is half of mean node strength;
     // for undirected graphs, they coincide
         double averageWeightedDegree =
-            graphType == GraphType.TEXT_SPACE
+            graphType == GraphType.ts
             ? meanNodeStrength
             : meanNodeStrength / 2.0;
 
 
     // Diameter (only reliably exposed global distance metric)
     GraphDistance distanceStats = new GraphDistance();
-    distanceStats.setDirected(graphType != GraphType.TEXT_SPACE);
+    distanceStats.setDirected(graphType != GraphType.ts);
     distanceStats.execute(graphModel);
 
     double diameter = distanceStats.getDiameter();
@@ -335,7 +335,7 @@ for (Node node : graph.getNodes()) {
     int n = graph.getNodeCount();
     int m = graph.getEdgeCount();
 
-    if (graphType == GraphType.TEXT_SPACE) {
+    if (graphType == GraphType.ts) {
         density = n > 1 ? (2.0 * m) / (n * (n - 1)) : 0.0;
     } else {
         density = n > 1 ? (double) m / (n * (n - 1)) : 0.0;
@@ -358,36 +358,24 @@ for (Node node : graph.getNodes()) {
 
     int numberOfCommunities = communities.size();
 
-// ---- Color nodes by modularity (methodology-specific) -----------------
+    final Column strengthColumnFinal = strengthColumn;
+
+// ---- Choose community coloring strategy ------------------------------
+
+System.out.println("\nHow do you want to color communities?");
+System.out.println("  1 = By community size (ranked)");
+System.out.println("  2 = By community leader (from CSV)");
+System.out.print("> ");
+
+int colorChoice = Integer.parseInt(scanner.nextLine().trim());
+
+// ---- Color nodes by modularity  -----------------
 
 // Define gray color once
 Color lightGray = Color.decode("#D3D3D3");
 
-// Case 1: Low modularity → all nodes gray
-if (modularityValue < 0.3) {
-    for (Node node : graph.getNodes()) {
-        node.setColor(lightGray);
-    }
-} else {
-
-    // Count nodes per modularity class
-    Map<Integer, Integer> classSizes = new HashMap<>();
-
-    for (Node node : graph.getNodes()) {
-        Integer mc = (Integer) node.getAttribute("modularity_class");
-        if (mc != null) {
-            classSizes.put(mc, classSizes.getOrDefault(mc, 0) + 1);
-        }
-    }
-
-    // Sort modularity classes by size (descending)
-    List<Integer> sortedClasses = new ArrayList<>(classSizes.keySet());
-    sortedClasses.sort(
-        (a, b) -> classSizes.get(b) - classSizes.get(a)
-    );
-
-    // Color palette by rank
-    Color[] palette = new Color[] {
+// Define color pallet
+ Color[] palette = new Color[] {
         Color.decode("#FF0000"), // red
         Color.decode("#0000FF"), // blue
         Color.decode("#FFFF00"), // yellow
@@ -401,6 +389,36 @@ if (modularityValue < 0.3) {
 
     // Map modularity class → color
     Map<Integer, Color> classColors = new HashMap<>();
+
+// Case 1: Low modularity → all nodes gray
+if (modularityValue < 0.3) {
+
+    for (Node node : graph.getNodes()) {
+        node.setColor(lightGray);
+    }
+
+} else if (colorChoice == 1) {
+    classColors.clear();
+
+    // ---- Color communities by SIZE (existing logic) -------------------
+
+    // Count nodes per modularity class
+    Map<Integer, Integer> classSizes = new HashMap<>();
+
+    for (Node node : graph.getNodes()) {
+        Integer mc = (Integer) node.getAttribute("modularity_class");
+        if (mc != null) {
+            classSizes.put(mc, classSizes.getOrDefault(mc, 0) + 1);
+        }
+    }
+
+    // Sort modularity classes by size (descending)
+    List<Integer> sortedClasses =
+            new ArrayList<>(classSizes.keySet());
+
+    sortedClasses.sort(
+        (a, b) -> classSizes.get(b) - classSizes.get(a)
+    );
 
     for (int i = 0; i < sortedClasses.size(); i++) {
         int mc = sortedClasses.get(i);
@@ -419,6 +437,193 @@ if (modularityValue < 0.3) {
         } else {
             node.setColor(lightGray);
         }
+    }
+} else if (colorChoice == 2) {
+
+    classColors.clear();
+
+    // ---- Leader-based coloring from CSV --------------------------------
+
+    // Map color names to Color objects
+    Map<String, Color> colorByName = new HashMap<>();
+    colorByName.put("red",        Color.decode("#FF0000"));
+    colorByName.put("blue",       Color.decode("#0000FF"));
+    colorByName.put("yellow",     Color.decode("#FFFF00"));
+    colorByName.put("magenta",    Color.decode("#FF00FF"));
+    colorByName.put("green",      Color.decode("#00FF00"));
+    colorByName.put("cyan",       Color.decode("#00FFFF"));
+    colorByName.put("orange",     Color.decode("#FFA500"));
+    colorByName.put("violet",     Color.decode("#8D01FF"));
+    colorByName.put("chartreuse", Color.decode("#C9FF00"));
+
+    String leadersFileName =
+        acronym + "_community_leaders_" + graphType.name() + ".csv";
+
+    File leadersFile = new File(leadersFileName);
+
+    if (!leadersFile.exists()) {
+        System.err.println(
+            "Leader coloring selected, but CSV not found: " +
+            leadersFileName
+        );
+    } else {
+
+        try (Scanner fileScanner = new Scanner(leadersFile)) {
+
+            // Skip header
+            if (fileScanner.hasNextLine()) {
+                fileScanner.nextLine();
+            }
+
+            while (fileScanner.hasNextLine()) {
+                String line = fileScanner.nextLine();
+                String[] parts = line.split(",", -1);
+
+                if (parts.length < 8) continue;
+
+                Integer mc = Integer.parseInt(parts[0].trim());
+                String colorName = parts[7].trim();
+
+                if (colorByName.containsKey(colorName)) {
+                    classColors.put(mc, colorByName.get(colorName));
+                }
+            }
+
+        } catch (Exception e) {
+            System.err.println(
+                "Failed to read leader color CSV: " + e.getMessage()
+            );
+        }
+    }
+
+    // Apply colors to nodes
+    for (Node node : graph.getNodes()) {
+        Integer mc = (Integer) node.getAttribute("modularity_class");
+        if (mc != null && classColors.containsKey(mc)) {
+            node.setColor(classColors.get(mc));
+        } else {
+            node.setColor(lightGray);
+        }
+    }
+
+
+} else {
+
+    throw new IllegalArgumentException(
+        "Invalid color choice. Use 1 or 2."
+    );
+}
+
+// ---- Export community leaders for manual color annotation ------------
+
+if (modularityValue >= 0.3) {
+
+    // Group nodes by community
+    Map<Integer, List<Node>> nodesByCommunity = new HashMap<>();
+
+    for (Node node : graph.getNodes()) {
+        Integer mc = (Integer) node.getAttribute("modularity_class");
+        if (mc == null) continue;
+
+        nodesByCommunity
+            .computeIfAbsent(mc, k -> new ArrayList<>())
+            .add(node);
+    }
+
+    // Prepare output file
+    String leadersFileName =
+            acronym + "_community_leaders_" + graphType.name() + ".csv";
+
+    try (FileWriter writer = new FileWriter(leadersFileName)) {
+
+        // Write header
+        writer.write(
+            "modularity_class," +
+            "community_size," +
+            "leader_id," +
+            "leader_label," +
+            "leader_strength," +
+            "leader_size," +
+            "other_large_nodes," +
+            "assigned_color," +
+            "notes\n"
+        );
+
+        // Sort communities by size (descending)
+        List<Integer> sortedCommunityIds =
+                new ArrayList<>(nodesByCommunity.keySet());
+
+        sortedCommunityIds.sort((a, b) ->
+            nodesByCommunity.get(b).size()
+            - nodesByCommunity.get(a).size()
+        );
+
+        // Process each community
+        for (Integer mc : sortedCommunityIds) {
+
+            List<Node> communityNodes = nodesByCommunity.get(mc);
+
+            // Sort nodes by strength (descending)
+            communityNodes.sort((a, b) -> {
+               Double sa = (Double) a.getAttribute(strengthColumnFinal);
+                Double sb = (Double) b.getAttribute(strengthColumnFinal);
+
+                if (sa == null) sa = 0.0;
+                if (sb == null) sb = 0.0;
+                return Double.compare(sb, sa);
+            });
+
+            // Leader = highest-strength node
+            Node leader = communityNodes.get(0);
+
+            Double leaderStrength =
+                    (Double) leader.getAttribute(strengthColumnFinal);
+            if (leaderStrength == null) leaderStrength = 0.0;
+
+            float leaderSize = leader.size();
+
+            // Collect top 5 other large nodes by size
+            List<Node> others = new ArrayList<>(communityNodes);
+            others.remove(leader);
+
+            others.sort((a, b) ->
+                Float.compare(b.size(), a.size())
+            );
+
+            StringBuilder otherLargeNodes = new StringBuilder();
+            int limit = Math.min(5, others.size());
+
+           for (int i = 0; i < limit; i++) {
+            Node otherNode = others.get(i);
+             if (i > 0) otherLargeNodes.append("; ");
+                otherLargeNodes.append(
+             otherNode.getLabel().replace(",", "") +
+            " (" + String.format("%.1f", otherNode.size()) + ")"
+             );
+            }
+
+            // Write CSV row
+            writer.write(
+                mc + "," +
+                communityNodes.size() + "," +
+                leader.getId() + "," +
+                leader.getLabel().replace(",", "") + "," +
+                String.format("%.4f", leaderStrength) + "," +
+                String.format("%.2f", leaderSize) + "," +
+                "\"" + otherLargeNodes.toString() + "\"," +
+                "," +     // assigned_color (blank)
+                "\n"       // notes (blank)
+            );
+        }
+
+        System.out.println(
+            "Community leaders CSV exported: " + leadersFileName
+        );
+
+    } catch (IOException e) {
+        System.err.println(
+            "Failed to export community leaders CSV: " + e.getMessage()
+        );
     }
 }
 
