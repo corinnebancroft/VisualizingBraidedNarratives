@@ -53,9 +53,10 @@ import java.util.Scanner;
 public class App {
 
     enum GraphType {
-        ex,
-        ss,
-        ts
+        ex,     // exchanges
+        exnf,   // exchanges, no floaters
+        ss,     // story space
+        ts      // text space
     }
 
     private static String csv(String value) {
@@ -99,6 +100,9 @@ public class App {
             default:
                 throw new IllegalArgumentException("Invalid graph type selection.");
         }
+
+        GraphType outputGraphType = graphType;
+        int floatersRemovedThisRun = 0;
 
         System.out.println("\nHow do you want to color communities?");
         System.out.println("  1 = By community size (ranked)");
@@ -208,6 +212,46 @@ Graph graph = graphModel.getGraphVisible();
     System.out.println("\nImport complete.");
     System.out.println("Node count: " + graph.getNodeCount());
     System.out.println("Edge count: " + graph.getEdgeCount());
+
+    // ---- Determine how many runs to execute -----------------------------
+
+int runs = (graphType == GraphType.ex) ? 2 : 1;
+
+for (int run = 0; run < runs; run++) {
+
+    floatersRemovedThisRun = 0;
+
+    if (run == 0) {
+        outputGraphType = graphType;
+    }
+
+    // Second run: remove floaters (EX only)
+    if (run == 1) {
+        outputGraphType = GraphType.exnf;
+
+        System.out.println("Removing floaters (isolated nodes) for exnf graph...");
+
+        DirectedGraph dg = graphModel.getDirectedGraphVisible();
+        List<Node> floaters = new ArrayList<>();
+
+        for (Node node : dg.getNodes()) {
+            if (dg.getInDegree(node) == 0 && dg.getOutDegree(node) == 0) {
+                floaters.add(node);
+            }
+        }
+
+        for (Node floater : floaters) {
+    dg.removeNode(floater);
+}
+
+floatersRemovedThisRun = floaters.size();
+
+System.out.println(
+    "Removed " + floatersRemovedThisRun + " floaters. Remaining nodes: " +
+    dg.getNodeCount()
+);
+
+    }
 
     // ---- STEP 2: Supported Network Statistics ---------------------------
 
@@ -463,7 +507,7 @@ if (modularityValue < 0.3) {
     colorByName.put("chartreuse", Color.decode("#C9FF00"));
 
     String leadersFileName =
-        acronym + "_community_leaders_" + graphType.name() + ".csv";
+        acronym + "_community_leaders_" + outputGraphType.name() + ".csv";
 
     File leadersFile = new File(leadersFileName);
 
@@ -526,7 +570,7 @@ if (modularityValue < 0.3) {
 if (modularityValue >= 0.3) {
 
     String leadersFileName =
-            acronym + "_community_leaders_" + graphType.name() + ".csv";
+            acronym + "_community_leaders_" + outputGraphType.name() + ".csv";
 
     File leadersFile = new File(leadersFileName);
 
@@ -688,6 +732,7 @@ for (int i = 0; i < 800; i++) {
 fa2Layout.endAlgo();
 
 // ----- Component-aware rescaling  ----------------------------
+if (outputGraphType != GraphType.ex) {
 
 graph.readLock();
 try {
@@ -773,6 +818,7 @@ try {
 } finally {
     graph.readUnlock();
 }
+}
     // ---- Export statistics to CSV ----------------------------------------
 
     String statsFile = "network_statistics.csv";
@@ -783,19 +829,20 @@ try {
 
         // Write header if file does not exist yet
         if (!fileExists) {
-            writer.write(
+           writer.write(
                 "Dataset,Date,GraphType," +
                 "NumNodes,NumEdges," +
                 "AverageDegree,MeanNodeStrength,AverageWeightedDegree," +
                 "NetworkDiameter,GraphDensity," +
-                "Modularity,NumCommunities\n"
+                "Modularity,NumCommunities,NumFloatersRemoved\n"
             );
+
         }
 
         writer.write(
             acronym + "," +
             date + "," +
-            graphType.name() + "," +
+            outputGraphType.name() + "," +
             graph.getNodeCount() + "," +
             graph.getEdgeCount() + "," +
             avgDegree + "," +
@@ -804,8 +851,10 @@ try {
             diameter + "," +
             density + "," +
             modularityValue + "," +
-            numberOfCommunities + "\n"
+            numberOfCommunities + "," +
+            floatersRemovedThisRun + "\n"
         );
+
 
     } catch (IOException e) {
         System.err.println("Failed to write statistics file: " + e.getMessage());
@@ -841,7 +890,7 @@ ExportController exportController =
 
 String svgFileName =
         acronym + "_" +
-        graphType.name() + "_" +
+        outputGraphType.name() + "_" +
         date + ".svg";
 
 SVGExporter svgExporter =
@@ -860,8 +909,9 @@ System.out.println("SVG exported: " + svgFileName);
 
 String gexfFileName =
         acronym + "_" +
-        graphType.name() + "_" +
+        outputGraphType.name() + "_" +
         date + ".gexf";
+
 
 // Correct type for 0.10.x
 Exporter gexfExporter =
@@ -875,5 +925,6 @@ exportController.exportFile(
 
 System.out.println("GEXF exported: " + gexfFileName);
 
+} // end run loop
 }
 }
