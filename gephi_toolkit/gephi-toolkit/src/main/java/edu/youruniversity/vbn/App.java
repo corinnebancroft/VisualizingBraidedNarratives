@@ -58,6 +58,13 @@ public class App {
         ts
     }
 
+    private static String csv(String value) {
+    if (value == null) return "";
+    // Escape double quotes by doubling them
+    String escaped = value.replace("\"", "\"\"");
+    return "\"" + escaped + "\"";
+    }
+
     public static void main(String[] args) throws Exception {
 
         Scanner scanner = new Scanner(System.in);
@@ -92,6 +99,14 @@ public class App {
             default:
                 throw new IllegalArgumentException("Invalid graph type selection.");
         }
+
+        System.out.println("\nHow do you want to color communities?");
+        System.out.println("  1 = By community size (ranked)");
+        System.out.println("  2 = By community leader (from CSV)");
+        System.out.print("> ");
+
+        int colorChoice = Integer.parseInt(scanner.nextLine().trim());
+
 
         // ---- Resolve paths --------------------------------------------------
 
@@ -360,15 +375,6 @@ for (Node node : graph.getNodes()) {
 
     final Column strengthColumnFinal = strengthColumn;
 
-// ---- Choose community coloring strategy ------------------------------
-
-System.out.println("\nHow do you want to color communities?");
-System.out.println("  1 = By community size (ranked)");
-System.out.println("  2 = By community leader (from CSV)");
-System.out.print("> ");
-
-int colorChoice = Integer.parseInt(scanner.nextLine().trim());
-
 // ---- Color nodes by modularity  -----------------
 
 // Define gray color once
@@ -476,18 +482,19 @@ if (modularityValue < 0.3) {
             }
 
             while (fileScanner.hasNextLine()) {
-                String line = fileScanner.nextLine();
-                String[] parts = line.split(",", -1);
+    String line = fileScanner.nextLine();
+    String[] parts =
+        line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
 
-                if (parts.length < 8) continue;
+    if (parts.length <= 7) continue;
 
-                Integer mc = Integer.parseInt(parts[0].trim());
-                String colorName = parts[7].trim();
+    Integer mc = Integer.parseInt(parts[0].trim());
+    String colorName = parts[7].trim().toLowerCase();
 
-                if (colorByName.containsKey(colorName)) {
-                    classColors.put(mc, colorByName.get(colorName));
-                }
-            }
+    if (colorByName.containsKey(colorName)) {
+        classColors.put(mc, colorByName.get(colorName));
+    }
+}
 
         } catch (Exception e) {
             System.err.println(
@@ -518,112 +525,113 @@ if (modularityValue < 0.3) {
 
 if (modularityValue >= 0.3) {
 
-    // Group nodes by community
-    Map<Integer, List<Node>> nodesByCommunity = new HashMap<>();
-
-    for (Node node : graph.getNodes()) {
-        Integer mc = (Integer) node.getAttribute("modularity_class");
-        if (mc == null) continue;
-
-        nodesByCommunity
-            .computeIfAbsent(mc, k -> new ArrayList<>())
-            .add(node);
-    }
-
-    // Prepare output file
     String leadersFileName =
             acronym + "_community_leaders_" + graphType.name() + ".csv";
 
-    try (FileWriter writer = new FileWriter(leadersFileName)) {
+    File leadersFile = new File(leadersFileName);
 
-        // Write header
-        writer.write(
-            "modularity_class," +
-            "community_size," +
-            "leader_id," +
-            "leader_label," +
-            "leader_strength," +
-            "leader_size," +
-            "other_large_nodes," +
-            "assigned_color," +
-            "notes\n"
+    if (leadersFile.exists()) {
+        System.out.println(
+            "Community leaders CSV already exists — not overwriting: "
+            + leadersFileName
         );
+    } else {
 
-        // Sort communities by size (descending)
-        List<Integer> sortedCommunityIds =
-                new ArrayList<>(nodesByCommunity.keySet());
+        Map<Integer, List<Node>> nodesByCommunity = new HashMap<>();
 
-        sortedCommunityIds.sort((a, b) ->
-            nodesByCommunity.get(b).size()
-            - nodesByCommunity.get(a).size()
-        );
+        for (Node node : graph.getNodes()) {
+            Integer mc = (Integer) node.getAttribute("modularity_class");
+            if (mc == null) continue;
 
-        // Process each community
-        for (Integer mc : sortedCommunityIds) {
-
-            List<Node> communityNodes = nodesByCommunity.get(mc);
-
-            // Sort nodes by strength (descending)
-            communityNodes.sort((a, b) -> {
-               Double sa = (Double) a.getAttribute(strengthColumnFinal);
-                Double sb = (Double) b.getAttribute(strengthColumnFinal);
-
-                if (sa == null) sa = 0.0;
-                if (sb == null) sb = 0.0;
-                return Double.compare(sb, sa);
-            });
-
-            // Leader = highest-strength node
-            Node leader = communityNodes.get(0);
-
-            Double leaderStrength =
-                    (Double) leader.getAttribute(strengthColumnFinal);
-            if (leaderStrength == null) leaderStrength = 0.0;
-
-            float leaderSize = leader.size();
-
-            // Collect top 5 other large nodes by size
-            List<Node> others = new ArrayList<>(communityNodes);
-            others.remove(leader);
-
-            others.sort((a, b) ->
-                Float.compare(b.size(), a.size())
-            );
-
-            StringBuilder otherLargeNodes = new StringBuilder();
-            int limit = Math.min(5, others.size());
-
-           for (int i = 0; i < limit; i++) {
-            Node otherNode = others.get(i);
-             if (i > 0) otherLargeNodes.append("; ");
-                otherLargeNodes.append(
-             otherNode.getLabel().replace(",", "") +
-            " (" + String.format("%.1f", otherNode.size()) + ")"
-             );
-            }
-
-            // Write CSV row
-            writer.write(
-                mc + "," +
-                communityNodes.size() + "," +
-                leader.getId() + "," +
-                leader.getLabel().replace(",", "") + "," +
-                String.format("%.4f", leaderStrength) + "," +
-                String.format("%.2f", leaderSize) + "," +
-                "\"" + otherLargeNodes.toString() + "\"," +
-                "," +     // assigned_color (blank)
-                "\n"       // notes (blank)
-            );
+            nodesByCommunity
+                .computeIfAbsent(mc, k -> new ArrayList<>())
+                .add(node);
         }
 
-        System.out.println(
-            "Community leaders CSV exported: " + leadersFileName
-        );
+        try (FileWriter writer = new FileWriter(leadersFileName)) {
 
-    } catch (IOException e) {
-        System.err.println(
-            "Failed to export community leaders CSV: " + e.getMessage()
-        );
+            writer.write(
+                "leader_label," +
+                "assigned_color," +
+                "community_size," +
+                "other_large_nodes," +
+                "leader_id," +
+                "leader_strength," +
+                "leader_size," +
+                "modularity_class," +
+                "notes\n"
+            );
+
+            List<Integer> sortedCommunityIds =
+                    new ArrayList<>(nodesByCommunity.keySet());
+
+            sortedCommunityIds.sort((a, b) ->
+                nodesByCommunity.get(b).size()
+                - nodesByCommunity.get(a).size()
+            );
+
+            for (Integer mc : sortedCommunityIds) {
+
+                List<Node> communityNodes = nodesByCommunity.get(mc);
+
+                communityNodes.sort((a, b) -> {
+                    Double sa = (Double) a.getAttribute(strengthColumnFinal);
+                    Double sb = (Double) b.getAttribute(strengthColumnFinal);
+                    if (sa == null) sa = 0.0;
+                    if (sb == null) sb = 0.0;
+                    return Double.compare(sb, sa);
+                });
+
+                Node leader = communityNodes.get(0);
+
+                Double leaderStrength =
+                        (Double) leader.getAttribute(strengthColumnFinal);
+                if (leaderStrength == null) leaderStrength = 0.0;
+
+                float leaderSize = leader.size();
+
+                List<Node> others = new ArrayList<>(communityNodes);
+                others.remove(leader);
+
+                others.sort((a, b) ->
+                    Float.compare(b.size(), a.size())
+                );
+
+                StringBuilder otherLargeNodes = new StringBuilder();
+                int limit = Math.min(5, others.size());
+
+                for (int i = 0; i < limit; i++) {
+                    Node otherNode = others.get(i);
+                    if (i > 0) otherLargeNodes.append("; ");
+                    otherLargeNodes.append(
+                        otherNode.getLabel().replace(",", "") +
+                        " (" + String.format("%.1f", otherNode.size()) + ")"
+                    );
+                }
+
+               writer.write(
+    mc + "," +
+    communityNodes.size() + "," +
+    leader.getId() + "," +
+    csv(leader.getLabel()) + "," +
+    String.format("%.4f", leaderStrength) + "," +
+    String.format("%.2f", leaderSize) + "," +
+    csv(otherLargeNodes.toString()) + "," +
+    "," +
+    "\n"
+);
+
+            }
+
+            System.out.println(
+                "Community leaders CSV exported: " + leadersFileName
+            );
+
+        } catch (IOException e) {
+            System.err.println(
+                "Failed to export community leaders CSV: " + e.getMessage()
+            );
+        }
     }
 }
 
