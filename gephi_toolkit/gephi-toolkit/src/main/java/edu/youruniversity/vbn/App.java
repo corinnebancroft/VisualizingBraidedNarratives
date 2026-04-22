@@ -786,7 +786,7 @@ try {
             writer.write(
                 "Dataset,Date,GraphType," +
                 "NumNodes,NumEdges," +
-                "MeanNodeStrength,AverageWeightedDegree," +
+                "AverageDegree,MeanNodeStrength,AverageWeightedDegree," +
                 "NetworkDiameter,GraphDensity," +
                 "Modularity,NumCommunities\n"
             );
@@ -798,6 +798,7 @@ try {
             graphType.name() + "," +
             graph.getNodeCount() + "," +
             graph.getEdgeCount() + "," +
+            avgDegree + "," +
             meanNodeStrength + "," +
             averageWeightedDegree + "," +
             diameter + "," +
