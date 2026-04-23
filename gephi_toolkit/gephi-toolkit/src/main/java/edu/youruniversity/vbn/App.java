@@ -872,7 +872,7 @@ previewModel.getProperties().putValue(
         PreviewProperty.SHOW_NODE_LABELS, true);
 previewModel.getProperties().putValue(
         PreviewProperty.NODE_LABEL_FONT,
-        new Font("Source Sans 3", Font.PLAIN, 12)
+        new Font("Arial", Font.PLAIN, 12)
 );
 previewModel.getProperties().putValue(
         PreviewProperty.NODE_LABEL_PROPORTIONAL_SIZE, true);
@@ -884,6 +884,144 @@ previewModel.getProperties().putValue(
 
 // Make sure preview is refreshed
 previewController.refreshPreview();
+
+// =====================================================================
+// STEP 1: Geometric diagnostics of final layout (no layout modification)
+// =====================================================================
+
+// Collect nodes into a list for indexed access
+List<Node> nodes = new ArrayList<>();
+for (Node node : graph.getNodes()) {
+    nodes.add(node);
+}
+
+int N = nodes.size();
+
+// -------------------------------------------------------------
+// 1. Average Nearest-Neighbor Distance (center-to-center)
+// -------------------------------------------------------------
+double totalNearestDistance = 0.0;
+
+for (int i = 0; i < N; i++) {
+    Node a = nodes.get(i);
+    double minDist = Double.MAX_VALUE;
+
+    for (int j = 0; j < N; j++) {
+        if (i == j) continue;
+
+        Node b = nodes.get(j);
+        double dx = a.x() - b.x();
+        double dy = a.y() - b.y();
+        double d = Math.sqrt(dx * dx + dy * dy);
+
+        if (d < minDist) {
+            minDist = d;
+        }
+    }
+    totalNearestDistance += minDist;
+}
+
+double avgNearestNeighbor =
+        N > 0 ? totalNearestDistance / N : 0.0;
+
+
+// -------------------------------------------------------------
+// 2. Node collision analysis (using node size as radius)
+// -------------------------------------------------------------
+int hardCollisions = 0;   // actual overlaps
+int softCollisions = 0;   // near overlaps
+
+for (int i = 0; i < N; i++) {
+    Node a = nodes.get(i);
+    float ra = a.size();
+
+    for (int j = i + 1; j < N; j++) {
+        Node b = nodes.get(j);
+        float rb = b.size();
+
+        double dx = a.x() - b.x();
+        double dy = a.y() - b.y();
+        double d = Math.sqrt(dx * dx + dy * dy);
+        double rSum = ra + rb;
+
+        if (d < rSum) {
+            hardCollisions++;
+        } else if (d < rSum * 1.2) {
+            softCollisions++;
+        }
+    }
+}
+
+
+// -------------------------------------------------------------
+// 3. Mean spacing ratio (nearest distance / node radius)
+// -------------------------------------------------------------
+double spacingRatioSum = 0.0;
+
+for (int i = 0; i < N; i++) {
+    Node a = nodes.get(i);
+    double minDist = Double.MAX_VALUE;
+
+    for (int j = 0; j < N; j++) {
+        if (i == j) continue;
+
+        Node b = nodes.get(j);
+        double dx = a.x() - b.x();
+        double dy = a.y() - b.y();
+        double d = Math.sqrt(dx * dx + dy * dy);
+
+        if (d < minDist) {
+            minDist = d;
+        }
+    }
+
+    if (a.size() > 0) {
+        spacingRatioSum += minDist / a.size();
+    }
+}
+
+double meanSpacingRatio =
+        N > 0 ? spacingRatioSum / N : 0.0;
+
+
+// -------------------------------------------------------------
+// 4. Bounding box & density proxy
+// -------------------------------------------------------------
+float minX = Float.MAX_VALUE;
+float maxX = -Float.MAX_VALUE;
+float minY = Float.MAX_VALUE;
+float maxY = -Float.MAX_VALUE;
+
+for (Node node : nodes) {
+    minX = Math.min(minX, node.x());
+    maxX = Math.max(maxX, node.x());
+    minY = Math.min(minY, node.y());
+    maxY = Math.max(maxY, node.y());
+}
+
+double boundingBoxArea =
+        (maxX > minX && maxY > minY)
+        ? (maxX - minX) * (maxY - minY)
+        : 0.0;
+
+double nodesPerArea =
+        boundingBoxArea > 0 ? N / boundingBoxArea : 0.0;
+
+
+// -------------------------------------------------------------
+// 5. REPORT
+// -------------------------------------------------------------
+System.out.println("\n--- Layout Geometry Diagnostics ---");
+System.out.println("Number of nodes: " + N);
+System.out.printf("Average nearest-neighbor distance: %.3f%n",
+        avgNearestNeighbor);
+System.out.println("Hard node collisions (overlaps): " + hardCollisions);
+System.out.println("Soft node collisions (near overlaps): " + softCollisions);
+System.out.printf("Mean spacing ratio (dist / radius): %.3f%n",
+        meanSpacingRatio);
+System.out.printf("Bounding box area: %.3f%n", boundingBoxArea);
+System.out.printf("Nodes per unit area: %.6f%n", nodesPerArea);
+System.out.println("-----------------------------------");
 
 // ---- Export SVG -------------------------------------------------------
 

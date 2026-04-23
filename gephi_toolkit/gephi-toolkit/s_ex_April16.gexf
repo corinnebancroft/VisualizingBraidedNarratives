@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2026-04-22">
+  <meta lastmodifieddate="2026-04-23">
     <creator>Apache NetBeans Platform Dev (Build {0})</creator>
     <title></title>
     <description></description>
@@ -54,7 +54,7 @@
           <attvalue for="modularity_class" value="0"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1600.0663" y="-1177.2686"/>
+        <viz:position x="-1954.6323" y="-42.305855"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="104" label="&quot;a cop&quot; (74)">
@@ -70,7 +70,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="311.36438" y="879.849"/>
+        <viz:position x="562.21" y="-288.42938"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="187" label="&quot;a crowd of people&quot; (125)">
@@ -86,7 +86,7 @@
           <attvalue for="modularity_class" value="1"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="912.1645" y="-1446.5562"/>
+        <viz:position x="-1389.0065" y="-976.0813"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="128" label="&quot;a few folks&quot; (84)">
@@ -102,7 +102,7 @@
           <attvalue for="modularity_class" value="2"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1829.1469" y="448.59998"/>
+        <viz:position x="1724.0365" y="228.55615"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="78" label="&quot;a flurry of children&quot; (60)">
@@ -118,7 +118,7 @@
           <attvalue for="modularity_class" value="3"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="826.1108" y="-1929.8862"/>
+        <viz:position x="-1514.0712" y="1384.766"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="117" label="&quot;a man with a basket of party favours&quot; (79)">
@@ -134,7 +134,7 @@
           <attvalue for="modularity_class" value="201"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="192.75954" y="-1188.3474"/>
+        <viz:position x="-1003.05396" y="-613.6377"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="199" label="&quot;a parent&quot; (131)">
@@ -150,7 +150,7 @@
           <attvalue for="modularity_class" value="4"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="769.9228" y="-2030.36"/>
+        <viz:position x="650.43665" y="1507.6464"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="15" label="&quot;a shirtless man&quot; (20)">
@@ -166,7 +166,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1002.8027" y="203.41873"/>
+        <viz:position x="-521.9065" y="1015.77924"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="132" label="&quot;a teacher&quot; (87)">
@@ -182,7 +182,7 @@
           <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1319.8397" y="1226.0519"/>
+        <viz:position x="1869.1274" y="-351.56207"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="200" label="&quot;a toddler&quot; (131)">
@@ -198,7 +198,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="44.27517" y="78.58235"/>
+        <viz:position x="-641.7971" y="-71.233795"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="91" label="&quot;a white lady&quot; at the nail salon (68)">
@@ -214,7 +214,7 @@
           <attvalue for="modularity_class" value="6"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1817.0072" y="-238.19167"/>
+        <viz:position x="1699.7202" y="-1090.9259"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="162" label="&quot;a young girl named Samantha&quot; (108)">
@@ -230,7 +230,7 @@
           <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="792.92084" y="1940.1079"/>
+        <viz:position x="-1881.3591" y="-217.6081"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="358" label="&quot;abusive partners&quot;">
@@ -246,7 +246,7 @@
           <attvalue for="modularity_class" value="181"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1318.4165" y="62.58881"/>
+        <viz:position x="617.4178" y="1060.3754"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="101" label="&quot;Ada, the palm reader&quot; (74)">
@@ -262,7 +262,7 @@
           <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1472.4907" y="1584.1025"/>
+        <viz:position x="-353.32358" y="1877.6111"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="212" label="&quot;all of the children&quot; in the Galloway Shelter (137">
@@ -278,7 +278,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="815.3743" y="-127.12645"/>
+        <viz:position x="213.61266" y="694.5344"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="130" label="&quot;all the children sitting cross legged&quot; (85)">
@@ -294,7 +294,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="12.708978" y="503.03366"/>
+        <viz:position x="-599.70667" y="-140.81683"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="168" label="&quot;all the girls on the playground&quot; (113)">
@@ -310,7 +310,7 @@
           <attvalue for="modularity_class" value="9"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1834.8127" y="-125.97467"/>
+        <viz:position x="-1302.5564" y="1356.4414"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="82" label="&quot;all the parents&quot; (61)">
@@ -326,7 +326,7 @@
           <attvalue for="modularity_class" value="10"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1863.3549" y="424.06674"/>
+        <viz:position x="360.1649" y="-2018.5045"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="58" label="&quot;an elderly Asian woman&quot; (41) / The bowling alley">
@@ -342,7 +342,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-276.75208" y="359.65417"/>
+        <viz:position x="-97.085205" y="-408.19754"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="359" label="&quot;angry drug dealers&quot;">
@@ -358,7 +358,7 @@
           <attvalue for="modularity_class" value="181"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1319.1744" y="-19.577131"/>
+        <viz:position x="652.016" y="986.45526"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="388" label="&quot;Brothers&quot;(141)">
@@ -374,7 +374,7 @@
           <attvalue for="modularity_class" value="11"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-139.93216" y="-2097.6348"/>
+        <viz:position x="-251.11925" y="-1580.6074"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="390" label="&quot;Children&quot;(141)">
@@ -390,7 +390,7 @@
           <attvalue for="modularity_class" value="12"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1032.4049" y="1289.4039"/>
+        <viz:position x="-225.72531" y="-1797.9448"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="110" label="&quot;chubby white boy with red hair&quot; (77)">
@@ -406,7 +406,7 @@
           <attvalue for="modularity_class" value="13"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-388.60455" y="1809.9338"/>
+        <viz:position x="557.24817" y="1811.8679"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="102" label="&quot;Cindy, the puppy mill lady&quot; (74)">
@@ -422,7 +422,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="304.70255" y="1090.6116"/>
+        <viz:position x="783.33466" y="-44.574936"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="387" label="&quot;Cousins&quot; (141)">
@@ -438,7 +438,7 @@
           <attvalue for="modularity_class" value="14"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-577.1465" y="1806.4199"/>
+        <viz:position x="729.44714" y="1692.1226"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="391" label="&quot;Daddies&quot; (141)">
@@ -454,7 +454,7 @@
           <attvalue for="modularity_class" value="15"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="653.11523" y="2021.772"/>
+        <viz:position x="-1796.4425" y="893.3733"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="178" label="&quot;each student&quot; (117)">
@@ -470,7 +470,7 @@
           <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1396.5607" y="-1103.8827"/>
+        <viz:position x="897.37134" y="-1817.5073"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="169" label="&quot;families with lighter skin&quot; (113)">
@@ -486,7 +486,7 @@
           <attvalue for="modularity_class" value="17"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-259.10645" y="-1530.0829"/>
+        <viz:position x="-1750.7506" y="481.58786"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="164" label="&quot;fat kids&quot; (108)">
@@ -502,7 +502,7 @@
           <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-814.31604" y="1384.591"/>
+        <viz:position x="-634.01355" y="-1532.5597"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="386" label="&quot;Fathers&quot; (141)">
@@ -518,7 +518,7 @@
           <attvalue for="modularity_class" value="19"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="761.0673" y="-1362.721"/>
+        <viz:position x="1815.2982" y="236.79173"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="126" label="&quot;four gangly teens&quot; (84)">
@@ -534,7 +534,7 @@
           <attvalue for="modularity_class" value="20"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1483.1427" y="1359.7968"/>
+        <viz:position x="235.12238" y="-1815.1571"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="19" label="&quot;grade three classmates&quot; (24)">
@@ -550,7 +550,7 @@
           <attvalue for="modularity_class" value="21"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-420.52493" y="1647.9734"/>
+        <viz:position x="-1303.7822" y="1475.2688"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="33" label="&quot;her mother in law&quot; (36)">
@@ -566,7 +566,7 @@
           <attvalue for="modularity_class" value="22"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1720.6862" y="-332.0729"/>
+        <viz:position x="1647.3074" y="-232.21742"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="266" label="&quot;Hilda&quot;">
@@ -582,7 +582,7 @@
           <attvalue for="modularity_class" value="23"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1853.604" y="182.74388"/>
+        <viz:position x="1520.7548" y="-1606.1559"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="95" label="&quot;his friends who came over&quot; (72)">
@@ -598,7 +598,7 @@
           <attvalue for="modularity_class" value="24"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1317.3934" y="-1596.2489"/>
+        <viz:position x="-1146.3151" y="-1411.4235"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="111" label="&quot;his grandma&quot; (78)">
@@ -614,7 +614,7 @@
           <attvalue for="modularity_class" value="25"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1194.9095" y="-1484.1119"/>
+        <viz:position x="1496.9722" y="860.2641"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="75" label="&quot;hungry people&quot; (57)">
@@ -630,7 +630,7 @@
           <attvalue for="modularity_class" value="26"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-467.19388" y="-1733.9734"/>
+        <viz:position x="-1114.9838" y="-919.80096"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="22" label="&quot;Indian kids&quot; (26)">
@@ -646,7 +646,7 @@
           <attvalue for="modularity_class" value="27"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1429.2236" y="862.36237"/>
+        <viz:position x="-415.2034" y="-1537.3489"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="215" label="&quot;Kids&quot; (at the Woodbine Racetrack) (138)">
@@ -662,7 +662,7 @@
           <attvalue for="modularity_class" value="28"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="966.5666" y="-1332.1055"/>
+        <viz:position x="223.6469" y="1600.5776"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="100" label="&quot;Maurie, the bus driver&quot; (74)">
@@ -678,7 +678,7 @@
           <attvalue for="modularity_class" value="29"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1692.3225" y="516.3756"/>
+        <viz:position x="-1647.2379" y="-189.571"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="94" label="&quot;Mitchell next door&quot; (72)">
@@ -694,7 +694,7 @@
           <attvalue for="modularity_class" value="182"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1342.8186" y="-1792.8447"/>
+        <viz:position x="-962.4341" y="-1679.3954"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="195" label="&quot;moneyed folks&quot; (129)">
@@ -710,7 +710,7 @@
           <attvalue for="modularity_class" value="30"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1692.3917" y="237.63795"/>
+        <viz:position x="-24.76316" y="-1651.242"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="389" label="&quot;Mother[s]&quot; (141)">
@@ -726,7 +726,7 @@
           <attvalue for="modularity_class" value="31"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="669.4085" y="1826.655"/>
+        <viz:position x="-1581.9585" y="-586.6395"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="118" label="&quot;niece&quot; (80)">
@@ -742,7 +742,7 @@
           <attvalue for="modularity_class" value="32"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="911.8111" y="-1539.34"/>
+        <viz:position x="-1109.1049" y="-1054.1465"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="98" label="&quot;nosy people&quot; (73)">
@@ -758,7 +758,7 @@
           <attvalue for="modularity_class" value="33"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1911.2411" y="-285.1178"/>
+        <viz:position x="-332.54755" y="-1451.7646"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="99" label="&quot;old ladies&quot; (73)">
@@ -774,7 +774,7 @@
           <attvalue for="modularity_class" value="34"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-697.9369" y="1679.651"/>
+        <viz:position x="1783.3887" y="-535.76886"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="56" label="&quot;older kids&quot; (33)">
@@ -790,7 +790,7 @@
           <attvalue for="modularity_class" value="35"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-185.7138" y="-1655.4435"/>
+        <viz:position x="-1393.8848" y="1164.669"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="173" label="&quot;one and one-half parents&quot; (114)">
@@ -806,7 +806,7 @@
           <attvalue for="modularity_class" value="36"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1794.2975" y="23.79425"/>
+        <viz:position x="1137.7439" y="-1856.547"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="52" label="&quot;one elderly woman&quot; (32)">
@@ -822,7 +822,7 @@
           <attvalue for="modularity_class" value="37"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="300.62497" y="1882.924"/>
+        <viz:position x="-1813.0999" y="319.2368"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="197" label="&quot;one mother&quot; (130)">
@@ -838,7 +838,7 @@
           <attvalue for="modularity_class" value="38"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1766.9797" y="-472.42413"/>
+        <viz:position x="-1793.587" y="25.54891"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="90" label="&quot;one of the Vietnamese ladies at the counter&quot; (67)">
@@ -854,7 +854,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="684.4516" y="225.535"/>
+        <viz:position x="-457.35785" y="-83.85828"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="213" label="&quot;other unsupervised children&quot; (138)">
@@ -870,7 +870,7 @@
           <attvalue for="modularity_class" value="39"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1700.6848" y="634.98126"/>
+        <viz:position x="-823.4054" y="1752.8383"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="172" label="&quot;our fathers&quot; (114)">
@@ -886,7 +886,7 @@
           <attvalue for="modularity_class" value="40"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="190.4162" y="1818.8517"/>
+        <viz:position x="1302.819" y="-1771.7239"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="175" label="&quot;our grandmothers&quot; (114)">
@@ -902,7 +902,7 @@
           <attvalue for="modularity_class" value="41"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-682.8322" y="1517.0042"/>
+        <viz:position x="1813.5836" y="-157.3669"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="127" label="&quot;P*kis&quot;">
@@ -918,7 +918,7 @@
           <attvalue for="modularity_class" value="42"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1381.514" y="-1324.8102"/>
+        <viz:position x="1278.3772" y="1147.6687"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="214" label="&quot;parents&quot; (at the Woodbine Racetrack) (138)">
@@ -934,7 +934,7 @@
           <attvalue for="modularity_class" value="43"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-884.12604" y="1542.788"/>
+        <viz:position x="1621.5544" y="405.22363"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="179" label="&quot;parents&quot; (of children in Landau's class)">
@@ -950,7 +950,7 @@
           <attvalue for="modularity_class" value="159"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1650.4253" y="1204.626"/>
+        <viz:position x="1776.687" y="-701.99384"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="190" label="&quot;poor brown and Black parents&quot; (126)">
@@ -966,7 +966,7 @@
           <attvalue for="modularity_class" value="44"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1854.0576" y="38.504303"/>
+        <viz:position x="-139.6416" y="1649.2837"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="133" label="&quot;several toddlers&quot; (87)">
@@ -982,7 +982,7 @@
           <attvalue for="modularity_class" value="45"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1575.6073" y="-215.70029"/>
+        <viz:position x="-913.16516" y="1549.9147"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="174" label="&quot;siblings from different dads&quot; (114)">
@@ -998,7 +998,7 @@
           <attvalue for="modularity_class" value="46"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-814.1116" y="1597.2118"/>
+        <viz:position x="-1570.1956" y="-449.57007"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="323" label="&quot;Single mamas&quot;">
@@ -1014,7 +1014,7 @@
           <attvalue for="modularity_class" value="47"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1790.448" y="-127.84318"/>
+        <viz:position x="-1463.1982" y="-742.7692"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="114" label="&quot;smiling black women in shower caps&quot; (79)">
@@ -1030,7 +1030,7 @@
           <attvalue for="modularity_class" value="48"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-541.2879" y="1571.2367"/>
+        <viz:position x="1487.6388" y="621.13434"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="385" label="&quot;Social workers&quot; (141)">
@@ -1046,7 +1046,7 @@
           <attvalue for="modularity_class" value="49"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1810.8276" y="634.00336"/>
+        <viz:position x="366.02127" y="1495.5211"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="181" label="&quot;some black boy&quot; (118)">
@@ -1062,7 +1062,7 @@
           <attvalue for="modularity_class" value="50"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1578.4529" y="-943.8699"/>
+        <viz:position x="1681.6626" y="-101.82056"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="191" label="&quot;some lady in a pantsuit&quot; (126)">
@@ -1078,7 +1078,7 @@
           <attvalue for="modularity_class" value="51"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-249.00908" y="-1808.8578"/>
+        <viz:position x="755.38" y="-1772.495"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="157" label="&quot;some lawyer on TV&quot; (103)">
@@ -1094,7 +1094,7 @@
           <attvalue for="modularity_class" value="52"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1576.309" y="753.22314"/>
+        <viz:position x="1630.0406" y="-420.8765"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="113" label="&quot;some man wearing a UFC bandana&quot; (79)">
@@ -1110,7 +1110,7 @@
           <attvalue for="modularity_class" value="75"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1564.1234" y="420.0952"/>
+        <viz:position x="-48.328472" y="1881.8887"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="196" label="&quot;some of the caregivers&quot; (130)">
@@ -1126,7 +1126,7 @@
           <attvalue for="modularity_class" value="53"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1142.4622" y="-1538.1543"/>
+        <viz:position x="-1428.6932" y="-1093.1671"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="159" label="&quot;spies disguised as waiters&quot; (on TV)(105)">
@@ -1142,7 +1142,7 @@
           <attvalue for="modularity_class" value="54"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1674.6722" y="-622.7779"/>
+        <viz:position x="1687.2888" y="-870.2097"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="180" label="&quot;the band English Beat&quot; (118)">
@@ -1158,7 +1158,7 @@
           <attvalue for="modularity_class" value="55"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1700.5609" y="920.9924"/>
+        <viz:position x="1564.6117" y="733.32513"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="204" label="&quot;the band Kiss&quot; (131)">
@@ -1174,7 +1174,7 @@
           <attvalue for="modularity_class" value="56"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1311.4305" y="1467.3337"/>
+        <viz:position x="136.01262" y="-1319.6705"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="63" label="&quot;the boys&quot; (Cory's friends)">
@@ -1190,7 +1190,7 @@
           <attvalue for="modularity_class" value="57"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-436.958" y="-1643.4377"/>
+        <viz:position x="-1596.4032" y="896.7518"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="221" label="&quot;the driver&quot; (140)">
@@ -1206,7 +1206,7 @@
           <attvalue for="modularity_class" value="58"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1850.4288" y="213.43588"/>
+        <viz:position x="-1877.8524" y="154.52396"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="176" label="&quot;the hooligans&quot; (114)">
@@ -1222,7 +1222,7 @@
           <attvalue for="modularity_class" value="59"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1303.3424" y="-1027.6852"/>
+        <viz:position x="-1284.3273" y="-1032.1866"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="120" label="&quot;the lady in front of us&quot; (80)">
@@ -1238,7 +1238,7 @@
           <attvalue for="modularity_class" value="201"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="100.8686" y="-575.1764"/>
+        <viz:position x="-751.86237" y="-68.31225"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="208" label="&quot;the literary centre's regulars&quot; (132)">
@@ -1254,7 +1254,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="84.85344" y="429.03595"/>
+        <viz:position x="-544.4503" y="-24.718344"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="209" label="&quot;the nurses&quot; (135)">
@@ -1270,7 +1270,7 @@
           <attvalue for="modularity_class" value="60"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1645.6584" y="-826.8897"/>
+        <viz:position x="1772.5331" y="61.860664"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="105" label="&quot;the people sitting across from him&quot; (73)">
@@ -1286,7 +1286,7 @@
           <attvalue for="modularity_class" value="61"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1145.3466" y="1861.2314"/>
+        <viz:position x="366.43155" y="1728.1683"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="119" label="&quot;the rest of the line&quot; (80)">
@@ -1302,7 +1302,7 @@
           <attvalue for="modularity_class" value="201"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="110.31566" y="-898.76025"/>
+        <viz:position x="-922.6593" y="-326.39236"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="188" label="&quot;the rest of the tenants&quot; (125)">
@@ -1318,7 +1318,7 @@
           <attvalue for="modularity_class" value="62"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1213.0598" y="1020.7149"/>
+        <viz:position x="-643.02673" y="1665.8644"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="81" label="&quot;the school-agers&quot; (61)">
@@ -1334,7 +1334,7 @@
           <attvalue for="modularity_class" value="63"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-476.7596" y="-1523.8792"/>
+        <viz:position x="1562.2408" y="306.2183"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="177" label="&quot;the students in Mrs Landau's class&quot; (117)">
@@ -1350,7 +1350,7 @@
           <attvalue for="modularity_class" value="64"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-26.917011" y="-1714.5178"/>
+        <viz:position x="927.9951" y="1419.3966"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="211" label="&quot;the surgeon&quot;(135)">
@@ -1366,7 +1366,7 @@
           <attvalue for="modularity_class" value="65"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1107.9437" y="1087.1375"/>
+        <viz:position x="469.63162" y="1685.4772"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="30" label="&quot;the white lady&quot; (35)">
@@ -1382,7 +1382,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-331.12573" y="-598.5191"/>
+        <viz:position x="293.44504" y="607.2549"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="163" label="&quot;the zookeeper&quot; (in story) (108)">
@@ -1398,7 +1398,7 @@
           <attvalue for="modularity_class" value="66"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1597.6423" y="-474.08728"/>
+        <viz:position x="1531.0555" y="130.44199"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="219" label="&quot;their families&quot; (139)">
@@ -1414,7 +1414,7 @@
           <attvalue for="modularity_class" value="67"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1429.4058" y="-1011.61206"/>
+        <viz:position x="1577.2877" y="3.976633"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="80" label="&quot;their parents&quot; (60)">
@@ -1430,7 +1430,7 @@
           <attvalue for="modularity_class" value="68"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="879.72845" y="-1743.5814"/>
+        <viz:position x="1175.1907" y="1260.5098"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="79" label="&quot;three toddlers&quot; (60)">
@@ -1446,7 +1446,7 @@
           <attvalue for="modularity_class" value="69"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="968.5692" y="1836.0594"/>
+        <viz:position x="-1002.58136" y="-1438.452"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="393" label="&quot;towelheads&quot;">
@@ -1462,7 +1462,7 @@
           <attvalue for="modularity_class" value="70"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1660.4785" y="-37.672066"/>
+        <viz:position x="-1127.213" y="-1266.265"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="357" label="&quot;twenty-four hour staff&quot;">
@@ -1478,7 +1478,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="713.83453" y="161.75914"/>
+        <viz:position x="-225.46034" y="48.1779"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="170" label="&quot;two whole parents with two whole jobs&quot; (113)">
@@ -1494,7 +1494,7 @@
           <attvalue for="modularity_class" value="71"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1828.0223" y="-414.73322"/>
+        <viz:position x="-45.90019" y="-1540.9545"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="392" label="&quot;Uncle[s]&quot; (141)">
@@ -1510,7 +1510,7 @@
           <attvalue for="modularity_class" value="72"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1093.9293" y="1712.3934"/>
+        <viz:position x="1460.9336" y="-830.7455"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="171" label="&quot;we the brown kids&quot; (114)">
@@ -1526,7 +1526,7 @@
           <attvalue for="modularity_class" value="73"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1797.9163" y="-287.6777"/>
+        <viz:position x="-1117.9775" y="1604.1945"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="108" label="&quot;white kids&quot; (77)">
@@ -1542,7 +1542,7 @@
           <attvalue for="modularity_class" value="74"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1303.9639" y="1688.8948"/>
+        <viz:position x="-1670.5901" y="1035.8749"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="112" label="&quot;white lady wearing a muumuu&quot; (78)">
@@ -1558,7 +1558,7 @@
           <attvalue for="modularity_class" value="75"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1516.801" y="457.7271"/>
+        <viz:position x="-10.241332" y="1927.714"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="135" label="a baby">
@@ -1574,7 +1574,7 @@
           <attvalue for="modularity_class" value="76"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1572.0022" y="121.27727"/>
+        <viz:position x="1747.6472" y="-312.92722"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="134" label="a caregiver">
@@ -1590,7 +1590,7 @@
           <attvalue for="modularity_class" value="77"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-766.8547" y="-1615.7473"/>
+        <viz:position x="1722.5576" y="444.17148"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="44" label="Aiden Chan">
@@ -1606,7 +1606,7 @@
           <attvalue for="modularity_class" value="114"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1212.4163" y="-649.87573"/>
+        <viz:position x="-518.53564" y="-1125.5754"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="86" label="Aiden Redden">
@@ -1622,7 +1622,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-471.23892" y="-94.084076"/>
+        <viz:position x="255.63994" y="-58.24325"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="138" label="American Idol judges">
@@ -1638,7 +1638,7 @@
           <attvalue for="modularity_class" value="78"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1125.4481" y="-1618.9119"/>
+        <viz:position x="-1189.145" y="-1121.795"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="50" label="Amina Mohammed">
@@ -1654,7 +1654,7 @@
           <attvalue for="modularity_class" value="79"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1075.0135" y="1383.8845"/>
+        <viz:position x="1353.0421" y="635.09296"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="142" label="Anna Maria De Souza">
@@ -1670,7 +1670,7 @@
           <attvalue for="modularity_class" value="80"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1929.8987" y="-109.429535"/>
+        <viz:position x="855.2034" y="1559.0385"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="206" label="Anna's daughter">
@@ -1686,7 +1686,7 @@
           <attvalue for="modularity_class" value="81"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1401.2784" y="670.4913"/>
+        <viz:position x="-52.75444" y="-1424.8038"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="156" label="arts kids">
@@ -1702,7 +1702,7 @@
           <attvalue for="modularity_class" value="82"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1396.56" y="-1165.9163"/>
+        <viz:position x="1592.9254" y="-536.55524"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="276" label="Ate Lin Menendez">
@@ -1718,7 +1718,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="-727.01807" y="-173.59903"/>
+        <viz:position x="63.363472" y="-234.08684"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="279" label="Ate Lou Menendez">
@@ -1734,7 +1734,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-708.0276" y="-17.091164"/>
+        <viz:position x="179.10152" y="-203.88657"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="218" label="Atheists">
@@ -1750,7 +1750,7 @@
           <attvalue for="modularity_class" value="83"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1479.7543" y="608.45135"/>
+        <viz:position x="-145.4346" y="-1405.0786"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="225" label="Aunt (who took away the woman's kids)">
@@ -1763,10 +1763,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="2.0"/>
-          <attvalue for="modularity_class" value="221"/>
+          <attvalue for="modularity_class" value="222"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="1284.2037" y="-1313.3508"/>
+        <viz:position x="-994.3193" y="1395.5074"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="368" label="Autistic child (in video)">
@@ -1782,7 +1782,7 @@
           <attvalue for="modularity_class" value="88"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1245.3217" y="814.5989"/>
+        <viz:position x="-430.07486" y="1692.1896"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="244" label="Babies">
@@ -1798,7 +1798,7 @@
           <attvalue for="modularity_class" value="121"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1932.6243" y="-692.45703"/>
+        <viz:position x="854.44635" y="-1117.139"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="366" label="Ben">
@@ -1814,7 +1814,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="434.6674" y="651.38293"/>
+        <viz:position x="-108.51011" y="1052.7272"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="145" label="Benjamin Tate">
@@ -1830,7 +1830,7 @@
           <attvalue for="modularity_class" value="84"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1700.449" y="109.26957"/>
+        <viz:position x="1621.4159" y="561.38916"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="293" label="Bing's Class">
@@ -1846,7 +1846,7 @@
           <attvalue for="modularity_class" value="114"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="940.28577" y="-658.42883"/>
+        <viz:position x="-338.9566" y="-972.017"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="38" label="Bing's Dad">
@@ -1862,7 +1862,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="-404.7101" y="-39.439888"/>
+        <viz:position x="332.62103" y="247.21494"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="382" label="Bing's Partner">
@@ -1878,7 +1878,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-473.78522" y="74.9363"/>
+        <viz:position x="204.04375" y="-111.71388"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="28" label="Bing/Bernard Espiritu">
@@ -1894,7 +1894,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="100.0"/>
-        <viz:position x="-250.03986" y="-161.98993"/>
+        <viz:position x="160.799" y="146.27306"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="165" label="Blackfoot Indigenous group">
@@ -1910,7 +1910,7 @@
           <attvalue for="modularity_class" value="85"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1431.8245" y="-897.85205"/>
+        <viz:position x="-293.0377" y="-1672.2124"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="306" label="Bob Marley">
@@ -1926,7 +1926,7 @@
           <attvalue for="modularity_class" value="86"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-680.83264" y="-1873.5818"/>
+        <viz:position x="158.15656" y="-1893.5419"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="308" label="Brown family">
@@ -1942,7 +1942,7 @@
           <attvalue for="modularity_class" value="179"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-225.76418" y="1998.2739"/>
+        <viz:position x="1642.5579" y="1174.8853"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="320" label="Buck (that Jonathon sees)">
@@ -1958,7 +1958,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="934.20996" y="-302.67688"/>
+        <viz:position x="475.82242" y="584.3012"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="348" label="Bullfighters in Spain">
@@ -1974,7 +1974,7 @@
           <attvalue for="modularity_class" value="87"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1461.3544" y="-983.59174"/>
+        <viz:position x="15.112682" y="-1795.1765"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="369" label="Caregiver (in video)">
@@ -1990,7 +1990,7 @@
           <attvalue for="modularity_class" value="88"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1219.5282" y="867.4215"/>
+        <viz:position x="-477.5532" y="1668.7876"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="233" label="Caribbean People">
@@ -2006,7 +2006,7 @@
           <attvalue for="modularity_class" value="89"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="451.15057" y="1882.465"/>
+        <viz:position x="209.86972" y="1719.2029"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="192" label="Celene Dion">
@@ -2022,7 +2022,7 @@
           <attvalue for="modularity_class" value="90"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-914.4379" y="-1769.8208"/>
+        <viz:position x="1374.1901" y="1226.7194"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="292" label="Celine Dion">
@@ -2038,7 +2038,7 @@
           <attvalue for="modularity_class" value="91"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1777.2439" y="-1040.0587"/>
+        <viz:position x="1690.6593" y="-1328.7212"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="355" label="Charlie (and the Chocolate Factory)">
@@ -2054,7 +2054,7 @@
           <attvalue for="modularity_class" value="92"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-939.5696" y="1401.3026"/>
+        <viz:position x="-1500.8124" y="-660.36646"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="271" label="Children in Africa">
@@ -2070,7 +2070,7 @@
           <attvalue for="modularity_class" value="93"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1622.6132" y="-919.60626"/>
+        <viz:position x="-954.4182" y="-1224.2529"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="315" label="Children in Pearson Memorial Junior Public School">
@@ -2086,7 +2086,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-1043.7167" y="-308.7716"/>
+        <viz:position x="760.25446" y="572.6701"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="76" label="children in the community">
@@ -2102,7 +2102,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="15.242719"/>
-        <viz:position x="-387.00195" y="26.43516"/>
+        <viz:position x="323.51022" y="22.173271"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="283" label="Children who did not yet observe Communion">
@@ -2118,7 +2118,7 @@
           <attvalue for="modularity_class" value="94"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1008.1167" y="1551.7681"/>
+        <viz:position x="279.3242" y="1873.8646"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="294" label="Children who survived the fire">
@@ -2134,7 +2134,7 @@
           <attvalue for="modularity_class" value="95"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1631.7609" y="909.1214"/>
+        <viz:position x="-1768.8036" y="-705.0158"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="23" label="Children's Aid (25)">
@@ -2150,7 +2150,7 @@
           <attvalue for="modularity_class" value="96"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-89.977745" y="-1667.449"/>
+        <viz:position x="-1698.315" y="-348.75592"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="154" label="children's choir">
@@ -2166,7 +2166,7 @@
           <attvalue for="modularity_class" value="97"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1769.0164" y="1234.0571"/>
+        <viz:position x="-1930.6422" y="359.33942"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="53" label="Chloe Smith">
@@ -2182,7 +2182,7 @@
           <attvalue for="modularity_class" value="98"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1564.1246" y="-1209.925"/>
+        <viz:position x="-1570.0922" y="-879.56683"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="193" label="Christians">
@@ -2198,7 +2198,7 @@
           <attvalue for="modularity_class" value="99"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-390.7543" y="-2050.8386"/>
+        <viz:position x="-1846.2831" y="-389.54553"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="226" label="Cindy">
@@ -2214,7 +2214,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="16.990292"/>
-        <viz:position x="473.3325" y="1103.4613"/>
+        <viz:position x="877.5154" y="-175.00719"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="236" label="Cindy's classmates">
@@ -2230,7 +2230,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="646.04816" y="1150.552"/>
+        <viz:position x="992.3644" y="-86.51411"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="234" label="Cindy's friend (with Guyanese roots)">
@@ -2246,7 +2246,7 @@
           <attvalue for="modularity_class" value="100"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-382.16016" y="-1915.2937"/>
+        <viz:position x="-924.8833" y="-1385.594"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="235" label="Cindy's Friend's Wife">
@@ -2262,7 +2262,7 @@
           <attvalue for="modularity_class" value="101"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="70.20324" y="1964.9584"/>
+        <viz:position x="-1436.9026" y="-1255.0088"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="257" label="Cindy's landlord">
@@ -2278,7 +2278,7 @@
           <attvalue for="modularity_class" value="102"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2102.4868" y="-746.3557"/>
+        <viz:position x="775.3449" y="1578.4255"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="230" label="Cindy's Mother">
@@ -2294,7 +2294,7 @@
           <attvalue for="modularity_class" value="103"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1489.3022" y="-1541.6345"/>
+        <viz:position x="1671.9138" y="880.55493"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="232" label="Cindy's other children">
@@ -2310,7 +2310,7 @@
           <attvalue for="modularity_class" value="104"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-65.42421" y="2071.1318"/>
+        <viz:position x="-369.6802" y="-1827.932"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="237" label="Cindy's teachers">
@@ -2326,7 +2326,7 @@
           <attvalue for="modularity_class" value="105"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-809.2086" y="-1757.7587"/>
+        <viz:position x="1534.2991" y="-453.70303"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="7" label="Clara Jane Donohue">
@@ -2342,7 +2342,7 @@
           <attvalue for="modularity_class" value="112"/>
         </attvalues>
         <viz:size value="28.786407"/>
-        <viz:position x="232.99623" y="-460.95102"/>
+        <viz:position x="-702.1985" y="197.73877"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="106" label="Clementine (orangutan)">
@@ -2355,11 +2355,11 @@
           <attvalue for="closnesscentrality" value="0.6"/>
           <attvalue for="harmonicclosnesscentrality" value="0.7222222222222223"/>
           <attvalue for="betweenesscentrality" value="7.0"/>
-          <attvalue for="modularity_class" value="225"/>
+          <attvalue for="modularity_class" value="214"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="490.4116" y="-1943.5701"/>
-        <viz:color r="211" g="211" b="211"/>
+        <viz:position x="408.0594" y="-1498.149"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="327" label="Clementine's siblings">
         <attvalues>
@@ -2371,11 +2371,11 @@
           <attvalue for="closnesscentrality" value="0.6"/>
           <attvalue for="harmonicclosnesscentrality" value="0.7222222222222223"/>
           <attvalue for="betweenesscentrality" value="7.0"/>
-          <attvalue for="modularity_class" value="225"/>
+          <attvalue for="modularity_class" value="214"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="394.35532" y="-1894.0057"/>
-        <viz:color r="211" g="211" b="211"/>
+        <viz:position x="531.89874" y="-1506.2944"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="220" label="Clive">
         <attvalues>
@@ -2390,7 +2390,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="17.427185"/>
-        <viz:position x="-385.46127" y="583.0035"/>
+        <viz:position x="-61.59924" y="-539.242"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="267" label="Clive's father">
@@ -2406,7 +2406,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="10.436893"/>
-        <viz:position x="-569.6489" y="606.6434"/>
+        <viz:position x="-33.340412" y="-714.71936"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="85" label="Cole Hester">
@@ -2422,7 +2422,7 @@
           <attvalue for="modularity_class" value="114"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1187.206" y="-770.06274"/>
+        <viz:position x="-489.53433" y="-1208.8173"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="4" label="Cory Mitkowski">
@@ -2438,7 +2438,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="41.893204"/>
-        <viz:position x="-155.38855" y="416.55884"/>
+        <viz:position x="-143.38652" y="-276.23108"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="40" label="Cory's boss">
@@ -2454,7 +2454,7 @@
           <attvalue for="modularity_class" value="106"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1102.2831" y="-1749.7682"/>
+        <viz:position x="414.37018" y="1937.3765"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="129" label="Cory's father">
@@ -2470,7 +2470,7 @@
           <attvalue for="modularity_class" value="107"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2075.0933" y="412.0441"/>
+        <viz:position x="1989.868" y="-720.7234"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="264" label="Couple (Clive sleeps with)">
@@ -2486,7 +2486,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-474.06747" y="622.54175"/>
+        <viz:position x="-39.31744" y="-633.3181"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="297" label="Creator">
@@ -2502,7 +2502,7 @@
           <attvalue for="modularity_class" value="108"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1298.3434" y="1451.7026"/>
+        <viz:position x="671.6686" y="-2051.605"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="339" label="Customers (at the nail salon)">
@@ -2518,7 +2518,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="12.184466"/>
-        <viz:position x="-591.0322" y="-524.5441"/>
+        <viz:position x="422.25406" y="495.9082"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="322" label="Dads (&quot;who lose their kids...&quot;)">
@@ -2534,7 +2534,7 @@
           <attvalue for="modularity_class" value="109"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2071.565" y="-35.37583"/>
+        <viz:position x="754.57806" y="1879.442"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="274" label="Devout Catholic Filipinos">
@@ -2550,7 +2550,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="8.498824" y="-191.54652"/>
+        <viz:position x="629.7984" y="128.90195"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="353" label="Dr. Berger">
@@ -2566,7 +2566,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="477.22858" y="351.55536"/>
+        <viz:position x="-591.0508" y="408.18668"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="356" label="Dr. Berger's Receptionist">
@@ -2582,7 +2582,7 @@
           <attvalue for="modularity_class" value="110"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1634.4539" y="-1486.3297"/>
+        <viz:position x="-858.7173" y="-1854.5559"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="29" label="Edna Espiritu">
@@ -2598,7 +2598,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="57.62136"/>
-        <viz:position x="-228.88094" y="-413.97775"/>
+        <viz:position x="171.88503" y="402.09665"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="351" label="Edna's family">
@@ -2614,7 +2614,7 @@
           <attvalue for="modularity_class" value="111"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1901.1837" y="825.8273"/>
+        <viz:position x="-1391.7452" y="1685.8258"/>
         <viz:color r="255" g="0" b="0"/>
       </node>
       <node id="77" label="Edward Donohue">
@@ -2630,7 +2630,7 @@
           <attvalue for="modularity_class" value="112"/>
         </attvalues>
         <viz:size value="22.23301"/>
-        <viz:position x="312.59637" y="-616.69086"/>
+        <viz:position x="-922.58624" y="172.20084"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="238" label="El Salvadorians">
@@ -2646,7 +2646,7 @@
           <attvalue for="modularity_class" value="113"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="608.1118" y="-2288.9155"/>
+        <viz:position x="83.43828" y="-1728.3307"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="295" label="Elder Fay">
@@ -2662,7 +2662,7 @@
           <attvalue for="modularity_class" value="114"/>
         </attvalues>
         <viz:size value="14.368932"/>
-        <viz:position x="1120.8881" y="-698.7461"/>
+        <viz:position x="-419.87967" y="-1126.7406"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="305" label="Elders">
@@ -2678,7 +2678,7 @@
           <attvalue for="modularity_class" value="115"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1722.4823" y="-1316.3301"/>
+        <viz:position x="-1333.153" y="-1447.8829"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="278" label="Employers (of the Menendez sisters)">
@@ -2694,7 +2694,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="-911.7839" y="9.638718"/>
+        <viz:position x="194.01994" y="-402.167"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="310" label="Estheticians at Edna's salon">
@@ -2710,7 +2710,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="18.30097"/>
-        <viz:position x="-475.81158" y="-339.74625"/>
+        <viz:position x="382.93607" y="303.00708"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="228" label="Eunice (Cindy's Aunt)">
@@ -2726,7 +2726,7 @@
           <attvalue for="modularity_class" value="117"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1071.229" y="-1933.9163"/>
+        <viz:position x="-267.40076" y="-2124.2224"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="103" label="Eunice (Cindy's dog)">
@@ -2742,7 +2742,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="381.03854" y="1261.7424"/>
+        <viz:position x="995.4065" y="55.1851"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="258" label="Eunice's puppies">
@@ -2758,7 +2758,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="414.2257" y="1415.7892"/>
+        <viz:position x="1103.4202" y="162.04268"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="252" label="Europeans">
@@ -2774,7 +2774,7 @@
           <attvalue for="modularity_class" value="118"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-651.1096" y="-1777.7714"/>
+        <viz:position x="1951.1364" y="520.2017"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="309" label="Evalyn Chau">
@@ -2790,7 +2790,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="16.990292"/>
-        <viz:position x="40.42019" y="381.53052"/>
+        <viz:position x="-571.9894" y="41.609375"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="68" label="Evan Roy">
@@ -2806,7 +2806,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="-883.46423" y="-899.0916"/>
+        <viz:position x="1178.6239" y="-1259.306"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="354" label="Family Doctor (Hina's friend)">
@@ -2822,7 +2822,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="328.66476" y="437.02863"/>
+        <viz:position x="-613.9095" y="182.61516"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="161" label="farmers">
@@ -2838,7 +2838,7 @@
           <attvalue for="modularity_class" value="119"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1793.195" y="-1181.303"/>
+        <viz:position x="1408.9039" y="1462.1012"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="282" label="Father Joseph">
@@ -2854,7 +2854,7 @@
           <attvalue for="modularity_class" value="120"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1709.5942" y="-1106.4928"/>
+        <viz:position x="-417.8935" y="-2078.5103"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="64" label="Fern Donahue">
@@ -2870,7 +2870,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="19.61165"/>
-        <viz:position x="231.76102" y="44.435974"/>
+        <viz:position x="-566.1492" y="502.11118"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="242" label="Filipinos">
@@ -2886,7 +2886,7 @@
           <attvalue for="modularity_class" value="121"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1993.2113" y="-688.1069"/>
+        <viz:position x="890.13715" y="-1166.2479"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="46" label="Finnegan Everson">
@@ -2902,7 +2902,7 @@
           <attvalue for="modularity_class" value="122"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2057.6938" y="-171.962"/>
+        <viz:position x="2110.4202" y="-145.88164"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="287" label="Firemen">
@@ -2918,7 +2918,7 @@
           <attvalue for="modularity_class" value="123"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1237.0726" y="1413.8137"/>
+        <viz:position x="-1668.028" y="-1027.559"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="371" label="Five Women (holding certificates)">
@@ -2934,7 +2934,7 @@
           <attvalue for="modularity_class" value="175"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="1620.0631" y="1152.458"/>
+        <viz:position x="-686.8777" y="-2098.0918"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="347" label="Frank Sinatra">
@@ -2950,7 +2950,7 @@
           <attvalue for="modularity_class" value="124"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-575.70386" y="-2123.5698"/>
+        <viz:position x="-1981.462" y="756.3678"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="302" label="Funding and Development Officer">
@@ -2966,7 +2966,7 @@
           <attvalue for="modularity_class" value="125"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1207.6257" y="1321.9227"/>
+        <viz:position x="1906.4445" y="-1150.8871"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="231" label="Gabby">
@@ -2982,7 +2982,7 @@
           <attvalue for="modularity_class" value="126"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1902.3345" y="844.1423"/>
+        <viz:position x="2031.7454" y="68.34282"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="41" label="Geraldine McDonough">
@@ -2998,7 +2998,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="96.03014" y="100.01704"/>
+        <viz:position x="-525.39386" y="-71.210365"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="314" label="Girl (projecting a presentation)">
@@ -3014,7 +3014,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-824.4653" y="-282.7634"/>
+        <viz:position x="629.92395" y="433.1182"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="37" label="God">
@@ -3030,7 +3030,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-388.92215" y="-642.97156"/>
+        <viz:position x="41.729168" y="-34.24644"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="160" label="Hakim">
@@ -3046,7 +3046,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="16.990292"/>
-        <viz:position x="-425.63998" y="-268.4349"/>
+        <viz:position x="-11.324845" y="334.06857"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="47" label="Helen Mckay">
@@ -3062,7 +3062,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="20.485437"/>
-        <viz:position x="363.4657" y="-106.27241"/>
+        <viz:position x="-484.4094" y="575.9499"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="5" label="Hina Hassani">
@@ -3078,7 +3078,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="84.27184"/>
-        <viz:position x="132.20749" y="260.17395"/>
+        <viz:position x="-424.85782" y="106.831825"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="210" label="Hina's classmates (135)">
@@ -3094,7 +3094,7 @@
           <attvalue for="modularity_class" value="127"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2033.5597" y="288.42307"/>
+        <viz:position x="73.244125" y="-2385.5432"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="151" label="Hina's family">
@@ -3110,7 +3110,7 @@
           <attvalue for="modularity_class" value="128"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1877.3054" y="-893.8938"/>
+        <viz:position x="-1790.9637" y="-857.3902"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="317" label="Hot Dog">
@@ -3126,7 +3126,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="1139.2349" y="-264.20392"/>
+        <viz:position x="-259.16693" y="-241.26225"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="319" label="Hot Dog's litters">
@@ -3142,7 +3142,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1271.5376" y="-276.64496"/>
+        <viz:position x="-381.4853" y="-478.18436"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="92" label="Ivana">
@@ -3158,7 +3158,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="16.116505"/>
-        <viz:position x="-52.27372" y="54.180874"/>
+        <viz:position x="-78.54217" y="-96.49243"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="290" label="Ivana's mom">
@@ -3174,7 +3174,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="30.630848" y="5.7742715"/>
+        <viz:position x="-38.510265" y="-52.929302"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="71" label="Jane Fulton">
@@ -3190,7 +3190,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="30.970873"/>
-        <viz:position x="164.95784" y="400.04996"/>
+        <viz:position x="-533.75275" y="195.77252"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="270" label="Jason">
@@ -3206,7 +3206,7 @@
           <attvalue for="modularity_class" value="112"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="463.43576" y="-812.4869"/>
+        <viz:position x="-1167.0332" y="166.7986"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="45" label="Jennifer Chan">
@@ -3222,7 +3222,7 @@
           <attvalue for="modularity_class" value="129"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1812.236" y="1491.8871"/>
+        <viz:position x="1197.782" y="1776.1658"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="6" label="Jessica (Laura's Mom)">
@@ -3238,7 +3238,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="14.368932"/>
-        <viz:position x="-20.759697" y="128.66473"/>
+        <viz:position x="-322.78525" y="-249.01007"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="184" label="Jessica's grandma">
@@ -3254,7 +3254,7 @@
           <attvalue for="modularity_class" value="130"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2169.9753" y="-423.41553"/>
+        <viz:position x="357.3663" y="-2243.8555"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="35" label="Jesus">
@@ -3270,7 +3270,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="10.436893"/>
-        <viz:position x="-873.5275" y="-1222.4297"/>
+        <viz:position x="1193.2596" y="-1487.8206"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="203" label="Jimi Hendrix">
@@ -3286,7 +3286,7 @@
           <attvalue for="modularity_class" value="131"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2140.8372" y="612.00116"/>
+        <viz:position x="1906.482" y="-1432.5527"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="249" label="Joffrey">
@@ -3302,7 +3302,7 @@
           <attvalue for="modularity_class" value="132"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1980.5645" y="1212.7345"/>
+        <viz:position x="-2227.4106" y="-115.91487"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="12" label="Johnny Beaudoin">
@@ -3318,7 +3318,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="32.718445"/>
-        <viz:position x="414.7956" y="260.10614"/>
+        <viz:position x="-208.41006" y="418.43164"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="27" label="Jonathon Beaudoin">
@@ -3334,7 +3334,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="16.116505"/>
-        <viz:position x="813.9323" y="-243.32916"/>
+        <viz:position x="196.0186" y="588.18024"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="84" label="Justin Bieber">
@@ -3350,7 +3350,7 @@
           <attvalue for="modularity_class" value="133"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1258.2087" y="1681.6565"/>
+        <viz:position x="1971.433" y="-23.925957"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="224" label="Kids (of the woman who collapsed)">
@@ -3363,10 +3363,10 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"/>
           <attvalue for="harmonicclosnesscentrality" value="0.75"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="221"/>
+          <attvalue for="modularity_class" value="222"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1244.6962" y="-1250.708"/>
+        <viz:position x="-919.4454" y="1402.5887"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="342" label="Kids crying from stage fright">
@@ -3382,7 +3382,7 @@
           <attvalue for="modularity_class" value="134"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1985.4229" y="-1030.2804"/>
+        <viz:position x="-1722.3655" y="-1177.3534"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="158" label="kids in Mrs. Finnegan's class">
@@ -3398,7 +3398,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="-354.24698" y="112.75706"/>
+        <viz:position x="9.924806" y="633.24524"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="155" label="kids in the gifted program">
@@ -3414,7 +3414,7 @@
           <attvalue for="modularity_class" value="135"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2040.0057" y="669.77246"/>
+        <viz:position x="3.3902898" y="-1320.5458"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="325" label="Kids of &quot;Single mamas&quot;">
@@ -3430,7 +3430,7 @@
           <attvalue for="modularity_class" value="136"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1782.8782" y="734.0104"/>
+        <viz:position x="1898.2617" y="157.85568"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="189" label="Kids who attended Jessica's daycare (126)">
@@ -3446,7 +3446,7 @@
           <attvalue for="modularity_class" value="137"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2197.4072" y="176.18547"/>
+        <viz:position x="2233.2812" y="-45.42117"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="66" label="Kyle Keegan">
@@ -3462,7 +3462,7 @@
           <attvalue for="modularity_class" value="138"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1762.2101" y="-1639.1887"/>
+        <viz:position x="1303.0236" y="1655.1216"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="186" label="L">
@@ -3478,7 +3478,7 @@
           <attvalue for="modularity_class" value="139"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2322.8936" y="-146.71544"/>
+        <viz:position x="-77.289185" y="2291.5747"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="335" label="Ladies (at the rub and tug)">
@@ -3494,7 +3494,7 @@
           <attvalue for="modularity_class" value="140"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1085.8889" y="-1889.1256"/>
+        <viz:position x="-1721.3988" y="1487.3203"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="207" label="Lady Roy">
@@ -3510,7 +3510,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="19.61165"/>
-        <viz:position x="-809.8569" y="-817.01276"/>
+        <viz:position x="1259.0958" y="-1186.7343"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="3" label="Laura Mitkowski">
@@ -3526,7 +3526,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="51.067963"/>
-        <viz:position x="-110.026215" y="186.86136"/>
+        <viz:position x="-286.90005" y="-95.65499"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="131" label="Laura's classmates">
@@ -3542,7 +3542,7 @@
           <attvalue for="modularity_class" value="142"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2002.621" y="1005.22595"/>
+        <viz:position x="2011.0548" y="672.13367"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="298" label="Levy">
@@ -3558,7 +3558,7 @@
           <attvalue for="modularity_class" value="114"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1281.6351" y="-735.44885"/>
+        <viz:position x="-437.31223" y="-1272.1201"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="49" label="Liam Williams">
@@ -3574,7 +3574,7 @@
           <attvalue for="modularity_class" value="143"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1190.6859" y="-1764.0067"/>
+        <viz:position x="-1851.5559" y="1293.1124"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="149" label="Liberal Party">
@@ -3590,7 +3590,7 @@
           <attvalue for="modularity_class" value="144"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-849.33203" y="1986.5647"/>
+        <viz:position x="173.59044" y="2125.8547"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="43" label="Lily Chan">
@@ -3606,7 +3606,7 @@
           <attvalue for="modularity_class" value="145"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1324.9977" y="1873.2684"/>
+        <viz:position x="431.24924" y="-2400.5881"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="281" label="Little boy (in the choir)">
@@ -3622,7 +3622,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="-29.079256" y="-228.51823"/>
+        <viz:position x="523.028" y="112.90962"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="247" label="Little Cesars">
@@ -3638,7 +3638,7 @@
           <attvalue for="modularity_class" value="146"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2344.697" y="455.6414"/>
+        <viz:position x="-527.5642" y="2279.87"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="248" label="Lorna">
@@ -3651,10 +3651,10 @@
           <attvalue for="closnesscentrality" value="0.2088235294117647"/>
           <attvalue for="harmonicclosnesscentrality" value="0.23438128772635797"/>
           <attvalue for="betweenesscentrality" value="13.5"/>
-          <attvalue for="modularity_class" value="217"/>
+          <attvalue for="modularity_class" value="218"/>
         </attvalues>
         <viz:size value="16.116505"/>
-        <viz:position x="-500.6041" y="839.62085"/>
+        <viz:position x="122.42155" y="-747.20514"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="144" label="Luka DiSorono">
@@ -3670,7 +3670,7 @@
           <attvalue for="modularity_class" value="147"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1701.7836" y="1494.002"/>
+        <viz:position x="2094.649" y="-457.27365"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="370" label="Madame Gauthier">
@@ -3686,7 +3686,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="654.069" y="138.13829"/>
+        <viz:position x="-562.3615" y="673.27795"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="301" label="Marca Angelo">
@@ -3702,7 +3702,7 @@
           <attvalue for="modularity_class" value="148"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2408.0967" y="131.73157"/>
+        <viz:position x="-1161.8284" y="1973.4506"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="11" label="Marie Beaudoin">
@@ -3718,7 +3718,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="97.81554"/>
-        <viz:position x="430.75076" y="64.43727"/>
+        <viz:position x="-377.1365" y="457.64978"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="363" label="Marie's Grandma">
@@ -3734,7 +3734,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="15.242719"/>
-        <viz:position x="589.2586" y="517.9376"/>
+        <viz:position x="-238.39807" y="928.7784"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="73" label="marketing and development officer of Ontario Reads">
@@ -3750,7 +3750,7 @@
           <attvalue for="modularity_class" value="149"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2152.3674" y="-1039.8223"/>
+        <viz:position x="-2086.3186" y="-669.86127"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="122" label="Melvin">
@@ -3763,10 +3763,10 @@
           <attvalue for="closnesscentrality" value="0.2063953488372093"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2244047619047617"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="217"/>
+          <attvalue for="modularity_class" value="218"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="-477.1624" y="982.54767"/>
+        <viz:position x="269.44864" y="-785.1481"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="378" label="Men singing and drumming at the Powwow">
@@ -3782,7 +3782,7 @@
           <attvalue for="modularity_class" value="150"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-474.9776" y="2216.8064"/>
+        <viz:position x="-972.09265" y="2070.1494"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="93" label="men who &quot;come here for tugs&quot; (69)">
@@ -3798,7 +3798,7 @@
           <attvalue for="modularity_class" value="151"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="120.07699" y="2252.0908"/>
+        <viz:position x="-2164.4497" y="883.1724"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="280" label="Menendez sisters' Mother">
@@ -3814,7 +3814,7 @@
           <attvalue for="modularity_class" value="152"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2124.3977" y="1162.2642"/>
+        <viz:position x="2200.862" y="451.6963"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="201" label="Micah the martian">
@@ -3830,7 +3830,7 @@
           <attvalue for="modularity_class" value="153"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1207.2559" y="-2109.9202"/>
+        <viz:position x="-1916.4363" y="-1176.0347"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="246" label="Michael Jackson">
@@ -3846,7 +3846,7 @@
           <attvalue for="modularity_class" value="154"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2188.899" y="555.0855"/>
+        <viz:position x="2033.6167" y="896.2399"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="26" label="Michelle">
@@ -3862,7 +3862,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="23.106796"/>
-        <viz:position x="615.78064" y="-159.62845"/>
+        <viz:position x="-55.06349" y="564.37646"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="364" label="miners">
@@ -3878,7 +3878,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="678.05725" y="498.86258"/>
+        <viz:position x="-292.85895" y="972.4255"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="311" label="Miss Peaches">
@@ -3894,7 +3894,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="-403.35333" y="-429.7427"/>
+        <viz:position x="4.399094" y="5.5624332"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="137" label="Mother Mary">
@@ -3910,7 +3910,7 @@
           <attvalue for="modularity_class" value="156"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1639.231" y="-1705.3281"/>
+        <viz:position x="-1332.3708" y="2031.2817"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="24" label="Mr. George">
@@ -3926,7 +3926,7 @@
           <attvalue for="modularity_class" value="201"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="128.96652" y="-459.41513"/>
+        <viz:position x="-859.2949" y="-87.56136"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="9" label="Mr. Kamal">
@@ -3942,7 +3942,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-14.542766" y="-649.1616"/>
+        <viz:position x="-1014.3813" y="467.25198"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="316" label="Mr. Palmer">
@@ -3958,7 +3958,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-578.5411" y="25.153595"/>
+        <viz:position x="454.73395" y="-18.279867"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="260" label="Mr. Park">
@@ -3974,7 +3974,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="14.368932"/>
-        <viz:position x="-60.26216" y="632.20374"/>
+        <viz:position x="102.43812" y="-345.23834"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="13" label="Mrs Abdul">
@@ -3990,7 +3990,7 @@
           <attvalue for="modularity_class" value="157"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1803.1981" y="-1508.3391"/>
+        <viz:position x="2259.2344" y="-553.19464"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="61" label="Mrs Crosby">
@@ -4006,7 +4006,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="-1.4880852" y="74.39359"/>
+        <viz:position x="-389.6319" y="-221.81827"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="87" label="Mrs Emerson">
@@ -4022,7 +4022,7 @@
           <attvalue for="modularity_class" value="158"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2209.1455" y="-578.864"/>
+        <viz:position x="-1953.446" y="1393.5228"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="62" label="Mrs Landau">
@@ -4038,7 +4038,7 @@
           <attvalue for="modularity_class" value="159"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1703.1263" y="1240.6823"/>
+        <viz:position x="1840.6885" y="-716.1893"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="20" label="Mrs. Falls">
@@ -4054,7 +4054,7 @@
           <attvalue for="modularity_class" value="160"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1631.9567" y="1673.8392"/>
+        <viz:position x="-1590.5056" y="-1595.1481"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="31" label="Mrs. Finnegan">
@@ -4070,7 +4070,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="17.864079"/>
-        <viz:position x="-97.88422" y="-4.631271"/>
+        <viz:position x="-30.882792" y="443.148"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="341" label="Mrs. Fitz">
@@ -4086,7 +4086,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-338.00632" y="-695.4306"/>
+        <viz:position x="318.22845" y="731.4677"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="8" label="Mrs. Kamal">
@@ -4102,7 +4102,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="16.116505"/>
-        <viz:position x="8.146759" y="-314.3598"/>
+        <viz:position x="-832.82074" y="260.14972"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="381" label="Mrs. Kamal's children">
@@ -4118,7 +4118,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="14.522088" y="-439.94522"/>
+        <viz:position x="-952.62335" y="355.32925"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="380" label="Mrs. Kamal's husband">
@@ -4134,7 +4134,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-35.89289" y="-582.5734"/>
+        <viz:position x="-1080.8595" y="414.9316"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="60" label="Mrs. Khan">
@@ -4150,7 +4150,7 @@
           <attvalue for="modularity_class" value="161"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2165.5786" y="-1227.5831"/>
+        <viz:position x="-2383.1655" y="34.39243"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="21" label="Mrs. Rhodes">
@@ -4166,7 +4166,7 @@
           <attvalue for="modularity_class" value="114"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="525.503" y="-518.1946"/>
+        <viz:position x="-168.8598" y="-626.3664"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="337" label="Mrs. Zoe">
@@ -4182,7 +4182,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="11.310679"/>
-        <viz:position x="-516.2802" y="-643.6839"/>
+        <viz:position x="450.14172" y="643.1684"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="217" label="Muslims">
@@ -4198,7 +4198,7 @@
           <attvalue for="modularity_class" value="162"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="109.45773" y="-2592.4253"/>
+        <viz:position x="1994.7983" y="1242.7931"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="124" label="n****rs">
@@ -4214,7 +4214,7 @@
           <attvalue for="modularity_class" value="163"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2033.0616" y="-1289.1599"/>
+        <viz:position x="1247.181" y="1983.7809"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="300" label="Natalia Angelo">
@@ -4230,7 +4230,7 @@
           <attvalue for="modularity_class" value="164"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="685.9298" y="2423.2053"/>
+        <viz:position x="-310.53333" y="2463.6987"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="148" label="NDP Party">
@@ -4246,7 +4246,7 @@
           <attvalue for="modularity_class" value="165"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-746.5974" y="-2423.6345"/>
+        <viz:position x="2306.1367" y="-1134.0227"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="326" label="Officer Tyndall">
@@ -4262,7 +4262,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="-247.04428" y="-711.717"/>
+        <viz:position x="186.82431" y="765.0665"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="336" label="Officer Tyndall's &quot;girlfriend&quot;">
@@ -4278,7 +4278,7 @@
           <attvalue for="modularity_class" value="166"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1203.236" y="2010.5687"/>
+        <viz:position x="-1626.2268" y="-1768.4216"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="288" label="old lady in curlers">
@@ -4294,7 +4294,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-59.19992" y="1088.7114"/>
+        <viz:position x="926.3283" y="-647.3642"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="289" label="old lady's crack dealer">
@@ -4310,7 +4310,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="15.67022" y="1071.1624"/>
+        <viz:position x="972.7215" y="-571.7546"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="277" label="Old man (who owned Happy Chicken)">
@@ -4326,7 +4326,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-966.18567" y="-155.61345"/>
+        <viz:position x="-118.150894" y="-485.28738"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="338" label="Older lady with glasses">
@@ -4342,7 +4342,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="-459.07855" y="-548.827"/>
+        <viz:position x="74.53074" y="499.34933"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="42" label="Ontario Reads facilitators">
@@ -4358,7 +4358,7 @@
           <attvalue for="modularity_class" value="167"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-648.891" y="2298.4656"/>
+        <viz:position x="-2122.2354" y="-980.8535"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="72" label="Oprah Winfrey">
@@ -4374,7 +4374,7 @@
           <attvalue for="modularity_class" value="168"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2496.8357" y="-32.898247"/>
+        <viz:position x="-2098.4514" y="1361.1696"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="332" label="Other animals (at the zoo)">
@@ -4387,11 +4387,11 @@
           <attvalue for="closnesscentrality" value="0.46153846153846156"/>
           <attvalue for="harmonicclosnesscentrality" value="0.5972222222222222"/>
           <attvalue for="betweenesscentrality" value="0.6666666666666666"/>
-          <attvalue for="modularity_class" value="225"/>
+          <attvalue for="modularity_class" value="214"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="462.61984" y="-1855.8777"/>
-        <viz:color r="211" g="211" b="211"/>
+        <viz:position x="464.44943" y="-1558.1573"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="331" label="Painted Box Turtles">
         <attvalues>
@@ -4403,11 +4403,11 @@
           <attvalue for="closnesscentrality" value="0.46153846153846156"/>
           <attvalue for="harmonicclosnesscentrality" value="0.5972222222222222"/>
           <attvalue for="betweenesscentrality" value="0.6666666666666666"/>
-          <attvalue for="modularity_class" value="225"/>
+          <attvalue for="modularity_class" value="214"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="569.65326" y="-1905.6666"/>
-        <viz:color r="211" g="211" b="211"/>
+        <viz:position x="478.50293" y="-1412.0787"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="240" label="Pakistanis">
         <attvalues>
@@ -4422,7 +4422,7 @@
           <attvalue for="modularity_class" value="169"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="861.79736" y="-1663.4158"/>
+        <viz:position x="900.6965" y="-2342.5042"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="67" label="Pamela Roy">
@@ -4438,7 +4438,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="15.679611"/>
-        <viz:position x="-865.7661" y="-1025.9407"/>
+        <viz:position x="1252.6572" y="-1334.3055"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="343" label="Parents double-fisted with ice cream cones">
@@ -4454,7 +4454,7 @@
           <attvalue for="modularity_class" value="170"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1967.0139" y="1437.9019"/>
+        <viz:position x="842.89514" y="2225.7373"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="299" label="Parents in Ms Hina's group">
@@ -4470,7 +4470,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1.4698572" y="-22.284636"/>
+        <viz:position x="-438.54785" y="-380.4426"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="57" label="parents in the community">
@@ -4486,7 +4486,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="15.242719"/>
-        <viz:position x="-469.944" y="-22.533285"/>
+        <viz:position x="388.73798" y="70.29261"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="17" label="Parker">
@@ -4502,7 +4502,7 @@
           <attvalue for="modularity_class" value="171"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="270.92426" y="2453.1736"/>
+        <viz:position x="-13.525686" y="-2316.1064"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="18" label="Parker's mom">
@@ -4518,7 +4518,7 @@
           <attvalue for="modularity_class" value="171"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="328.1456" y="2440.283"/>
+        <viz:position x="-55.478817" y="-2283.2395"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="146" label="Paula Santiago">
@@ -4534,7 +4534,7 @@
           <attvalue for="modularity_class" value="172"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2087.0056" y="-1398.4614"/>
+        <viz:position x="-1305.0857" y="-1970.3359"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="65" label="Paulo Sanchez">
@@ -4550,7 +4550,7 @@
           <attvalue for="modularity_class" value="173"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2353.7163" y="-400.6112"/>
+        <viz:position x="2360.895" y="-899.66046"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="261" label="People &quot;down the hall&quot; from Cory">
@@ -4566,7 +4566,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="10.436893"/>
-        <viz:position x="-0.0630627" y="21.046396"/>
+        <viz:position x="-299.8333" y="-591.8918"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="222" label="People &quot;like Christy&quot; (141)">
@@ -4582,7 +4582,7 @@
           <attvalue for="modularity_class" value="174"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-392.2498" y="2523.2656"/>
+        <viz:position x="2059.4607" y="-1671.589"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="352" label="People at Food Basics">
@@ -4598,7 +4598,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="789.40186" y="264.51666"/>
+        <viz:position x="-610.41534" y="781.2889"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="262" label="People in the East Point Bird Sanctuary">
@@ -4611,10 +4611,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="220"/>
+          <attvalue for="modularity_class" value="221"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1563.0435" y="-830.7226"/>
+        <viz:position x="988.7216" y="-912.02405"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="375" label="Person (on loud speaker at the Powwow)">
@@ -4630,7 +4630,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="8.434123" y="-98.18729"/>
+        <viz:position x="-6.768279" y="-33.863503"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="123" label="person on the phone with Winsum">
@@ -4643,10 +4643,10 @@
           <attvalue for="closnesscentrality" value="0.2063953488372093"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2244047619047617"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="217"/>
+          <attvalue for="modularity_class" value="218"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-541.20844" y="1016.648"/>
+        <viz:position x="235.03635" y="-855.64453"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="125" label="Peter">
@@ -4662,7 +4662,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-29.863838" y="1.4552844"/>
+        <viz:position x="-249.96098" y="-510.8871"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="372" label="Photographer">
@@ -4678,7 +4678,7 @@
           <attvalue for="modularity_class" value="175"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1675.0918" y="1204.3406"/>
+        <viz:position x="-724.63434" y="-2168.3806"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="377" label="Powwow Dancers">
@@ -4694,7 +4694,7 @@
           <attvalue for="modularity_class" value="176"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="2492.5596" y="-520.7772"/>
+        <viz:position x="-2353.3955" y="-452.7042"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="139" label="Priests">
@@ -4710,7 +4710,7 @@
           <attvalue for="modularity_class" value="177"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2403.7905" y="71.92635"/>
+        <viz:position x="-2352.731" y="716.1784"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="83" label="Principal Sankiewicz">
@@ -4726,7 +4726,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-321.72784" y="-760.35535"/>
+        <viz:position x="490.70358" y="212.74745"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="150" label="Raj (Hina'a cousin)">
@@ -4742,7 +4742,7 @@
           <attvalue for="modularity_class" value="178"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2247.185" y="-908.79944"/>
+        <viz:position x="-1228.9915" y="-2158.2075"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="307" label="Ravinder Kaur">
@@ -4758,7 +4758,7 @@
           <attvalue for="modularity_class" value="179"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-248.77518" y="2064.1143"/>
+        <viz:position x="1699.2114" y="1216.4634"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="143" label="Reese Knowles">
@@ -4774,7 +4774,7 @@
           <attvalue for="modularity_class" value="180"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1825.7507" y="-1732.1335"/>
+        <viz:position x="2414.8904" y="-315.68555"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="367" label="Researchers (of autism)">
@@ -4790,7 +4790,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.436893"/>
-        <viz:position x="773.0327" y="405.61047"/>
+        <viz:position x="-114.42997" y="9.087009"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="216" label="Residents of the Galloway Shelter">
@@ -4806,7 +4806,7 @@
           <attvalue for="modularity_class" value="181"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="1199.9216" y="-10.5788"/>
+        <viz:position x="509.50974" y="985.82074"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="97" label="Richard">
@@ -4822,7 +4822,7 @@
           <attvalue for="modularity_class" value="182"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1390.0698" y="-1843.8711"/>
+        <viz:position x="-1011.1272" y="-1732.0525"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="365" label="Rita">
@@ -4838,7 +4838,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="523.24994" y="574.56287"/>
+        <viz:position x="-372.35623" y="947.3906"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="313" label="Rouge Hill Parents">
@@ -4854,7 +4854,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="261.23227" y="-330.8184"/>
+        <viz:position x="-1116.2448" y="347.6232"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="312" label="Rouge Hill Secretary">
@@ -4870,7 +4870,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="208.19687" y="-619.39075"/>
+        <viz:position x="-1311.3086" y="435.42993"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="166" label="Roy (Christy's boyfriend)">
@@ -4886,7 +4886,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="395.6668" y="-294.90634"/>
+        <viz:position x="-67.50426" y="24.911938"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="303" label="Ryan Hoffman">
@@ -4902,7 +4902,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="333.73367" y="350.26376"/>
+        <viz:position x="-604.27136" y="318.6665"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="304" label="Ryan Hoffman's family">
@@ -4918,7 +4918,7 @@
           <attvalue for="modularity_class" value="184"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="961.6243" y="2420.6975"/>
+        <viz:position x="350.48746" y="2565.8848"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="36" label="Saints">
@@ -4934,7 +4934,7 @@
           <attvalue for="modularity_class" value="185"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-235.77559" y="-2632.7505"/>
+        <viz:position x="-754.0219" y="2471.8428"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="205" label="Santa">
@@ -4950,7 +4950,7 @@
           <attvalue for="modularity_class" value="186"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2483.881" y="680.6107"/>
+        <viz:position x="2610.2917" y="-614.9897"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="254" label="Scarborough locals">
@@ -4966,7 +4966,7 @@
           <attvalue for="modularity_class" value="187"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2565.8162" y="399.5963"/>
+        <viz:position x="2011.4437" y="1657.3544"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="373" label="School-aged-children">
@@ -4982,7 +4982,7 @@
           <attvalue for="modularity_class" value="188"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-837.416" y="2316.7598"/>
+        <viz:position x="-2451.2922" y="-863.31146"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="48" label="Sebastian Dennis">
@@ -4998,7 +4998,7 @@
           <attvalue for="modularity_class" value="189"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2337.4915" y="848.18286"/>
+        <viz:position x="-849.79834" y="-2428.292"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="243" label="Senior citizens (&quot;who turned their cottages...&quot;)">
@@ -5014,7 +5014,7 @@
           <attvalue for="modularity_class" value="190"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2440.273" y="249.60501"/>
+        <viz:position x="1616.4319" y="1868.3821"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="334" label="Shoplifter">
@@ -5030,7 +5030,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-284.68558" y="-1102.1912"/>
+        <viz:position x="125.378784" y="1223.1681"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="324" label="Sisters of &quot;single mamas&quot;">
@@ -5046,7 +5046,7 @@
           <attvalue for="modularity_class" value="191"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-934.8822" y="-2353.5342"/>
+        <viz:position x="-2300.1956" y="1124.4578"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="25" label="Slutty Christy">
@@ -5062,7 +5062,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="24.854368"/>
-        <viz:position x="338.1641" y="-238.04243"/>
+        <viz:position x="-82.56496" y="102.71794"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="345" label="Small boy with coke-bottle glasses">
@@ -5078,7 +5078,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-599.30237" y="-75.84581"/>
+        <viz:position x="555.0794" y="217.44986"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="141" label="Sonia DiSorono">
@@ -5094,7 +5094,7 @@
           <attvalue for="modularity_class" value="192"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2339.3809" y="1027.0275"/>
+        <viz:position x="1859.3457" y="-1913.1317"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="153" label="South Asians">
@@ -5110,7 +5110,7 @@
           <attvalue for="modularity_class" value="193"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-239.37935" y="2500.903"/>
+        <viz:position x="1532.7548" y="1797.3654"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="361" label="Specialists">
@@ -5126,7 +5126,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="684.70575" y="358.7728"/>
+        <viz:position x="-162.91994" y="48.705612"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="239" label="Sri Lankans">
@@ -5142,7 +5142,7 @@
           <attvalue for="modularity_class" value="194"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1690.202" y="-2031.3773"/>
+        <viz:position x="1784.5066" y="1769.0232"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="273" label="St. Malachy">
@@ -5158,7 +5158,7 @@
           <attvalue for="modularity_class" value="195"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1757.5573" y="-1985.1686"/>
+        <viz:position x="-1361.4305" y="2251.5005"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="291" label="Streetcar driver">
@@ -5174,7 +5174,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-351.93414" y="250.9337"/>
+        <viz:position x="126.92858" y="-280.06683"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="10" label="Sylvie Beaudoin">
@@ -5190,7 +5190,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="74.223305"/>
-        <viz:position x="186.85751" y="-139.6555"/>
+        <viz:position x="-165.94478" y="230.85283"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="318" label="Sylvie's Grandpa">
@@ -5206,7 +5206,7 @@
           <attvalue for="modularity_class" value="196"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-608.54926" y="-2556.7825"/>
+        <viz:position x="1130.3726" y="2182.0896"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="383" label="Sylvie's readers">
@@ -5222,7 +5222,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="411.90607" y="-378.59634"/>
+        <viz:position x="5.4714904" y="-109.65983"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="374" label="Tammy">
@@ -5238,7 +5238,7 @@
           <attvalue for="modularity_class" value="183"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="76.75058" y="44.38649"/>
+        <viz:position x="-663.41766" y="-203.74886"/>
         <viz:color r="0" g="255" b="255"/>
       </node>
       <node id="333" label="Tarek">
@@ -5254,7 +5254,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-292.20245" y="-1253.3578"/>
+        <viz:position x="68.895706" y="1393.2295"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="70" label="Tasha Roy">
@@ -5270,7 +5270,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="-780.87787" y="-976.4914"/>
+        <viz:position x="1350.8956" y="-1227.1893"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="286" label="Tenants in Lady's building">
@@ -5286,7 +5286,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-1078.8485" y="-962.85736"/>
+        <viz:position x="1484.0613" y="-1198.3424"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="202" label="the band Kiss">
@@ -5302,7 +5302,7 @@
           <attvalue for="modularity_class" value="197"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-894.3972" y="2455.1597"/>
+        <viz:position x="114.746025" y="2612.062"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="89" label="the bus driver">
@@ -5318,7 +5318,7 @@
           <attvalue for="modularity_class" value="198"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="968.1451" y="-2595.7454"/>
+        <viz:position x="-2535.3132" y="-697.97107"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="115" label="the cashier (dollar store)">
@@ -5334,7 +5334,7 @@
           <attvalue for="modularity_class" value="201"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="182.01767" y="-1106.6925"/>
+        <viz:position x="-1021.6139" y="-535.36066"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="88" label="the children on the bus">
@@ -5350,7 +5350,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="481.49237" y="-342.5104"/>
+        <viz:position x="53.713936" y="-93.10682"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="241" label="The Chinese">
@@ -5366,7 +5366,7 @@
           <attvalue for="modularity_class" value="199"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1203.9839" y="-2277.8882"/>
+        <viz:position x="2500.7573" y="-721.60156"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="167" label="the Creator">
@@ -5382,7 +5382,7 @@
           <attvalue for="modularity_class" value="200"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2270.9624" y="-1497.861"/>
+        <viz:position x="-2106.5535" y="-1382.2715"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="16" label="The doctor at the walk-in clinic">
@@ -5398,7 +5398,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="15.242719"/>
-        <viz:position x="702.69867" y="72.58403"/>
+        <viz:position x="-447.96527" y="737.99"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="116" label="the manager (dollar store)">
@@ -5414,7 +5414,7 @@
           <attvalue for="modularity_class" value="201"/>
         </attvalues>
         <viz:size value="13.495146"/>
-        <viz:position x="191.70444" y="-823.52704"/>
+        <viz:position x="-819.2627" y="-349.4178"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="107" label="the orangutan's mother (in story)">
@@ -5430,7 +5430,7 @@
           <attvalue for="modularity_class" value="202"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2365.702" y="894.9419"/>
+        <viz:position x="-2564.5273" y="220.30467"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="59" label="The police">
@@ -5446,7 +5446,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="16.990292"/>
-        <viz:position x="-54.652615" y="862.84344"/>
+        <viz:position x="802.00714" y="-547.98645"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="272" label="The Queen">
@@ -5462,7 +5462,7 @@
           <attvalue for="modularity_class" value="203"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1288.5005" y="2164.009"/>
+        <viz:position x="740.59406" y="2376.6924"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="362" label="The Speech Therapist">
@@ -5478,7 +5478,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="612.67206" y="288.552"/>
+        <viz:position x="-614.60583" y="626.49854"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="253" label="The Swiss">
@@ -5494,7 +5494,7 @@
           <attvalue for="modularity_class" value="204"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2222.3252" y="-1458.7938"/>
+        <viz:position x="2606.5593" y="72.123695"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="275" label="The third Menendez sister">
@@ -5510,7 +5510,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-798.59125" y="52.274376"/>
+        <viz:position x="281.2367" y="-324.56366"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="39" label="Tita Mae">
@@ -5526,7 +5526,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="19.61165"/>
-        <viz:position x="-467.08084" y="-208.93008"/>
+        <viz:position x="372.4369" y="203.87932"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="136" label="Tito Ferdie (Bing's uncle)">
@@ -5542,7 +5542,7 @@
           <attvalue for="modularity_class" value="205"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1558.0084" y="2046.6204"/>
+        <viz:position x="1198.5432" y="2317.6624"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="350" label="Tito Ferdie's Partner">
@@ -5558,7 +5558,7 @@
           <attvalue for="modularity_class" value="206"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2455.5652" y="-820.68304"/>
+        <viz:position x="-2538.9426" y="411.6808"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="344" label="tone-deaf band">
@@ -5574,7 +5574,7 @@
           <attvalue for="modularity_class" value="116"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="-642.74976" y="169.84511"/>
+        <viz:position x="588.0643" y="-34.542812"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="321" label="Track worker">
@@ -5590,7 +5590,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1022.86285" y="-293.89633"/>
+        <viz:position x="478.0471" y="766.80725"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="227" label="Travis">
@@ -5606,7 +5606,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="543.418" y="1166.9391"/>
+        <viz:position x="973.0469" y="-192.04555"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="245" label="two refugees from El Salvador">
@@ -5622,7 +5622,7 @@
           <attvalue for="modularity_class" value="207"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2539.5005" y="-959.0031"/>
+        <viz:position x="2349.4575" y="932.805"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="269" label="Uncle Olly">
@@ -5638,7 +5638,7 @@
           <attvalue for="modularity_class" value="112"/>
         </attvalues>
         <viz:size value="19.61165"/>
-        <viz:position x="396.94107" y="-602.6407"/>
+        <viz:position x="-966.9452" y="232.81044"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="256" label="Vet">
@@ -5654,7 +5654,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="433.75583" y="1332.297"/>
+        <viz:position x="1132.2646" y="-361.0361"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="96" label="Victor">
@@ -5670,7 +5670,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="23.54369"/>
-        <viz:position x="162.90753" y="739.5883"/>
+        <viz:position x="399.2724" y="-231.18762"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="284" label="Victor's mom">
@@ -5686,7 +5686,7 @@
           <attvalue for="modularity_class" value="209"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1103.9261" y="2278.413"/>
+        <viz:position x="-1179.7782" y="-2383.1147"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="32" label="Vietnamese ladies">
@@ -5702,7 +5702,7 @@
           <attvalue for="modularity_class" value="210"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1341.0695" y="-2357.4983"/>
+        <viz:position x="2398.7212" y="711.88135"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="330" label="Visitors (of the zoo)">
@@ -5715,11 +5715,11 @@
           <attvalue for="closnesscentrality" value="0.5"/>
           <attvalue for="harmonicclosnesscentrality" value="0.611111111111111"/>
           <attvalue for="betweenesscentrality" value="10.0"/>
-          <attvalue for="modularity_class" value="225"/>
+          <attvalue for="modularity_class" value="214"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="307.76782" y="-2254.9543"/>
-        <viz:color r="211" g="211" b="211"/>
+        <viz:position x="502.924" y="-1895.448"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="376" label="Visitors (to the Powwow)">
         <attvalues>
@@ -5734,7 +5734,7 @@
           <attvalue for="modularity_class" value="211"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1499.7421" y="-2301.197"/>
+        <viz:position x="-957.52106" y="2513.3635"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="51" label="Waleed Mohammed">
@@ -5750,7 +5750,7 @@
           <attvalue for="modularity_class" value="212"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-159.46162" y="-2785.6917"/>
+        <viz:position x="-2616.5845" y="558.9539"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="14" label="Walk-in clinic receptionist (19)">
@@ -5766,7 +5766,7 @@
           <attvalue for="modularity_class" value="155"/>
         </attvalues>
         <viz:size value="14.368932"/>
-        <viz:position x="833.76587" y="121.89778"/>
+        <viz:position x="-502.1543" y="859.25616"/>
         <viz:color r="0" g="0" b="255"/>
       </node>
       <node id="229" label="Wendy (Cindy's Aunt)">
@@ -5782,7 +5782,7 @@
           <attvalue for="modularity_class" value="213"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1705.9679" y="1904.1031"/>
+        <viz:position x="2553.2502" y="411.1855"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="255" label="Wendy (Cindy's dog)">
@@ -5798,7 +5798,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="11.747573"/>
-        <viz:position x="610.6538" y="1576.6189"/>
+        <viz:position x="1393.291" y="-312.00882"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="268" label="Wendy Donohue">
@@ -5814,7 +5814,7 @@
           <attvalue for="modularity_class" value="112"/>
         </attvalues>
         <viz:size value="20.485437"/>
-        <viz:position x="386.42975" y="-696.21814"/>
+        <viz:position x="-1020.9851" y="161.45758"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="259" label="Wendy's litters">
@@ -5830,7 +5830,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="688.4309" y="1673.783"/>
+        <viz:position x="1508.8243" y="-280.65213"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="329" label="White Handed Gibbons">
@@ -5843,11 +5843,11 @@
           <attvalue for="closnesscentrality" value="0.35294117647058826"/>
           <attvalue for="harmonicclosnesscentrality" value="0.4444444444444444"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="225"/>
+          <attvalue for="modularity_class" value="214"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="264.9432" y="-2341.9846"/>
-        <viz:color r="211" g="211" b="211"/>
+        <viz:position x="512.49994" y="-1996.3846"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
       <node id="109" label="white kids' grandparents (77)">
         <attvalues>
@@ -5859,11 +5859,11 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="214"/>
+          <attvalue for="modularity_class" value="215"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="584.8877" y="-2760.09"/>
-        <viz:color r="255" g="0" b="255"/>
+        <viz:position x="2223.185" y="1333.97"/>
+        <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="34" label="White people">
         <attvalues>
@@ -5878,7 +5878,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="13.058252"/>
-        <viz:position x="-243.98445" y="1068.6385"/>
+        <viz:position x="559.18066" y="-682.0265"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="346" label="Whitney Houston">
@@ -5891,10 +5891,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="215"/>
+          <attvalue for="modularity_class" value="216"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2560.0762" y="-240.4271"/>
+        <viz:position x="-1593.435" y="-2081.5464"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="147" label="Winston Dunst">
@@ -5907,10 +5907,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="216"/>
+          <attvalue for="modularity_class" value="217"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2440.0388" y="-1006.2376"/>
+        <viz:position x="763.58704" y="2539.8708"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="121" label="Winsum">
@@ -5923,10 +5923,10 @@
           <attvalue for="closnesscentrality" value="0.2595978062157221"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2971495640509726"/>
           <attvalue for="betweenesscentrality" value="776.3422799422798"/>
-          <attvalue for="modularity_class" value="217"/>
+          <attvalue for="modularity_class" value="218"/>
         </attvalues>
         <viz:size value="23.106796"/>
-        <viz:position x="-445.17737" y="903.67065"/>
+        <viz:position x="204.59808" y="-730.2925"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="251" label="Winsum's cousins">
@@ -5939,10 +5939,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="218"/>
+          <attvalue for="modularity_class" value="219"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="2095.0686" y="-1743.4728"/>
+        <viz:position x="2543.8325" y="714.69617"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="250" label="Winsum's Mother">
@@ -5955,10 +5955,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="219"/>
+          <attvalue for="modularity_class" value="220"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1633.7471" y="2091.254"/>
+        <viz:position x="-2311.2825" y="-1201.7155"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="265" label="Wives (of homosexuals)">
@@ -5971,10 +5971,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="220"/>
+          <attvalue for="modularity_class" value="221"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-1637.3074" y="-827.2093"/>
+        <viz:position x="1048.7074" y="-937.48694"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="223" label="Woman (Michelle sees collapse)">
@@ -5987,10 +5987,10 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"/>
           <attvalue for="harmonicclosnesscentrality" value="0.75"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="221"/>
+          <attvalue for="modularity_class" value="222"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="1361.75" y="-1384.3885"/>
+        <viz:position x="-1076.768" y="1486.9967"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="140" label="Yanna Knowles">
@@ -6003,10 +6003,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="222"/>
+          <attvalue for="modularity_class" value="223"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1445.2755" y="2209.264"/>
+        <viz:position x="-1852.2645" y="-1848.7902"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="69" label="Yanna Roy">
@@ -6022,7 +6022,7 @@
           <attvalue for="modularity_class" value="208"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="-955.9406" y="-943.9073"/>
+        <viz:position x="1351.728" y="-1317.735"/>
         <viz:color r="255" g="255" b="0"/>
       </node>
       <node id="285" label="Yanna, Evan, and Tasha's Father">
@@ -6035,10 +6035,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="223"/>
+          <attvalue for="modularity_class" value="224"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-2120.6458" y="1544.5974"/>
+        <viz:position x="-2145.3784" y="-1534.2037"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="263" label="Young blond man">
@@ -6054,7 +6054,7 @@
           <attvalue for="modularity_class" value="141"/>
         </attvalues>
         <viz:size value="10.873786"/>
-        <viz:position x="-608.0099" y="694.1229"/>
+        <viz:position x="-102.39056" y="-785.0761"/>
         <viz:color r="0" g="255" b="0"/>
       </node>
       <node id="379" label="Youssef">
@@ -6067,10 +6067,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="224"/>
+          <attvalue for="modularity_class" value="225"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="1921.3284" y="1820.1486"/>
+        <viz:position x="-1979.8502" y="-1653.0228"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="328" label="Zookeepers">
@@ -6083,11 +6083,11 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"/>
           <attvalue for="harmonicclosnesscentrality" value="0.75"/>
           <attvalue for="betweenesscentrality" value="16.666666666666668"/>
-          <attvalue for="modularity_class" value="225"/>
+          <attvalue for="modularity_class" value="214"/>
         </attvalues>
         <viz:size value="12.621359"/>
-        <viz:position x="378.3695" y="-2090.293"/>
-        <viz:color r="211" g="211" b="211"/>
+        <viz:position x="485.96997" y="-1708.3585"/>
+        <viz:color r="255" g="0" b="255"/>
       </node>
     </nodes>
     <edges>

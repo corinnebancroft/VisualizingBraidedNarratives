@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2026-04-22">
+  <meta lastmodifieddate="2026-04-23">
     <creator>Apache NetBeans Platform Dev (Build {0})</creator>
     <title></title>
     <description></description>
@@ -51,10 +51,10 @@
           <attvalue for="closnesscentrality" value="0.26542056074766357"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2868209255533199"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-15.874304" y="799.6356"/>
+        <viz:position x="450.19678" y="-388.4636"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="117" label="&quot;a man with a basket of party favours&quot; (79)">
@@ -67,10 +67,10 @@
           <attvalue for="closnesscentrality" value="0.18635170603674542"/>
           <attvalue for="harmonicclosnesscentrality" value="0.20053655264922857"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="18"/>
+          <attvalue for="modularity_class" value="17"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="556.53064" y="-961.93567"/>
+        <viz:position x="-1119.5466" y="-335.00235"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="15" label="&quot;a shirtless man&quot; (20)">
@@ -83,10 +83,10 @@
           <attvalue for="closnesscentrality" value="0.22756410256410256"/>
           <attvalue for="harmonicclosnesscentrality" value="0.24587525150905426"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="825.7522" y="119.79108"/>
+        <viz:position x="-581.1203" y="744.2223"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="200" label="&quot;a toddler&quot; (131)">
@@ -99,10 +99,10 @@
           <attvalue for="closnesscentrality" value="0.2784313725490196"/>
           <attvalue for="harmonicclosnesscentrality" value="0.309289067739772"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="93.400986" y="497.04074"/>
+        <viz:position x="-505.76218" y="-135.06528"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="358" label="&quot;abusive partners&quot;">
@@ -115,10 +115,10 @@
           <attvalue for="closnesscentrality" value="0.19586206896551725"/>
           <attvalue for="harmonicclosnesscentrality" value="0.21233232729711593"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="modularity_class" value="14"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="1116.1221" y="-21.862514"/>
+        <viz:position x="45.118916" y="1141.6992"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="212" label="&quot;all of the children&quot; in the Galloway Shelter (137">
@@ -131,10 +131,10 @@
           <attvalue for="closnesscentrality" value="0.24149659863945577"/>
           <attvalue for="harmonicclosnesscentrality" value="0.26441985244802146"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="669.62524" y="-112.06443"/>
+        <viz:position x="-87.33469" y="734.8619"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="130" label="&quot;all the children sitting cross legged&quot; (85)">
@@ -147,10 +147,10 @@
           <attvalue for="closnesscentrality" value="0.2784313725490196"/>
           <attvalue for="harmonicclosnesscentrality" value="0.309289067739772"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="161.53076" y="496.31845"/>
+        <viz:position x="-432.2918" y="-211.0493"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="58" label="&quot;an elderly Asian woman&quot; (41) / The bowling alley">
@@ -163,10 +163,10 @@
           <attvalue for="closnesscentrality" value="0.25"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2722669349429913"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-274.12018" y="461.2369"/>
+        <viz:position x="-61.143047" y="-459.42346"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="359" label="&quot;angry drug dealers&quot;">
@@ -179,10 +179,10 @@
           <attvalue for="closnesscentrality" value="0.19586206896551725"/>
           <attvalue for="harmonicclosnesscentrality" value="0.21233232729711593"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="modularity_class" value="14"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="1117.2627" y="-88.27183"/>
+        <viz:position x="107.781204" y="1118.61"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="102" label="&quot;Cindy, the puppy mill lady&quot; (74)">
@@ -195,10 +195,10 @@
           <attvalue for="closnesscentrality" value="0.2674199623352166"/>
           <attvalue for="harmonicclosnesscentrality" value="0.29327632461435277"/>
           <attvalue for="betweenesscentrality" value="261.33333333333326"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="106.964935" y="946.8816"/>
+        <viz:position x="686.6285" y="-257.93747"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="94" label="&quot;Mitchell next door&quot; (72)">
@@ -211,10 +211,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="16"/>
+          <attvalue for="modularity_class" value="15"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-617.9147" y="-761.19653"/>
+        <viz:position x="-740.8088" y="-941.0594"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="90" label="&quot;one of the Vietnamese ladies at the counter&quot; (67)">
@@ -227,10 +227,10 @@
           <attvalue for="closnesscentrality" value="0.29218106995884774"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32347417840375603"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="552.4496" y="269.17212"/>
+        <viz:position x="-563.44824" y="298.64877"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="179" label="&quot;parents&quot; (of children in Landau's class)">
@@ -243,10 +243,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="10"/>
+          <attvalue for="modularity_class" value="9"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-820.8065" y="633.6715"/>
+        <viz:position x="1232.8589" y="-175.91257"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="113" label="&quot;some man wearing a UFC bandana&quot; (79)">
@@ -262,7 +262,7 @@
           <attvalue for="modularity_class" value="1"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-908.8751" y="260.10214"/>
+        <viz:position x="78.7083" y="1165.7002"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="159" label="&quot;spies disguised as waiters&quot; (on TV)(105)">
@@ -278,7 +278,7 @@
           <attvalue for="modularity_class" value="0"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-903.21564" y="-239.91281"/>
+        <viz:position x="1219.3931" y="-450.27258"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="120" label="&quot;the lady in front of us&quot; (80)">
@@ -291,10 +291,10 @@
           <attvalue for="closnesscentrality" value="0.29218106995884774"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3257042253521129"/>
           <attvalue for="betweenesscentrality" value="147.20000000000002"/>
-          <attvalue for="modularity_class" value="18"/>
+          <attvalue for="modularity_class" value="17"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="457.67365" y="-491.39655"/>
+        <viz:position x="-674.73016" y="-124.39179"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="208" label="&quot;the literary centre's regulars&quot; (132)">
@@ -307,10 +307,10 @@
           <attvalue for="closnesscentrality" value="0.2784313725490196"/>
           <attvalue for="harmonicclosnesscentrality" value="0.309289067739772"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="30.463947" y="404.2306"/>
+        <viz:position x="-423.68774" y="-94.64493"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="119" label="&quot;the rest of the line&quot; (80)">
@@ -323,10 +323,10 @@
           <attvalue for="closnesscentrality" value="0.2286634460547504"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2542756539235412"/>
           <attvalue for="betweenesscentrality" value="4.666666666666667"/>
-          <attvalue for="modularity_class" value="18"/>
+          <attvalue for="modularity_class" value="17"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="526.3881" y="-754.1913"/>
+        <viz:position x="-927.326" y="-246.56116"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="30" label="&quot;the white lady&quot; (35)">
@@ -339,10 +339,10 @@
           <attvalue for="closnesscentrality" value="0.26542056074766357"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2955566733735749"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-114.076416" y="-563.98773"/>
+        <viz:position x="346.1925" y="505.1849"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="357" label="&quot;twenty-four hour staff&quot;">
@@ -355,10 +355,10 @@
           <attvalue for="closnesscentrality" value="0.29218106995884774"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32347417840375603"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="601.3029" y="167.45244"/>
+        <viz:position x="-518.9881" y="482.04327"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="112" label="&quot;white lady wearing a muumuu&quot; (78)">
@@ -374,7 +374,7 @@
           <attvalue for="modularity_class" value="1"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-880.33887" y="300.12994"/>
+        <viz:position x="127.29608" y="1159.1343"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="44" label="Aiden Chan">
@@ -387,10 +387,10 @@
           <attvalue for="closnesscentrality" value="0.15848214285714285"/>
           <attvalue for="harmonicclosnesscentrality" value="0.17388777107086964"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="modularity_class" value="4"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="1046.7692" y="-819.9898"/>
+        <viz:position x="-599.87646" y="-1129.1448"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="86" label="Aiden Redden">
@@ -403,10 +403,10 @@
           <attvalue for="closnesscentrality" value="0.2857142857142857"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3209087860496313"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-387.12714" y="-196.71744"/>
+        <viz:position x="291.17093" y="-84.2558"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="276" label="Ate Lin Menendez">
@@ -419,10 +419,10 @@
           <attvalue for="closnesscentrality" value="0.2939958592132505"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3429745137491619"/>
           <attvalue for="betweenesscentrality" value="411.36147186147184"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="-534.2763" y="-394.80667"/>
+        <viz:position x="382.25076" y="-152.43727"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="279" label="Ate Lou Menendez">
@@ -435,10 +435,10 @@
           <attvalue for="closnesscentrality" value="0.2868686868686869"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32560362173038243"/>
           <attvalue for="betweenesscentrality" value="73.31926406926408"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-569.6408" y="-236.18112"/>
+        <viz:position x="252.511" y="-207.82545"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="225" label="Aunt (who took away the woman's kids)">
@@ -451,10 +451,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="2.0"/>
-          <attvalue for="modularity_class" value="7"/>
+          <attvalue for="modularity_class" value="22"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="743.1674" y="-651.9544"/>
+        <viz:position x="-727.11945" y="932.7814"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="368" label="Autistic child (in video)">
@@ -470,7 +470,7 @@
           <attvalue for="modularity_class" value="2"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-712.64087" y="510.84326"/>
+        <viz:position x="-227.23492" y="1105.0311"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="244" label="Babies">
@@ -486,7 +486,7 @@
           <attvalue for="modularity_class" value="6"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="963.0813" y="-237.7608"/>
+        <viz:position x="494.80505" y="-916.0549"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="366" label="Ben">
@@ -499,10 +499,10 @@
           <attvalue for="closnesscentrality" value="0.22792937399678972"/>
           <attvalue for="harmonicclosnesscentrality" value="0.24704896042924213"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="817.5222" y="423.54364"/>
+        <viz:position x="-434.8812" y="899.58124"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="293" label="Bing's Class">
@@ -515,10 +515,10 @@
           <attvalue for="closnesscentrality" value="0.22903225806451613"/>
           <attvalue for="harmonicclosnesscentrality" value="0.25551643192488266"/>
           <attvalue for="betweenesscentrality" value="1104.0"/>
-          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="modularity_class" value="4"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="782.6821" y="-760.78107"/>
+        <viz:position x="-416.1036" y="-947.937"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="38" label="Bing's Dad">
@@ -531,10 +531,10 @@
           <attvalue for="closnesscentrality" value="0.2857142857142857"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3209087860496313"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-355.8429" y="-90.33753"/>
+        <viz:position x="345.57434" y="189.68617"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="382" label="Bing's Partner">
@@ -547,10 +547,10 @@
           <attvalue for="closnesscentrality" value="0.2857142857142857"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3209087860496313"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-431.27524" y="-36.232227"/>
+        <viz:position x="182.26538" y="-135.93776"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="28" label="Bing/Bernard Espiritu">
@@ -563,10 +563,10 @@
           <attvalue for="closnesscentrality" value="0.398876404494382"/>
           <attvalue for="harmonicclosnesscentrality" value="0.5034037558685448"/>
           <attvalue for="betweenesscentrality" value="6770.566944166939"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="100.0"/>
-        <viz:position x="-187.96027" y="-153.89182"/>
+        <viz:position x="197.96619" y="86.66959"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="308" label="Brown family">
@@ -579,10 +579,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="14"/>
+          <attvalue for="modularity_class" value="13"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-162.58" y="1037.1868"/>
+        <viz:position x="962.11096" y="698.872"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="320" label="Buck (that Jonathon sees)">
@@ -595,10 +595,10 @@
           <attvalue for="closnesscentrality" value="0.22903225806451613"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2479376257545271"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="794.40106" y="-286.2782"/>
+        <viz:position x="86.54134" y="764.8732"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="369" label="Caregiver (in video)">
@@ -614,7 +614,7 @@
           <attvalue for="modularity_class" value="2"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-726.5121" y="557.3787"/>
+        <viz:position x="-275.83783" y="1099.1879"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="315" label="Children in Pearson Memorial Junior Public School">
@@ -627,10 +627,10 @@
           <attvalue for="closnesscentrality" value="0.22327044025157233"/>
           <attvalue for="harmonicclosnesscentrality" value="0.24284037558685437"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-833.81" y="-367.22174"/>
+        <viz:position x="877.0835" y="302.77267"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="76" label="children in the community">
@@ -643,10 +643,10 @@
           <attvalue for="closnesscentrality" value="0.2868686868686869"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32560362173038243"/>
           <attvalue for="betweenesscentrality" value="140.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="14.829268"/>
-        <viz:position x="-347.6936" y="-39.570324"/>
+        <viz:position x="387.49228" y="37.637264"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="226" label="Cindy">
@@ -659,10 +659,10 @@
           <attvalue for="closnesscentrality" value="0.272552783109405"/>
           <attvalue for="harmonicclosnesscentrality" value="0.31006036217303823"/>
           <attvalue for="betweenesscentrality" value="1211.1666666666667"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="16.585365"/>
-        <viz:position x="-25.031185" y="1026.6185"/>
+        <viz:position x="739.0026" y="-371.65765"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="236" label="Cindy's classmates">
@@ -675,10 +675,10 @@
           <attvalue for="closnesscentrality" value="0.21450151057401812"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2322350771294432"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="17.721249" y="1152.031"/>
+        <viz:position x="869.3973" y="-374.604"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="7" label="Clara Jane Donohue">
@@ -691,10 +691,10 @@
           <attvalue for="closnesscentrality" value="0.33490566037735847"/>
           <attvalue for="harmonicclosnesscentrality" value="0.38521126760563423"/>
           <attvalue for="betweenesscentrality" value="1145.9671328671343"/>
-          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="modularity_class" value="3"/>
         </attvalues>
         <viz:size value="28.439024"/>
-        <viz:position x="125.45554" y="-404.33426"/>
+        <viz:position x="-466.1061" y="110.33608"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="106" label="Clementine (orangutan)">
@@ -707,10 +707,10 @@
           <attvalue for="closnesscentrality" value="0.6"/>
           <attvalue for="harmonicclosnesscentrality" value="0.7222222222222223"/>
           <attvalue for="betweenesscentrality" value="7.0"/>
-          <attvalue for="modularity_class" value="21"/>
+          <attvalue for="modularity_class" value="23"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="242.90948" y="-971.6999"/>
+        <viz:position x="140.79443" y="-1105.8639"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="327" label="Clementine's siblings">
@@ -723,10 +723,10 @@
           <attvalue for="closnesscentrality" value="0.6"/>
           <attvalue for="harmonicclosnesscentrality" value="0.7222222222222223"/>
           <attvalue for="betweenesscentrality" value="7.0"/>
-          <attvalue for="modularity_class" value="21"/>
+          <attvalue for="modularity_class" value="23"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="165.87466" y="-876.528"/>
+        <viz:position x="264.9624" y="-1110.8405"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="220" label="Clive">
@@ -739,10 +739,10 @@
           <attvalue for="closnesscentrality" value="0.25357142857142856"/>
           <attvalue for="harmonicclosnesscentrality" value="0.29104627766599606"/>
           <attvalue for="betweenesscentrality" value="819.7731962481967"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="17.024391"/>
-        <viz:position x="-402.82498" y="480.2274"/>
+        <viz:position x="-79.96078" y="-588.7633"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="267" label="Clive's father">
@@ -755,10 +755,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-593.0117" y="470.8616"/>
+        <viz:position x="-121.01858" y="-784.59705"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="85" label="Cole Hester">
@@ -771,10 +771,10 @@
           <attvalue for="closnesscentrality" value="0.15848214285714285"/>
           <attvalue for="harmonicclosnesscentrality" value="0.17388777107086964"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="modularity_class" value="4"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="1000.5456" y="-915.11755"/>
+        <viz:position x="-566.9049" y="-1187.4181"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="4" label="Cory Mitkowski">
@@ -787,10 +787,10 @@
           <attvalue for="closnesscentrality" value="0.3325526932084309"/>
           <attvalue for="harmonicclosnesscentrality" value="0.38744131455399106"/>
           <attvalue for="betweenesscentrality" value="2928.466996891995"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="41.609756"/>
-        <viz:position x="-191.3137" y="381.01865"/>
+        <viz:position x="-75.778114" y="-343.4799"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="264" label="Couple (Clive sleeps with)">
@@ -803,10 +803,10 @@
           <attvalue for="closnesscentrality" value="0.20256776034236804"/>
           <attvalue for="harmonicclosnesscentrality" value="0.22066566063044915"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-475.9317" y="509.9704"/>
+        <viz:position x="-99.34199" y="-671.8741"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="339" label="Customers (at the nail salon)">
@@ -819,10 +819,10 @@
           <attvalue for="closnesscentrality" value="0.2669172932330827"/>
           <attvalue for="harmonicclosnesscentrality" value="0.30377263581488945"/>
           <attvalue for="betweenesscentrality" value="1.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="11.756098"/>
-        <viz:position x="-399.69" y="-547.65454"/>
+        <viz:position x="589.9709" y="359.15656"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="274" label="Devout Catholic Filipinos">
@@ -835,10 +835,10 @@
           <attvalue for="closnesscentrality" value="0.22327044025157233"/>
           <attvalue for="harmonicclosnesscentrality" value="0.24284037558685437"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="90.28927" y="-256.46494"/>
+        <viz:position x="617.48895" y="88.62826"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="353" label="Dr. Berger">
@@ -851,10 +851,10 @@
           <attvalue for="closnesscentrality" value="0.2927835051546392"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32699530516431946"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="410.8275" y="311.04926"/>
+        <viz:position x="-479.70996" y="395.65344"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="29" label="Edna Espiritu">
@@ -867,10 +867,10 @@
           <attvalue for="closnesscentrality" value="0.3604060913705584"/>
           <attvalue for="harmonicclosnesscentrality" value="0.4411971830985919"/>
           <attvalue for="betweenesscentrality" value="2988.242207792207"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="57.414635"/>
-        <viz:position x="-113.50708" y="-366.90384"/>
+        <viz:position x="276.02136" y="306.04312"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="77" label="Edward Donohue">
@@ -883,10 +883,10 @@
           <attvalue for="closnesscentrality" value="0.2531194295900178"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2841716968477531"/>
           <attvalue for="betweenesscentrality" value="140.0"/>
-          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="modularity_class" value="3"/>
         </attvalues>
         <viz:size value="21.853659"/>
-        <viz:position x="129.49501" y="-547.3134"/>
+        <viz:position x="-624.0958" y="84.23896"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="295" label="Elder Fay">
@@ -899,10 +899,10 @@
           <attvalue for="closnesscentrality" value="0.1880794701986755"/>
           <attvalue for="harmonicclosnesscentrality" value="0.21609378493181292"/>
           <attvalue for="betweenesscentrality" value="839.9999999999999"/>
-          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="modularity_class" value="4"/>
         </attvalues>
         <viz:size value="13.95122"/>
-        <viz:position x="952.7108" y="-839.15985"/>
+        <viz:position x="-509.5911" y="-1098.633"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="278" label="Employers (of the Menendez sisters)">
@@ -915,10 +915,10 @@
           <attvalue for="closnesscentrality" value="0.22903225806451613"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2598591549295774"/>
           <attvalue for="betweenesscentrality" value="5.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-713.59576" y="-281.8162"/>
+        <viz:position x="324.54443" y="-395.25375"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="310" label="Estheticians at Edna's salon">
@@ -931,10 +931,10 @@
           <attvalue for="closnesscentrality" value="0.29338842975206614"/>
           <attvalue for="harmonicclosnesscentrality" value="0.34180080482897407"/>
           <attvalue for="betweenesscentrality" value="146.4976190476191"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="17.90244"/>
-        <viz:position x="-350.9996" y="-344.5644"/>
+        <viz:position x="429.09576" y="198.0327"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="103" label="Eunice (Cindy's dog)">
@@ -947,10 +947,10 @@
           <attvalue for="closnesscentrality" value="0.21580547112462006"/>
           <attvalue for="harmonicclosnesscentrality" value="0.24162474849094556"/>
           <attvalue for="betweenesscentrality" value="286.99999999999994"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="151.87071" y="1123.9072"/>
+        <viz:position x="898.5286" y="-259.17084"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="258" label="Eunice's puppies">
@@ -963,10 +963,10 @@
           <attvalue for="closnesscentrality" value="0.17772215269086358"/>
           <attvalue for="harmonicclosnesscentrality" value="0.19205231388329977"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="220.95145" y="1213.0679"/>
+        <viz:position x="1015.76636" y="-223.09637"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="309" label="Evalyn Chau">
@@ -979,10 +979,10 @@
           <attvalue for="closnesscentrality" value="0.2784313725490196"/>
           <attvalue for="harmonicclosnesscentrality" value="0.309289067739772"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="16.585365"/>
-        <viz:position x="-6.8362556" y="364.44873"/>
+        <viz:position x="-377.92484" y="-116.03354"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="68" label="Evan Roy">
@@ -995,10 +995,10 @@
           <attvalue for="closnesscentrality" value="0.1834625322997416"/>
           <attvalue for="harmonicclosnesscentrality" value="0.20736083165660624"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-1198.3475" y="299.8753"/>
+        <viz:position x="1098.3142" y="-1029.2692"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="354" label="Family Doctor (Hina's friend)">
@@ -1011,10 +1011,10 @@
           <attvalue for="closnesscentrality" value="0.30603448275862066"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3461267605633806"/>
           <attvalue for="betweenesscentrality" value="15.322222222222223"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="305.06668" y="407.83807"/>
+        <viz:position x="-510.45517" y="219.10666"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="64" label="Fern Donahue">
@@ -1027,10 +1027,10 @@
           <attvalue for="closnesscentrality" value="0.30603448275862066"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3461267605633806"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="19.219513"/>
-        <viz:position x="187.77959" y="81.37658"/>
+        <viz:position x="-416.54346" y="225.83849"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="242" label="Filipinos">
@@ -1046,7 +1046,7 @@
           <attvalue for="modularity_class" value="6"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="1011.55505" y="-235.29187"/>
+        <viz:position x="523.20496" y="-956.72296"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="371" label="Five Women (holding certificates)">
@@ -1059,10 +1059,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="12"/>
+          <attvalue for="modularity_class" value="11"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="794.11017" y="599.7174"/>
+        <viz:position x="-496.41086" y="-1150.1398"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="41" label="Geraldine McDonough">
@@ -1075,10 +1075,10 @@
           <attvalue for="closnesscentrality" value="0.2784313725490196"/>
           <attvalue for="harmonicclosnesscentrality" value="0.309289067739772"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="161.34718" y="404.13968"/>
+        <viz:position x="-356.08914" y="-161.30934"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="314" label="Girl (projecting a presentation)">
@@ -1091,10 +1091,10 @@
           <attvalue for="closnesscentrality" value="0.2868686868686869"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32560362173038243"/>
           <attvalue for="betweenesscentrality" value="282.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-635.4183" y="-315.33804"/>
+        <viz:position x="684.84235" y="226.69951"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="37" label="God">
@@ -1107,10 +1107,10 @@
           <attvalue for="closnesscentrality" value="0.26542056074766357"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2955566733735749"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-184.14545" y="-548.2864"/>
+        <viz:position x="461.5232" y="432.73672"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="160" label="Hakim">
@@ -1123,10 +1123,10 @@
           <attvalue for="closnesscentrality" value="0.2903885480572597"/>
           <attvalue for="harmonicclosnesscentrality" value="0.33675385647216655"/>
           <attvalue for="betweenesscentrality" value="67.88473193473192"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="16.585365"/>
-        <viz:position x="-245.128" y="-330.87473"/>
+        <viz:position x="84.62616" y="256.47842"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="47" label="Helen Mckay">
@@ -1139,10 +1139,10 @@
           <attvalue for="closnesscentrality" value="0.30669546436285094"/>
           <attvalue for="harmonicclosnesscentrality" value="0.34964788732394403"/>
           <attvalue for="betweenesscentrality" value="0.6666666666666666"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="20.09756"/>
-        <viz:position x="310.1776" y="-52.7203"/>
+        <viz:position x="-445.59506" y="297.0024"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="5" label="Hina Hassani">
@@ -1155,10 +1155,10 @@
           <attvalue for="closnesscentrality" value="0.38482384823848237"/>
           <attvalue for="harmonicclosnesscentrality" value="0.4718309859154933"/>
           <attvalue for="betweenesscentrality" value="3684.528885003887"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="84.19512"/>
-        <viz:position x="79.760506" y="258.7317"/>
+        <viz:position x="-293.95184" y="-8.2197275"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="317" label="Hot Dog">
@@ -1171,10 +1171,10 @@
           <attvalue for="closnesscentrality" value="0.2297734627831715"/>
           <attvalue for="harmonicclosnesscentrality" value="0.25263246143527823"/>
           <attvalue for="betweenesscentrality" value="282.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="965.70953" y="-299.88922"/>
+        <viz:position x="-58.373287" y="7.005893"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="319" label="Hot Dog's litters">
@@ -1187,10 +1187,10 @@
           <attvalue for="closnesscentrality" value="0.18708827404479578"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2005365526492286"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="1073.0083" y="-331.96417"/>
+        <viz:position x="-265.06784" y="-216.72095"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="92" label="Ivana">
@@ -1203,10 +1203,10 @@
           <attvalue for="closnesscentrality" value="0.3302325581395349"/>
           <attvalue for="harmonicclosnesscentrality" value="0.37406103286385023"/>
           <attvalue for="betweenesscentrality" value="562.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="15.707317"/>
-        <viz:position x="-291.86737" y="127.54077"/>
+        <viz:position x="24.326658" y="-155.28206"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="290" label="Ivana's mom">
@@ -1219,10 +1219,10 @@
           <attvalue for="closnesscentrality" value="0.2486865148861646"/>
           <attvalue for="harmonicclosnesscentrality" value="0.26797451374916154"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-436.4201" y="198.59496"/>
+        <viz:position x="79.697586" y="-236.68898"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="71" label="Jane Fulton">
@@ -1235,10 +1235,10 @@
           <attvalue for="closnesscentrality" value="0.2784313725490196"/>
           <attvalue for="harmonicclosnesscentrality" value="0.309289067739772"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="30.634146"/>
-        <viz:position x="94.85911" y="393.67947"/>
+        <viz:position x="-428.41733" y="-28.024387"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="270" label="Jason">
@@ -1251,10 +1251,10 @@
           <attvalue for="closnesscentrality" value="0.20256776034236804"/>
           <attvalue for="harmonicclosnesscentrality" value="0.221629778672032"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="modularity_class" value="3"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="160.81894" y="-734.1179"/>
+        <viz:position x="-844.9388" y="91.001724"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="6" label="Jessica (Laura's Mom)">
@@ -1267,10 +1267,10 @@
           <attvalue for="closnesscentrality" value="0.29894736842105263"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3269953051643195"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="13.95122"/>
-        <viz:position x="-236.05504" y="234.47992"/>
+        <viz:position x="-186.2062" y="-297.66867"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="35" label="Jesus">
@@ -1283,10 +1283,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-1399.999" y="195.32916"/>
+        <viz:position x="1245.141" y="-1156.0192"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="12" label="Johnny Beaudoin">
@@ -1299,10 +1299,10 @@
           <attvalue for="closnesscentrality" value="0.3421686746987952"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3923708920187798"/>
           <attvalue for="betweenesscentrality" value="254.32380952380947"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="32.390244"/>
-        <viz:position x="288.09113" y="284.05795"/>
+        <viz:position x="-81.51545" y="338.35455"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="27" label="Jonathon Beaudoin">
@@ -1315,10 +1315,10 @@
           <attvalue for="closnesscentrality" value="0.2964509394572025"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3374413145539909"/>
           <attvalue for="betweenesscentrality" value="1114.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="15.707317"/>
-        <viz:position x="690.8501" y="-207.6437"/>
+        <viz:position x="3.0502415" y="610.36926"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="224" label="Kids (of the woman who collapsed)">
@@ -1331,10 +1331,10 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"/>
           <attvalue for="harmonicclosnesscentrality" value="0.75"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="7"/>
+          <attvalue for="modularity_class" value="22"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="685.35614" y="-634.299"/>
+        <viz:position x="-668.1951" y="918.1061"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="158" label="kids in Mrs. Finnegan's class">
@@ -1347,10 +1347,10 @@
           <attvalue for="closnesscentrality" value="0.2513274336283186"/>
           <attvalue for="harmonicclosnesscentrality" value="0.27806841046277664"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-61.480854" y="1.8263508"/>
+        <viz:position x="134.0969" y="470.74527"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="207" label="Lady Roy">
@@ -1363,10 +1363,10 @@
           <attvalue for="closnesscentrality" value="0.22362204724409449"/>
           <attvalue for="harmonicclosnesscentrality" value="0.26462944332662647"/>
           <attvalue for="betweenesscentrality" value="1514.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="19.219513"/>
-        <viz:position x="-1180.3488" y="394.15817"/>
+        <viz:position x="1128.0663" y="-942.04535"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="3" label="Laura Mitkowski">
@@ -1379,10 +1379,10 @@
           <attvalue for="closnesscentrality" value="0.3858695652173913"/>
           <attvalue for="harmonicclosnesscentrality" value="0.45598591549295797"/>
           <attvalue for="betweenesscentrality" value="3081.76676101676"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="50.82927"/>
-        <viz:position x="-118.663414" y="168.72472"/>
+        <viz:position x="-138.16724" y="-175.0934"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="298" label="Levy">
@@ -1395,10 +1395,10 @@
           <attvalue for="closnesscentrality" value="0.15848214285714285"/>
           <attvalue for="harmonicclosnesscentrality" value="0.17388777107086964"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="modularity_class" value="4"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="1059.967" y="-889.04645"/>
+        <viz:position x="-500.6815" y="-1196.61"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="281" label="Little boy (in the choir)">
@@ -1411,10 +1411,10 @@
           <attvalue for="closnesscentrality" value="0.2868686868686869"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32560362173038243"/>
           <attvalue for="betweenesscentrality" value="282.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="8.6051445" y="-181.16272"/>
+        <viz:position x="514.3638" y="86.73023"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="248" label="Lorna">
@@ -1427,10 +1427,10 @@
           <attvalue for="closnesscentrality" value="0.2088235294117647"/>
           <attvalue for="harmonicclosnesscentrality" value="0.23438128772635797"/>
           <attvalue for="betweenesscentrality" value="13.5"/>
-          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="modularity_class" value="20"/>
         </attvalues>
         <viz:size value="15.707317"/>
-        <viz:position x="-554.1436" y="622.9329"/>
+        <viz:position x="32.547756" y="-744.9869"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="370" label="Madame Gauthier">
@@ -1443,10 +1443,10 @@
           <attvalue for="closnesscentrality" value="0.29218106995884774"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32347417840375603"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="534.4872" y="185.82501"/>
+        <viz:position x="-282.94458" y="555.48083"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="11" label="Marie Beaudoin">
@@ -1459,10 +1459,10 @@
           <attvalue for="closnesscentrality" value="0.4115942028985507"/>
           <attvalue for="harmonicclosnesscentrality" value="0.5070422535211268"/>
           <attvalue for="betweenesscentrality" value="6564.098726273723"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="97.80488"/>
-        <viz:position x="352.44458" y="106.865364"/>
+        <viz:position x="-265.68625" y="348.4774"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="363" label="Marie's Grandma">
@@ -1475,10 +1475,10 @@
           <attvalue for="closnesscentrality" value="0.2946058091286307"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3352112676056341"/>
           <attvalue for="betweenesscentrality" value="283.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="14.829268"/>
-        <viz:position x="689.27893" y="330.95828"/>
+        <viz:position x="-386.26602" y="740.9938"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="122" label="Melvin">
@@ -1491,10 +1491,10 @@
           <attvalue for="closnesscentrality" value="0.2063953488372093"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2244047619047617"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="modularity_class" value="20"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="-556.5605" y="731.47485"/>
+        <viz:position x="136.00671" y="-778.9071"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="26" label="Michelle">
@@ -1507,10 +1507,10 @@
           <attvalue for="closnesscentrality" value="0.31767337807606266"/>
           <attvalue for="harmonicclosnesscentrality" value="0.37030516431924915"/>
           <attvalue for="betweenesscentrality" value="1273.7666666666664"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="22.731707"/>
-        <viz:position x="509.86276" y="-98.61034"/>
+        <viz:position x="-96.17276" y="524.9133"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="364" label="miners">
@@ -1523,10 +1523,10 @@
           <attvalue for="closnesscentrality" value="0.29338842975206614"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32816901408450727"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="703.94324" y="265.24393"/>
+        <viz:position x="-445.26035" y="704.8877"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="311" label="Miss Peaches">
@@ -1539,10 +1539,10 @@
           <attvalue for="closnesscentrality" value="0.2915811088295688"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3335848423876595"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="-258.388" y="-406.63333"/>
+        <viz:position x="155.91153" y="314.91528"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="24" label="Mr. George">
@@ -1555,10 +1555,10 @@
           <attvalue for="closnesscentrality" value="0.29831932773109243"/>
           <attvalue for="harmonicclosnesscentrality" value="0.33732394366197205"/>
           <attvalue for="betweenesscentrality" value="108.00000000000001"/>
-          <attvalue for="modularity_class" value="18"/>
+          <attvalue for="modularity_class" value="17"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="527.7903" y="-405.1749"/>
+        <viz:position x="-730.4132" y="-27.907887"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="9" label="Mr. Kamal">
@@ -1571,10 +1571,10 @@
           <attvalue for="closnesscentrality" value="0.2204968944099379"/>
           <attvalue for="harmonicclosnesscentrality" value="0.23881623071763913"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="38.54132" y="-434.74945"/>
+        <viz:position x="-506.44345" y="-526.7075"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="316" label="Mr. Palmer">
@@ -1587,10 +1587,10 @@
           <attvalue for="closnesscentrality" value="0.2857142857142857"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32090878604963124"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-467.40338" y="-117.374886"/>
+        <viz:position x="441.42535" y="-41.02401"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="260" label="Mr. Park">
@@ -1603,10 +1603,10 @@
           <attvalue for="closnesscentrality" value="0.28063241106719367"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3099429912810196"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="13.95122"/>
-        <viz:position x="-152.54831" y="545.1885"/>
+        <viz:position x="108.520874" y="-372.53207"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="61" label="Mrs Crosby">
@@ -1619,10 +1619,10 @@
           <attvalue for="closnesscentrality" value="0.27897838899803534"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3055331991951712"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-190.85774" y="250.57947"/>
+        <viz:position x="-225.4114" y="-258.6815"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="62" label="Mrs Landau">
@@ -1635,10 +1635,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="10"/>
+          <attvalue for="modularity_class" value="9"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-858.0427" y="665.7881"/>
+        <viz:position x="1276.2865" y="-151.99484"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="31" label="Mrs. Finnegan">
@@ -1651,10 +1651,10 @@
           <attvalue for="closnesscentrality" value="0.3302325581395349"/>
           <attvalue for="harmonicclosnesscentrality" value="0.38192488262910845"/>
           <attvalue for="betweenesscentrality" value="266.8319347319346"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="17.463415"/>
-        <viz:position x="0.15662365" y="-0.64418936"/>
+        <viz:position x="75.07278" y="360.0451"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="341" label="Mrs. Fitz">
@@ -1667,10 +1667,10 @@
           <attvalue for="closnesscentrality" value="0.26542056074766357"/>
           <attvalue for="harmonicclosnesscentrality" value="0.29555667337357483"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-247.00667" y="-582.6562"/>
+        <viz:position x="475.86203" y="494.54254"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="8" label="Mrs. Kamal">
@@ -1683,10 +1683,10 @@
           <attvalue for="closnesscentrality" value="0.2823061630218688"/>
           <attvalue for="harmonicclosnesscentrality" value="0.31961770623742486"/>
           <attvalue for="betweenesscentrality" value="840.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="15.707317"/>
-        <viz:position x="34.43029" y="-230.70801"/>
+        <viz:position x="-365.0705" y="-429.56845"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="381" label="Mrs. Kamal's children">
@@ -1699,10 +1699,10 @@
           <attvalue for="closnesscentrality" value="0.2204968944099379"/>
           <attvalue for="harmonicclosnesscentrality" value="0.23881623071763913"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="79.46557" y="-306.6087"/>
+        <viz:position x="-424.0717" y="-499.07736"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="380" label="Mrs. Kamal's husband">
@@ -1715,10 +1715,10 @@
           <attvalue for="closnesscentrality" value="0.2204968944099379"/>
           <attvalue for="harmonicclosnesscentrality" value="0.23881623071763913"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="27.147215" y="-492.67538"/>
+        <viz:position x="-460.70297" y="-576.5146"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="21" label="Mrs. Rhodes">
@@ -1731,10 +1731,10 @@
           <attvalue for="closnesscentrality" value="0.2915811088295688"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3301810865191149"/>
           <attvalue for="betweenesscentrality" value="1370.0"/>
-          <attvalue for="modularity_class" value="5"/>
+          <attvalue for="modularity_class" value="4"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="355.02533" y="-555.1081"/>
+        <viz:position x="-184.6462" y="-564.694"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="337" label="Mrs. Zoe">
@@ -1747,10 +1747,10 @@
           <attvalue for="closnesscentrality" value="0.26542056074766357"/>
           <attvalue for="harmonicclosnesscentrality" value="0.29555667337357483"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.878049"/>
-        <viz:position x="-321.08368" y="-616.4264"/>
+        <viz:position x="555.5263" y="451.53595"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="326" label="Officer Tyndall">
@@ -1763,10 +1763,10 @@
           <attvalue for="closnesscentrality" value="0.2674199623352166"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3020120724346077"/>
           <attvalue for="betweenesscentrality" value="560.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="-192.08006" y="-612.7273"/>
+        <viz:position x="415.38785" y="524.49286"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="288" label="old lady in curlers">
@@ -1779,10 +1779,10 @@
           <attvalue for="closnesscentrality" value="0.21947449768160743"/>
           <attvalue for="harmonicclosnesscentrality" value="0.23939470154258877"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-444.59064" y="981.8959"/>
+        <viz:position x="662.418" y="-705.3106"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="289" label="old lady's crack dealer">
@@ -1795,10 +1795,10 @@
           <attvalue for="closnesscentrality" value="0.21947449768160743"/>
           <attvalue for="harmonicclosnesscentrality" value="0.23939470154258877"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-377.53003" y="980.5581"/>
+        <viz:position x="719.5072" y="-665.04816"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="277" label="Old man (who owned Happy Chicken)">
@@ -1811,10 +1811,10 @@
           <attvalue for="closnesscentrality" value="0.22756410256410256"/>
           <attvalue for="harmonicclosnesscentrality" value="0.250469483568075"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-674.35864" y="-495.74765"/>
+        <viz:position x="295.6898" y="-352.5047"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="338" label="Older lady with glasses">
@@ -1827,10 +1827,10 @@
           <attvalue for="closnesscentrality" value="0.2669172932330827"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3037726358148894"/>
           <attvalue for="betweenesscentrality" value="29.50238095238094"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-285.41376" y="-509.22733"/>
+        <viz:position x="477.46637" y="353.51175"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="332" label="Other animals (at the zoo)">
@@ -1843,10 +1843,10 @@
           <attvalue for="closnesscentrality" value="0.46153846153846156"/>
           <attvalue for="harmonicclosnesscentrality" value="0.5972222222222222"/>
           <attvalue for="betweenesscentrality" value="0.6666666666666666"/>
-          <attvalue for="modularity_class" value="21"/>
+          <attvalue for="modularity_class" value="23"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="200.6908" y="-927.32135"/>
+        <viz:position x="202.89395" y="-1113.8429"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="331" label="Painted Box Turtles">
@@ -1859,10 +1859,10 @@
           <attvalue for="closnesscentrality" value="0.46153846153846156"/>
           <attvalue for="harmonicclosnesscentrality" value="0.5972222222222222"/>
           <attvalue for="betweenesscentrality" value="0.6666666666666666"/>
-          <attvalue for="modularity_class" value="21"/>
+          <attvalue for="modularity_class" value="23"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="271.05994" y="-880.4871"/>
+        <viz:position x="204.3764" y="-1031.2373"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="67" label="Pamela Roy">
@@ -1875,10 +1875,10 @@
           <attvalue for="closnesscentrality" value="0.18417639429312582"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2179242119382964"/>
           <attvalue for="betweenesscentrality" value="145.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="15.268292"/>
-        <viz:position x="-1299.0448" y="324.15225"/>
+        <viz:position x="1183.1833" y="-1046.8945"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="299" label="Parents in Ms Hina's group">
@@ -1891,10 +1891,10 @@
           <attvalue for="closnesscentrality" value="0.27897838899803534"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3055331991951712"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-81.522224" y="63.87271"/>
+        <viz:position x="-267.39807" y="-350.2987"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="57" label="parents in the community">
@@ -1907,10 +1907,10 @@
           <attvalue for="closnesscentrality" value="0.2868686868686869"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32560362173038243"/>
           <attvalue for="betweenesscentrality" value="140.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="14.829268"/>
-        <viz:position x="-387.50555" y="-129.19856"/>
+        <viz:position x="361.02368" y="-20.66715"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="17" label="Parker">
@@ -1923,10 +1923,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="11"/>
+          <attvalue for="modularity_class" value="10"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="159.51793" y="1118.2101"/>
+        <viz:position x="-175.07216" y="-1348.7986"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="18" label="Parker's mom">
@@ -1939,10 +1939,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="11"/>
+          <attvalue for="modularity_class" value="10"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="208.51286" y="1116.1979"/>
+        <viz:position x="-221.9832" y="-1334.0381"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="261" label="People &quot;down the hall&quot; from Cory">
@@ -1955,10 +1955,10 @@
           <attvalue for="closnesscentrality" value="0.25087719298245614"/>
           <attvalue for="harmonicclosnesscentrality" value="0.27385947385947396"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="-389.7275" y="389.43036"/>
+        <viz:position x="-229.28337" y="-514.9062"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="352" label="People at Food Basics">
@@ -1971,10 +1971,10 @@
           <attvalue for="closnesscentrality" value="0.29218106995884774"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3234741784037561"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="599.54584" y="228.22198"/>
+        <viz:position x="-498.85834" y="535.7111"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="262" label="People in the East Point Bird Sanctuary">
@@ -1987,10 +1987,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="23"/>
+          <attvalue for="modularity_class" value="21"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-937.6609" y="-445.0948"/>
+        <viz:position x="1170.3903" y="-339.2412"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="375" label="Person (on loud speaker at the Powwow)">
@@ -2003,10 +2003,10 @@
           <attvalue for="closnesscentrality" value="0.31346578366445915"/>
           <attvalue for="harmonicclosnesscentrality" value="0.34906103286385015"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="7.255904" y="-67.38619"/>
+        <viz:position x="0.2398116" y="0.057304043"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="123" label="person on the phone with Winsum">
@@ -2019,10 +2019,10 @@
           <attvalue for="closnesscentrality" value="0.2063953488372093"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2244047619047617"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="modularity_class" value="20"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-613.2845" y="724.61896"/>
+        <viz:position x="100.185974" y="-825.97595"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="125" label="Peter">
@@ -2035,10 +2035,10 @@
           <attvalue for="closnesscentrality" value="0.25"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2722669349429913"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-277.21844" y="539.1052"/>
+        <viz:position x="-141.4081" y="-489.8832"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="372" label="Photographer">
@@ -2051,10 +2051,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="12"/>
+          <attvalue for="modularity_class" value="11"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="839.25714" y="638.88293"/>
+        <viz:position x="-548.70996" y="-1176.2804"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="377" label="Powwow Dancers">
@@ -2067,10 +2067,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="13"/>
+          <attvalue for="modularity_class" value="12"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="1120.2427" y="-34.175446"/>
+        <viz:position x="-1263.6426" y="-234.54283"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="83" label="Principal Sankiewicz">
@@ -2083,10 +2083,10 @@
           <attvalue for="closnesscentrality" value="0.26542056074766357"/>
           <attvalue for="harmonicclosnesscentrality" value="0.29555667337357483"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-111.28595" y="-627.3849"/>
+        <viz:position x="408.49258" y="461.29382"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="307" label="Ravinder Kaur">
@@ -2099,10 +2099,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="14"/>
+          <attvalue for="modularity_class" value="13"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-172.50087" y="1086.377"/>
+        <viz:position x="994.15234" y="736.4318"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="367" label="Researchers (of autism)">
@@ -2115,10 +2115,10 @@
           <attvalue for="closnesscentrality" value="0.2930327868852459"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32470862470862494"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.0"/>
-        <viz:position x="683.14685" y="177.97336"/>
+        <viz:position x="-113.689674" y="11.7000065"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="216" label="Residents of the Galloway Shelter">
@@ -2131,10 +2131,10 @@
           <attvalue for="closnesscentrality" value="0.24315068493150685"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2738095238095237"/>
           <attvalue for="betweenesscentrality" value="562.0"/>
-          <attvalue for="modularity_class" value="15"/>
+          <attvalue for="modularity_class" value="14"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="1003.3103" y="-64.43485"/>
+        <viz:position x="36.748074" y="1019.45685"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="97" label="Richard">
@@ -2147,10 +2147,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="16"/>
+          <attvalue for="modularity_class" value="15"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-654.84106" y="-794.1907"/>
+        <viz:position x="-788.9604" y="-951.3735"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="365" label="Rita">
@@ -2163,10 +2163,10 @@
           <attvalue for="closnesscentrality" value="0.29338842975206614"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3281690140845073"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="623.0898" y="382.1473"/>
+        <viz:position x="-308.335" y="718.83136"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="313" label="Rouge Hill Parents">
@@ -2179,10 +2179,10 @@
           <attvalue for="closnesscentrality" value="0.2795275590551181"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3139839034205232"/>
           <attvalue for="betweenesscentrality" value="282.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="433.5628" y="-168.62546"/>
+        <viz:position x="-817.9499" y="161.11522"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="312" label="Rouge Hill Secretary">
@@ -2195,10 +2195,10 @@
           <attvalue for="closnesscentrality" value="0.21879815100154082"/>
           <attvalue for="harmonicclosnesscentrality" value="0.23670355466130114"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="557.4691" y="-274.1646"/>
+        <viz:position x="-982.6331" y="200.24197"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="166" label="Roy (Christy's boyfriend)">
@@ -2211,10 +2211,10 @@
           <attvalue for="closnesscentrality" value="0.2268370607028754"/>
           <attvalue for="harmonicclosnesscentrality" value="0.24347753185781348"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="338.9149" y="-225.83282"/>
+        <viz:position x="12.578987" y="373.94843"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="303" label="Ryan Hoffman">
@@ -2227,10 +2227,10 @@
           <attvalue for="closnesscentrality" value="0.3053763440860215"/>
           <attvalue for="harmonicclosnesscentrality" value="0.34260563380281717"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="243.77805" y="359.7651"/>
+        <viz:position x="-361.98532" y="158.51985"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="334" label="Shoplifter">
@@ -2243,10 +2243,10 @@
           <attvalue for="closnesscentrality" value="0.21194029850746268"/>
           <attvalue for="harmonicclosnesscentrality" value="0.23425553319919515"/>
           <attvalue for="betweenesscentrality" value="282.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-327.23978" y="-906.1374"/>
+        <viz:position x="622.6123" y="775.17755"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="25" label="Slutty Christy">
@@ -2259,10 +2259,10 @@
           <attvalue for="closnesscentrality" value="0.2927835051546392"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32629107981220684"/>
           <attvalue for="betweenesscentrality" value="282.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="24.487804"/>
-        <viz:position x="289.10107" y="-170.29448"/>
+        <viz:position x="-3.0213454" y="293.0068"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="345" label="Small boy with coke-bottle glasses">
@@ -2275,10 +2275,10 @@
           <attvalue for="closnesscentrality" value="0.2857142857142857"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3209087860496313"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-461.018" y="-197.54579"/>
+        <viz:position x="466.42743" y="23.518988"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="361" label="Specialists">
@@ -2291,10 +2291,10 @@
           <attvalue for="closnesscentrality" value="0.2927835051546392"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3269953051643195"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="449.8051" y="406.9796"/>
+        <viz:position x="-17.316555" y="508.4404"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="291" label="Streetcar driver">
@@ -2307,10 +2307,10 @@
           <attvalue for="closnesscentrality" value="0.2486865148861646"/>
           <attvalue for="harmonicclosnesscentrality" value="0.26797451374916154"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-489.59232" y="166.44017"/>
+        <viz:position x="90.00805" y="-289.48456"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="10" label="Sylvie Beaudoin">
@@ -2323,10 +2323,10 @@
           <attvalue for="closnesscentrality" value="0.4045584045584046"/>
           <attvalue for="harmonicclosnesscentrality" value="0.4785211267605636"/>
           <attvalue for="betweenesscentrality" value="5420.714779664775"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="74.097565"/>
-        <viz:position x="159.10143" y="-86.490265"/>
+        <viz:position x="-83.97582" y="164.21837"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="383" label="Sylvie's readers">
@@ -2339,10 +2339,10 @@
           <attvalue for="closnesscentrality" value="0.2886178861788618"/>
           <attvalue for="harmonicclosnesscentrality" value="0.31455399061032885"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="244.81387" y="-279.4806"/>
+        <viz:position x="-0.36683097" y="-44.381256"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="374" label="Tammy">
@@ -2355,10 +2355,10 @@
           <attvalue for="closnesscentrality" value="0.2784313725490196"/>
           <attvalue for="harmonicclosnesscentrality" value="0.309289067739772"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="17"/>
+          <attvalue for="modularity_class" value="16"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="11.633312" y="95.89899"/>
+        <viz:position x="-491.4335" y="-194.49626"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="333" label="Tarek">
@@ -2371,10 +2371,10 @@
           <attvalue for="closnesscentrality" value="0.17509247842170161"/>
           <attvalue for="harmonicclosnesscentrality" value="0.1887882852671584"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-380.1796" y="-1013.3937"/>
+        <viz:position x="699.8881" y="867.8821"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="70" label="Tasha Roy">
@@ -2387,10 +2387,10 @@
           <attvalue for="closnesscentrality" value="0.1834625322997416"/>
           <attvalue for="harmonicclosnesscentrality" value="0.20736083165660624"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-1251.2653" y="271.0921"/>
+        <viz:position x="1211.9153" y="-942.58716"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="286" label="Tenants in Lady's building">
@@ -2403,10 +2403,10 @@
           <attvalue for="closnesscentrality" value="0.18298969072164947"/>
           <attvalue for="harmonicclosnesscentrality" value="0.20266599597585508"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-1358.8091" y="459.6491"/>
+        <viz:position x="1297.6764" y="-887.31085"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="115" label="the cashier (dollar store)">
@@ -2419,10 +2419,10 @@
           <attvalue for="closnesscentrality" value="0.2286634460547504"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2542756539235412"/>
           <attvalue for="betweenesscentrality" value="282.0"/>
-          <attvalue for="modularity_class" value="18"/>
+          <attvalue for="modularity_class" value="17"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="554.7112" y="-886.98486"/>
+        <viz:position x="-1055.6052" y="-295.62537"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="88" label="the children on the bus">
@@ -2435,10 +2435,10 @@
           <attvalue for="closnesscentrality" value="0.2886178861788618"/>
           <attvalue for="harmonicclosnesscentrality" value="0.31455399061032885"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="302.3844" y="-286.18533"/>
+        <viz:position x="-40.919598" y="-35.357983"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="16" label="The doctor at the walk-in clinic">
@@ -2451,10 +2451,10 @@
           <attvalue for="closnesscentrality" value="0.29338842975206614"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32816901408450727"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="14.829268"/>
-        <viz:position x="561.8464" y="96.51618"/>
+        <viz:position x="-361.3121" y="548.59247"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="116" label="the manager (dollar store)">
@@ -2467,10 +2467,10 @@
           <attvalue for="closnesscentrality" value="0.29338842975206614"/>
           <attvalue for="harmonicclosnesscentrality" value="0.33039906103286415"/>
           <attvalue for="betweenesscentrality" value="699.2"/>
-          <attvalue for="modularity_class" value="18"/>
+          <attvalue for="modularity_class" value="17"/>
         </attvalues>
         <viz:size value="13.073171"/>
-        <viz:position x="504.5043" y="-619.7329"/>
+        <viz:position x="-812.2701" y="-160.7149"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="59" label="The police">
@@ -2483,10 +2483,10 @@
           <attvalue for="closnesscentrality" value="0.28063241106719367"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3244969818913482"/>
           <attvalue for="betweenesscentrality" value="2760.634523809524"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="16.585365"/>
-        <viz:position x="-366.13318" y="848.1292"/>
+        <viz:position x="625.27057" y="-585.0609"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="362" label="The Speech Therapist">
@@ -2499,10 +2499,10 @@
           <attvalue for="closnesscentrality" value="0.2927835051546392"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3269953051643195"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="477.25616" y="305.70856"/>
+        <viz:position x="-391.31723" y="504.2971"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="275" label="The third Menendez sister">
@@ -2515,10 +2515,10 @@
           <attvalue for="closnesscentrality" value="0.2868686868686869"/>
           <attvalue for="harmonicclosnesscentrality" value="0.32560362173038243"/>
           <attvalue for="betweenesscentrality" value="73.31926406926408"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-624.0533" y="-187.80472"/>
+        <viz:position x="224.42955" y="-272.89697"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="39" label="Tita Mae">
@@ -2531,10 +2531,10 @@
           <attvalue for="closnesscentrality" value="0.2927835051546392"/>
           <attvalue for="harmonicclosnesscentrality" value="0.3382796780684107"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="19.219513"/>
-        <viz:position x="-304.37094" y="-293.483"/>
+        <viz:position x="374.85645" y="147.4431"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="344" label="tone-deaf band">
@@ -2547,10 +2547,10 @@
           <attvalue for="closnesscentrality" value="0.22397476340694006"/>
           <attvalue for="harmonicclosnesscentrality" value="0.24753521126760564"/>
           <attvalue for="betweenesscentrality" value="1.0"/>
-          <attvalue for="modularity_class" value="3"/>
+          <attvalue for="modularity_class" value="5"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-544.1961" y="-35.980022"/>
+        <viz:position x="552.61646" y="-39.70213"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="321" label="Track worker">
@@ -2563,10 +2563,10 @@
           <attvalue for="closnesscentrality" value="0.22903225806451613"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2479376257545271"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="845.19415" y="-234.59265"/>
+        <viz:position x="34.41695" y="808.97815"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="227" label="Travis">
@@ -2579,10 +2579,10 @@
           <attvalue for="closnesscentrality" value="0.21450151057401812"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2322350771294432"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-25.96484" y="1095.1664"/>
+        <viz:position x="801.39734" y="-396.36697"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="269" label="Uncle Olly">
@@ -2595,10 +2595,10 @@
           <attvalue for="closnesscentrality" value="0.2526690391459075"/>
           <attvalue for="harmonicclosnesscentrality" value="0.28065057008718974"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="modularity_class" value="3"/>
         </attvalues>
         <viz:size value="19.219513"/>
-        <viz:position x="201.40863" y="-534.1704"/>
+        <viz:position x="-632.3088" y="157.3649"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="256" label="Vet">
@@ -2611,10 +2611,10 @@
           <attvalue for="closnesscentrality" value="0.22432859399684044"/>
           <attvalue for="harmonicclosnesscentrality" value="0.25676559356136813"/>
           <attvalue for="betweenesscentrality" value="603.3333333333333"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-238.18768" y="1158.879"/>
+        <viz:position x="895.2601" y="-527.1524"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="96" label="Victor">
@@ -2627,10 +2627,10 @@
           <attvalue for="closnesscentrality" value="0.3604060913705584"/>
           <attvalue for="harmonicclosnesscentrality" value="0.4153755868544606"/>
           <attvalue for="betweenesscentrality" value="5387.8721028970995"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="23.170732"/>
-        <viz:position x="-53.72758" y="662.92664"/>
+        <viz:position x="333.22388" y="-284.41812"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="330" label="Visitors (of the zoo)">
@@ -2643,10 +2643,10 @@
           <attvalue for="closnesscentrality" value="0.5"/>
           <attvalue for="harmonicclosnesscentrality" value="0.611111111111111"/>
           <attvalue for="betweenesscentrality" value="10.0"/>
-          <attvalue for="modularity_class" value="21"/>
+          <attvalue for="modularity_class" value="23"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="8.649696" y="-1068.5693"/>
+        <viz:position x="188.70251" y="-1340.8881"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="376" label="Visitors (to the Powwow)">
@@ -2659,10 +2659,10 @@
           <attvalue for="closnesscentrality" value="0.0"/>
           <attvalue for="harmonicclosnesscentrality" value="0.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="20"/>
+          <attvalue for="modularity_class" value="19"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="727.7188" y="-895.8931"/>
+        <viz:position x="-436.07913" y="1268.1715"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="14" label="Walk-in clinic receptionist (19)">
@@ -2675,10 +2675,10 @@
           <attvalue for="closnesscentrality" value="0.2939958592132505"/>
           <attvalue for="harmonicclosnesscentrality" value="0.33169014084507065"/>
           <attvalue for="betweenesscentrality" value="282.0"/>
-          <attvalue for="modularity_class" value="9"/>
+          <attvalue for="modularity_class" value="8"/>
         </attvalues>
         <viz:size value="13.95122"/>
-        <viz:position x="657.672" y="98.522156"/>
+        <viz:position x="-450.12836" y="605.6917"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="255" label="Wendy (Cindy's dog)">
@@ -2691,10 +2691,10 @@
           <attvalue for="closnesscentrality" value="0.18393782383419688"/>
           <attvalue for="harmonicclosnesscentrality" value="0.20548289738430578"/>
           <attvalue for="betweenesscentrality" value="282.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="11.317073"/>
-        <viz:position x="-272.51486" y="1368.7299"/>
+        <viz:position x="1110.9039" y="-521.2758"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="268" label="Wendy Donohue">
@@ -2707,10 +2707,10 @@
           <attvalue for="closnesscentrality" value="0.2531194295900178"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2841716968477531"/>
           <attvalue for="betweenesscentrality" value="140.0"/>
-          <attvalue for="modularity_class" value="4"/>
+          <attvalue for="modularity_class" value="3"/>
         </attvalues>
         <viz:size value="20.09756"/>
-        <viz:position x="177.50627" y="-611.4719"/>
+        <viz:position x="-700.5136" y="120.7456"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="259" label="Wendy's litters">
@@ -2723,10 +2723,10 @@
           <attvalue for="closnesscentrality" value="0.15553121577217963"/>
           <attvalue for="harmonicclosnesscentrality" value="0.16897775542141727"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-286.63287" y="1459.7139"/>
+        <viz:position x="1206.9475" y="-510.1056"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="329" label="White Handed Gibbons">
@@ -2739,10 +2739,10 @@
           <attvalue for="closnesscentrality" value="0.35294117647058826"/>
           <attvalue for="harmonicclosnesscentrality" value="0.4444444444444444"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="21"/>
+          <attvalue for="modularity_class" value="23"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-52.163933" y="-1107.187"/>
+        <viz:position x="185.96698" y="-1410.4457"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="34" label="White people">
@@ -2755,10 +2755,10 @@
           <attvalue for="closnesscentrality" value="0.23127035830618892"/>
           <attvalue for="harmonicclosnesscentrality" value="0.25993460764587517"/>
           <attvalue for="betweenesscentrality" value="150.8294316794316"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="12.634147"/>
-        <viz:position x="-481.0125" y="862.8335"/>
+        <viz:position x="393.916" y="-691.5061"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="121" label="Winsum">
@@ -2771,10 +2771,10 @@
           <attvalue for="closnesscentrality" value="0.2595978062157221"/>
           <attvalue for="harmonicclosnesscentrality" value="0.2971495640509726"/>
           <attvalue for="betweenesscentrality" value="776.3422799422798"/>
-          <attvalue for="modularity_class" value="22"/>
+          <attvalue for="modularity_class" value="20"/>
         </attvalues>
         <viz:size value="22.731707"/>
-        <viz:position x="-512.42114" y="677.1788"/>
+        <viz:position x="99.06459" y="-719.8601"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="265" label="Wives (of homosexuals)">
@@ -2787,10 +2787,10 @@
           <attvalue for="closnesscentrality" value="1.0"/>
           <attvalue for="harmonicclosnesscentrality" value="1.0"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="23"/>
+          <attvalue for="modularity_class" value="21"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-975.9341" y="-475.425"/>
+        <viz:position x="1214.6033" y="-315.00568"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="223" label="Woman (Michelle sees collapse)">
@@ -2803,10 +2803,10 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"/>
           <attvalue for="harmonicclosnesscentrality" value="0.75"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="7"/>
+          <attvalue for="modularity_class" value="22"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="802.0743" y="-677.74713"/>
+        <viz:position x="-782.9279" y="961.6615"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="69" label="Yanna Roy">
@@ -2819,10 +2819,10 @@
           <attvalue for="closnesscentrality" value="0.1834625322997416"/>
           <attvalue for="harmonicclosnesscentrality" value="0.20736083165660624"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="19"/>
+          <attvalue for="modularity_class" value="18"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="-1276.4956" y="411.6978"/>
+        <viz:position x="1241.7865" y="-1000.4288"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="263" label="Young blond man">
@@ -2835,10 +2835,10 @@
           <attvalue for="closnesscentrality" value="0.20256776034236804"/>
           <attvalue for="harmonicclosnesscentrality" value="0.22066566063044912"/>
           <attvalue for="betweenesscentrality" value="0.0"/>
-          <attvalue for="modularity_class" value="8"/>
+          <attvalue for="modularity_class" value="7"/>
         </attvalues>
         <viz:size value="10.439024"/>
-        <viz:position x="-549.6693" y="509.0666"/>
+        <viz:position x="-155.42638" y="-733.0252"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
       <node id="328" label="Zookeepers">
@@ -2851,10 +2851,10 @@
           <attvalue for="closnesscentrality" value="0.6666666666666666"/>
           <attvalue for="harmonicclosnesscentrality" value="0.75"/>
           <attvalue for="betweenesscentrality" value="16.666666666666668"/>
-          <attvalue for="modularity_class" value="21"/>
+          <attvalue for="modularity_class" value="23"/>
         </attvalues>
         <viz:size value="12.195122"/>
-        <viz:position x="110.75559" y="-998.46"/>
+        <viz:position x="194.75208" y="-1224.1283"/>
         <viz:color r="211" g="211" b="211"/>
       </node>
     </nodes>
