@@ -1,75 +1,130 @@
-from lxml import etree
-import math
+import os
+import xml.etree.ElementTree as ET
 
 SVG_NS = "http://www.w3.org/2000/svg"
-NSMAP = {"svg": SVG_NS}
+ET.register_namespace("", SVG_NS)
+NS = {"svg": SVG_NS}
+
+LINE_HEIGHT_EM = 0.9
+NODE_CENTER_SHIFT = 0.6   # start here; typical range 0.2–0.3
 
 
-def wrap_words_four_lines(words):
-    """
-    Returns a list of up to 4 strings (lines),
-    preserving word order.
-    """
-    n = len(words)
-
-    if n <= 1:
-        return [" ".join(words)]
-
-    if n <= 4:
-        return words  # one word per line
-
-    chunk_size = math.ceil(n / 4)
-    return [
-        " ".join(words[i:i + chunk_size])
-        for i in range(0, n, chunk_size)
-    ][:4]
-
-
-def process_svg(input_svg, output_svg, line_height_em=1.1):
-    parser = etree.XMLParser(remove_blank_text=False)
-    tree = etree.parse(input_svg, parser)
+def process_svg(path):
+    tree = ET.parse(path)
     root = tree.getroot()
 
-    for text in root.xpath("//svg:text", namespaces=NSMAP):
+    # -------------------------------------------------
+    # 1. Collect node positions from circles
+    # -------------------------------------------------
+    nodes = {}
+    for circle in root.findall(".//svg:circle", NS):
+        cls = circle.get("class")
+        if not cls:
+            continue
+        nodes[cls] = (
+            float(circle.get("cx")),
+            float(circle.get("cy")),
+            float(circle.get("r"))
+        )
 
-        if text.text is None:
+    # -------------------------------------------------
+    # 2. Collect labels and remember their parents
+    # -------------------------------------------------
+    labels = []  # (parent, text_element, label_data)
+
+    for parent in root.findall(".//svg:g", NS):
+        for text in parent.findall("svg:text", NS):
+            cls = text.get("class")
+            if not cls:
+                continue
+
+            content = "".join(text.itertext()).strip()
+            if not content:
+                continue
+
+            labels.append((
+                parent,
+                text,
+                {
+                    "class": cls,
+                    "text": content,
+                    "font-size": text.get("font-size", "12"),
+                    "font-family": text.get("font-family", "Arial"),
+                    "fill": text.get("fill", "#000000")
+                }
+            ))
+
+    # -------------------------------------------------
+    # 3. Remove original labels (correctly)
+    # -------------------------------------------------
+    for parent, text, _ in labels:
+        parent.remove(text)
+
+    # -------------------------------------------------
+    # 4. Create new label layer
+    # -------------------------------------------------
+    label_group = ET.SubElement(root, "g", {"id": "rebuilt-labels"})
+
+    for _, _, lbl in labels:
+        cls = lbl["class"]
+        if cls not in nodes:
             continue
 
-        label = text.text.strip()
-        if not label or " " not in label:
+        words = lbl["text"].split()
+        if not words:
             continue
 
-        words = label.split()
-        lines = wrap_words_four_lines(words)
+        cx, cy, r = nodes[cls]
+        n = len(words)
 
-        # Clear existing text
-        text.text = None
-        text.attrib.pop("xml:space", None)
+        # perceptual correction: shift text relative to node size
+        cy = cy + r * NODE_CENTER_SHIFT
 
-        for i, line in enumerate(lines):
-            tspan = etree.SubElement(text, f"{{{SVG_NS}}}tspan")
-            tspan.text = line
-            tspan.set("x", text.get("x"))
+        total_offset = (n - 1) * LINE_HEIGHT_EM / 2.0
 
-            # First line stays on baseline; others shift down
-            if i == 0:
-                tspan.set("dy", "0")
-            else:
-                tspan.set("dy", f"{line_height_em}em")
+        text_el = ET.SubElement(
+            label_group,
+            "text",
+            {
+                "x": str(cx),
+                "y": str(cy),
+                "text-anchor": "middle",
+                "dominant-baseline": "middle",
+                "font-family": lbl["font-family"],
+                "font-size": lbl["font-size"],
+                "fill": lbl["fill"]
+            }
+        )
 
-    tree.write(
-        output_svg,
-        pretty_print=True,
-        encoding="UTF-8",
-        xml_declaration=True
-    )
+        for i, word in enumerate(words):
+            dy = -total_offset if i == 0 else LINE_HEIGHT_EM
+            tspan = ET.SubElement(
+                text_el,
+                "tspan",
+                {
+                    "x": str(cx),
+                    "dy": f"{dy}em"
+                }
+            )
+            tspan.text = word
+
+    # -------------------------------------------------
+    # 5. Write output
+    # -------------------------------------------------
+    out = path.replace(".svg", "_wrapped.svg")
+    tree.write(out, encoding="utf-8", xml_declaration=True)
+    print(f"Written: {out}")
+
+
+def main():
+    svgs = [f for f in os.listdir(".") if f.lower().endswith(".svg")]
+    if not svgs:
+        print("No SVG files found.")
+        return
+
+    for svg in svgs:
+        process_svg(svg)
 
 
 if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) != 3:
-        print("Usage: python wrap_gephi_svg_labels.py input.svg output.svg")
-        sys.exit(1)
-
-    process_svg(sys.argv[1], sys.argv[2])
+    main()
