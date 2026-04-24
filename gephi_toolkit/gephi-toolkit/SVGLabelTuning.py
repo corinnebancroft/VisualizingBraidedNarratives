@@ -8,6 +8,27 @@ NS = {"svg": SVG_NS}
 LINE_HEIGHT_EM = 0.9
 NODE_CENTER_SHIFT = 0.6   # start here; typical range 0.2–0.3
 
+def smart_wrap(words, max_chars=16):
+    """
+    Group words into lines up to max_chars,
+    without breaking words.
+    """
+    lines = []
+    current = ""
+
+    for w in words:
+        if not current:
+            current = w
+        elif len(current) + 1 + len(w) <= max_chars:
+            current += " " + w
+        else:
+            lines.append(current)
+            current = w
+
+    if current:
+        lines.append(current)
+
+    return lines
 
 def process_svg(path):
     tree = ET.parse(path)
@@ -74,6 +95,16 @@ def process_svg(path):
         if not words:
             continue
 
+        # Line-breaking strategy
+        if len(words) == 2:
+            # Keep existing behavior: one word per line
+            lines = words
+        else:
+            # Use smart grouping for longer labels
+            lines = smart_wrap(words, max_chars=16)
+
+        n = len(lines)
+
         cx, cy, r = nodes[cls]
         n = len(words)
 
@@ -89,14 +120,13 @@ def process_svg(path):
                 "x": str(cx),
                 "y": str(cy),
                 "text-anchor": "middle",
-                "dominant-baseline": "middle",
                 "font-family": lbl["font-family"],
                 "font-size": lbl["font-size"],
                 "fill": lbl["fill"]
             }
         )
 
-        for i, word in enumerate(words):
+        for i, line in enumerate(lines):
             dy = -total_offset if i == 0 else LINE_HEIGHT_EM
             tspan = ET.SubElement(
                 text_el,
@@ -106,14 +136,13 @@ def process_svg(path):
                     "dy": f"{dy}em"
                 }
             )
-            tspan.text = word
+            tspan.text = line
 
     # -------------------------------------------------
     # 5. Write output
     # -------------------------------------------------
-    out = path.replace(".svg", "_wrapped.svg")
-    tree.write(out, encoding="utf-8", xml_declaration=True)
-    print(f"Written: {out}")
+    tree.write(path, encoding="utf-8", xml_declaration=True)
+    print(f"Overwritten: {path}")
 
 
 def main():
