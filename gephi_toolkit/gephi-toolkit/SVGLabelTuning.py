@@ -5,8 +5,9 @@ SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
 NS = {"svg": SVG_NS}
 
-LINE_HEIGHT_EM = 0.9
-NODE_CENTER_SHIFT = 0.6   # start here; typical range 0.2–0.3
+LINE_HEIGHT_FACTOR = 1.0   # adjust spacing between lines higher more space lower less space
+BASELINE_FACTOR = 0.25     # fraction of font size
+
 
 def smart_wrap(words, max_chars=16):
     """
@@ -31,7 +32,18 @@ def smart_wrap(words, max_chars=16):
     return lines
 
 def process_svg(path):
-    tree = ET.parse(path)
+    with open(path, "rb") as f:
+        data = f.read()
+
+    # strip UTF‑8 BOM and junk before <svg or <?xml
+    data = data.lstrip(b'\xef\xbb\xbf')
+    start = data.find(b'<svg')
+    if start == -1:
+        start = data.find(b'<?xml')
+    data = data[start:]
+
+    root = ET.fromstring(data)
+    tree = ET.ElementTree(root)
     root = tree.getroot()
 
     # -------------------------------------------------
@@ -103,15 +115,15 @@ def process_svg(path):
             # Use smart grouping for longer labels
             lines = smart_wrap(words, max_chars=16)
 
-        n = len(lines)
-
         cx, cy, r = nodes[cls]
-        n = len(words)
 
-        # perceptual correction: shift text relative to node size
-        cy = cy + r * NODE_CENTER_SHIFT
+        font_size_px = float(lbl["font-size"])
+        line_height_px = font_size_px * LINE_HEIGHT_FACTOR
+        baseline_shift_px = font_size_px * BASELINE_FACTOR
 
-        total_offset = (n - 1) * LINE_HEIGHT_EM / 2.0
+        n = len(lines)
+        block_height_px = n * line_height_px
+        block_top_y = cy - (block_height_px / 2.0)
 
         text_el = ET.SubElement(
             label_group,
@@ -127,13 +139,18 @@ def process_svg(path):
         )
 
         for i, line in enumerate(lines):
-            dy = -total_offset if i == 0 else LINE_HEIGHT_EM
+            line_y = (
+                    block_top_y
+                    + (i + 0.5) * line_height_px
+                    + baseline_shift_px
+            )
+
             tspan = ET.SubElement(
                 text_el,
                 "tspan",
                 {
                     "x": str(cx),
-                    "dy": f"{dy}em"
+                    "y": str(line_y)
                 }
             )
             tspan.text = line
