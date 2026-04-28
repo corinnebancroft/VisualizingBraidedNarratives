@@ -9,7 +9,7 @@ LINE_HEIGHT_FACTOR = 1.0   # adjust spacing between lines higher more space lowe
 BASELINE_FACTOR = 0.25     # fraction of font size
 
 
-def smart_wrap(words, max_chars=16):
+def smart_wrap(words, max_chars=14):
     """
     Group words into lines up to max_chars,
     without breaking words.
@@ -113,10 +113,11 @@ def process_svg(path):
             lines = words
         else:
             # Use smart grouping for longer labels
-            lines = smart_wrap(words, max_chars=16)
+            lines = smart_wrap(words)
 
         cx, cy, r = nodes[cls]
 
+        #Calculate block height
         font_size_px = float(lbl["font-size"])
         line_height_px = font_size_px * LINE_HEIGHT_FACTOR
         baseline_shift_px = font_size_px * BASELINE_FACTOR
@@ -160,7 +161,6 @@ def process_svg(path):
     # -------------------------------------------------
     tree.write(path, encoding="utf-8", xml_declaration=True)
     print(f"Overwritten: {path}")
-
 
 def main():
     svgs = [f for f in os.listdir(".") if f.lower().endswith(".svg")]
