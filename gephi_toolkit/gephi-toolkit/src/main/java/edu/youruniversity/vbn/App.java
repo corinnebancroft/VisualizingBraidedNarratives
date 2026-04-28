@@ -46,9 +46,9 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.awt.Color;
 import java.awt.Font;
-
-
 import java.io.File;
+import java.io.PrintWriter;
+
 import java.util.Scanner;
 public class App {
 
@@ -64,6 +64,55 @@ public class App {
     // Escape double quotes by doubling them
     String escaped = value.replace("\"", "\"\"");
     return "\"" + escaped + "\"";
+    }
+
+    private static void appendGephiDiagnostics(
+        String dataset,
+        String date,
+        String graphType,
+        int nodeCount,
+        double avgNearestNeighbor,
+        int hardCollisions,
+        int softCollisions,
+        double meanSpacingRatio,
+        double boundingBoxArea,
+        double nodesPerUnitArea
+    ) {
+        String csvFile = "LabelMeasurements.csv";
+        File file = new File(csvFile);
+        boolean writeHeader = !file.exists() || file.length() == 0;
+
+        try (PrintWriter out = new PrintWriter(new FileWriter(csvFile, true))) {
+
+            if (!fileExists) {
+                out.println(
+                    "Dataset,Date,GraphType," +
+                    "LabelRadius90,LabelRadiusMedian,LabelRadiusMax,LabelCount," +
+                    "GNodeCount,GAvgNearestNeighbor,GHardCollisions," +
+                    "GSoftCollisions,GMeanSpacingRatio," +
+                    "GBoundingBoxArea,GNodesPerUnitArea"
+                );
+            }
+
+            out.printf(
+                "%s,%s,%s,,,,%d,%.6f,%d,%d,%.6f,%.6f,%.6f%n",
+                dataset,
+                date,
+                graphType,
+                nodeCount,
+                avgNearestNeighbor,
+                hardCollisions,
+                softCollisions,
+                meanSpacingRatio,
+                boundingBoxArea,
+                nodesPerUnitArea
+            );
+
+        } catch (IOException e) {
+            System.err.println(
+                "Failed to append Gephi diagnostics: " + e.getMessage()
+            );
+        }
     }
 
     public static void main(String[] args) throws Exception {
@@ -1022,6 +1071,19 @@ System.out.printf("Mean spacing ratio (dist / radius): %.3f%n",
 System.out.printf("Bounding box area: %.3f%n", boundingBoxArea);
 System.out.printf("Nodes per unit area: %.6f%n", nodesPerArea);
 System.out.println("-----------------------------------");
+
+appendGephiDiagnostics(
+    acronym,
+    date,
+    outputGraphType.name(),
+    N,
+    avgNearestNeighbor,
+    hardCollisions,
+    softCollisions,
+    meanSpacingRatio,
+    boundingBoxArea,
+    nodesPerArea
+);
 
 // ---- Export SVG -------------------------------------------------------
 
