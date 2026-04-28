@@ -94,6 +94,68 @@ def process_svg(path):
         parent.remove(text)
 
     # -------------------------------------------------
+    # 3.5 Rescale existing font sizes (logarithmic)
+    # -------------------------------------------------
+    import math
+
+    font_sizes = []
+
+    for elem in root.iter():
+        fs = elem.attrib.get("font-size")
+        if fs is not None:
+            try:
+                font_sizes.append(float(fs))
+            except ValueError:
+                pass
+
+    if font_sizes:
+        old_min = min(font_sizes)
+        old_max = max(font_sizes)
+
+        new_min = old_min  # keep smallest readable size
+        new_max = 125.0  # desired visual maximum
+
+        def rescale_font(size, old_min, old_max, new_min, new_max):
+            if size <= old_min:
+                return new_min
+            return (
+                    new_min +
+                    math.log(size / old_min)
+                    / math.log(old_max / old_min)
+                    * (new_max - new_min)
+            )
+
+        for elem in root.iter():
+            fs = elem.attrib.get("font-size")
+            if fs is not None:
+                try:
+                    old_size = float(fs)
+                    new_size = rescale_font(
+                        old_size,
+                        old_min,
+                        old_max,
+                        new_min,
+                        new_max
+                    )
+                    elem.attrib["font-size"] = f"{new_size:.2f}"
+                except ValueError:
+                    pass
+    # rescale cached label font sizes
+    for parent, text, lbl in labels:
+        try:
+            old_size = float(lbl["font-size"])
+            new_size = rescale_font(
+                old_size,
+                old_min,
+                old_max,
+                new_min,
+                new_max
+            )
+            lbl["font-size"] = f"{new_size:.2f}"
+        except ValueError:
+            pass
+
+    # -------------------------------------------------
     # 4. Create new label layer
     # -------------------------------------------------
     label_group = ET.SubElement(root, "g", {"id": "rebuilt-labels"})
