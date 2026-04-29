@@ -67,53 +67,68 @@ public class App {
     }
 
     private static void appendGephiDiagnostics(
-        String dataset,
-        String date,
-        String graphType,
-        int nodeCount,
-        double avgNearestNeighbor,
-        int hardCollisions,
-        int softCollisions,
-        double meanSpacingRatio,
-        double boundingBoxArea,
-        double nodesPerUnitArea
-    ) {
-        String csvFile = "LabelMeasurements.csv";
-        File file = new File(csvFile);
-        boolean writeHeader = !file.exists() || file.length() == 0;
+    String dataset,
+    String date,
+    String graphType,
+    int nodeCount,
+    double avgNearestNeighbor,
+    int hardCollisions,
+    int softCollisions,
+    double meanSpacingRatio,
+    double boundingBoxArea,
+    double nodesPerUnitArea
+) {
+    String csvFile = "LabelMeasurements.csv";
+    File file = new File(csvFile);
 
-        try (PrintWriter out = new PrintWriter(new FileWriter(csvFile, true))) {
+    boolean writeHeader = true;
 
-            if (!fileExists) {
-                out.println(
-                    "Dataset,Date,GraphType," +
-                    "LabelRadius90,LabelRadiusMedian,LabelRadiusMax,LabelCount," +
-                    "GNodeCount,GAvgNearestNeighbor,GHardCollisions," +
-                    "GSoftCollisions,GMeanSpacingRatio," +
-                    "GBoundingBoxArea,GNodesPerUnitArea"
-                );
+    // Check whether the file already has a header
+    if (file.exists() && file.length() > 0) {
+        try (Scanner scanner = new Scanner(file)) {
+            if (scanner.hasNextLine()) {
+                String firstLine = scanner.nextLine();
+                if (firstLine.startsWith("Dataset,Date,GraphType")) {
+                    writeHeader = false;
+                }
             }
-
-            out.printf(
-                "%s,%s,%s,,,,%d,%.6f,%d,%d,%.6f,%.6f,%.6f%n",
-                dataset,
-                date,
-                graphType,
-                nodeCount,
-                avgNearestNeighbor,
-                hardCollisions,
-                softCollisions,
-                meanSpacingRatio,
-                boundingBoxArea,
-                nodesPerUnitArea
-            );
-
         } catch (IOException e) {
-            System.err.println(
-                "Failed to append Gephi diagnostics: " + e.getMessage()
-            );
+            // If we fail to read, err on the side of writing the header
         }
     }
+
+    try (PrintWriter out = new PrintWriter(new FileWriter(csvFile, true))) {
+
+        if (writeHeader) {
+            out.println(
+                "Dataset,Date,GraphType," +
+                "LabelRadius90,LabelRadiusMedian,LabelRadiusMax,LabelCount," +
+                "GNodeCount,GAvgNearestNeighbor,GHardCollisions," +
+                "GSoftCollisions,GMeanSpacingRatio," +
+                "GBoundingBoxArea,GNodesPerUnitArea"
+            );
+        }
+
+        out.printf(
+            "%s,%s,%s,,,,%d,%.6f,%d,%d,%.6f,%.6f,%.6f%n",
+            dataset,
+            date,
+            graphType,
+            nodeCount,
+            avgNearestNeighbor,
+            hardCollisions,
+            softCollisions,
+            meanSpacingRatio,
+            boundingBoxArea,
+            nodesPerUnitArea
+        );
+
+    } catch (IOException e) {
+        System.err.println(
+            "Failed to append Gephi diagnostics: " + e.getMessage()
+        );
+    }
+}
 
     public static void main(String[] args) throws Exception {
 
