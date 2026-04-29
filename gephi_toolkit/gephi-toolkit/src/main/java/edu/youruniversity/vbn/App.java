@@ -883,6 +883,42 @@ try {
     graph.readUnlock();
 }
 }
+
+// =====================================================================
+// APPLY GLOBAL EXPANSION FOR LABEL CLEARANCE
+// =====================================================================
+
+final double EXPANSION_FACTOR = 1.0;
+
+// Compute centroid of the full graph
+graph.readLock();
+try {
+    double cx = 0.0;
+    double cy = 0.0;
+    int count = 0;
+
+    for (Node node : graph.getNodes()) {
+        cx += node.x();
+        cy += node.y();
+        count++;
+    }
+
+    if (count > 0) {
+        cx /= count;
+        cy /= count;
+    }
+
+    // Scale positions outward from centroid
+    for (Node node : graph.getNodes()) {
+        float newX = (float) (cx + (node.x() - cx) * EXPANSION_FACTOR);
+        float newY = (float) (cy + (node.y() - cy) * EXPANSION_FACTOR);
+        node.setX(newX);
+        node.setY(newY);
+    }
+
+} finally {
+    graph.readUnlock();
+}
     // ---- Export statistics to CSV ----------------------------------------
 
     String statsFile = "network_statistics.csv";
