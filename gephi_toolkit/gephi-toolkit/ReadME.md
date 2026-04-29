@@ -16,3 +16,7 @@ mvn exec:java
 
 mvn compile
 mvn exec:java -Dexec.mainClass=edu.youruniversity.vbn.App
+
+mvn clean compile
+mvn exec:java -Dexec.mainClass=edu.youruniversity.vbn.App
+
