@@ -1,5 +1,6 @@
 import os
 import xml.etree.ElementTree as ET
+import sys
 
 SVG_NS = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG_NS)
@@ -206,14 +207,20 @@ def process_svg(path):
     tree.write(path, encoding="utf-8", xml_declaration=True)
     print(f"Overwritten: {path}")
 
-def main():
-    svgs = [f for f in os.listdir(".") if f.lower().endswith(".svg")]
-    if not svgs:
-        print("No SVG files found.")
-        return
 
-    for svg in svgs:
-        process_svg(svg)
+
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python SVGLabelTuning.py <svg-file>")
+        sys.exit(1)
+
+    svg_path = sys.argv[1]
+
+    if not os.path.exists(svg_path):
+        print(f"SVG not found: {svg_path}")
+        sys.exit(1)
+
+    process_svg(svg_path)
 
 
 if __name__ == "__main__":

@@ -1158,6 +1158,44 @@ exportController.exportFile(
 
 System.out.println("SVG exported: " + svgFileName);
 
+// ---- Post-process SVG labels with Python -----------------------------
+
+try {
+    ProcessBuilder pb = new ProcessBuilder(
+        "python3",
+        "SVGLabelTuning.py",
+        svgFileName
+    );
+
+    // Ensure same working directory as Java process
+    pb.directory(new File("."));
+    pb.redirectErrorStream(true);
+
+    Process process = pb.start();
+
+    // Capture Python output (important for debugging)
+    try (Scanner pyOut = new Scanner(process.getInputStream())) {
+        while (pyOut.hasNextLine()) {
+            System.out.println("[PY] " + pyOut.nextLine());
+        }
+    }
+
+    int exitCode = process.waitFor();
+    if (exitCode != 0) {
+        System.err.println(
+            "SVGLabelTuning failed for " + svgFileName +
+            " (exit code " + exitCode + ")"
+        );
+    }
+
+} catch (Exception e) {
+    System.err.println(
+        "Failed to run SVGLabelTuning.py on " +
+        svgFileName + ": " + e.getMessage()
+    );
+}
+
+
 // ---- Export GEXF (Gephi Toolkit 0.10.x compatible) --------------------
 
 String gexfFileName =
