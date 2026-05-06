@@ -888,7 +888,8 @@ try {
 // APPLY GLOBAL EXPANSION FOR LABEL CLEARANCE
 // =====================================================================
 
-final double EXPANSION_FACTOR = 2;
+final double EXPANSION_FACTOR =
+        (graphType == GraphType.ex) ? 3.0 : 2.0;
 
 // Compute centroid of the full graph
 graph.readLock();
