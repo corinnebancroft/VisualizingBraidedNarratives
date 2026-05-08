@@ -718,16 +718,18 @@ if (modularityValue >= 0.3) {
                 }
 
                writer.write(
-    mc + "," +
-    communityNodes.size() + "," +
-    leader.getId() + "," +
-    csv(leader.getLabel()) + "," +
-    String.format("%.4f", leaderStrength) + "," +
-    String.format("%.2f", leaderSize) + "," +
-    csv(otherLargeNodes.toString()) + "," +
-    "," +
+    csv(leader.getLabel()) + "," +      // leader_label
+    "," +                               // assigned_color (left blank for manual entry)
+    communityNodes.size() + "," +       // community_size
+    csv(otherLargeNodes.toString()) + "," + // other_large_nodes
+    leader.getId() + "," +              // leader_id
+    String.format("%.4f", leaderStrength) + "," + // leader_strength
+    String.format("%.2f", leaderSize) + "," +     // leader_size
+    mc + "," +                          // modularity_class
+    "" +                                // notes (blank)
     "\n"
 );
+
 
             }
 
