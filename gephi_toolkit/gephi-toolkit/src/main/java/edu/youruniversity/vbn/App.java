@@ -66,6 +66,44 @@ public class App {
     return "\"" + escaped + "\"";
     }
 
+    private static List<String> loadNCNsForDataset(String acronym) {
+    List<String> ncnIds = new ArrayList<>();
+
+    File file = new File("ncn.csv");
+
+    if (!file.exists()) {
+        System.out.println("No ncn.csv found — assuming no NCNs.");
+        return ncnIds;
+    }
+
+    try (Scanner scanner = new Scanner(file)) {
+
+        // Skip header
+        if (scanner.hasNextLine()) scanner.nextLine();
+
+        while (scanner.hasNextLine()) {
+            String line = scanner.nextLine();
+
+            String[] parts =
+                line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
+
+            if (parts.length < 2) continue;
+
+            String dataset = parts[0].trim();
+            String nodeId  = parts[1].trim();
+
+            if (dataset.equalsIgnoreCase(acronym)) {
+                ncnIds.add(nodeId);
+            }
+        }
+
+    } catch (Exception e) {
+        System.err.println("Failed to read ncn.csv: " + e.getMessage());
+    }
+
+    return ncnIds;
+}
+
     private static void appendGephiDiagnostics(
     String dataset,
     String date,
@@ -175,6 +213,12 @@ public class App {
 
         int colorChoice = Integer.parseInt(scanner.nextLine().trim());
 
+        List<String> ncnIds = loadNCNsForDataset(acronym);
+
+        boolean hasNCN = !ncnIds.isEmpty();
+
+        System.out.println("\nNCN nodes detected: " + ncnIds.size());
+
 
         // ---- Resolve paths --------------------------------------------------
 
@@ -279,9 +323,84 @@ Graph graph = graphModel.getGraphVisible();
 
     // ---- Determine how many runs to execute -----------------------------
 
-int runs = (graphType == GraphType.ex) ? 2 : 1;
+int runs = (graphType == GraphType.ex) ? 2 : 1;  // keep existing behavior
+
+if (hasNCN) {
+    runs *= 2;  // double runs if NCNs exist
+}
+
+// ---- RUN LOOP -------------------------------------------------------
 
 for (int run = 0; run < runs; run++) {
+
+    floatersRemovedThisRun = 0;
+
+    // --- Determine run type ------------------------------------------
+
+    boolean isNCNRun = false;
+    boolean isFloaterRemovalRun = false;
+
+    if (!hasNCN) {
+
+        // ORIGINAL behavior
+        if (graphType == GraphType.ex) {
+            isFloaterRemovalRun = (run == 1);
+        }
+
+    } else {
+
+        if (graphType == GraphType.ex) {
+            // 4 runs:
+            // 0 = exncn
+            // 1 = ex
+            // 2 = exncn + exnf
+            // 3 = ex + exnf
+
+            isNCNRun = (run == 0 || run == 2);
+            isFloaterRemovalRun = (run >= 2);
+
+        } else {
+            // ss / ts → 2 runs
+
+            isNCNRun = (run == 0); // first run keeps NCNs
+        }
+    }
+
+    // --- Build graph type label (THIS REPLACES outputGraphType logic) --
+
+    String graphTypeLabel = graphType.name();
+
+    if (isFloaterRemovalRun && graphType == GraphType.ex) {
+        graphTypeLabel = "exnf";
+    }
+
+    if (isNCNRun && hasNCN) {
+        graphTypeLabel += "ncn";
+    }
+
+    // --- REMOVE NCNs if this is NOT the NCN run -----------------------
+
+    if (hasNCN && !isNCNRun) {
+
+        System.out.println("Removing NCN nodes...");
+
+        DirectedGraph dg = graphModel.getDirectedGraphVisible();
+        List<Node> toRemove = new ArrayList<>();
+
+        for (Node node : dg.getNodes()) {
+            String nodeId = node.getId().toString();
+
+            if (ncnIds.contains(nodeId)) {
+                toRemove.add(node);
+            }
+        }
+
+        for (Node n : toRemove) {
+            dg.removeNode(n);
+        }
+
+        System.out.println("Removed " + toRemove.size() + " NCN nodes.");
+    }
 
     floatersRemovedThisRun = 0;
 
@@ -290,8 +409,7 @@ for (int run = 0; run < runs; run++) {
     }
 
     // Second run: remove floaters (EX only)
-    if (run == 1) {
-        outputGraphType = GraphType.exnf;
+    if (isFloaterRemovalRun) {
 
         System.out.println("Removing floaters (isolated nodes) for exnf graph...");
 
@@ -571,7 +689,7 @@ if (modularityValue < 0.3) {
     colorByName.put("chartreuse", Color.decode("#C9FF00"));
 
     String leadersFileName =
-        acronym + "_community_leaders_" + outputGraphType.name() + ".csv";
+        acronym + "_community_leaders_" + graphTypeLabel + ".csv";
 
     File leadersFile = new File(leadersFileName);
 
@@ -634,7 +752,7 @@ if (modularityValue < 0.3) {
 if (modularityValue >= 0.3) {
 
     String leadersFileName =
-            acronym + "_community_leaders_" + outputGraphType.name() + ".csv";
+            acronym + "_community_leaders_" + graphTypeLabel + ".csv";
 
     File leadersFile = new File(leadersFileName);
 
@@ -945,7 +1063,7 @@ try {
         writer.write(
             acronym + "," +
             date + "," +
-            outputGraphType.name() + "," +
+            graphTypeLabel + "," +
             graph.getNodeCount() + "," +
             graph.getEdgeCount() + "," +
             avgDegree + "," +
@@ -1129,7 +1247,7 @@ System.out.println("-----------------------------------");
 appendGephiDiagnostics(
     acronym,
     date,
-    outputGraphType.name(),
+    graphTypeLabel,
     N,
     avgNearestNeighbor,
     hardCollisions,
@@ -1146,7 +1264,7 @@ ExportController exportController =
 
 String svgFileName =
         acronym + "_" +
-        outputGraphType.name() + "_" +
+        graphTypeLabel + "_" +
         date + ".svg";
 
 SVGExporter svgExporter =
@@ -1203,7 +1321,7 @@ try {
 
 String gexfFileName =
         acronym + "_" +
-        outputGraphType.name() + "_" +
+        graphTypeLabel + "_" +
         date + ".gexf";
 
 
