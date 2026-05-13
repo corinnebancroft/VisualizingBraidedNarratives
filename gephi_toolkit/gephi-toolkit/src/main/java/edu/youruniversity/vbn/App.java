@@ -1005,41 +1005,55 @@ try {
 }
 
 // =====================================================================
-// APPLY GLOBAL EXPANSION FOR LABEL CLEARANCE
+// SMART EXPANSION (PRESERVE COMPONENT STRUCTURE)
 // =====================================================================
 
 final double EXPANSION_FACTOR =
         (graphType == GraphType.ex) ? 3.0 : 2.0;
 
-// Compute centroid of the full graph
 graph.readLock();
 try {
-    double cx = 0.0;
-    double cy = 0.0;
+    // Compute centroid of entire graph
+    double globalCx = 0.0;
+    double globalCy = 0.0;
     int count = 0;
 
     for (Node node : graph.getNodes()) {
-        cx += node.x();
-        cy += node.y();
+        globalCx += node.x();
+        globalCy += node.y();
         count++;
     }
 
     if (count > 0) {
-        cx /= count;
-        cy /= count;
+        globalCx /= count;
+        globalCy /= count;
     }
 
-    // Scale positions outward from centroid
+    // ✅ NEW: shrink before expanding to neutralize FA2 scale explosion
+    double preScale = 0.6;   // ← THIS IS THE KEY LINE
+
     for (Node node : graph.getNodes()) {
-        float newX = (float) (cx + (node.x() - cx) * EXPANSION_FACTOR);
-        float newY = (float) (cy + (node.y() - cy) * EXPANSION_FACTOR);
-        node.setX(newX);
-        node.setY(newY);
+
+        // shift relative to center
+        double dx = node.x() - globalCx;
+        double dy = node.y() - globalCy;
+
+        // compress first (undo FA2 spread)
+        dx *= preScale;
+        dy *= preScale;
+
+        // then expand for label spacing
+        dx *= EXPANSION_FACTOR;
+        dy *= EXPANSION_FACTOR;
+
+        node.setX((float)(globalCx + dx));
+        node.setY((float)(globalCy + dy));
     }
 
 } finally {
     graph.readUnlock();
 }
+
     // ---- Export statistics to CSV ----------------------------------------
 
     String statsFile = "network_statistics.csv";
