@@ -916,12 +916,16 @@ for (int i = 0; i < 800; i++) {
 fa2Layout.endAlgo();
 
 // ----- Component-aware rescaling  ----------------------------
+
+Map<Node, Integer> componentOf = null;
+int giantIndex = -1;
+
 if (outputGraphType != GraphType.ex) {
 
 graph.readLock();
 try {
 
-    Map<Node, Integer> componentOf = new HashMap<>();
+    componentOf = new HashMap<>();
     List<List<Node>> components = new ArrayList<>();
 
     int componentId = 0;
@@ -951,7 +955,7 @@ try {
     }
 
     // Find the giant component
-    int giantIndex = 0;
+    giantIndex = 0;
     int giantComponentSize = 0;
 
     for (int i = 0; i < components.size(); i++) {
@@ -1005,15 +1009,17 @@ try {
 }
 
 // =====================================================================
-// SMART EXPANSION (PRESERVE COMPONENT STRUCTURE)
+// SMART EXPANSION (GLOBAL NORMALIZATION + CORE CORRECTION)
 // =====================================================================
 
 final double EXPANSION_FACTOR =
         (graphType == GraphType.ex) ? 3.0 : 2.0;
 
+double preScale = 0.6;
+
 graph.readLock();
 try {
-    // Compute centroid of entire graph
+    // ---- Compute global centroid ------------------------------------
     double globalCx = 0.0;
     double globalCy = 0.0;
     int count = 0;
@@ -1029,20 +1035,30 @@ try {
         globalCy /= count;
     }
 
-    // ✅ NEW: shrink before expanding to neutralize FA2 scale explosion
-    double preScale = 0.6;   // ← THIS IS THE KEY LINE
+    boolean hasComponents =
+            componentOf != null && giantIndex >= 0;
 
     for (Node node : graph.getNodes()) {
 
-        // shift relative to center
         double dx = node.x() - globalCx;
         double dy = node.y() - globalCy;
 
-        // compress first (undo FA2 spread)
+        // ✅ Step 1: global normalization (ALL nodes)
         dx *= preScale;
         dy *= preScale;
 
-        // then expand for label spacing
+        // ✅ Step 2: restore core scale ONLY
+        if (hasComponents) {
+            Integer comp = componentOf.get(node);
+            if (comp != null && comp == giantIndex) {
+
+                // undo prescale ONLY for core
+                dx /= preScale;
+                dy /= preScale;
+            }
+        }
+
+        // ✅ Step 3: apply your validated expansion
         dx *= EXPANSION_FACTOR;
         dy *= EXPANSION_FACTOR;
 
