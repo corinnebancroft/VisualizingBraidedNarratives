@@ -609,7 +609,7 @@ Color lightGray = Color.decode("#D3D3D3");
 // Define color pallet
  Color[] palette = new Color[] {
         Color.decode("#FF0000"), // red
-        Color.decode("#0000FF"), // blue
+        Color.decode("#2891ff"), // blue
         Color.decode("#FFFF00"), // yellow
         Color.decode("#FF00FF"), // magenta
         Color.decode("#00FF00"), // green
@@ -679,7 +679,7 @@ if (modularityValue < 0.3) {
     // Map color names to Color objects
     Map<String, Color> colorByName = new HashMap<>();
     colorByName.put("red",        Color.decode("#FF0000"));
-    colorByName.put("blue",       Color.decode("#0000FF"));
+    colorByName.put("blue",       Color.decode("#2891ff"));
     colorByName.put("yellow",     Color.decode("#FFFF00"));
     colorByName.put("magenta",    Color.decode("#FF00FF"));
     colorByName.put("green",      Color.decode("#00FF00"));
