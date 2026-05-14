@@ -1,0 +1,3300 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-05-14">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="node_strength" title="node_strength" type="double"/>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="character 1" title="character 1" type="string"/>
+      <attribute id="character 2" title="character 2" type="string"/>
+      <attribute id="startpage" title="startpage" type="integer"/>
+      <attribute id="category" title="category" type="string"/>
+      <attribute id="narrator" title="narrator" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="56" label="&quot;audience&quot; (on the young junior)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="2054.9314" y="1639.406"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="110" label="&quot;boy&quot; (red-haired girl's relative)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20588235294117646"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.25267006802721065"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-114.56644" y="1015.81635"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="111" label="&quot;boy&quot; (tiny Equatorial)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2527075812274368"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3214285714285714"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="-106.2951" y="756.5931"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="89" label="&quot;child&quot; (in the Season's End)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-45.540573" y="210.39958"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="118" label="&quot;clerk&quot; (with Asael and Heresmith)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="18.665558" y="108.26505"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="114" label="&quot;girl&quot; (pushed Damaya in the shower)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3095238095238094"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-735.71405" y="739.3074"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="109" label="&quot;girl&quot; (red-haired eastern Coaster)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20588235294117646"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.25267006802721065"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-44.52958" y="943.8869"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="9" label="&quot;group of young women&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.28"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.31476190476190463"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="326.8885" y="-76.79522"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="88" label="&quot;head cook&quot; (in the Fulcrum)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="46.003586" y="177.94824"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="69" label="&quot;woman&quot; (on the road)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.24822695035460993"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2938435374149659"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="470.10696" y="-286.898"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="120" label="&quot;woman&quot; (with Heresmith)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30837004405286345"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.359047619047619"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="-514.79913" y="-314.15976"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="55" label="&quot;young junior&quot; (singing in the Fulcrum)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="1999.2007" y="1663.809"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="182" label="a woman at the Fulcrum (299)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3095238095238094"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-764.58276" y="654.6754"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="131" label="a young, uncertain man (235)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20588235294117646"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24670068027210879"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="844.05566" y="-871.5592"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="134" label="a younger Sanzed woman (in the group of five) (235">
+        <attvalues>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="degree" value="14"/>
+          <attvalue for="node_strength" value="42.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25830258302583026"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3486054421768706"/>
+          <attvalue for="betweenesscentrality" value="540.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="18.88889"/>
+        <viz:position x="847.9564" y="-757.7142"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="7" label="Alabaster">
+        <attvalues>
+          <attvalue for="indegree" value="11"/>
+          <attvalue for="outdegree" value="11"/>
+          <attvalue for="degree" value="22"/>
+          <attvalue for="node_strength" value="277.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.3867403314917127"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.47952380952380946"/>
+          <attvalue for="betweenesscentrality" value="1119.6666666666663"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="71.111115"/>
+        <viz:position x="84.36144" y="-331.3836"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="78" label="Allia's citizens">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.33653846153846156"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38190476190476186"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="175.20145" y="-44.900864"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="51" label="Allia's quartent governor">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.23728813559322035"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.26357142857142857"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-660.1383" y="-162.89757"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="169" label="Antarctic woman (266)">
+        <attvalues>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="10.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2517985611510791"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3176530612244897"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="11.777778"/>
+        <viz:position x="741.23724" y="-279.1058"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="8" label="Antimony">
+        <attvalues>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="24.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.37433155080213903"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4319047619047618"/>
+          <attvalue for="betweenesscentrality" value="1011.3333333333336"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="14.888889"/>
+        <viz:position x="186.76353" y="-148.01968"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="85" label="Asael Leadership Allia">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="68.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.33816425120772947"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.389047619047619"/>
+          <attvalue for="betweenesscentrality" value="12.750000000000004"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="24.666666"/>
+        <viz:position x="-293.80695" y="-330.08844"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="184" label="Binof">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="44.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25089605734767023"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3166666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="19.333334"/>
+        <viz:position x="-616.9403" y="662.1556"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="104" label="Brevard's lorists">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3095238095238094"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-596.7238" y="841.575"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="108" label="Carnelian">
+        <attvalues>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="16"/>
+          <attvalue for="node_strength" value="34.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25830258302583026"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3642857142857143"/>
+          <attvalue for="betweenesscentrality" value="283.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="17.11111"/>
+        <viz:position x="-215.77667" y="849.75024"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="28" label="Chaga">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3095238095238094"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="-691.67993" y="618.4202"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="106" label="Crack">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="14.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2536231884057971"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.32857142857142857"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="12.666667"/>
+        <viz:position x="-370.8543" y="848.9914"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="23" label="Damaya">
+        <attvalues>
+          <attvalue for="indegree" value="21"/>
+          <attvalue for="outdegree" value="21"/>
+          <attvalue for="degree" value="42"/>
+          <attvalue for="node_strength" value="198.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.33175355450236965"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.49880952380952365"/>
+          <attvalue for="betweenesscentrality" value="2082.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="53.555557"/>
+        <viz:position x="-449.9512" y="642.9455"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="27" label="Damaya's father">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.3017241379310345"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3583333333333333"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="-494.33917" y="339.58588"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="25" label="Damaya's mother">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="24.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.3017241379310345"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3583333333333333"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="14.888889"/>
+        <viz:position x="-511.88287" y="447.66043"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="258" label="Deelashet">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-497.15228" y="-9.3299675"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="81" label="Drover (in Allia)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-462.2383" y="54.849567"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="163" label="Edki">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="18.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.33653846153846156"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38190476190476186"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="13.555555"/>
+        <viz:position x="-101.03111" y="-377.9449"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="2" label="Essun">
+        <attvalues>
+          <attvalue for="indegree" value="14"/>
+          <attvalue for="outdegree" value="13"/>
+          <attvalue for="degree" value="27"/>
+          <attvalue for="node_strength" value="265.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.3286384976525822"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4457142857142855"/>
+          <attvalue for="betweenesscentrality" value="1577.2666666666673"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="68.44444"/>
+        <viz:position x="510.02753" y="-544.08417"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="50" label="Feldspar">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="14.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30973451327433627"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.36142857142857143"/>
+          <attvalue for="betweenesscentrality" value="138.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="12.666667"/>
+        <viz:position x="-442.54346" y="-114.461464"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="105" label="Galena">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3095238095238094"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-575.2358" y="913.73535"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="140" label="Geomests">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-206.7888" y="-498.89026"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="92" label="Grits (in the Fulcrum)">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2536231884057971"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3285714285714285"/>
+          <attvalue for="betweenesscentrality" value="3.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.333333"/>
+        <viz:position x="-198.41484" y="673.1824"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="194" label="Guardian who collects Timay's body (327)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.3017241379310345"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3583333333333333"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="-620.4" y="379.763"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="177" label="Harlas">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.28"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.31476190476190463"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="303.62393" y="-217.41269"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="117" label="Heresmith Leadership Allia">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="42.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30973451327433627"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3661904761904761"/>
+          <attvalue for="betweenesscentrality" value="1.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="18.88889"/>
+        <viz:position x="-380.94696" y="-270.186"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="1" label="Hoa">
+        <attvalues>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="16"/>
+          <attvalue for="node_strength" value="136.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.30837004405286345"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.39333333333333304"/>
+          <attvalue for="betweenesscentrality" value="405.3666666666667"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="39.77778"/>
+        <viz:position x="735.1115" y="-474.13635"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="218" label="Innon">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="58.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.34146341463414637"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4033333333333333"/>
+          <attvalue for="betweenesscentrality" value="41.25"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="22.444445"/>
+        <viz:position x="-189.76208" y="-372.4642"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="183" label="Instructor Marcasite">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3095238095238094"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-496.1739" y="912.689"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="107" label="Jasper">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="12.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2536231884057971"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.32857142857142857"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="12.222222"/>
+        <viz:position x="-315.0008" y="924.37366"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="45" label="Karra">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="14.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2517985611510791"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.312891156462585"/>
+          <attvalue for="betweenesscentrality" value="64.46666666666667"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="12.666667"/>
+        <viz:position x="423.22803" y="-860.4035"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="15" label="Lerna">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="56.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25547445255474455"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.33193877551020406"/>
+          <attvalue for="betweenesscentrality" value="78.73333333333332"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="22.0"/>
+        <viz:position x="805.25214" y="-592.45447"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="230" label="Leshiye">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30837004405286345"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.359047619047619"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="-416.23676" y="-410.61353"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="70" label="Lorists">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.24822695035460993"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2938435374149659"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="333.89606" y="-679.13806"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="97" label="Marcasite">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25089605734767023"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3166666666666666"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="-584.97076" y="478.1425"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="103" label="Maxixe">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="14.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2527075812274368"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.32142857142857145"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="12.666667"/>
+        <viz:position x="-283.21573" y="760.49615"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="176" label="Meovites">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30837004405286345"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.359047619047619"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="-275.85046" y="-472.3909"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="66" label="Misalem">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="3468.8179" y="943.1003"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="132" label="oldest woman (in the group of five) (235)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20588235294117646"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24670068027210879"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="956.1536" y="-816.7696"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="227" label="One of Innon's crew members (377)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30837004405286345"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.359047619047619"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="-359.82355" y="-480.80115"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="80" label="Proprietor (in Allia)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.33653846153846156"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3819047619047618"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="-96.86114" y="-514.35425"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="13" label="Rask">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="36.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2545454545454545"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3295578231292516"/>
+          <attvalue for="betweenesscentrality" value="209.0333333333333"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="17.555555"/>
+        <viz:position x="511.7921" y="-772.1695"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="170" label="Red-haired woman (266/269)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.23728813559322035"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.27955782312925165"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="849.91156" y="-327.59375"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="26" label="Schaffa">
+        <attvalues>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="degree" value="12"/>
+          <attvalue for="node_strength" value="114.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.38461538461538464"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4604761904761904"/>
+          <attvalue for="betweenesscentrality" value="2168.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="34.88889"/>
+        <viz:position x="-394.04114" y="444.14392"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="223" label="Selsi">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-529.33954" y="-73.61152"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="36" label="Shantare">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3095238095238094"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-678.6036" y="790.2181"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="148" label="stone eater (in the obelisk)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-529.37103" y="-150.96242"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="49" label="Syenite">
+        <attvalues>
+          <attvalue for="indegree" value="25"/>
+          <attvalue for="outdegree" value="25"/>
+          <attvalue for="degree" value="50"/>
+          <attvalue for="node_strength" value="407.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.44025157232704404"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5845238095238094"/>
+          <attvalue for="betweenesscentrality" value="3426.999999999999"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="100.0"/>
+        <viz:position x="-165.42241" y="-95.205444"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="156" label="tall woman (251)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-402.60074" y="121.1035"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="135" label="the other two Sanzed women (in the group of five)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20588235294117646"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24670068027210879"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="910.8289" y="-863.3029"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="193" label="Timay (Guardian)">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="24.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.30303030303030304"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3654761904761904"/>
+          <attvalue for="betweenesscentrality" value="48.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="14.888889"/>
+        <viz:position x="-619.6188" y="556.8421"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="16" label="Tirimo's citizens">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="node_strength" value="5.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30336734693877543"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.666667"/>
+        <viz:position x="1001.5975" y="-519.2477"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="39" label="Tirimo's guards">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="10.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20408163265306123"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24670068027210879"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="11.777778"/>
+        <viz:position x="440.6296" y="-938.09985"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="12" label="Tirimo's scouts">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20348837209302326"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.23955782312925164"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="538.1224" y="-984.9263"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="91" label="Tonkee">
+        <attvalues>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="degree" value="12"/>
+          <attvalue for="node_strength" value="128.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25830258302583026"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.34384353741496587"/>
+          <attvalue for="betweenesscentrality" value="13.666666666666666"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="38.0"/>
+        <viz:position x="696.0151" y="-661.2677"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="221" label="Woman in Clalsu crew (358)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.30701754385964913"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35190476190476183"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-501.3468" y="-218.5505"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="168" label="Ykka">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="92.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2527075812274368"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.32479591836734684"/>
+          <attvalue for="betweenesscentrality" value="13.466666666666667"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="627.98236" y="-366.09766"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="179" label="Young Meovite Girl (295)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.33653846153846156"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3819047619047618"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="148.697" y="28.881498"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="133" label="youngest woman (in the group of five) (235)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20588235294117646"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24670068027210879"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.888889"/>
+        <viz:position x="962.2385" y="-749.8142"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="14" label="Yumenescenes">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="10.444445"/>
+        <viz:position x="3407.8843" y="939.36"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="32" label="Zab">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.25"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3095238095238094"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-668.83704" y="866.7257"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="7" target="8" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Antimony"/>
+          <attvalue for="startpage" value="282"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="7" target="9">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="&quot;group of young women&quot;"/>
+          <attvalue for="startpage" value="4"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="9" target="9">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;group of young women&quot;"/>
+          <attvalue for="character 2" value="&quot;group of young women&quot;"/>
+          <attvalue for="startpage" value="4"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="8" target="7" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Antimony"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="282"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="9" target="7">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;group of young women&quot;"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="4"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="12" target="13">
+        <attvalues>
+          <attvalue for="character 1" value="Tirimo's scouts"/>
+          <attvalue for="character 2" value="Rask"/>
+          <attvalue for="startpage" value="11"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="13" target="12">
+        <attvalues>
+          <attvalue for="character 1" value="Rask"/>
+          <attvalue for="character 2" value="Tirimo's scouts"/>
+          <attvalue for="startpage" value="11"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="2" target="15" weight="22.0">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Lerna"/>
+          <attvalue for="startpage" value="411"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="15" target="2" weight="22.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lerna"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="411"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="16" target="15">
+        <attvalues>
+          <attvalue for="character 1" value="Tirimo's citizens"/>
+          <attvalue for="character 2" value="Lerna"/>
+          <attvalue for="startpage" value="18"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="16" target="2">
+        <attvalues>
+          <attvalue for="character 1" value="Tirimo's citizens"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="18"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="15" target="16">
+        <attvalues>
+          <attvalue for="character 1" value="Lerna"/>
+          <attvalue for="character 2" value="Tirimo's citizens"/>
+          <attvalue for="startpage" value="18"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="2" target="2">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="24"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="25" target="26" weight="8.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya's mother"/>
+          <attvalue for="character 2" value="Schaffa"/>
+          <attvalue for="startpage" value="33"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="26" target="25" weight="8.0">
+        <attvalues>
+          <attvalue for="character 1" value="Schaffa"/>
+          <attvalue for="character 2" value="Damaya's mother"/>
+          <attvalue for="startpage" value="33"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="25" target="23" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya's mother"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="32"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="23" target="25" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Damaya's mother"/>
+          <attvalue for="startpage" value="32"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="28" target="23" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Chaga"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="104"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="23" target="28" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Chaga"/>
+          <attvalue for="startpage" value="104"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="23" target="26" weight="40.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Schaffa"/>
+          <attvalue for="startpage" value="331"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="26" target="23" weight="40.0">
+        <attvalues>
+          <attvalue for="character 1" value="Schaffa"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="331"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="32" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="Zab"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="37"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="23" target="36">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Shantare"/>
+          <attvalue for="startpage" value="37"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="36" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="Shantare"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="37"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="23" target="32">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Zab"/>
+          <attvalue for="startpage" value="37"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="26" target="27" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Schaffa"/>
+          <attvalue for="character 2" value="Damaya's father"/>
+          <attvalue for="startpage" value="40"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="84" source="27" target="26" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya's father"/>
+          <attvalue for="character 2" value="Schaffa"/>
+          <attvalue for="startpage" value="40"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="97" source="15" target="13" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lerna"/>
+          <attvalue for="character 2" value="Rask"/>
+          <attvalue for="startpage" value="50"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="98" source="13" target="2" weight="10.0">
+        <attvalues>
+          <attvalue for="character 1" value="Rask"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="114"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="99" source="2" target="13" weight="10.0">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Rask"/>
+          <attvalue for="startpage" value="114"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="100" source="13" target="15" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Rask"/>
+          <attvalue for="character 2" value="Lerna"/>
+          <attvalue for="startpage" value="50"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="109" source="13" target="39" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Rask"/>
+          <attvalue for="character 2" value="Tirimo's guards"/>
+          <attvalue for="startpage" value="53"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="110" source="16" target="16">
+        <attvalues>
+          <attvalue for="character 1" value="Tirimo's citizens"/>
+          <attvalue for="character 2" value="Tirimo's citizens"/>
+          <attvalue for="startpage" value="52"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="111" source="39" target="13" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Tirimo's guards"/>
+          <attvalue for="character 2" value="Rask"/>
+          <attvalue for="startpage" value="53"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="116" source="45" target="13" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Karra"/>
+          <attvalue for="character 2" value="Rask"/>
+          <attvalue for="startpage" value="56"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="117" source="13" target="45" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Rask"/>
+          <attvalue for="character 2" value="Karra"/>
+          <attvalue for="startpage" value="56"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="125" source="39" target="45" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Tirimo's guards"/>
+          <attvalue for="character 2" value="Karra"/>
+          <attvalue for="startpage" value="58"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="126" source="45" target="39" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Karra"/>
+          <attvalue for="character 2" value="Tirimo's guards"/>
+          <attvalue for="startpage" value="58"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="131" source="2" target="45">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Karra"/>
+          <attvalue for="startpage" value="56"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="133" source="45" target="2">
+        <attvalues>
+          <attvalue for="character 1" value="Karra"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="56"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="140" source="50" target="49" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="Feldspar"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="74"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="141" source="49" target="50" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Feldspar"/>
+          <attvalue for="startpage" value="74"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="142" source="51" target="50">
+        <attvalues>
+          <attvalue for="character 1" value="Allia's quartent governor"/>
+          <attvalue for="character 2" value="Feldspar"/>
+          <attvalue for="startpage" value="62"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="145" source="50" target="51">
+        <attvalues>
+          <attvalue for="character 1" value="Feldspar"/>
+          <attvalue for="character 2" value="Allia's quartent governor"/>
+          <attvalue for="startpage" value="62"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="150" source="56" target="55" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;audience&quot; (on the young junior)"/>
+          <attvalue for="character 2" value="&quot;young junior&quot; (singing in the Fulcrum)"/>
+          <attvalue for="startpage" value="66"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="153" source="55" target="56" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;young junior&quot; (singing in the Fulcrum)"/>
+          <attvalue for="character 2" value="&quot;audience&quot; (on the young junior)"/>
+          <attvalue for="startpage" value="66"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="156" source="7" target="49" weight="111.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="435"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="157" source="49" target="7" weight="112.0">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="435"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="178" source="1" target="2" weight="37.0">
+        <attvalues>
+          <attvalue for="character 1" value="Hoa"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="411"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="179" source="2" target="1" weight="37.0">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Hoa"/>
+          <attvalue for="startpage" value="411"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="184" source="27" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya's father"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="86"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="187" source="23" target="27">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Damaya's father"/>
+          <attvalue for="startpage" value="86"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="192" source="66" target="14" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Misalem"/>
+          <attvalue for="character 2" value="Yumenescenes"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="193" source="14" target="66" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yumenescenes"/>
+          <attvalue for="character 2" value="Misalem"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="233" source="2" target="69">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="&quot;woman&quot; (on the road)"/>
+          <attvalue for="startpage" value="108"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="235" source="69" target="2">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;woman&quot; (on the road)"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="108"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="239" source="70" target="2" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lorists"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="111"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="240" source="2" target="70" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Lorists"/>
+          <attvalue for="startpage" value="111"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="312" source="7" target="78">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Allia's citizens"/>
+          <attvalue for="startpage" value="152"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="313" source="49" target="78">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Allia's citizens"/>
+          <attvalue for="startpage" value="152"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="314" source="78" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Allia's citizens"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="152"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="315" source="78" target="7">
+        <attvalues>
+          <attvalue for="character 1" value="Allia's citizens"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="152"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="316" source="80" target="7">
+        <attvalues>
+          <attvalue for="character 1" value="Proprietor (in Allia)"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="153"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="317" source="49" target="81">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Drover (in Allia)"/>
+          <attvalue for="startpage" value="153"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="318" source="81" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Drover (in Allia)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="153"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="319" source="49" target="80">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Proprietor (in Allia)"/>
+          <attvalue for="startpage" value="153"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="320" source="80" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Proprietor (in Allia)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="153"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="321" source="7" target="80">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Proprietor (in Allia)"/>
+          <attvalue for="startpage" value="153"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="322" source="85" target="7" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Asael Leadership Allia"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="159"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="323" source="49" target="85" weight="20.0">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Asael Leadership Allia"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="324" source="85" target="49" weight="20.0">
+        <attvalues>
+          <attvalue for="character 1" value="Asael Leadership Allia"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="325" source="7" target="85" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Asael Leadership Allia"/>
+          <attvalue for="startpage" value="159"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="365" source="49" target="88">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="&quot;head cook&quot; (in the Fulcrum)"/>
+          <attvalue for="startpage" value="169"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="367" source="88" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;head cook&quot; (in the Fulcrum)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="169"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="368" source="49" target="89">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="&quot;child&quot; (in the Season's End)"/>
+          <attvalue for="startpage" value="170"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="369" source="89" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;child&quot; (in the Season's End)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="170"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="378" source="91" target="1" weight="13.0">
+        <attvalues>
+          <attvalue for="character 1" value="Tonkee"/>
+          <attvalue for="character 2" value="Hoa"/>
+          <attvalue for="startpage" value="411"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="380" source="1" target="91" weight="13.0">
+        <attvalues>
+          <attvalue for="character 1" value="Hoa"/>
+          <attvalue for="character 2" value="Tonkee"/>
+          <attvalue for="startpage" value="411"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="381" source="2" target="91" weight="30.0">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Tonkee"/>
+          <attvalue for="startpage" value="410"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="382" source="91" target="2" weight="30.0">
+        <attvalues>
+          <attvalue for="character 1" value="Tonkee"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="410"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="430" source="23" target="97" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Marcasite"/>
+          <attvalue for="startpage" value="194"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="431" source="97" target="23" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marcasite"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="194"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="434" source="92" target="97">
+        <attvalues>
+          <attvalue for="character 1" value="Grits (in the Fulcrum)"/>
+          <attvalue for="character 2" value="Marcasite"/>
+          <attvalue for="startpage" value="195"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="435" source="97" target="92">
+        <attvalues>
+          <attvalue for="character 1" value="Marcasite"/>
+          <attvalue for="character 2" value="Grits (in the Fulcrum)"/>
+          <attvalue for="startpage" value="195"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="436" source="23" target="103" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Maxixe"/>
+          <attvalue for="startpage" value="201"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="437" source="103" target="23" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Maxixe"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="201"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="439" source="104" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="Brevard's lorists"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="199"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="440" source="23" target="104">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Brevard's lorists"/>
+          <attvalue for="startpage" value="199"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="446" source="105" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="Galena"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="447" source="23" target="105">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Galena"/>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="448" source="23" target="106" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Crack"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="449" source="106" target="23" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Crack"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="451" source="107" target="23" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Jasper"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="205"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="453" source="23" target="92">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Grits (in the Fulcrum)"/>
+          <attvalue for="startpage" value="204"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="454" source="92" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="Grits (in the Fulcrum)"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="204"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="455" source="23" target="107" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Jasper"/>
+          <attvalue for="startpage" value="205"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="458" source="23" target="108" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Carnelian"/>
+          <attvalue for="startpage" value="211"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="459" source="108" target="92" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Carnelian"/>
+          <attvalue for="character 2" value="Grits (in the Fulcrum)"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="460" source="92" target="108" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Grits (in the Fulcrum)"/>
+          <attvalue for="character 2" value="Carnelian"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="461" source="108" target="107" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Carnelian"/>
+          <attvalue for="character 2" value="Jasper"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="462" source="107" target="108" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Jasper"/>
+          <attvalue for="character 2" value="Carnelian"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="463" source="108" target="23" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Carnelian"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="211"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="465" source="110" target="108">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;boy&quot; (red-haired girl's relative)"/>
+          <attvalue for="character 2" value="Carnelian"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="466" source="109" target="108">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;girl&quot; (red-haired eastern Coaster)"/>
+          <attvalue for="character 2" value="Carnelian"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="468" source="108" target="109">
+        <attvalues>
+          <attvalue for="character 1" value="Carnelian"/>
+          <attvalue for="character 2" value="&quot;girl&quot; (red-haired eastern Coaster)"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="469" source="108" target="111">
+        <attvalues>
+          <attvalue for="character 1" value="Carnelian"/>
+          <attvalue for="character 2" value="&quot;boy&quot; (tiny Equatorial)"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="470" source="108" target="110">
+        <attvalues>
+          <attvalue for="character 1" value="Carnelian"/>
+          <attvalue for="character 2" value="&quot;boy&quot; (red-haired girl's relative)"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="472" source="23" target="111">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="&quot;boy&quot; (tiny Equatorial)"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="473" source="111" target="108">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;boy&quot; (tiny Equatorial)"/>
+          <attvalue for="character 2" value="Carnelian"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="474" source="111" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;boy&quot; (tiny Equatorial)"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="476" source="103" target="108" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Maxixe"/>
+          <attvalue for="character 2" value="Carnelian"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="479" source="108" target="103" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Carnelian"/>
+          <attvalue for="character 2" value="Maxixe"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="480" source="106" target="107">
+        <attvalues>
+          <attvalue for="character 1" value="Crack"/>
+          <attvalue for="character 2" value="Jasper"/>
+          <attvalue for="startpage" value="208"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="481" source="107" target="106">
+        <attvalues>
+          <attvalue for="character 1" value="Jasper"/>
+          <attvalue for="character 2" value="Crack"/>
+          <attvalue for="startpage" value="208"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="482" source="106" target="108" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Crack"/>
+          <attvalue for="character 2" value="Carnelian"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="489" source="108" target="106" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Carnelian"/>
+          <attvalue for="character 2" value="Crack"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="491" source="114" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;girl&quot; (pushed Damaya in the shower)"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="494" source="23" target="114">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="&quot;girl&quot; (pushed Damaya in the shower)"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="504" source="140" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Geomests"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="213"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="506" source="49" target="140">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Geomests"/>
+          <attvalue for="startpage" value="213"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="514" source="117" target="49" weight="11.0">
+        <attvalues>
+          <attvalue for="character 1" value="Heresmith Leadership Allia"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="516" source="49" target="117" weight="11.0">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Heresmith Leadership Allia"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="520" source="117" target="85" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Heresmith Leadership Allia"/>
+          <attvalue for="character 2" value="Asael Leadership Allia"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="525" source="85" target="117" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Asael Leadership Allia"/>
+          <attvalue for="character 2" value="Heresmith Leadership Allia"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="536" source="118" target="49" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;clerk&quot; (with Asael and Heresmith)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="537" source="49" target="118" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="&quot;clerk&quot; (with Asael and Heresmith)"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="561" source="117" target="120">
+        <attvalues>
+          <attvalue for="character 1" value="Heresmith Leadership Allia"/>
+          <attvalue for="character 2" value="&quot;woman&quot; (with Heresmith)"/>
+          <attvalue for="startpage" value="225"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="562" source="120" target="117">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;woman&quot; (with Heresmith)"/>
+          <attvalue for="character 2" value="Heresmith Leadership Allia"/>
+          <attvalue for="startpage" value="225"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="576" source="49" target="120">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="&quot;woman&quot; (with Heresmith)"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="583" source="120" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;woman&quot; (with Heresmith)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="588" source="133" target="134" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="youngest woman (in the group of five) (235)"/>
+          <attvalue for="character 2" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="589" source="91" target="134" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Tonkee"/>
+          <attvalue for="character 2" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="590" source="1" target="134" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Hoa"/>
+          <attvalue for="character 2" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="591" source="134" target="131" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="character 2" value="a young, uncertain man (235)"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="592" source="2" target="134" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="593" source="135" target="134" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="the other two Sanzed women (in the group of five)"/>
+          <attvalue for="character 2" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="594" source="132" target="134" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="oldest woman (in the group of five) (235)"/>
+          <attvalue for="character 2" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="595" source="134" target="135" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="character 2" value="the other two Sanzed women (in the group of five)"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="596" source="134" target="132" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="character 2" value="oldest woman (in the group of five) (235)"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="597" source="131" target="134" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="a young, uncertain man (235)"/>
+          <attvalue for="character 2" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="598" source="134" target="1" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="character 2" value="Hoa"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="599" source="134" target="2" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="600" source="134" target="91" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="character 2" value="Tonkee"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="601" source="134" target="133" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="a younger Sanzed woman (in the group of five) (235"/>
+          <attvalue for="character 2" value="youngest woman (in the group of five) (235)"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="651" source="156" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="tall woman (251)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="251"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="652" source="49" target="156">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="tall woman (251)"/>
+          <attvalue for="startpage" value="251"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="660" source="7" target="163" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Edki"/>
+          <attvalue for="startpage" value="259"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="661" source="163" target="7" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Edki"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="259"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="668" source="163" target="49" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Edki"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="261"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="669" source="49" target="163" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Edki"/>
+          <attvalue for="startpage" value="261"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="688" source="49" target="148">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="stone eater (in the obelisk)"/>
+          <attvalue for="startpage" value="263"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="689" source="148" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="stone eater (in the obelisk)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="263"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="696" source="2" target="168" weight="18.0">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Ykka"/>
+          <attvalue for="startpage" value="343"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="697" source="168" target="1" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ykka"/>
+          <attvalue for="character 2" value="Hoa"/>
+          <attvalue for="startpage" value="343"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="698" source="1" target="168" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Hoa"/>
+          <attvalue for="character 2" value="Ykka"/>
+          <attvalue for="startpage" value="343"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="699" source="168" target="2" weight="18.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ykka"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="343"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="700" source="91" target="168" weight="16.0">
+        <attvalues>
+          <attvalue for="character 1" value="Tonkee"/>
+          <attvalue for="character 2" value="Ykka"/>
+          <attvalue for="startpage" value="343"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="701" source="168" target="91" weight="16.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ykka"/>
+          <attvalue for="character 2" value="Tonkee"/>
+          <attvalue for="startpage" value="343"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="708" source="1" target="170" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Hoa"/>
+          <attvalue for="character 2" value="Red-haired woman (266/269)"/>
+          <attvalue for="startpage" value="270"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="709" source="170" target="1" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Red-haired woman (266/269)"/>
+          <attvalue for="character 2" value="Hoa"/>
+          <attvalue for="startpage" value="270"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="710" source="170" target="168">
+        <attvalues>
+          <attvalue for="character 1" value="Red-haired woman (266/269)"/>
+          <attvalue for="character 2" value="Ykka"/>
+          <attvalue for="startpage" value="270"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="716" source="168" target="170">
+        <attvalues>
+          <attvalue for="character 1" value="Ykka"/>
+          <attvalue for="character 2" value="Red-haired woman (266/269)"/>
+          <attvalue for="startpage" value="270"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="720" source="169" target="168" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Antarctic woman (266)"/>
+          <attvalue for="character 2" value="Ykka"/>
+          <attvalue for="startpage" value="337"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="721" source="168" target="169" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ykka"/>
+          <attvalue for="character 2" value="Antarctic woman (266)"/>
+          <attvalue for="startpage" value="337"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="752" source="8" target="49" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Antimony"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="433"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="753" source="49" target="8" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Antimony"/>
+          <attvalue for="startpage" value="433"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="785" source="49" target="176">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Meovites"/>
+          <attvalue for="startpage" value="292"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="787" source="177" target="7">
+        <attvalues>
+          <attvalue for="character 1" value="Harlas"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="292"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="788" source="176" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Meovites"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="292"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="789" source="7" target="177">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Harlas"/>
+          <attvalue for="startpage" value="292"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="794" source="179" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Young Meovite Girl (295)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="295"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="796" source="7" target="179">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Young Meovite Girl (295)"/>
+          <attvalue for="startpage" value="295"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="797" source="49" target="179">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Young Meovite Girl (295)"/>
+          <attvalue for="startpage" value="295"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="799" source="179" target="7">
+        <attvalues>
+          <attvalue for="character 1" value="Young Meovite Girl (295)"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="295"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="802" source="182" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="a woman at the Fulcrum (299)"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="299"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="803" source="23" target="182">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="a woman at the Fulcrum (299)"/>
+          <attvalue for="startpage" value="299"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="804" source="23" target="183">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Instructor Marcasite"/>
+          <attvalue for="startpage" value="303"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="805" source="183" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="Instructor Marcasite"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="303"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="806" source="184" target="23" weight="19.0">
+        <attvalues>
+          <attvalue for="character 1" value="Binof"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="322"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="807" source="23" target="184" weight="19.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Binof"/>
+          <attvalue for="startpage" value="322"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="838" source="193" target="184" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Timay (Guardian)"/>
+          <attvalue for="character 2" value="Binof"/>
+          <attvalue for="startpage" value="322"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="840" source="184" target="193" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Binof"/>
+          <attvalue for="character 2" value="Timay (Guardian)"/>
+          <attvalue for="startpage" value="322"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="841" source="23" target="193" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Timay (Guardian)"/>
+          <attvalue for="startpage" value="326"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="843" source="193" target="23" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Timay (Guardian)"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="326"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="863" source="26" target="193" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Schaffa"/>
+          <attvalue for="character 2" value="Timay (Guardian)"/>
+          <attvalue for="startpage" value="327"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="865" source="193" target="26" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Timay (Guardian)"/>
+          <attvalue for="character 2" value="Schaffa"/>
+          <attvalue for="startpage" value="327"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="870" source="26" target="194">
+        <attvalues>
+          <attvalue for="character 1" value="Schaffa"/>
+          <attvalue for="character 2" value="Guardian who collects Timay's body (327)"/>
+          <attvalue for="startpage" value="327"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="873" source="194" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="Guardian who collects Timay's body (327)"/>
+          <attvalue for="character 2" value="Damaya"/>
+          <attvalue for="startpage" value="327"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="874" source="23" target="194">
+        <attvalues>
+          <attvalue for="character 1" value="Damaya"/>
+          <attvalue for="character 2" value="Guardian who collects Timay's body (327)"/>
+          <attvalue for="startpage" value="327"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="875" source="194" target="26">
+        <attvalues>
+          <attvalue for="character 1" value="Guardian who collects Timay's body (327)"/>
+          <attvalue for="character 2" value="Schaffa"/>
+          <attvalue for="startpage" value="327"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="882" source="26" target="49" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Schaffa"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="441"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="885" source="49" target="26" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Schaffa"/>
+          <attvalue for="startpage" value="441"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="911" source="169" target="2">
+        <attvalues>
+          <attvalue for="character 1" value="Antarctic woman (266)"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="337"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="912" source="169" target="91">
+        <attvalues>
+          <attvalue for="character 1" value="Antarctic woman (266)"/>
+          <attvalue for="character 2" value="Tonkee"/>
+          <attvalue for="startpage" value="337"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="913" source="2" target="169">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Antarctic woman (266)"/>
+          <attvalue for="startpage" value="337"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="915" source="169" target="1">
+        <attvalues>
+          <attvalue for="character 1" value="Antarctic woman (266)"/>
+          <attvalue for="character 2" value="Hoa"/>
+          <attvalue for="startpage" value="337"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="919" source="91" target="169">
+        <attvalues>
+          <attvalue for="character 1" value="Tonkee"/>
+          <attvalue for="character 2" value="Antarctic woman (266)"/>
+          <attvalue for="startpage" value="337"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="921" source="1" target="169">
+        <attvalues>
+          <attvalue for="character 1" value="Hoa"/>
+          <attvalue for="character 2" value="Antarctic woman (266)"/>
+          <attvalue for="startpage" value="337"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="970" source="176" target="218" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Meovites"/>
+          <attvalue for="character 2" value="Innon"/>
+          <attvalue for="startpage" value="351"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="971" source="218" target="49" weight="22.0">
+        <attvalues>
+          <attvalue for="character 1" value="Innon"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="438"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="972" source="7" target="218" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Innon"/>
+          <attvalue for="startpage" value="371"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="973" source="218" target="176" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Innon"/>
+          <attvalue for="character 2" value="Meovites"/>
+          <attvalue for="startpage" value="351"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="974" source="49" target="218" weight="22.0">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Innon"/>
+          <attvalue for="startpage" value="438"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="975" source="218" target="7" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Innon"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="371"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="996" source="221" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Woman in Clalsu crew (358)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="358"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="997" source="49" target="221">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Woman in Clalsu crew (358)"/>
+          <attvalue for="startpage" value="358"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1006" source="223" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Selsi"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="366"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1008" source="49" target="223">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Selsi"/>
+          <attvalue for="startpage" value="366"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1023" source="227" target="218">
+        <attvalues>
+          <attvalue for="character 1" value="One of Innon's crew members (377)"/>
+          <attvalue for="character 2" value="Innon"/>
+          <attvalue for="startpage" value="377"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1025" source="49" target="227">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="One of Innon's crew members (377)"/>
+          <attvalue for="startpage" value="377"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1026" source="218" target="227">
+        <attvalues>
+          <attvalue for="character 1" value="Innon"/>
+          <attvalue for="character 2" value="One of Innon's crew members (377)"/>
+          <attvalue for="startpage" value="377"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1027" source="227" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="One of Innon's crew members (377)"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="377"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1038" source="49" target="230">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Leshiye"/>
+          <attvalue for="startpage" value="385"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1039" source="218" target="230">
+        <attvalues>
+          <attvalue for="character 1" value="Innon"/>
+          <attvalue for="character 2" value="Leshiye"/>
+          <attvalue for="startpage" value="385"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1040" source="230" target="218">
+        <attvalues>
+          <attvalue for="character 1" value="Leshiye"/>
+          <attvalue for="character 2" value="Innon"/>
+          <attvalue for="startpage" value="385"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1042" source="230" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Leshiye"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="385"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1089" source="91" target="15">
+        <attvalues>
+          <attvalue for="character 1" value="Tonkee"/>
+          <attvalue for="character 2" value="Lerna"/>
+          <attvalue for="startpage" value="410"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="1092" source="15" target="91">
+        <attvalues>
+          <attvalue for="character 1" value="Lerna"/>
+          <attvalue for="character 2" value="Tonkee"/>
+          <attvalue for="startpage" value="410"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="1093" source="1" target="15" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Hoa"/>
+          <attvalue for="character 2" value="Lerna"/>
+          <attvalue for="startpage" value="411"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="1097" source="15" target="1" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lerna"/>
+          <attvalue for="character 2" value="Hoa"/>
+          <attvalue for="startpage" value="411"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="1128" source="258" target="49">
+        <attvalues>
+          <attvalue for="character 1" value="Deelashet"/>
+          <attvalue for="character 2" value="Syenite"/>
+          <attvalue for="startpage" value="425"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1129" source="49" target="258">
+        <attvalues>
+          <attvalue for="character 1" value="Syenite"/>
+          <attvalue for="character 2" value="Deelashet"/>
+          <attvalue for="startpage" value="425"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1161" source="8" target="2">
+        <attvalues>
+          <attvalue for="character 1" value="Antimony"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="445"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="1162" source="2" target="8">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Antimony"/>
+          <attvalue for="startpage" value="445"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="1163" source="1" target="8">
+        <attvalues>
+          <attvalue for="character 1" value="Hoa"/>
+          <attvalue for="character 2" value="Antimony"/>
+          <attvalue for="startpage" value="445"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="1164" source="8" target="1">
+        <attvalues>
+          <attvalue for="character 1" value="Antimony"/>
+          <attvalue for="character 2" value="Hoa"/>
+          <attvalue for="startpage" value="445"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="1165" source="2" target="7" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Essun"/>
+          <attvalue for="character 2" value="Alabaster"/>
+          <attvalue for="startpage" value="449"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+      <edge id="1166" source="7" target="2" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alabaster"/>
+          <attvalue for="character 2" value="Essun"/>
+          <attvalue for="startpage" value="449"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Hoa"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
