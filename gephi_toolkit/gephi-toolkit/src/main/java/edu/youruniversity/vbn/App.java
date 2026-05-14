@@ -672,11 +672,8 @@ if (modularityValue < 0.3) {
     }
 } else if (colorChoice == 2) {
 
-    classColors.clear();
+    // ---- Leader-based coloring (ROBUST: leader_id matching) ------------
 
-    // ---- Leader-based coloring from CSV --------------------------------
-
-    // Map color names to Color objects
     Map<String, Color> colorByName = new HashMap<>();
     colorByName.put("red",        Color.decode("#FF0000"));
     colorByName.put("blue",       Color.decode("#2891ff"));
@@ -700,44 +697,93 @@ if (modularityValue < 0.3) {
         );
     } else {
 
+        // ---- STEP 1: Read CSV → leader_id → Color ----------------------
+
+        Map<String, Color> leaderColorMap = new HashMap<>();
+
         try (Scanner fileScanner = new Scanner(leadersFile)) {
 
-            // Skip header
             if (fileScanner.hasNextLine()) {
-                fileScanner.nextLine();
+                fileScanner.nextLine(); // skip header
             }
 
             while (fileScanner.hasNextLine()) {
-    String line = fileScanner.nextLine();
-    String[] parts =
-        line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
+                String line = fileScanner.nextLine();
 
-    if (parts.length <= 7) continue;
+                String[] parts =
+                    line.split(",(?=(?:[^\"]*\"[^\"]*\")*[^\"]*$)", -1);
 
-    Integer mc = Integer.parseInt(parts[0].trim());
-    String colorName = parts[7].trim().toLowerCase();
+                if (parts.length <= 7) continue;
 
-    if (colorByName.containsKey(colorName)) {
-        classColors.put(mc, colorByName.get(colorName));
-    }
-}
+                String colorName = parts[1].trim().toLowerCase();
+                if (colorName.isEmpty()) continue;
+
+                String leaderId = parts[4].trim(); // ✅ leader_id
+
+                if (colorByName.containsKey(colorName)) {
+                    leaderColorMap.put(leaderId, colorByName.get(colorName));
+                }
+            }
 
         } catch (Exception e) {
             System.err.println(
                 "Failed to read leader color CSV: " + e.getMessage()
             );
         }
-    }
 
-    // Apply colors to nodes
-    for (Node node : graph.getNodes()) {
-        Integer mc = (Integer) node.getAttribute("modularity_class");
-        if (mc != null && classColors.containsKey(mc)) {
-            node.setColor(classColors.get(mc));
-        } else {
-            node.setColor(lightGray);
+        System.out.println("Leader colors loaded: " + leaderColorMap.size());
+
+        // ---- STEP 2: Detect runtime communities & leaders --------------
+
+        Map<Integer, List<Node>> nodesByCommunity = new HashMap<>();
+
+        for (Node node : graph.getNodes()) {
+            Integer mc = (Integer) node.getAttribute("modularity_class");
+            if (mc == null) continue;
+
+            nodesByCommunity
+                .computeIfAbsent(mc, k -> new ArrayList<>())
+                .add(node);
+        }
+
+        Map<Integer, Color> communityColors = new HashMap<>();
+
+        for (Map.Entry<Integer, List<Node>> entry : nodesByCommunity.entrySet()) {
+
+            Integer mc = entry.getKey();
+            List<Node> communityNodes = entry.getValue();
+
+            communityNodes.sort((a, b) -> {
+                Double sa = (Double) a.getAttribute(strengthColumnFinal);
+                Double sb = (Double) b.getAttribute(strengthColumnFinal);
+                if (sa == null) sa = 0.0;
+                if (sb == null) sb = 0.0;
+                return Double.compare(sb, sa);
+            });
+
+            Node leader = communityNodes.get(0);
+            String leaderId = leader.getId().toString();
+
+            if (leaderColorMap.containsKey(leaderId)) {
+                communityColors.put(mc, leaderColorMap.get(leaderId));
+            }
+        }
+
+        System.out.println("Communities colored: " + communityColors.size());
+
+        // ---- STEP 3: Apply colors -------------------------------------
+
+        for (Node node : graph.getNodes()) {
+            Integer mc = (Integer) node.getAttribute("modularity_class");
+
+            if (mc != null && communityColors.containsKey(mc)) {
+                node.setColor(communityColors.get(mc));
+            } else {
+                node.setColor(lightGray);
+            }
         }
     }
+
 
 
 } else {
