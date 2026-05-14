@@ -615,8 +615,10 @@ Color lightGray = Color.decode("#D3D3D3");
         Color.decode("#00FF00"), // green
         Color.decode("#00FFFF"), // cyan
         Color.decode("#FFA500"), // orange
-        Color.decode("#8D01FF"), // violet
-        Color.decode("#C9FF00")  // chartreuse
+        Color.decode("#8D01FF"), // purple
+        Color.decode("#C9FF00"),  // chartreuse
+        Color.decode("#bdb4f9"), // violet
+        Color.decode("#e5b4af")  // salmon
     };
 
     // Map modularity class → color
@@ -682,8 +684,10 @@ if (modularityValue < 0.3) {
     colorByName.put("green",      Color.decode("#00FF00"));
     colorByName.put("cyan",       Color.decode("#00FFFF"));
     colorByName.put("orange",     Color.decode("#FFA500"));
-    colorByName.put("violet",     Color.decode("#8D01FF"));
+    colorByName.put("purple",     Color.decode("#8D01FF"));
     colorByName.put("chartreuse", Color.decode("#C9FF00"));
+    colorByName.put("violet",     Color.decode("#bdb4f9"));
+    colorByName.put("salmon",     Color.decode("#e5b4af"));
 
     String leadersFileName =
         acronym + "_community_leaders_" + graphTypeLabel + ".csv";
