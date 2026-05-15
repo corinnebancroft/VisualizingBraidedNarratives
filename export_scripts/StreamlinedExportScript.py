@@ -28,6 +28,9 @@ df_chars = pd.read_csv(f"{base_path}characters.csv")
 df_conts = pd.read_csv(f"{base_path}containers.csv")
 df_rels = pd.read_csv(f"{base_path}relationships.csv")
 
+df_conts['Title'] = df_conts['Title'].astype(str)
+df_rels['Narrative Container'] = df_rels['Narrative Container'].astype(str)
+
 # merge the containers and relationships "on the right": using keys from the right dataframe
 # and also do the merge based on the mutual column named "Narrative Container". Use "_cont" and "_rels" suffixes for the
 # replica columns after the merge so we can keep track of where they came from.
@@ -179,7 +182,7 @@ final_df.rename(columns={"Type of Relationship": "category"}, inplace=True)
 final_df.drop(columns=["id_cont", "Title", "Level", "Start Page_cont",
                        "End Page_cont", "Protagonist",
                        "Embed. Type", "id_rel", "Is Reciprocal?",
-                       "Narrative Container", "End Page_rel", "index"], inplace=True)
+                       "Narrative Container", "End Page_rel", "index"], inplace=True, errors='ignore')
 
 # note that the source and target values are floats because there are NaN values. This is a pandas gotcha.
 # need to test if this will work with Gephi
