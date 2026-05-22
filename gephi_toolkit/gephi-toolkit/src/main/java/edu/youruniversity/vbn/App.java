@@ -624,11 +624,12 @@ Color lightGray = Color.decode("#D3D3D3");
     // Map modularity class → color
     Map<Integer, Color> classColors = new HashMap<>();
 
-// Case 1: Low modularity → all nodes gray
+// Case 1: Low modularity → all nodes blue
+Color sameBlue = Color.decode("#2891ff");
 if (modularityValue < 0.3) {
 
     for (Node node : graph.getNodes()) {
-        node.setColor(lightGray);
+        node.setColor(sameBlue);
     }
 
 } else if (colorChoice == 1) {
