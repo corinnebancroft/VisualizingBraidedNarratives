@@ -2,6 +2,7 @@
 
 from pathlib import Path
 import pandas as pd
+import calendar
 
 # Ask user for the CSV file name (including .csv)
 in_filename = input("Enter the CSV file name (including .csv): ").strip()
@@ -176,6 +177,30 @@ def normalize_to_iso(s: str) -> str:
             pass
         return ""
 
+
+
+    def clamp_to_valid_date(iso_date: str) -> str:
+        """
+        Ensure YYYY-MM-DD is a real calendar date.
+        If the day exceeds the month's max, clamp it to the last valid day.
+        Example: 2006-09-31 -> 2006-09-30
+        """
+        if not iso_date:
+            return ""
+
+        try:
+            y, mo, d = map(int, iso_date.split("-"))
+            max_day = calendar.monthrange(y, mo)[1]
+            if d > max_day:
+                # Optional: print a warning so you can see corrections
+                print(f"Adjusted invalid date {iso_date} -> {y:04d}-{mo:02d}-{max_day:02d}")
+                d = max_day
+            return f"{y:04d}-{mo:02d}-{d:02d}"
+        except Exception:
+            return ""
+
+
+
     # 5) Try M-D-YYYY
     m = RE_MDY.match(s)
     if m:
@@ -193,7 +218,7 @@ def normalize_to_iso(s: str) -> str:
 for col in DATE_COLS:
     if col in df.columns:
         raw = df[col].astype(str)
-        fixed = raw.map(normalize_to_iso)
+        fixed = raw.map(normalize_to_iso).map(clamp_to_valid_date)
 
         # Assign normalized dates
         df[col] = fixed
