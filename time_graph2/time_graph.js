@@ -272,12 +272,24 @@ function showPopup(el, html, evt){
     el.innerHTML = html;
     addCloseButton(el);
 
-    if (evt){
-        el.style.left = evt.pageX + 12 + 'px';
-        el.style.top  = evt.pageY + 12 + 'px';
-    }
-
+    // Show first so dimensions are measurable
     el.style.display = 'block';
+
+    if (evt){
+        let left = evt.pageX + 12;
+        let top  = evt.pageY + 12;
+
+        const rect = el.getBoundingClientRect();
+
+        const maxX = window.innerWidth  - rect.width  - 10;
+        const maxY = window.innerHeight - rect.height - 10;
+
+        if (left > maxX) left = maxX;
+        if (top  > maxY) top  = maxY;
+
+        el.style.left = left + 'px';
+        el.style.top  = top  + 'px';
+    }
 }
 
 function setSelectedGraphElement(el){
