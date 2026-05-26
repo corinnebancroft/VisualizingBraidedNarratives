@@ -59,6 +59,10 @@ color_map = {char: color_dict.get(char, 'gray') for char in all_characters}
 # Create figure size
 fig, ax = plt.subplots(figsize=(16, 9))
 
+ax.set_facecolor('black')          # plotting area background
+
+
+
 # Define a single radius in page units
 circle_radius = 4  # adjust this value to control spacing
 
