@@ -1,0 +1,2800 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1160.379599pt" height="656.39952pt" viewBox="0 0 1160.379599 656.39952" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-05-26T22:22:02.458548</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 656.39952 
+L 1160.379599 656.39952 
+L 1160.379599 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 64.328125 618.84327 
+L 1005.934962 618.84327 
+L 1005.934962 22.318125 
+L 64.328125 22.318125 
+z
+"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m8fe0513655" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m8fe0513655" x="103.538886" y="618.84327" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="103.538886" y="633.441707" transform="rotate(-0 103.538886 633.441707)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m8fe0513655" x="220.393955" y="618.84327" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="220.393955" y="633.441707" transform="rotate(-0 220.393955 633.441707)">50</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m8fe0513655" x="337.249024" y="618.84327" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="337.249024" y="633.441707" transform="rotate(-0 337.249024 633.441707)">100</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m8fe0513655" x="454.104093" y="618.84327" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="454.104093" y="633.441707" transform="rotate(-0 454.104093 633.441707)">150</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m8fe0513655" x="570.959162" y="618.84327" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="570.959162" y="633.441707" transform="rotate(-0 570.959162 633.441707)">200</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m8fe0513655" x="687.814232" y="618.84327" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="687.814232" y="633.441707" transform="rotate(-0 687.814232 633.441707)">250</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m8fe0513655" x="804.669301" y="618.84327" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="804.669301" y="633.441707" transform="rotate(-0 804.669301 633.441707)">300</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m8fe0513655" x="921.52437" y="618.84327" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="921.52437" y="633.441707" transform="rotate(-0 921.52437 633.441707)">350</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="535.131544" y="647.119832" transform="rotate(-0 535.131544 647.119832)">Text Time</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <defs>
+       <path id="m911657b0c5" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m911657b0c5" x="64.328125" y="588.757681" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="57.328125" y="592.5569" transform="rotate(-0 57.328125 592.5569)">1789</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m911657b0c5" x="64.328125" y="499.103132" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="57.328125" y="502.902351" transform="rotate(-0 57.328125 502.902351)">1790</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m911657b0c5" x="64.328125" y="409.448584" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="57.328125" y="413.247802" transform="rotate(-0 57.328125 413.247802)">1791</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m911657b0c5" x="64.328125" y="319.794035" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="57.328125" y="323.593254" transform="rotate(-0 57.328125 323.593254)">1792</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m911657b0c5" x="64.328125" y="229.893857" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="57.328125" y="233.693076" transform="rotate(-0 57.328125 233.693076)">1793</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m911657b0c5" x="64.328125" y="140.239309" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="57.328125" y="144.038528" transform="rotate(-0 57.328125 144.038528)">1794</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m911657b0c5" x="64.328125" y="50.58476" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: end" x="57.328125" y="54.383979" transform="rotate(-0 57.328125 54.383979)">1795</text>
+     </g>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="14.798437" y="320.580697" transform="rotate(-90 14.798437 320.580697)">Story Time</text>
+    </g>
+   </g>
+   <g id="narrmark_0_3rd_Person_Narrator_PP_">
+    <defs>
+     <path id="mcb5225fc99" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #c0c0c0"/>
+    </defs>
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="430.733079" y="588.757681" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_0_Mr_Darcy">
+    <defs>
+     <path id="m9c5c100567" d="M 0 1.25 
+C 0.331504 1.25 0.649475 1.118292 0.883883 0.883883 
+C 1.118292 0.649475 1.25 0.331504 1.25 0 
+C 1.25 -0.331504 1.118292 -0.649475 0.883883 -0.883883 
+C 0.649475 -1.118292 0.331504 -1.25 0 -1.25 
+C -0.331504 -1.25 -0.649475 -1.118292 -0.883883 -0.883883 
+C -1.118292 -0.649475 -1.25 -0.331504 -1.25 0 
+C -1.25 0.331504 -1.118292 0.649475 -0.883883 0.883883 
+C -0.649475 1.118292 -0.331504 1.25 0 1.25 
+z
+" style="stroke: #ff0000"/>
+    </defs>
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="430.733079" y="582.816062" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_0_Mr_Darcy">
+    <path d="M 430.733079 588.757681 
+L 430.733079 582.816062 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_0_Mr_Wickham">
+    <defs>
+     <path id="mb9ea438bc9" d="M 0 1.25 
+C 0.331504 1.25 0.649475 1.118292 0.883883 0.883883 
+C 1.118292 0.649475 1.25 0.331504 1.25 0 
+C 1.25 -0.331504 1.118292 -0.649475 0.883883 -0.883883 
+C 0.649475 -1.118292 0.331504 -1.25 0 -1.25 
+C -0.331504 -1.25 -0.649475 -1.118292 -0.883883 -0.883883 
+C -1.118292 -0.649475 -1.25 -0.331504 -1.25 0 
+C -1.25 0.331504 -1.118292 0.649475 -0.883883 0.883883 
+C -0.649475 1.118292 -0.331504 1.25 0 1.25 
+z
+" style="stroke: #ffff00"/>
+    </defs>
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="438.829036" y="591.728491" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_0_Mr_Wickham">
+    <path d="M 430.733079 588.757681 
+L 438.829036 591.728491 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_0_Other_characters">
+    <defs>
+     <path id="m9905eff983" d="M 0 1.25 
+C 0.331504 1.25 0.649475 1.118292 0.883883 0.883883 
+C 1.118292 0.649475 1.25 0.331504 1.25 0 
+C 1.25 -0.331504 1.118292 -0.649475 0.883883 -0.883883 
+C 0.649475 -1.118292 0.331504 -1.25 0 -1.25 
+C -0.331504 -1.25 -0.649475 -1.118292 -0.883883 -0.883883 
+C -1.118292 -0.649475 -1.25 -0.331504 -1.25 0 
+C -1.25 0.331504 -1.118292 0.649475 -0.883883 0.883883 
+C -0.649475 1.118292 -0.331504 1.25 0 1.25 
+z
+" style="stroke: #c0c0c0"/>
+    </defs>
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="422.637123" y="591.728491" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_0_Other_characters">
+    <path d="M 430.733079 588.757681 
+L 422.637123 591.728491 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_1_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="559.273655" y="588.757681" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_1_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="559.273655" y="582.816062" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_1_Mr_Darcy">
+    <path d="M 559.273655 588.757681 
+L 559.273655 582.816062 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_1_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="567.369612" y="591.728491" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_1_Mr_Wickham">
+    <path d="M 559.273655 588.757681 
+L 567.369612 591.728491 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_1_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="551.177699" y="591.728491" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_1_Other_characters">
+    <path d="M 559.273655 588.757681 
+L 551.177699 591.728491 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_2_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="559.273655" y="319.794035" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_2_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="559.273655" y="313.852416" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_2_Mr_Darcy">
+    <path d="M 559.273655 319.794035 
+L 559.273655 313.852416 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_2_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="559.273655" y="325.735654" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_2_Mr_Wickham">
+    <path d="M 559.273655 319.794035 
+L 559.273655 325.735654 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_3_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="734.556259" y="319.794035" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_3_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="734.556259" y="313.852416" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_3_Mr_Darcy">
+    <path d="M 734.556259 319.794035 
+L 734.556259 313.852416 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_3_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="734.556259" y="325.735654" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_3_Mr_Wickham">
+    <path d="M 734.556259 319.794035 
+L 734.556259 325.735654 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_4_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="561.610757" y="177.329273" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_4_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="561.610757" y="171.387653" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_4_Mr_Darcy">
+    <path d="M 561.610757 177.329273 
+L 561.610757 171.387653 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_4_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="569.706713" y="180.300082" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_4_Mr_Wickham">
+    <path d="M 561.610757 177.329273 
+L 569.706713 180.300082 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_4_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="553.5148" y="180.300082" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_4_Other_characters">
+    <path d="M 561.610757 177.329273 
+L 553.5148 180.300082 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_5_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="734.556259" y="177.329273" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_5_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="734.556259" y="171.387653" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_5_Mr_Darcy">
+    <path d="M 734.556259 177.329273 
+L 734.556259 171.387653 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_5_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="742.652216" y="180.300082" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_5_Mr_Wickham">
+    <path d="M 734.556259 177.329273 
+L 742.652216 180.300082 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_5_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="726.460303" y="180.300082" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_5_Other_characters">
+    <path d="M 734.556259 177.329273 
+L 726.460303 180.300082 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_6_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="115.224392" y="163.328425" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_6_Mr_Bingley">
+    <defs>
+     <path id="m55de29794a" d="M 0 1.25 
+C 0.331504 1.25 0.649475 1.118292 0.883883 0.883883 
+C 1.118292 0.649475 1.25 0.331504 1.25 0 
+C 1.25 -0.331504 1.118292 -0.649475 0.883883 -0.883883 
+C 0.649475 -1.118292 0.331504 -1.25 0 -1.25 
+C -0.331504 -1.25 -0.649475 -1.118292 -0.883883 -0.883883 
+C -1.118292 -0.649475 -1.25 -0.331504 -1.25 0 
+C -1.25 0.331504 -1.118292 0.649475 -0.883883 0.883883 
+C -0.649475 1.118292 -0.331504 1.25 0 1.25 
+z
+" style="stroke: #ff00ff"/>
+    </defs>
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="115.224392" y="157.386806" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_6_Mr_Bingley">
+    <path d="M 115.224392 163.328425 
+L 115.224392 157.386806 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_6_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="123.320349" y="166.299235" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_6_Mr_Darcy">
+    <path d="M 115.224392 163.328425 
+L 123.320349 166.299235 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_6_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="107.128436" y="166.299235" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_6_Other_characters">
+    <path d="M 115.224392 163.328425 
+L 107.128436 166.299235 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_7_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="542.913946" y="157.92459" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_7_Elizabeth_Bennet">
+    <defs>
+     <path id="md5a65c0440" d="M 0 1.25 
+C 0.331504 1.25 0.649475 1.118292 0.883883 0.883883 
+C 1.118292 0.649475 1.25 0.331504 1.25 0 
+C 1.25 -0.331504 1.118292 -0.649475 0.883883 -0.883883 
+C 0.649475 -1.118292 0.331504 -1.25 0 -1.25 
+C -0.331504 -1.25 -0.649475 -1.118292 -0.883883 -0.883883 
+C -1.118292 -0.649475 -1.25 -0.331504 -1.25 0 
+C -1.25 0.331504 -1.118292 0.649475 -0.883883 0.883883 
+C -0.649475 1.118292 -0.331504 1.25 0 1.25 
+z
+" style="stroke: #2891ff"/>
+    </defs>
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="542.913946" y="151.98297" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_7_Elizabeth_Bennet">
+    <path d="M 542.913946 157.92459 
+L 542.913946 151.98297 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_7_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="551.009902" y="160.895399" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_7_Mr_Darcy">
+    <path d="M 542.913946 157.92459 
+L 551.009902 160.895399 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_7_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="534.817989" y="160.895399" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_7_Other_characters">
+    <path d="M 542.913946 157.92459 
+L 534.817989 160.895399 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_8_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="150.280913" y="157.92459" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_8_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="150.280913" y="151.98297" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_8_Elizabeth_Bennet">
+    <path d="M 150.280913 157.92459 
+L 150.280913 151.98297 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_8_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="158.37687" y="160.895399" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_8_Mr_Darcy">
+    <path d="M 150.280913 157.92459 
+L 158.37687 160.895399 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_8_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="142.184957" y="160.895399" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_8_Other_characters">
+    <path d="M 150.280913 157.92459 
+L 142.184957 160.895399 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_9_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="145.60671" y="157.92459" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_9_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="145.60671" y="151.98297" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_9_Elizabeth_Bennet">
+    <path d="M 145.60671 157.92459 
+L 145.60671 151.98297 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_9_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="153.702667" y="160.895399" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_9_Mr_Darcy">
+    <path d="M 145.60671 157.92459 
+L 153.702667 160.895399 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_9_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="137.510754" y="160.895399" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_9_Other_characters">
+    <path d="M 145.60671 157.92459 
+L 137.510754 160.895399 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_10_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="175.989028" y="152.520754" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_10_Jane_Bennet">
+    <defs>
+     <path id="m77f04e68bb" d="M 0 1.25 
+C 0.331504 1.25 0.649475 1.118292 0.883883 0.883883 
+C 1.118292 0.649475 1.25 0.331504 1.25 0 
+C 1.25 -0.331504 1.118292 -0.649475 0.883883 -0.883883 
+C 0.649475 -1.118292 0.331504 -1.25 0 -1.25 
+C -0.331504 -1.25 -0.649475 -1.118292 -0.883883 -0.883883 
+C -1.118292 -0.649475 -1.25 -0.331504 -1.25 0 
+C -1.25 0.331504 -1.118292 0.649475 -0.883883 0.883883 
+C -0.649475 1.118292 -0.331504 1.25 0 1.25 
+z
+" style="stroke: #e5b4af"/>
+    </defs>
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="175.989028" y="146.579134" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_10_Jane_Bennet">
+    <path d="M 175.989028 152.520754 
+L 175.989028 146.579134 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_10_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="185.337434" y="152.520754" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_10_Mr_Bingley">
+    <path d="M 175.989028 152.520754 
+L 185.337434 152.520754 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_10_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="175.989028" y="158.462373" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_10_Mr_Darcy">
+    <path d="M 175.989028 152.520754 
+L 175.989028 158.462373 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_10_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="166.640623" y="152.520754" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_10_Other_characters">
+    <path d="M 175.989028 152.520754 
+L 166.640623 152.520754 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_11_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="183.000333" y="151.661053" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_11_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="183.000333" y="145.719433" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_11_Elizabeth_Bennet">
+    <path d="M 183.000333 151.661053 
+L 183.000333 145.719433 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_11_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="191.891195" y="149.824991" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_11_Jane_Bennet">
+    <path d="M 183.000333 151.661053 
+L 191.891195 149.824991 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_11_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="188.495187" y="156.467924" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_11_Mr_Bingley">
+    <path d="M 183.000333 151.661053 
+L 188.495187 156.467924 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_11_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="177.505478" y="156.467924" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_11_Mr_Darcy">
+    <path d="M 183.000333 151.661053 
+L 177.505478 156.467924 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_11_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="174.109471" y="149.824991" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_11_Other_characters">
+    <path d="M 183.000333 151.661053 
+L 174.109471 149.824991 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_12_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="944.895384" y="151.661053" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_12_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="944.895384" y="145.719433" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_12_Elizabeth_Bennet">
+    <path d="M 944.895384 151.661053 
+L 944.895384 145.719433 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_12_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="953.786246" y="149.824991" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_12_Jane_Bennet">
+    <path d="M 944.895384 151.661053 
+L 953.786246 149.824991 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_12_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="950.390239" y="156.467924" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_12_Mr_Bingley">
+    <path d="M 944.895384 151.661053 
+L 950.390239 156.467924 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_12_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="939.400529" y="156.467924" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_12_Mr_Darcy">
+    <path d="M 944.895384 151.661053 
+L 939.400529 156.467924 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_12_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="936.004522" y="149.824991" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_12_Other_characters">
+    <path d="M 944.895384 151.661053 
+L 936.004522 149.824991 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_13_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="269.473084" y="150.801352" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_13_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="269.473084" y="144.859732" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_13_Elizabeth_Bennet">
+    <path d="M 269.473084 150.801352 
+L 269.473084 144.859732 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_13_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="278.363946" y="148.96529" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_13_Jane_Bennet">
+    <path d="M 269.473084 150.801352 
+L 278.363946 148.96529 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_13_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="274.967939" y="155.608223" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_13_Mr_Darcy">
+    <path d="M 269.473084 150.801352 
+L 274.967939 155.608223 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_13_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="263.978229" y="155.608223" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_13_Mr_Wickham">
+    <path d="M 269.473084 150.801352 
+L 263.978229 155.608223 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_13_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="260.582222" y="148.96529" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_13_Other_characters">
+    <path d="M 269.473084 150.801352 
+L 260.582222 148.96529 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_14_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="687.814232" y="149.081949" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_14_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="687.814232" y="143.14033" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_14_Elizabeth_Bennet">
+    <path d="M 687.814232 149.081949 
+L 687.814232 143.14033 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_14_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="695.910188" y="146.11114" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_14_Jane_Bennet">
+    <path d="M 687.814232 149.081949 
+L 695.910188 146.11114 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_14_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="695.910188" y="152.052759" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_14_Mr_Bingley">
+    <path d="M 687.814232 149.081949 
+L 695.910188 152.052759 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_14_Mr_Collins">
+    <defs>
+     <path id="m3ee01c09a1" d="M 0 1.25 
+C 0.331504 1.25 0.649475 1.118292 0.883883 0.883883 
+C 1.118292 0.649475 1.25 0.331504 1.25 0 
+C 1.25 -0.331504 1.118292 -0.649475 0.883883 -0.883883 
+C 0.649475 -1.118292 0.331504 -1.25 0 -1.25 
+C -0.331504 -1.25 -0.649475 -1.118292 -0.883883 -0.883883 
+C -1.118292 -0.649475 -1.25 -0.331504 -1.25 0 
+C -1.25 0.331504 -1.118292 0.649475 -0.883883 0.883883 
+C -0.649475 1.118292 -0.331504 1.25 0 1.25 
+z
+" style="stroke: #00ff00"/>
+    </defs>
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m3ee01c09a1" x="687.814232" y="155.023569" style="fill: #00ff00; stroke: #00ff00"/>
+    </g>
+   </g>
+   <g id="charline_14_Mr_Collins">
+    <path d="M 687.814232 149.081949 
+L 687.814232 155.023569 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #00ff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_14_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="679.718275" y="152.052759" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_14_Mr_Darcy">
+    <path d="M 687.814232 149.081949 
+L 679.718275 152.052759 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_14_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="679.718275" y="146.11114" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_14_Other_characters">
+    <path d="M 687.814232 149.081949 
+L 679.718275 146.11114 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_15_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="302.192503" y="149.081949" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_15_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="302.192503" y="143.14033" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_15_Elizabeth_Bennet">
+    <path d="M 302.192503 149.081949 
+L 302.192503 143.14033 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_15_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="310.28846" y="146.11114" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_15_Jane_Bennet">
+    <path d="M 302.192503 149.081949 
+L 310.28846 146.11114 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_15_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="310.28846" y="152.052759" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_15_Mr_Bingley">
+    <path d="M 302.192503 149.081949 
+L 310.28846 152.052759 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_15_Mr_Collins">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m3ee01c09a1" x="302.192503" y="155.023569" style="fill: #00ff00; stroke: #00ff00"/>
+    </g>
+   </g>
+   <g id="charline_15_Mr_Collins">
+    <path d="M 302.192503 149.081949 
+L 302.192503 155.023569 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #00ff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_15_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="294.096546" y="152.052759" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_15_Mr_Darcy">
+    <path d="M 302.192503 149.081949 
+L 294.096546 152.052759 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_15_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="294.096546" y="146.11114" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_15_Other_characters">
+    <path d="M 302.192503 149.081949 
+L 294.096546 146.11114 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_16_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="554.599453" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_16_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="554.599453" y="142.771886" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_16_Jane_Bennet">
+    <path d="M 554.599453 148.713506 
+L 554.599453 142.771886 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_16_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="563.947858" y="148.713506" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_16_Mr_Bingley">
+    <path d="M 554.599453 148.713506 
+L 563.947858 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_16_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="554.599453" y="154.655125" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_16_Mr_Darcy">
+    <path d="M 554.599453 148.713506 
+L 554.599453 154.655125 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_16_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="545.251047" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_16_Other_characters">
+    <path d="M 554.599453 148.713506 
+L 545.251047 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_17_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="369.968443" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_17_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="369.968443" y="142.771886" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_17_Jane_Bennet">
+    <path d="M 369.968443 148.713506 
+L 369.968443 142.771886 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_17_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="379.316849" y="148.713506" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_17_Mr_Bingley">
+    <path d="M 369.968443 148.713506 
+L 379.316849 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_17_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="369.968443" y="154.655125" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_17_Mr_Darcy">
+    <path d="M 369.968443 148.713506 
+L 369.968443 154.655125 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_17_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="360.620038" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_17_Other_characters">
+    <path d="M 369.968443 148.713506 
+L 360.620038 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_18_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="507.857425" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_18_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="507.857425" y="142.771886" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_18_Jane_Bennet">
+    <path d="M 507.857425 148.713506 
+L 507.857425 142.771886 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_18_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="517.205831" y="148.713506" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_18_Mr_Bingley">
+    <path d="M 507.857425 148.713506 
+L 517.205831 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_18_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="507.857425" y="154.655125" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_18_Mr_Darcy">
+    <path d="M 507.857425 148.713506 
+L 507.857425 154.655125 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_18_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="498.509019" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_18_Other_characters">
+    <path d="M 507.857425 148.713506 
+L 498.509019 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_19_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="526.554236" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_19_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="526.554236" y="142.771886" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_19_Jane_Bennet">
+    <path d="M 526.554236 148.713506 
+L 526.554236 142.771886 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_19_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="535.902642" y="148.713506" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_19_Mr_Bingley">
+    <path d="M 526.554236 148.713506 
+L 535.902642 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_19_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="526.554236" y="154.655125" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_19_Mr_Darcy">
+    <path d="M 526.554236 148.713506 
+L 526.554236 154.655125 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_19_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="517.205831" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_19_Other_characters">
+    <path d="M 526.554236 148.713506 
+L 517.205831 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_20_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="540.576844" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_20_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="540.576844" y="142.771886" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_20_Jane_Bennet">
+    <path d="M 540.576844 148.713506 
+L 540.576844 142.771886 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_20_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="549.92525" y="148.713506" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_20_Mr_Bingley">
+    <path d="M 540.576844 148.713506 
+L 549.92525 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_20_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="540.576844" y="154.655125" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_20_Mr_Darcy">
+    <path d="M 540.576844 148.713506 
+L 540.576844 154.655125 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_20_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="531.228439" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_20_Other_characters">
+    <path d="M 540.576844 148.713506 
+L 531.228439 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_21_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="381.65395" y="148.83632" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_21_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="381.65395" y="142.894701" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_21_Elizabeth_Bennet">
+    <path d="M 381.65395 148.83632 
+L 381.65395 142.894701 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_21_Mr_Collins">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m3ee01c09a1" x="381.65395" y="154.77794" style="fill: #00ff00; stroke: #00ff00"/>
+    </g>
+   </g>
+   <g id="charline_21_Mr_Collins">
+    <path d="M 381.65395 148.83632 
+L 381.65395 154.77794 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #00ff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_22_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="341.923227" y="148.83632" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_22_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="341.923227" y="142.894701" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_22_Elizabeth_Bennet">
+    <path d="M 341.923227 148.83632 
+L 341.923227 142.894701 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_22_Mr_Collins">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m3ee01c09a1" x="341.923227" y="154.77794" style="fill: #00ff00; stroke: #00ff00"/>
+    </g>
+   </g>
+   <g id="charline_22_Mr_Collins">
+    <path d="M 341.923227 148.83632 
+L 341.923227 154.77794 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #00ff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_23_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="844.400024" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_23_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="844.400024" y="142.771886" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_23_Jane_Bennet">
+    <path d="M 844.400024 148.713506 
+L 844.400024 142.771886 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_23_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="853.74843" y="148.713506" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_23_Mr_Bingley">
+    <path d="M 844.400024 148.713506 
+L 853.74843 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_23_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="844.400024" y="154.655125" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_23_Mr_Darcy">
+    <path d="M 844.400024 148.713506 
+L 844.400024 154.655125 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_23_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="835.051619" y="148.713506" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_23_Other_characters">
+    <path d="M 844.400024 148.713506 
+L 835.051619 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_24_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="383.991052" y="148.099434" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_24_Mr_Collins">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m3ee01c09a1" x="383.991052" y="142.157814" style="fill: #00ff00; stroke: #00ff00"/>
+    </g>
+   </g>
+   <g id="charline_24_Mr_Collins">
+    <path d="M 383.991052 148.099434 
+L 383.991052 142.157814 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #00ff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_24_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="383.991052" y="154.041053" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_24_Other_characters">
+    <path d="M 383.991052 148.099434 
+L 383.991052 154.041053 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_25_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="556.936554" y="169.346334" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_25_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="556.936554" y="163.404714" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_25_Jane_Bennet">
+    <path d="M 556.936554 169.346334 
+L 556.936554 163.404714 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_25_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="556.936554" y="175.287953" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_25_Other_characters">
+    <path d="M 556.936554 169.346334 
+L 556.936554 175.287953 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_26_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="437.744383" y="169.346334" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_26_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="437.744383" y="163.404714" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_26_Jane_Bennet">
+    <path d="M 437.744383 169.346334 
+L 437.744383 163.404714 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_26_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="437.744383" y="175.287953" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_26_Other_characters">
+    <path d="M 437.744383 169.346334 
+L 437.744383 175.287953 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_27_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="874.782342" y="169.346334" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_27_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="874.782342" y="163.404714" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_27_Jane_Bennet">
+    <path d="M 874.782342 169.346334 
+L 874.782342 163.404714 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_27_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="874.782342" y="175.287953" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_27_Other_characters">
+    <path d="M 874.782342 169.346334 
+L 874.782342 175.287953 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_28_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="437.744383" y="138.274278" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_28_Mr_Collins">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m3ee01c09a1" x="437.744383" y="132.332658" style="fill: #00ff00; stroke: #00ff00"/>
+    </g>
+   </g>
+   <g id="charline_28_Mr_Collins">
+    <path d="M 437.744383 138.274278 
+L 437.744383 132.332658 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #00ff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_28_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="437.744383" y="144.215897" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_28_Other_characters">
+    <path d="M 437.744383 138.274278 
+L 437.744383 144.215897 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_29_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="456.441195" y="116.658934" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_29_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="456.441195" y="110.717315" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_29_Elizabeth_Bennet">
+    <path d="M 456.441195 116.658934 
+L 456.441195 110.717315 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_29_Mr_Collins">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m3ee01c09a1" x="464.537151" y="119.629744" style="fill: #00ff00; stroke: #00ff00"/>
+    </g>
+   </g>
+   <g id="charline_29_Mr_Collins">
+    <path d="M 456.441195 116.658934 
+L 464.537151 119.629744 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #00ff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_29_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="448.345238" y="119.629744" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_29_Other_characters">
+    <path d="M 456.441195 116.658934 
+L 448.345238 119.629744 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_30_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="491.497715" y="115.307975" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_30_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="491.497715" y="109.366356" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_30_Mr_Darcy">
+    <path d="M 491.497715 115.307975 
+L 491.497715 109.366356 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_30_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="491.497715" y="121.249595" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_30_Other_characters">
+    <path d="M 491.497715 115.307975 
+L 491.497715 121.249595 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_31_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="549.92525" y="113.465759" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_31_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="549.92525" y="107.524139" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_31_Elizabeth_Bennet">
+    <path d="M 549.92525 113.465759 
+L 549.92525 107.524139 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_31_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="549.92525" y="119.407378" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_31_Mr_Darcy">
+    <path d="M 549.92525 113.465759 
+L 549.92525 119.407378 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_32_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="916.850167" y="115.922048" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_32_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="916.850167" y="109.980428" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_32_Elizabeth_Bennet">
+    <path d="M 916.850167 115.922048 
+L 916.850167 109.980428 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_32_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="916.850167" y="121.863667" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_32_Mr_Darcy">
+    <path d="M 916.850167 115.922048 
+L 916.850167 121.863667 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_33_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="711.185245" y="89.516941" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_33_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="711.185245" y="83.575321" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_33_Mr_Wickham">
+    <path d="M 711.185245 89.516941 
+L 711.185245 83.575321 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_33_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="711.185245" y="95.45856" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_33_Other_characters">
+    <path d="M 711.185245 89.516941 
+L 711.185245 95.45856 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_34_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="743.904665" y="89.516941" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_34_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="743.904665" y="83.575321" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_34_Mr_Wickham">
+    <path d="M 743.904665 89.516941 
+L 743.904665 83.575321 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_34_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="743.904665" y="95.45856" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_34_Other_characters">
+    <path d="M 743.904665 89.516941 
+L 743.904665 95.45856 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_35_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="748.578868" y="89.516941" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_35_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="748.578868" y="83.575321" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_35_Mr_Wickham">
+    <path d="M 748.578868 89.516941 
+L 748.578868 83.575321 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_35_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="748.578868" y="95.45856" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_35_Other_characters">
+    <path d="M 748.578868 89.516941 
+L 748.578868 95.45856 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_36_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="729.882056" y="89.516941" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_36_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="729.882056" y="83.575321" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_36_Mr_Wickham">
+    <path d="M 729.882056 89.516941 
+L 729.882056 83.575321 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_36_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="729.882056" y="95.45856" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_36_Other_characters">
+    <path d="M 729.882056 89.516941 
+L 729.882056 95.45856 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_37_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="919.187269" y="88.288796" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_37_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="919.187269" y="82.347177" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_37_Elizabeth_Bennet">
+    <path d="M 919.187269 88.288796 
+L 919.187269 82.347177 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_37_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="927.283225" y="91.259606" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_37_Mr_Darcy">
+    <path d="M 919.187269 88.288796 
+L 927.283225 91.259606 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_37_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="911.091312" y="91.259606" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_37_Other_characters">
+    <path d="M 919.187269 88.288796 
+L 911.091312 91.259606 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_38_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="657.431914" y="88.288796" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_38_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="657.431914" y="82.347177" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_38_Elizabeth_Bennet">
+    <path d="M 657.431914 88.288796 
+L 657.431914 82.347177 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_38_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="665.52787" y="91.259606" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_38_Mr_Darcy">
+    <path d="M 657.431914 88.288796 
+L 665.52787 91.259606 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_38_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="649.335957" y="91.259606" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_38_Other_characters">
+    <path d="M 657.431914 88.288796 
+L 649.335957 91.259606 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_39_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="814.017706" y="85.464064" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_39_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="814.017706" y="79.522445" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_39_Mr_Darcy">
+    <path d="M 814.017706 85.464064 
+L 814.017706 79.522445 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_39_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="822.113663" y="88.434874" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_39_Mr_Wickham">
+    <path d="M 814.017706 85.464064 
+L 822.113663 88.434874 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_39_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="805.92175" y="88.434874" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_39_Other_characters">
+    <path d="M 814.017706 85.464064 
+L 805.92175 88.434874 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_40_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="771.949881" y="85.464064" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_40_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="771.949881" y="79.522445" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_40_Mr_Darcy">
+    <path d="M 771.949881 85.464064 
+L 771.949881 79.522445 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_40_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="780.045838" y="88.434874" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_40_Mr_Wickham">
+    <path d="M 771.949881 85.464064 
+L 780.045838 88.434874 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_40_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="763.853925" y="88.434874" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_40_Other_characters">
+    <path d="M 771.949881 85.464064 
+L 763.853925 88.434874 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_41_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="944.895384" y="85.464064" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_41_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="944.895384" y="79.522445" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_41_Mr_Darcy">
+    <path d="M 944.895384 85.464064 
+L 944.895384 79.522445 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_41_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="952.99134" y="88.434874" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_41_Mr_Wickham">
+    <path d="M 944.895384 85.464064 
+L 952.99134 88.434874 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_41_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="936.799427" y="88.434874" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_41_Other_characters">
+    <path d="M 944.895384 85.464064 
+L 936.799427 88.434874 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_42_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="909.838863" y="85.464064" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_42_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="909.838863" y="79.522445" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_42_Mr_Darcy">
+    <path d="M 909.838863 85.464064 
+L 909.838863 79.522445 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_42_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="917.93482" y="88.434874" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_42_Mr_Wickham">
+    <path d="M 909.838863 85.464064 
+L 917.93482 88.434874 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_42_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="901.742906" y="88.434874" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_42_Other_characters">
+    <path d="M 909.838863 85.464064 
+L 901.742906 88.434874 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_43_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="771.949881" y="81.534002" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_43_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="771.949881" y="75.592382" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_43_Mr_Darcy">
+    <path d="M 771.949881 81.534002 
+L 771.949881 75.592382 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_43_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="780.045838" y="84.504811" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_43_Mr_Wickham">
+    <path d="M 771.949881 81.534002 
+L 780.045838 84.504811 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_43_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="763.853925" y="84.504811" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_43_Other_characters">
+    <path d="M 771.949881 81.534002 
+L 763.853925 84.504811 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_44_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="788.309591" y="81.534002" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_44_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="788.309591" y="75.592382" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_44_Mr_Darcy">
+    <path d="M 788.309591 81.534002 
+L 788.309591 75.592382 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_44_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="796.405548" y="84.504811" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_44_Mr_Wickham">
+    <path d="M 788.309591 81.534002 
+L 796.405548 84.504811 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_44_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="780.213634" y="84.504811" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_44_Other_characters">
+    <path d="M 788.309591 81.534002 
+L 780.213634 84.504811 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_45_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="799.995098" y="81.534002" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_45_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="799.995098" y="75.592382" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_45_Mr_Darcy">
+    <path d="M 799.995098 81.534002 
+L 799.995098 75.592382 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_45_Mr_Wickham">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mb9ea438bc9" x="808.091055" y="84.504811" style="fill: #ffff00; stroke: #ffff00"/>
+    </g>
+   </g>
+   <g id="charline_45_Mr_Wickham">
+    <path d="M 799.995098 81.534002 
+L 808.091055 84.504811 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ffff00; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_45_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="791.899141" y="84.504811" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_45_Other_characters">
+    <path d="M 799.995098 81.534002 
+L 791.899141 84.504811 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_46_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="849.074227" y="64.708422" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_46_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="849.074227" y="58.766803" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_46_Mr_Bingley">
+    <path d="M 849.074227 64.708422 
+L 849.074227 58.766803 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_46_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="849.074227" y="70.650041" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_46_Mr_Darcy">
+    <path d="M 849.074227 64.708422 
+L 849.074227 70.650041 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_47_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="835.051619" y="64.708422" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_47_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="835.051619" y="58.766803" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_47_Mr_Bingley">
+    <path d="M 835.051619 64.708422 
+L 835.051619 58.766803 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_47_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="835.051619" y="70.650041" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_47_Mr_Darcy">
+    <path d="M 835.051619 64.708422 
+L 835.051619 70.650041 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_48_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="944.895384" y="64.708422" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_48_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="944.895384" y="58.766803" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_48_Mr_Bingley">
+    <path d="M 944.895384 64.708422 
+L 944.895384 58.766803 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_48_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="944.895384" y="70.650041" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_48_Mr_Darcy">
+    <path d="M 944.895384 64.708422 
+L 944.895384 70.650041 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_49_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="867.771038" y="74.410764" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_49_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="867.771038" y="68.469144" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_49_Jane_Bennet">
+    <path d="M 867.771038 74.410764 
+L 867.771038 68.469144 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_49_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="867.771038" y="80.352383" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_49_Mr_Bingley">
+    <path d="M 867.771038 74.410764 
+L 867.771038 80.352383 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_50_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="921.52437" y="74.410764" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_50_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="921.52437" y="68.469144" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_50_Jane_Bennet">
+    <path d="M 921.52437 74.410764 
+L 921.52437 68.469144 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_50_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="921.52437" y="80.352383" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_50_Mr_Bingley">
+    <path d="M 921.52437 74.410764 
+L 921.52437 80.352383 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_51_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="947.232485" y="55.374524" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_51_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="947.232485" y="49.432904" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_51_Elizabeth_Bennet">
+    <path d="M 947.232485 55.374524 
+L 947.232485 49.432904 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_51_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="947.232485" y="61.316143" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_51_Mr_Darcy">
+    <path d="M 947.232485 55.374524 
+L 947.232485 61.316143 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_52_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="933.209877" y="55.374524" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_52_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="933.209877" y="49.432904" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_52_Elizabeth_Bennet">
+    <path d="M 933.209877 55.374524 
+L 933.209877 49.432904 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_52_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="933.209877" y="61.316143" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_52_Mr_Darcy">
+    <path d="M 933.209877 55.374524 
+L 933.209877 61.316143 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_53_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="926.198573" y="55.374524" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_53_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="926.198573" y="49.432904" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_53_Elizabeth_Bennet">
+    <path d="M 926.198573 55.374524 
+L 926.198573 49.432904 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_53_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="926.198573" y="61.316143" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_53_Mr_Darcy">
+    <path d="M 926.198573 55.374524 
+L 926.198573 61.316143 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_54_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="912.175964" y="55.374524" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_54_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="912.175964" y="49.432904" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_54_Elizabeth_Bennet">
+    <path d="M 912.175964 55.374524 
+L 912.175964 49.432904 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_54_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="912.175964" y="61.316143" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_54_Mr_Darcy">
+    <path d="M 912.175964 55.374524 
+L 912.175964 61.316143 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narrmark_55_3rd_Person_Narrator_PP_">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#mcb5225fc99" x="954.243789" y="55.374524" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="char_55_Elizabeth_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#md5a65c0440" x="954.243789" y="49.432904" style="fill: #2891ff; stroke: #2891ff"/>
+    </g>
+   </g>
+   <g id="charline_55_Elizabeth_Bennet">
+    <path d="M 954.243789 55.374524 
+L 954.243789 49.432904 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #2891ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_55_Jane_Bennet">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m77f04e68bb" x="963.134651" y="53.538462" style="fill: #e5b4af; stroke: #e5b4af"/>
+    </g>
+   </g>
+   <g id="charline_55_Jane_Bennet">
+    <path d="M 954.243789 55.374524 
+L 963.134651 53.538462 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #e5b4af; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_55_Mr_Bingley">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m55de29794a" x="959.738644" y="60.181395" style="fill: #ff00ff; stroke: #ff00ff"/>
+    </g>
+   </g>
+   <g id="charline_55_Mr_Bingley">
+    <path d="M 954.243789 55.374524 
+L 959.738644 60.181395 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff00ff; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_55_Mr_Darcy">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9c5c100567" x="948.748934" y="60.181395" style="fill: #ff0000; stroke: #ff0000"/>
+    </g>
+   </g>
+   <g id="charline_55_Mr_Darcy">
+    <path d="M 954.243789 55.374524 
+L 948.748934 60.181395 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #ff0000; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="char_55_Other_characters">
+    <g clip-path="url(#pa981a01fd9)">
+     <use xlink:href="#m9905eff983" x="945.352927" y="53.538462" style="fill: #c0c0c0; stroke: #c0c0c0"/>
+    </g>
+   </g>
+   <g id="charline_55_Other_characters">
+    <path d="M 954.243789 55.374524 
+L 945.352927 53.538462 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_0_3rd_Person_Narrator_PP_">
+    <path d="M 115.224392 163.328425 
+L 145.60671 157.92459 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_1_3rd_Person_Narrator_PP_">
+    <path d="M 145.60671 157.92459 
+L 150.280913 157.92459 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_2_3rd_Person_Narrator_PP_">
+    <path d="M 150.280913 157.92459 
+L 175.989028 152.520754 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_3_3rd_Person_Narrator_PP_">
+    <path d="M 175.989028 152.520754 
+L 183.000333 151.661053 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_4_3rd_Person_Narrator_PP_">
+    <path d="M 183.000333 151.661053 
+L 269.473084 150.801352 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_5_3rd_Person_Narrator_PP_">
+    <path d="M 269.473084 150.801352 
+L 302.192503 149.081949 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_6_3rd_Person_Narrator_PP_">
+    <path d="M 302.192503 149.081949 
+L 341.923227 148.83632 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_7_3rd_Person_Narrator_PP_">
+    <path d="M 341.923227 148.83632 
+L 369.968443 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_8_3rd_Person_Narrator_PP_">
+    <path d="M 369.968443 148.713506 
+L 381.65395 148.83632 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_9_3rd_Person_Narrator_PP_">
+    <path d="M 381.65395 148.83632 
+L 383.991052 148.099434 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_10_3rd_Person_Narrator_PP_">
+    <path d="M 383.991052 148.099434 
+L 430.733079 588.757681 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_11_3rd_Person_Narrator_PP_">
+    <path d="M 430.733079 588.757681 
+L 437.744383 138.274278 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_12_3rd_Person_Narrator_PP_">
+    <path d="M 437.744383 138.274278 
+L 437.744383 169.346334 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_13_3rd_Person_Narrator_PP_">
+    <path d="M 437.744383 169.346334 
+L 456.441195 116.658934 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_14_3rd_Person_Narrator_PP_">
+    <path d="M 456.441195 116.658934 
+L 491.497715 115.307975 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_15_3rd_Person_Narrator_PP_">
+    <path d="M 491.497715 115.307975 
+L 507.857425 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_16_3rd_Person_Narrator_PP_">
+    <path d="M 507.857425 148.713506 
+L 526.554236 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_17_3rd_Person_Narrator_PP_">
+    <path d="M 526.554236 148.713506 
+L 540.576844 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_18_3rd_Person_Narrator_PP_">
+    <path d="M 540.576844 148.713506 
+L 542.913946 157.92459 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_19_3rd_Person_Narrator_PP_">
+    <path d="M 542.913946 157.92459 
+L 549.92525 113.465759 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_20_3rd_Person_Narrator_PP_">
+    <path d="M 549.92525 113.465759 
+L 554.599453 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_21_3rd_Person_Narrator_PP_">
+    <path d="M 554.599453 148.713506 
+L 556.936554 169.346334 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_22_3rd_Person_Narrator_PP_">
+    <path d="M 556.936554 169.346334 
+L 559.273655 319.794035 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_23_3rd_Person_Narrator_PP_">
+    <path d="M 559.273655 319.794035 
+L 559.273655 588.757681 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_24_3rd_Person_Narrator_PP_">
+    <path d="M 559.273655 588.757681 
+L 561.610757 177.329273 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_25_3rd_Person_Narrator_PP_">
+    <path d="M 561.610757 177.329273 
+L 657.431914 88.288796 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_26_3rd_Person_Narrator_PP_">
+    <path d="M 657.431914 88.288796 
+L 687.814232 149.081949 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_27_3rd_Person_Narrator_PP_">
+    <path d="M 687.814232 149.081949 
+L 711.185245 89.516941 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_28_3rd_Person_Narrator_PP_">
+    <path d="M 711.185245 89.516941 
+L 729.882056 89.516941 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_29_3rd_Person_Narrator_PP_">
+    <path d="M 729.882056 89.516941 
+L 734.556259 319.794035 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_30_3rd_Person_Narrator_PP_">
+    <path d="M 734.556259 319.794035 
+L 734.556259 177.329273 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_31_3rd_Person_Narrator_PP_">
+    <path d="M 734.556259 177.329273 
+L 743.904665 89.516941 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_32_3rd_Person_Narrator_PP_">
+    <path d="M 743.904665 89.516941 
+L 748.578868 89.516941 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_33_3rd_Person_Narrator_PP_">
+    <path d="M 748.578868 89.516941 
+L 771.949881 85.464064 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_34_3rd_Person_Narrator_PP_">
+    <path d="M 771.949881 85.464064 
+L 771.949881 81.534002 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_35_3rd_Person_Narrator_PP_">
+    <path d="M 771.949881 81.534002 
+L 788.309591 81.534002 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_36_3rd_Person_Narrator_PP_">
+    <path d="M 788.309591 81.534002 
+L 799.995098 81.534002 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_37_3rd_Person_Narrator_PP_">
+    <path d="M 799.995098 81.534002 
+L 814.017706 85.464064 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_38_3rd_Person_Narrator_PP_">
+    <path d="M 814.017706 85.464064 
+L 835.051619 64.708422 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_39_3rd_Person_Narrator_PP_">
+    <path d="M 835.051619 64.708422 
+L 844.400024 148.713506 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_40_3rd_Person_Narrator_PP_">
+    <path d="M 844.400024 148.713506 
+L 849.074227 64.708422 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_41_3rd_Person_Narrator_PP_">
+    <path d="M 849.074227 64.708422 
+L 867.771038 74.410764 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_42_3rd_Person_Narrator_PP_">
+    <path d="M 867.771038 74.410764 
+L 874.782342 169.346334 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_43_3rd_Person_Narrator_PP_">
+    <path d="M 874.782342 169.346334 
+L 909.838863 85.464064 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_44_3rd_Person_Narrator_PP_">
+    <path d="M 909.838863 85.464064 
+L 912.175964 55.374524 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_45_3rd_Person_Narrator_PP_">
+    <path d="M 912.175964 55.374524 
+L 916.850167 115.922048 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_46_3rd_Person_Narrator_PP_">
+    <path d="M 916.850167 115.922048 
+L 919.187269 88.288796 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_47_3rd_Person_Narrator_PP_">
+    <path d="M 919.187269 88.288796 
+L 921.52437 74.410764 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_48_3rd_Person_Narrator_PP_">
+    <path d="M 921.52437 74.410764 
+L 926.198573 55.374524 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_49_3rd_Person_Narrator_PP_">
+    <path d="M 926.198573 55.374524 
+L 933.209877 55.374524 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_50_3rd_Person_Narrator_PP_">
+    <path d="M 933.209877 55.374524 
+L 944.895384 85.464064 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_51_3rd_Person_Narrator_PP_">
+    <path d="M 944.895384 85.464064 
+L 944.895384 64.708422 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_52_3rd_Person_Narrator_PP_">
+    <path d="M 944.895384 64.708422 
+L 944.895384 151.661053 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_53_3rd_Person_Narrator_PP_">
+    <path d="M 944.895384 151.661053 
+L 947.232485 55.374524 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="narr_guidelines_54_3rd_Person_Narrator_PP_">
+    <path d="M 947.232485 55.374524 
+L 954.243789 55.374524 
+" clip-path="url(#pa981a01fd9)" style="fill: none; stroke: #c0c0c0; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 64.328125 618.84327 
+L 64.328125 22.318125 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 1005.934962 618.84327 
+L 1005.934962 22.318125 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 64.328125 618.84327 
+L 1005.934962 618.84327 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 64.328125 22.318125 
+L 1005.934962 22.318125 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="graphTitle">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="535.131544" y="16.318125" transform="rotate(-0 535.131544 16.318125)">Pride and Prejudice</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_7">
+     <path d="M 1026.767099 54.674375 
+L 1180.342099 54.674375 
+Q 1182.342099 54.674375 1182.342099 52.674375 
+L 1182.342099 24.318125 
+Q 1182.342099 22.318125 1180.342099 22.318125 
+L 1026.767099 22.318125 
+Q 1024.767099 22.318125 1024.767099 24.318125 
+L 1024.767099 52.674375 
+Q 1024.767099 54.674375 1026.767099 54.674375 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1079.982724" y="33.916562" transform="rotate(-0 1079.982724 33.916562)">Narrators</text>
+    </g>
+    <g id="line2d_16">
+     <path d="M 1028.767099 45.094687 
+L 1038.767099 45.094687 
+L 1048.767099 45.094687 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="mda311df956" d="M 0 5 
+C 1.326016 5 2.597899 4.473168 3.535534 3.535534 
+C 4.473168 2.597899 5 1.326016 5 0 
+C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 
+C 2.597899 -4.473168 1.326016 -5 0 -5 
+C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 
+C -4.473168 -2.597899 -5 -1.326016 -5 0 
+C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 
+C -2.597899 4.473168 -1.326016 5 0 5 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#mda311df956" x="1038.767099" y="45.094687" style="fill: #c0c0c0; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1056.767099" y="48.594687" transform="rotate(-0 1056.767099 48.594687)">3rd Person Narrator (PP)</text>
+    </g>
+   </g>
+   <g id="legend_2">
+    <g id="patch_8">
+     <path d="M 1026.767099 455.683822 
+L 1151.179599 455.683822 
+Q 1153.179599 455.683822 1153.179599 453.683822 
+L 1153.179599 322.580697 
+Q 1153.179599 320.580697 1151.179599 320.580697 
+L 1026.767099 320.580697 
+Q 1024.767099 320.580697 1024.767099 322.580697 
+L 1024.767099 453.683822 
+Q 1024.767099 455.683822 1026.767099 455.683822 
+z
+" style="fill: #ffffff; opacity: 0.8; stroke: #cccccc; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1028.767099" y="332.179135" transform="rotate(-0 1028.767099 332.179135)">Participating Characters</text>
+    </g>
+    <g id="line2d_17">
+     <path d="M 1032.497568 343.35726 
+L 1042.497568 343.35726 
+L 1052.497568 343.35726 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m864a2a5c2c" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#m864a2a5c2c" x="1042.497568" y="343.35726" style="fill: #2891ff; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1060.497568" y="346.85726" transform="rotate(-0 1060.497568 346.85726)">Elizabeth Bennet</text>
+    </g>
+    <g id="line2d_18">
+     <path d="M 1032.497568 358.035385 
+L 1042.497568 358.035385 
+L 1052.497568 358.035385 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m384293e313" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#m384293e313" x="1042.497568" y="358.035385" style="fill: #e5b4af; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1060.497568" y="361.535385" transform="rotate(-0 1060.497568 361.535385)">Jane Bennet</text>
+    </g>
+    <g id="line2d_19">
+     <path d="M 1032.497568 372.71351 
+L 1042.497568 372.71351 
+L 1052.497568 372.71351 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m47de293ab1" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#m47de293ab1" x="1042.497568" y="372.71351" style="fill: #808080; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1060.497568" y="376.21351" transform="rotate(-0 1060.497568 376.21351)">Midpoint Date</text>
+    </g>
+    <g id="line2d_20">
+     <path d="M 1032.497568 387.391635 
+L 1042.497568 387.391635 
+L 1052.497568 387.391635 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="mea808390fa" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#mea808390fa" x="1042.497568" y="387.391635" style="fill: #ff00ff; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1060.497568" y="390.891635" transform="rotate(-0 1060.497568 390.891635)">Mr. Bingley</text>
+    </g>
+    <g id="line2d_21">
+     <path d="M 1032.497568 402.06976 
+L 1042.497568 402.06976 
+L 1052.497568 402.06976 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m747f42c2f6" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#m747f42c2f6" x="1042.497568" y="402.06976" style="fill: #00ff00; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1060.497568" y="405.56976" transform="rotate(-0 1060.497568 405.56976)">Mr. Collins</text>
+    </g>
+    <g id="line2d_22">
+     <path d="M 1032.497568 416.747885 
+L 1042.497568 416.747885 
+L 1052.497568 416.747885 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m52100e8691" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#m52100e8691" x="1042.497568" y="416.747885" style="fill: #ff0000; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1060.497568" y="420.247885" transform="rotate(-0 1060.497568 420.247885)">Mr. Darcy</text>
+    </g>
+    <g id="line2d_23">
+     <path d="M 1032.497568 431.42601 
+L 1042.497568 431.42601 
+L 1052.497568 431.42601 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m0ad4efe8c6" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#m0ad4efe8c6" x="1042.497568" y="431.42601" style="fill: #ffff00; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1060.497568" y="434.92601" transform="rotate(-0 1060.497568 434.92601)">Mr. Wickham</text>
+    </g>
+    <g id="line2d_24">
+     <path d="M 1032.497568 446.104135 
+L 1042.497568 446.104135 
+L 1052.497568 446.104135 
+" style="fill: none; stroke: #ffffff; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m9d1178d15b" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #ffffff"/>
+     </defs>
+     <g>
+      <use xlink:href="#m9d1178d15b" x="1042.497568" y="446.104135" style="fill: #c0c0c0; stroke: #ffffff"/>
+     </g>
+    </g>
+    <g id="text_28">
+     <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="1060.497568" y="449.604135" transform="rotate(-0 1060.497568 449.604135)">Other characters</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa981a01fd9">
+   <rect x="64.328125" y="22.318125" width="941.606837" height="596.525145"/>
+  </clipPath>
+ </defs>
+</svg>
