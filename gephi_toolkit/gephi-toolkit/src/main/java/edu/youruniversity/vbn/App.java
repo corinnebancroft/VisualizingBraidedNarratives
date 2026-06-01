@@ -584,6 +584,7 @@ for (Node node : graph.getNodes()) {
 
     // Modularity
     Modularity modularityStats = new Modularity();
+    modularityStats.setRandom(false);
     modularityStats.execute(graphModel);
 
     double modularityValue = modularityStats.getModularity();
