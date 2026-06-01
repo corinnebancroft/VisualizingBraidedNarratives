@@ -1,0 +1,4162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-06-01">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="node_strength" title="node_strength" type="double"/>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="character 1" title="character 1" type="string"/>
+      <attribute id="character 2" title="character 2" type="string"/>
+      <attribute id="startpage" title="startpage" type="integer"/>
+      <attribute id="category" title="category" type="string"/>
+      <attribute id="narrator" title="narrator" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="211" label="&quot;a few people&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="10.0"/>
+          <attvalue for="closnesscentrality" value="0.1602112676056338"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.18409209837781257"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1620.6002" y="1062.5381"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="303" label="&quot;a girl Lada didn't know&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.18801652892561985"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.217094017094017"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1156.334" y="1417.943"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="205" label="&quot;a girl&quot; (at dance practice)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="10.0"/>
+          <attvalue for="closnesscentrality" value="0.15294117647058825"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.18719693005407287"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-940.1779" y="172.50325"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="210" label="&quot;a guy at the end of the table&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.1903765690376569"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.23083028083028076"/>
+          <attvalue for="betweenesscentrality" value="180.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="-1482.6283" y="1101.0586"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="338" label="&quot;narrow-eyed villagers&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.23636363636363636"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2781527995813709"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1072.3641" y="116.221245"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="161" label="&quot;one [student]&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.17704280155642024"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2140676783533925"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-249.18729" y="390.12665"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="300" label="&quot;one of the girls&quot; (at NYE party)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.22524752475247525"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2579539508110935"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1143.03" y="823.7706"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="162" label="&quot;someone else&quot; (a student)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.17704280155642024"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2140676783533925"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-360.3525" y="471.73434"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="299" label="&quot;someone&quot; (also at NYE party)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.2275"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.26802721088435366"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="-911.14557" y="1090.5242"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="121" label="&quot;the admitting  nurse&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21980676328502416"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2502616431187859"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-441.7863" y="-695.9768"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="294" label="&quot;the group&quot; (friends at NYE party)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.18958333333333333"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.22350427350427338"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="-1004.03674" y="1350.4341"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="44" label="&quot;the nurse giving [Olya] an injection&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21927710843373494"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24843014128728408"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-621.1237" y="-1000.014"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="245" label="&quot;the other nurse&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.19654427645788336"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.23216902145473564"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1421.1858" y="443.8506"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="308" label="&quot;two elderly women&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.22195121951219512"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2528257456828884"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-79.84098" y="548.892"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="96" label="a bear">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.1864754098360656"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2236089307517878"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="13.103448"/>
+        <viz:position x="51.934128" y="901.70844"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="178" label="a boy from Achavayam">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.17533718689788053"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.21406767835339252"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="-764.67676" y="47.81964"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="277" label="a reporter (161)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1729.059" y="-1682.8027"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="346" label="a teenager (251)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2692307692307692"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.29890109890109867"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="824.14154" y="-687.24524"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="276" label="a Ukrainian commuter (161)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-1771.3765" y="-1623.3915"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="50" label="a vendor">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21927710843373494"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24843014128728408"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="-601.99615" y="-862.4151"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="340" label="a vendor (219)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2692307692307692"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.29890109890109867"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="839.3484" y="-780.0999"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="143" label="Alisa">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="30.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21016166281755197"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2700026164311877"/>
+          <attvalue for="betweenesscentrality" value="423.0000000000003"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="24.48276"/>
+        <viz:position x="-543.3331" y="134.42798"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="11" label="Alla Innokentevna">
+        <attvalues>
+          <attvalue for="indegree" value="14"/>
+          <attvalue for="outdegree" value="14"/>
+          <attvalue for="degree" value="28"/>
+          <attvalue for="node_strength" value="106.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.30847457627118646"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.417032967032967"/>
+          <attvalue for="betweenesscentrality" value="2059.499999999999"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="63.793102"/>
+        <viz:position x="881.5456" y="-70.21465"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="6" label="Alyona Golosovsky">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="48.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.1887966804979253"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.22442002442002432"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="33.793102"/>
+        <viz:position x="-1453.0494" y="1440.818"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="27" label="Anfisa">
+        <attvalues>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="16"/>
+          <attvalue for="node_strength" value="74.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.33090909090909093"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.39816849816849803"/>
+          <attvalue for="betweenesscentrality" value="1147.3333333333328"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="47.24138"/>
+        <viz:position x="294.46622" y="-332.66202"/>
+        <viz:color r="229" g="180" b="175"/>
+      </node>
+      <node id="306" label="Anton">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="10.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.22413793103448276"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.26381475667189946"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="14.137931"/>
+        <viz:position x="270.35828" y="553.2212"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="232" label="Artyom">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="12.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.19654427645788336"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.23216902145473564"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="15.172414"/>
+        <viz:position x="1382.644" y="264.95172"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="256" label="Artyom's Sister">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.19654427645788336"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.23216902145473564"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1319.1866" y="488.8367"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="261" label="Baba / Nadia's Mother">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="30.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20634920634920634"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.25168759811616953"/>
+          <attvalue for="betweenesscentrality" value="1.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="24.48276"/>
+        <viz:position x="-329.13586" y="-74.24509"/>
+        <viz:color r="141" g="1" b="255"/>
+      </node>
+      <node id="72" label="boring colleague/supervisor (36/37)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.22413793103448276"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.26381475667189946"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="12.068966"/>
+        <viz:position x="172.45007" y="940.97314"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="176" label="Chander">
+        <attvalues>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="40.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.1794871794871795"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.23787720216291633"/>
+          <attvalue for="betweenesscentrality" value="185.5"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="29.655172"/>
+        <viz:position x="-577.66095" y="352.50424"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="184" label="Chander's ex-girlfirend's friends">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="10.0"/>
+          <attvalue for="closnesscentrality" value="0.152428810720268"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.1835339263910692"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-620.1568" y="514.2105"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="145" label="Chegga &amp; Ksyusha's mother">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.2054176072234763"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24069858712715853"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-369.60614" y="-293.82642"/>
+        <viz:color r="141" g="1" b="255"/>
+      </node>
+      <node id="8" label="Chegga/Sergei Adukanov">
+        <attvalues>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="degree" value="12"/>
+          <attvalue for="node_strength" value="60.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.310580204778157"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3736263736263736"/>
+          <attvalue for="betweenesscentrality" value="2628.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:position x="225.00475" y="-147.87845"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="13" label="Denis">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="46.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2870662460567823"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3437728937728935"/>
+          <attvalue for="betweenesscentrality" value="15.833333333333325"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="32.75862"/>
+        <viz:position x="457.33368" y="190.51201"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="25" label="Diana">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="14.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.22303921568627452"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.26857666143380426"/>
+          <attvalue for="betweenesscentrality" value="180.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="16.206896"/>
+        <viz:position x="-459.3279" y="-982.5277"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="285" label="Dima">
+        <attvalues>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="36.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.28888888888888886"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.33976975405546816"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="27.586206"/>
+        <viz:position x="126.01534" y="-411.99133"/>
+        <viz:color r="229" g="180" b="175"/>
+      </node>
+      <node id="331" label="dishwashing teenagers">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2692307692307692"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2989010989010987"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="777.8614" y="-370.4891"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="90" label="Dr. Popkov">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21980676328502416"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.25026164311878596"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="-217.67413" y="-932.0924"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="315" label="Eva">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="66.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.3053691275167785"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.36336996336996324"/>
+          <attvalue for="betweenesscentrality" value="123.5"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="43.103447"/>
+        <viz:position x="888.3401" y="-390.65454"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="284" label="Fedya">
+        <attvalues>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="40.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.28888888888888886"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.33976975405546816"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="29.655172"/>
+        <viz:position x="183.2073" y="-537.0546"/>
+        <viz:color r="229" g="180" b="175"/>
+      </node>
+      <node id="101" label="Golosovskaya girls' father">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2692307692307692"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2989010989010987"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="646.9172" y="-865.90814"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="43" label="grocery-store cashier">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21927710843373494"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24843014128728408"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-681.16626" y="-914.86597"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="252" label="Inna (Artyom's Teammate's Wife)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="10.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.19654427645788336"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.23216902145473564"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="14.137931"/>
+        <viz:position x="1256.4038" y="394.70786"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="65" label="Katya's &quot;girlfriends&quot;">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.1845841784989858"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2107884179312749"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-106.39819" y="893.2076"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="24" label="Katya/Ekaterina">
+        <attvalues>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="60.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.22580645161290322"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2766352694924123"/>
+          <attvalue for="betweenesscentrality" value="264.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:position x="14.269635" y="741.35254"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="17" label="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky">
+        <attvalues>
+          <attvalue for="indegree" value="9"/>
+          <attvalue for="outdegree" value="9"/>
+          <attvalue for="degree" value="18"/>
+          <attvalue for="node_strength" value="78.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.364"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.44267399267399266"/>
+          <attvalue for="betweenesscentrality" value="5041.333333333333"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="49.310345"/>
+        <viz:position x="-44.889503" y="-477.02682"/>
+        <viz:color r="229" g="180" b="175"/>
+      </node>
+      <node id="208" label="Kristina">
+        <attvalues>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="16"/>
+          <attvalue for="node_strength" value="42.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.23333333333333334"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3083202511773939"/>
+          <attvalue for="betweenesscentrality" value="545.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="30.689655"/>
+        <viz:position x="-1086.7617" y="1215.5225"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="289" label="Kristina's boyfriend">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.2275"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.26802721088435366"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="-902.23126" y="1199.4529"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="215" label="Kristina's cousin">
+        <attvalues>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="22.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.23037974683544304"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2845107273678702"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="20.344828"/>
+        <viz:position x="-1224.2257" y="1045.8645"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="7" label="Ksyusha/Ksenia Adukanov">
+        <attvalues>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="degree" value="14"/>
+          <attvalue for="node_strength" value="83.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21462264150943397"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.29381214024071156"/>
+          <attvalue for="betweenesscentrality" value="941.5000000000015"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="51.896553"/>
+        <viz:position x="-411.7527" y="268.83954"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="28" label="Lada">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="44.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.23096446700507614"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2900052328623756"/>
+          <attvalue for="betweenesscentrality" value="180.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="31.724138"/>
+        <viz:position x="-1246.4752" y="1179.2936"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="19" label="Lev">
+        <attvalues>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="40.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2520775623268698"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3090790162218732"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="29.655172"/>
+        <viz:position x="610.35394" y="206.63663"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="15" label="Lilia Solodikova">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.24202127659574468"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.27611198325484027"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="313.70886" y="107.882454"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="63" label="Malysh (Oksana's dog)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.22195121951219512"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.25282574568288846"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="13.103448"/>
+        <viz:position x="243.45477" y="624.27997"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="170" label="Margarita Anatolyevna">
+        <attvalues>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="degree" value="12"/>
+          <attvalue for="node_strength" value="24.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.1801980198019802"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.24886621315192733"/>
+          <attvalue for="betweenesscentrality" value="199.50000000000006"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="21.37931"/>
+        <viz:position x="-762.9007" y="210.21704"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="32" label="Marina Alexandrovna">
+        <attvalues>
+          <attvalue for="indegree" value="13"/>
+          <attvalue for="outdegree" value="13"/>
+          <attvalue for="degree" value="26"/>
+          <attvalue for="node_strength" value="176.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.36693548387096775"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4479853479853481"/>
+          <attvalue for="betweenesscentrality" value="3634.166666666668"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="100.0"/>
+        <viz:position x="592.9736" y="-514.0062"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="320" label="Marina's editor (205)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2692307692307692"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2989010989010987"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="749.38367" y="-841.27374"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="209" label="Masha/Mashenka Zakotnova">
+        <attvalues>
+          <attvalue for="indegree" value="8"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="16"/>
+          <attvalue for="node_strength" value="42.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2898089171974522"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3654107796964938"/>
+          <attvalue for="betweenesscentrality" value="2065.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="30.689655"/>
+        <viz:position x="-1076.7252" y="999.6834"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="23" label="Max/Maxim">
+        <attvalues>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="degree" value="14"/>
+          <attvalue for="node_strength" value="64.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.2275"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2931187859759288"/>
+          <attvalue for="betweenesscentrality" value="451.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="42.068966"/>
+        <viz:position x="194.73965" y="780.9904"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="14" label="Mila/Ludmila">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="42.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20634920634920634"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2516875981161695"/>
+          <attvalue for="betweenesscentrality" value="1.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="30.689655"/>
+        <viz:position x="-216.68553" y="-276.28183"/>
+        <viz:color r="141" g="1" b="255"/>
+      </node>
+      <node id="260" label="Nadia's father">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="18.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20588235294117646"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.246193092621664"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="18.275862"/>
+        <viz:position x="-282.76312" y="27.196705"/>
+        <viz:color r="141" g="1" b="255"/>
+      </node>
+      <node id="10" label="Nadia/Nadezhda">
+        <attvalues>
+          <attvalue for="indegree" value="9"/>
+          <attvalue for="outdegree" value="9"/>
+          <attvalue for="degree" value="18"/>
+          <attvalue for="node_strength" value="124.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2577903682719547"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.33948194662480363"/>
+          <attvalue for="betweenesscentrality" value="1507.6666666666677"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="73.10345"/>
+        <viz:position x="-112.41322" y="-83.22096"/>
+        <viz:color r="141" g="1" b="255"/>
+      </node>
+      <node id="12" label="Natasha/Natalia">
+        <attvalues>
+          <attvalue for="indegree" value="11"/>
+          <attvalue for="outdegree" value="11"/>
+          <attvalue for="degree" value="22"/>
+          <attvalue for="node_strength" value="156.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.3181818181818182"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40457875457875453"/>
+          <attvalue for="betweenesscentrality" value="821.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="89.655174"/>
+        <viz:position x="509.93802" y="-75.64488"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="357" label="Nurgenek Festival Attendees">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.23636363636363636"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2781527995813709"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1139.8772" y="29.453104"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="22" label="Oksana">
+        <attvalues>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="degree" value="14"/>
+          <attvalue for="node_strength" value="70.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.284375"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3538723181580323"/>
+          <attvalue for="betweenesscentrality" value="1659.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="45.172413"/>
+        <viz:position x="107.528465" y="567.06805"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="33" label="Olya's mother">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.1827309236947791"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.20730856445142143"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-532.0768" y="-1152.3927"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="29" label="Olya/Olga">
+        <attvalues>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="degree" value="12"/>
+          <attvalue for="node_strength" value="28.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.28"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3437990580847721"/>
+          <attvalue for="betweenesscentrality" value="696.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="23.448277"/>
+        <viz:position x="-470.8522" y="-843.03503"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="316" label="Petya">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="70.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.3053691275167785"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.36336996336996324"/>
+          <attvalue for="betweenesscentrality" value="123.5"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="45.172413"/>
+        <viz:position x="736.2939" y="-256.49316"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="73" label="pregnant colleague">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.18571428571428572"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.21628292342578043"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="362.38535" y="956.94714"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="16" label="Revmira">
+        <attvalues>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="degree" value="14"/>
+          <attvalue for="node_strength" value="40.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.24396782841823056"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3221088435374148"/>
+          <attvalue for="betweenesscentrality" value="1050.0"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="29.655172"/>
+        <viz:position x="1266.1277" y="276.0481"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="9" label="Ruslan">
+        <attvalues>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="35.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2556179775280899"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3156724228152798"/>
+          <attvalue for="betweenesscentrality" value="1026.5000000000018"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="27.068966"/>
+        <viz:position x="-257.30624" y="164.41551"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="128" label="Russians (generally??)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.23636363636363636"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2781527995813709"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1167.2689" y="-50.004547"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="20" label="Sasha/Alexandra">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.22693266832917705"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2605180533751962"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="65.01261" y="-967.86224"/>
+        <viz:color r="229" g="180" b="175"/>
+      </node>
+      <node id="268" label="Slava Bychkov">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="24.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20634920634920634"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2516875981161695"/>
+          <attvalue for="betweenesscentrality" value="1.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="21.37931"/>
+        <viz:position x="-310.57578" y="-187.27293"/>
+        <viz:color r="141" g="1" b="255"/>
+      </node>
+      <node id="5" label="Sophia Golosovsky">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="44.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.1887966804979253"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2244200244200243"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="31.724138"/>
+        <viz:position x="-1345.4299" y="1519.327"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="283" label="Tatyana Yurievna">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.22693266832917705"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2605180533751962"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="13.103448"/>
+        <viz:position x="55.029808" y="-849.6705"/>
+        <viz:color r="229" g="180" b="175"/>
+      </node>
+      <node id="339" label="teenagers (218)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.23636363636363636"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2781527995813709"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1182.7633" y="-128.06343"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="333" label="the cook">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2692307692307692"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2989010989010987"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="13.103448"/>
+        <viz:position x="602.66974" y="-775.56"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="171" label="The dance troupe">
+        <attvalues>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="16.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.1760154738878143"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.22139368567939982"/>
+          <attvalue for="betweenesscentrality" value="1.3333333333333333"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="17.241379"/>
+        <viz:position x="-762.9902" y="324.37775"/>
+        <viz:color r="40" g="145" b="255"/>
+      </node>
+      <node id="137" label="The doctor">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21980676328502416"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.25026164311878596"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="13.103448"/>
+        <viz:position x="-324.16776" y="-918.2412"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="75" label="the Nalychevo group">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="9.0"/>
+          <attvalue for="closnesscentrality" value="0.18571428571428572"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.21628292342578043"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="288.36234" y="917.8767"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="358" label="tour guides">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.23636363636363636"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2781527995813709"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1145.4014" y="-202.56573"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="246" label="two men (139)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.19654427645788336"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.23216902145473564"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1479.2764" y="332.4744"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="30" label="Valentina Nikolaevna">
+        <attvalues>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="degree" value="14"/>
+          <attvalue for="node_strength" value="38.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2808641975308642"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.34929356357927765"/>
+          <attvalue for="betweenesscentrality" value="870.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="28.62069"/>
+        <viz:position x="-289.78067" y="-804.2641"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="100" label="Valentina's &quot;colleague&quot; (48)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.21980676328502416"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.25026164311878596"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="11.034483"/>
+        <viz:position x="-281.6504" y="-983.108"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="241" label="Vera Vasilievna (Gleb's Mother)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.19654427645788336"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.23216902145473564"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="12.068966"/>
+        <viz:position x="1360.7661" y="365.57806"/>
+        <viz:color r="255" g="165" b="0"/>
+      </node>
+      <node id="272" label="waiter (158)">
+        <attvalues>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.20588235294117646"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.246193092621664"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="13.103448"/>
+        <viz:position x="-410.1856" y="-182.54485"/>
+        <viz:color r="141" g="1" b="255"/>
+      </node>
+      <node id="281" label="Working men (172)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.2263681592039801"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2550235478806907"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="164.19948" y="-888.8648"/>
+        <viz:color r="229" g="180" b="175"/>
+      </node>
+      <node id="31" label="Yegor Gusakov">
+        <attvalues>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="degree" value="12"/>
+          <attvalue for="node_strength" value="50.0"/>
+          <attvalue for="eccentricity" value="8.0"/>
+          <attvalue for="closnesscentrality" value="0.23155216284987276"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2954997383568811"/>
+          <attvalue for="betweenesscentrality" value="356.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="34.827587"/>
+        <viz:position x="-1316.5289" y="1339.4303"/>
+        <viz:color r="201" g="255" b="0"/>
+      </node>
+      <node id="26" label="Yevgeny Pavlovich Kulik (the major general)">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2692307692307692"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2989010989010987"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="12.068966"/>
+        <viz:position x="723.2523" y="-750.0721"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="21" label="Yulka/Yulia">
+        <attvalues>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="34.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2870662460567823"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3437728937728935"/>
+          <attvalue for="betweenesscentrality" value="15.833333333333325"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="26.551723"/>
+        <viz:position x="707.04614" y="112.05524"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="147" label="Yuri">
+        <attvalues>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.24202127659574468"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.27611198325484027"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="13.103448"/>
+        <viz:position x="296.95395" y="32.89207"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="18" label="Zoya">
+        <attvalues>
+          <attvalue for="indegree" value="7"/>
+          <attvalue for="outdegree" value="7"/>
+          <attvalue for="degree" value="14"/>
+          <attvalue for="node_strength" value="56.0"/>
+          <attvalue for="eccentricity" value="7.0"/>
+          <attvalue for="closnesscentrality" value="0.2916666666666667"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35625327053898465"/>
+          <attvalue for="betweenesscentrality" value="532.0"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="37.931034"/>
+        <viz:position x="69.93458" y="-666.20795"/>
+        <viz:color r="229" g="180" b="175"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="6" target="5" weight="17.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alyona Golosovsky"/>
+          <attvalue for="character 2" value="Sophia Golosovsky"/>
+          <attvalue for="startpage" value="255"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Alyona Golosovsky"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="5" target="6" weight="17.0">
+        <attvalues>
+          <attvalue for="character 1" value="Sophia Golosovsky"/>
+          <attvalue for="character 2" value="Alyona Golosovsky"/>
+          <attvalue for="startpage" value="255"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="Alyona Golosovsky"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="31" target="6" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yegor Gusakov"/>
+          <attvalue for="character 2" value="Alyona Golosovsky"/>
+          <attvalue for="startpage" value="15"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="6" target="31" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alyona Golosovsky"/>
+          <attvalue for="character 2" value="Yegor Gusakov"/>
+          <attvalue for="startpage" value="15"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="5" target="31" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Sophia Golosovsky"/>
+          <attvalue for="character 2" value="Yegor Gusakov"/>
+          <attvalue for="startpage" value="15"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="31" target="5" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yegor Gusakov"/>
+          <attvalue for="character 2" value="Sophia Golosovsky"/>
+          <attvalue for="startpage" value="15"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="25" target="29" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Diana"/>
+          <attvalue for="character 2" value="Olya/Olga"/>
+          <attvalue for="startpage" value="26"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="53" source="29" target="25" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Olya/Olga"/>
+          <attvalue for="character 2" value="Diana"/>
+          <attvalue for="startpage" value="26"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="55" source="44" target="29">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;the nurse giving [Olya] an injection&quot;"/>
+          <attvalue for="character 2" value="Olya/Olga"/>
+          <attvalue for="startpage" value="20"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="43" target="29">
+        <attvalues>
+          <attvalue for="character 1" value="grocery-store cashier"/>
+          <attvalue for="character 2" value="Olya/Olga"/>
+          <attvalue for="startpage" value="20"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="29" target="44">
+        <attvalues>
+          <attvalue for="character 1" value="Olya/Olga"/>
+          <attvalue for="character 2" value="&quot;the nurse giving [Olya] an injection&quot;"/>
+          <attvalue for="startpage" value="20"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="29" target="43">
+        <attvalues>
+          <attvalue for="character 1" value="Olya/Olga"/>
+          <attvalue for="character 2" value="grocery-store cashier"/>
+          <attvalue for="startpage" value="20"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="30" target="29" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Valentina Nikolaevna"/>
+          <attvalue for="character 2" value="Olya/Olga"/>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="29" target="30" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Olya/Olga"/>
+          <attvalue for="character 2" value="Valentina Nikolaevna"/>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="25" target="30" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Diana"/>
+          <attvalue for="character 2" value="Valentina Nikolaevna"/>
+          <attvalue for="startpage" value="26"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="68" source="30" target="25" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Valentina Nikolaevna"/>
+          <attvalue for="character 2" value="Diana"/>
+          <attvalue for="startpage" value="26"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="72" source="33" target="25">
+        <attvalues>
+          <attvalue for="character 1" value="Olya's mother"/>
+          <attvalue for="character 2" value="Diana"/>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="73" source="25" target="33">
+        <attvalues>
+          <attvalue for="character 1" value="Diana"/>
+          <attvalue for="character 2" value="Olya's mother"/>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="50" target="29" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="a vendor"/>
+          <attvalue for="character 2" value="Olya/Olga"/>
+          <attvalue for="startpage" value="28"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="29" target="50" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Olya/Olga"/>
+          <attvalue for="character 2" value="a vendor"/>
+          <attvalue for="startpage" value="28"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="82" source="17" target="29" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="character 2" value="Olya/Olga"/>
+          <attvalue for="startpage" value="30"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="29" target="17" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Olya/Olga"/>
+          <attvalue for="character 2" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="startpage" value="30"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="86" source="23" target="24" weight="14.0">
+        <attvalues>
+          <attvalue for="character 1" value="Max/Maxim"/>
+          <attvalue for="character 2" value="Katya/Ekaterina"/>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="87" source="24" target="23" weight="14.0">
+        <attvalues>
+          <attvalue for="character 1" value="Katya/Ekaterina"/>
+          <attvalue for="character 2" value="Max/Maxim"/>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="90" source="65" target="24">
+        <attvalues>
+          <attvalue for="character 1" value="Katya's &quot;girlfriends&quot;"/>
+          <attvalue for="character 2" value="Katya/Ekaterina"/>
+          <attvalue for="startpage" value="34"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="91" source="24" target="22" weight="13.0">
+        <attvalues>
+          <attvalue for="character 1" value="Katya/Ekaterina"/>
+          <attvalue for="character 2" value="Oksana"/>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="92" source="24" target="65">
+        <attvalues>
+          <attvalue for="character 1" value="Katya/Ekaterina"/>
+          <attvalue for="character 2" value="Katya's &quot;girlfriends&quot;"/>
+          <attvalue for="startpage" value="34"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="93" source="22" target="24" weight="13.0">
+        <attvalues>
+          <attvalue for="character 1" value="Oksana"/>
+          <attvalue for="character 2" value="Katya/Ekaterina"/>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="102" source="23" target="73">
+        <attvalues>
+          <attvalue for="character 1" value="Max/Maxim"/>
+          <attvalue for="character 2" value="pregnant colleague"/>
+          <attvalue for="startpage" value="37"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="103" source="23" target="75" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Max/Maxim"/>
+          <attvalue for="character 2" value="the Nalychevo group"/>
+          <attvalue for="startpage" value="38"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="104" source="23" target="22" weight="10.0">
+        <attvalues>
+          <attvalue for="character 1" value="Max/Maxim"/>
+          <attvalue for="character 2" value="Oksana"/>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="106" source="23" target="72" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Max/Maxim"/>
+          <attvalue for="character 2" value="boring colleague/supervisor (36/37)"/>
+          <attvalue for="startpage" value="38"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="107" source="73" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="pregnant colleague"/>
+          <attvalue for="character 2" value="Max/Maxim"/>
+          <attvalue for="startpage" value="37"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="109" source="22" target="23" weight="10.0">
+        <attvalues>
+          <attvalue for="character 1" value="Oksana"/>
+          <attvalue for="character 2" value="Max/Maxim"/>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="110" source="72" target="23" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="boring colleague/supervisor (36/37)"/>
+          <attvalue for="character 2" value="Max/Maxim"/>
+          <attvalue for="startpage" value="38"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="111" source="75" target="23" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="the Nalychevo group"/>
+          <attvalue for="character 2" value="Max/Maxim"/>
+          <attvalue for="startpage" value="38"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="113" source="22" target="72">
+        <attvalues>
+          <attvalue for="character 1" value="Oksana"/>
+          <attvalue for="character 2" value="boring colleague/supervisor (36/37)"/>
+          <attvalue for="startpage" value="38"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="115" source="72" target="22">
+        <attvalues>
+          <attvalue for="character 1" value="boring colleague/supervisor (36/37)"/>
+          <attvalue for="character 2" value="Oksana"/>
+          <attvalue for="startpage" value="38"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="128" source="23" target="96" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Max/Maxim"/>
+          <attvalue for="character 2" value="a bear"/>
+          <attvalue for="startpage" value="45"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="129" source="24" target="96" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Katya/Ekaterina"/>
+          <attvalue for="character 2" value="a bear"/>
+          <attvalue for="startpage" value="45"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="130" source="96" target="23" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="a bear"/>
+          <attvalue for="character 2" value="Max/Maxim"/>
+          <attvalue for="startpage" value="45"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="133" source="96" target="24" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="a bear"/>
+          <attvalue for="character 2" value="Katya/Ekaterina"/>
+          <attvalue for="startpage" value="45"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="140" source="90" target="30" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Dr. Popkov"/>
+          <attvalue for="character 2" value="Valentina Nikolaevna"/>
+          <attvalue for="startpage" value="48"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="141" source="30" target="90" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Valentina Nikolaevna"/>
+          <attvalue for="character 2" value="Dr. Popkov"/>
+          <attvalue for="startpage" value="48"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="143" source="100" target="30" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Valentina's &quot;colleague&quot; (48)"/>
+          <attvalue for="character 2" value="Valentina Nikolaevna"/>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="144" source="30" target="100" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Valentina Nikolaevna"/>
+          <attvalue for="character 2" value="Valentina's &quot;colleague&quot; (48)"/>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="148" source="30" target="121">
+        <attvalues>
+          <attvalue for="character 1" value="Valentina Nikolaevna"/>
+          <attvalue for="character 2" value="&quot;the admitting  nurse&quot;"/>
+          <attvalue for="startpage" value="50"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="149" source="121" target="30">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;the admitting  nurse&quot;"/>
+          <attvalue for="character 2" value="Valentina Nikolaevna"/>
+          <attvalue for="startpage" value="50"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="150" source="17" target="30" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="character 2" value="Valentina Nikolaevna"/>
+          <attvalue for="startpage" value="55"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="151" source="30" target="17" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Valentina Nikolaevna"/>
+          <attvalue for="character 2" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="startpage" value="55"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="157" source="30" target="137" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Valentina Nikolaevna"/>
+          <attvalue for="character 2" value="The doctor"/>
+          <attvalue for="startpage" value="58"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="158" source="137" target="30" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="The doctor"/>
+          <attvalue for="character 2" value="Valentina Nikolaevna"/>
+          <attvalue for="startpage" value="58"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="166" source="7" target="9" weight="11.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="character 2" value="Ruslan"/>
+          <attvalue for="startpage" value="152"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="167" source="9" target="7" weight="12.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ruslan"/>
+          <attvalue for="character 2" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="startpage" value="152"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="170" source="143" target="7" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alisa"/>
+          <attvalue for="character 2" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="startpage" value="91"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="171" source="7" target="143" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="character 2" value="Alisa"/>
+          <attvalue for="startpage" value="91"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="173" source="143" target="9" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alisa"/>
+          <attvalue for="character 2" value="Ruslan"/>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="174" source="9" target="143" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ruslan"/>
+          <attvalue for="character 2" value="Alisa"/>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="182" source="7" target="162">
+        <attvalues>
+          <attvalue for="character 1" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="character 2" value="&quot;someone else&quot; (a student)"/>
+          <attvalue for="startpage" value="64"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="183" source="161" target="7">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;one [student]&quot;"/>
+          <attvalue for="character 2" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="startpage" value="64"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="185" source="162" target="7">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;someone else&quot; (a student)"/>
+          <attvalue for="character 2" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="startpage" value="64"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="187" source="7" target="161">
+        <attvalues>
+          <attvalue for="character 1" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="character 2" value="&quot;one [student]&quot;"/>
+          <attvalue for="startpage" value="64"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="188" source="171" target="170" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="The dance troupe"/>
+          <attvalue for="character 2" value="Margarita Anatolyevna"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="189" source="170" target="171" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="Margarita Anatolyevna"/>
+          <attvalue for="character 2" value="The dance troupe"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="193" source="7" target="176" weight="16.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="character 2" value="Chander"/>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="194" source="143" target="178">
+        <attvalues>
+          <attvalue for="character 1" value="Alisa"/>
+          <attvalue for="character 2" value="a boy from Achavayam"/>
+          <attvalue for="startpage" value="68"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="195" source="178" target="143">
+        <attvalues>
+          <attvalue for="character 1" value="a boy from Achavayam"/>
+          <attvalue for="character 2" value="Alisa"/>
+          <attvalue for="startpage" value="68"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="198" source="176" target="7" weight="16.0">
+        <attvalues>
+          <attvalue for="character 1" value="Chander"/>
+          <attvalue for="character 2" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="201" source="143" target="170">
+        <attvalues>
+          <attvalue for="character 1" value="Alisa"/>
+          <attvalue for="character 2" value="Margarita Anatolyevna"/>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="202" source="170" target="143">
+        <attvalues>
+          <attvalue for="character 1" value="Margarita Anatolyevna"/>
+          <attvalue for="character 2" value="Alisa"/>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="203" source="170" target="176" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Margarita Anatolyevna"/>
+          <attvalue for="character 2" value="Chander"/>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="205" source="176" target="170" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Chander"/>
+          <attvalue for="character 2" value="Margarita Anatolyevna"/>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="209" source="176" target="184">
+        <attvalues>
+          <attvalue for="character 1" value="Chander"/>
+          <attvalue for="character 2" value="Chander's ex-girlfirend's friends"/>
+          <attvalue for="startpage" value="72"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="210" source="184" target="176">
+        <attvalues>
+          <attvalue for="character 1" value="Chander's ex-girlfirend's friends"/>
+          <attvalue for="character 2" value="Chander"/>
+          <attvalue for="startpage" value="72"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="239" source="143" target="171">
+        <attvalues>
+          <attvalue for="character 1" value="Alisa"/>
+          <attvalue for="character 2" value="The dance troupe"/>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="240" source="171" target="143">
+        <attvalues>
+          <attvalue for="character 1" value="The dance troupe"/>
+          <attvalue for="character 2" value="Alisa"/>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="242" source="171" target="176">
+        <attvalues>
+          <attvalue for="character 1" value="The dance troupe"/>
+          <attvalue for="character 2" value="Chander"/>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="248" source="176" target="171">
+        <attvalues>
+          <attvalue for="character 1" value="Chander"/>
+          <attvalue for="character 2" value="The dance troupe"/>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="267" source="170" target="7">
+        <attvalues>
+          <attvalue for="character 1" value="Margarita Anatolyevna"/>
+          <attvalue for="character 2" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="269" source="205" target="170">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;a girl&quot; (at dance practice)"/>
+          <attvalue for="character 2" value="Margarita Anatolyevna"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="270" source="170" target="178">
+        <attvalues>
+          <attvalue for="character 1" value="Margarita Anatolyevna"/>
+          <attvalue for="character 2" value="a boy from Achavayam"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="272" source="178" target="170">
+        <attvalues>
+          <attvalue for="character 1" value="a boy from Achavayam"/>
+          <attvalue for="character 2" value="Margarita Anatolyevna"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="273" source="7" target="170">
+        <attvalues>
+          <attvalue for="character 1" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="character 2" value="Margarita Anatolyevna"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="275" source="170" target="205">
+        <attvalues>
+          <attvalue for="character 1" value="Margarita Anatolyevna"/>
+          <attvalue for="character 2" value="&quot;a girl&quot; (at dance practice)"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="279" source="208" target="28" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina"/>
+          <attvalue for="character 2" value="Lada"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="280" source="210" target="211">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;a guy at the end of the table&quot;"/>
+          <attvalue for="character 2" value="&quot;a few people&quot;"/>
+          <attvalue for="startpage" value="93"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="281" source="210" target="208">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;a guy at the end of the table&quot;"/>
+          <attvalue for="character 2" value="Kristina"/>
+          <attvalue for="startpage" value="93"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="282" source="28" target="208" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lada"/>
+          <attvalue for="character 2" value="Kristina"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="283" source="208" target="210">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina"/>
+          <attvalue for="character 2" value="&quot;a guy at the end of the table&quot;"/>
+          <attvalue for="startpage" value="93"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="284" source="31" target="28" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yegor Gusakov"/>
+          <attvalue for="character 2" value="Lada"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="285" source="28" target="31" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lada"/>
+          <attvalue for="character 2" value="Yegor Gusakov"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="286" source="211" target="210">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;a few people&quot;"/>
+          <attvalue for="character 2" value="&quot;a guy at the end of the table&quot;"/>
+          <attvalue for="startpage" value="93"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="290" source="208" target="215" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina"/>
+          <attvalue for="character 2" value="Kristina's cousin"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="291" source="215" target="208" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina's cousin"/>
+          <attvalue for="character 2" value="Kristina"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="299" source="208" target="294" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina"/>
+          <attvalue for="character 2" value="&quot;the group&quot; (friends at NYE party)"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="300" source="294" target="208" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;the group&quot; (friends at NYE party)"/>
+          <attvalue for="character 2" value="Kristina"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="302" source="300" target="209">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;one of the girls&quot; (at NYE party)"/>
+          <attvalue for="character 2" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="303" source="299" target="209">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;someone&quot; (also at NYE party)"/>
+          <attvalue for="character 2" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="304" source="299" target="208">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;someone&quot; (also at NYE party)"/>
+          <attvalue for="character 2" value="Kristina"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="306" source="17" target="209">
+        <attvalues>
+          <attvalue for="character 1" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="character 2" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="307" source="209" target="208" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="character 2" value="Kristina"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="308" source="208" target="299">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina"/>
+          <attvalue for="character 2" value="&quot;someone&quot; (also at NYE party)"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="309" source="208" target="209" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina"/>
+          <attvalue for="character 2" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="310" source="209" target="299">
+        <attvalues>
+          <attvalue for="character 1" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="character 2" value="&quot;someone&quot; (also at NYE party)"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="311" source="209" target="300">
+        <attvalues>
+          <attvalue for="character 1" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="character 2" value="&quot;one of the girls&quot; (at NYE party)"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="312" source="209" target="17">
+        <attvalues>
+          <attvalue for="character 1" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="character 2" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="313" source="209" target="28" weight="8.0">
+        <attvalues>
+          <attvalue for="character 1" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="character 2" value="Lada"/>
+          <attvalue for="startpage" value="106"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="314" source="28" target="209" weight="8.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lada"/>
+          <attvalue for="character 2" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="startpage" value="106"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="315" source="209" target="31">
+        <attvalues>
+          <attvalue for="character 1" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="character 2" value="Yegor Gusakov"/>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="316" source="31" target="208" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yegor Gusakov"/>
+          <attvalue for="character 2" value="Kristina"/>
+          <attvalue for="startpage" value="102"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="317" source="303" target="28">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;a girl Lada didn't know&quot;"/>
+          <attvalue for="character 2" value="Lada"/>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="318" source="31" target="209">
+        <attvalues>
+          <attvalue for="character 1" value="Yegor Gusakov"/>
+          <attvalue for="character 2" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="321" source="31" target="215" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yegor Gusakov"/>
+          <attvalue for="character 2" value="Kristina's cousin"/>
+          <attvalue for="startpage" value="100"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="323" source="208" target="31" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina"/>
+          <attvalue for="character 2" value="Yegor Gusakov"/>
+          <attvalue for="startpage" value="102"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="324" source="209" target="289">
+        <attvalues>
+          <attvalue for="character 1" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="character 2" value="Kristina's boyfriend"/>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="326" source="28" target="303">
+        <attvalues>
+          <attvalue for="character 1" value="Lada"/>
+          <attvalue for="character 2" value="&quot;a girl Lada didn't know&quot;"/>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="327" source="215" target="31" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina's cousin"/>
+          <attvalue for="character 2" value="Yegor Gusakov"/>
+          <attvalue for="startpage" value="100"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="328" source="289" target="209">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina's boyfriend"/>
+          <attvalue for="character 2" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="332" source="215" target="209" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina's cousin"/>
+          <attvalue for="character 2" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="334" source="209" target="215" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Masha/Mashenka Zakotnova"/>
+          <attvalue for="character 2" value="Kristina's cousin"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="351" source="289" target="208">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina's boyfriend"/>
+          <attvalue for="character 2" value="Kristina"/>
+          <attvalue for="startpage" value="102"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="352" source="208" target="289">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina"/>
+          <attvalue for="character 2" value="Kristina's boyfriend"/>
+          <attvalue for="startpage" value="102"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="363" source="215" target="28">
+        <attvalues>
+          <attvalue for="character 1" value="Kristina's cousin"/>
+          <attvalue for="character 2" value="Lada"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="365" source="28" target="215">
+        <attvalues>
+          <attvalue for="character 1" value="Lada"/>
+          <attvalue for="character 2" value="Kristina's cousin"/>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="379" source="13" target="12" weight="11.0">
+        <attvalues>
+          <attvalue for="character 1" value="Denis"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="126"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="380" source="12" target="13" weight="11.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Denis"/>
+          <attvalue for="startpage" value="126"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="381" source="19" target="11" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lev"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="120"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="382" source="19" target="13" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lev"/>
+          <attvalue for="character 2" value="Denis"/>
+          <attvalue for="startpage" value="126"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="383" source="19" target="21" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lev"/>
+          <attvalue for="character 2" value="Yulka/Yulia"/>
+          <attvalue for="startpage" value="132"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="384" source="11" target="19" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Lev"/>
+          <attvalue for="startpage" value="120"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="385" source="11" target="21" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Yulka/Yulia"/>
+          <attvalue for="startpage" value="120"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="387" source="21" target="11" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yulka/Yulia"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="120"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="388" source="12" target="11" weight="16.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="251"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="389" source="11" target="12" weight="16.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="251"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="390" source="13" target="19" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Denis"/>
+          <attvalue for="character 2" value="Lev"/>
+          <attvalue for="startpage" value="126"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="391" source="21" target="19" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yulka/Yulia"/>
+          <attvalue for="character 2" value="Lev"/>
+          <attvalue for="startpage" value="132"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="406" source="12" target="147" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Yuri"/>
+          <attvalue for="startpage" value="114"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="407" source="147" target="12" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yuri"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="114"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="435" source="13" target="27" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Denis"/>
+          <attvalue for="character 2" value="Anfisa"/>
+          <attvalue for="startpage" value="117"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="436" source="27" target="11">
+        <attvalues>
+          <attvalue for="character 1" value="Anfisa"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="116"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="438" source="27" target="13" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Anfisa"/>
+          <attvalue for="character 2" value="Denis"/>
+          <attvalue for="startpage" value="117"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="441" source="11" target="27">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Anfisa"/>
+          <attvalue for="startpage" value="116"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="442" source="27" target="12" weight="14.0">
+        <attvalues>
+          <attvalue for="character 1" value="Anfisa"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="130"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="443" source="12" target="27" weight="14.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Anfisa"/>
+          <attvalue for="startpage" value="130"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="445" source="19" target="12" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lev"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="132"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="447" source="21" target="27" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yulka/Yulia"/>
+          <attvalue for="character 2" value="Anfisa"/>
+          <attvalue for="startpage" value="118"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="453" source="27" target="21" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Anfisa"/>
+          <attvalue for="character 2" value="Yulka/Yulia"/>
+          <attvalue for="startpage" value="118"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="454" source="12" target="19" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Lev"/>
+          <attvalue for="startpage" value="132"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="475" source="21" target="12" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yulka/Yulia"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="132"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="476" source="12" target="21" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Yulka/Yulia"/>
+          <attvalue for="startpage" value="132"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="478" source="12" target="15" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Lilia Solodikova"/>
+          <attvalue for="startpage" value="127"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="480" source="15" target="12" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Lilia Solodikova"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="127"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="489" source="11" target="13">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Denis"/>
+          <attvalue for="startpage" value="125"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="491" source="13" target="11">
+        <attvalues>
+          <attvalue for="character 1" value="Denis"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="125"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="521" source="21" target="13" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yulka/Yulia"/>
+          <attvalue for="character 2" value="Denis"/>
+          <attvalue for="startpage" value="132"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="524" source="13" target="21" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Denis"/>
+          <attvalue for="character 2" value="Yulka/Yulia"/>
+          <attvalue for="startpage" value="132"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="535" source="232" target="16" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="Artyom"/>
+          <attvalue for="character 2" value="Revmira"/>
+          <attvalue for="startpage" value="138"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="536" source="16" target="232" weight="6.0">
+        <attvalues>
+          <attvalue for="character 1" value="Revmira"/>
+          <attvalue for="character 2" value="Artyom"/>
+          <attvalue for="startpage" value="138"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="538" source="11" target="16" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Revmira"/>
+          <attvalue for="startpage" value="136"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="539" source="16" target="11" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Revmira"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="136"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="549" source="241" target="16" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Vera Vasilievna (Gleb's Mother)"/>
+          <attvalue for="character 2" value="Revmira"/>
+          <attvalue for="startpage" value="139"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="550" source="16" target="241" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Revmira"/>
+          <attvalue for="character 2" value="Vera Vasilievna (Gleb's Mother)"/>
+          <attvalue for="startpage" value="139"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="557" source="16" target="246">
+        <attvalues>
+          <attvalue for="character 1" value="Revmira"/>
+          <attvalue for="character 2" value="two men (139)"/>
+          <attvalue for="startpage" value="139"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="558" source="16" target="245">
+        <attvalues>
+          <attvalue for="character 1" value="Revmira"/>
+          <attvalue for="character 2" value="&quot;the other nurse&quot;"/>
+          <attvalue for="startpage" value="139"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="559" source="246" target="16">
+        <attvalues>
+          <attvalue for="character 1" value="two men (139)"/>
+          <attvalue for="character 2" value="Revmira"/>
+          <attvalue for="startpage" value="139"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="560" source="245" target="16">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;the other nurse&quot;"/>
+          <attvalue for="character 2" value="Revmira"/>
+          <attvalue for="startpage" value="139"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="563" source="16" target="252" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Revmira"/>
+          <attvalue for="character 2" value="Inna (Artyom's Teammate's Wife)"/>
+          <attvalue for="startpage" value="146"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="564" source="252" target="16" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Inna (Artyom's Teammate's Wife)"/>
+          <attvalue for="character 2" value="Revmira"/>
+          <attvalue for="startpage" value="146"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="570" source="256" target="16">
+        <attvalues>
+          <attvalue for="character 1" value="Artyom's Sister"/>
+          <attvalue for="character 2" value="Revmira"/>
+          <attvalue for="startpage" value="144"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="572" source="16" target="256">
+        <attvalues>
+          <attvalue for="character 1" value="Revmira"/>
+          <attvalue for="character 2" value="Artyom's Sister"/>
+          <attvalue for="startpage" value="144"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="575" source="14" target="10" weight="19.0">
+        <attvalues>
+          <attvalue for="character 1" value="Mila/Ludmila"/>
+          <attvalue for="character 2" value="Nadia/Nadezhda"/>
+          <attvalue for="startpage" value="171"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="576" source="8" target="10" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="character 2" value="Nadia/Nadezhda"/>
+          <attvalue for="startpage" value="164"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="577" source="10" target="8" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia/Nadezhda"/>
+          <attvalue for="character 2" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="startpage" value="164"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="578" source="10" target="14" weight="19.0">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia/Nadezhda"/>
+          <attvalue for="character 2" value="Mila/Ludmila"/>
+          <attvalue for="startpage" value="171"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="579" source="261" target="10" weight="13.0">
+        <attvalues>
+          <attvalue for="character 1" value="Baba / Nadia's Mother"/>
+          <attvalue for="character 2" value="Nadia/Nadezhda"/>
+          <attvalue for="startpage" value="171"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="581" source="10" target="261" weight="13.0">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia/Nadezhda"/>
+          <attvalue for="character 2" value="Baba / Nadia's Mother"/>
+          <attvalue for="startpage" value="171"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="584" source="260" target="14">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia's father"/>
+          <attvalue for="character 2" value="Mila/Ludmila"/>
+          <attvalue for="startpage" value="149"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="585" source="14" target="260">
+        <attvalues>
+          <attvalue for="character 1" value="Mila/Ludmila"/>
+          <attvalue for="character 2" value="Nadia's father"/>
+          <attvalue for="startpage" value="149"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="593" source="8" target="9" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="character 2" value="Ruslan"/>
+          <attvalue for="startpage" value="152"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="594" source="145" target="10">
+        <attvalues>
+          <attvalue for="character 1" value="Chegga &amp; Ksyusha's mother"/>
+          <attvalue for="character 2" value="Nadia/Nadezhda"/>
+          <attvalue for="startpage" value="151"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="596" source="10" target="145">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia/Nadezhda"/>
+          <attvalue for="character 2" value="Chegga &amp; Ksyusha's mother"/>
+          <attvalue for="startpage" value="151"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="597" source="10" target="9">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia/Nadezhda"/>
+          <attvalue for="character 2" value="Ruslan"/>
+          <attvalue for="startpage" value="151"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="600" source="9" target="10">
+        <attvalues>
+          <attvalue for="character 1" value="Ruslan"/>
+          <attvalue for="character 2" value="Nadia/Nadezhda"/>
+          <attvalue for="startpage" value="151"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="601" source="9" target="8" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ruslan"/>
+          <attvalue for="character 2" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="startpage" value="152"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="612" source="260" target="10" weight="8.0">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia's father"/>
+          <attvalue for="character 2" value="Nadia/Nadezhda"/>
+          <attvalue for="startpage" value="171"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="613" source="10" target="260" weight="8.0">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia/Nadezhda"/>
+          <attvalue for="character 2" value="Nadia's father"/>
+          <attvalue for="startpage" value="171"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="616" source="261" target="14">
+        <attvalues>
+          <attvalue for="character 1" value="Baba / Nadia's Mother"/>
+          <attvalue for="character 2" value="Mila/Ludmila"/>
+          <attvalue for="startpage" value="153"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="618" source="14" target="261">
+        <attvalues>
+          <attvalue for="character 1" value="Mila/Ludmila"/>
+          <attvalue for="character 2" value="Baba / Nadia's Mother"/>
+          <attvalue for="startpage" value="153"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="624" source="268" target="10" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Slava Bychkov"/>
+          <attvalue for="character 2" value="Nadia/Nadezhda"/>
+          <attvalue for="startpage" value="170"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="626" source="10" target="268" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia/Nadezhda"/>
+          <attvalue for="character 2" value="Slava Bychkov"/>
+          <attvalue for="startpage" value="170"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="633" source="272" target="268" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="waiter (158)"/>
+          <attvalue for="character 2" value="Slava Bychkov"/>
+          <attvalue for="startpage" value="159"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="635" source="268" target="272" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Slava Bychkov"/>
+          <attvalue for="character 2" value="waiter (158)"/>
+          <attvalue for="startpage" value="159"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="637" source="10" target="272" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia/Nadezhda"/>
+          <attvalue for="character 2" value="waiter (158)"/>
+          <attvalue for="startpage" value="159"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="638" source="272" target="10" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="waiter (158)"/>
+          <attvalue for="character 2" value="Nadia/Nadezhda"/>
+          <attvalue for="startpage" value="159"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="652" source="276" target="277">
+        <attvalues>
+          <attvalue for="character 1" value="a Ukrainian commuter (161)"/>
+          <attvalue for="character 2" value="a reporter (161)"/>
+          <attvalue for="startpage" value="161"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="657" source="277" target="276">
+        <attvalues>
+          <attvalue for="character 1" value="a reporter (161)"/>
+          <attvalue for="character 2" value="a Ukrainian commuter (161)"/>
+          <attvalue for="startpage" value="161"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="664" source="10" target="7" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Nadia/Nadezhda"/>
+          <attvalue for="character 2" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="startpage" value="164"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="666" source="7" target="10" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Ksyusha/Ksenia Adukanov"/>
+          <attvalue for="character 2" value="Nadia/Nadezhda"/>
+          <attvalue for="startpage" value="164"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="695" source="261" target="268">
+        <attvalues>
+          <attvalue for="character 1" value="Baba / Nadia's Mother"/>
+          <attvalue for="character 2" value="Slava Bychkov"/>
+          <attvalue for="startpage" value="169"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="701" source="268" target="261">
+        <attvalues>
+          <attvalue for="character 1" value="Slava Bychkov"/>
+          <attvalue for="character 2" value="Baba / Nadia's Mother"/>
+          <attvalue for="startpage" value="169"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="717" source="18" target="17" weight="12.0">
+        <attvalues>
+          <attvalue for="character 1" value="Zoya"/>
+          <attvalue for="character 2" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="startpage" value="189"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="718" source="17" target="18" weight="12.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="character 2" value="Zoya"/>
+          <attvalue for="startpage" value="189"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="721" source="18" target="20">
+        <attvalues>
+          <attvalue for="character 1" value="Zoya"/>
+          <attvalue for="character 2" value="Sasha/Alexandra"/>
+          <attvalue for="startpage" value="174"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="722" source="20" target="18">
+        <attvalues>
+          <attvalue for="character 1" value="Sasha/Alexandra"/>
+          <attvalue for="character 2" value="Zoya"/>
+          <attvalue for="startpage" value="174"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="723" source="283" target="20">
+        <attvalues>
+          <attvalue for="character 1" value="Tatyana Yurievna"/>
+          <attvalue for="character 2" value="Sasha/Alexandra"/>
+          <attvalue for="startpage" value="175"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="724" source="18" target="283" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Zoya"/>
+          <attvalue for="character 2" value="Tatyana Yurievna"/>
+          <attvalue for="startpage" value="179"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="725" source="283" target="18" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Tatyana Yurievna"/>
+          <attvalue for="character 2" value="Zoya"/>
+          <attvalue for="startpage" value="179"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="726" source="20" target="283">
+        <attvalues>
+          <attvalue for="character 1" value="Sasha/Alexandra"/>
+          <attvalue for="character 2" value="Tatyana Yurievna"/>
+          <attvalue for="startpage" value="175"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="729" source="18" target="281">
+        <attvalues>
+          <attvalue for="character 1" value="Zoya"/>
+          <attvalue for="character 2" value="Working men (172)"/>
+          <attvalue for="startpage" value="177"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="730" source="281" target="18">
+        <attvalues>
+          <attvalue for="character 1" value="Working men (172)"/>
+          <attvalue for="character 2" value="Zoya"/>
+          <attvalue for="startpage" value="177"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="735" source="285" target="18" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Dima"/>
+          <attvalue for="character 2" value="Zoya"/>
+          <attvalue for="startpage" value="183"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="736" source="18" target="284" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Zoya"/>
+          <attvalue for="character 2" value="Fedya"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="737" source="27" target="18" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Anfisa"/>
+          <attvalue for="character 2" value="Zoya"/>
+          <attvalue for="startpage" value="183"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="738" source="18" target="27" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Zoya"/>
+          <attvalue for="character 2" value="Anfisa"/>
+          <attvalue for="startpage" value="183"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="739" source="17" target="27" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="character 2" value="Anfisa"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="741" source="18" target="285" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Zoya"/>
+          <attvalue for="character 2" value="Dima"/>
+          <attvalue for="startpage" value="183"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="742" source="17" target="285" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="character 2" value="Dima"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="743" source="17" target="284" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="character 2" value="Fedya"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="744" source="284" target="27" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Fedya"/>
+          <attvalue for="character 2" value="Anfisa"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="745" source="27" target="285" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Anfisa"/>
+          <attvalue for="character 2" value="Dima"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="746" source="284" target="17" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Fedya"/>
+          <attvalue for="character 2" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="747" source="27" target="284" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Anfisa"/>
+          <attvalue for="character 2" value="Fedya"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="748" source="284" target="285" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Fedya"/>
+          <attvalue for="character 2" value="Dima"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="749" source="27" target="17" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Anfisa"/>
+          <attvalue for="character 2" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="750" source="284" target="18" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Fedya"/>
+          <attvalue for="character 2" value="Zoya"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="751" source="285" target="284" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Dima"/>
+          <attvalue for="character 2" value="Fedya"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="752" source="285" target="17" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Dima"/>
+          <attvalue for="character 2" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="754" source="285" target="27" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Dima"/>
+          <attvalue for="character 2" value="Anfisa"/>
+          <attvalue for="startpage" value="186"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="835" source="22" target="63" weight="7.0">
+        <attvalues>
+          <attvalue for="character 1" value="Oksana"/>
+          <attvalue for="character 2" value="Malysh (Oksana's dog)"/>
+          <attvalue for="startpage" value="199"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="839" source="22" target="308">
+        <attvalues>
+          <attvalue for="character 1" value="Oksana"/>
+          <attvalue for="character 2" value="&quot;two elderly women&quot;"/>
+          <attvalue for="startpage" value="192"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="842" source="306" target="23">
+        <attvalues>
+          <attvalue for="character 1" value="Anton"/>
+          <attvalue for="character 2" value="Max/Maxim"/>
+          <attvalue for="startpage" value="192"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="843" source="308" target="22">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;two elderly women&quot;"/>
+          <attvalue for="character 2" value="Oksana"/>
+          <attvalue for="startpage" value="192"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="847" source="23" target="306">
+        <attvalues>
+          <attvalue for="character 1" value="Max/Maxim"/>
+          <attvalue for="character 2" value="Anton"/>
+          <attvalue for="startpage" value="192"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="859" source="22" target="17" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Oksana"/>
+          <attvalue for="character 2" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="startpage" value="197"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="861" source="17" target="22" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="character 2" value="Oksana"/>
+          <attvalue for="startpage" value="197"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="869" source="306" target="22" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Anton"/>
+          <attvalue for="character 2" value="Oksana"/>
+          <attvalue for="startpage" value="201"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="870" source="22" target="306" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Oksana"/>
+          <attvalue for="character 2" value="Anton"/>
+          <attvalue for="startpage" value="201"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="875" source="63" target="22">
+        <attvalues>
+          <attvalue for="character 1" value="Malysh (Oksana's dog)"/>
+          <attvalue for="character 2" value="Oksana"/>
+          <attvalue for="startpage" value="199"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="901" source="32" target="316" weight="19.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="Petya"/>
+          <attvalue for="startpage" value="248"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="902" source="315" target="32" weight="17.0">
+        <attvalues>
+          <attvalue for="character 1" value="Eva"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="248"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="903" source="32" target="315" weight="17.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="Eva"/>
+          <attvalue for="startpage" value="248"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="904" source="316" target="315" weight="8.0">
+        <attvalues>
+          <attvalue for="character 1" value="Petya"/>
+          <attvalue for="character 2" value="Eva"/>
+          <attvalue for="startpage" value="239"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="905" source="315" target="316" weight="8.0">
+        <attvalues>
+          <attvalue for="character 1" value="Eva"/>
+          <attvalue for="character 2" value="Petya"/>
+          <attvalue for="startpage" value="239"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="906" source="316" target="32" weight="19.0">
+        <attvalues>
+          <attvalue for="character 1" value="Petya"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="248"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="907" source="320" target="32">
+        <attvalues>
+          <attvalue for="character 1" value="Marina's editor (205)"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="205"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="909" source="32" target="320">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="Marina's editor (205)"/>
+          <attvalue for="startpage" value="205"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="922" source="32" target="26" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="Yevgeny Pavlovich Kulik (the major general)"/>
+          <attvalue for="startpage" value="215"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="928" source="26" target="32" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Yevgeny Pavlovich Kulik (the major general)"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="215"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="930" source="11" target="32" weight="15.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="251"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="931" source="316" target="11">
+        <attvalues>
+          <attvalue for="character 1" value="Petya"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="208"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="932" source="32" target="11" weight="15.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="251"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="933" source="11" target="315" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Eva"/>
+          <attvalue for="startpage" value="222"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="935" source="11" target="316">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Petya"/>
+          <attvalue for="startpage" value="208"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="939" source="315" target="11" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Eva"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="222"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="951" source="331" target="32" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="dishwashing teenagers"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="211"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="952" source="32" target="331" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="dishwashing teenagers"/>
+          <attvalue for="startpage" value="211"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="957" source="32" target="333" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="the cook"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="965" source="333" target="32" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="the cook"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="227"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="979" source="101" target="32">
+        <attvalues>
+          <attvalue for="character 1" value="Golosovskaya girls' father"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="216"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="980" source="32" target="101">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="Golosovskaya girls' father"/>
+          <attvalue for="startpage" value="216"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="983" source="128" target="11">
+        <attvalues>
+          <attvalue for="character 1" value="Russians (generally??)"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="985" source="11" target="338">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="&quot;narrow-eyed villagers&quot;"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="986" source="358" target="11">
+        <attvalues>
+          <attvalue for="character 1" value="tour guides"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="987" source="357" target="11">
+        <attvalues>
+          <attvalue for="character 1" value="Nurgenek Festival Attendees"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="988" source="11" target="357">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Nurgenek Festival Attendees"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="989" source="11" target="339">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="teenagers (218)"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="990" source="11" target="358">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="tour guides"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="991" source="339" target="11">
+        <attvalues>
+          <attvalue for="character 1" value="teenagers (218)"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="992" source="338" target="11">
+        <attvalues>
+          <attvalue for="character 1" value="&quot;narrow-eyed villagers&quot;"/>
+          <attvalue for="character 2" value="Alla Innokentevna"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="994" source="11" target="128">
+        <attvalues>
+          <attvalue for="character 1" value="Alla Innokentevna"/>
+          <attvalue for="character 2" value="Russians (generally??)"/>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="995" source="8" target="32" weight="11.0">
+        <attvalues>
+          <attvalue for="character 1" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="245"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="997" source="32" target="8" weight="11.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="startpage" value="245"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1001" source="32" target="340">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="a vendor (219)"/>
+          <attvalue for="startpage" value="219"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1002" source="340" target="32">
+        <attvalues>
+          <attvalue for="character 1" value="a vendor (219)"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="219"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1045" source="32" target="12" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="249"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1046" source="12" target="32" weight="9.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="249"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1057" source="8" target="12" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="247"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1058" source="12" target="315" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Eva"/>
+          <attvalue for="startpage" value="247"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1062" source="315" target="12" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Eva"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="247"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1063" source="12" target="316" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Petya"/>
+          <attvalue for="startpage" value="243"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1064" source="12" target="8" weight="5.0">
+        <attvalues>
+          <attvalue for="character 1" value="Natasha/Natalia"/>
+          <attvalue for="character 2" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="startpage" value="247"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1065" source="316" target="12" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Petya"/>
+          <attvalue for="character 2" value="Natasha/Natalia"/>
+          <attvalue for="startpage" value="243"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1075" source="8" target="316" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="character 2" value="Petya"/>
+          <attvalue for="startpage" value="247"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1077" source="315" target="8">
+        <attvalues>
+          <attvalue for="character 1" value="Eva"/>
+          <attvalue for="character 2" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="startpage" value="241"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1081" source="316" target="8" weight="4.0">
+        <attvalues>
+          <attvalue for="character 1" value="Petya"/>
+          <attvalue for="character 2" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="startpage" value="247"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1083" source="8" target="315">
+        <attvalues>
+          <attvalue for="character 1" value="Chegga/Sergei Adukanov"/>
+          <attvalue for="character 2" value="Eva"/>
+          <attvalue for="startpage" value="241"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1111" source="32" target="17" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="startpage" value="247"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1114" source="17" target="32" weight="3.0">
+        <attvalues>
+          <attvalue for="character 1" value="Kolya/Nikolai Danilovich / Lieutenant Ryakhovsky"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="247"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1149" source="346" target="32" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="a teenager (251)"/>
+          <attvalue for="character 2" value="Marina Alexandrovna"/>
+          <attvalue for="startpage" value="252"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+      <edge id="1154" source="32" target="346" weight="2.0">
+        <attvalues>
+          <attvalue for="character 1" value="Marina Alexandrovna"/>
+          <attvalue for="character 2" value="a teenager (251)"/>
+          <attvalue for="startpage" value="252"/>
+          <attvalue for="category" value="Exchange"/>
+          <attvalue for="narrator" value="[NULL]"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
