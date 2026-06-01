@@ -1,0 +1,4067 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2026-06-01">
+    <creator>Apache NetBeans Platform Dev (Build {0})</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="cat" title="cat" type="string"/>
+      <attribute id="startpage" title="startpage" type="integer"/>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="node_strength" title="node_strength" type="double"/>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="startpage" title="startpage" type="integer"/>
+      <attribute id="category" title="category" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="1132" label="Leo">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="3"/>
+          <attvalue for="indegree" value="43"/>
+          <attvalue for="outdegree" value="57"/>
+          <attvalue for="degree" value="100"/>
+          <attvalue for="node_strength" value="235.0"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.6153846153846154"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.7208333333333331"/>
+          <attvalue for="betweenesscentrality" value="9306.749999999998"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="89.172935"/>
+        <viz:position x="-194.63693" y="-58.655354"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1135" label="Bruno">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="3"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="7"/>
+          <attvalue for="node_strength" value="50.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3858520900321543"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.42083333333333356"/>
+          <attvalue for="betweenesscentrality" value="120.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="26.578947"/>
+        <viz:position x="-160.21986" y="236.64949"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1136" label="Chinese Takeout Boy">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="3"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-652.592" y="-130.90599"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1137" label="Athletes Foot Clerk">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="3"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-554.70636" y="-176.25864"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1141" label="Woman (Art Teacher)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="4"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="node_strength" value="13.0"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.449438202247191"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.47083333333333355"/>
+          <attvalue for="betweenesscentrality" value="26.666666666666664"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="14.06015"/>
+        <viz:position x="97.93416" y="125.72289"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1143" label="Leo's Second Cousin">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="4"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-392.95963" y="283.68134"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1162" label="Grocer">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="5"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-999.0432" y="727.5148"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1408" label="Bruno Schulz">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="5"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="102.0"/>
+          <attvalue for="modularity_class" value="0"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-861.1883" y="596.2409"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1145" label="Doctor who pumped Bruno's stomach">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="7"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.27906976744186046"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2943055555555555"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-197.41225" y="507.16843"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1148" label="Grodzenski the Tailor">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="7"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-295.74118" y="289.178"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1149" label="Fishl Shapiro">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="7"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="109.28966" y="-360.8393"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1151" label="Alma Mereminski/Moritz">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="8"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="28.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3858520900321543"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4180555555555558"/>
+          <attvalue for="betweenesscentrality" value="337.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="19.135338"/>
+        <viz:position x="-446.84937" y="125.41384"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1152" label="Leo's mother">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="8"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-655.8002" y="-37.33494"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1155" label="Leo's father">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="10"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="5.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.353383"/>
+        <viz:position x="-146.19504" y="-385.7756"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1172" label="Kid who yells Who smells shit?">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="10"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3829113924050633"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40909090909090934"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-714.022" y="118.15055"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1157" label="Isaac Moritz">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="12"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="42.0"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.45454545454545453"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4805555555555559"/>
+          <attvalue for="betweenesscentrality" value="301.44999999999993"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="23.87218"/>
+        <viz:position x="421.7611" y="-61.209347"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1160" label="Someone who heard they were killing Jews in Pola">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="13"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.27906976744186046"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.293611111111111"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-703.5721" y="375.58154"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1138" label="Alma Singer">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="15"/>
+          <attvalue for="indegree" value="30"/>
+          <attvalue for="outdegree" value="37"/>
+          <attvalue for="degree" value="67"/>
+          <attvalue for="node_strength" value="267.0"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.5454545454545454"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.6305555555555554"/>
+          <attvalue for="betweenesscentrality" value="6074.783333333333"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="100.0"/>
+        <viz:position x="671.96814" y="232.9974"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1165" label="Art Students (Drawing Class)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="17"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="200.01465" y="458.76886"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1166" label="Man who is locked out of his house">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="20"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="12.368421"/>
+        <viz:position x="-340.60004" y="205.73248"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1167" label="Limousine Driver">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="21"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-543.4146" y="-81.79256"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1173" label="Angel">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="23"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="1.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-954.3571" y="127.97542"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1174" label="God">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="23"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="290.46802" y="582.3575"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1175" label="Mr. Grossmark">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="24"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="2.0"/>
+          <attvalue for="closnesscentrality" value="0.6666666666666666"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.75"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-858.73645" y="37.463013"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1176" label="Man under the bridge">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="24"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-891.36615" y="211.25293"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1169" label="Woman in line to meet Isaac">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3858520900321543"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4145833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="245.03697" y="-327.38867"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1139" label="Bird">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="35"/>
+          <attvalue for="indegree" value="13"/>
+          <attvalue for="outdegree" value="16"/>
+          <attvalue for="degree" value="29"/>
+          <attvalue for="node_strength" value="91.0"/>
+          <attvalue for="eccentricity" value="3.0"/>
+          <attvalue for="closnesscentrality" value="0.4918032786885246"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.5388888888888891"/>
+          <attvalue for="betweenesscentrality" value="1754.433333333333"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="40.451126"/>
+        <viz:position x="867.6797" y="-156.28983"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1177" label="Charlotte Singer">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="35"/>
+          <attvalue for="indegree" value="10"/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="18"/>
+          <attvalue for="node_strength" value="121.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.375"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.42291666666666694"/>
+          <attvalue for="betweenesscentrality" value="432.48333333333335"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="50.601505"/>
+        <viz:position x="618.81274" y="-119.84901"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1182" label="David Singer">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="35"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="14.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.36036036036036034"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3937500000000004"/>
+          <attvalue for="betweenesscentrality" value="460.3333333333333"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="14.398497"/>
+        <viz:position x="736.9898" y="579.7943"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1183" label="Mr. Goldstein">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="36"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="10.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3305785123966942"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3458333333333334"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="13.045113"/>
+        <viz:position x="1027.1241" y="-232.00179"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1184" label="Blind Photographer">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="38"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2733485193621868"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2922222222222221"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="641.1158" y="-497.42484"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1190" label="Misha Shklovsky">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="41"/>
+          <attvalue for="indegree" value="6"/>
+          <attvalue for="outdegree" value="6"/>
+          <attvalue for="degree" value="12"/>
+          <attvalue for="node_strength" value="37.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3715170278637771"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.41319444444444464"/>
+          <attvalue for="betweenesscentrality" value="888.3333333333333"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="22.18045"/>
+        <viz:position x="592.37524" y="575.78156"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1192" label="Uncle Julian">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="42"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="17.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="15.413534"/>
+        <viz:position x="447.88315" y="396.69437"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1195" label="Lyle (English Editor)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="46"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3560830860534125"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38263888888888914"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.368421"/>
+        <viz:position x="483.35425" y="-234.6812"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1196" label="Henry Lavender">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="47"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="9.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.364741641337386"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.396527777777778"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.706767"/>
+        <viz:position x="1019.482" y="-9.792538"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1197" label="Frank Tucci">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="48"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3560830860534125"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.38263888888888914"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.69173"/>
+        <viz:position x="354.44397" y="68.68363"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1198" label="Herman Cooper">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.69173"/>
+        <viz:position x="466.81076" y="488.441"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1199" label="Sharon Newman">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="1058.6954" y="447.53775"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1203" label="Daniel Eldridge">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="50"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="1103.5435" y="350.3576"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1204" label="Eldridge's Secretary">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="53"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="798.774" y="705.9601"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1140" label="Zvi Litvinoff">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="55"/>
+          <attvalue for="indegree" value="11"/>
+          <attvalue for="outdegree" value="12"/>
+          <attvalue for="degree" value="23"/>
+          <attvalue for="node_strength" value="45.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.41522491349480967"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4729166666666671"/>
+          <attvalue for="betweenesscentrality" value="1791.7333333333331"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="24.887218"/>
+        <viz:position x="-483.14072" y="-744.21185"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1209" label="Rosa">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="65"/>
+          <attvalue for="indegree" value="5"/>
+          <attvalue for="outdegree" value="5"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="node_strength" value="25.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.40268456375838924"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.44166666666666704"/>
+          <attvalue for="betweenesscentrality" value="468.1"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="18.1203"/>
+        <viz:position x="-622.9457" y="-644.3268"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1212" label="Boris (Zvi's nephew)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="67"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-736.06744" y="-1036.695"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1213" label="Miriam (Zvi's sister)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="68"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2951219512195122"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3163911845730028"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-607.3639" y="-1111.5681"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1216" label="Editor (who met with the Litvinoffs)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="68"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2962962962962963"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.32180555555555557"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-720.8526" y="-861.60565"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1698" label="Department Store Manager">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2962962962962963"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.32180555555555557"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-809.4939" y="-789.9788"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1699" label="Policemen (Rosa talks to)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.28776978417266186"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.30402777777777773"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-892.0358" y="-711.08826"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1217" label="Postman (who brings Litvinoff a package)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="70"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.29411764705882354"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.31486111111111115"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-450.2758" y="-985.6262"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1218" label="Publisher (of Litvinoff's The History of Love)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="70"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.29411764705882354"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.31486111111111115"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-647.11743" y="-974.1153"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1700" label="Bookstore Owner (of small secondhand bookstore)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="72"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.26548672566371684"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2804166666666665"/>
+          <attvalue for="betweenesscentrality" value="27.800000000000004"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="179.40077" y="323.29327"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1228" label="Girl with Blue Hair (in Starbucks)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="76"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-128.42548" y="-500.67877"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1229" label="Little Boy in a Soccer Uniform (in Starbucks)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="76"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="102.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-1095.4093" y="-277.99857"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1230" label="Mother of the Boy in the Soccer Uniform (in Star">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="76"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="4"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-1281.5452" y="-321.42584"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1234" label="Morton Levy">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="78"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3133159268929504"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.32430555555555557"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.69173"/>
+        <viz:position x="236.97089" y="-103.737755"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1159" label="Bernard Moritz">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="79"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="6"/>
+          <attvalue for="node_strength" value="18.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.4166666666666667"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4430555555555558"/>
+          <attvalue for="betweenesscentrality" value="209.50000000000006"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="15.75188"/>
+        <viz:position x="161.71655" y="-222.05049"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1235" label="Starbucks Employee (with a ring in his eyebrow)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="79"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-508.2297" y="-384.93127"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1237" label="&quot;Giant schvartzer&quot; (Suit Salesman)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="80"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-539.8896" y="15.946027"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1238" label="Tailor (at Bloomingdale's)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="82"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-255.83316" y="-400.3273"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1241" label="Woman (on the bus)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="84"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-604.1272" y="139.66438"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1243" label="Man in a Yellow Bow Tie and a White Jacket">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="84"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="outdegree" value="4"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="node_strength" value="18.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.39473684210526316"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.42638888888888926"/>
+          <attvalue for="betweenesscentrality" value="123.33333333333334"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="15.75188"/>
+        <viz:position x="17.543194" y="-411.92975"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1244" label="Woman (at Isaac's Funeral)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="84"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="5.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.28368794326241137"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2974999999999998"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.353383"/>
+        <viz:position x="-3.774498" y="-567.4935"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1245" label="Mr. Simchik">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-580.72107" y="-313.42325"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1246" label="Nurse (at the hospital with Alma M)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-206.4875" y="382.99997"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1251" label="Man (sitting across from Leo in the limousine)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.38338658146964855"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.41250000000000026"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="89.40186" y="-543.95734"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1319" label="Alma Mereminski's Mother">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="90"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.27972027972027974"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.29499999999999993"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-671.782" y="236.36275"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1255" label="Limousine Driver (From Funeral)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="91"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.4083333333333335"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-642.1977" y="51.54217"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1256" label="Kid (who David threw a rock at)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.26666666666666666"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.28597222222222207"/>
+          <attvalue for="betweenesscentrality" value="119.99999999999999"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="918.6647" y="978.59247"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1257" label="David's Brother">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.210896309314587"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2223611111111109"/>
+          <attvalue for="betweenesscentrality" value="39.63333333333335"/>
+          <attvalue for="modularity_class" value="5"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="1003.7993" y="913.599"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1259" label="Old Man (who shared a hospital room with David)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="1014.23" y="551.8874"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1260" label="Tatiana">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="1031.0636" y="248.85466"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1262" label="Bubbe">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="95"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="node_strength" value="7.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.36363636363636365"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.39513888888888904"/>
+          <attvalue for="betweenesscentrality" value="3.6666666666666665"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.030075"/>
+        <viz:position x="328.5482" y="302.04553"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1267" label="Rabbi (at the Wailing Wall)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="1154.3867" y="423.76718"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1269" label="Misha's Grandfather">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="5"/>
+          <attvalue for="node_strength" value="5.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.2727272727272727"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2943055555555555"/>
+          <attvalue for="betweenesscentrality" value="219.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.353383"/>
+        <viz:position x="573.46747" y="1004.7738"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1205" label="Misha's Cousin (Lev's Sister)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.27149321266968324"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2887499999999999"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="637.29126" y="872.6613"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1271" label="Svetlana">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="6.0"/>
+          <attvalue for="closnesscentrality" value="0.2146690518783542"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.22708333333333316"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="554.42053" y="1224.1013"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1273" label="Old Man (that offers Alma vodka)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="100"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="435.89587" y="648.66095"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1274" label="Bar Mitzvah Guests">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="100"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.27149321266968324"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2887499999999999"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="530.7265" y="859.4454"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1275" label="Mr. Shklovsky">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="101"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.26258205689277897"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.27555555555555533"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="985.47876" y="676.55133"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1276" label="Mrs. Shklovsky">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="101"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35502958579881655"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3812500000000003"/>
+          <attvalue for="betweenesscentrality" value="119.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.69173"/>
+        <viz:position x="908.765" y="609.5843"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1277" label="Louis">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="102"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="1149.0657" y="-67.1999"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1284" label="Greg Feldman">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="105"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="1147.9194" y="208.4379"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1706" label="People in the coffee shop (who Zvi listens to)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="112"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-674.0633" y="-1267.9579"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1707" label="Zvi's Editor">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="113"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.29411764705882354"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.31486111111111115"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-355.9617" y="-1004.4704"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1708" label="Zvi's Colleagues">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="113"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.29411764705882354"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.31486111111111115"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-557.92413" y="-1020.81036"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1709" label="Woman (at Leo's house)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="114"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.29411764705882354"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.31486111111111115"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-461.59622" y="-1078.8398"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1294" label="Franz Kafka">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="116"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="102.0"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-1151.3505" y="-4.750255"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1297" label="People (in Leo's obituary for Kafka)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="116"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="6"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-1343.2448" y="10.961053"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1298" label="Mr. Tong">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="119"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40833333333333355"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-552.06335" y="227.74223"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1305" label="Bibi (Bruno's Dog)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="120"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="5.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.353383"/>
+        <viz:position x="-289.09442" y="414.64194"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1720" label="Puerto Rican (who Bibi runs to)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="120"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-347.56744" y="557.0381"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1163" label="Children in the playground across the street">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="122"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40833333333333355"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-227.38078" y="-508.6958"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1308" label="First Girl (playing across the street)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="122"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="102.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-1062.3392" y="378.42828"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1309" label="Second Girl (playing across the street)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="122"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="7"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-1235.3999" y="460.58426"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1310" label="Librarian">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="123"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40833333333333355"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-372.48578" y="-394.11853"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1721" label="People (at the library)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="123"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-146.99199" y="-603.9962"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1311" label="Leo's Uncle">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="124"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3829113924050633"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40909090909090934"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-534.36816" y="404.31738"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1320" label="Girl (In Leo and Alma's Class)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="128"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-603.0944" y="325.04596"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1322" label="Woman (who was locked out)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="129"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40833333333333355"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-632.97766" y="-229.92993"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1339" label="Security Guard (at the MOMA)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="136"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3305785123966942"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3458333333333334"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="1077.329" y="-427.9095"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1340" label="Old Man (wearing a tiny bathing suit)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="137"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.27149321266968324"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.2887499999999999"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="431.62537" y="861.81866"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1341" label="Woman (Information)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="137"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="7.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.030075"/>
+        <viz:position x="934.86475" y="65.61841"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1343" label="Artie Mereminski">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="138"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="1101.4701" y="524.6315"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1348" label="Man (working at the City Municipal Archives)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="145"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="6.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.69173"/>
+        <viz:position x="936.8725" y="418.6264"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1386" label="Man (who worked at the City Clerk's Office)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="146"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="8.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.368421"/>
+        <viz:position x="964.7002" y="325.82828"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1351" label="Woman (working at the Department of Health)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="147"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="896.5182" y="503.1254"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1352" label="Josh K.">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="150"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3305785123966942"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3458333333333334"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="979.08075" y="-495.73914"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1354" label="Rabbi Wizner">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="150"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3315068493150685"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.347107438016529"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1076.1685" y="-562.90686"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1361" label="Zvi's Landlady">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="155"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.29411764705882354"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.31486111111111115"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="3"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-530.52985" y="-906.83246"/>
+        <viz:color r="255" g="255" b="0"/>
+      </node>
+      <node id="1763" label="Train conductor">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="160"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3829113924050633"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40909090909090934"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-383.52744" y="453.41467"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1369" label="Man (working at Dunkin' Donuts)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="161"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.38338658146964855"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.41250000000000026"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-107.687645" y="419.38815"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1372" label="Kid (who lives in the same building as the Morit">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="162"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40833333333333355"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-484.66843" y="301.83923"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1764" label="Person (Information)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="162"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-470.01053" y="474.19778"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1373" label="Taxi Driver">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="163"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-755.90607" y="-81.010414"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1737" label="Person (in the ticket booth)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="163"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-443.9872" y="394.5375"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1377" label="Doctor (who told Leo not to go without eating)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="166"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3829113924050633"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40909090909090934"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-748.21576" y="-189.14114"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1381" label="Man (who worked in the secondhand shop)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="167"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3829113924050633"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40909090909090934"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="-707.67847" y="-296.6648"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1384" label="Charlotte's Cousin">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="170"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.36253776435045315"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3909722222222224"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="1167.8768" y="32.355938"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1392" label="Doorman (at Alma M's Building)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="176"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.35398230088495575"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3770833333333336"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="1176.6782" y="299.26657"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1206" label="Charlotte's Publisher">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="192"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="5.0"/>
+          <attvalue for="closnesscentrality" value="0.273972602739726"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.293611111111111"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="668.1476" y="-385.15854"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1414" label="Dr. Vishnubakat">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="203"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="2"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="7.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3380281690140845"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.35833333333333345"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="12.030075"/>
+        <viz:position x="896.6336" y="-363.05978"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1415" label="Woman (Bird tried to buy a plane ticket from)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="203"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3305785123966942"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.3458333333333334"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="1159.6509" y="-344.3969"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1419" label="Mr. Hintz">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1255.5002" y="-395.23093"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1742" label="Woman (at El Al)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="node_strength" value="1.0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="1"/>
+        </attvalues>
+        <viz:size value="10.0"/>
+        <viz:position x="1176.6776" y="-494.06033"/>
+        <viz:color r="0" g="255" b="0"/>
+      </node>
+      <node id="1420" label="Man (from Fiction Department)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="210"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40833333333333355"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-425.8326" y="-319.26743"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1424" label="Policeman (who checks on Leo)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="234"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40833333333333355"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-330.49548" y="-483.12723"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+      <node id="1426" label="First SS Officer">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="node_strength" value="3.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="102.0"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="10.676692"/>
+        <viz:position x="-632.48865" y="779.31287"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1427" label="Second SS Officer">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="2.0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="8"/>
+        </attvalues>
+        <viz:size value="10.338346"/>
+        <viz:position x="-723.50055" y="947.2866"/>
+        <viz:color r="211" g="211" b="211"/>
+      </node>
+      <node id="1432" label="Man (who walked past Leo and Alma)">
+        <attvalues>
+          <attvalue for="cat" value="mention"/>
+          <attvalue for="startpage" value="248"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="node_strength" value="4.0"/>
+          <attvalue for="eccentricity" value="4.0"/>
+          <attvalue for="closnesscentrality" value="0.3821656050955414"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.40833333333333355"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="modularity_class" value="2"/>
+        </attvalues>
+        <viz:size value="11.015038"/>
+        <viz:position x="-489.6983" y="-245.92273"/>
+        <viz:color r="255" g="0" b="0"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1132" target="1136">
+        <attvalues>
+          <attvalue for="startpage" value="3"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="1136" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="3"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="1132" target="1137" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="4"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="1137" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="4"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="1132" target="1141" weight="5.0">
+        <attvalues>
+          <attvalue for="startpage" value="75"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="1141" target="1132" weight="5.0">
+        <attvalues>
+          <attvalue for="startpage" value="75"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="1132" target="1135" weight="22.0">
+        <attvalues>
+          <attvalue for="startpage" value="209"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="1135" target="1132" weight="22.0">
+        <attvalues>
+          <attvalue for="startpage" value="209"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="1408" target="1162">
+        <attvalues>
+          <attvalue for="startpage" value="5"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="1162" target="1408">
+        <attvalues>
+          <attvalue for="startpage" value="5"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="1132" target="1408">
+        <attvalues>
+          <attvalue for="startpage" value="5"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="1145" target="1135">
+        <attvalues>
+          <attvalue for="startpage" value="7"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="1135" target="1145">
+        <attvalues>
+          <attvalue for="startpage" value="7"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="1132" target="1145">
+        <attvalues>
+          <attvalue for="startpage" value="7"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="1132" target="1151" weight="11.0">
+        <attvalues>
+          <attvalue for="startpage" value="252"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="1151" target="1132" weight="13.0">
+        <attvalues>
+          <attvalue for="startpage" value="252"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="1132" target="1152">
+        <attvalues>
+          <attvalue for="startpage" value="8"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="1152" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="8"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1172" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="10"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="1138" target="1132" weight="7.0">
+        <attvalues>
+          <attvalue for="startpage" value="251"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="1132" target="1138" weight="9.0">
+        <attvalues>
+          <attvalue for="startpage" value="251"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="1166" target="1132" weight="4.0">
+        <attvalues>
+          <attvalue for="startpage" value="26"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="1132" target="1166" weight="4.0">
+        <attvalues>
+          <attvalue for="startpage" value="26"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="1167" target="1132" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="22"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="1132" target="1167" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="22"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="56" source="1175" target="1173">
+        <attvalues>
+          <attvalue for="startpage" value="24"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="1132" target="1175">
+        <attvalues>
+          <attvalue for="startpage" value="24"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="1132" target="1173">
+        <attvalues>
+          <attvalue for="startpage" value="24"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="1176" target="1173">
+        <attvalues>
+          <attvalue for="startpage" value="24"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="60" source="1173" target="1176">
+        <attvalues>
+          <attvalue for="startpage" value="24"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="61" source="1132" target="1176">
+        <attvalues>
+          <attvalue for="startpage" value="24"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="1132" target="1157">
+        <attvalues>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="1157" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="64" source="1169" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="65" source="1132" target="1169">
+        <attvalues>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="66" source="1157" target="1169">
+        <attvalues>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="1169" target="1157">
+        <attvalues>
+          <attvalue for="startpage" value="25"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="74" source="1132" target="1228">
+        <attvalues>
+          <attvalue for="startpage" value="76"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="75" source="1228" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="76"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="1229" target="1230">
+        <attvalues>
+          <attvalue for="startpage" value="76"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="1230" target="1229">
+        <attvalues>
+          <attvalue for="startpage" value="76"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="1132" target="1229">
+        <attvalues>
+          <attvalue for="startpage" value="76"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="81" source="1234" target="1157" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="79"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="82" source="1157" target="1234" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="79"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="1132" target="1234" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="79"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="87" source="1235" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="79"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="88" source="1132" target="1235">
+        <attvalues>
+          <attvalue for="startpage" value="79"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="91" source="1132" target="1155" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="83"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="92" source="1155" target="1132" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="168"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="93" source="1132" target="1237" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="81"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="94" source="1237" target="1132" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="81"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="97" source="1132" target="1143">
+        <attvalues>
+          <attvalue for="startpage" value="81"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="98" source="1143" target="1132" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="132"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="99" source="1132" target="1148" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="83"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="100" source="1148" target="1132" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="83"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="101" source="1132" target="1238" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="83"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="102" source="1238" target="1132" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="83"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="109" source="1132" target="1149">
+        <attvalues>
+          <attvalue for="startpage" value="83"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="110" source="1149" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="83"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="111" source="1132" target="1241">
+        <attvalues>
+          <attvalue for="startpage" value="84"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="112" source="1241" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="84"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="113" source="1243" target="1244" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="114" source="1244" target="1243" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="115" source="1132" target="1243" weight="5.0">
+        <attvalues>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="118" source="1132" target="1244">
+        <attvalues>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="119" source="1132" target="1245">
+        <attvalues>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="120" source="1245" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="85"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="121" source="1132" target="1246">
+        <attvalues>
+          <attvalue for="startpage" value="86"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="122" source="1246" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="86"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="125" source="1243" target="1132" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="88"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="129" source="1132" target="1159" weight="5.0">
+        <attvalues>
+          <attvalue for="startpage" value="91"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="130" source="1159" target="1132" weight="5.0">
+        <attvalues>
+          <attvalue for="startpage" value="91"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="131" source="1159" target="1243" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="88"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="132" source="1243" target="1159" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="88"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="141" source="1243" target="1251">
+        <attvalues>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="142" source="1251" target="1243">
+        <attvalues>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="144" source="1132" target="1251">
+        <attvalues>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="145" source="1251" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="89"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="156" source="1132" target="1255">
+        <attvalues>
+          <attvalue for="startpage" value="91"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="157" source="1255" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="91"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="160" source="1294" target="1297">
+        <attvalues>
+          <attvalue for="startpage" value="116"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="161" source="1297" target="1294">
+        <attvalues>
+          <attvalue for="startpage" value="116"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="162" source="1132" target="1294">
+        <attvalues>
+          <attvalue for="startpage" value="116"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="164" source="1135" target="1305" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="121"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="166" source="1132" target="1305" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="121"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="167" source="1720" target="1305">
+        <attvalues>
+          <attvalue for="startpage" value="120"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="168" source="1132" target="1720">
+        <attvalues>
+          <attvalue for="startpage" value="120"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="173" source="1132" target="1298">
+        <attvalues>
+          <attvalue for="startpage" value="121"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="174" source="1298" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="121"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="175" source="1132" target="1163">
+        <attvalues>
+          <attvalue for="startpage" value="122"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="176" source="1163" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="122"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="177" source="1308" target="1309">
+        <attvalues>
+          <attvalue for="startpage" value="122"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="178" source="1309" target="1308">
+        <attvalues>
+          <attvalue for="startpage" value="122"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="179" source="1132" target="1308">
+        <attvalues>
+          <attvalue for="startpage" value="122"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="180" source="1132" target="1310">
+        <attvalues>
+          <attvalue for="startpage" value="123"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="181" source="1310" target="1132" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="124"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="182" source="1132" target="1721">
+        <attvalues>
+          <attvalue for="startpage" value="123"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="186" source="1311" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="124"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="191" source="1319" target="1151">
+        <attvalues>
+          <attvalue for="startpage" value="128"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="192" source="1132" target="1319">
+        <attvalues>
+          <attvalue for="startpage" value="128"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="193" source="1151" target="1320">
+        <attvalues>
+          <attvalue for="startpage" value="128"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="194" source="1132" target="1320">
+        <attvalues>
+          <attvalue for="startpage" value="128"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="196" source="1132" target="1322">
+        <attvalues>
+          <attvalue for="startpage" value="130"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="197" source="1322" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="130"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="209" source="1132" target="1369">
+        <attvalues>
+          <attvalue for="startpage" value="161"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="210" source="1369" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="161"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="211" source="1135" target="1369">
+        <attvalues>
+          <attvalue for="startpage" value="161"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="212" source="1369" target="1135">
+        <attvalues>
+          <attvalue for="startpage" value="161"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="213" source="1132" target="1341">
+        <attvalues>
+          <attvalue for="startpage" value="162"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="216" source="1132" target="1372">
+        <attvalues>
+          <attvalue for="startpage" value="162"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="217" source="1372" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="162"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="219" source="1132" target="1737">
+        <attvalues>
+          <attvalue for="startpage" value="163"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="220" source="1132" target="1373">
+        <attvalues>
+          <attvalue for="startpage" value="163"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="221" source="1377" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="166"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="222" source="1381" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="167"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="228" source="1132" target="1420" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="211"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="229" source="1420" target="1132" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="211"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="232" source="1139" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="212"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="235" source="1132" target="1424">
+        <attvalues>
+          <attvalue for="startpage" value="234"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="236" source="1424" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="234"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="237" source="1426" target="1427">
+        <attvalues>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="238" source="1427" target="1426">
+        <attvalues>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="239" source="1132" target="1426">
+        <attvalues>
+          <attvalue for="startpage" value="238"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="244" source="1132" target="1432" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="249"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="245" source="1432" target="1132" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="249"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="251" source="1763" target="1132">
+        <attvalues>
+          <attvalue for="startpage" value="160"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="252" source="1132" target="1764">
+        <attvalues>
+          <attvalue for="startpage" value="162"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="253" source="1151" target="1160">
+        <attvalues>
+          <attvalue for="startpage" value="13"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="254" source="1160" target="1151">
+        <attvalues>
+          <attvalue for="startpage" value="13"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="255" source="1138" target="1139" weight="17.0">
+        <attvalues>
+          <attvalue for="startpage" value="150"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="256" source="1139" target="1138" weight="17.0">
+        <attvalues>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="257" source="1183" target="1139" weight="5.0">
+        <attvalues>
+          <attvalue for="startpage" value="216"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="258" source="1139" target="1183" weight="4.0">
+        <attvalues>
+          <attvalue for="startpage" value="216"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="259" source="1138" target="1183">
+        <attvalues>
+          <attvalue for="startpage" value="37"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="260" source="1138" target="1182" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="261" source="1182" target="1138" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="177"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="262" source="1182" target="1177" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="108"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="263" source="1138" target="1177" weight="39.0">
+        <attvalues>
+          <attvalue for="startpage" value="139"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="264" source="1177" target="1184">
+        <attvalues>
+          <attvalue for="startpage" value="39"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="265" source="1184" target="1177">
+        <attvalues>
+          <attvalue for="startpage" value="39"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="268" source="1177" target="1138" weight="27.0">
+        <attvalues>
+          <attvalue for="startpage" value="195"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="269" source="1138" target="1192" weight="8.0">
+        <attvalues>
+          <attvalue for="startpage" value="182"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="270" source="1192" target="1138" weight="9.0">
+        <attvalues>
+          <attvalue for="startpage" value="182"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="279" source="1138" target="1195" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="47"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="280" source="1195" target="1138" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="47"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="281" source="1177" target="1195" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="47"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="282" source="1195" target="1177" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="47"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="289" source="1196" target="1138" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="48"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="290" source="1138" target="1196" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="48"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="291" source="1196" target="1139">
+        <attvalues>
+          <attvalue for="startpage" value="47"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="292" source="1139" target="1196">
+        <attvalues>
+          <attvalue for="startpage" value="47"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="293" source="1196" target="1177" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="48"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="294" source="1177" target="1196">
+        <attvalues>
+          <attvalue for="startpage" value="47"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="300" source="1138" target="1197" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="301" source="1197" target="1138" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="306" source="1177" target="1197">
+        <attvalues>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="307" source="1197" target="1177">
+        <attvalues>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="310" source="1199" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="311" source="1138" target="1199">
+        <attvalues>
+          <attvalue for="startpage" value="49"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="318" source="1177" target="1139" weight="10.0">
+        <attvalues>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="319" source="1139" target="1177" weight="9.0">
+        <attvalues>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="324" source="1138" target="1204">
+        <attvalues>
+          <attvalue for="startpage" value="53"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="325" source="1204" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="53"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="326" source="1203" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="54"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="327" source="1138" target="1203">
+        <attvalues>
+          <attvalue for="startpage" value="54"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="330" source="1138" target="1190" weight="14.0">
+        <attvalues>
+          <attvalue for="startpage" value="149"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="331" source="1190" target="1138" weight="13.0">
+        <attvalues>
+          <attvalue for="startpage" value="199"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="336" source="1157" target="1177" weight="9.0">
+        <attvalues>
+          <attvalue for="startpage" value="56"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="337" source="1177" target="1157" weight="10.0">
+        <attvalues>
+          <attvalue for="startpage" value="56"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="338" source="1138" target="1157" weight="13.0">
+        <attvalues>
+          <attvalue for="startpage" value="139"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="360" source="1182" target="1256">
+        <attvalues>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="361" source="1256" target="1182">
+        <attvalues>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="362" source="1257" target="1256">
+        <attvalues>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="363" source="1256" target="1257">
+        <attvalues>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="364" source="1138" target="1257">
+        <attvalues>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="365" source="1138" target="1259">
+        <attvalues>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="366" source="1259" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="94"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="367" source="1138" target="1260" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="95"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="368" source="1260" target="1138" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="95"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="379" source="1262" target="1139">
+        <attvalues>
+          <attvalue for="startpage" value="97"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="380" source="1139" target="1262">
+        <attvalues>
+          <attvalue for="startpage" value="97"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="381" source="1138" target="1262" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="382" source="1262" target="1138" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="385" source="1138" target="1267">
+        <attvalues>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="386" source="1267" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="390" source="1262" target="1174">
+        <attvalues>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="391" source="1138" target="1174">
+        <attvalues>
+          <attvalue for="startpage" value="98"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="394" source="1190" target="1269">
+        <attvalues>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="395" source="1269" target="1190">
+        <attvalues>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="397" source="1269" target="1271">
+        <attvalues>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="398" source="1271" target="1269">
+        <attvalues>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="399" source="1138" target="1269">
+        <attvalues>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="400" source="1190" target="1205">
+        <attvalues>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="401" source="1205" target="1190">
+        <attvalues>
+          <attvalue for="startpage" value="99"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="409" source="1138" target="1273">
+        <attvalues>
+          <attvalue for="startpage" value="100"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="410" source="1273" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="100"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="414" source="1157" target="1138" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="103"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="415" source="1138" target="1277">
+        <attvalues>
+          <attvalue for="startpage" value="102"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="416" source="1277" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="102"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="423" source="1284" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="105"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="424" source="1138" target="1284">
+        <attvalues>
+          <attvalue for="startpage" value="105"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="427" source="1177" target="1182" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="39"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="435" source="1139" target="1339">
+        <attvalues>
+          <attvalue for="startpage" value="136"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="436" source="1339" target="1139">
+        <attvalues>
+          <attvalue for="startpage" value="136"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="441" source="1190" target="1340">
+        <attvalues>
+          <attvalue for="startpage" value="137"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="442" source="1340" target="1190">
+        <attvalues>
+          <attvalue for="startpage" value="137"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="443" source="1138" target="1341" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="175"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="444" source="1341" target="1138" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="175"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="449" source="1138" target="1343">
+        <attvalues>
+          <attvalue for="startpage" value="138"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="450" source="1343" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="138"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="457" source="1276" target="1275">
+        <attvalues>
+          <attvalue for="startpage" value="141"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="458" source="1138" target="1276" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="147"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="459" source="1138" target="1275" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="142"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="463" source="1275" target="1276">
+        <attvalues>
+          <attvalue for="startpage" value="142"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="471" source="1138" target="1348" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="173"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="472" source="1348" target="1138" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="173"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="473" source="1138" target="1386" weight="4.0">
+        <attvalues>
+          <attvalue for="startpage" value="175"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="474" source="1386" target="1138" weight="4.0">
+        <attvalues>
+          <attvalue for="startpage" value="175"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="478" source="1276" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="147"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="481" source="1138" target="1351" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="148"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="482" source="1351" target="1138" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="148"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="488" source="1384" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="170"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="489" source="1139" target="1384">
+        <attvalues>
+          <attvalue for="startpage" value="170"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="490" source="1384" target="1139">
+        <attvalues>
+          <attvalue for="startpage" value="170"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="492" source="1138" target="1384">
+        <attvalues>
+          <attvalue for="startpage" value="170"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="509" source="1138" target="1392">
+        <attvalues>
+          <attvalue for="startpage" value="176"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="510" source="1392" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="176"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="531" source="1206" target="1177">
+        <attvalues>
+          <attvalue for="startpage" value="192"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="532" source="1138" target="1206">
+        <attvalues>
+          <attvalue for="startpage" value="192"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="534" source="1138" target="1141">
+        <attvalues>
+          <attvalue for="startpage" value="193"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="535" source="1141" target="1138">
+        <attvalues>
+          <attvalue for="startpage" value="193"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="536" source="1141" target="1165">
+        <attvalues>
+          <attvalue for="startpage" value="193"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="537" source="1138" target="1165">
+        <attvalues>
+          <attvalue for="startpage" value="193"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="552" source="1138" target="1198" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="553" source="1198" target="1138" weight="3.0">
+        <attvalues>
+          <attvalue for="startpage" value="202"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="574" source="1190" target="1274">
+        <attvalues>
+          <attvalue for="startpage" value="100"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="575" source="1274" target="1190">
+        <attvalues>
+          <attvalue for="startpage" value="100"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="576" source="1140" target="1209" weight="8.0">
+        <attvalues>
+          <attvalue for="startpage" value="187"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="577" source="1209" target="1140" weight="7.0">
+        <attvalues>
+          <attvalue for="startpage" value="187"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="582" source="1209" target="1698">
+        <attvalues>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="583" source="1698" target="1209">
+        <attvalues>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="584" source="1698" target="1140">
+        <attvalues>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="585" source="1140" target="1216">
+        <attvalues>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="586" source="1216" target="1140">
+        <attvalues>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="587" source="1209" target="1699">
+        <attvalues>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="588" source="1699" target="1209">
+        <attvalues>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="589" source="1209" target="1216">
+        <attvalues>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="590" source="1216" target="1209">
+        <attvalues>
+          <attvalue for="startpage" value="69"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="591" source="1140" target="1217">
+        <attvalues>
+          <attvalue for="startpage" value="70"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="592" source="1217" target="1140">
+        <attvalues>
+          <attvalue for="startpage" value="70"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="593" source="1218" target="1140">
+        <attvalues>
+          <attvalue for="startpage" value="70"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="594" source="1140" target="1218">
+        <attvalues>
+          <attvalue for="startpage" value="70"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="595" source="1700" target="1182">
+        <attvalues>
+          <attvalue for="startpage" value="74"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="596" source="1182" target="1700">
+        <attvalues>
+          <attvalue for="startpage" value="74"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="597" source="1140" target="1700">
+        <attvalues>
+          <attvalue for="startpage" value="74"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="600" source="1132" target="1140" weight="4.0">
+        <attvalues>
+          <attvalue for="startpage" value="114"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="601" source="1140" target="1132" weight="5.0">
+        <attvalues>
+          <attvalue for="startpage" value="190"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="604" source="1706" target="1706">
+        <attvalues>
+          <attvalue for="startpage" value="112"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="605" source="1140" target="1706">
+        <attvalues>
+          <attvalue for="startpage" value="112"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="608" source="1140" target="1707">
+        <attvalues>
+          <attvalue for="startpage" value="113"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="609" source="1707" target="1140">
+        <attvalues>
+          <attvalue for="startpage" value="113"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="610" source="1140" target="1708">
+        <attvalues>
+          <attvalue for="startpage" value="113"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="611" source="1708" target="1140">
+        <attvalues>
+          <attvalue for="startpage" value="113"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="614" source="1140" target="1709">
+        <attvalues>
+          <attvalue for="startpage" value="114"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="615" source="1709" target="1140">
+        <attvalues>
+          <attvalue for="startpage" value="114"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="616" source="1213" target="1140">
+        <attvalues>
+          <attvalue for="startpage" value="155"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="617" source="1140" target="1361" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="156"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="618" source="1361" target="1140" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="156"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="625" source="1209" target="1132" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="190"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="626" source="1132" target="1209" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="190"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="631" source="1352" target="1139">
+        <attvalues>
+          <attvalue for="startpage" value="150"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="632" source="1139" target="1352">
+        <attvalues>
+          <attvalue for="startpage" value="150"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="633" source="1354" target="1139">
+        <attvalues>
+          <attvalue for="startpage" value="150"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="635" source="1139" target="1414" weight="4.0">
+        <attvalues>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="636" source="1139" target="1415">
+        <attvalues>
+          <attvalue for="startpage" value="203"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="637" source="1415" target="1139">
+        <attvalues>
+          <attvalue for="startpage" value="203"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="639" source="1414" target="1139" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="649" source="1139" target="1742">
+        <attvalues>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="650" source="1139" target="1277">
+        <attvalues>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="651" source="1139" target="1419">
+        <attvalues>
+          <attvalue for="startpage" value="206"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="654" source="1139" target="1190">
+        <attvalues>
+          <attvalue for="startpage" value="207"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="655" source="1190" target="1139">
+        <attvalues>
+          <attvalue for="startpage" value="207"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="667" source="1139" target="1159" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="217"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="668" source="1159" target="1139" weight="2.0">
+        <attvalues>
+          <attvalue for="startpage" value="217"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="673" source="1414" target="1177">
+        <attvalues>
+          <attvalue for="startpage" value="218"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+      <edge id="678" source="1140" target="1212">
+        <attvalues>
+          <attvalue for="startpage" value="68"/>
+          <attvalue for="category" value="Exchange"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
