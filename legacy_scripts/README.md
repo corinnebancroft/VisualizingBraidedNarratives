@@ -1,0 +1,1 @@
+This folder contains old scripts and test files we used in developing the project. 
