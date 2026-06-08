@@ -223,7 +223,7 @@ public class App {
         // ---- Resolve paths --------------------------------------------------
 
         String baseDir =
-                "../../export_scripts/data/"
+                "../../UVic_database/data/"
                 + acronym + "/"
                 + date + "GephiReadyExports/";
 
