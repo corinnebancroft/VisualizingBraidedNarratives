@@ -38,7 +38,7 @@ def generate_table(row):
 
     # Conditional column
     if row["GraphType"] in ["exnf", "exnfncn"]:
-        headers.append("Number of Floaters Removed")
+        headers.append("Number of Characters Removed")
         values.append(format_value(row["NumFloatersRemoved"]))
 
     # Build HTML
