@@ -1,0 +1,2490 @@
+character_id,character_name,character_novel_id_fk
+0,_CHOOSE A CHARACTER,0
+5,E Leo,5
+6,E Bruno,5
+7,E Chinese Takeout Boy,5
+8,E Athletes Foot Clerk,5
+12,R Leo Gursky,7
+13,R Alma Singer,7
+14,E Alma Singer,5
+15,R Bird,7
+16,E Bird,5
+17,R Zvi Litvinoff,7
+18,E Zvi Litvinoff,5
+19,R Bruno,7
+20,R Chinese delivery boy,7
+21,R Athlete's Foot clerk,7
+22,R Woman (answered Leo about modelling),7
+23,R Mrs. Fried,7
+24,R Leo's second cousin,7
+25,R Leo's second cousin's wife,7
+26,R Doctor (married to Leo's second cousin's wif,7
+27,R Bruno's wife,7
+28,R Doctor (pumped Bruno's stomach),7
+29,R Kipnis the butcher,7
+30,R Grodzenski the tailor,7
+31,R Fishl Shapiro,7
+32,R Beyla Asch,7
+33,R Alma Mereminski,7
+34,R Josef Gursky,7
+35,R Leo's mother,7
+36,R Kid (Who smells shit?),7
+37,R Man (kicked a dog),7
+38,R Leo's father,7
+39,R Alma Mereminski's father,7
+40,R Someone (heard they were killing Jews in Poland),7
+41,R Mordecai Moritz,7
+42,R Alma Mereminski's midwife,7
+43,R Isaac Moritz,7
+44,E Woman (Art Teacher),5
+45,E Mrs. Fried,5
+46,E Leo's Second Cousin,5
+47,E Leo's Second Cousin's Wife,5
+48,E Doctor who pumped Bruno’s stomach,5
+49,E Bruno's Wife,5
+50,E Kipnis the Butcher,5
+51,E Grodzenski the Tailor,5
+52,E Fishl Shapiro,5
+53,E Beyla Asch,5
+54,E Alma Mereminski/Moritz,5
+55,E Leo’s mother,5
+56,E Leo’s younger brother (Joseph?),5
+57,E Man kicking a dog,5
+58,E Leo’s father,5
+59,E Alma’s Father,5
+60,E Isaac Moritz,5
+61,E Mordecai Moritz,5
+62,E Bernard Moritz,5
+63,E Someone who heard they were killing Jews in Pola,5
+64,E Alma's Midwife,5
+65,E The Doctor who married  Leo's second cousin's wi,5
+66,E Grocer,5
+67,E Children in the playground across the street,5
+68,E Leo's aunt(s),5
+69,E Art Students (Drawing Class),5
+70,E Man who is locked out of his house,5
+71,E Limousine Driver,5
+72,E Wedding Party,5
+73,E Woman in line to meet Isaac,5
+74,E Security Guard,5
+75,E The Queen,5
+76,R Art teacher,7
+77,R Man (locked out of his house),7
+78,R Limousine driver,7
+79,R Woman (in line at the book signing),7
+80,R The Queen,7
+81,R Charlotte Singer,7
+82,R David Singer,7
+83,R Emanuel Ringelblum,7
+84,R Emanuel Feuermann,7
+85,R Isaac Emmanuilovich Babel,7
+86,R Charlotte's Uncle Chaim,7
+87,R Mr. Goldstein,7
+88,R God,7
+89,R Photographer (met Charlotte on the train),7
+90,R Charlotte Singer's mother,7
+91,R Charlotte's tutor,7
+92,R Nehemia,7
+93,R Bodleian Library clerk,7
+94,R Bernard Moritz,7
+95,R Art students,7
+96,R Leo's aunt(s),7
+97,R Security guard (at the book signing),7
+98,R Misha Shklovsky,7
+99,R Old man (sits in garbage),7
+100,R Uncle Julian,7
+101,R Aunt Frances,7
+102,R Hardware store employee,7
+103,R Alberto Giacometti,7
+104,R Lyle,7
+105,R Henry Lavender,7
+106,R Dr. Frank Tucci,7
+107,R Herman Cooper,7
+108,R Sharon Newman,7
+109,R Tenzing Norgay,7
+110,R Sir Edmund Hillary,7
+111,R Antoine de Saint-Exupery,7
+112,R German fighter (shot down Saint-Ex),7
+113,R Daniel Eldridge,7
+114,R Secretary (Eldridge's office),7
+115,R Misha's cousin,7
+116,R Nicanor Parra,7
+117,R Jacob Marcus,7
+118,R Eve,7
+119,R John Travolta,7
+120,E Kid who yells Who smells shit?,5
+121,E Angel,5
+122,E God,5
+123,E Mr. Grossmark,5
+124,E Man under the bridge,5
+125,R Rosa Litvinoff,7
+126,R Rosa's friend(s),7
+127,R Rosa's parent(s),7
+128,R Garcia Sturmer,7
+129,R Boy(s) (at the university),7
+130,R Rosa's father,7
+131,R Boris,7
+132,R Miriam Litvinoff,7
+133,R Nazi officer (shot Miriam),7
+134,R Editor(s) (receiving The History of Love),7
+135,R Department store manager,7
+136,R Young couple (rowing),7
+137,R Young girl (young couple),7
+138,R Policemen (talking to Rosa),7
+139,R Someone (passing Zvi on the street),7
+140,R Postman (in Santiago),7
+141,R Publisher (returning The History of Love),7
+142,R Bookstore owner (in Buenos Aires),7
+143,R Minor actress,7
+144,R Best-selling author,7
+145,R Jorge Luis Borges,7
+146,R Cervantes,7
+147,R Goethe,7
+148,R Shakespeare,7
+149,R Visitor(s) (of Borges),7
+150,R Maria Kodama,7
+151,E Charlotte Singer,5
+152,E Emanuel Ringelblum,5
+153,E Emanuel Feuermann,5
+154,E Isaac Babel,5
+155,E Charlotte's Uncle Chaim,5
+156,E David Singer,5
+157,E Mr. Goldstein,5
+158,E Blind Photographer,5
+159,E Tutor (at Oxford),5
+160,E Nehemia,5
+161,E Library Clerk (at Oxford),5
+162,E Charlotte's Mother,5
+163,E Charlotte's Father,5
+164,E Misha Shklovsky,5
+165,E Old Man,5
+166,E Uncle Julian,5
+167,E Aunt Frances,5
+168,E Alberto Giacometti,5
+169,R Dudu Fisher,7
+170,R Girl (with blue hair),7
+171,R Boy (in a soccer uniform),7
+172,R Boy's mother (soccer uniform),7
+173,R Man (finishing his newspaper),7
+174,R Phillip Roth,7
+175,R Leon Wieseltier,7
+176,R Morton Levy,7
+177,R Starbucks employee (eyebrow ring),7
+178,R Starbucks employee (painted nails),7
+179,R Giant shvartzer,7
+180,R Perfume ladies,7
+181,R Tailor (with a tape measure),7
+182,"R Women (with soft, white skin)",7
+183,R Leo's grandfather,7
+184,R Leo's great grandfather,7
+185,R Woman (on the bus),7
+186,R Man (in an orange jacket),7
+187,R Robert,7
+188,R Woman (next to the man in the bow tie),7
+189,R Mr. Simchik,7
+190,R Nurse (for Alma Mereminski),7
+191,R Jackie Mason,7
+192,R Young woman (in the limousine),7
+193,R Two others (in the limousine),7
+194,R Bernard's nephew,7
+195,R Alma Mereminski's sister,7
+196,R David's brother,7
+197,R Nurse (for David Singer),7
+198,R Old man (beside David Singer),7
+199,R Tatiana,7
+200,R The Czar,7
+201,R David Singer's grandparents,7
+202,R Grandma Sasha,7
+203,R Zeyde,7
+204,R Grandpa Simon,7
+205,R Bubbe,7
+206,R Women (heavy Russians),7
+207,R Rabbi (in Jerusalem),7
+208,R Misha's grandfather,7
+209,R Misha's grandmother,7
+210,R Svetlana Shkolvsky,7
+211,R Lev,7
+212,R Old man (at Misha's Bar Mitzvah),7
+213,R Misha's father,7
+214,R Kid (The Moshiach),7
+215,R Jacob Marcus' gardener,7
+216,R Jacob Marcus' neighbour's child,7
+217,R Jacob Marcus' friend,7
+218,R Jacob Marcus' brother,7
+219,R Greg Feldman,7
+220,R Misha's mother,7
+221,E Lyle (English Editor),5
+222,E Henry Lavender,5
+223,E Frank Tucci,5
+224,E Herman Cooper,5
+225,E Sharon Newman,5
+226,E Tenzing Norgay,5
+227,E Sir Edmund Hillary,5
+228,E Antoine de Saint-Exupery,5
+229,E Daniel Eldridge,5
+230,E Eldridge's Secretary,5
+231,E Misha's Cousin (Lev's Sister),5
+232,E Charlotte's Publisher,5
+233,E Jacob Marcus,5
+234,E Nicanor Parra,5
+235,E Rosa,5
+236,E Gracia Strumer,5
+237,E Rosa's Father,5
+238,E Boris (Zvi's nephew),5
+239,E Miriam (Zvi's sister),5
+240,E Boris' Children,5
+241,E Girl (who unbuttoned her shirt behind the reeds ,5
+242,E Editor (who met with the Litvinoffs),5
+243,E Postman (who brings Litvinoff a package),5
+244,E Publisher (of Litvinoff's The History of Love),5
+245,E First Bookstore Owner (In Buenos Aires),5
+246,E Jorge Luis Borges,5
+247,E Borges' Visitors,5
+248,E Maria Kodama,5
+249,E Cervantes,5
+250,E Goethe,5
+251,E Shakespeare,5
+252,E Second Bookstore Owner (In Buenos Aires),5
+253,E Man reading the newspaper (in Starbucks),5
+254,E Girl with Blue Hair (in Starbucks),5
+255,E Little Boy in a Soccer Uniform (in Starbucks),5
+256,E Mother of the Boy in the Soccer Uniform (in Star,5
+257,E Dudu Fisher,5
+258,E Philip Roth,5
+259,E Leon Wieseltier,5
+260,E Morton Levy,5
+261,E Starbucks Employee (with a ring in his nose),5
+262,E Starbucks Employee (with painted nails),5
+263,E Giant schvartzer (Suit Salesman),5
+264,E Tailor (at Bloomingdale's),5
+265,E Leo's Grandfather,5
+266,E Leo's Great Grandfather,5
+267,E Woman (on the bus),5
+268,E Man in an Orange Jacket and Snakeskin Pants,5
+269,E Man in a Yellow Bow Tie and a White Jacket,5
+270,E Woman (at Isaac's Funeral),5
+271,E Mr. Simchik,5
+272,E Nurse (at the hospital with Alma M),5
+273,E Jackie Mason,5
+274,E Robert ( Isaac's editor),5
+275,E Antonio Alberto de Biedma,5
+276,R Angel (lives on Ludlow Street),7
+277,R Mr. Grossmark,7
+278,R Man (under the bridge),7
+279,R Ignacio da Silva,7
+281,R Antonio Alberto de Biedma,7
+282,R Woman (to whom Jacob has just made love),7
+283,R Marx,7
+284,R Malevich,7
+285,R Hitler,7
+286,R Zvi's editor,7
+287,R Zvi's colleague(s),7
+288,R Woman (at the boarding house),7
+289,R Franz Kafka,7
+290,R Tolstoy,7
+291,R Osip Mandelstam,7
+292,R Mr. Tong,7
+293,R Shlomo Wasserman,7
+294,R Duddelsach,7
+295,R Rodriguez,7
+296,R Feingold,7
+297,R Vladimir Horowitz,7
+298,R Molly Bloom,7
+299,R Girl(s) (shouting),7
+300,R Librarian,7
+301,"R Frankie, Toothless Girl Wonder",7
+302,R Leo's uncle,7
+303,R Leo's cousin(s),7
+304,R Stalin,7
+305,R Mrs. Stanislawski,7
+306,R King George,7
+307,R Tzaddik from Baranowicze,7
+308,R Rabbi (in Slonim),7
+309,R Alma Mereminski's mother,7
+310,R Alma Mereminski's brother(s),7
+311,R Woman (Leo once knew),7
+312,R Matisse,7
+313,R Monet,7
+314,R Modigliani,7
+315,R Houdini,7
+316,R Kossar (Kossar's Bialys),7
+317,R Arthur Rubinstein,7
+318,E Woman (in the limousine),5
+319,E Man (sitting across from Leo in the limousine),5
+320,E Bernard's Nephew,5
+321,E Other Person (sitting across from Leo in the lim,5
+322,E Alma Mereminski's Sister,5
+323,E Limousine Driver (From Funeral),5
+324,E Kid (who David threw a rock at),5
+325,E David's Brother,5
+326,E Nurse (to David),5
+327,E Old Man (who shared a hospital room with David),5
+328,E Tatiana,5
+329,E Tatiana's Father,5
+330,E Bubbe,5
+331,E Grandma Sasha,5
+332,E Zeyde,5
+333,E Grandpa Simon,5
+334,E Group of Russian Women (at the Dead Sea),5
+335,E Rabbi (at the Wailing Wall),5
+336,E The Beatles,5
+337,E Misha's Grandfather,5
+338,E Misha's Grandmother,5
+339,E Svetlana,5
+340,E Lev (Misha's Cousin),5
+341,R Mendel Mereminski,7
+342,R Adam Mereminski,7
+343,R Fanny Mereminski,7
+344,R Nacham,7
+345,R Zellig,7
+346,R Hershel,7
+347,R Bluma,7
+348,R Ida,7
+349,R Old man (at the beach),7
+350,R Kid (at the beach),7
+351,R Woman (Vital Statistics),7
+352,R Girl (turquoise bikini),7
+353,R Artie Mereminski,7
+354,R Eva Marie Saint,7
+355,R Carey Grant,7
+356,R Flo,7
+357,R Man (NYC Municipal Archives),7
+358,R Luba,7
+359,R Catherine the Great,7
+360,R Woman (Room 133),7
+361,R Josh K.,7
+362,R Mrs. Zucker,7
+363,R Rabbi Wizner,7
+364,R Zvi's father's cousin,7
+365,R Zvi's father,7
+366,R Pretty French brunette,7
+367,R Foreman (Zvi'd been told was hiring),7
+368,R Old German Jew,7
+370,R Zvi's landlady,7
+371,R Alberto Santos-Dumont,7
+372,R Andre Litvinoff,7
+373,R Neruda,7
+374,R Dario,7
+375,R Grace Kelly,7
+376,R Man (got on at Yonkers),7
+377,R Man (in the paper hat),7
+378,R Bob Dylan,7
+379,R Kid (came out of thebuilding),7
+380,R Taxi driver,7
+381,R Hanna Gursky,7
+382,R Mr. Rogers,7
+383,R Hanna's husband,7
+384,R Kafka,7
+385,R Woman (disease of the blood),7
+386,R Little boy (in polished boots),7
+387,R Man (in a secondhand shop),7
+388,R Fritzy,7
+389,R Sari Gursky,7
+390,R Charlotte's cousin,7
+391,R Charlotte's cousin's husband,7
+392,R Man (City Clerk's Office),7
+393,R Arthur Goldfarb,7
+394,R Arthur Goldfarb's grandniece,7
+395,R Man's wife (City Clerk's Office),7
+396,R Rabbi Greenberg,7
+397,R Mordecai's father,7
+398,R Information Woman,7
+399,R Doorman (Alma Mereminski's building),7
+400,R Great Aunt Dora,7
+401,R Rembrandt,7
+402,R Wittgenstein,7
+403,R Zvi's landlady's son,7
+404,R Zvi's father's friend,7
+405,R Zvi's brother,7
+406,R Zvi's nurse,7
+407,R Rosa's mother,7
+408,R Portuguese ambassador,7
+409,R Alfonso,7
+410,R Charlotte's publisher(s),7
+411,"R Woman (sagging breasts, frizzy hair, red knees)",7
+412,R Marsha,7
+413,R Joe,7
+414,R John Lennon,7
+415,R Paul McCartney,7
+416,R Ringo Starr,7
+417,R Herman's father,7
+418,R Jacques Cousteau,7
+419,R Bedouin(s),7
+420,R Dr. Vishnubakat,7
+421,R Woman (at the airport),7
+422,R Police,7
+423,R Firemen,7
+424,R Garbage man,7
+425,R Someone (from the Daleds),7
+426,R Louis,7
+427,R Mr. Hintz,7
+428,R Switchboard,7
+429,R Young man (Fiction Department),7
+430,R Roger Thornhill,7
+431,R Little boy (throwing pebbles),7
+432,R Boy(s) (from Leo's class),7
+433,R THE MANAGEMENT,7
+434,R Policeman (talking to Leo),7
+435,R Man (at the zoo) [1],7
+436,R SS Officer [1],7
+437,R SS Officer [2],7
+438,R SS Officer's wife [1],7
+439,R Woman (at the zoo) [1],7
+440,R Woman (at the zoo) [2],7
+441,R Mother (at the zoo),7
+442,R Couple (at the zoo),7
+443,R Man (at the zoo) [2],7
+444,E Old Man (that offers Alma vodka),5
+445,E Bar Mitzvah Guests,5
+446,E Mr. Shklovsky,5
+447,E Mrs. Shklovsky,5
+448,E Louis,5
+449,E Isaac Moritz's Ex-Wife,5
+450,E Isaac Moritz's Friend,5
+451,E Isaac Moritz's Neighbor,5
+452,E Isaac Moritz's Gardener,5
+453,E Isaac Moritz's Neighbor's Child,5
+454,E Woman (who left Nicanor Parra for another),5
+455,E Greg Feldman,5
+456,E Marx,5
+457,E Malevich,5
+458,E Leo's Landlord,5
+459,E Hitler,5
+460,E Hitler's armies,5
+461,E Pretty Girl (that lived across the street from L,5
+462,E Moscow's Secret Police,5
+463,E Litvinoff's Editor,5
+464,E Litvinoff's Co-workers,5
+465,E Franz Kafka,5
+466,E Tolstoy,5
+467,E Osip Mandelstam,5
+468,E People (in Leo's obituary for Kafka),5
+469,E Mr. Tong,5
+470,E Shlomo Wasserman,5
+471,E Ignacio da Silva,5
+472,E Duddelsach,5
+473,E Rodriguez,5
+474,E Feingold,5
+475,E De Biedma,5
+476,E Bibi (Bruno's Dog),5
+477,E Vladimir Horowitz,5
+478,E Molly Bloom,5
+479,E First Girl (playing across the street),5
+480,E Second Girl (playing across the street),5
+481,E Librarian,5
+482,E Leo's Uncle,5
+483,E Leo's Cousins,5
+484,E Stalin,5
+485,E Mrs. Stanislawski,5
+486,E Leo's Teacher,5
+487,E Rabbi (In Slonim),5
+488,E Famous Tzaddik,5
+489,E Alma Mereminski's Siblings,5
+490,E Alma Mereminski's Mother,5
+491,E Girl (In Leo and Alma's Class),5
+492,E Alma Mereminski's Brother,5
+493,E Woman (who was locked out),5
+494,E Monet,5
+495,E Matisse,5
+496,E Modigliani,5
+497,E Leopold Gursky (children's author),5
+498,E Leonard Gursky,5
+499,E Person (who the woman's copied key is for),5
+500,E Houdini,5
+501,E Arthur Rubinstein,5
+502,E Mendel Mereminski,5
+503,E Adam Mereminski,5
+504,E Fanny Mereminski,5
+505,E Nacham,5
+506,E Zellig,5
+507,E Hershel,5
+508,E Bluma,5
+509,E Ida,5
+510,E Security Guard (at the MOMA),5
+511,E Old Man (wearing a tiny bathing suit),5
+512,E Woman (Information),5
+513,E Girl (in a turquoise bikini),5
+514,E Artie Mereminski,5
+515,E Misha's Cousin (lives in Ann Arbor),5
+516,E Eva Marie Saint,5
+517,E Cary Grant,5
+518,E Flo,5
+519,E Man (working at the City Municipal Archives),5
+520,E Luba,5
+521,E Catherine the Great,5
+522,E Woman (working at the Department of Health),5
+523,E Josh K.,5
+524,E Mrs. Zucker,5
+525,E Rabbi Wizner,5
+526,E Zvi's Father,5
+527,E Zvi's Father's Cousin,5
+528,E Pretty French Brunette,5
+529,E Foreman,5
+530,E Old German Jew,5
+531,E Miriam Litvinoff,5
+532,E Zvi's Landlady,5
+533,E Alberto Santos-Dumont,5
+534,E Zvi's Mother,5
+535,E Andre (Zvi's Brother),5
+536,E Neruda,5
+537,E Dario,5
+538,E Grace Kelly,5
+539,E Man (who got on the train at Yonkers),5
+540,E Man (working at Dunkin' Donuts),5
+541,E The Rolling Stones,5
+542,E Bob Dylan,5
+543,E Kid (who lives in the same building as the Morit,5
+544,E Taxi Driver,5
+545,E Hanna (Leo's Sister),5
+546,E Mr. Rogers,5
+547,E Boy (who married Leo's Sister),5
+548,E Doctor (who told Leo not to go without eating),5
+550,E Woman (who died in Leo's arms),5
+551,E Little Boy (in polished boots),5
+552,E Father (of the little boy in polished boots),5
+553,E Man (who worked in the secondhand shop),5
+554,E Fritzy,5
+555,E Sari,5
+556,E Charlotte's Cousin,5
+557,E Charlotte's Cousin's Husband,5
+558,E Man (who worked at the City Clerk's Office),5
+560,E Arthur Goldfarb,5
+561,E Arthur Goldfarb's Grandniece,5
+562,E Wife (of the man working at the City Clerk's Off,5
+563,E Rabbi Greenberg,5
+564,E Mordecai's Parents,5
+565,E Doorman (at Alma M's Building),5
+566,E Great-Aunt Dora,5
+567,E Rembrant,5
+568,E Waiter,5
+569,E Zvi's Landlady's Son,5
+570,E Zvi's Father's Friend,5
+571,E Zvi's Brother,5
+572,E Rosa's Nephew,5
+573,E Rosa's Mother,5
+574,E Rosa's Uncle,5
+575,E Rosa's Sister,5
+576,E Maid (who stole the gold chain),5
+577,E Alfonso (Rosa's Cousin),5
+578,E Portuguese Ambassador,5
+579,E Woman (nude model),5
+580,E Second Nude Model,5
+581,E Bruno Schulz,5
+582,E Jacob Marcus' Mother,5
+583,E Marsha,5
+584,E Joe,5
+585,E Herman Cooper's Father,5
+586,E Jacques Cousteau,5
+587,E Dr. Vishnubakat,5
+588,E Woman (Bird tried to buy a plane ticket from),5
+589,E The Police,5
+590,E Firemen,5
+591,E Garbage Man,5
+592,E Mr. Hintz,5
+593,E Man (from Fiction Department),5
+594,E Man (from Fact-Checking Department),5
+595,E Roger Thornhill,5
+596,E Little Boy (throwing rocks in the fountain),5
+597,E Policeman (who checks on Leo),5
+598,E Man (sitting next to Alma at the Zoo),5
+599,E First SS Officer,5
+600,E Second SS Officer,5
+601,E SS Officer's Wife,5
+602,E Woman (with a book),5
+603,E Mother (at the Zoo),5
+604,E Woman (at the Zoo),5
+605,E Man (who walked past Leo and Alma),5
+609,Jason Compson IV,9
+610,Miss Quentin Compson,9
+611,Dilsey Gibson,9
+612,Test,0
+613,T.P.,9
+614,Frony Gibson,9
+615,Roskus Gibson,9
+616,Versh Gibson,9
+617,Caroline Bascomb Compson,9
+618,Professor Junkin,9
+619,Benjamin Compson,9
+620,Quentin Compson III,9
+621,Golfers,9
+622,Luster Gibson,9
+623,Caddy Compson,9
+624,Maury Bascomb,9
+626,Santy Claus,9
+627,Jason Compson III,9
+628,Compson children,9
+629,People in the field (kicking an 'oversize mothball,9
+630,Earl,9
+631,'[D]am Squirts' (Quentin runs around with),9
+632,Uncle Job,9
+633,Drummer (who chats with Jason in front of the shop,9
+634,Eastern jews/'fellows that... in New York',9
+636,Stock Investors,9
+637,Operator (at telegraph office),9
+638,Doc Wright,9
+639,Hopkins,9
+640,Lorraine,9
+641,Maid,9
+642,Man (who made money selling rotten goods),9
+643,'[G]rafters in the Mayor's office',9
+644,Lady (customer in the hardware store),9
+645,Herbert Head,9
+646,God,9
+647,Grave diggers,9
+648,Mink,9
+649,People at the livery stable,9
+650,Customer(s) (at the hardware store),9
+651,Customer (who comes in with Earl),9
+652,Old Man Simmons,9
+653,I.O. Snopes,9
+654,Man (Jason sent to fetch his car),9
+655,The Band (in town),9
+656,Buck Turpin,9
+658,Band member (that Quentin runs off with),9
+659,Boy with a telegram,9
+660,Man (Jason talks to at 'the first forks'),9
+661,Ab Russell,9
+662,Parson Walthall,9
+663,Mac,9
+664,Babe Ruth,9
+665,Mr. Burgess,9
+666,Little girl (Benjy ran after),9
+667,'the soldier',9
+668,'caddie',9
+669,Mr. Patterson,9
+670,Mrs. Patterson,9
+671,People washing at the branch,9
+672,Band member (who can play the saw),9
+673,Damuddy,9
+674,'the old skizzard',9
+675,Doctor,9
+676,Jesus (TSATF),9
+677,Sis Beulah Clay,9
+680,Satan,9
+681,Charlie,9
+683,Teachers,9
+684,Gerald Bland,9
+685,Charles Stuart Compson,9
+686,Family woman,9
+687,Possum hunters,9
+688,Black people,9
+689,Sheriff,9
+690,Governer,9
+691,Reverend Shegog,9
+692,Saint Francis,9
+693,Shreve,9
+694,Dean of Harvard,9
+695,Students of Harvard,9
+696,Spoade,9
+697,Southern men,9
+698,Dalton Ames,9
+699,Dalton Ames' mother,9
+700,Dalton Ames' father,9
+701,George Washington,9
+702,People in cabins (who greet Dilsey),9
+703,Police,9
+704,Square students,9
+705,Deacon (TSATF),9
+706,Giuseppe Garibaldi,9
+707,Christopher Columbus,9
+708,People in cabins (who stare at Ben),9
+709,Old people (who greet Dilsey),9
+710,Parker (a restaurant owner),9
+711,Girl (at the cigar shop),9
+712,Bootblack (who Quentin gives a cigar to),9
+713,Bootblack (who Quentin gives a nickel to),9
+714,Church-goers,9
+715,Horologist,9
+716,Choir,9
+717,'six small children' (walk down the aisle at churc,9
+718,'The second man' (who walks down the aisle at chur,9
+719,'a fellow',9
+720,'n*****s',9
+721,Jeweller,9
+722,Hardware store clerk,9
+723,'a n***** ',9
+724,Southerners,9
+725,Northerners,9
+726,'a gentleman',9
+727,White people,9
+728,'a grandparent',9
+729,Woman (soprano),9
+730,Mary,9
+731,'troublesome children',9
+732,'country folks',9
+733,Miss Laura,9
+734,Henry,9
+735,Hernando de Soto,9
+736,Other Church-goers,9
+737,School students,9
+738,Natalie,9
+739,'women in the car',9
+740,'men in work-clothes',9
+741,'man naked to the waist',9
+742,'man in a straw hat',9
+743,Myrtle,9
+744,Myrtle's husband,9
+745,Man and Woman passing (the sheriff's office),9
+746,Gas station attendant,9
+747,Church owner (Jason imagines striking down),9
+748,Soldiers (Jason imagines),9
+749,People at the filling station,9
+750,Man (in a dirty apron),9
+751,Man (who runs the show),9
+752,Man (at the drugstore),9
+753,First boy (Jason asks to drive his car to Jefferso,9
+754,Second boy (Jason asks to drive his car to Jeffers,9
+755,People (in Easter Sunday clothes),9
+756,Man (who drives Jason back to Jefferson),9
+757,Group of boys (that talk to Luster),9
+758,Crew (that Quentin watches),9
+759,'drowned man' (that Quentin thinks about),9
+761,Mrs. Bland,9
+762,Two men (that Quentin watches),9
+763,Oxford students,9
+764,'folks at the boathouse',9
+765,'policeman',9
+766,An arctic explorer,9
+767,'Gerald's n*****s',9
+768,'Gerald's women',9
+769,'Husbands and fathers in Kentucky',9
+770,'some misfit Maingault or Mortemar',9
+771,'lodge-keeper's daughter',9
+772,'pimple-faced infant' (that Caddy met),9
+773,'n****r women',9
+774,Louis Hatcher,9
+775,Young Lochinvar,9
+776,Byron,9
+777,'country girls',9
+778,'country people',9
+779,Bascomb family,9
+780,Patterson boy,9
+781,'women',9
+782,'freshmen',9
+783,Uncle Tom,9
+784,'white boy of about fifteen',9
+785,Abraham Lincoln,9
+786,'dead and departed professors',9
+787,'vet'runs',9
+788,'ladies,9
+789,Deacon's son-in-law,9
+790,'young fellows',9
+791,'chauffeur',9
+792,'people' (waiting for the trolley),9
+793,Man that Quentin talks to about the trolley,9
+794,'miners',9
+795,'proctor' (that Mrs. Bland went to),9
+796,Gerald Bland's servant,9
+797,Sawmill husband,9
+798,Herbert Head's friend (in Havana),9
+799,'hicks',9
+800,Herbert Head's sons,9
+801,'little widow' (in Cambridge),9
+802,Galahad,9
+803,'man' (with a parrot),9
+804,'cousins' (?),9
+805,'manicure girls' (?),9
+806,'old man' (eating something),9
+807,'they' (told Quentin his leg would have to be brok,9
+808,'old woman' (that Louis spoke to),9
+809,Martha,9
+810,'man' (who mutilated himself),9
+811,First boy (Quentin meets on the bridge),9
+812,Second boy (Quentin meets on the bridge),9
+813,Third boy (Quentin meets on the bridge),9
+814,'man' (with a $25 horse and wagon),9
+815,Bigelow,9
+816,'fellows' (scaring all the fish away),9
+817,Little Italian girl,9
+818,'lady' (at the Cambridge bakery),9
+819,Doc Peabody,9
+820,First man (in front of a store),9
+821,Second man (in front of a store),9
+822,Anse,9
+823,'man' (at the livery stable),9
+824,'man' (at the postoffice),9
+825,'man' (who showed Quentin the station),9
+826,Italian woman,9
+827,Boy (who kissed Caddy),9
+828,Italian girl's mother,9
+829,Italian girl's father,9
+830,Julio,9
+831,Squire,9
+832,First of Anse's men,9
+833,Second of Anse's men,9
+834,'people' (who follow Quentin and Anse),9
+835,'girl' (with Gerald Bland),9
+836,Miss Holmes,9
+837,Miss Daingerfield,9
+838,Mr. MacKenzie,9
+839,Euboeleus,9
+840,Gerald Bland's grandfather,9
+841,Wilkie,9
+842,'man' (watching Quentin),9
+843,'woman' (crossed the door),9
+844,Mike,9
+845,'wench' (who Quentin stood up),9
+846,Leda,9
+847,'woman' (across the aisle),9
+848,'three policemen',9
+849,Black man,9
+850,Trolley conductor,9
+851,Moses (TSATF),9
+852,'town squirts',9
+853,Cupid,9
+854,'men',9
+855,Compson family,9
+856,Colonel Sartoris,9
+857,First girl (that Benjy assaults),9
+858,Second girl (that Benjy assaults),9
+859,Miss Quentin's suitors,9
+860,Caddy's suitors,9
+861,Luster's father,9
+862,Quentin MacLachan,9
+863,E Zvi's Narrator as character,5
+864,School Authorities,9
+865,Roger (Restaurant Owner),9
+866,R Zvi's narrator as a character,7
+867,RP Benjamin Compson,10
+868,3rd Person Narrator as character (TSATF),9
+869,Mr Dursley,11
+870,Mrs Dursley,11
+871,Dudley,11
+872,Lily Potter,11
+873,James Potter,11
+874,Harry Potter,11
+875,Dursley Neighbours,11
+876,People in cloaks,11
+877,Man in emerald green cloak,11
+878,Professor McGonagall,11
+879,five different people,11
+880,Mr Dursley's secretary,11
+881,man in violet cloak,11
+882,bird-watchers everywhere,11
+883,News reader Ted,11
+884,Weatherman Jim McGuffin,11
+885,Viewers,11
+886,Experts,11
+887,Dumbledore,11
+888,Dedalus Diggle,11
+889,Voldemort,11
+890,Madam Pomfrey,11
+891,'everyone' HP,11
+892,Hagrid,11
+893,Voldemort's victims,11
+894,Muggles,11
+895,Sirius Black,11
+896,Mr. Bennet,12
+897,Mrs. Bennet,12
+898,Mrs. Long,12
+899,Mr. Bingley,12
+900,Mr. Morris,12
+901,Sir William,12
+902,Lady Lucas,12
+903,Elizabeth Bennet,12
+904,Jane Bennet,12
+905,Lydia Bennet,12
+906,Mary Bennet,12
+907,Kitty Bennet,12
+908,Claudia,13
+909,Pauline Breedlove,13
+910,Cholly Breedlove,13
+911,Soaphead Church,13
+912,Pecola Breedlove,13
+913,Frieda,13
+914,Mrs. MacTeer (Claudia's Mother),13
+915,Mr. MacTeer (Claudia's Father),13
+916,Mr. Henry,13
+917,Mr. Buford,13
+918,Rosemary Villanucci,13
+919,Mrs. Dunion,13
+920,The Maginot Line,13
+921,China,13
+922,Poland,13
+923,Dick,13
+924,Jane,13
+925,Dick and Jane's Mother,13
+926,Dick and Jane's Father,13
+927,Dick and Jane's Friend,13
+928,Pecola's Baby,13
+929,Nuns,13
+930,Drunken men,13
+932,Rosemary Villanucci's Father,13
+933,Grown-ups,13
+934,Jesus (TBE),13
+935,Claudia's Mother's Friends,13
+936,Miss Della Jones,13
+937,Miss Della Jones' Ex-Husband,13
+938,Peggy,13
+939,Old Slack Bessie,13
+940,Hattie,13
+941,Auntie Julia,13
+942,Miss Della Jones' Sister,13
+943,Greta Garbo,13
+944,Ginger Rogers,13
+945,Little Girl (Pauline looks after),13
+946,Pauline's Siblings,13
+947,Ada Williams,13
+948,Fowler Williams,13
+949,Presence (imagined by Pauline),13
+950,Ivy,13
+951,God (TBE),13
+952,White People (TBE),13
+953,"""Northern colored folk""",13
+954,Women in town,13
+955,Sammy Breedlove,13
+956,Mrs. Fisher,13
+957,Shirley Temple,13
+958,"Bill ""Bojangles"" Robinson",13
+959,Jane Withers,13
+960,Older girls,13
+961,All the world,13
+962,Black women,13
+963,White girls,13
+964,Henry Ford,13
+965,Franklin D. Roosevelt,13
+966,Sandy Claus (TBE),13
+967,Half-blind lady,13
+968,People at the Greek hotel,13
+969,Mildred,13
+970,People (at the pizza parlor),13
+971,Boys (at the pizza parlor),13
+972,Realtor (owns the Breedlove's house),13
+973,Mysterious All-Knowing Master,13
+974,Darlene,13
+975,White man (spirit lamp),13
+976,White man (flashlight),13
+977,Marie Appolonaire,13
+978,Luke Angelino,13
+979,Teachers,13
+980,One of the girls at Pecola's school,13
+981,Bobby,13
+982,Miss Dunion,13
+983,Mr. Yacobowski,13
+984,Virgin Mary (TBE),13
+985,Mary Jane,13
+986,Miss Marie,13
+987,Herbert Hoover,13
+988,Johnny,13
+989,Lady in Red (Ana Cumpanas),13
+990,John Herbert Dillinger,13
+991,Miss Marie's mother,13
+992,Miss Marie's white lady,13
+993,Dewey Prince,13
+994,Poland's aunt,13
+995,Women,13
+996,Miss Marie's children,13
+997,Women (who cast unfavorable glances toward Pauline,13
+998,"Family (""of slender means..."")",13
+999,Woman (Pauline used to work for),13
+1000,Friends (of the woman that Pauline use to work for,13
+1001,Brother (of the woman Pauline used to work for),13
+1002,Chicken,13
+1003,Pie,13
+1004,Husband (of the woman Pauline used to work for),13
+1005,The Gas Man,13
+1006,The Police,13
+1007,Clark Gable,13
+1008,Jean Harlow,13
+1010,Maureen Peal,13
+1011,Black boys,13
+1012,White boys,13
+1014,Black girls,13
+1015,Students,13
+1016,Bay Boy,13
+1017,Woodrow Cain,13
+1018,Buddy Wilson,13
+1019,Junie Bug,13
+1020,Little Old Doctor,13
+1021,Old Doctor,13
+1022,Young Doctors,13
+1023,Women (giving birth in the hospital),13
+1024,The Fishers,13
+1025,The little Fisher girl,13
+1026,Mr. Fisher,13
+1027,Creditors and Service People,13
+1028,Cholly's Mother,13
+1029,Aunt Jimmy,13
+1030,Samson Fuller (Cholly's Father),13
+1031,Cholly's Father's Brother,13
+1032,Charles Breedlove (Aunt Jimmy's Brother),13
+1033,Blue Jack,13
+1034,Old Man Fuller,13
+1035,Family (breaking open a watermelon),13
+1036,Father (of the family breaking open the watermelon,13
+1037,The Devil,13
+1038,Aunt Jimmy's Friends,13
+1039,Miss Alice,13
+1040,M'Dear,13
+1041,Preacher (who accompanied M'Dear),13
+1042,Mrs. Gaines,13
+1045,Black Men,13
+1046,Essie Foster,13
+1047,Funeral Attendees,13
+1048,O.V.,13
+1049,O.V.'s Wife,13
+1050,O.V.'s children,13
+1051,Aunt Jimmy's Cousins,13
+1052,Emma,13
+1053,L'il June,13
+1054,Sally,13
+1055,Miss Forrester,13
+1056,Miss Erkmeister,13
+1057,Maureen's Uncle,13
+1058,Isaley's in Akron,13
+1059,Insurance Folks,13
+1061,Jake,13
+1063,Boys at the funeral,13
+1064,Girls at the funeral,13
+1065,Suky,13
+1066,Maureen's Uncle's friend,13
+1067,Maureen's Father,13
+1068,A girl (that Maureen knows),13
+1069,Betty Grable,13
+1070,Hedy Lamarr,13
+1071,Maureen's Mother,13
+1072,Audrey,13
+1073,Audrey's hairdresser,13
+1074,Maureen's girl friend,13
+1075,Darlene's Mother,13
+1076,Claudia's Grandmother,13
+1077,Miss Bertha,13
+1078,Church women,13
+1079,Mrs. Cain,13
+1080,Geraldine,13
+1081,Louis,13
+1082,Louis Junior,13
+1083,P.L.,13
+1084,Ralph Nisensky,13
+1085,Three infants,13
+1086,Cook(s) and/or Mistress(that Cholly asks for a job,13
+1087,Man (selling bus tickets),13
+1088,'Fat Black Lady' (on the bus),13
+1089,Men (in the alley),13
+1090,Man (in the pool hall),13
+1091,Old White-Haired Man,13
+1092,Melba,13
+1093,Driver (of fruit wagon),13
+1094,Three Women (who give Cholly lemonade),13
+1095,Soaphead's Clients,13
+1096,Little girls,13
+1097,Townspeople,13
+1098,Sir Whitcomb,13
+1099,The King,13
+1100,"Sir Whitcomb's ""mulatto bastard""",13
+1101,"The ""bastard's mother""",13
+1102,Fifteen-year-old Girl,13
+1103,"Six children (of the ""mulatto bastard"")",13
+1104,"Sixteen Grandchildren (of the ""mulatto bastard"")",13
+1105,De Gobineau,13
+1106,Religious fanatic (in the Whitcomb family),13
+1107,Three sons (of the religious fanatic),13
+1108,Schoolmaster (son of the religious fanatic),13
+1109,Half-Chinese Girl,13
+1110,Dante,13
+1111,Dostoyevsky,13
+1112,Velma,13
+1113,"Women (in Lorain, Ohio)",13
+1114,Bertha Reese,13
+1115,Moses (TBE),13
+1116,Doreen,13
+1117,Sugar Babe,13
+1118,Families (that Claudia and Frieda sell seeds to),13
+1119,Little old boys,13
+1120,School children,13
+1121,Mrs. Johnson,13
+1122,Friend (of Jane),13
+1123,Joanna,13
+1124,Michelena,13
+1125,Lady (with blue eyes),13
+1126,Girl (with blue eyes),13
+1127,Man (with blue eyes),13
+1131,Sofa delivery man,13
+1132,9_Leo,14
+1134,9_Alma's Midwife,14
+1135,9_Bruno,14
+1136,9_Chinese Takeout Boy,14
+1137,9_Athletes Foot Clerk,14
+1138,9_Alma Singer,14
+1139,9_Bird,14
+1140,9_Zvi Litvinoff,14
+1141,9_Woman (Art Teacher),14
+1142,9_Mrs. Fried,14
+1143,9_Leo's Second Cousin,14
+1144,9_Leo's Second Cousin's Wife,14
+1145,9_Doctor who pumped Bruno’s stomach,14
+1146,9_Bruno's Wife,14
+1147,9_Kipnis the Butcher,14
+1148,9_Grodzenski the Tailor,14
+1149,9_Fishl Shapiro,14
+1150,9_Beyla Asch,14
+1151,9_Alma Mereminski/Moritz,14
+1152,9_Leo’s mother,14
+1153,9_Leo’s younger brother (Josef),14
+1154,9_Man kicking a dog,14
+1155,9_Leo’s father,14
+1156,9_Alma’s Father,14
+1157,9_Isaac Moritz,14
+1158,9_Mordecai Moritz,14
+1159,9_Bernard Moritz,14
+1160,9_Someone who heard they were killing Jews in Pola,14
+1161,9_Doctor who married Leo's second cousin's wife,14
+1162,9_Grocer,14
+1163,9_Children in the playground across the street,14
+1164,9_Leo's aunt(s),14
+1165,9_Art Students (Drawing Class),14
+1166,9_Man who is locked out of his house,14
+1167,9_Limousine Driver,14
+1168,9_Wedding Party,14
+1169,9_Woman in line to meet Isaac,14
+1170,9_Security Guard,14
+1171,9_The Queen,14
+1172,9_Kid who yells Who smells shit?,14
+1173,9_Angel,14
+1174,9_God,14
+1175,9_Mr. Grossmark,14
+1176,9_Man under the bridge,14
+1177,9_Charlotte Singer,14
+1178,9_Emanuel Ringelblum,14
+1179,9_Emanuel Feuermann,14
+1180,9_Isaac Babel,14
+1181,9_Charlotte's Uncle Chaim,14
+1182,9_David Singer,14
+1183,9_Mr. Goldstein,14
+1184,9_Blind Photographer,14
+1185,9_Tutor (at Oxford),14
+1186,9_Nehemia,14
+1187,9_Library Clerk (at Oxford),14
+1188,9_Charlotte's Mother (Grandma Sasha),14
+1189,9_Charlotte's Father (Grandpa Simon),14
+1190,9_Misha Shklovsky,14
+1191,9_Old Man,14
+1192,9_Uncle Julian,14
+1193,9_Aunt Frances,14
+1194,9_Alberto Giacometti,14
+1195,9_Lyle (English Editor),14
+1196,9_Henry Lavender,14
+1197,9_Frank Tucci,14
+1198,9_Herman Cooper,14
+1199,9_Sharon Newman,14
+1200,9_Tenzing Norgay,14
+1201,9_Sir Edmund Hillary,14
+1202,9_Antoine de Saint-Exupery,14
+1203,9_Daniel Eldridge,14
+1204,9_Eldridge's Secretary,14
+1205,9_Misha's Cousin (Lev's Sister),14
+1206,9_Charlotte's Publisher,14
+1207,9_Jacob Marcus,14
+1208,9_Nicanor Parra,14
+1209,9_Rosa,14
+1210,9_Gracia Strumer,14
+1211,9_Rosa's Father,14
+1212,9_Boris (Zvi's nephew),14
+1213,9_Miriam (Zvi's sister),14
+1214,9_Boris' Children,14
+1215,9_Girl (who unbuttoned her shirt behind the reeds ,14
+1216,9_Editor (who met with the Litvinoffs),14
+1217,9_Postman (who brings Litvinoff a package),14
+1218,9_Publisher (of Litvinoff's The History of Love),14
+1219,9_First Bookstore Owner (In Buenos Aires),14
+1220,9_Jorge Luis Borges,14
+1221,9_Borges' Visitors,14
+1222,9_Maria Kodama,14
+1223,9_Cervantes,14
+1224,9_Goethe,14
+1225,9_Shakespeare,14
+1226,9_Second Bookstore Owner (In Buenos Aires),14
+1227,9_Man reading the newspaper (in Starbucks),14
+1228,9_Girl with Blue Hair (in Starbucks),14
+1229,9_Little Boy in a Soccer Uniform (in Starbucks),14
+1230,9_Mother of the Boy in the Soccer Uniform (in Star,14
+1231,9_Dudu Fisher,14
+1232,9_Philip Roth,14
+1233,9_Leon Wieseltier,14
+1234,9_Morton Levy,14
+1235,9_Starbucks Employee (with a ring in his eyebrow),14
+1236,9_Starbucks Employee (with painted nails),14
+1237,"9_""Giant schvartzer"" (Suit Salesman)",14
+1238,9_Tailor (at Bloomingdale's),14
+1239,9_Leo's Grandfather,14
+1240,9_Leo's Great Grandfather,14
+1241,9_Woman (on the bus),14
+1242,9_Man in an Orange Jacket and Snakeskin Pants,14
+1243,9_Man in a Yellow Bow Tie and a White Jacket,14
+1244,9_Woman (at Isaac's Funeral),14
+1245,9_Mr. Simchik,14
+1246,9_Nurse (at the hospital with Alma M),14
+1247,9_Jackie Mason,14
+1248,9_Robert ( Isaac's editor),14
+1249,9_Antonio Alberto de Biedma,14
+1250,9_Woman (in the limousine),14
+1251,9_Man (sitting across from Leo in the limousine),14
+1252,9_Bernard's Nephew,14
+1253,9_Other Person (sitting across from Leo in the lim,14
+1254,9_Alma Mereminski's Sister,14
+1255,9_Limousine Driver (From Funeral),14
+1256,9_Kid (who David threw a rock at),14
+1257,9_David's Brother,14
+1258,9_Nurse (to David),14
+1259,9_Old Man (who shared a hospital room with David),14
+1260,9_Tatiana,14
+1261,9_Tatiana's Father,14
+1262,9_Bubbe,14
+1264,9_Zeyde,14
+1266,9_Group of Russian Women (at the Dead Sea),14
+1267,9_Rabbi (at the Wailing Wall),14
+1268,9_The Beatles,14
+1269,9_Misha's Grandfather,14
+1270,9_Misha's Grandmother,14
+1271,9_Svetlana,14
+1272,9_Lev (Misha's Cousin),14
+1273,9_Old Man (that offers Alma vodka),14
+1274,9_Bar Mitzvah Guests,14
+1275,9_Mr. Shklovsky,14
+1276,9_Mrs. Shklovsky,14
+1277,9_Louis,14
+1278,9_Isaac Moritz's Ex-Wife,14
+1279,9_Isaac Moritz's Friend,14
+1280,9_Isaac Moritz's Neighbor,14
+1281,9_Isaac Moritz's Gardener,14
+1282,9_Isaac Moritz's Neighbor's Child,14
+1283,9_Woman (who left Nicanor Parra for another),14
+1284,9_Greg Feldman,14
+1285,9_Marx,14
+1286,9_Malevich,14
+1287,9_Leo's Landlord,14
+1288,9_Hitler,14
+1290,9_Pretty Girl (that lived across the street from L,14
+1291,9_Moscow's Secret Police,14
+1294,9_Franz Kafka,14
+1295,9_Tolstoy,14
+1296,9_Osip Mandelstam,14
+1297,9_People (in Leo's obituary for Kafka),14
+1298,9_Mr. Tong,14
+1299,9_Shlomo Wasserman,14
+1300,9_Ignacio da Silva,14
+1301,9_Duddelsach,14
+1302,9_Rodriguez,14
+1303,9_Feingold,14
+1304,9_De Biedma,14
+1305,9_Bibi (Bruno's Dog),14
+1306,9_Vladimir Horowitz,14
+1307,9_Molly Bloom,14
+1308,9_First Girl (playing across the street),14
+1309,9_Second Girl (playing across the street),14
+1310,9_Librarian,14
+1311,9_Leo's Uncle,14
+1312,9_Leo's Cousins,14
+1313,9_Stalin,14
+1314,9_Mrs. Stanislawski,14
+1315,9_Leo's Teacher,14
+1316,9_Rabbi (In Slonim),14
+1317,9_Famous Tzaddik,14
+1318,9_Alma Mereminski's Siblings,14
+1319,9_Alma Mereminski's Mother,14
+1320,9_Girl (In Leo and Alma's Class),14
+1321,9_Alma Mereminski's Brother,14
+1322,9_Woman (who was locked out),14
+1323,9_Monet,14
+1324,9_Matisse,14
+1325,9_Modigliani,14
+1326,9_Leopold Gursky (children's author),14
+1327,9_Leonard Gursky,14
+1328,9_Person (who the woman's copied key is for),14
+1329,9_Houdini,14
+1330,9_Arthur Rubinstein,14
+1331,9_Mendel Mereminski,14
+1332,9_Adam Mereminski,14
+1333,9_Fanny Mereminski,14
+1334,9_Nacham,14
+1335,9_Zellig,14
+1336,9_Hershel,14
+1337,9_Bluma,14
+1338,9_Ida,14
+1339,9_Security Guard (at the MOMA),14
+1340,9_Old Man (wearing a tiny bathing suit),14
+1341,9_Woman (Information),14
+1342,9_Girl (in a turquoise bikini),14
+1343,9_Artie Mereminski,14
+1344,9_Misha's Cousin (lives in Ann Arbor),14
+1345,9_Eva Marie Saint,14
+1346,9_Cary Grant,14
+1347,9_Flo,14
+1348,9_Man (working at the City Municipal Archives),14
+1349,9_Luba,14
+1350,9_Catherine the Great,14
+1351,9_Woman (working at the Department of Health),14
+1352,9_Josh K.,14
+1353,9_Mrs. Zucker,14
+1354,9_Rabbi Wizner,14
+1355,9_Zvi's Father,14
+1356,9_Zvi's Father's Cousin,14
+1357,9_Pretty French Brunette,14
+1358,9_Foreman,14
+1359,9_Old German Jew,14
+1361,9_Zvi's Landlady,14
+1362,9_Alberto Santos-Dumont,14
+1363,9_Zvi's Mother,14
+1364,9_Andre (Zvi's Brother),14
+1365,9_Neruda,14
+1366,9_Dario,14
+1367,9_Grace Kelly,14
+1368,9_Man (who got on the train at Yonkers),14
+1369,9_Man (working at Dunkin' Donuts),14
+1370,9_The Rolling Stones,14
+1371,9_Bob Dylan,14
+1372,9_Kid (who lives in the same building as the Morit,14
+1373,9_Taxi Driver,14
+1374,9_Hanna (Leo's Sister),14
+1375,9_Mr. Rogers,14
+1376,9_Boy (who married Leo's Sister),14
+1377,9_Doctor (who told Leo not to go without eating),14
+1378,9_Woman (who died in Leo's arms),14
+1379,9_Little Boy (in polished boots),14
+1380,9_Father (of the little boy in polished boots),14
+1381,9_Man (who worked in the secondhand shop),14
+1382,9_Fritzy,14
+1383,9_Sari,14
+1384,9_Charlotte's Cousin,14
+1385,9_Charlotte's Cousin's Husband,14
+1386,9_Man (who worked at the City Clerk's Office),14
+1387,9_Arthur Goldfarb,14
+1388,9_Arthur Goldfarb's Grandniece,14
+1389,9_Wife (of the man working at the City Clerk's Off,14
+1390,9_Rabbi Greenberg,14
+1391,9_Mordecai's Parents,14
+1392,9_Doorman (at Alma M's Building),14
+1393,9_Great-Aunt Dora,14
+1394,9_Rembrant,14
+1395,9_Waiter,14
+1396,9_Zvi's Landlady's Son,14
+1397,9_Zvi's Father's Friend,14
+1399,9_Rosa's Nephew,14
+1400,9_Rosa's Mother,14
+1401,9_Rosa's Uncle,14
+1402,9_Rosa's Sister,14
+1403,9_Maid (who stole the gold chain),14
+1404,9_Alfonso (Rosa's Cousin),14
+1405,9_Portuguese Ambassador,14
+1406,9_Woman (nude model),14
+1407,9_Second Nude Model,14
+1408,9_Bruno Schulz,14
+1409,9_Jacob Marcus' Mother,14
+1410,9_Marsha,14
+1411,9_Joe,14
+1412,9_Herman Cooper's Father,14
+1413,9_Jacques Cousteau,14
+1414,9_Dr. Vishnubakat,14
+1415,9_Woman (Bird tried to buy a plane ticket from),14
+1416,9_The Police,14
+1417,9_Firemen,14
+1418,9_Garbage Man,14
+1419,9_Mr. Hintz,14
+1420,9_Man (from Fiction Department),14
+1422,9_Roger Thornhill,14
+1423,9_Little Boy (throwing rocks in the fountain),14
+1424,9_Policeman (who checks on Leo),14
+1425,9_Man (sitting next to Alma at the Zoo),14
+1426,9_First SS Officer,14
+1427,9_Second SS Officer,14
+1428,9_SS Officer's Wife,14
+1430,9_Mother (at the Zoo),14
+1431,9_Woman (at the Zoo),14
+1432,9_Man (who walked past Leo and Alma),14
+1434,8_Jason Compson IV,15
+1435,8_Miss Quentin Compson,15
+1436,8_Dilsey Gibson,15
+1437,8_T.P.,15
+1438,8_Frony Gibson,15
+1439,8_Roskus Gibson,15
+1440,8_Versh Gibson,15
+1441,8_Caroline Bascomb Compson,15
+1442,8_Professor Junkin,15
+1443,8_Benjamin Compson,15
+1444,8_Quentin Compson III,15
+1445,8_Golfers,15
+1446,8_Luster Gibson,15
+1447,8_Caddy Compson,15
+1448,8_Maury Bascomb,15
+1449,8_Santy Claus,15
+1450,8_Jason Compson III,15
+1452,8_People in the field (playing golf),15
+1453,8_Earl,15
+1454,8_'[D]am Squirts' (Quentin runs around with),15
+1455,8_Uncle Job,15
+1456,8_Drummer (who chats with Jason in front of the sh,15
+1457,8_Eastern jews/'fellows that... in New York',15
+1458,8_Stock Investors,15
+1459,8_Operator (at telegraph office),15
+1460,8_Doc Wright,15
+1461,8_Hopkins,15
+1462,8_Lorraine,15
+1463,8_Maid,15
+1464,8_Man (who made money selling rotten goods),15
+1465,8_'[G]rafters in the Mayor's office',15
+1466,8_Lady (customer in the hardware store),15
+1467,8_Herbert Head,15
+1468,8_God,15
+1469,8_Grave diggers,15
+1470,8_Mink,15
+1471,8_People at the livery stable,15
+1472,8_Customer(s) (at the hardware store),15
+1473,8_Customer (who comes in with Earl),15
+1474,8_Old Man Simmons,15
+1475,8_I.O. Snopes,15
+1476,8_Man (Jason sent to fetch his car),15
+1477,8_The Band (in town),15
+1478,8_Buck Turpin,15
+1479,8_Band member (that Quentin runs off with),15
+1480,8_Boy with a telegram,15
+1481,8_Man (Jason talks to at 'the first forks'),15
+1482,8_Ab Russell,15
+1483,8_Parson Walthall,15
+1484,8_Mac,15
+1485,8_Babe Ruth,15
+1486,8_Mr. Burgess,15
+1487,8_Little girl (Benjy ran after),15
+1488,8_'the soldier',15
+1489,8_'caddie',15
+1490,8_Mr. Patterson,15
+1491,8_Mrs. Patterson,15
+1492,8_People washing at the branch,15
+1493,8_Band member (who can play the saw),15
+1494,8_Damuddy,15
+1496,8_Doctor,15
+1497,8_Jesus (TSATF),15
+1498,8_Sis Beulah Clay,15
+1499,8_Satan,15
+1500,8_Charlie,15
+1501,8_Teachers,15
+1502,8_Gerald Bland,15
+1503,8_Charles Stuart Compson,15
+1506,8_Black people,15
+1507,8_Sheriff,15
+1508,8_Governer,15
+1509,8_Reverend Shegog,15
+1510,8_Saint Francis,15
+1511,8_Shreve,15
+1512,8_Dean of Harvard,15
+1513,8_Students of Harvard,15
+1514,8_Spoade,15
+1515,8_Southern men,15
+1516,8_Dalton Ames,15
+1517,8_Dalton Ames' mother,15
+1518,8_Dalton Ames' father,15
+1519,8_George Washington,15
+1520,8_People in cabins (who greet Dilsey),15
+1521,8_Police,15
+1522,8_Square students,15
+1523,8_Deacon,15
+1524,8_Giuseppe Garibaldi,15
+1525,8_Christopher Columbus,15
+1526,8_People in cabins (who stare at Ben),15
+1527,8_Old people (who greet Dilsey),15
+1529,8_Girl (at the cigar shop),15
+1530,8_Bootblack (who Quentin gives a cigar to),15
+1531,8_Bootblack (who Quentin gives a nickel to),15
+1532,8_Church-goers,15
+1533,8_Horologist,15
+1534,8_Choir,15
+1535,8_'six small children' (walk down the aisle at chu,15
+1536,8_'The second man' (who walks down the aisle at ch,15
+1538,8_'n*****s',15
+1539,8_Jeweller,15
+1540,8_Hardware store clerk,15
+1541,8_'a n***** ',15
+1542,8_Southerners,15
+1543,8_Northerners,15
+1544,8_'a gentleman',15
+1545,8_White people,15
+1546,8_'a grandparent',15
+1547,8_Woman (soprano),15
+1548,8_Mary,15
+1549,8_'troublesome children',15
+1550,8_'country folks',15
+1551,8_Miss Laura,15
+1552,8_Henry,15
+1553,8_Hernando de Soto,15
+1555,8_Students,15
+1556,8_Natalie,15
+1557,8_'women in the car',15
+1558,8_'men in work-clothes',15
+1559,8_'man naked to the waist',15
+1560,8_'man in a straw hat',15
+1561,8_Myrtle,15
+1562,8_Myrtle's husband,15
+1563,8_Man and Woman passing (the sheriff's office),15
+1564,8_Gas station attendant,15
+1567,8_People at the filling station,15
+1568,8_Man (in a dirty apron),15
+1569,8_Man (who runs the show),15
+1570,8_Man (at the drugstore),15
+1571,8_First boy (Jason asks to drive his car to Jeffer,15
+1572,8_Second boy (Jason asks to drive his car to Jeffe,15
+1573,8_People (in Easter Sunday clothes),15
+1574,8_Man (who drives Jason back to Jefferson),15
+1575,8_Group of boys (that talk to Luster),15
+1576,8_Crew (that Quentin watches),15
+1578,8_Mrs. Bland,15
+1579,8_Two men (that Quentin watches),15
+1580,8_Oxford students,15
+1581,8_'folks at the boathouse',15
+1582,8_'policeman',15
+1584,8_'Gerald's n*****s',15
+1585,8_'Gerald's women',15
+1586,8_'Husbands and fathers in Kentucky',15
+1587,8_'some misfit Maingault or Mortemar',15
+1588,8_'lodge-keeper's daughter',15
+1589,8_'pimple-faced infant' (that Caddy met),15
+1590,8_'n****r women',15
+1591,8_Louis Hatcher,15
+1592,8_Young Lochinvar,15
+1593,8_Byron,15
+1594,8_'country girls',15
+1595,8_'country people',15
+1597,8_Patterson boy,15
+1598,8_'women',15
+1599,8_'freshmen',15
+1600,8_Uncle Tom,15
+1601,8_'white boy of about fifteen',15
+1602,8_Abraham Lincoln,15
+1603,8_'dead and departed professors',15
+1604,8_'vet'runs',15
+1605,8_'ladies,15
+1606,8_Deacon's son-in-law,15
+1607,8_'young fellows',15
+1608,8_'chauffeur',15
+1609,8_'people' (waiting for the trolley),15
+1610,8_Man that Quentin talks to about the trolley,15
+1611,8_'miners',15
+1612,8_'proctor' (that Mrs. Bland went to),15
+1613,8_Gerald Bland's servant,15
+1614,8_Sawmill husband,15
+1615,8_Herbert Head's friend (in Havana),15
+1616,8_'hicks',15
+1617,8_Herbert Head's sons,15
+1618,8_'little widow' (in Cambridge),15
+1619,8_Galahad,15
+1620,8_'man' (with a parrot),15
+1621,8_'cousins',15
+1622,8_'manicure girls',15
+1623,8_'old man' (eating something),15
+1624,8_'they' (told Quentin his leg has to be broken),15
+1626,8_Martha,15
+1627,8_'man' (who mutilated himself),15
+1628,8_First boy (Quentin meets on the bridge),15
+1629,8_Second boy (Quentin meets on the bridge),15
+1630,8_Third boy (Quentin meets on the bridge),15
+1631,8_'man' (with a $25 horse and wagon),15
+1633,8_'fellows' (scaring all the fish away),15
+1634,8_Little Italian girl,15
+1635,8_'lady' (at the Cambridge bakery),15
+1636,8_Doc Peabody,15
+1637,8_First man (in front of a store),15
+1638,8_Second man (in front of a store),15
+1639,8_Anse,15
+1640,8_'man' (at the livery stable),15
+1641,8_'man' (at the postoffice),15
+1642,8_'man' (who showed Quentin the station),15
+1643,8_Italian woman,15
+1644,8_Boy (who kissed Caddy),15
+1647,8_Julio,15
+1648,8_Squire,15
+1649,8_First man (holding Julio),15
+1650,8_Second man (holding Julio),15
+1651,8_'people' (who follow Quentin and Anse),15
+1652,8_'girl' (with Gerald Bland),15
+1653,8_Miss Holmes,15
+1654,8_Miss Daingerfield,15
+1655,8_Mr. MacKenzie,15
+1656,8_Euboeleus,15
+1657,8_Gerald Bland's grandfather,15
+1658,8_Wilkie,15
+1659,8_'man' (watching Quentin),15
+1660,8_'woman' (crossed the door),15
+1661,8_Mike,15
+1662,8_'wench' (who Gerald stood up),15
+1663,8_Leda,15
+1664,8_'woman' (across the aisle),15
+1665,8_'three policemen',15
+1666,8_ Person (who was subdued by three policemen),15
+1667,8_Trolley conductor,15
+1668,8_Moses,15
+1669,8_'town squirts',15
+1671,8_'men',15
+1673,8_Colonel Sartoris,15
+1674,8_First girl (that Benjy assaults),15
+1675,8_Second girl (that Benjy assaults),15
+1676,8_Miss Quentin's suitors,15
+1678,8_Luster's father,15
+1680,8_School Authorities,15
+1683,Evelina Harp,16
+1684,Bazil Coutts,16
+1685,Marn Wolde,16
+1686,Cordelia Lochren,16
+1688,Dick and Jane's narrator as character,13
+1690,9_The Germans (Nazis),14
+1691,9_The History of Love,14
+1692,9_Hasids,14
+1693,"9_""shvartzers""",14
+1694,9_Friends (of Bird's who stopped coming over),14
+1695,9_German fighter (who shot Saint-Ex),14
+1696,9_Eve,14
+1697,9_John Travolta,14
+1698,9_Department Store Manager,14
+1699,9_Policemen (Rosa talks to),14
+1700,9_Bookstore Owner (of small secondhand bookstore),14
+1701,9_Man who sold Leo's Second Cousin photo paper,14
+1702,9_Perfume ladies,14
+1703,9_Leo's Great Great Grandfather,14
+1704,9_The Czar,14
+1705,9_Bubbe's Parents,14
+1706,9_People in the coffee shop (who Zvi listens to),14
+1707,9_Zvi's Editor,14
+1708,9_Zvi's Colleagues,14
+1709,9_Woman (at Leo's house),14
+1710,Mr. Hurst,12
+1711,Mrs. Hurst,12
+1712,Mr. Darcy,12
+1713,Miss Bingley,12
+1714,Mr. Bingley's Father,12
+1715,Charlotte Lucas,12
+1716,Young Lucas,12
+1717,Mrs. Philips,12
+1718,Mr. Philips,12
+1719,Captain Carter,12
+1720,9_Puerto Rican (who Bibi runs to),14
+1721,9_People (at the library),14
+1724,9_Men (who carried Leo's uncle's body),14
+1725,9_King George,14
+1726,9_Antonin Dvorak,14
+1727,9_Art curator,14
+1728,9_Eight people with exposed tattoos,14
+1729,9_Kid (dragging a blow-up shark),14
+1732,9_Daleds (at Hebrew school),14
+1733,9_Zvi's old boss,14
+1734,9_Children (at Zvi's school in Chile),14
+1735,9_University students (in Chile),14
+1736,9_Rosa's friends,14
+1737,9_Person (in the ticket booth),14
+1738,9_Mother (of the man with black glasses),14
+1739,9_Wittgenstein,14
+1740,9_Zvi's students,14
+1741,9_Bedouins,14
+1742,9_Woman (at El Al),14
+1743,9_Boys (in Leo's class),14
+1744,9_Second woman (at the Zoo),14
+1745,Mr. Jones,12
+1746,9_Man (who cheats with the SS Officer's wife),14
+1747,Miss Darcy,12
+1748,Colonel Forster,12
+1749,Mrs. Forster,12
+1750,Mr. Wickham,12
+1751,Mr. Collins,12
+1752,Lady Catherine de Bourgh,12
+1753,Miss De Bourgh,12
+1754,Mr. Denny,12
+1755,Mr. Darcy's Father,12
+1756,Mr. Gardiner,12
+1757,Mrs. Gardiner,12
+1758,Miss King,12
+1759,Maria Lucas,12
+1761,9_Sex Pistols,14
+1762,9_Zoo Baby,14
+1763,9_Train conductor,14
+1764,9_Person (Information),14
+1765,Mrs. Jenkinson,12
+1766,9_Lamed Vovniks,14
+1767,Colonel Fitzwilliam,12
+1768,Mrs. Younge,12
+1769,Mrs. Reynolds,12
+1770,Mrs. Annesley,12
+1771,Mrs. Hill,12
+1772,Bennet's Butler,12
+1773,8_Chinese Missionary,15
+1774,"8_""Other boys""",15
+1775,"8_""Girl"" (Quentin supposedly owes money)",15
+1776,8_Man (at the print shop),15
+1778,Korowai Pass,17
+1779,Lake Korowai,17
+1780,Mira Bunting,17
+1781,Thorndike realtor,17
+1782,Owen Darvish,17
+1783,Owen Darvish's accountant,17
+1784,Owen Darvish's father,17
+1785,Orange-fronted parakeet,17
+1786,Mira Bunting's mother,17
+1787,Jill Darvish,17
+1788,The Queen,17
+1789,Shelley Noakes,17
+1790,Shelley Noakes' mother,17
+1791,Mira Bunting's father,17
+1792,Shelley Noakes' father,17
+1793,Rufus (Mira's half-brother),17
+1795,Jorgen Hoel,19
+1797,Mimi Ma,19
+1798,Pine (from the Prologue of Nicholas Hoel),19
+1799,Vi Powys,19
+1800,Firstborn (of Jorgen and Vi Hoel),19
+1802,John Hoel,19
+1803,The Hoel Chestnut,19
+1804,Jorgen Hoel's granddaughter,19
+1805,John Hoel's wife,19
+1806,Carl Hoel,19
+1807,Frank Hoel,19
+1808,Frank Hoel Jr.,19
+1809,Dendrologist,19
+1810,Journalist (from the Register),19
+1811,Eric Hoel,19
+1812,Nicholas Hoel,19
+1813,Nicholas' mother (Eric Hoel's wife),19
+1814,Shelly Harper,19
+1815,Woman (who Nicholas Hoel loves),19
+1816,Nicholas' grandmother (Eric Hoel's mother),19
+1817,Winston Ma,19
+1818,Ma Shouying,19
+1819,Medical officer,19
+1820,Customs official,19
+1821,Charlotte Ma,19
+1822,The Ma Mulberry,19
+1823,Carmen Ma,19
+1824,Amelia Ma,19
+1825,Chairman Mao,19
+1826,Grandpa Tarleton,19
+1827,Bear (at Yellowstone),19
+1828,Eucalyptus grove (at Berkeley),19
+1829,Cop (who stops Mimi while she has the gun),19
+1830,Adam Appich,19
+1831,Leigh Appich,19
+1832,Jean Appich,19
+1833,Emmett Appich,19
+1834,Adam's father,19
+1835,Adam's mother,19
+1836,Adam's school nurse,19
+1837,Mr. Graham,19
+1838,Mrs. Graham,19
+1839,Leigh's elm,19
+1840,Jean's ash,19
+1841,Emmett's ironwood,19
+1842,Adam's maple,19
+1843,Charles' walnut,19
+1844,Charles Appich,19
+1845,Mimas,19
+1846,Science fair judges,19
+1847,Guy (who Leigh elopes with),19
+1848,Adam's high school friend,19
+1849,Rubin M. Rabinowski,19
+1850,Ray Brinkman,19
+1851,Dorothy Cazaly,19
+1852,Macduff,19
+1853,Lady Macbeth,19
+1854,Casting director,19
+1855,Dorothy's friends,19
+1857,Douglas Pavlicek,19
+1858,Cops (who arrest Douglas),19
+1859,Douglas' neighbours,19
+1860,Guards,19
+1861,"Guard ""John Wayne""",19
+1862,Prisoners,19
+1863,Prisoner 8612,19
+1864,Priest,19
+1865,Prisoner 819,19
+1866,Prisoner 416,19
+1867,Warden (in the Stanford prison experiment),19
+1868,Superintendent,19
+1869,Scientist,19
+1870,Samlor drivers,19
+1871,Levine,19
+1872,Bragg,19
+1873,Banyan (that saved Douglas),19
+1874,Pilgrims,19
+1875,Local clinic (in Thailand),19
+1876,Staffer,19
+1877,Driver,19
+1878,Redheaded woman,19
+1879,Bar clientele,19
+1880,Douglas' employers,19
+1881,Cashier,19
+1882,Douglas' friend,19
+1883,Neelay Mehta,19
+1884,Neelay's father,19
+1885,Neelay's mother,19
+1886,Hanuman,19
+1887,Vishnu,19
+1888,Ms. Gilpin,19
+1889,John Steinbeck,19
+1891,Oak (that Neelay falls from),19
+1892,Doctor,19
+1893,Krishna,19
+1894,Japanese tourists,19
+1895,Elderly Japanese woman,19
+1896,The Queensland Bottle Tree (in Stanford),19
+1897,Patricia Westerford,19
+1898,Cyparissus,19
+1899,Patricia's middle brother,19
+1900,Patricia's oldest brother,19
+1901,Patricia's father,19
+1902,Patricia's mother,19
+1903,Ovid,19
+1904,Daphne,19
+1905,Apollo,19
+1906,Orpheus,19
+1907,Myrrha,19
+1908,Baucis,19
+1909,Philemon,19
+1910,Aldo Leopold,19
+1911,John Muir,19
+1912,Quiet boy,19
+1913,Patricia's dormmates,19
+1914,"Andy, the English major",19
+1915,Woman (who Patricia has a fling with),19
+1916,Patricia's advisor,19
+1917,Patricia's undergraduates,19
+1918,Three leading dendrologists,19
+1919,Patricia's friends,19
+1920,Henry David Thoreau (OS),19
+1921,Aspens,19
+1922,Long Life Maker,19
+1923,Patricia's supervisor,19
+1924,Henry (researcher),19
+1925,Jason (researcher),19
+1926,Douglas-firs,19
+1927,Dennis Ward,19
+1928,Olivia Vandergriff,19
+1929,Olivia's housemates,19
+1930,Davy,19
+1931,Olivia's father,19
+1932,Olivia's mother,19
+1933,Physician's assistant,19
+1934,Prescences,19
+1935,Actuarial science lecturer,19
+1936,Johnny Appleseed,19
+1937,Old man,19
+1938,Mother N,19
+1939,Asian man,19
+1940,Security guard,19
+1941,Mimi's colleague,19
+1942,Mimi's poker players,19
+1943,Mimi's casual relationships,19
+1944,Girl,19
+1945,Guy (who Mimi falls in love with),19
+1946,VP of marketing,19
+1947,QC manager,19
+1948,Director of R&D,19
+1949,Punk from HR,19
+1950,Woman (who sees Mimi sniffing trees),19
+1951,Dum,19
+1952,Dee,19
+1953,Thing One,19
+1954,Thing Two,19
+1955,Woman (with a double-wide stroller),19
+1956,Hotel clerk,19
+1957,Kid,19
+1958,Captain Straub,19
+1959,Foreman (who cuts down the pine),19
+1960,Neelay's friends,19
+1961,Neelay's secretary,19
+1962,Neelay's hacker,19
+1963,Neelay's accountant,19
+1964,Trees in the Stanford quad,19
+1965,Motel clerk,19
+1966,Judge (who sentences Douglas),19
+1967,Arborist,19
+1968,Librarian,19
+1969,Dorothy's mother,19
+1970,Walter Scott,19
+1971,Redwoods,19
+1972,Moses (OS),19
+1973,Blackbeard,19
+1974,Needles,19
+1975,Moss-Eater,19
+1976,Revelator,19
+1977,Tinkerbell,19
+1978,Old Tjikko,19
+1979,Patricia's editor,19
+1980,Journalist (who interviews Neelay),19
+1981,Truck driver,19
+1982,Woman (in Adam's lecture),19
+1983,Kitty Genovese,19
+1984,Mieke Van Dijk,19
+1985,Megaphone woman,19
+1986,Foreman (at the demonstration),19
+1987,Loggers (at the demonstration),19
+1988,Police (at the demonstration),19
+1989,Wolfgang Mozart,19
+1990,Johannes Brahms,19
+1991,Loki,19
+1992,Buzzard,19
+1993,Sparks,19
+1994,Loggers (who assaults Mimi),19
+1995,Officer (who pepper sprays Douglas),19
+1996,Judge (who calls on Patricia),19
+1997,Opposing council,19
+1998,Ludwig van Beethoven,19
+1999,Loggers (at Mimas),19
+2000,Graywolf,19
+2001,Climber Cal,19
+2002,William Shakespeare,19
+2003,Sheriff Sanders,19
+2004,Gap-toothed man,19
+2005,Gray-haired woman,19
+2006,Woman (in her forties),19
+2007,Brendan Smith,19
+2008,Garreth,19
+2009,Douglas' cellmate,19
+2010,Helicopter pilot,19
+2011,Deputy sheriff,19
+2012,Eucalyptus (that Adam speaks to),19
+2013,Former Methodist minister,19
+2014,Klamath guy,19
+2015,Trillium,19
+2016,Younger driver,19
+2017,Older driver,19
+2018,The President,19
+2019,Marten,19
+2020,Forest Service men,19
+2021,Mary Alice Merton,19
+2022,Nicholas' neighbours,19
+2023,Mr. Siang,19
+2024,Mr. Siang's assistant,19
+2025,Alan,19
+2026,Human (in Mastery 8),19
+2027,William Blake,19
+2028,W.H. Auden,19
+2029,Chico Mendes,19
+2030,Wangari Maathai,19
+2031,Reports,19
+2032,Elizeu,19
+2033,Rogerio,19
+2034,Elvis Antonio,19
+2035,Mimi's first client,19
+2036,Stephanie N,19
+2037,Mimi's office manager,19
+2038,Stephanie N's mother,19
+2039,Officer (who attacks Nicholas),19
+2040,Business manager,19
+2041,Kaltov,19
+2042,Rasha,19
+2043,Robinson,19
+2044,Nguyen,19
+2045,Boehm,19
+2046,Alena,19
+2047,Eastern white pine,19
+2048,Woman (at the Occupy Wall Street rally),19
+2049,Rabindranath Tagore,19
+2050,Adam's son,19
+2051,Asian tourist,19
+2052,Emile Durkheim,19
+2053,Michel Foucault,19
+2054,Adam's undergraduates,19
+2055,FBI agents,19
+2056,Luggage agent,19
+2057,Patricia's driver,19
+2058,Lois Appich,19
+2059,Douglas's grandfather,19
+2060,David,19
+2061,Anne,19
+2062,Environmental conference,19
+2063,Technical officer,19
+2064,Lois Appich's father,19
+2065,Lois Appich's mother,19
+2066,Tracking clerk,19
+2067,Bailiff,19
+2068,Dorothy's neighbours,19
+2069,Scrawny kid,19
+2070,Judge (who sentences Adam),19
+2071,Adam's prosecution,19
+2072,Adam's lawyers,19
+2073,Adam's jury,19
+2074,Spruces,19
+2075,Douglas' professor,19
+2076,Douglas' guards,19
+2077,Boy,19
+2078,Lumberjack,19
+2079,Warden (at Adam's prison),19
+2080,Man (who sees Mimi speak to trees),19
+2081,First twenty-year-old twin,19
+2082,Second twenty-year-old twin,19
+2083,Man (with a raven profile),19
+2084,8_Dentist,15
+2085,The Fig Tree,20
+2086,Yiorgos,20
+2087,Yusuf,20
+2088,Ada Kazantzakis,20
+2089,Kostas Kazantzakis,20
+2090,Defne Kazantzakis,20
+2091,Emma-Rose,20
+2092,Mrs. Walcott,20
+2093,Meryem,20
+2094,Jason,20
+2095,Zafaar,20
+2096,Zafaar's grandmother,20
+2097,Ed,20
+2098,Bishop Vasilios,20
+2099,Imam Mahmoud,20
+2100,Angel Gabriel,20
+2101,Adam (IMT),20
+2102,Eve (IMT),20
+2103,God (IMT),20
+2104,Headmaster,20
+2105,Kostas' camellias,20
+2106,Kostas' honeysuckles,20
+2107,Kostas' witch hazels,20
+2108,Whitethroat,20
+2109,Tenere Tree,20
+2110,Bullfinch,20
+2111,Defne's father,20
+2112,Defne's mother,20
+2113,Aphrodite,20
+2114,Polyphonte,20
+2115,Artemis,20
+2116,Polyphonte's mother,20
+2117,Polyphonte's aunt,20
+2118,Mr. Rochester (from Jane Eyre),20
+2119,Mr. Rochester's first wife (from Jane Eyre),20
+2120,Romulus,20
+2121,Remus,20
+2122,She-wolf,20
+2123,Jesus (IMT),20
+2124,Hezekiah,20
+2125,Mohammed,20
+2126,Buddha,20
+2127,King David,20
+2128,Noah of the Ark,20
+2129,Panagiota,20
+2130,Mulberry tree,20
+2131,Owl,20
+2132,Ancient olive tree,20
+2133,Michalis,20
+2134,Andreas,20
+2135,Defne's uncle,20
+2136,Sultan Abdul Hamid II,20
+2137,Queen Victoria,20
+2138,Benjamin Disraeli,20
+2139,Sir Garnet Wolseley,20
+2140,Garnet Wolseley's wife,20
+2141,Chico,20
+2142,Waiter (at the Happy Fig),20
+2143,Hawthorne tree,20
+2144,Kostas' father,20
+2145,Virgin Mary (IMT),20
+2146,Judas (IMT),20
+2147,Saint Hilarion,20
+2148,The Evil Queen,20
+2149,Zeus,20
+2150,Carob tree,20
+2151,Lawrence Durell,20
+2152,Kostas' grandfather,20
+2153,British soldiers,20
+2154,Woman (in Iceland),20
+2155,Osman,20
+2156,Margaret Thatcher,20
+2157,Osman's second wife,20
+2158,Grivas,20
+2159,English journalist,20
+2160,Major General Peter Young,20
+2161,Stocky girl,20
+2162,Skating teenager,20
+2163,Cypriot private,20
+2164,Constantine P. Cavafy,20
+2165,"Blonde, stout woman",20
+2166,Hristos,20
+2167,Karpuz,20
+2168,Veterinarian (IMT),20
+2169,Kermes Oak tree,20
+2170,Anadolidiga fig tree,20
+2171,Gaia,20
+2172,Tomato vine,20
+2173,Archbishop Makarios,20
+2174,Hristos' wife,20
+2175,Nikos Sampson,20
+2176,Exorcist,20
+2177,Turkish police officer,20
+2178,Cypriot taxi driver,20
+2179,Hotel Afrodit woman,20
+2180,Hotel Afrodit man,20
+2181,Eagle,20
+2182,David (IMT),20
+2183,Passerine bird,20
+2184,Cypriot peasant,20
+2185,Terebinth tree,20
+2186,Lithe Greek woman,20
+2187,Old Greek woman,20
+2188,Old Greek woman's husband,20
+2189,Bulldozer operator,20
+2190,Bulldozer operator's grandmother,20
+2191,Ali Zorba,20
+2192,Merjan,20
+2193,Maria-Fernanda,20
+2194,Marta Ugarte,20
+2195,Pinochet supporter,20
+2196,Waiter (at the Wandering Khayyam),20
+2197,Oleander bush,20
+2198,Dr. Norman,20
+2199,Madame Margosha,20
+2200,Madame Margosha's assistant,20
+2201,Exorcist's assistant,20
+2202,Elderly woman,20
+2203,Elderly woman's son,20
+2204,Jamila,20
+2205,Cypriot police officer,20
+2206,Man (at the British Sovereign Base),20
+2207,Poachers,20
+2208,Painted lady butterfly,20
+2209,Captain Joseph Lane,20
+2210,Gardeners,20
+2211,Yusuf Yiorgos Robinson,20
+2212,English couple,20
+2213,Dr. Norman's sister,20
+2214,Dr. Norman's sister's partner,20
+2215,Men (who destroy The Happy Fig),20
+2216,Mosquito,20
+2217,Ronald Ross,20
+2218,Hippocrates (IMT),20
+2219,Mehmet Aziz,20
+2220,Mosquito's children,20
+2221,Actress,20
+2222,Elizabeth Taylor,20
+2223,Sophia Loren,20
+2224,Brigitte Bardot,20
+2225,Queen ant,20
+2226,Fig Tree Borer,20
+2227,Honeybee,20
+2228,Eleni,20
+2229,Mouse,20
+2230,Sir John Harding,20
+2231,Ovid (IMT),20
+2232,Greek neighbour,20
+2233,Defne's colleague,20
+2234,Duke Ellington,20
+2235,Oxfordshire academic,20
+2236,Spanish chestnut tree,20
+2237,Noah (not of the Ark),20
+2238,Persephone (IMT),20
+2239,Apollo (IMT),20
+2240,Daphne (IMT),20
+2241,Henry David Thoreau,21
+2242,Walden Pond,21
+2243,Hercules (W),21
+2244,Deucalion,21
+2245,Pyrrha,21
+2246,Walter Raleigh,21
+2247,Farmer (W9),21
+2248,John Evelyn,21
+2249,Hippocrates (W),21
+2250,Adam (W),21
+2251,Confucius (W),21
+2252,Charles Darwin (W),21
+2253,Justus von Liebig,21
+2254,Journal editor,21
+2255,Jonas (W),21
+2256,Solomon (W),21
+2257,"""Strolling Indian""",21
+2258,Well-known laywer,21
+2259,Ida Laura Pfeiffer,21
+2260,Tailoress,21
+2261,Fates,21
+2262,Graces,21
+2263,Parcae,21
+2264,Henry VIII (W),21
+2265,Queen Elizabeth (W),21
+2266,Samuel Laing,21
+2267,Eve (W),21
+2268,Daniel Gookin,21
+2269,Farmer (W33),21
+2270,George Chapman,21
+2271,Momus,21
+2272,Minerva,21
+2273,Aurora,21
+2274,Memnon,21
+2275,Sardanapalus,21
+2276,Edward Johnson,21
+2277,E.B. O'Callaghan,21
+2278,Axe owner,21
+2279,Striped snake,21
+2280,James Collins,21
+2281,Mrs. C.,21
+2282,Young Patrick,21
+2283,"Seeley, an Irishman",21
+2284,Adam Smith (W),21
+2285,David Ricardo,21
+2286,Jean-Baptiste Say,21
+2287,Princess Adelaide,21
+2288,Farmer (W54),21
+2289,Ploughman (W),21
+2290,Arthur Young,21
+2291,Mr. Balcom,21
+2292,Vitruvius,21
+2293,Marcus Porcius Cato,21
+2294,Spaulding,21
+2295,Lady (W67),21
+2296,Deacon,21
+2297,Deacon's father,21
+2298,William Bartram,21
+2299,Admetus,21
+2300,Young man,21
+2301,Robin Goodfellow,21
+2302,Phaeton,21
+2303,Jupiter,21
+2304,Irish laborer,21
+2305,Reverend lecturer,21
+2306,Sheik Sadi of Shiraz,21
+2307,Hollowell Place man,21
+2308,Hollowell Place woman,21
+2309,Atlas,21
+2310,Homer (I hardly know her),21
+2311,Ulysses,21
+2312,Mir Camar Uddin Mast,21
+2313,Aeschylus,21
+2314,Alexander the Great,21
+2315,Virgil,21
+2316,Dante (W),21
+2317,William Shakespeare (W),21
+2318,Zebulon,21
+2319,Sephronia,21
+2320,Canadian woodchopper,21
+2321,Plato,21
+2322,Peter Abelard,21
+2323,Pines (W),21
+2324,Hickories (W),21
+2325,Sand-cherry (W),21
+2326,Sumach (W),21
+2327,Hawk (W),21
+2328,Fish (W),21
+2329,Mink (W),21
+2330,Sedge (W),21
+2331,Napoleon Bonaparte,21
+2332,Cow (W),21
+2333,Minstrels,21
+2334,Whippoorwill,21
+2335,Ben Jonson,21
+2336,Hooting owl,21
+2337,Townsman,21
+2338,Man (lost in the woods),21
+2339,Old settler,21
+2340,William Goffe,21
+2341,Edward Whalley,21
+2342,Elderly dame,21
+2343,Hygeia,21
+2344,Hebe,21
+2345,Aesculapius,21
+2346,Juno,21
+2347,Edward Spenser,21
+2348,Homeric Canadian wood-chopper,21
+2349,Achilles (W),21
+2350,Patroclus (W),21
+2351,Homeric Canadian's father,21
+2352,Townsman (W148),21
+2353,Traveller (W150),21
+2354,Simple-minded pauper,21
+2355,Runaway slave,21
+2356,Mrs. ---,21
+2357,Dr. B.,21
+2358,Antaeus,21
+2359,Ministerial husbandman,21
+2360,The black bonnet of the gray coat,21
+2361,Hard-featured farmer,21
+2362,Mr. Colmon,21
+2363,Hector,21
+2364,Sir Kenelm Digby,21
+2365,Ceres (W),21
+2366,Plutus,21
+2367,Old man (hoeing),21
+2368,Marcus Terentius Varro,21
+2369,Orpheus,21
+2370,Two young men,21
+2371,The Pope,21
+2372,Excellent fisherman,21
+2373,Michael Angelo,21
+2374,Flint's Pond,21
+2375,Walden (man),21
+2376,Seven-pound pickerel,21
+2377,Pickerel,21
+2378,Fisherman,21
+2379,Mud-turtle,21
+2380,Perch,21
+2381,Birds (W),21
+2382,Old man (fishing),21
+2383,Flint,21
+2384,Goose Pond,21
+2385,White Pond,21
+2386,Man (lives near White Pond),21
+2387,Benvenuto Cellini,21
+2388,St. Angelo,21
+2389,John Field,21
+2390,John Field's wife,21
+2391,John Field's boy,21
+2392,John Field's infant,21
+2393,Woodchuck,21
+2394,Chaucer,21
+2395,William Kirby,21
+2396,William Spence,21
+2397,Thseng-tseu,21
+2398,Mencius,21
+2399,Poet,21
+2400,Distinguished naturalist,21
+2401,Wild native mouse,21
+2402,Phoebe,21
+2403,Robin,21
+2404,Partridge,21
+2405,Raccoon,21
+2406,Red ant,21
+2407,Black ant,21
+2408,Luther Blanchard,21
+2409,Pierre Huber,21
+2410,James K. Polk,21
+2411,Cat,21
+2412,"""Winged cat""",21
+2413,Mr. Gilian Baker,21
+2414,Loon,21
+2415,Chestnut tree,21
+2416,Squirrels,21
+2417,Jays,21
+2418,Nebuchadnezzar,21
+2419,Poet (W241),21
+2420,Saturn,21
+2421,Conceited fellow,21
+2422,Geese,21
+2423,Vulcan,21
+2424,Terminus,21
+2425,William Gilpin,21
+2426,Village blacksmith,21
+2427,Ellen Hooper,21
+2428,Cato Ingraham,21
+2429,Duncan Ingraham,21
+2430,Zilpha,21
+2431,Brister Freeman,21
+2432,Squire Cummings,21
+2433,Fenda,21
+2434,John C. Breed,21
+2435,Mischievous boys,21
+2436,William Davenant,21
+2437,Thoreau's uncle,21
+2438,Alexander Chalmers,21
+2439,Fire survivor,21
+2440,Fire survivor's father,21
+2441,Wyman the potter,21
+2442,Man (looking for Wyman),21
+2443,Hugh Quoil,21
+2444,Beech-tree,21
+2445,Yellow-birch,21
+2446,Barred owl,21
+2447,Long-headed farmer,21
+2448,Philosopher (W268),21
+2449,Ralph Waldo Emerson,21
+2450,Hooting owl (W272),21
+2451,Goose (W272),21
+2452,Cat-owl (W272),21
+2453,Red squirrels,21
+2454,Jays (W275),21
+2455,Chicadees (W275),21
+2456,Sparrow (W276),21
+2457,Partridges (W276),21
+2458,Hounds (W276),21
+2459,Actaeon,21
+2460,Hunter (W277),21
+2461,Man (W277),21
+2462,Fox (W277),21
+2463,Man's hound,21
+2464,Old hunter,21
+2465,Fox (W278),21
+2466,Old hunter's hounds,21
+2467,Sam Nutting,21
+2468,Burgoyne,21
+2469,Old trader,21
+2470,Man (preserves the horns of the last deer),21
+2471,Man's uncle,21
+2472,Nimrod (W),21
+2473,Hare (W),21
+2474,Factory owner,21
+2475,Cutters (W292),21
+2476,Prudent landlord,21
+2477,Developers (W294),21
+2478,Gentleman farmer,21
+2479,Brahma (W),21
+2480,Vishnu (W),21
+2481,Indra (W),21
+2482,Hanno (W),21
+2483,Old man (W303),21
+2484,Methuselah,21
+2485,Jean-Francois Champollion,21
+2486,Thor (W),21
+2487,Night-hawk,21
+2488,Sir John Franklin,21
+2489,Henry Grinnell,21
+2490,Meriwether Lewis,21
+2491,William Clark,21
+2492,Martin Frobisher,21
+2493,Christopher Columbus (W),21
+2494,Comte De Mirabeau,21
+2495,Artist in Kouroo,21
+2496,Tom Hyde,21
+2497,Thoreau's neighbours,21
+2498,Hon. Mr. ---,21
+2499,Daniel Webster,21
+2500,God (W),21
+2501,8_Other group of people (Luster tries to impress),15
+2502,9_Leo's Sister,14
+2503,8_'a n***** on a mule',15
+2504,Mrs. Long's nieces,12
+2505,Mr. Bingley's other sisters,12
+2506,Mr. Bingley's cousin,12
+2507,Mr. Bingley's guests (for the ball),12
+2508,Ladies (at the ball),12
+2509,Gentlemen (at the ball),12
+2510,Elizabeth's friends,12
+2511,Previous Owner of  the Netherfield Property,12
+2512,Mr. Robinson,12
+2513,Other characters,12
+2514,Officers (who dance with Kitty and Lydia),12
+2515,Lucas brothers,12
+2516,Mrs. Bennet's Father,12
+2518,Officers (living in Meryton),12
+2519,Red-coat Officer (that Mrs. Bennet liked),12
+2520,Miss Watson,12
+2521,Servant (to the Bennets),12
+2522,Servant (from Netherfield),12
+2523,Officer's wife (whose house Kitty and Lydia go to),12
+2524,Mr. Bingley's Housekeeper,12
+2525,Physician (from town),12
+2526,Two Elegant Ladies (who wait on Miss Bingley),12
+2527,Families (that Mrs. Bennet claims to dine with),12
+2528,Gentleman (who wrote poetry about Jane),12
+2529,Miss Grantley,12
+2530,Mr. Darcy's Great Uncle,12
+2531,Nicholls,12
+2532,Hill,12
+2533,Mr. Collins' Father,12
+2534,Sir Lewis de Bourgh,12
+2535,Lady (who superintends Miss De Bourgh's education),12
+2536,Richard,12
+2537,Mr. Jones' shop boy,12
+2538,"""other young women in the country""",12
+2539,Mr. Wickham's Father,12
+2540,"""incumbent of the living""",12
+2542,Mrs. Philips' neighbours,12
+2543,"Man (who was given ""Mr. Wickham's inheritance"")",12
+2544,Lady (who superintends Miss Darcy's education),12
+2545,Lady Anne Darcy,12
+2546,Archbishop (PP),12
+2547,Officer (who dances with Elizabeth),12
+2548,Dawson (Lady Catherine's servant),12
+2549,John (The Collins's servant),12
+2550,"""two men servants""",12
+2551,Mr. Gardiner's servant,12
+2552,"""an officer in Meryton""",12
+2553,Officer (who walks the Bennets back to Longbourn),12
+2554,Chambermaid,12
+2555,"""the poor""",12
+2556,Mr. Darcy's tenants,12
+2557,Mr. Darcy's servants,12
+2558,Mr. Darcy's Gardener,12
+2559,Mr. Darcy's Steward,12
+2560,"Mrs. Gardiner's ""former acuaintance""",12
+2561,Denny,12
+2562,John (servant to the Gardiners),12
+2563,Elizabeth's maid,12
+2564,"""freinds in Lambton""",12
+2565,Lydia's friends,12
+2566,Test Emma 1,22
+2567,Test Emma 2,22
