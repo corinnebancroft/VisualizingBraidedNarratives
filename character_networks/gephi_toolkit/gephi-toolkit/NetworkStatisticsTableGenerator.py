@@ -1,3 +1,5 @@
+# This script generates network statistics tables in HTML, so they can be easily copy and pasted to the website.
+
 import pandas as pd
 
 file_path = "network_statistics.csv"

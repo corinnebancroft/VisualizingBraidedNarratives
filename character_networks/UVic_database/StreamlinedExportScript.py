@@ -1,3 +1,10 @@
+# This script reads the .csv files that were downloaded from the database and makes them ready for gephi.
+# This involves replacing character names with IDs and applying a few rules.
+# It adds reciprocal relationships if the research assistant checked that box.
+# It adds "knows of" relationships between character narrators and the characters they mention.
+# It deletes duplicates hierarchically (so if there is an exchange and a knows on the same page, it will keep exchange).
+# It will produce four .csv files. One character (node) file and three edges files one for story space, text space, and exchanges only.
+
 from datetime import datetime
 import pandas as pd
 import itertools

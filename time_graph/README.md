@@ -35,6 +35,10 @@ The main input is a csv file with the following headers: Relative Order,Event Na
 
 The color.csv should have the followign headers: Name,Color,HEX Code
 
+## Other helpful folders
+In TimeGraphCSV, you will find a python script that will help ensure the input.csv is formatted correctly.
+In colorcodes, you will find a python script that will generate the names and characters you will need to find colors for. Then you can fill in the colors and run another script to populate the csv with the matching HEX codes.
+
 ## What remains to be done
 
 Among the things we haven't had time to finish as of 2025-08-29 are:

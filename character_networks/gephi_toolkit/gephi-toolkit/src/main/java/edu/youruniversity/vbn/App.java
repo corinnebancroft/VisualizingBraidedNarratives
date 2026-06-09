@@ -1,3 +1,5 @@
+// This script runs gephi according to the method we developed using the app. It will prompt users for the dataset and type of graph.
+
 package edu.youruniversity.vbn;
 
 import org.gephi.project.api.ProjectController;
