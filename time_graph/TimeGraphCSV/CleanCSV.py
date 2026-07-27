@@ -31,6 +31,13 @@ if not in_path.exists():
 print(f"Reading:  {in_path.name}")
 print(f"Will save: {out_path.name}")
 
+# Required headers
+REQUIRED_HEADERS = [
+    "Relative Order","Event Name","Start Date","End Date","Is Approximate?","Narrator",
+    "Start Page","End Page","Start Date TT","End Date TT",
+    "Start Page TT","End Page TT","Is Approximate TT?","Evidence",
+]
+
 # Read CSV
 df = pd.read_csv(in_path, dtype=str, keep_default_na=False)
 
@@ -41,8 +48,16 @@ before_shape = df.shape
 # Remove rows where ALL values are empty strings or whitespace
 df = df[~df.apply(lambda row: all(str(v).strip() == "" for v in row), axis=1)]
 
-# Remove columns where ALL values are empty strings or whitespace
-df = df.loc[:, ~df.apply(lambda col: all(str(v).strip() == "" for v in col), axis=0)]
+# Remove columns that are completely empty,
+# EXCEPT for required columns, which must be preserved.
+
+df = df.loc[:, ~df.apply(
+    lambda col: (
+        col.name not in REQUIRED_HEADERS and
+        all(str(v).strip() == "" for v in col)
+    ),
+    axis=0
+)]
 
 after_shape = df.shape
 
@@ -50,12 +65,7 @@ print(f"\nRemoved empty rows/columns:")
 print(f"  Before: {before_shape}")
 print(f"  After : {after_shape}")
 
-# Required headers
-REQUIRED_HEADERS = [
-    "Relative Order","Event Name","Start Date","End Date","Is Approximate?","Narrator",
-    "Start Page","End Page","Start Date TT","End Date TT",
-    "Start Page TT","End Page TT","Is Approximate TT?","Evidence",
-]
+
 
 def excel_col_letter(n: int) -> str:
     s = ""
