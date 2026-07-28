@@ -147,6 +147,75 @@ def normalize_to_iso(s: str) -> str:
     except:
         return ""
 
+# Candidate formats ranked roughly by how common they are
+CANDIDATE_FORMATS = [
+    "%Y-%m-%d",
+    "%Y/%m/%d",
+    "%d-%m-%Y",
+    "%d/%m/%Y",
+    "%m-%d-%Y",
+    "%m/%d/%Y",
+]
+
+def detect_dominant_format(series):
+    """
+    Examine an entire column and determine which date format
+    successfully parses the most values.
+    """
+    values = []
+
+    for v in series.astype(str):
+        v = v.strip()
+        if v:
+            v = re.sub(SEP_CLASS, "-", v)
+            values.append(v)
+
+    if not values:
+        return None
+
+    best_fmt = None
+    best_score = -1
+
+    for fmt in CANDIDATE_FORMATS:
+        score = 0
+
+        for value in values:
+            try:
+                pd.to_datetime(value, format=fmt)
+                score += 1
+            except:
+                pass
+
+        if score > best_score:
+            best_score = score
+            best_fmt = fmt
+
+    return best_fmt
+
+
+def normalize_to_iso_using_format(s, fmt):
+    if s is None:
+        return ""
+
+    s = str(s).strip()
+
+    if not s:
+        return ""
+
+    s = re.sub(SEP_CLASS, "-", s)
+
+    try:
+        dt = pd.to_datetime(s, format=fmt, errors="coerce")
+
+        if pd.isna(dt):
+            return ""
+
+        return dt.strftime("%Y-%m-%d")
+
+    except:
+        return ""
+
+
 def clamp_to_valid_date(iso_date: str) -> str:
     if not iso_date:
         return ""
@@ -162,17 +231,28 @@ def clamp_to_valid_date(iso_date: str) -> str:
 
 for col in DATE_COLS:
     if col in df.columns:
+
+        fmt = detect_dominant_format(df[col])
+
+        print(f"\n{col}: detected format = {fmt}")
+
         raw = df[col].astype(str)
-        fixed = raw.map(normalize_to_iso).map(clamp_to_valid_date)
+
+        fixed = raw.map(
+            lambda x: normalize_to_iso_using_format(x, fmt)
+        ).map(clamp_to_valid_date)
+
         df[col] = fixed
 
-        # ORIGINAL DIAGNOSTIC (restored)
         bad_mask = (raw.str.strip() != "") & (fixed == "")
+
         if bad_mask.any():
             print(f"\nUnparseable values in column '{col}':")
+
             for v in raw[bad_mask].head(10).unique():
                 cps = " ".join(f"U+{ord(ch):04X}" for ch in v)
                 print(f"  -> {repr(v)} [{cps}]")
+
 
 # --- VALIDATION (restored exactly) ---
 
